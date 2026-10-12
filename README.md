@@ -1,4 +1,4 @@
-# Fisio
+# Enem
 
 App web gamificado para estudar para o ENEM com questões reais da API [enem.dev](https://enem.dev/), introduções conceituais e resoluções comentadas.
 
@@ -57,13 +57,13 @@ O snapshot integral de 2.757 questões de 2009–2023 fica em `data/enem/all-que
 
 Matemática e Ciências da Natureza seguem as áreas, competências e habilidades do [documento oficial do INEP](https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf), baixado em 12/10/2026. A cópia local está em `data/reference/enem-matriz-de-referencia.pdf`; `matrix.json` registra as 15 competências, 60 habilidades, fonte, data e SHA-256. `scripts/extract-enem-matrix.py` reproduz a extração com `pypdf`.
 
-Os títulos resumidos das unidades são didáticos. O texto integral da competência e de suas habilidades aparece em “ver matriz e habilidades”. A API fornece a área, mas não separa Física, Química e Biologia nem classifica habilidades. **Essas associações são editoriais do Fisio**, explicitadas na interface. Todas as competências têm pelo menos cinco questões; a seleção ainda não cobre todas as habilidades, e o app destaca as que têm exercícios.
+Os títulos resumidos das unidades são didáticos. O texto integral da competência e de suas habilidades aparece em “ver matriz e habilidades”. A API fornece a área, mas não separa Física, Química e Biologia nem classifica habilidades. **Essas associações são editoriais do Enem**, explicitadas na interface. Todas as competências têm pelo menos cinco questões; a seleção ainda não cobre todas as habilidades, e o app destaca as que têm exercícios.
 
 ## Conteúdo didático
 
 Cada unidade tem uma introdução conceitual com relações e fórmulas, notação, exemplo resolvido e um alerta sobre erros comuns. A leitura pode ser marcada como concluída. A primeira lição de cada unidade fica disponível; as seguintes são liberadas conforme o estudo. O seletor “Explorar unidades” permite ir diretamente a um tema ou competência.
 
-Após verificar uma resposta, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros, inclusive na prática personalizada. Esse conteúdo é elaborado para o Fisio; não é uma resolução oficial fornecida pelo INEP ou pela API.
+Após verificar uma resposta, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros, inclusive na prática personalizada. Esse conteúdo é elaborado para o Enem; não é uma resolução oficial fornecida pelo INEP ou pela API.
 
 - `data/learning/introductions.json`: introduções das cinco unidades de Física.
 - `data/learning/explanations-*.json`: resoluções por ID de questão, com conceito, passos e ideia-chave. `moduleId` permite corrigir a classificação da questão; `excludeReason` documenta itens incompletos ou fora do escopo.
@@ -119,4 +119,4 @@ GitHub Pages em conta pessoal publica um site acessível pela internet. Reposit�
 - Questões e gabaritos: [enem.dev](https://enem.dev/), obtidos de provas públicas do ENEM.
 - Código da API de origem: [yunger7/enem-api](https://github.com/yunger7/enem-api), GPL-2.0.
 - A seleção comentada não ativa automaticamente toda a base: itens sem revisão, com dados faltantes ou gabarito inconsistente permanecem no acervo bruto. As novas resoluções de Química, Biologia e Matemática passaram por revisão independente, inclusive das imagens e dos cálculos necessários.
-- O Fisio não é afiliado ao INEP, MEC ou Duolingo. A interface usa identidade visual própria.
+- O Enem não é afiliado ao INEP, MEC ou Duolingo. A interface usa identidade visual própria.

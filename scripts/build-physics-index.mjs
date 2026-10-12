@@ -173,7 +173,7 @@ const payload = {
   source: snapshot.source,
   generatedAt: new Date().toISOString(),
   method: "Seleção por termos de Física com revisão editorial e resoluções próprias; o acervo bruto permanece integral.",
-  explanationSource: "Resoluções didáticas elaboradas para o Fisio; não são comentários oficiais do INEP nem da API enem.dev.",
+  explanationSource: "Resoluções didáticas elaboradas para o Enem; não são comentários oficiais do INEP nem da API enem.dev.",
   total: classified.length,
   modules,
   questions: classified,

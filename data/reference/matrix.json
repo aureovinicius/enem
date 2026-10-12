@@ -2,7 +2,7 @@
   "source": "https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf",
   "retrievedAt": "2026-10-12",
   "sha256": "4f540d5439df00f88e13363ecaff3d884b83d16c1ae6cedbe5c2c3aabbf288b6",
-  "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Fisio, não uma classificação oficial do INEP.",
+  "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Enem, não uma classificação oficial do INEP.",
   "areas": {
     "matematica": {
       "title": "Matemática e suas Tecnologias",

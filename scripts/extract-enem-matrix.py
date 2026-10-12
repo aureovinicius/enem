@@ -37,7 +37,7 @@ payload = {
     "source": "https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf",
     "retrievedAt": "2026-10-12",
     "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
-    "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Fisio, não uma classificação oficial do INEP.",
+    "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Enem, não uma classificação oficial do INEP.",
     "areas": areas,
 }
 (root / "data/reference/matrix.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")

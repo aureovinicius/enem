@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=practice-2";
+const DATA_URL = "/data/courses.json?v=brand-enem-1";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 
@@ -339,7 +339,7 @@ function renderPractice() {
         <label>Palavra-chave ou código<input name="query" type="search" maxlength="120" value="${escapeHtml(filters.query)}" placeholder="Ex.: energia, célula, 2022-142"></label>
       </div>
       <button class="button secondary" type="submit">Aplicar filtros</button>
-      <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Fisio, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
+      <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Enem, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
     </form>
     <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length ? "" : "disabled"}>Iniciar prática contínua <span aria-hidden="true">→</span></button></section>
     <div class="notice">As respostas são salvas a cada correção. Você pode pular uma questão ou encerrar quando quiser; a prática não consome corações.</div>
@@ -497,7 +497,7 @@ function renderAchievements() {
 
 function renderAbout() {
   app.innerHTML = `
-    ${pageHeader("Projeto aberto", "Sobre o Fisio", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
+    ${pageHeader("Projeto aberto", "Sobre o Enem", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
     <div class="about-grid">
       <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
       <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. Natureza reúne Física, Química e Biologia; suas questões são contadas uma única vez neste total.</p></article>
@@ -507,7 +507,7 @@ function renderAbout() {
     <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
     <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
     <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa 500 + 100 × b; não é uma previsão da nota do aluno.</div>
-    <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Fisio, não comentários oficiais do INEP. O Fisio não é afiliado ao Duolingo.</div>
+    <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Enem, não comentários oficiais do INEP. O Enem não é afiliado ao Duolingo.</div>
   `;
 }
 
