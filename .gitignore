@@ -2,4 +2,7 @@
 node_modules/
 site-package.tar.gz
 data/enem-source/
+_site/
+.preview/
+__pycache__/
 

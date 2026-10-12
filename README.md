@@ -92,6 +92,26 @@ python3 -m http.server 4173 --directory dist
 
 Depois, abra `http://localhost:4173`.
 
+## GitHub e implantação contínua
+
+Repositório: [aureovinicius/enem](https://github.com/aureovinicius/enem). A branch de publicação é `main`. O histórico do projeto, o snapshot completo de 2.757 questões, as fontes de TRI e as imagens usadas nas 440 questões selecionadas estão versionados. A cópia integral do repositório externo `data/enem-source/` pode ser baixada pelo script de sincronização e não é duplicada neste Git.
+
+O workflow `.github/workflows/pages.yml` executa os testes e prepara um artefato estático em cada push ou pull request para `main`, e também pode ser executado manualmente. As ações oficiais são fixadas por commit; o deploy usa o token temporário do próprio GitHub Actions, sem exigir token pessoal salvo como segredo.
+
+Para testar o mesmo pacote localmente:
+
+```bash
+node --test scripts/test-learning.mjs scripts/test-github-pages.mjs
+node scripts/build-github-pages.mjs --base-path /enem --out-dir .preview/enem
+python3 -m http.server 4173 --bind 127.0.0.1 --directory .preview
+```
+
+Abra `http://127.0.0.1:4173/enem/`. Sem `--out-dir`, o pacote fica em `_site/`, como no workflow. A pasta de saída deve estar vazia ou não existir. Para uma prévia na raiz, gere outro pacote com `--base-path /`. O empacotamento usa somente os arquivos de `dist/` rastreados pelo Git, adapta as URLs de recursos e preserva `dist/` para a publicação original no ChatGPT Sites. Não há instalação de dependências nem download da API durante o CI.
+
+A publicação está separada dos testes: o job de deploy só roda em `main` quando a variável de repositório `PAGES_ENABLED` vale `true`. Habilite GitHub Pages com a fonte **GitHub Actions** em Settings → Pages antes de ativar essa variável. `PAGES_BASE_PATH` é opcional e usa `/enem` por padrão; para domínio próprio na raiz, use `/`. Execute novamente o workflow após configurar.
+
+GitHub Pages em conta pessoal publica um site acessível pela internet. Repositórios privados exigem um plano compatível com Pages; a privacidade do código não torna o site privado. Veja a [documentação do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). A ativação dessa nova publicação não altera a audiência do site original. O progresso permanece separado por domínio, pois é salvo no navegador.
+
 ## Fonte e licença
 
 - Questões e gabaritos: [enem.dev](https://enem.dev/), obtidos de provas públicas do ENEM.
