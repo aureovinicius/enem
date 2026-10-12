@@ -1,0 +1,324 @@
+[
+  {
+    "year": 2017,
+    "area": "CN",
+    "examCode": 391,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "sourcePdfSha256": "73e191bcac00dd497b9f05346440f8de0d67a9261d933b48202965c82745a896",
+    "selections": [
+      {
+        "questionNumber": 91,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL50 (dose letal mediana). Ele"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 15,
+        "matchingText": "A terapia celular tem sido amplamente divulgada como revolucionária, por permitir a regeneração de tecidos a partir de"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "area": "MT",
+    "examCode": 403,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+    "sourcePdfSha256": "73e191bcac00dd497b9f05346440f8de0d67a9261d933b48202965c82745a896",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "Um empréstimo foi feito à taxa mensal de i%, usando juros compostos, em oito parcelas fixas e iguais"
+      },
+      {
+        "questionNumber": 173,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 30,
+        "matchingText": "Para uma temporada das corridas de Fórmula 1, a capacidade do tanque de combustível de cada carro passou"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "area": "CN",
+    "examCode": 447,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "sourcePdfSha256": "aa4d234beed82606c95911c744bf137b10c9906397daf08e489dde1b13774ab5",
+    "selections": [
+      {
+        "questionNumber": 91,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 15,
+        "matchingText": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "area": "MT",
+    "examCode": 459,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+    "sourcePdfSha256": "aa4d234beed82606c95911c744bf137b10c9906397daf08e489dde1b13774ab5",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar"
+      },
+      {
+        "questionNumber": 180,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "area": "CN",
+    "examCode": 503,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "sourcePdfSha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+    "selections": [
+      {
+        "questionNumber": 91,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "Quando se considera a extrema velocidade com que a luz se espalha por todos os lados e que,"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "area": "MT",
+    "examCode": 515,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+    "sourcePdfSha256": "fe36cf75ac3580709e40f058661c0d6b70abce41217bc55536af45f0c2883e20",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 17,
+        "matchingText": "Um grupo de países criou uma instituição responsável por organizar o Programa Internacional de Nivelamento de Estudos (PINE)"
+      },
+      {
+        "questionNumber": 180,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Um casal planejou uma viagem e definiu como teto para o gasto diário um valor de até R$"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "area": "CN",
+    "examCode": 597,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "sourcePdfSha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+    "selections": [
+      {
+        "questionNumber": 92,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "A enorme quantidade de resíduos gerados pelo consumo crescente da sociedade traz para a humanidade uma preocupação socioambiental,"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 15,
+        "matchingText": "Os diferentes tipos de café que consumimos nem sempre vêm da mesma espécie de planta. As duas espécies"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "area": "MT",
+    "examCode": 587,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "sourcePdfSha256": "f9970a82e0ee67a31ec16e2f14c99e620738b88dfe7c68484128964a5d5d69bc",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "A fabricação da Bandeira Nacional deve obedecer ao descrito na Lei n. 5.700, de 1º de setembro de"
+      },
+      {
+        "questionNumber": 178,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Suponha que uma equipe de corrida de automóveis disponha de cinco tipos de pneu (I, II, III, IV,"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "area": "CN",
+    "examCode": 909,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "sourcePdfSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+    "selections": [
+      {
+        "questionNumber": 92,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "O sino dos ventos é composto por várias barras metálicas de mesmo"
+      },
+      {
+        "questionNumber": 93,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "O polvo mimético apresenta padrões cromáticos e comportamentos muito curiosos. Frequentemente, muda"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "area": "MT",
+    "examCode": 899,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "sourcePdfSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+    "selections": [
+      {
+        "questionNumber": 179,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos"
+      },
+      {
+        "questionNumber": 180,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Os diretores de uma escola precisam construir um laboratório para uso dos"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "area": "CN",
+    "examCode": 1085,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "sourcePdfSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+    "selections": [
+      {
+        "questionNumber": 91,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente desengraxante. Em"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "Em 2002, um mecânico da cidade mineira de Uberaba (MG) teve uma ideia para economizar o consumo de"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "area": "MT",
+    "examCode": 1075,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+    "sourcePdfSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 17,
+        "matchingText": "Uma máquina em operação tem sua temperatura T monitorada por meio de um registro gráfico, ao longo do"
+      },
+      {
+        "questionNumber": 180,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Na figura estão destacadas duas trajetórias sobre a superfície do globo terrestre, descritas ao se percorrer parte dos"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "area": "CN",
+    "examCode": 1221,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "sourcePdfSha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+    "selections": [
+      {
+        "questionNumber": 91,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 2,
+        "matchingText": "O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários"
+      },
+      {
+        "questionNumber": 135,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 15,
+        "matchingText": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "area": "MT",
+    "examCode": 1211,
+    "application": "regular",
+    "color": "azul",
+    "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+    "sourcePdfSha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 16,
+        "matchingText": "Um artista plástico esculpe uma escultura a partir de um bloco de madeira de lei, em etapas. Inicialmente,"
+      },
+      {
+        "questionNumber": 180,
+        "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 31,
+        "matchingText": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende"
+      }
+    ]
+  }
+]

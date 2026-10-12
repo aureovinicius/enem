@@ -1,0 +1,32 @@
+{
+  "year": 2019,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2019.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 659560141,
+    "lastModified": "Mon, 23 May 2022 18:25:52 GMT",
+    "etag": "\"275016cd-5dfb1f853cc00\""
+  },
+  "members": [
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2019.pdf",
+      "file": "data/reference/tri-source/2019/Leia_Me_Enem_2019.pdf",
+      "size": 205984,
+      "sha256": "8654655310806d9bc99ed8c87b21ca98ca3998fd1ae637b8fe7a57309c84fdb3"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2019.csv",
+      "file": "data/reference/tri-source/2019/ITENS_PROVA_2019.csv",
+      "size": 113851,
+      "sha256": "360fbd34557a4e9889b969c8e80e8fe139f109677bde5e6082e750a4fa227efc"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2019.xlsx",
+      "file": "data/reference/tri-source/2019/Dicionário_Microdados_Enem_2019.xlsx",
+      "size": 32125,
+      "sha256": "9a0aea4b5ce6316541b8b76101fc81ae4efea78d435b02fc75d518448eb8a707"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 258651
+}

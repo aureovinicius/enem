@@ -1,0 +1,32 @@
+{
+  "year": 2009,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2009.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 553913277,
+    "lastModified": "Wed, 01 Mar 2023 13:39:06 GMT",
+    "etag": "\"21040bbd-5f5d6d604d280\""
+  },
+  "members": [
+    {
+      "name": "DADOS/ITENS_PROVA_2009.csv",
+      "file": "data/reference/tri-source/2009/ITENS_PROVA_2009.csv",
+      "size": 75478,
+      "sha256": "7d9dde49c641782b12d8a1097a497df673d81f79e86bed1856c0f0f3568c42aa"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_ENEM_2009.xlsx",
+      "file": "data/reference/tri-source/2009/Dicionário_Microdados_ENEM_2009.xlsx",
+      "size": 68342,
+      "sha256": "db37d48f5659940654634ea57d7ee75ce63e0b172a7def88efda9b941feb53e4"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/LEIA_ME_ENEM_2009.pdf",
+      "file": "data/reference/tri-source/2009/LEIA_ME_ENEM_2009.pdf",
+      "size": 298036,
+      "sha256": "3e9333248b2db06f179bc32f4839d3eae6cf94a5e576e5d31a27785d1d430e1e"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 404608
+}

@@ -5,14 +5,41 @@ App web gamificado para estudar para o ENEM com questões reais da API [enem.dev
 | Matéria | Unidades | Questões selecionadas |
 | --- | ---: | ---: |
 | Física | 5 por tema | 120 |
-| Química | 5 por tema | 40 |
-| Biologia | 5 por tema | 40 |
+| Química | 5 por tema | 90 |
+| Biologia | 5 por tema | 90 |
 | Matemática | 7 por competência | 140 |
-| Ciências da Natureza | 8 por competência | 200 |
+| Ciências da Natureza | 8 por competência | 300 |
 
-Natureza é a união exata de Física, Química e Biologia. O catálogo tem **340 questões únicas**, sem duplicar registros para a trilha integrada. Todas as 30 unidades têm introdução; todas as questões ativas têm justificativa específica.
+Natureza é a união exata de Física, Química e Biologia. O catálogo tem **440 questões únicas**, sem duplicar registros para a trilha integrada. Todas as 30 unidades têm introdução; todas as questões ativas têm justificativa específica.
 
 Matemática tem 20 questões por competência, distribuídas em quatro lições de cinco questões (28 lições). A ampliação acrescentou 105 itens comentados aos 35 anteriores, preservando suas posições e os IDs das lições já concluídas. O acervo bruto local contém 642 registros de Matemática; somente os itens selecionados e revisados entram na prática.
+
+Química e Biologia receberam mais 50 questões cada (10 por unidade), com resoluções específicas. A composição das lições anteriores, inclusive as lições parciais de três questões, é preservada em `data/courses/lesson-layout.json`. Cada matéria agora tem 20 lições. A questão anulada 2023-164 foi substituída por 2017-165 na mesma posição de Matemática (C6/H26), mantendo o ID e a conclusão da lição; o motivo e as fontes estão em `data/courses/math-replacement.json`.
+
+## Prática e desempenho
+
+O modo prática usa filtros combinados por matéria, assunto, competência, ano, dificuldade TRI, palavra-chave e situação (todas, não respondidas, respondidas, erros pendentes ou favoritas). Inspirado no fluxo de bancos de questões do [Qconcursos](https://www.qconcursos.com/questoes-de-concursos/questoes), permite responder, corrigir, ler a justificativa e seguir para outra questão, sem limite de cinco itens e sem consumir corações.
+
+O sorteio não repete itens antes de percorrer a seleção. Ao terminar, começa outra rodada aleatória, exceto quando filtros como “não respondidas” ou “erros para revisar” deixam de ter itens elegíveis. Pular não registra resposta nem tempo. Favoritos e filtros persistem por matéria no navegador.
+
+O painel Desempenho informa tentativas, questões distintas, acertos, erros, taxa de acerto, tempo total e médio, atividade dos últimos sete dias, desempenho por assunto e respostas recentes. Tem filtros de período e modo. Os dados são registrados a cada correção; o tempo pausa quando a página fica oculta e termina antes da leitura da resolução. Histórico e estatísticas são locais, sem sincronização entre dispositivos. Respostas anteriores à atualização continuam no progresso, mas não entram na taxa de acerto porque não tinham resultado e duração registrados.
+
+## Dificuldade TRI
+
+A API enem.dev não fornece TRI. Os parâmetros oficiais **a, b e c de 2009–2023** foram extraídos separadamente dos arquivos `ITENS_PROVA` nos [microdados do INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem). Apenas itens, dicionários e documentação foram baixados; nenhum registro de participante foi necessário.
+
+O vínculo verifica caderno azul regular, ano, área, posição, sequência de gabaritos e resposta individual, com amostras de enunciados dos cadernos oficiais para confirmar as correspondências. Itens abandonados, parâmetros inválidos, ambiguidade e divergências de gabarito não recebem dificuldade estimada. A base ativa tem **431 de 440 questões com parâmetros válidos**; os demais itens são identificados como indisponíveis.
+
+Os valores originais ficam em `data/reference/tri-parameters.json`, com código do item, código da prova, método de correspondência e fonte. O app apresenta o parâmetro de dificuldade **b convertido por 500 + 100 × b**, conforme os [procedimentos de análise do INEP, páginas impressas 20–21](https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/enem_procedimentos_de_analise.pdf). Esse valor não é peso, pontos ganhos por questão ou previsão de nota. As áreas têm escalas próprias. Os intervalos até 500, acima de 500 até 650 e acima de 650 são filtros editoriais, sem rótulos oficiais de fácil/médio/difícil.
+
+Para reconstruir a vinculação a partir dos arquivos oficiais locais:
+
+```bash
+python3 scripts/import-tri-parameters.py --import-cached
+node scripts/build-courses.mjs
+```
+
+Use `--fetch --import-cached` para baixar novamente os arquivos de itens e dicionários via HTTP Range. Manifests e fontes permanecem em `data/reference/tri-source/`; as evidências de cadernos estão em `data/reference/tri-booklet-evidence-*.json`.
 
 ## Dados locais
 

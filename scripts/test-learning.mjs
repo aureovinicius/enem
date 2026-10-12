@@ -93,13 +93,13 @@ for (const correct of [true, false]) {
   });
 }
 
-test("practice starts with pending errors before filling with new questions", () => {
-  const missed = data.questions.slice(0, 2).map((question) => question.id);
-  const app = appHarness({ missed });
+test("practice can target pending errors without adding unrelated questions", () => {
+  const missed = data.questions.slice(0, 2).map(q => q.id);
+  const app = appHarness({ missed, practiceFilters: { fisica: { status: "wrong" } } });
   app.run("startPractice()");
-  const chosen = JSON.parse(app.run("JSON.stringify(quiz.questions.map(q => q.id))"));
-  assert.equal(chosen.length, 5);
-  assert.ok(missed.every((id) => chosen.slice(0, 2).includes(id)));
+  const chosen = JSON.parse(app.run("JSON.stringify([...quiz.questions.map(q => q.id), ...quiz.queue])"));
+  assert.deepEqual(new Set(chosen), new Set(missed));
+  assert.equal(app.run("quiz.practice"), true);
 });
 
 test("all five courses have complete introductions, explanations and unique question references", () => {
@@ -190,17 +190,16 @@ test("switching course preserves old progress and every question is reachable in
   assert.equal(reloaded.run("state.xp"), 200);
 });
 
-test("review is shared between a science subject and Natureza while remaining filtered by course", () => {
+test("review is shared between science and Natureza while filters remain course-specific", () => {
   const physicsId = catalog.courses[0].questionIds[0];
   const chemId = catalog.courses[1].questionIds[0];
   const mathId = catalog.courses[3].questionIds[0];
-  const app = appHarness({ missed: [physicsId, chemId, mathId] });
+  const app = appHarness({ missed: [physicsId, chemId, mathId], practiceFilters: { fisica: {status: "wrong"}, "ciencias-natureza": {status: "wrong"}, matematica: {status: "wrong"} } });
   app.run("startPractice()");
   assert.equal(app.run("quiz.questions[0].id"), physicsId);
-  assert.equal(app.run("quiz.questions.some(q => q.subjectId !== 'fisica')"), false);
   app.run("closeQuiz(); setCourse('ciencias-natureza'); startPractice()");
-  const first = JSON.parse(app.run("JSON.stringify(quiz.questions.slice(0, 2).map(q => q.id))"));
-  assert.deepEqual(new Set(first), new Set([physicsId, chemId]));
+  const ids = JSON.parse(app.run("JSON.stringify([...quiz.questions.map(q => q.id), ...quiz.queue])"));
+  assert.deepEqual(new Set(ids), new Set([physicsId, chemId]));
   const answered = app.run("quiz.questions[0].id");
   app.run("selectAnswer(quiz.questions[0].correctAlternative); checkAnswer()");
   assert.equal(app.run(`state.missed.includes(${JSON.stringify(answered)})`), false);
@@ -264,4 +263,141 @@ test("math expansion provides four complete lessons in each competence", () => {
     assert.deepEqual(sizes, [5, 5, 5, 5]);
   }
   assert.equal(app.run("data.questions.every(q => q.alternatives.length === 5)"), true);
+});
+
+test("every previously published lesson retains its questions and position after expansion", () => {
+  const previous = JSON.parse(readFileSync("scripts/fixtures/lessons-before-practice.json", "utf8"));
+  const correction = JSON.parse(readFileSync("data/courses/math-replacement.json", "utf8"));
+  const app = appHarness();
+  for (const course of catalog.courses) {
+    app.run(`setCourse(${JSON.stringify(course.id)})`);
+    for (const [module, groups] of Object.entries(previous[course.id])) {
+      for (const [index, ids] of groups.entries()) {
+        const id = `${module}-${index + 1}`;
+        const actual = JSON.parse(app.run(`JSON.stringify(lessons.find(l => l.id === ${JSON.stringify(id)}).questions.map(q => q.id))`));
+        assert.deepEqual(actual, ids.map(id => id === correction.oldId ? correction.replacement.id : id), id);
+      }
+    }
+  }
+});
+
+test("expanded sciences contain 90 reviewed questions each without changing old lesson boundaries", () => {
+  for (const courseId of ['quimica', 'biologia']) {
+    const app = appHarness({ activeCourse: courseId });
+    assert.equal(app.run('data.total'), 90);
+    assert.equal(app.run('lessons.length'), 20);
+    for (const module of catalog.courses.find(c => c.id === courseId).modules) {
+      assert.deepEqual(JSON.parse(app.run(`JSON.stringify(lessons.filter(l => l.module.id === ${JSON.stringify(module.id)}).map(l => l.questions.length))`)), [5,3,5,5]);
+    }
+  }
+});
+
+test("TRI joins preserve official answers and scale while unavailable items remain explicit", () => {
+  const tri = JSON.parse(readFileSync('data/reference/tri-parameters.json', 'utf8'));
+  const valid = catalog.questions.filter(q => q.tri);
+  assert.equal(valid.length, 431);
+  assert.equal(catalog.tri.matched, valid.length);
+  assert.deepEqual([...new Set(tri.years.map(y => y.year))].sort(), Array.from({length:15},(_,i)=>2009+i));
+  for (const q of catalog.questions) {
+    if (!q.tri) {
+      assert.equal(q.triUnavailable.reason, 'official_item_abandoned', q.id);
+      assert.equal(q.triUnavailable.officialAnswer, q.correctAlternative, q.id);
+      continue;
+    }
+    assert.deepEqual(q.tri, tri.questions[q.id]);
+    assert.equal(q.tri.officialAnswer, q.correctAlternative, q.id);
+    assert.equal(q.tri.year, q.year, q.id);
+    assert.equal(q.tri.questionNumber, q.index, q.id);
+    assert.ok(Math.abs(q.tri.difficultyScore - (500 + 100 * q.tri.b)) < 0.000001, q.id);
+    assert.ok(q.tri.matchMethod.includes('booklet_content'), q.id);
+    assert.ok(q.tri.sourceUrl.startsWith('https://download.inep.gov.br/'), q.id);
+  }
+  assert.ok(!catalog.questions.some(q => q.id === '2023-164'));
+  assert.ok(catalog.questions.some(q => q.id === '2017-165'));
+});
+
+test("continuous practice respects intersecting filters and goes beyond five answers", () => {
+  const app = appHarness({ activeCourse: "matematica", hearts: 3, practiceFilters: { matematica: { module: "mat-c1", competency: "1", status: "all" } } });
+  app.run("startPractice()");
+  for (let i = 0; i < 22; i++) {
+    assert.equal(app.run("quiz.questions[quiz.index].moduleId"), "mat-c1");
+    app.run("selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); checkAnswer(); nextQuestion()");
+  }
+  assert.equal(app.run("state.attempts.length"), 22);
+  assert.equal(app.run("quiz.answeredCount"), 22);
+  assert.equal(app.run("quiz.cycle"), 2);
+  assert.equal(app.run("new Set(quiz.questions.slice(0,20).map(q=>q.id)).size"), 20);
+  assert.equal(app.run("quiz.questions[19].id === quiz.questions[20].id"), false);
+  assert.equal(app.run("state.hearts"), 3);
+  assert.equal(app.run("state.completed.length"), 0);
+});
+
+test("unanswered practice exhausts without repeats, and skip creates no attempt", () => {
+  const first = catalog.courses.find(c => c.id === "matematica").questionIds[0];
+  const app = appHarness({activeCourse:"matematica",practiceFilters:{matematica:{query:first,status:"unanswered"}}});
+  app.run("startPractice(); skipPracticeQuestion()");
+  assert.equal(app.run("state.attempts.length"), 0);
+  assert.equal(app.run("quiz.skipped"), 1);
+  app.run("selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); nextQuestion()");
+  assert.equal(app.run("quiz.ended"), true);
+  assert.equal(app.run("quiz.answeredCount"), 1);
+  assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes("Seleção concluída"));
+  app.run("closeQuiz(); startPractice()");
+  assert.equal(app.run("quiz"), null);
+});
+
+test("difficulty, year, keyword and response filters handle missing TRI distinctly", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  app.run("data.questions[0] = {...data.questions[0], tri:{difficultyScore:499}}; data.questions[1] = {...data.questions[1], tri:{difficultyScore:600}}; data.questions[2] = {...data.questions[2], tri:null};");
+  assert.equal(app.run("questionMatches(data.questions[0],{difficulty:'low'})"), true);
+  assert.equal(app.run("questionMatches(data.questions[1],{difficulty:'low'})"), false);
+  assert.equal(app.run("questionMatches(data.questions[2],{difficulty:'low'})"), false);
+  assert.equal(app.run("questionMatches(data.questions[2],{difficulty:'unknown'})"), true);
+  assert.equal(app.run("questionMatches(data.questions[0],{year:'2099'})"), false);
+  assert.equal(app.run("questionMatches(data.questions[0],{query:data.questions[0].id})"), true);
+  assert.equal(app.run("questionMatches(data.questions[0],{status:'answered'})"), false);
+  app.run("state.favorites.push(data.questions[0].id)");
+  assert.equal(app.run("questionMatches(data.questions[0],{status:'favorites'})"), true);
+});
+
+test("statistics record verified answers once, survive reload and never infer legacy accuracy", () => {
+  const app = appHarness({activeCourse:"matematica",answered:["2009-178","2009-178"],xp:20,hearts:1});
+  app.run("startPractice(); quiz.timerStartedAt = Date.now() - 5000; selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); checkAnswer(); nextQuestion(); selectAnswer(quiz.questions[1].alternatives.find(a=>a.letter!==quiz.questions[1].correctAlternative).letter); checkAnswer();");
+  assert.equal(app.run("state.hearts"),1);
+  assert.equal(app.run("state.legacyAnsweredCount"),2);
+  assert.equal(app.run("performanceMetrics(courseAttempts()).accuracy"),50);
+  assert.equal(app.run("performanceMetrics(courseAttempts()).total"),2);
+  assert.ok(app.run("state.attempts[0].durationMs >= 5000"));
+  app.run("endPractice(); closeQuiz(); renderPerformance()");
+  assert.ok(app.nodes.get("#app").innerHTML.includes("2 respostas anteriores"));
+  const saved=JSON.parse(app.storage.get("fisio-progress-v1"));
+  const reloaded=appHarness(saved);
+  assert.equal(reloaded.run("performanceMetrics(courseAttempts()).accuracy"),50);
+  assert.equal(reloaded.run("courseAttempts('all','lesson').length"),0);
+  assert.equal(reloaded.run("courseAttempts('all','practice').length"),2);
+  reloaded.run("setCourse('fisica')");
+  assert.equal(reloaded.run("courseAttempts().length"),0);
+});
+
+test("question timer excludes hidden time and explanation reading", () => {
+  const app=appHarness();
+  app.run("startPractice(); quiz.timerStartedAt=Date.now()-1200; document.hidden=true; stopQuestionTimer(); startQuestionTimer()");
+  assert.equal(app.run("quiz.timerStartedAt"),null);
+  assert.ok(app.run("quiz.elapsedMs >= 1200"));
+  app.run("document.hidden=false; startQuestionTimer(); selectAnswer(quiz.questions[0].correctAlternative); checkAnswer()");
+  const elapsed=app.run("state.attempts[0].durationMs");
+  app.run("startQuestionTimer(); stopQuestionTimer()");
+  assert.equal(app.run("state.attempts[0].durationMs"),elapsed);
+  assert.equal(app.run("quiz.timerStartedAt"),null);
+});
+
+test("date and mode filters separate periods and preserve Natureza shared statistics", () => {
+  const q = catalog.questions.find(q=>q.subjectId==='quimica');
+  const app=appHarness({activeCourse:"quimica",attempts:[{questionId:q.id,correct:false,answer:'A',at:'2000-01-01T15:00:00Z',day:'2000-01-01',durationMs:1000,mode:'practice'}]});
+  assert.equal(app.run("courseAttempts('7').length"),0);
+  assert.equal(app.run("courseAttempts('all').length"),1);
+  app.run("setCourse('ciencias-natureza')");
+  assert.equal(app.run("courseAttempts('all').length"),1);
+  app.run("setCourse('matematica')");
+  assert.equal(app.run("courseAttempts('all').length"),0);
 });

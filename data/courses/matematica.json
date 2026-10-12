@@ -2105,17 +2105,18 @@
       }
     },
     {
-      "id": "2023-164",
+      "id": "2017-165",
       "moduleId": "mat-c6",
       "competency": 6,
       "skill": 26,
       "explanation": {
-        "concept": "A menor cobertura de vacinação indica a maior parcela ainda não imunizada.",
+        "concept": "Recortar o eixo vertical altera a proporção visual entre as alturas das barras.",
         "steps": [
-          "A barra dos adultos de 20 a 29 anos é a menor entre as categorias apresentadas, com cobertura pouco acima de 40%. Gestantes, doentes crônicos, indígenas e crianças têm coberturas maiores.",
-          "Segundo o critério do gráfico, a categoria com menor percentual imunizado mantém a maior proporção de pessoas sem essa proteção. Portanto, os adultos entre 20 e 29 anos são a resposta, alternativa D."
+          "No Gráfico 1, o eixo vertical começa em zero. A barra de A tem altura proporcional a 70 e a de B, a 30; por isso, a razão entre as alturas de B e A é 30/70 = 3/7.",
+          "No Gráfico 2, o eixo foi recortado em 20. As alturas visíveis passam a ser proporcionais a 70 − 20 = 50 para A e 30 − 20 = 10 para B. A razão entre essas alturas é 10/50 = 1/5.",
+          "A diferença entre as razões é 3/7 − 1/5 = 15/35 − 7/35 = 8/35, correspondente à alternativa E. O recorte faz a barra de B parecer proporcionalmente menor, embora os percentuais escritos continuem iguais."
         ],
-        "takeaway": "Para comparar a parcela não imunizada, considere o complemento de cada cobertura até 100%."
+        "takeaway": "Em gráficos de barras, confira onde o eixo começa: comparar alturas exige descontar o valor da linha de base, e uma escala recortada pode distorcer a impressão visual."
       }
     },
     {

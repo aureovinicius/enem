@@ -1,0 +1,338 @@
+[
+  {
+    "year": 2009,
+    "area": "CN",
+    "examCode": 49,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 1,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+        "pdfPage": 2,
+        "matchingText": "A atmosfera terrestre é composta pelos gases nitrogênio (N2) e oxigênio (O2),"
+      },
+      {
+        "questionNumber": 42,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+        "pdfPage": 16,
+        "matchingText": "O cultivo de camarões de água salgada vem se desenvolvendo muito nos"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "area": "MT",
+    "examCode": 63,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+        "pdfPage": 20,
+        "matchingText": "Dados da Associação Nacional de Empresas de Transportes Urbanos (ANTU) mostram que"
+      },
+      {
+        "questionNumber": 178,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+        "pdfPage": 30,
+        "matchingText": "João deve 12 parcelas de R$ 150,00 referentes ao cheque especial de"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "area": "CN",
+    "examCode": 89,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+        "pdfPage": 14,
+        "matchingText": "A vacina, o soro e os antibióticos submetem os organismos a processos"
+      },
+      {
+        "questionNumber": 88,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+        "pdfPage": 29,
+        "matchingText": "Diversos comportamentos e funções fisiológicas do nosso corpo são periódicos, sendo assim,"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "area": "MT",
+    "examCode": 99,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 137,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+        "pdfPage": 21,
+        "matchingText": "No monte de Cerro Armazones, no deserto de Atacama, no Chile, ficará"
+      },
+      {
+        "questionNumber": 160,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+        "pdfPage": 27,
+        "matchingText": "Um balão atmosférico, lançado em Bauru (343 quilômetros a Noroeste de São"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "area": "CN",
+    "examCode": 121,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 48,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+        "pdfPage": 16,
+        "matchingText": "A produção de soro antiofídico é feita por meio da extração da"
+      },
+      {
+        "questionNumber": 89,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+        "pdfPage": 30,
+        "matchingText": "Durante as estações chuvosas, aumentam no Brasil as campanhas de prevenção à"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "area": "MT",
+    "examCode": 131,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 160,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+        "pdfPage": 27,
+        "matchingText": "Uma pessoa aplicou certa quantia em ações. No primeiro mês, ela perdeu"
+      },
+      {
+        "questionNumber": 174,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+        "pdfPage": 30,
+        "matchingText": "O setor de recursos humanos de uma empresa vai realizar uma entrevista"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "area": "CN",
+    "examCode": 141,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia1_caderno1_azul.pdf",
+        "pdfPage": 17,
+        "matchingText": "Para diminuir o acúmulo de lixo e o desperdício de materiais de"
+      },
+      {
+        "questionNumber": 89,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia1_caderno1_azul.pdf",
+        "pdfPage": 31,
+        "matchingText": "Quando colocados em água, os fosfolipídeos tendem a formar lipossomos, estruturas formadas"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "area": "MT",
+    "examCode": 151,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 136,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia2_caderno7_azul.pdf",
+        "pdfPage": 20,
+        "matchingText": "O esporte de alta competição da atualidade produziu uma questão ainda sem"
+      },
+      {
+        "questionNumber": 178,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia2_caderno7_azul.pdf",
+        "pdfPage": 31,
+        "matchingText": "José, Paulo e Antônio estão jogando dados não viciados, nos quais, em"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "area": "CN",
+    "examCode": 171,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+        "pdfPage": 15,
+        "matchingText": "Músculos artificiais são dispositivos feitos com plásticos inteligentes que respondem a uma"
+      },
+      {
+        "questionNumber": 88,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+        "pdfPage": 31,
+        "matchingText": "Para a identificação de um rapaz vítima de acidente, fragmentos de tecidos"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "area": "MT",
+    "examCode": 181,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 148,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+        "pdfPage": 22,
+        "matchingText": "Um dos grandes problemas enfrentados nas rodovias brasileiras é o excesso de"
+      },
+      {
+        "questionNumber": 172,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+        "pdfPage": 29,
+        "matchingText": "A temperatura T de um forno (em graus centígrados) é reduzida por"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "area": "CN",
+    "examCode": 199,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 16,
+        "matchingText": "Christiaan Huygens, em 1656, criou o relógio de pêndulo. Nesse dispositivo, a"
+      },
+      {
+        "questionNumber": 89,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 31,
+        "matchingText": "Na década de 1990, células do cordão umbilical de recém-nascidos humanos começaram"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "area": "MT",
+    "examCode": 209,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 142,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 20,
+        "matchingText": "Considere um silo de 2 m de altura, 6 m de largura"
+      },
+      {
+        "questionNumber": 168,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 28,
+        "matchingText": "O Brasil é um país com uma vantagem econômica clara no terreno"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "area": "CN",
+    "examCode": 235,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 16,
+        "matchingText": "Hipoxia ou mal das alturas consiste na diminuição de oxigênio (O2) no"
+      },
+      {
+        "questionNumber": 87,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 30,
+        "matchingText": "O formato das células de organismos pluricelulares é extremamente variado. Existem células"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "area": "MT",
+    "examCode": 245,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 144,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 21,
+        "matchingText": "Visando atender as orientações do Comitê Central da Federação Internacional de Basquete"
+      },
+      {
+        "questionNumber": 158,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 25,
+        "matchingText": "Uma enfermeira deve administrar um medicamento X a uma criança inconsciente, cuja"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "area": "CN",
+    "examCode": 291,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 46,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 16,
+        "matchingText": "Em sua formulação, o spray de pimenta contém porcentagens variadas de oleorresina"
+      },
+      {
+        "questionNumber": 83,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+        "pdfPage": 29,
+        "matchingText": "O Brasil possui um grande número de espécies distintas entre animais, vegetais"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "area": "MT",
+    "examCode": 303,
+    "application": "regular",
+    "color": "azul",
+    "selections": [
+      {
+        "questionNumber": 151,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 21,
+        "matchingText": "Uma menina aos 3 anos de idade tinha altura de 85 centímetros"
+      },
+      {
+        "questionNumber": 168,
+        "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD7.pdf",
+        "pdfPage": 27,
+        "matchingText": "Para cadastrar-se em um site, uma pessoa precisa escolher uma senha composta"
+      }
+    ]
+  }
+]

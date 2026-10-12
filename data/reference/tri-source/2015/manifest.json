@@ -1,0 +1,32 @@
+{
+  "year": 2015,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2015.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 985586230,
+    "lastModified": "Wed, 06 Jul 2022 18:52:55 GMT",
+    "etag": "\"3abeda36-5e3277a154fc0\""
+  },
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2015.xlsx",
+      "file": "data/reference/tri-source/2015/Dicionário_Microdados_Enem_2015.xlsx",
+      "size": 39634,
+      "sha256": "a2b36584e31df38a4ae8e67cc44a3dfa7c8cd4e16f75df90e169223bc1e04346"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2015.pdf",
+      "file": "data/reference/tri-source/2015/Leia_Me_Enem_2015.pdf",
+      "size": 174567,
+      "sha256": "3237e1d6cbe0b08a8d5e0069262bb978ac03e27f43e09d6251366545af337ebd"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2015.csv",
+      "file": "data/reference/tri-source/2015/ITENS_PROVA_2015.csv",
+      "size": 154763,
+      "sha256": "c3c3a9a98d33ffc513c767b373d1f82d2ebd5d6431147c1bb2ba76ba63fbe392"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 272872
+}

@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=courses-1";
+const DATA_URL = "/data/courses.json?v=practice-2";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 
@@ -23,6 +23,9 @@ let data;
 let lessons = [];
 let activeView = location.hash.slice(1) || "aprender";
 let quiz = null;
+let statsPeriod = "30";
+let statsMode = "all";
+let storageWarning = false;
 
 function localDay() {
   return new Intl.DateTimeFormat("en-CA", {
@@ -46,9 +49,20 @@ function loadState() {
     answered: [],
     missed: [],
     activeCourse: "fisica",
+    attempts: [],
+    favorites: [],
+    practiceFilters: {},
+    statsSince: new Date().toISOString(),
+    legacyAnsweredCount: 0,
   };
   try {
     const saved = { ...fallback, ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
+    for (const key of ["completed", "introductionsRead", "answered", "missed", "favorites"]) {
+      saved[key] = Array.isArray(saved[key]) ? saved[key].filter(x => typeof x === "string") : [];
+    }
+    saved.attempts = Array.isArray(saved.attempts) ? saved.attempts.filter(a => a && typeof a.questionId === "string" && typeof a.correct === "boolean" && Number.isFinite(Date.parse(a.at))) : [];
+    if (!saved.attempts.length && !saved.legacyAnsweredCount) saved.legacyAnsweredCount = saved.answered.length;
+    if (!saved.practiceFilters || typeof saved.practiceFilters !== "object" || Array.isArray(saved.practiceFilters)) saved.practiceFilters = {};
     if (saved.dailyDay !== localDay()) {
       saved.todayXp = 0;
       saved.hearts = 5;
@@ -63,7 +77,8 @@ function loadState() {
 let state = loadState();
 
 function saveState() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); storageWarning = false; }
+  catch { storageWarning = true; showToast("O navegador não conseguiu salvar. Mantenha esta página aberta para preservar a sessão."); }
 }
 
 function escapeHtml(value = "") {
@@ -93,10 +108,10 @@ function makeLessons() {
   let globalIndex = 0;
   lessons = data.modules.flatMap((module, moduleIndex) => {
     const questions = data.questions.filter((question) => question.moduleId === module.id);
-    const lessonCount = Math.ceil(questions.length / 5);
-    return Array.from({ length: lessonCount }, (_, index) => {
-      const start = index * 5;
-      const lessonQuestions = questions.slice(start, start + 5);
+    const byId = new Map(questions.map(q => [q.id, q]));
+    const groups = data.lessonLayout?.[module.id] || Array.from({ length: Math.ceil(questions.length / 5) }, (_, i) => questions.slice(i * 5, i * 5 + 5).map(q => q.id));
+    return groups.map((ids, index) => {
+      const lessonQuestions = ids.map(id => byId.get(id)).filter(Boolean);
       const lesson = {
         id: `${module.id}-${index + 1}`,
         module,
@@ -261,21 +276,201 @@ const moduleDescriptions = {
   eletromagnetismo: "Campos magnéticos, indução e aplicações.",
 };
 
+function defaultPracticeFilters() {
+  return { module: "", year: "", competency: "", difficulty: "", status: "all", query: "" };
+}
+
+function practiceFilters() {
+  return { ...defaultPracticeFilters(), ...state.practiceFilters[data.id] };
+}
+
+function difficultyScore(question) {
+  return Number.isFinite(question.tri?.difficultyScore) ? question.tri.difficultyScore : null;
+}
+
+function questionMatches(question, filters) {
+  if (filters.module && question.moduleId !== filters.module) return false;
+  if (filters.year && String(question.year) !== String(filters.year)) return false;
+  if (filters.competency && String(question.competency) !== String(filters.competency)) return false;
+  const score = difficultyScore(question);
+  if (filters.difficulty === "known" && score === null) return false;
+  if (filters.difficulty === "unknown" && score !== null) return false;
+  if (filters.difficulty === "low" && (score === null || score > 500)) return false;
+  if (filters.difficulty === "medium" && (score === null || score <= 500 || score > 650)) return false;
+  if (filters.difficulty === "high" && (score === null || score <= 650)) return false;
+  if (filters.status === "unanswered" && state.answered.includes(question.id)) return false;
+  if (filters.status === "answered" && !state.answered.includes(question.id)) return false;
+  if (filters.status === "wrong" && !state.missed.includes(question.id)) return false;
+  if (filters.status === "favorites" && !state.favorites.includes(question.id)) return false;
+  const query = String(filters.query || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  if (query) {
+    const haystack = [question.id, question.context, question.alternativesIntroduction, question.moduleTitle, ...question.alternatives.map(a => a.text)].join(" ").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    if (!query.split(/\s+/).every(word => haystack.includes(word))) return false;
+  }
+  return true;
+}
+
+function filteredPracticeQuestions(filters = practiceFilters()) {
+  return data.questions.filter(q => questionMatches(q, filters));
+}
+
+function filterOptions(values, selected, allLabel) {
+  return `<option value="">${allLabel}</option>${values.map(([value, label]) => `<option value="${escapeHtml(value)}" ${String(value) === String(selected) ? "selected" : ""}>${escapeHtml(label)}</option>`).join("")}`;
+}
+
 function renderPractice() {
-  const missed = data.questions.filter((q) => state.missed.includes(q.id)).length;
+  const filters = practiceFilters();
+  const pool = filteredPracticeQuestions(filters);
+  const withTri = pool.filter(q => difficultyScore(q) !== null).length;
+  const years = [...new Set(data.questions.map(q => q.year))].sort((a, b) => b - a);
+  const competencies = [...new Set(data.questions.map(q => q.competency))].sort((a, b) => a - b);
+  const metrics = performanceMetrics(courseAttempts());
   app.innerHTML = `
-    ${pageHeader(`Revisão de ${escapeHtml(data.title)}`, "Treine seus pontos fracos.", "A prática usa questões da matéria selecionada, prioriza seus erros e completa a sessão com novos desafios.")}
-    <section class="feature-card">
-      <div>
-        <span class="course-pill"><span class="course-dot"></span> Sessão de 5 questões</span>
-        <h2 style="margin-top:18px">Prática personalizada</h2>
-        <p>${missed ? `Você tem ${missed} ${missed === 1 ? "questão" : "questões"} para revisar.` : "Sem erros pendentes. Vamos misturar questões de toda a trilha."}</p>
-        <button class="button blue" data-action="practice">Começar prática</button>
+    ${pageHeader("Banco de questões", "Seu treino, seu ritmo.", "Escolha os filtros e resolva questões aleatórias, uma de cada vez. Veja a resolução após responder e continue pelo tempo que quiser.")}
+    <div class="practice-overview"><span><strong>${metrics.total}</strong> respostas registradas</span><span><strong>${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}</strong> de acerto</span><a href="#desempenho" data-view="desempenho">Ver desempenho ↗</a></div>
+    <form id="practice-filters" class="filter-card">
+      <div class="section-heading"><div><p class="page-kicker">Monte sua seleção</p><h2>Filtros de questões</h2></div><button type="button" class="text-button" data-action="reset-filters">Limpar filtros</button></div>
+      <div class="filter-grid">
+        <label>Assunto<select name="module">${filterOptions(data.modules.map(m => [m.id, m.title]), filters.module, "Todos os assuntos")}</select></label>
+        <label>Ano<select name="year">${filterOptions(years.map(y => [y, y]), filters.year, "Todos os anos")}</select></label>
+        <label>Competência<select name="competency">${filterOptions(competencies.map(c => [c, `Competência ${c}`]), filters.competency, "Todas as competências")}</select></label>
+        <label>Dificuldade TRI<select name="difficulty">${filterOptions([["known", "Com dificuldade oficial"], ["low", "Até 500"], ["medium", "Acima de 500 até 650"], ["high", "Acima de 650"], ["unknown", "Sem parâmetro disponível"]], filters.difficulty, "Todas as dificuldades")}</select></label>
+        <label>Minha resolução<select name="status">${[["all", "Todas as questões"], ["unanswered", "Ainda não respondi"], ["wrong", "Erros para revisar"], ["answered", "Já respondi"], ["favorites", "Favoritas"]].map(([value, label]) => `<option value="${value}" ${value === filters.status ? "selected" : ""}>${label}</option>`).join("")}</select></label>
+        <label>Palavra-chave ou código<input name="query" type="search" maxlength="120" value="${escapeHtml(filters.query)}" placeholder="Ex.: energia, célula, 2022-142"></label>
       </div>
-      <div class="practice-visual" aria-hidden="true"><div class="practice-atom">⚛</div></div>
-    </section>
-    <div class="notice">Dica: revisar um erro logo depois da tentativa ajuda a consolidar o caminho de resolução, não só a alternativa correta.</div>
+      <button class="button secondary" type="submit">Aplicar filtros</button>
+      <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Fisio, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
+    </form>
+    <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length ? "" : "disabled"}>Iniciar prática contínua <span aria-hidden="true">→</span></button></section>
+    <div class="notice">As respostas são salvas a cada correção. Você pode pular uma questão ou encerrar quando quiser; a prática não consome corações.</div>
   `;
+}
+
+function courseAttempts(period = "all", mode = "all") {
+  const ids = new Set(data.questionIds);
+  const earliest = period === "all" ? "" : new Date(new Date(`${localDay()}T12:00:00Z`).getTime() - (Number(period) - 1) * 86400000).toISOString().slice(0, 10);
+  return state.attempts.filter(a => ids.has(a.questionId) && (mode === "all" || a.mode === mode) && (!earliest || a.day >= earliest));
+}
+
+function performanceMetrics(attempts) {
+  const correct = attempts.filter(a => a.correct).length;
+  const duration = attempts.reduce((sum, a) => sum + (Number.isFinite(a.durationMs) ? a.durationMs : 0), 0);
+  return { total: attempts.length, correct, wrong: attempts.length - correct, unique: new Set(attempts.map(a => a.questionId)).size, accuracy: attempts.length ? Math.round(correct / attempts.length * 100) : null, duration, average: attempts.length ? duration / attempts.length : 0 };
+}
+
+function formatDuration(ms) {
+  const seconds = Math.round(ms / 1000);
+  if (seconds < 60) return `${seconds}s`;
+  if (seconds < 3600) return `${Math.floor(seconds / 60)}min ${seconds % 60}s`;
+  return `${Math.floor(seconds / 3600)}h ${Math.floor(seconds % 3600 / 60)}min`;
+}
+
+function counted(value, singular, plural = `${singular}s`) {
+  return `${value} ${value === 1 ? singular : plural}`;
+}
+
+function renderPerformance() {
+  const attempts = courseAttempts(statsPeriod, statsMode);
+  const metrics = performanceMetrics(attempts);
+  const questionById = new Map(data.questions.map(q => [q.id, q]));
+  const rows = data.modules.map(module => ({ module, ...performanceMetrics(attempts.filter(a => questionById.get(a.questionId)?.moduleId === module.id)) }));
+  const days = Array.from({ length: 7 }, (_, index) => new Date(new Date(`${localDay()}T12:00:00Z`).getTime() - (6 - index) * 86400000).toISOString().slice(0, 10));
+  const daily = days.map(day => ({ day, ...performanceMetrics(attempts.filter(a => a.day === day)) }));
+  const max = Math.max(1, ...daily.map(d => d.total));
+  app.innerHTML = `
+    ${pageHeader("Estatísticas", "Veja sua evolução.", "Acompanhe suas respostas e descubra os assuntos que merecem mais atenção.")}
+    <div class="stats-controls"><label>Período<select id="stats-period">${[["7", "Últimos 7 dias"], ["30", "Últimos 30 dias"], ["all", "Todo o histórico"]].map(([v, l]) => `<option value="${v}" ${statsPeriod === v ? "selected" : ""}>${l}</option>`).join("")}</select></label><label>Modo<select id="stats-mode">${[["all", "Todos os modos"], ["practice", "Prática"], ["lesson", "Lições"]].map(([v, l]) => `<option value="${v}" ${statsMode === v ? "selected" : ""}>${l}</option>`).join("")}</select></label></div>
+    ${storageWarning ? '<div class="notice">O navegador não conseguiu salvar o histórico. Os dados desta sessão estão apenas na memória; libere espaço para preservá-los.</div>' : ""}
+    <div class="metric-grid">
+      ${[[metrics.total, "Respostas", `${metrics.unique} ${metrics.unique === 1 ? "questão distinta" : "questões distintas"}`], [`${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}`, "Taxa de acerto", `${counted(metrics.correct, "acerto")} · ${counted(metrics.wrong, "erro")}`], [formatDuration(metrics.duration), "Tempo respondendo", `${formatDuration(metrics.average)} por resposta`], [data.questions.filter(q => state.missed.includes(q.id)).length, "Erros para revisar", "Situação atual da matéria"]].map(([n, title, detail]) => `<article class="metric-card"><strong>${n}</strong><h2>${title}</h2><p>${detail}</p></article>`).join("")}
+    </div>
+    ${!metrics.total ? '<div class="empty-state"><span aria-hidden="true">↗</span><h2>Seu próximo treino começa este gráfico.</h2><p>Responda uma questão na prática ou nas lições. O resultado aparece aqui assim que você verifica a resposta.</p><a class="button" href="#praticar" data-view="praticar">Escolher questões</a></div>' : ""}
+    <section class="stats-card"><div class="section-heading"><h2>Ritmo nos últimos 7 dias</h2><span class="chart-legend"><i></i> Acertos <i class="wrong"></i> Erros</span></div><div class="activity-chart">${daily.map(d => `<div class="day-column"><span>${d.total}</span><div class="day-track" role="img" aria-label="${d.day}: ${counted(d.correct, "acerto")} e ${counted(d.wrong, "erro")}"><div class="day-wrong" style="height:${d.wrong / max * 100}%"></div><div class="day-correct" style="height:${d.correct / max * 100}%"></div></div><small>${d.day.slice(8)}/${d.day.slice(5, 7)}</small></div>`).join("")}</div></section>
+    <section class="stats-card"><div class="section-heading"><h2>Desempenho por assunto</h2><span class="tiny">Cada tentativa conta</span></div><div class="performance-list">${rows.map(row => `<div class="performance-row"><div><strong>${escapeHtml(row.module.title)}</strong><small>${counted(row.total, "resposta")} · ${counted(row.correct, "acerto")} · ${counted(row.wrong, "erro")}</small></div><div class="performance-result"><strong>${row.accuracy === null ? "—" : `${row.accuracy}%`}</strong><div class="progress-track"><div class="progress-fill" style="width:${row.accuracy || 0}%"></div></div></div></div>`).join("")}</div></section>
+    ${attempts.length ? `<section class="stats-card"><h2>Respostas recentes</h2><div class="recent-list">${attempts.slice(-10).reverse().map(a => { const q = questionById.get(a.questionId); return `<div class="recent-row"><span class="result-icon ${a.correct ? "" : "wrong"}">${a.correct ? "✓" : "×"}</span><div><strong>ENEM ${q.year} · Questão ${q.index}</strong><small>${escapeHtml(q.moduleTitle)} · ${a.mode === "practice" ? "Prática" : "Lição"} · ${a.day.split("-").reverse().join("/")}</small></div><span>${formatDuration(a.durationMs || 0)}</span></div>`; }).join("")}</div></section>` : ""}
+    <p class="stats-note">Histórico salvo neste navegador, sem sincronização entre dispositivos. Os resultados detalhados começam com esta atualização.${state.legacyAnsweredCount ? ` As ${state.legacyAnsweredCount} respostas anteriores permanecem no progresso, mas não entram nas taxas por não terem acerto e tempo registrados.` : ""} O tempo mede apenas a questão aberta e visível, até a correção; leitura da resolução e questões puladas não entram.</p>
+  `;
+}
+
+function triMarkup(question) {
+  const score = difficultyScore(question);
+  if (score === null) return `<div class="tri-badge unavailable">Dificuldade TRI: indisponível${question.triUnavailable?.reason === "official_item_abandoned" ? " · item excluído da calibração oficial" : " para este item na base vinculada"}</div>`;
+  return `<details class="tri-details"><summary>Dificuldade TRI <strong>${score.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}</strong> <span>INEP · ${question.year}</span></summary><p>Quanto maior o valor, maior a dificuldade do item. Este valor não representa pontos ganhos ao acertar nem uma previsão de nota.</p><p>b original (escala 0,1): ${escapeHtml(question.tri.b)}. Conversão para a escala do ENEM: 500 + 100 × b. Item ${escapeHtml(question.tri.itemCode)} · Prova ${escapeHtml(question.tri.examCode)}.</p><a class="source-link" href="${escapeHtml(question.tri.sourceUrl)}" target="_blank" rel="noreferrer">Consultar parâmetros oficiais ↗</a> · <a class="source-link" href="${escapeHtml(catalog.tri.scale.methodologyUrl)}" target="_blank" rel="noreferrer">Metodologia do INEP ↗</a></details>`;
+}
+
+function markStudyDay() {
+  const today = localDay();
+  if (state.lastStudyDay === today) return;
+  const yesterday = new Date(new Date(`${today}T12:00:00Z`).getTime() - 86400000).toISOString().slice(0, 10);
+  state.streak = state.lastStudyDay === yesterday ? state.streak + 1 : 1;
+  state.lastStudyDay = today;
+}
+
+function stopQuestionTimer() {
+  if (!quiz || quiz.checked || quiz.timerStartedAt === null) return;
+  quiz.elapsedMs += Math.max(0, Date.now() - quiz.timerStartedAt);
+  quiz.timerStartedAt = null;
+}
+
+function startQuestionTimer() {
+  if (quiz && !quiz.checked && !quiz.ended && !document.hidden && quiz.timerStartedAt === null) quiz.timerStartedAt = Date.now();
+}
+
+function resetQuestionTimer() {
+  quiz.elapsedMs = 0;
+  quiz.timerStartedAt = null;
+  startQuestionTimer();
+}
+
+function recordAttempt(question, correct) {
+  const at = new Date().toISOString();
+  state.attempts.push({ questionId: question.id, answer: quiz.selected, correct, at, day: localDay(), durationMs: Math.round(quiz.elapsedMs), mode: quiz.practice ? "practice" : "lesson", courseId: data.id });
+  markStudyDay();
+}
+
+function drawPracticeQuestion() {
+  const byId = new Map(data.questions.map(q => [q.id, q]));
+  const previous = quiz.questions[quiz.index]?.id;
+  while (quiz.queue.length) {
+    const question = byId.get(quiz.queue.shift());
+    if (question && questionMatches(question, quiz.filters)) return question;
+  }
+  const eligible = filteredPracticeQuestions(quiz.filters);
+  if (!eligible.length) return null;
+  quiz.cycle += 1;
+  quiz.queue = shuffle(eligible).map(q => q.id);
+  if (quiz.queue.length > 1 && quiz.queue[0] === previous) [quiz.queue[0], quiz.queue[1]] = [quiz.queue[1], quiz.queue[0]];
+  showToast("Seleção percorrida. Começando uma nova rodada aleatória.");
+  return byId.get(quiz.queue.shift());
+}
+
+function endPractice(exhausted = false) {
+  if (!quiz?.practice) return;
+  stopQuestionTimer();
+  const answered = quiz.answeredCount;
+  const accuracy = answered ? Math.round(quiz.correct / answered * 100) : null;
+  quiz.ended = true;
+  modal.innerHTML = `<div class="quiz-shell"><div class="finish-card"><div class="finish-burst">${exhausted ? "✓" : "↗"}</div><h1 tabindex="-1">${exhausted ? "Seleção concluída!" : "Prática encerrada"}</h1><p>${exhausted ? "Não restam questões que atendam aos filtros atuais. Ajuste sua seleção para continuar." : "Cada resposta corrigida já está salva no seu desempenho."}</p><div class="finish-stats"><div class="finish-stat"><strong>${answered}</strong><span>Respondidas</span></div><div class="finish-stat"><strong>${accuracy === null ? "—" : `${accuracy}%`}</strong><span>Acerto</span></div><div class="finish-stat"><strong>${quiz.skipped}</strong><span>Puladas</span></div></div><p>${counted(quiz.correct, "acerto")} · ${counted(answered - quiz.correct, "erro")} · ${formatDuration(quiz.totalDurationMs)} respondendo</p><div class="finish-actions"><button class="button" data-action="finish">Voltar aos filtros</button><button class="button secondary" data-action="view-performance">Ver desempenho</button></div></div></div>`;
+  modal.querySelector("h1").focus();
+}
+
+function skipPracticeQuestion() {
+  if (!quiz?.practice || quiz.checked || quiz.ended) return;
+  quiz.skipped += 1;
+  advancePractice();
+}
+
+function advancePractice() {
+  const question = drawPracticeQuestion();
+  if (!question) { endPractice(true); return; }
+  quiz.questions.push(question);
+  quiz.index += 1;
+  quiz.selected = null;
+  quiz.checked = false;
+  resetQuestionTimer();
+  renderQuestion();
+  modal.querySelector("h1").focus({ preventScroll: true });
+  modal.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderAchievements() {
@@ -311,6 +506,7 @@ function renderAbout() {
     </div>
     <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
     <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
+    <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa 500 + 100 × b; não é uma previsão da nota do aluno.</div>
     <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Fisio, não comentários oficiais do INEP. O Fisio não é afiliado ao Duolingo.</div>
   `;
 }
@@ -320,6 +516,7 @@ function renderPage(resetScroll = true) {
     item.classList.toggle("active", item.dataset.view === activeView);
   });
   if (activeView === "praticar") renderPractice();
+  else if (activeView === "desempenho") renderPerformance();
   else if (activeView === "conquistas") renderAchievements();
   else if (activeView === "sobre") renderAbout();
   else renderLearn();
@@ -328,7 +525,12 @@ function renderPage(resetScroll = true) {
 }
 
 function shuffle(items) {
-  return [...items].sort(() => Math.random() - 0.5);
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }
 
 function openModal(label) {
@@ -386,18 +588,29 @@ function startLesson(lessonId, customQuestions) {
     selected: null,
     checked: false,
     correct: 0,
+    practice: false,
   };
+  if (!quiz.questions?.length) { quiz = null; return; }
+  resetQuestionTimer();
   openModal(lesson.title);
   renderQuestion();
   modal.querySelector("h1").focus();
 }
 
 function startPractice() {
-  const missed = state.missed
-    .map((id) => data.questions.find((question) => question.id === id))
-    .filter(Boolean);
-  const filler = shuffle(data.questions.filter((question) => !state.missed.includes(question.id)));
-  startLesson(null, [...shuffle(missed), ...filler].slice(0, 5));
+  const filters = practiceFilters();
+  const pool = shuffle(filteredPracticeQuestions(filters));
+  if (!pool.length) { showToast("Nenhuma questão corresponde aos filtros. Ajuste sua seleção."); return; }
+  quiz = {
+    practice: true, filters: { ...filters }, queue: pool.slice(1).map(q => q.id), cycle: 1,
+    lesson: { title: "Prática contínua", module: { title: data.title } },
+    questions: [pool[0]], index: 0, selected: null, checked: false, correct: 0,
+    answeredCount: 0, skipped: 0, totalDurationMs: 0,
+  };
+  resetQuestionTimer();
+  openModal("Prática contínua");
+  renderQuestion();
+  modal.querySelector("h1").focus();
 }
 
 function renderQuestion() {
@@ -406,12 +619,11 @@ function renderQuestion() {
   modal.innerHTML = `
     <div class="quiz-shell">
       <div class="quiz-topbar">
-        <button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button>
-        <div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div>
-        <div class="quiz-hearts">♥ ${state.hearts}</div>
+        ${quiz.practice ? `<button class="text-button" data-action="end-practice">Encerrar prática</button><span class="session-counter">${counted(quiz.answeredCount, "respondida")} · ${counted(quiz.correct, "acerto")}</span><span class="session-round">Rodada ${quiz.cycle}</span>` : `<button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button><div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div><div class="quiz-hearts">♥ ${state.hearts}</div>`}
       </div>
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
+        <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
         ${question.skill ? `<div class="question-skill"><strong>${question.areaId === "matematica" ? "MT" : "CN"} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
         <h1 tabindex="-1">${escapeHtml(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
@@ -447,30 +659,33 @@ function renderExplanation(question) {
 
 function renderQuizFooter(question) {
   if (!quiz.checked) {
-    return `<footer class="quiz-footer"><div class="quiz-footer-inner"><button class="button" data-action="check" ${quiz.selected ? "" : "disabled"}>Verificar</button></div></footer>`;
+    return `<footer class="quiz-footer"><div class="quiz-footer-inner">${quiz.practice ? '<button class="text-button" data-action="skip-question">Pular questão</button>' : ""}<button class="button" data-action="check" ${quiz.selected ? "" : "disabled"}>Verificar</button></div></footer>`;
   }
   const correct = quiz.selected === question.correctAlternative;
   return `
     <footer class="quiz-footer ${correct ? "success" : "error"}">
       <div class="quiz-footer-inner">
         <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>Confira a resolução comentada antes de continuar.</span></div>
-        <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
+        <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.practice ? "Próxima questão" : quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
       </div>
     </footer>
   `;
 }
 
 function selectAnswer(letter) {
-  if (quiz.checked) return;
+  if (!quiz || quiz.checked || quiz.ended) return;
   quiz.selected = letter;
   renderQuestion();
 }
 
 function checkAnswer() {
-  if (!quiz.selected || quiz.checked) return;
+  if (!quiz?.selected || quiz.checked || quiz.ended) return;
   const question = quiz.questions[quiz.index];
   const correct = quiz.selected === question.correctAlternative;
+  stopQuestionTimer();
+  recordAttempt(question, correct);
   quiz.checked = true;
+  if (quiz.practice) { quiz.answeredCount += 1; quiz.totalDurationMs += quiz.elapsedMs; }
   state.answered.push(question.id);
   if (correct) {
     quiz.correct += 1;
@@ -478,7 +693,7 @@ function checkAnswer() {
     state.todayXp += 10;
     state.missed = state.missed.filter((id) => id !== question.id);
   } else {
-    state.hearts = Math.max(0, state.hearts - 1);
+    if (!quiz.practice) state.hearts = Math.max(0, state.hearts - 1);
     if (!state.missed.includes(question.id)) state.missed.push(question.id);
   }
   saveState();
@@ -489,10 +704,13 @@ function checkAnswer() {
 }
 
 function nextQuestion() {
+  if (!quiz?.checked || quiz.ended) return;
+  if (quiz.practice) { advancePractice(); return; }
   if (quiz.index < quiz.questions.length - 1) {
     quiz.index += 1;
     quiz.selected = null;
     quiz.checked = false;
+    resetQuestionTimer();
     renderQuestion();
     modal.querySelector("h1").focus({ preventScroll: true });
     modal.scrollTo({ top: 0, behavior: "smooth" });
@@ -502,6 +720,8 @@ function nextQuestion() {
 }
 
 function finishLesson() {
+  if (!quiz || quiz.ended) return;
+  quiz.ended = true;
   const lesson = quiz.lesson;
   const isCourseLesson = lessons.some((item) => item.id === lesson.id);
   const earnedBonus = isCourseLesson && !state.completed.includes(lesson.id);
@@ -510,12 +730,7 @@ function finishLesson() {
     state.xp += 20;
     state.todayXp += 20;
   }
-  const today = localDay();
-  if (state.lastStudyDay !== today) {
-    const yesterday = new Date(new Date(`${today}T12:00:00Z`).getTime() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-    state.streak = state.lastStudyDay === yesterday ? state.streak + 1 : 1;
-    state.lastStudyDay = today;
-  }
+  markStudyDay();
   const accuracy = Math.round((quiz.correct / quiz.questions.length) * 100);
   saveState();
   modal.innerHTML = `
@@ -571,6 +786,15 @@ document.addEventListener("click", (event) => {
   const action = event.target.closest("[data-action]")?.dataset.action;
   if (action === "continue") startLesson(nextLesson().id);
   if (action === "practice") startPractice();
+  if (action === "reset-filters") { state.practiceFilters[data.id] = defaultPracticeFilters(); saveState(); renderPractice(); }
+  if (action === "end-practice") endPractice();
+  if (action === "skip-question") skipPracticeQuestion();
+  if (action === "view-performance") { activeView = "desempenho"; history.replaceState(null, "", "#desempenho"); closeQuiz(); }
+  if (action === "favorite" && quiz && !quiz.ended) {
+    const id = quiz.questions[quiz.index].id;
+    state.favorites = state.favorites.includes(id) ? state.favorites.filter(item => item !== id) : [...state.favorites, id];
+    saveState(); renderQuestion(); modal.querySelector('[data-action="favorite"]').focus({ preventScroll: true });
+  }
   if (action === "close-intro") closeQuiz();
   if (action === "complete-intro") completeIntroduction();
   if (action === "close-quiz") {
@@ -584,7 +808,7 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("keydown", (event) => {
   if (modal.hidden) return;
-  if (event.key === "Escape") closeQuiz();
+  if (event.key === "Escape") { if (quiz?.practice && !quiz.ended) endPractice(); else closeQuiz(); return; }
   if (event.key !== "Tab") return;
   const focusable = [...modal.querySelectorAll('button:not(:disabled), a[href], summary, [tabindex="0"]')];
   const first = focusable[0];
@@ -597,6 +821,8 @@ document.addEventListener("keydown", (event) => {
 });
 
 document.addEventListener("change", (event) => {
+  if (event.target.id === "stats-period") { statsPeriod = event.target.value; renderPerformance(); app.querySelector("#stats-period").focus({ preventScroll: true }); return; }
+  if (event.target.id === "stats-mode") { statsMode = event.target.value; renderPerformance(); app.querySelector("#stats-mode").focus({ preventScroll: true }); return; }
   if (event.target.id === "unit-select") {
     const unit = app.querySelector(`#unit-${event.target.value}`);
     if (unit) { unit.scrollIntoView({ block: "start", behavior: "smooth" }); unit.querySelector("h2").focus({ preventScroll: true }); }
@@ -604,10 +830,23 @@ document.addEventListener("change", (event) => {
   }
   if (event.target.id !== "course-select") return;
   setCourse(event.target.value);
-  activeView = "aprender";
-  history.replaceState(null, "", "#aprender");
+  if (!["praticar", "desempenho"].includes(activeView)) activeView = "aprender";
+  history.replaceState(null, "", `#${activeView}`);
   renderPage();
   app.querySelector("#course-select").focus({ preventScroll: true });
+});
+
+document.addEventListener("submit", (event) => {
+  if (event.target.id !== "practice-filters") return;
+  event.preventDefault();
+  const values = Object.fromEntries(new FormData(event.target));
+  state.practiceFilters[data.id] = { ...defaultPracticeFilters(), ...values };
+  saveState(); renderPractice();
+  app.querySelector(".practice-launch").scrollIntoView({ block: "nearest", behavior: "smooth" });
+});
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) stopQuestionTimer(); else startQuestionTimer();
 });
 
 window.addEventListener("hashchange", () => {

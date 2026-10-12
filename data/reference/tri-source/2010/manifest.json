@@ -1,0 +1,32 @@
+{
+  "year": 2010,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2010.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 524230395,
+    "lastModified": "Wed, 10 Aug 2022 17:39:08 GMT",
+    "etag": "\"1f3f1efb-5e5e686a8c700\""
+  },
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2010.xlsx",
+      "file": "data/reference/tri-source/2010/Dicionário_Microdados_Enem_2010.xlsx",
+      "size": 35690,
+      "sha256": "5637b1073338b05cb3c9a8be2a04bc94e4c67eace7b35f1133abc7b8df1a44f8"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia-me_ENEM_2010.pdf",
+      "file": "data/reference/tri-source/2010/Leia-me_ENEM_2010.pdf",
+      "size": 296916,
+      "sha256": "051d9ba99b76b9ce06c552119fb16f438e3eccd1eace25bf1baf63ffe4053a0d"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2010.csv",
+      "file": "data/reference/tri-source/2010/ITENS_PROVA_2010.csv",
+      "size": 84874,
+      "sha256": "bf297cad3e15d28979c229827cc6233ab23d593ab17067bc97353441cdbbfa18"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 379456
+}

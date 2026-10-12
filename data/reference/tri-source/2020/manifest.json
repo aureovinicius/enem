@@ -1,0 +1,32 @@
+{
+  "year": 2020,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 620776982,
+    "lastModified": "Wed, 16 Feb 2022 20:04:45 GMT",
+    "etag": "\"25004e16-5d82829323140\""
+  },
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2020.xlsx",
+      "file": "data/reference/tri-source/2020/Dicionário_Microdados_Enem_2020.xlsx",
+      "size": 34063,
+      "sha256": "b7d8ff22bb029c241d2192205191d5393b832b49199de90adf2d637645356e04"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2020.pdf",
+      "file": "data/reference/tri-source/2020/Leia_Me_Enem_2020.pdf",
+      "size": 197806,
+      "sha256": "f47d18fb991fb55d86371bba98304a1980f15d1275017c763653d9547500738f"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2020.csv",
+      "file": "data/reference/tri-source/2020/ITENS_PROVA_2020.csv",
+      "size": 263233,
+      "sha256": "57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 296221
+}

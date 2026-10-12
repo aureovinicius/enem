@@ -1,0 +1,32 @@
+{
+  "year": 2017,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2017.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 826156087,
+    "lastModified": "Wed, 22 Jun 2022 12:31:47 GMT",
+    "etag": "\"313e2437-5e208854412c0\""
+  },
+  "members": [
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2017.pdf",
+      "file": "data/reference/tri-source/2017/Leia_Me_Enem_2017.pdf",
+      "size": 201545,
+      "sha256": "e159af7a7c4e3f7ff2c7a072ca3ad0684af8d5e4448dcf39fc82406f4fa3c6db"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2017.csv",
+      "file": "data/reference/tri-source/2017/ITENS_PROVA_2017.csv",
+      "size": 107228,
+      "sha256": "bd6a258576b65be0b64ba5cee3fc8c4576e008af7672c90c4c79f3abeb6e2e0f"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2017.xlsx",
+      "file": "data/reference/tri-source/2017/Dicionário_Microdados_Enem_2017.xlsx",
+      "size": 30215,
+      "sha256": "edda195b44ed3b4524cf6ebe5c5ac7e03541b984d3b9050865d92898b68f8edb"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 259751
+}

@@ -1,0 +1,32 @@
+{
+  "year": 2021,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2021.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 498188358,
+    "lastModified": "Wed, 10 Aug 2022 20:20:27 GMT",
+    "etag": "\"1db1c046-5e5e8c79298c0\""
+  },
+  "members": [
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2021.pdf",
+      "file": "data/reference/tri-source/2021/Leia_Me_Enem_2021.pdf",
+      "size": 202406,
+      "sha256": "9e1762b373a3bd435903ed0310750e2495fe8032777889327b84eed78e92233d"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2021.csv",
+      "file": "data/reference/tri-source/2021/ITENS_PROVA_2021.csv",
+      "size": 311039,
+      "sha256": "94b1dedbe1b32cab244dcf8b7dee13a8a4c651e0edb45ca6f2d3178297efef1f"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2021.xlsx",
+      "file": "data/reference/tri-source/2021/Dicionário_Microdados_Enem_2021.xlsx",
+      "size": 34534,
+      "sha256": "faed27b63ae8bcb1bde20b3e8cefb6bd72374935881af2163077bdd3e539775b"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 265323
+}

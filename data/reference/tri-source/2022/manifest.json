@@ -1,0 +1,32 @@
+{
+  "year": 2022,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2022.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 620743609,
+    "lastModified": "Thu, 08 Aug 2024 13:18:43 GMT",
+    "etag": "\"24ffcbb9-61f2bdda692c0\""
+  },
+  "members": [
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2022.pdf",
+      "file": "data/reference/tri-source/2022/Leia_Me_Enem_2022.pdf",
+      "size": 203539,
+      "sha256": "f798b337e347bda613d10fc95c3547dce49ec6ec19422e9704c40d02e1563f32"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2022.csv",
+      "file": "data/reference/tri-source/2022/ITENS_PROVA_2022.csv",
+      "size": 315206,
+      "sha256": "58c274f15013094f950ac813fe61c29ea68a557e48e013e45ba2b3abec629400"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2022.xlsx",
+      "file": "data/reference/tri-source/2022/Dicionário_Microdados_Enem_2022.xlsx",
+      "size": 55513,
+      "sha256": "b3b19a4250b60388022808679f40d7d8737d379c520883209117fcb0fd5a0fcf"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 322786
+}

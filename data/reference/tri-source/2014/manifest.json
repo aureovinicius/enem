@@ -1,0 +1,32 @@
+{
+  "year": 2014,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2014.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 1048837079,
+    "lastModified": "Thu, 07 Jul 2022 17:59:12 GMT",
+    "etag": "\"3e83fbd7-5e33ad7d19c00\""
+  },
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2014.xlsx",
+      "file": "data/reference/tri-source/2014/Dicionário_Microdados_Enem_2014.xlsx",
+      "size": 40008,
+      "sha256": "d9f5f6ca4de5ca3f104375c31340eac475203089ea668ebbd5af234aff20e21e"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2014.pdf",
+      "file": "data/reference/tri-source/2014/Leia_Me_Enem_2014.pdf",
+      "size": 149135,
+      "sha256": "3ebc32dc17145b7e5f00a67a78aa3e2ad5839db2c1cdaecdde0146062b66c1e9"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2014.csv",
+      "file": "data/reference/tri-source/2014/ITENS_PROVA_2014.csv",
+      "size": 95423,
+      "sha256": "d584838cc6683c8990b371cf5d94586640609c1606ea62aa32d4b87b842c1f6e"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 243292
+}

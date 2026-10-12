@@ -1,0 +1,32 @@
+{
+  "year": 2023,
+  "sourceUrl": "https://download.inep.gov.br/microdados/microdados_enem_2023.zip",
+  "indexUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "archive": {
+    "size": 549511687,
+    "lastModified": "Thu, 09 Jul 2026 21:55:51 GMT",
+    "etag": "\"20c0e207-65634affac7c0\""
+  },
+  "members": [
+    {
+      "name": "microdados_enem_2023/DADOS/ITENS_PROVA_2023.csv",
+      "file": "data/reference/tri-source/2023/ITENS_PROVA_2023.csv",
+      "size": 330709,
+      "sha256": "27b19a80c78071a3ef49b87aa3b89b17cfbeffcf1fa4f1899913d36a54652468"
+    },
+    {
+      "name": "microdados_enem_2023/DICIONÁRIO/Dicionário_Microdados_Enem_2023.xlsx",
+      "file": "data/reference/tri-source/2023/Dicionário_Microdados_Enem_2023.xlsx",
+      "size": 32897,
+      "sha256": "1411ad89784f7f960dc1c1fc13b0d22eee696e2613cb762072665fa547ae6cf6"
+    },
+    {
+      "name": "microdados_enem_2023/LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2023.pdf",
+      "file": "data/reference/tri-source/2023/Leia_Me_Enem_2023.pdf",
+      "size": 195032,
+      "sha256": "d2e0c39ba2223562b3bdc41f1d14ff77ad5c5d45018e9afb1a109103be14938b"
+    }
+  ],
+  "excludedCandidateData": true,
+  "bytesTransferred": 318266
+}

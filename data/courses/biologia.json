@@ -14,11 +14,33 @@
         "duration": "4 min",
         "summary": "Um ecossistema reúne organismos, recursos e condições físicas. Entender suas conexões ajuda a prever o efeito de uma intervenção.",
         "sections": [
-          {"title": "Energia flui; matéria circula", "text": "Produtores incorporam energia e fabricam matéria orgânica. Consumidores obtêm essa matéria pela alimentação; decompositores devolvem nutrientes ao ambiente. A cada transferência, parte da energia é dissipada como calor, enquanto elementos químicos participam de ciclos.", "formula": "Produtores → consumidores → decompositores", "notation": "As setas indicam transferência pela alimentação; nutrientes também retornam aos produtores pelo ambiente."},
-          {"title": "Populações precisam de espaço e conexões", "text": "A fragmentação reduz o hábitat e pode isolar populações. Corredores ecológicos facilitam deslocamento e fluxo gênico. Espécies exóticas invasoras podem disputar recursos e substituir espécies nativas; ser exótica não significa automaticamente ser invasora.", "formula": "Conectividade → deslocamento e fluxo gênico", "notation": "Fluxo gênico é a passagem de alelos entre populações por reprodução."},
-          {"title": "Ler sinais de degradação", "text": "Esgoto rico em matéria orgânica aumenta a atividade de decompositores e a demanda bioquímica de oxigênio. A queda do oxigênio dissolvido prejudica organismos aquáticos. Contaminantes persistentes também podem alcançar concentrações elevadas nos níveis tróficos superiores.", "formula": "Mais matéria orgânica → maior DBO → consumo de O₂", "notation": "DBO é a demanda bioquímica de oxigênio; OD é o oxigênio dissolvido disponível na água."}
+          {
+            "title": "Energia flui; matéria circula",
+            "text": "Produtores incorporam energia e fabricam matéria orgânica. Consumidores obtêm essa matéria pela alimentação; decompositores devolvem nutrientes ao ambiente. A cada transferência, parte da energia é dissipada como calor, enquanto elementos químicos participam de ciclos.",
+            "formula": "Produtores → consumidores → decompositores",
+            "notation": "As setas indicam transferência pela alimentação; nutrientes também retornam aos produtores pelo ambiente."
+          },
+          {
+            "title": "Populações precisam de espaço e conexões",
+            "text": "A fragmentação reduz o hábitat e pode isolar populações. Corredores ecológicos facilitam deslocamento e fluxo gênico. Espécies exóticas invasoras podem disputar recursos e substituir espécies nativas; ser exótica não significa automaticamente ser invasora.",
+            "formula": "Conectividade → deslocamento e fluxo gênico",
+            "notation": "Fluxo gênico é a passagem de alelos entre populações por reprodução."
+          },
+          {
+            "title": "Ler sinais de degradação",
+            "text": "Esgoto rico em matéria orgânica aumenta a atividade de decompositores e a demanda bioquímica de oxigênio. A queda do oxigênio dissolvido prejudica organismos aquáticos. Contaminantes persistentes também podem alcançar concentrações elevadas nos níveis tróficos superiores.",
+            "formula": "Mais matéria orgânica → maior DBO → consumo de O₂",
+            "notation": "DBO é a demanda bioquímica de oxigênio; OD é o oxigênio dissolvido disponível na água."
+          }
         ],
-        "example": {"title": "Um rio após receber esgoto", "steps": ["O esgoto acrescenta matéria orgânica ao rio.", "Microrganismos aeróbios degradam essa matéria e consomem oxigênio.", "A DBO aumenta; o OD pode cair e limitar a sobrevivência dos peixes."]},
+        "example": {
+          "title": "Um rio após receber esgoto",
+          "steps": [
+            "O esgoto acrescenta matéria orgânica ao rio.",
+            "Microrganismos aeróbios degradam essa matéria e consomem oxigênio.",
+            "A DBO aumenta; o OD pode cair e limitar a sobrevivência dos peixes."
+          ]
+        },
         "pitfall": "Não confunda DBO alta com água rica em oxigênio: ela indica uma demanda de consumo, e pode acompanhar OD baixo."
       }
     },
@@ -32,11 +54,33 @@
         "duration": "4 min",
         "summary": "Estruturas celulares realizam funções específicas, e alterações nessas estruturas ajudam a explicar resultados experimentais.",
         "sections": [
-          {"title": "Membranas controlam trocas", "text": "A membrana é seletivamente permeável. Na osmose, a água atravessa a membrana em resposta à diferença de concentração efetiva de solutos. Uma célula vegetal em meio hipotônico recebe água; seu vacúolo aumenta e a parede celular limita a expansão.", "formula": "Meio hipotônico → entrada de água → turgescência", "notation": "Hipotônico: meio com menor concentração efetiva de solutos que o interior da célula."},
-          {"title": "Enzimas dependem de estrutura", "text": "Enzimas aceleram reações ao reduzir a energia de ativação. Sua estrutura tridimensional permite reconhecer substratos. Temperatura e pH podem modificar essa estrutura e reduzir a atividade. A enzima não é consumida a cada reação.", "formula": "Enzima + substrato ⇄ complexo → enzima + produto", "notation": "A mesma enzima pode participar de vários ciclos catalíticos."},
-          {"title": "ATP liga a obtenção ao uso de energia", "text": "Na respiração aeróbia, a cadeia transportadora de elétrons contribui para formar um gradiente de prótons na mitocôndria. O retorno desses prótons pela ATP sintase permite produzir ATP. Na fotossíntese, a energia luminosa sustenta a produção de matéria orgânica e a liberação de oxigênio.", "formula": "Gradiente de H⁺ → ATP sintase → ATP", "notation": "ATP é um intermediário usado para acoplar a liberação e o consumo de energia nos processos celulares."}
+          {
+            "title": "Membranas controlam trocas",
+            "text": "A membrana é seletivamente permeável. Na osmose, a água atravessa a membrana em resposta à diferença de concentração efetiva de solutos. Uma célula vegetal em meio hipotônico recebe água; seu vacúolo aumenta e a parede celular limita a expansão.",
+            "formula": "Meio hipotônico → entrada de água → turgescência",
+            "notation": "Hipotônico: meio com menor concentração efetiva de solutos que o interior da célula."
+          },
+          {
+            "title": "Enzimas dependem de estrutura",
+            "text": "Enzimas aceleram reações ao reduzir a energia de ativação. Sua estrutura tridimensional permite reconhecer substratos. Temperatura e pH podem modificar essa estrutura e reduzir a atividade. A enzima não é consumida a cada reação.",
+            "formula": "Enzima + substrato ⇄ complexo → enzima + produto",
+            "notation": "A mesma enzima pode participar de vários ciclos catalíticos."
+          },
+          {
+            "title": "ATP liga a obtenção ao uso de energia",
+            "text": "Na respiração aeróbia, a cadeia transportadora de elétrons contribui para formar um gradiente de prótons na mitocôndria. O retorno desses prótons pela ATP sintase permite produzir ATP. Na fotossíntese, a energia luminosa sustenta a produção de matéria orgânica e a liberação de oxigênio.",
+            "formula": "Gradiente de H⁺ → ATP sintase → ATP",
+            "notation": "ATP é um intermediário usado para acoplar a liberação e o consumo de energia nos processos celulares."
+          }
         ],
-        "example": {"title": "Um bloqueio na cadeia respiratória", "steps": ["Uma substância impede a transferência de elétrons ao oxigênio.", "A oxidação de NADH fica dificultada, e NADH pode acumular.", "A manutenção do gradiente e a produção de ATP por fosforilação oxidativa diminuem."]},
+        "example": {
+          "title": "Um bloqueio na cadeia respiratória",
+          "steps": [
+            "Uma substância impede a transferência de elétrons ao oxigênio.",
+            "A oxidação de NADH fica dificultada, e NADH pode acumular.",
+            "A manutenção do gradiente e a produção de ATP por fosforilação oxidativa diminuem."
+          ]
+        },
         "pitfall": "Identifique qual etapa foi afetada: glicólise, ciclo de Krebs e fosforilação oxidativa são processos relacionados, mas distintos."
       }
     },
@@ -50,11 +94,33 @@
         "duration": "4 min",
         "summary": "Genes participam da produção de moléculas funcionais. A herança transmite variantes desses genes, e a biotecnologia permite estudá-las e utilizá-las.",
         "sections": [
-          {"title": "Expressão da informação", "text": "Na expressão de um gene codificador de proteína, o DNA é transcrito em RNA mensageiro, que é traduzido nos ribossomos. A sequência de códons orienta a sequência de aminoácidos. Um códon de parada encerra a tradução sem acrescentar aminoácido.", "formula": "DNA → RNA mensageiro → proteína", "notation": "Transcrição produz RNA; tradução produz uma cadeia de aminoácidos."},
-          {"title": "Herança e probabilidade", "text": "Em um modelo autossômico recessivo, heterozigotos podem portar um alelo associado a uma doença sem manifestá-la. Dois heterozigotos podem gerar descendentes AA, Aa ou aa. As probabilidades se aplicam a cada gestação, não garantem uma distribuição exata em uma família.", "formula": "Aa × Aa → ¼ AA + ½ Aa + ¼ aa", "notation": "A é o alelo dominante e a o recessivo, neste modelo de um único gene."},
-          {"title": "Técnicas respondem a perguntas diferentes", "text": "PCR amplifica sequências de DNA. Para investigar um vírus de RNA por PCR, primeiro se produz DNA complementar por transcrição reversa. Transgenia introduz material genético de outra origem; terapia gênica busca modificar uma função celular para tratar uma condição.", "formula": "RNA → cDNA → amplificação por PCR", "notation": "cDNA significa DNA complementar, produzido a partir de um molde de RNA."}
+          {
+            "title": "Expressão da informação",
+            "text": "Na expressão de um gene codificador de proteína, o DNA é transcrito em RNA mensageiro, que é traduzido nos ribossomos. A sequência de códons orienta a sequência de aminoácidos. Um códon de parada encerra a tradução sem acrescentar aminoácido.",
+            "formula": "DNA → RNA mensageiro → proteína",
+            "notation": "Transcrição produz RNA; tradução produz uma cadeia de aminoácidos."
+          },
+          {
+            "title": "Herança e probabilidade",
+            "text": "Em um modelo autossômico recessivo, heterozigotos podem portar um alelo associado a uma doença sem manifestá-la. Dois heterozigotos podem gerar descendentes AA, Aa ou aa. As probabilidades se aplicam a cada gestação, não garantem uma distribuição exata em uma família.",
+            "formula": "Aa × Aa → ¼ AA + ½ Aa + ¼ aa",
+            "notation": "A é o alelo dominante e a o recessivo, neste modelo de um único gene."
+          },
+          {
+            "title": "Técnicas respondem a perguntas diferentes",
+            "text": "PCR amplifica sequências de DNA. Para investigar um vírus de RNA por PCR, primeiro se produz DNA complementar por transcrição reversa. Transgenia introduz material genético de outra origem; terapia gênica busca modificar uma função celular para tratar uma condição.",
+            "formula": "RNA → cDNA → amplificação por PCR",
+            "notation": "cDNA significa DNA complementar, produzido a partir de um molde de RNA."
+          }
         ],
-        "example": {"title": "Uma mutação cria um ponto final", "steps": ["Considere um códon CAA no RNA mensageiro.", "A substituição de sua primeira base por U produz UAA.", "Como UAA é um códon de parada, a tradução termina antes e pode gerar uma proteína menor."]},
+        "example": {
+          "title": "Uma mutação cria um ponto final",
+          "steps": [
+            "Considere um códon CAA no RNA mensageiro.",
+            "A substituição de sua primeira base por U produz UAA.",
+            "Como UAA é um códon de parada, a tradução termina antes e pode gerar uma proteína menor."
+          ]
+        },
         "pitfall": "Gene, alelo, cromossomo e código genético não são sinônimos. Uma mutação em um gene não significa alterar a regra universal de tradução dos códons."
       }
     },
@@ -68,11 +134,33 @@
         "duration": "4 min",
         "summary": "A evolução envolve mudanças hereditárias em populações ao longo das gerações. Estruturas e comportamentos podem favorecer sobrevivência e reprodução em determinados ambientes.",
         "sections": [
-          {"title": "Seleção atua sobre variações", "text": "Indivíduos de uma população variam. Quando parte dessa variação é hereditária e influencia o sucesso reprodutivo, sua frequência pode mudar ao longo das gerações. A necessidade de um organismo não orienta o surgimento da mutação que ele precisa.", "formula": "Variação hereditária + reprodução diferencial → mudança populacional", "notation": "A seleção favorece características em determinado contexto ambiental; não produz uma escala de seres mais ou menos evoluídos."},
-          {"title": "Isolamento e formação de espécies", "text": "Uma barreira geográfica pode reduzir o fluxo gênico entre populações. Com o tempo, elas podem divergir. Se não voltarem a trocar genes de forma efetiva após a remoção da barreira, o isolamento reprodutivo indica uma separação biológica consolidada.", "formula": "Isolamento → divergência → possível isolamento reprodutivo", "notation": "O isolamento geográfico pode iniciar o processo, mas não garante sozinho que novas espécies se formem."},
-          {"title": "Estruturas permitem novos modos de vida", "text": "Revestimentos menos permeáveis ajudam animais terrestres a limitar a perda de água. Nas plantas com sementes, o tubo polínico conduz os gametas masculinos até o gameta feminino, reduzindo a dependência de água externa na fecundação. Tecidos como floema e xilema distribuem substâncias pelo corpo vegetal.", "formula": "Floema: transporte de compostos orgânicos; xilema: água e sais", "notation": "A função deve ser relacionada à estrutura e ao problema ambiental apresentado."}
+          {
+            "title": "Seleção atua sobre variações",
+            "text": "Indivíduos de uma população variam. Quando parte dessa variação é hereditária e influencia o sucesso reprodutivo, sua frequência pode mudar ao longo das gerações. A necessidade de um organismo não orienta o surgimento da mutação que ele precisa.",
+            "formula": "Variação hereditária + reprodução diferencial → mudança populacional",
+            "notation": "A seleção favorece características em determinado contexto ambiental; não produz uma escala de seres mais ou menos evoluídos."
+          },
+          {
+            "title": "Isolamento e formação de espécies",
+            "text": "Uma barreira geográfica pode reduzir o fluxo gênico entre populações. Com o tempo, elas podem divergir. Se não voltarem a trocar genes de forma efetiva após a remoção da barreira, o isolamento reprodutivo indica uma separação biológica consolidada.",
+            "formula": "Isolamento → divergência → possível isolamento reprodutivo",
+            "notation": "O isolamento geográfico pode iniciar o processo, mas não garante sozinho que novas espécies se formem."
+          },
+          {
+            "title": "Estruturas permitem novos modos de vida",
+            "text": "Revestimentos menos permeáveis ajudam animais terrestres a limitar a perda de água. Nas plantas com sementes, o tubo polínico conduz os gametas masculinos até o gameta feminino, reduzindo a dependência de água externa na fecundação. Tecidos como floema e xilema distribuem substâncias pelo corpo vegetal.",
+            "formula": "Floema: transporte de compostos orgânicos; xilema: água e sais",
+            "notation": "A função deve ser relacionada à estrutura e ao problema ambiental apresentado."
+          }
         ],
-        "example": {"title": "Um comportamento de defesa se torna frequente", "steps": ["Alguns indivíduos apresentam uma característica hereditária que dificulta sua captura.", "Nas condições do ambiente, eles deixam em média mais descendentes.", "Ao longo das gerações, a característica pode se tornar mais frequente na população."]},
+        "example": {
+          "title": "Um comportamento de defesa se torna frequente",
+          "steps": [
+            "Alguns indivíduos apresentam uma característica hereditária que dificulta sua captura.",
+            "Nas condições do ambiente, eles deixam em média mais descendentes.",
+            "Ao longo das gerações, a característica pode se tornar mais frequente na população."
+          ]
+        },
         "pitfall": "Não atribua intenção à evolução: organismos não desenvolvem uma adaptação simplesmente porque perceberam que precisavam dela."
       }
     },
@@ -86,55 +174,1307 @@
         "duration": "4 min",
         "summary": "O corpo regula suas condições internas com sistemas de comunicação, transporte e defesa. Na saúde coletiva, compreender ciclos de transmissão permite escolher intervenções.",
         "sections": [
-          {"title": "Coordenação nervosa e hormonal", "text": "O sistema nervoso transmite sinais entre receptores, centros integradores e órgãos efetores. Alguns reflexos são integrados na medula espinal. Hormônios circulam e atuam em células com receptores adequados; suas concentrações variam conforme mecanismos de regulação.", "formula": "Receptor → integração → resposta do efetor", "notation": "Efetores incluem músculos e glândulas; uma resposta reflexa não exige uma decisão consciente prévia."},
-          {"title": "Transporte sustenta o metabolismo", "text": "O sangue leva oxigênio e nutrientes aos tecidos. A hemoglobina das hemácias transporta oxigênio, necessário ao metabolismo aeróbio. Tecidos de atividade prolongada dependem de suprimento contínuo e de capacidade de produzir ATP.", "formula": "Ventilação + circulação + respiração celular → oferta de energia", "notation": "Respiração celular é um processo metabólico; ventilação é a movimentação de ar nos pulmões."},
-          {"title": "Defesa e prevenção", "text": "O sistema imune reconhece antígenos. Vacinas podem apresentar um antígeno ou instruções para produzi-lo, favorecendo uma resposta específica e memória imunológica. Intervenções contra vetores atuam em fases do ciclo de vida ou em sua capacidade de transmitir patógenos.", "formula": "Reconhecimento do antígeno → resposta específica e memória", "notation": "Vetor transmite o agente infeccioso; agente etiológico é o organismo ou vírus causador da doença."}
+          {
+            "title": "Coordenação nervosa e hormonal",
+            "text": "O sistema nervoso transmite sinais entre receptores, centros integradores e órgãos efetores. Alguns reflexos são integrados na medula espinal. Hormônios circulam e atuam em células com receptores adequados; suas concentrações variam conforme mecanismos de regulação.",
+            "formula": "Receptor → integração → resposta do efetor",
+            "notation": "Efetores incluem músculos e glândulas; uma resposta reflexa não exige uma decisão consciente prévia."
+          },
+          {
+            "title": "Transporte sustenta o metabolismo",
+            "text": "O sangue leva oxigênio e nutrientes aos tecidos. A hemoglobina das hemácias transporta oxigênio, necessário ao metabolismo aeróbio. Tecidos de atividade prolongada dependem de suprimento contínuo e de capacidade de produzir ATP.",
+            "formula": "Ventilação + circulação + respiração celular → oferta de energia",
+            "notation": "Respiração celular é um processo metabólico; ventilação é a movimentação de ar nos pulmões."
+          },
+          {
+            "title": "Defesa e prevenção",
+            "text": "O sistema imune reconhece antígenos. Vacinas podem apresentar um antígeno ou instruções para produzi-lo, favorecendo uma resposta específica e memória imunológica. Intervenções contra vetores atuam em fases do ciclo de vida ou em sua capacidade de transmitir patógenos.",
+            "formula": "Reconhecimento do antígeno → resposta específica e memória",
+            "notation": "Vetor transmite o agente infeccioso; agente etiológico é o organismo ou vírus causador da doença."
+          }
         ],
-        "example": {"title": "Interromper a transmissão da dengue", "steps": ["O mosquito passa por fases aquáticas antes de se tornar adulto.", "Uma intervenção que impede o desenvolvimento das larvas reduz o recrutamento de adultos.", "Uma outra estratégia pode reduzir a carga viral do mosquito, diminuindo sua capacidade de transmissão."]},
+        "example": {
+          "title": "Interromper a transmissão da dengue",
+          "steps": [
+            "O mosquito passa por fases aquáticas antes de se tornar adulto.",
+            "Uma intervenção que impede o desenvolvimento das larvas reduz o recrutamento de adultos.",
+            "Uma outra estratégia pode reduzir a carga viral do mosquito, diminuindo sua capacidade de transmissão."
+          ]
+        },
         "pitfall": "Identifique o alvo da intervenção: matar larvas, bloquear um vírus e estimular a imunidade humana são mecanismos diferentes."
       }
     }
   ],
   "questions": [
-    {"id":"2020-95","moduleId":"bio-ecologia","competency":3,"skill":12,"explanation":{"concept":"Fragmentação e corredores ecológicos","steps":["A fragmentação separa populações em áreas pequenas, limitando deslocamento, acesso a recursos e encontro entre parceiros reprodutivos. O isolamento pode aumentar o risco de extinção local mesmo sem caça.","Corredores ecológicos conectam os fragmentos e favorecem a circulação dos animais e o fluxo gênico. Essa medida enfrenta diretamente o isolamento das ilhas de hábitat, justificando a alternativa C."],"takeaway":"Conservar uma população exige considerar o tamanho e a conexão entre seus hábitats."}},
-    {"id":"2020-119","moduleId":"bio-ecologia","competency":3,"skill":10,"explanation":{"concept":"DBO como indicador de matéria orgânica","steps":["O lançamento de esgoto introduz matéria orgânica que será degradada por microrganismos aeróbios. Quanto maior essa carga, maior tende a ser a demanda bioquímica de oxigênio, ou DBO.","O ponto 1 tem a maior DBO do gráfico, aproximadamente 12 mg/L, indicando a maior disponibilidade de matéria orgânica recém-lançada. O menor OD aparece mais adiante, após o consumo pelo processo de decomposição. Portanto, o ponto mais próximo do despejo é 1, alternativa A."],"takeaway":"O local de maior DBO pode anteceder o local de menor oxigênio dissolvido ao longo do rio."}},
-    {"id":"2020-127","moduleId":"bio-ecologia","competency":8,"skill":30,"explanation":{"concept":"Espécies pioneiras na restauração","steps":["As pioneiras conseguem ocupar áreas abertas e solos pouco favoráveis, formando rapidamente uma cobertura vegetal. Essa cobertura reduz a exposição direta do solo ao sol e ao vento.","Ao diminuir a evaporação e favorecer o acúmulo de matéria orgânica, a vegetação ajuda a estabilizar a umidade do solo. Isso facilita a instalação de outras espécies na sucessão ecológica, correspondendo à alternativa C."],"takeaway":"Plantas pioneiras modificam as condições do local e podem facilitar a chegada de outras espécies."}},
-    {"id":"2021-104","moduleId":"bio-ecologia","competency":3,"skill":10,"explanation":{"concept":"Biomagnificação de contaminantes","steps":["Contaminantes persistentes que são pouco eliminados podem se acumular nos organismos. Pela alimentação, um consumidor recebe as substâncias acumuladas em várias presas.","Entre os grupos apresentados, os golfinhos ocupam um nível trófico superior, alimentando-se de outros consumidores. No processo de biomagnificação considerado na questão, eles concentram mais contaminantes, justificando a alternativa B."],"takeaway":"Biomagnificação é o aumento da concentração de certos contaminantes ao longo dos níveis tróficos."}},
-    {"id":"2021-110","moduleId":"bio-ecologia","competency":3,"skill":9,"explanation":{"concept":"Fermentação e produção de combustíveis","steps":["O enunciado descreve a degradação de matéria orgânica com rendimento energético menor que o da respiração aeróbia, produzindo substâncias que ainda contêm energia aproveitável.","Na fermentação alcoólica, por exemplo, açúcares são transformados em etanol e gás carbônico. O etanol pode ser usado como combustível, relacionando o processo aos combustíveis mencionados. A alternativa B, fermentação, é correta."],"takeaway":"Produtos da fermentação podem conservar energia química que não foi integralmente aproveitada pelo organismo."}},
-    {"id":"2022-99","moduleId":"bio-ecologia","competency":3,"skill":12,"explanation":{"concept":"Invasão biológica e substituição de espécies","steps":["Uma espécie introduzida pode se estabelecer e disputar espaço, luz, água e nutrientes com plantas nativas. Se sua expansão for intensa, altera a composição original da comunidade.","No caso proposto, o risco à biodiversidade está na ocupação de áreas nativas e na substituição parcial da flora original. Essa é a alternativa A; a mera presença de mais uma espécie não garante aumento da diversidade local no longo prazo."],"takeaway":"Espécies exóticas podem reduzir a diversidade quando sua expansão desloca componentes da comunidade nativa."}},
-    {"id":"2023-91","moduleId":"bio-ecologia","competency":8,"skill":30,"explanation":{"concept":"Recursos florais e conservação de polinizadores","steps":["As sementes germinadas dão origem a plantas nativas que podem produzir flores. Nessas flores, as abelhas encontram recursos alimentares, especialmente néctar e pólen.","Aumentar a presença dessas plantas amplia a oferta de alimento e ajuda a sustentar as colônias. Esse efeito é diretamente relacionado à proposta das bombas de sementes e corresponde à alternativa D."],"takeaway":"A conservação de polinizadores inclui a manutenção de plantas que fornecem seus recursos alimentares."}},
-    {"id":"2023-115","moduleId":"bio-ecologia","competency":8,"skill":29,"explanation":{"concept":"Fitorremediação por acúmulo de metais","steps":["O aguapé retira os metais do ambiente e os incorpora ao corpo. Metais são elementos químicos e não podem ser destruídos por digestão enzimática ou convertidos em energia pela planta.","Por isso, os contaminantes captados ficam acumulados nos tecidos vegetais, alternativa B. Sua retirada do ambiente exige considerar também o manejo da biomassa contaminada; a simples absorção não elimina o elemento químico."],"takeaway":"Na fitorremediação de metais, ocorre transferência e concentração do poluente na biomassa, não sua degradação."}},
-    {"id":"2020-121","moduleId":"bio-celulas","competency":4,"skill":15,"explanation":{"concept":"Bactérias aeróbias como indicador de fotossíntese","steps":["As bactérias do experimento necessitam de oxigênio para o metabolismo aeróbio. Elas se concentram nas regiões em que a alga libera mais oxigênio, funcionando como um indicador indireto da atividade fotossintética.","Na figura, a concentração mais intensa de bactérias aparece na região iluminada pelo vermelho. Logo, entre as alternativas, essa faixa indica a maior taxa de fotossíntese no experimento: alternativa E."],"takeaway":"Em um experimento, o comportamento de um organismo pode indicar uma substância produzida por outro."}},
-    {"id":"2022-114","moduleId":"bio-celulas","competency":4,"skill":14,"explanation":{"concept":"Osmose e vacúolo vegetal","steps":["Em um meio hipotônico, a concentração efetiva de solutos fora da célula é menor que no seu interior. A água entra por osmose, aumentando o conteúdo hídrico da célula e do vacúolo.","O aumento do volume vacuolar distribui o pigmento em uma quantidade maior de água e reduz sua concentração. A parede celular oferece resistência à expansão, de modo que a resposta esperada é aumento do vacúolo com diluição do pigmento, alternativa C."],"takeaway":"A entrada de água pode diluir o conteúdo de uma organela sem produzir nem eliminar o pigmento."}},
-    {"id":"2022-120","moduleId":"bio-celulas","competency":5,"skill":17,"explanation":{"concept":"Temperatura e atividade enzimática","steps":["Os ensaios variam somente a temperatura. A tabela mostra atividade máxima entre os valores medidos a 15 °C, de 10,5 × 10⁻¹² mol/min, e queda da atividade em temperaturas superiores, chegando a 3,1 × 10⁻¹² mol/min a 35 °C.","A temperatura pode modificar a estrutura tridimensional da catalase e prejudicar o encaixe e a ação sobre o substrato. Assim, a alternativa E explica a diferença de atividade. Não há indicação de mudança de pH nem de consumo da enzima."],"takeaway":"A atividade de uma enzima depende de sua estrutura e das condições do meio, não apenas da quantidade de substrato."}},
-    {"id":"2022-121","moduleId":"bio-celulas","competency":5,"skill":18,"explanation":{"concept":"Diferenças entre células fúngicas e bacterianas","steps":["Fungos são eucariontes e possuem microtúbulos que participam do fuso mitótico e da separação das cromátides. Bactérias não realizam mitose com esse fuso.","O antimicrobiano 2 atua nos microtúbulos e impede a segregação das cromátides. Entre os mecanismos da tabela, ele permite atingir a divisão das células fúngicas sem bloquear o mesmo processo na microbiota bacteriana, correspondendo à alternativa B."],"takeaway":"A seletividade de uma intervenção depende de diferenças estruturais ou metabólicas entre os organismos."}},
-    {"id":"2022-127","moduleId":"bio-celulas","competency":4,"skill":14,"explanation":{"concept":"Desacoplamento da fosforilação oxidativa","steps":["Na mitocôndria, a cadeia respiratória estabelece um gradiente de prótons. O retorno de H⁺ pela ATP sintase normalmente fornece a energia para produzir ATP na fosforilação oxidativa.","A termogenina permite dissipar esse gradiente por outra via, reduzindo o acoplamento à síntese de ATP e liberando energia como calor. A etapa afetada é, portanto, a fosforilação oxidativa, alternativa E."],"takeaway":"O gradiente de prótons pode ser usado para produzir ATP ou dissipado com produção de calor."}},
-    {"id":"2023-127","moduleId":"bio-celulas","competency":4,"skill":15,"explanation":{"concept":"Bloqueio do transporte de elétrons","steps":["O NADH é oxidado a NAD⁺ quando fornece elétrons para a cadeia respiratória. O funcionamento contínuo da cadeia depende da transferência final desses elétrons ao oxigênio.","Ao bloquear a citocromo c oxidase, o cianeto impede o escoamento dos elétrons e dificulta a oxidação de NADH. Com menor consumo dessa forma reduzida, sua concentração aumenta. A alternativa C é correta; a produção de ATP pela cadeia, ao contrário, diminui."],"takeaway":"Bloquear uma etapa pode provocar acúmulo de moléculas que seriam consumidas nas etapas anteriores."}},
-    {"id":"2023-134","moduleId":"bio-celulas","competency":5,"skill":19,"explanation":{"concept":"Micronúcleos e segregação cromossômica","steps":["Durante a divisão celular, os cromossomos devem ser distribuídos para os núcleos das células-filhas. Fragmentos cromossômicos ou cromossomos que não acompanham essa distribuição podem ficar separados do núcleo principal.","Esse material pode ser envolvido por membrana e formar um micronúcleo. Como o conteúdo é DNA proveniente da segregação mitótica, a origem indicada é cromossômica, alternativa E, e não ribossomos ou lisossomos."],"takeaway":"Micronúcleos podem sinalizar danos cromossômicos ou falhas na distribuição dos cromossomos."}},
-    {"id":"2023-107","moduleId":"bio-celulas","competency":4,"skill":14,"explanation":{"concept":"Acrossomo e fecundação","steps":["O acrossomo, localizado na cabeça do espermatozoide, contém enzimas que participam da travessia das camadas que envolvem o ovócito.","Ao inibir essas enzimas, o experimento impede a passagem eficiente pela corona radiata e pela zona pelúcida. O bloqueio ocorre antes da fusão das membranas dos gametas e da formação do zigoto, justificando a alternativa D."],"takeaway":"A função de uma estrutura pode ser identificada observando qual etapa deixa de ocorrer quando ela é bloqueada."}},
-    {"id":"2020-115","moduleId":"bio-genetica","competency":3,"skill":11,"explanation":{"concept":"Transgenia e produção de moléculas","steps":["A estratégia descrita insere no genoma da soja um gene que permite produzir uma molécula de interesse farmacológico. O gene introduzido passa a ser expresso pelas células vegetais.","A introdução desse material genético caracteriza a transgenia, alternativa B. Não se trata de corrigir uma doença da própria planta por terapia gênica nem de apenas cruzar duas variedades."],"takeaway":"Plantas transgênicas podem atuar como produtoras de moléculas codificadas por genes introduzidos."}},
-    {"id":"2020-125","moduleId":"bio-genetica","competency":4,"skill":13,"explanation":{"concept":"Equilíbrio genético no sistema ABO","steps":["Em equilíbrio genético, o grupo O tem frequência r² = 0,25, então r = 0,5. Os indivíduos A homozigotos têm p² = 0,16, então p = 0,4. Como p + q + r = 1, q = 0,1.","A frequência do grupo B é q² + 2qr = 0,01 + 2 × 0,1 × 0,5 = 0,11, ou 11%. Na compatibilidade de hemácias considerando apenas ABO, uma pessoa B pode receber dos grupos B e O.","Somando 11% de B aos 25% de O, obtêm-se 36% de doadores compatíveis no modelo da questão: alternativa D."],"takeaway":"Calcule primeiro as frequências dos alelos e depois os fenótipos que atendem à condição pedida."}},
-    {"id":"2021-96","moduleId":"bio-genetica","competency":4,"skill":13,"explanation":{"concept":"Mutação e interrupção da tradução","steps":["O quarto códon da sequência é CAA. Substituir sua primeira base, C, por U transforma-o em UAA, um dos códons de parada informados.","A tradução passa a terminar no quarto códon, depois dos três aminoácidos codificados por AUG, UUU e GUU. O códon de parada não acrescenta um aminoácido. Essa interrupção mais precoce produz a menor proteína entre as mutações propostas, alternativa B."],"takeaway":"Uma substituição de uma única base pode criar um códon de parada e encurtar a proteína."}},
-    {"id":"2021-112","moduleId":"bio-genetica","competency":3,"skill":11,"explanation":{"concept":"Consanguinidade e planejamento reprodutivo","steps":["Animais aparentados têm maior probabilidade de compartilhar alelos, inclusive variantes recessivas associadas a doenças. Seus cruzamentos podem aumentar a ocorrência de descendentes homozigotos para essas variantes.","O mapeamento genético fornece informações para identificar relações e variantes relevantes antes de organizar os cruzamentos. Assim, ajuda a separar os animais de forma a reduzir os problemas descritos, sendo a alternativa E."],"takeaway":"Informação genética pode orientar cruzamentos que reduzam a expressão de condições recessivas."}},
-    {"id":"2021-132","moduleId":"bio-genetica","competency":4,"skill":13,"explanation":{"concept":"Herança autossômica recessiva","steps":["O gene está no cromossomo 10, um autossomo. Pais sem manifestação podem portar o alelo da doença, o que é compatível com indivíduos heterozigotos Aa.","No cruzamento Aa × Aa, os genótipos esperados são ¼ AA, ½ Aa e ¼ aa. Apenas aa manifesta a condição nesse modelo, explicando a chance de um em quatro. Portanto, a herança é recessiva, alternativa A."],"takeaway":"Pais portadores sem manifestação e risco de 25% sugerem herança recessiva de um gene."}},
-    {"id":"2022-98","moduleId":"bio-genetica","competency":8,"skill":29,"explanation":{"concept":"Terapia gênica e expressão de uma cópia funcional","steps":["O vetor viral leva uma cópia funcional do gene RPE65 às células da retina. A finalidade não é liberar imediatamente uma proteína pronta, mas fornecer uma instrução genética que a célula possa utilizar.","A expressão dessa cópia permite produzir a enzima normal e recuperar a função afetada. Essa relação entre gene e produto é descrita na alternativa E; não exige mudar o código genético nem induzir mutações aleatórias benéficas."],"takeaway":"Uma terapia gênica pode restaurar uma função celular ao possibilitar a expressão de um gene funcional."}},
-    {"id":"2022-102","moduleId":"bio-genetica","competency":5,"skill":19,"explanation":{"concept":"Transcrição reversa antes da PCR","steps":["O SARS-CoV-2 possui RNA como material genético, enquanto a amplificação por PCR utiliza DNA como molde para a DNA polimerase.","Por isso é necessária uma etapa de transcrição reversa, que produz DNA complementar, ou cDNA, a partir do RNA viral. Esse cDNA pode então ser amplificado e detectado. A alternativa E indica essa conversão."],"takeaway":"Para pesquisar RNA com PCR, primeiro converta o RNA em DNA complementar."}},
-    {"id":"2022-125","moduleId":"bio-genetica","competency":4,"skill":13,"explanation":{"concept":"Inativação do X e expressividade variável","steps":["A inativação de um dos cromossomos X ocorre de forma aleatória em diferentes linhagens celulares. Uma mulher heterozigota pode, portanto, ter regiões com maior expressão do alelo normal e outras com maior expressão do alelo associado à doença.","A proporção e a distribuição dessas células influenciam a intensidade da manifestação. Essa variação de grau é chamada de expressividade variável, alternativa E; a inativação não altera a sequência do gene."],"takeaway":"O mesmo genótipo pode se manifestar em intensidades diferentes conforme o padrão de expressão nos tecidos."}},
-    {"id":"2020-101","moduleId":"bio-evolucao","competency":4,"skill":16,"explanation":{"concept":"Especiação e isolamento reprodutivo","steps":["A barreira I separa a população original em dois grupos que passam a divergir. No momento D, a barreira já desapareceu; portanto, ela não explica a manutenção da separação em D1.","Em D1, os grupos continuam distintos apesar de compartilharem a região. A interpretação é que surgiu isolamento reprodutivo, impedindo a mistura genética efetiva. Isso corresponde à alternativa C; em D2, o desenho representa a mistura dos grupos."],"takeaway":"A permanência da separação após o contato pode revelar isolamento reprodutivo."}},
-    {"id":"2020-104","moduleId":"bio-evolucao","competency":8,"skill":28,"explanation":{"concept":"Impermeabilização das penas","steps":["A lavagem remove o petróleo, mas também pode retirar substâncias oleosas e cerosas que ajudam a impermeabilizar as penas. Sem essa proteção, as penas se encharcam mais facilmente.","A camada impermeabilizante precisa ser refeita para ajudar a conservar o ar entre as penas e a capacidade de flutuação. Essa necessidade é indicada na alternativa E, mesmo após alimentação, aquecimento e tratamento das aves."],"takeaway":"Uma adaptação estrutural pode depender de revestimentos que precisam ser restaurados após uma intervenção."}},
-    {"id":"2020-118","moduleId":"bio-evolucao","competency":8,"skill":28,"explanation":{"concept":"Revestimento corporal e vida terrestre","steps":["Um desafio importante para organismos terrestres é evitar perda excessiva de água. O exoesqueleto quitinoso dos aracnídeos, associado ao seu revestimento, ajuda a limitar essa perda.","Assim, ele favorece o controle hídrico em diferentes ambientes terrestres, como afirma a alternativa C. Circulação aberta e sistema nervoso ganglionar não constituem barreiras contra desidratação."],"takeaway":"Ao avaliar uma adaptação, relacione sua função ao desafio imposto pelo ambiente."}},
-    {"id":"2021-93","moduleId":"bio-evolucao","competency":4,"skill":16,"explanation":{"concept":"Seleção natural e mimetismo","steps":["A semelhança do polvo com outros animais pode dificultar sua identificação ou afastar predadores. Indivíduos que apresentam uma defesa eficaz tendem a sobreviver e deixar mais descendentes nessas condições.","Ao longo das gerações, a seleção pode favorecer os comportamentos associados a essa vantagem. A alternativa E relaciona corretamente a manutenção da característica às pressões seletivas; observar outros animais não explica por si só sua origem evolutiva."],"takeaway":"Características defensivas se tornam frequentes quando favorecem o sucesso reprodutivo em um ambiente."}},
-    {"id":"2021-123","moduleId":"bio-evolucao","competency":8,"skill":29,"explanation":{"concept":"Auxinas e enraizamento de estacas","steps":["Uma estaca de caule precisa desenvolver raízes para absorver água e sais e se estabelecer como nova planta. Essas raízes se originam de um órgão que não é uma raiz preexistente.","Na técnica descrita, a aplicação de auxinas favorece a formação dessas raízes adventícias na porção inferior do caule. Esse efeito corresponde à alternativa D e explica a melhora da propagação das roseiras."],"takeaway":"Hormônios vegetais podem ser usados para favorecer etapas específicas da propagação de plantas."}},
-    {"id":"2022-110","moduleId":"bio-evolucao","competency":4,"skill":16,"explanation":{"concept":"Diversidade de estratégias reprodutivas","steps":["As espécies descritas combinam diferentes números de gametas, locais de desenvolvimento e graus de cuidado parental. Produzir muitos descendentes com pouca proteção e produzir poucos com maior proteção são estratégias distintas.","Essas combinações podem favorecer o sucesso reprodutivo em contextos diferentes, como afirma a alternativa D. Os exemplos não estabelecem uma escala de evolução nem mostram que o cuidado parental seja indispensável em todas as espécies."],"takeaway":"O sucesso reprodutivo pode resultar de diferentes combinações entre quantidade de descendentes e investimento em proteção."}},
-    {"id":"2023-103","moduleId":"bio-evolucao","competency":8,"skill":28,"explanation":{"concept":"Tubo polínico e fecundação terrestre","steps":["Em grupos vegetais dependentes de água externa para a fecundação, gametas masculinos precisam se deslocar por uma película de água até o gameta feminino.","O tubo polínico estabelece uma via de transporte dos gametas masculinos até o local da fecundação. Assim, a reprodução deixa de depender desse deslocamento em água externa. A estrutura pedida é o tubo polínico, alternativa D, e não o fruto ou a semente formados posteriormente."],"takeaway":"O tubo polínico permite transportar gametas masculinos sem exigir uma película externa de água."}},
-    {"id":"2023-105","moduleId":"bio-evolucao","competency":4,"skill":14,"explanation":{"concept":"Floema e nutrição das raízes","steps":["O floema transporta compostos orgânicos produzidos nas folhas para partes consumidoras ou armazenadoras, como as raízes. Ele faz parte dos tecidos retirados quando se remove a casca.","Um anel completo interrompe esse transporte ao redor de todo o tronco. As raízes deixam de receber adequadamente os açúcares de que dependem, comprometendo a sobrevivência da planta. A alternativa E identifica a interrupção da nutrição das raízes."],"takeaway":"Remover um anel de floema pode impedir o abastecimento de compostos orgânicos às raízes."}},
-    {"id":"2021-114","moduleId":"bio-saude","competency":4,"skill":14,"explanation":{"concept":"Arco reflexo medular","steps":["A estimulação do reflexo patelar ativa receptores relacionados ao estiramento muscular. A informação sensorial chega à medula espinal, onde se conecta ao circuito que aciona a resposta motora.","Esse circuito produz a contração e a extensão da perna sem depender de uma decisão consciente prévia do encéfalo. A região integradora pedida é a medula, alternativa B."],"takeaway":"Um reflexo pode ser integrado na medula espinal e ocorrer antes da percepção consciente do estímulo."}},
-    {"id":"2021-118","moduleId":"bio-saude","competency":8,"skill":30,"explanation":{"concept":"Controle do mosquito na fase larval","steps":["O enunciado descreve ingestão da substância com a água do criadouro e lesão do tubo digestório. Essa alimentação no ambiente aquático ocorre na fase larval do mosquito.","Ao danificar fatalmente as larvas, a intervenção impede que elas completem seu desenvolvimento e deem origem a adultos. Portanto, a ação é o impedimento do desenvolvimento da larva, alternativa D, e não repelir o mosquito adulto."],"takeaway":"Identifique a fase do ciclo de vida pela alimentação, pelo ambiente e pela estrutura atingida."}},
-    {"id":"2022-104","moduleId":"bio-saude","competency":4,"skill":14,"explanation":{"concept":"Eritropoietina e transporte de oxigênio","steps":["A eritropoietina estimula a eritropoiese, isto é, a formação de hemácias. Essas células contêm hemoglobina, responsável por transportar grande parte do oxigênio no sangue.","O aumento da quantidade de hemácias amplia a capacidade de transporte de oxigênio aos tecidos, favorecendo o metabolismo aeróbio na situação descrita. Essa relação direta corresponde à alternativa E, sem exigir aumento da capacidade pulmonar."],"takeaway":"Uma alteração hormonal pode afetar o desempenho ao modificar a capacidade de transporte do sangue."}},
-    {"id":"2022-132","moduleId":"bio-saude","competency":8,"skill":29,"explanation":{"concept":"Competição intracelular e controle da dengue","steps":["O enunciado informa que Wolbachia e o vírus utilizam o ambiente intracelular do mosquito e necessitam de recursos comuns. A presença da bactéria pode restringir recursos disponíveis para a multiplicação viral.","A redução da carga viral é explicada, no modelo da questão, pela competição no hospedeiro. Essa é a alternativa D. A bactéria não precisa predar o vírus nem inserir seu material genético no mosquito para produzir o efeito descrito."],"takeaway":"Interações entre microrganismos dentro de um vetor podem alterar sua capacidade de transmissão."}},
-    {"id":"2023-95","moduleId":"bio-saude","competency":8,"skill":28,"explanation":{"concept":"Músculos vermelhos e atividade prolongada","steps":["A ampla vascularização dos músculos vermelhos facilita o fornecimento contínuo de oxigênio e nutrientes. Suas características favorecem a produção aeróbia de ATP necessária ao trabalho muscular prolongado.","Durante a migração, esse suporte permite sustentar elevada atividade metabólica por longas distâncias. Assim, os músculos favorecem o metabolismo corpóreo elevado, alternativa B; o texto não estabelece que sua função seja maximizar a velocidade de voo."],"takeaway":"Atividade muscular prolongada depende de suprimento e capacidade de produção contínua de ATP."}},
-    {"id":"2023-101","moduleId":"bio-saude","competency":4,"skill":14,"explanation":{"concept":"Corpo lúteo e ciclo ovariano","steps":["Após a ovulação, o folículo origina o corpo lúteo, que participa da produção de progesterona e estrógenos. Esses hormônios ajudam a manter o endométrio durante a fase lútea.","Na ausência de manutenção do corpo lúteo por uma gestação, ele regride e sua produção hormonal diminui. Essa regressão explica a queda pré-menstrual descrita, sendo a alternativa A."],"takeaway":"A regressão do corpo lúteo está associada à queda hormonal no final de um ciclo sem gestação."}},
-    {"id":"2023-106","moduleId":"bio-saude","competency":3,"skill":11,"explanation":{"concept":"Vacinas de RNA mensageiro","steps":["Após chegar ao citoplasma, o RNA mensageiro é utilizado pelos ribossomos como molde para produzir uma proteína viral. A proteção lipídica ajuda a preservar e entregar essa molécula.","A proteína produzida funciona como antígeno e desencadeia a resposta imunológica específica. Esse mecanismo corresponde à alternativa C; a função do RNAm não exige sua incorporação ao genoma do hospedeiro."],"takeaway":"Uma vacina de RNAm fornece uma instrução temporária para que as células produzam um antígeno."}},
-    {"id":"2022-133","moduleId":"bio-saude","competency":8,"skill":29,"explanation":{"concept":"Reconhecimento de antígeno tumoral","steps":["O protozoário modificado produz uma molécula também encontrada nas células tumorais. O sistema imune entra em contato com essa molécula durante a resposta ao organismo utilizado no experimento.","Ao reconhecer o mesmo antígeno nas células tumorais, a resposta induzida pode também atingi-las. O mecanismo depende da apresentação de um antígeno específico, alternativa D, e não apenas da ativação inespecífica da imunidade inata."],"takeaway":"Apresentar um antígeno compartilhado pode direcionar uma resposta imune contra células que também o expressam."}}
+    {
+      "id": "2020-95",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Fragmentação e corredores ecológicos",
+        "steps": [
+          "A fragmentação separa populações em áreas pequenas, limitando deslocamento, acesso a recursos e encontro entre parceiros reprodutivos. O isolamento pode aumentar o risco de extinção local mesmo sem caça.",
+          "Corredores ecológicos conectam os fragmentos e favorecem a circulação dos animais e o fluxo gênico. Essa medida enfrenta diretamente o isolamento das ilhas de hábitat, justificando a alternativa C."
+        ],
+        "takeaway": "Conservar uma população exige considerar o tamanho e a conexão entre seus hábitats."
+      }
+    },
+    {
+      "id": "2020-119",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "DBO como indicador de matéria orgânica",
+        "steps": [
+          "O lançamento de esgoto introduz matéria orgânica que será degradada por microrganismos aeróbios. Quanto maior essa carga, maior tende a ser a demanda bioquímica de oxigênio, ou DBO.",
+          "O ponto 1 tem a maior DBO do gráfico, aproximadamente 12 mg/L, indicando a maior disponibilidade de matéria orgânica recém-lançada. O menor OD aparece mais adiante, após o consumo pelo processo de decomposição. Portanto, o ponto mais próximo do despejo é 1, alternativa A."
+        ],
+        "takeaway": "O local de maior DBO pode anteceder o local de menor oxigênio dissolvido ao longo do rio."
+      }
+    },
+    {
+      "id": "2020-127",
+      "moduleId": "bio-ecologia",
+      "competency": 8,
+      "skill": 30,
+      "explanation": {
+        "concept": "Espécies pioneiras na restauração",
+        "steps": [
+          "As pioneiras conseguem ocupar áreas abertas e solos pouco favoráveis, formando rapidamente uma cobertura vegetal. Essa cobertura reduz a exposição direta do solo ao sol e ao vento.",
+          "Ao diminuir a evaporação e favorecer o acúmulo de matéria orgânica, a vegetação ajuda a estabilizar a umidade do solo. Isso facilita a instalação de outras espécies na sucessão ecológica, correspondendo à alternativa C."
+        ],
+        "takeaway": "Plantas pioneiras modificam as condições do local e podem facilitar a chegada de outras espécies."
+      }
+    },
+    {
+      "id": "2021-104",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Biomagnificação de contaminantes",
+        "steps": [
+          "Contaminantes persistentes que são pouco eliminados podem se acumular nos organismos. Pela alimentação, um consumidor recebe as substâncias acumuladas em várias presas.",
+          "Entre os grupos apresentados, os golfinhos ocupam um nível trófico superior, alimentando-se de outros consumidores. No processo de biomagnificação considerado na questão, eles concentram mais contaminantes, justificando a alternativa B."
+        ],
+        "takeaway": "Biomagnificação é o aumento da concentração de certos contaminantes ao longo dos níveis tróficos."
+      }
+    },
+    {
+      "id": "2021-110",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Fermentação e produção de combustíveis",
+        "steps": [
+          "O enunciado descreve a degradação de matéria orgânica com rendimento energético menor que o da respiração aeróbia, produzindo substâncias que ainda contêm energia aproveitável.",
+          "Na fermentação alcoólica, por exemplo, açúcares são transformados em etanol e gás carbônico. O etanol pode ser usado como combustível, relacionando o processo aos combustíveis mencionados. A alternativa B, fermentação, é correta."
+        ],
+        "takeaway": "Produtos da fermentação podem conservar energia química que não foi integralmente aproveitada pelo organismo."
+      }
+    },
+    {
+      "id": "2022-99",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Invasão biológica e substituição de espécies",
+        "steps": [
+          "Uma espécie introduzida pode se estabelecer e disputar espaço, luz, água e nutrientes com plantas nativas. Se sua expansão for intensa, altera a composição original da comunidade.",
+          "No caso proposto, o risco à biodiversidade está na ocupação de áreas nativas e na substituição parcial da flora original. Essa é a alternativa A; a mera presença de mais uma espécie não garante aumento da diversidade local no longo prazo."
+        ],
+        "takeaway": "Espécies exóticas podem reduzir a diversidade quando sua expansão desloca componentes da comunidade nativa."
+      }
+    },
+    {
+      "id": "2023-91",
+      "moduleId": "bio-ecologia",
+      "competency": 8,
+      "skill": 30,
+      "explanation": {
+        "concept": "Recursos florais e conservação de polinizadores",
+        "steps": [
+          "As sementes germinadas dão origem a plantas nativas que podem produzir flores. Nessas flores, as abelhas encontram recursos alimentares, especialmente néctar e pólen.",
+          "Aumentar a presença dessas plantas amplia a oferta de alimento e ajuda a sustentar as colônias. Esse efeito é diretamente relacionado à proposta das bombas de sementes e corresponde à alternativa D."
+        ],
+        "takeaway": "A conservação de polinizadores inclui a manutenção de plantas que fornecem seus recursos alimentares."
+      }
+    },
+    {
+      "id": "2023-115",
+      "moduleId": "bio-ecologia",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Fitorremediação por acúmulo de metais",
+        "steps": [
+          "O aguapé retira os metais do ambiente e os incorpora ao corpo. Metais são elementos químicos e não podem ser destruídos por digestão enzimática ou convertidos em energia pela planta.",
+          "Por isso, os contaminantes captados ficam acumulados nos tecidos vegetais, alternativa B. Sua retirada do ambiente exige considerar também o manejo da biomassa contaminada; a simples absorção não elimina o elemento químico."
+        ],
+        "takeaway": "Na fitorremediação de metais, ocorre transferência e concentração do poluente na biomassa, não sua degradação."
+      }
+    },
+    {
+      "id": "2020-121",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "Bactérias aeróbias como indicador de fotossíntese",
+        "steps": [
+          "As bactérias do experimento necessitam de oxigênio para o metabolismo aeróbio. Elas se concentram nas regiões em que a alga libera mais oxigênio, funcionando como um indicador indireto da atividade fotossintética.",
+          "Na figura, a concentração mais intensa de bactérias aparece na região iluminada pelo vermelho. Logo, entre as alternativas, essa faixa indica a maior taxa de fotossíntese no experimento: alternativa E."
+        ],
+        "takeaway": "Em um experimento, o comportamento de um organismo pode indicar uma substância produzida por outro."
+      }
+    },
+    {
+      "id": "2022-114",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Osmose e vacúolo vegetal",
+        "steps": [
+          "Em um meio hipotônico, a concentração efetiva de solutos fora da célula é menor que no seu interior. A água entra por osmose, aumentando o conteúdo hídrico da célula e do vacúolo.",
+          "O aumento do volume vacuolar distribui o pigmento em uma quantidade maior de água e reduz sua concentração. A parede celular oferece resistência à expansão, de modo que a resposta esperada é aumento do vacúolo com diluição do pigmento, alternativa C."
+        ],
+        "takeaway": "A entrada de água pode diluir o conteúdo de uma organela sem produzir nem eliminar o pigmento."
+      }
+    },
+    {
+      "id": "2022-120",
+      "moduleId": "bio-celulas",
+      "competency": 5,
+      "skill": 17,
+      "explanation": {
+        "concept": "Temperatura e atividade enzimática",
+        "steps": [
+          "Os ensaios variam somente a temperatura. A tabela mostra atividade máxima entre os valores medidos a 15 °C, de 10,5 × 10⁻¹² mol/min, e queda da atividade em temperaturas superiores, chegando a 3,1 × 10⁻¹² mol/min a 35 °C.",
+          "A temperatura pode modificar a estrutura tridimensional da catalase e prejudicar o encaixe e a ação sobre o substrato. Assim, a alternativa E explica a diferença de atividade. Não há indicação de mudança de pH nem de consumo da enzima."
+        ],
+        "takeaway": "A atividade de uma enzima depende de sua estrutura e das condições do meio, não apenas da quantidade de substrato."
+      }
+    },
+    {
+      "id": "2022-121",
+      "moduleId": "bio-celulas",
+      "competency": 5,
+      "skill": 18,
+      "explanation": {
+        "concept": "Diferenças entre células fúngicas e bacterianas",
+        "steps": [
+          "Fungos são eucariontes e possuem microtúbulos que participam do fuso mitótico e da separação das cromátides. Bactérias não realizam mitose com esse fuso.",
+          "O antimicrobiano 2 atua nos microtúbulos e impede a segregação das cromátides. Entre os mecanismos da tabela, ele permite atingir a divisão das células fúngicas sem bloquear o mesmo processo na microbiota bacteriana, correspondendo à alternativa B."
+        ],
+        "takeaway": "A seletividade de uma intervenção depende de diferenças estruturais ou metabólicas entre os organismos."
+      }
+    },
+    {
+      "id": "2022-127",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Desacoplamento da fosforilação oxidativa",
+        "steps": [
+          "Na mitocôndria, a cadeia respiratória estabelece um gradiente de prótons. O retorno de H⁺ pela ATP sintase normalmente fornece a energia para produzir ATP na fosforilação oxidativa.",
+          "A termogenina permite dissipar esse gradiente por outra via, reduzindo o acoplamento à síntese de ATP e liberando energia como calor. A etapa afetada é, portanto, a fosforilação oxidativa, alternativa E."
+        ],
+        "takeaway": "O gradiente de prótons pode ser usado para produzir ATP ou dissipado com produção de calor."
+      }
+    },
+    {
+      "id": "2023-127",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "Bloqueio do transporte de elétrons",
+        "steps": [
+          "O NADH é oxidado a NAD⁺ quando fornece elétrons para a cadeia respiratória. O funcionamento contínuo da cadeia depende da transferência final desses elétrons ao oxigênio.",
+          "Ao bloquear a citocromo c oxidase, o cianeto impede o escoamento dos elétrons e dificulta a oxidação de NADH. Com menor consumo dessa forma reduzida, sua concentração aumenta. A alternativa C é correta; a produção de ATP pela cadeia, ao contrário, diminui."
+        ],
+        "takeaway": "Bloquear uma etapa pode provocar acúmulo de moléculas que seriam consumidas nas etapas anteriores."
+      }
+    },
+    {
+      "id": "2023-134",
+      "moduleId": "bio-celulas",
+      "competency": 5,
+      "skill": 19,
+      "explanation": {
+        "concept": "Micronúcleos e segregação cromossômica",
+        "steps": [
+          "Durante a divisão celular, os cromossomos devem ser distribuídos para os núcleos das células-filhas. Fragmentos cromossômicos ou cromossomos que não acompanham essa distribuição podem ficar separados do núcleo principal.",
+          "Esse material pode ser envolvido por membrana e formar um micronúcleo. Como o conteúdo é DNA proveniente da segregação mitótica, a origem indicada é cromossômica, alternativa E, e não ribossomos ou lisossomos."
+        ],
+        "takeaway": "Micronúcleos podem sinalizar danos cromossômicos ou falhas na distribuição dos cromossomos."
+      }
+    },
+    {
+      "id": "2023-107",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Acrossomo e fecundação",
+        "steps": [
+          "O acrossomo, localizado na cabeça do espermatozoide, contém enzimas que participam da travessia das camadas que envolvem o ovócito.",
+          "Ao inibir essas enzimas, o experimento impede a passagem eficiente pela corona radiata e pela zona pelúcida. O bloqueio ocorre antes da fusão das membranas dos gametas e da formação do zigoto, justificando a alternativa D."
+        ],
+        "takeaway": "A função de uma estrutura pode ser identificada observando qual etapa deixa de ocorrer quando ela é bloqueada."
+      }
+    },
+    {
+      "id": "2020-115",
+      "moduleId": "bio-genetica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Transgenia e produção de moléculas",
+        "steps": [
+          "A estratégia descrita insere no genoma da soja um gene que permite produzir uma molécula de interesse farmacológico. O gene introduzido passa a ser expresso pelas células vegetais.",
+          "A introdução desse material genético caracteriza a transgenia, alternativa B. Não se trata de corrigir uma doença da própria planta por terapia gênica nem de apenas cruzar duas variedades."
+        ],
+        "takeaway": "Plantas transgênicas podem atuar como produtoras de moléculas codificadas por genes introduzidos."
+      }
+    },
+    {
+      "id": "2020-125",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Equilíbrio genético no sistema ABO",
+        "steps": [
+          "Em equilíbrio genético, o grupo O tem frequência r² = 0,25, então r = 0,5. Os indivíduos A homozigotos têm p² = 0,16, então p = 0,4. Como p + q + r = 1, q = 0,1.",
+          "A frequência do grupo B é q² + 2qr = 0,01 + 2 × 0,1 × 0,5 = 0,11, ou 11%. Na compatibilidade de hemácias considerando apenas ABO, uma pessoa B pode receber dos grupos B e O.",
+          "Somando 11% de B aos 25% de O, obtêm-se 36% de doadores compatíveis no modelo da questão: alternativa D."
+        ],
+        "takeaway": "Calcule primeiro as frequências dos alelos e depois os fenótipos que atendem à condição pedida."
+      }
+    },
+    {
+      "id": "2021-96",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Mutação e interrupção da tradução",
+        "steps": [
+          "O quarto códon da sequência é CAA. Substituir sua primeira base, C, por U transforma-o em UAA, um dos códons de parada informados.",
+          "A tradução passa a terminar no quarto códon, depois dos três aminoácidos codificados por AUG, UUU e GUU. O códon de parada não acrescenta um aminoácido. Essa interrupção mais precoce produz a menor proteína entre as mutações propostas, alternativa B."
+        ],
+        "takeaway": "Uma substituição de uma única base pode criar um códon de parada e encurtar a proteína."
+      }
+    },
+    {
+      "id": "2021-112",
+      "moduleId": "bio-genetica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Consanguinidade e planejamento reprodutivo",
+        "steps": [
+          "Animais aparentados têm maior probabilidade de compartilhar alelos, inclusive variantes recessivas associadas a doenças. Seus cruzamentos podem aumentar a ocorrência de descendentes homozigotos para essas variantes.",
+          "O mapeamento genético fornece informações para identificar relações e variantes relevantes antes de organizar os cruzamentos. Assim, ajuda a separar os animais de forma a reduzir os problemas descritos, sendo a alternativa E."
+        ],
+        "takeaway": "Informação genética pode orientar cruzamentos que reduzam a expressão de condições recessivas."
+      }
+    },
+    {
+      "id": "2021-132",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Herança autossômica recessiva",
+        "steps": [
+          "O gene está no cromossomo 10, um autossomo. Pais sem manifestação podem portar o alelo da doença, o que é compatível com indivíduos heterozigotos Aa.",
+          "No cruzamento Aa × Aa, os genótipos esperados são ¼ AA, ½ Aa e ¼ aa. Apenas aa manifesta a condição nesse modelo, explicando a chance de um em quatro. Portanto, a herança é recessiva, alternativa A."
+        ],
+        "takeaway": "Pais portadores sem manifestação e risco de 25% sugerem herança recessiva de um gene."
+      }
+    },
+    {
+      "id": "2022-98",
+      "moduleId": "bio-genetica",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Terapia gênica e expressão de uma cópia funcional",
+        "steps": [
+          "O vetor viral leva uma cópia funcional do gene RPE65 às células da retina. A finalidade não é liberar imediatamente uma proteína pronta, mas fornecer uma instrução genética que a célula possa utilizar.",
+          "A expressão dessa cópia permite produzir a enzima normal e recuperar a função afetada. Essa relação entre gene e produto é descrita na alternativa E; não exige mudar o código genético nem induzir mutações aleatórias benéficas."
+        ],
+        "takeaway": "Uma terapia gênica pode restaurar uma função celular ao possibilitar a expressão de um gene funcional."
+      }
+    },
+    {
+      "id": "2022-102",
+      "moduleId": "bio-genetica",
+      "competency": 5,
+      "skill": 19,
+      "explanation": {
+        "concept": "Transcrição reversa antes da PCR",
+        "steps": [
+          "O SARS-CoV-2 possui RNA como material genético, enquanto a amplificação por PCR utiliza DNA como molde para a DNA polimerase.",
+          "Por isso é necessária uma etapa de transcrição reversa, que produz DNA complementar, ou cDNA, a partir do RNA viral. Esse cDNA pode então ser amplificado e detectado. A alternativa E indica essa conversão."
+        ],
+        "takeaway": "Para pesquisar RNA com PCR, primeiro converta o RNA em DNA complementar."
+      }
+    },
+    {
+      "id": "2022-125",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Inativação do X e expressividade variável",
+        "steps": [
+          "A inativação de um dos cromossomos X ocorre de forma aleatória em diferentes linhagens celulares. Uma mulher heterozigota pode, portanto, ter regiões com maior expressão do alelo normal e outras com maior expressão do alelo associado à doença.",
+          "A proporção e a distribuição dessas células influenciam a intensidade da manifestação. Essa variação de grau é chamada de expressividade variável, alternativa E; a inativação não altera a sequência do gene."
+        ],
+        "takeaway": "O mesmo genótipo pode se manifestar em intensidades diferentes conforme o padrão de expressão nos tecidos."
+      }
+    },
+    {
+      "id": "2020-101",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Especiação e isolamento reprodutivo",
+        "steps": [
+          "A barreira I separa a população original em dois grupos que passam a divergir. No momento D, a barreira já desapareceu; portanto, ela não explica a manutenção da separação em D1.",
+          "Em D1, os grupos continuam distintos apesar de compartilharem a região. A interpretação é que surgiu isolamento reprodutivo, impedindo a mistura genética efetiva. Isso corresponde à alternativa C; em D2, o desenho representa a mistura dos grupos."
+        ],
+        "takeaway": "A permanência da separação após o contato pode revelar isolamento reprodutivo."
+      }
+    },
+    {
+      "id": "2020-104",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "Impermeabilização das penas",
+        "steps": [
+          "A lavagem remove o petróleo, mas também pode retirar substâncias oleosas e cerosas que ajudam a impermeabilizar as penas. Sem essa proteção, as penas se encharcam mais facilmente.",
+          "A camada impermeabilizante precisa ser refeita para ajudar a conservar o ar entre as penas e a capacidade de flutuação. Essa necessidade é indicada na alternativa E, mesmo após alimentação, aquecimento e tratamento das aves."
+        ],
+        "takeaway": "Uma adaptação estrutural pode depender de revestimentos que precisam ser restaurados após uma intervenção."
+      }
+    },
+    {
+      "id": "2020-118",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "Revestimento corporal e vida terrestre",
+        "steps": [
+          "Um desafio importante para organismos terrestres é evitar perda excessiva de água. O exoesqueleto quitinoso dos aracnídeos, associado ao seu revestimento, ajuda a limitar essa perda.",
+          "Assim, ele favorece o controle hídrico em diferentes ambientes terrestres, como afirma a alternativa C. Circulação aberta e sistema nervoso ganglionar não constituem barreiras contra desidratação."
+        ],
+        "takeaway": "Ao avaliar uma adaptação, relacione sua função ao desafio imposto pelo ambiente."
+      }
+    },
+    {
+      "id": "2021-93",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Seleção natural e mimetismo",
+        "steps": [
+          "A semelhança do polvo com outros animais pode dificultar sua identificação ou afastar predadores. Indivíduos que apresentam uma defesa eficaz tendem a sobreviver e deixar mais descendentes nessas condições.",
+          "Ao longo das gerações, a seleção pode favorecer os comportamentos associados a essa vantagem. A alternativa E relaciona corretamente a manutenção da característica às pressões seletivas; observar outros animais não explica por si só sua origem evolutiva."
+        ],
+        "takeaway": "Características defensivas se tornam frequentes quando favorecem o sucesso reprodutivo em um ambiente."
+      }
+    },
+    {
+      "id": "2021-123",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Auxinas e enraizamento de estacas",
+        "steps": [
+          "Uma estaca de caule precisa desenvolver raízes para absorver água e sais e se estabelecer como nova planta. Essas raízes se originam de um órgão que não é uma raiz preexistente.",
+          "Na técnica descrita, a aplicação de auxinas favorece a formação dessas raízes adventícias na porção inferior do caule. Esse efeito corresponde à alternativa D e explica a melhora da propagação das roseiras."
+        ],
+        "takeaway": "Hormônios vegetais podem ser usados para favorecer etapas específicas da propagação de plantas."
+      }
+    },
+    {
+      "id": "2022-110",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Diversidade de estratégias reprodutivas",
+        "steps": [
+          "As espécies descritas combinam diferentes números de gametas, locais de desenvolvimento e graus de cuidado parental. Produzir muitos descendentes com pouca proteção e produzir poucos com maior proteção são estratégias distintas.",
+          "Essas combinações podem favorecer o sucesso reprodutivo em contextos diferentes, como afirma a alternativa D. Os exemplos não estabelecem uma escala de evolução nem mostram que o cuidado parental seja indispensável em todas as espécies."
+        ],
+        "takeaway": "O sucesso reprodutivo pode resultar de diferentes combinações entre quantidade de descendentes e investimento em proteção."
+      }
+    },
+    {
+      "id": "2023-103",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "Tubo polínico e fecundação terrestre",
+        "steps": [
+          "Em grupos vegetais dependentes de água externa para a fecundação, gametas masculinos precisam se deslocar por uma película de água até o gameta feminino.",
+          "O tubo polínico estabelece uma via de transporte dos gametas masculinos até o local da fecundação. Assim, a reprodução deixa de depender desse deslocamento em água externa. A estrutura pedida é o tubo polínico, alternativa D, e não o fruto ou a semente formados posteriormente."
+        ],
+        "takeaway": "O tubo polínico permite transportar gametas masculinos sem exigir uma película externa de água."
+      }
+    },
+    {
+      "id": "2023-105",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Floema e nutrição das raízes",
+        "steps": [
+          "O floema transporta compostos orgânicos produzidos nas folhas para partes consumidoras ou armazenadoras, como as raízes. Ele faz parte dos tecidos retirados quando se remove a casca.",
+          "Um anel completo interrompe esse transporte ao redor de todo o tronco. As raízes deixam de receber adequadamente os açúcares de que dependem, comprometendo a sobrevivência da planta. A alternativa E identifica a interrupção da nutrição das raízes."
+        ],
+        "takeaway": "Remover um anel de floema pode impedir o abastecimento de compostos orgânicos às raízes."
+      }
+    },
+    {
+      "id": "2021-114",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Arco reflexo medular",
+        "steps": [
+          "A estimulação do reflexo patelar ativa receptores relacionados ao estiramento muscular. A informação sensorial chega à medula espinal, onde se conecta ao circuito que aciona a resposta motora.",
+          "Esse circuito produz a contração e a extensão da perna sem depender de uma decisão consciente prévia do encéfalo. A região integradora pedida é a medula, alternativa B."
+        ],
+        "takeaway": "Um reflexo pode ser integrado na medula espinal e ocorrer antes da percepção consciente do estímulo."
+      }
+    },
+    {
+      "id": "2021-118",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 30,
+      "explanation": {
+        "concept": "Controle do mosquito na fase larval",
+        "steps": [
+          "O enunciado descreve ingestão da substância com a água do criadouro e lesão do tubo digestório. Essa alimentação no ambiente aquático ocorre na fase larval do mosquito.",
+          "Ao danificar fatalmente as larvas, a intervenção impede que elas completem seu desenvolvimento e deem origem a adultos. Portanto, a ação é o impedimento do desenvolvimento da larva, alternativa D, e não repelir o mosquito adulto."
+        ],
+        "takeaway": "Identifique a fase do ciclo de vida pela alimentação, pelo ambiente e pela estrutura atingida."
+      }
+    },
+    {
+      "id": "2022-104",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Eritropoietina e transporte de oxigênio",
+        "steps": [
+          "A eritropoietina estimula a eritropoiese, isto é, a formação de hemácias. Essas células contêm hemoglobina, responsável por transportar grande parte do oxigênio no sangue.",
+          "O aumento da quantidade de hemácias amplia a capacidade de transporte de oxigênio aos tecidos, favorecendo o metabolismo aeróbio na situação descrita. Essa relação direta corresponde à alternativa E, sem exigir aumento da capacidade pulmonar."
+        ],
+        "takeaway": "Uma alteração hormonal pode afetar o desempenho ao modificar a capacidade de transporte do sangue."
+      }
+    },
+    {
+      "id": "2022-132",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Competição intracelular e controle da dengue",
+        "steps": [
+          "O enunciado informa que Wolbachia e o vírus utilizam o ambiente intracelular do mosquito e necessitam de recursos comuns. A presença da bactéria pode restringir recursos disponíveis para a multiplicação viral.",
+          "A redução da carga viral é explicada, no modelo da questão, pela competição no hospedeiro. Essa é a alternativa D. A bactéria não precisa predar o vírus nem inserir seu material genético no mosquito para produzir o efeito descrito."
+        ],
+        "takeaway": "Interações entre microrganismos dentro de um vetor podem alterar sua capacidade de transmissão."
+      }
+    },
+    {
+      "id": "2023-95",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "Músculos vermelhos e atividade prolongada",
+        "steps": [
+          "A ampla vascularização dos músculos vermelhos facilita o fornecimento contínuo de oxigênio e nutrientes. Suas características favorecem a produção aeróbia de ATP necessária ao trabalho muscular prolongado.",
+          "Durante a migração, esse suporte permite sustentar elevada atividade metabólica por longas distâncias. Assim, os músculos favorecem o metabolismo corpóreo elevado, alternativa B; o texto não estabelece que sua função seja maximizar a velocidade de voo."
+        ],
+        "takeaway": "Atividade muscular prolongada depende de suprimento e capacidade de produção contínua de ATP."
+      }
+    },
+    {
+      "id": "2023-101",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Corpo lúteo e ciclo ovariano",
+        "steps": [
+          "Após a ovulação, o folículo origina o corpo lúteo, que participa da produção de progesterona e estrógenos. Esses hormônios ajudam a manter o endométrio durante a fase lútea.",
+          "Na ausência de manutenção do corpo lúteo por uma gestação, ele regride e sua produção hormonal diminui. Essa regressão explica a queda pré-menstrual descrita, sendo a alternativa A."
+        ],
+        "takeaway": "A regressão do corpo lúteo está associada à queda hormonal no final de um ciclo sem gestação."
+      }
+    },
+    {
+      "id": "2023-106",
+      "moduleId": "bio-saude",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Vacinas de RNA mensageiro",
+        "steps": [
+          "Após chegar ao citoplasma, o RNA mensageiro é utilizado pelos ribossomos como molde para produzir uma proteína viral. A proteção lipídica ajuda a preservar e entregar essa molécula.",
+          "A proteína produzida funciona como antígeno e desencadeia a resposta imunológica específica. Esse mecanismo corresponde à alternativa C; a função do RNAm não exige sua incorporação ao genoma do hospedeiro."
+        ],
+        "takeaway": "Uma vacina de RNAm fornece uma instrução temporária para que as células produzam um antígeno."
+      }
+    },
+    {
+      "id": "2022-133",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Reconhecimento de antígeno tumoral",
+        "steps": [
+          "O protozoário modificado produz uma molécula também encontrada nas células tumorais. O sistema imune entra em contato com essa molécula durante a resposta ao organismo utilizado no experimento.",
+          "Ao reconhecer o mesmo antígeno nas células tumorais, a resposta induzida pode também atingi-las. O mecanismo depende da apresentação de um antígeno específico, alternativa D, e não apenas da ativação inespecífica da imunidade inata."
+        ],
+        "takeaway": "Apresentar um antígeno compartilhado pode direcionar uma resposta imune contra células que também o expressam."
+      }
+    },
+    {
+      "id": "2017-109",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Barragens interrompem deslocamentos necessários à reprodução.",
+        "steps": [
+          "A piracema envolve a migração dos peixes rio acima. O esforço do deslocamento participa dos processos metabólicos e hormonais que preparam esses animais para a reprodução.",
+          "Uma barragem cria uma barreira física no trajeto e reduz o percurso que os peixes conseguem realizar. É esse efeito direto sobre a migração, alternativa A, que explica o prejuízo reprodutivo descrito, sem ser necessário supor redução da longevidade ou dos alimentos."
+        ],
+        "takeaway": "Uma intervenção no rio pode afetar a reprodução ao interromper o deslocamento entre ambientes."
+      }
+    },
+    {
+      "id": "2017-111",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Contaminantes persistentes podem sofrer biomagnificação na cadeia alimentar.",
+        "steps": [
+          "Substâncias como o mercúrio podem ser pouco eliminadas e se acumular nos tecidos dos organismos. Ao consumir várias presas contaminadas, um predador incorpora contaminantes que já estavam acumulados nelas.",
+          "Os botos-cinza estão no topo da cadeia alimentar considerada, recebendo contaminantes de níveis inferiores. Por isso, podem apresentar maior concentração dessas substâncias: alternativa E. O porte do animal, isoladamente, não explica o aumento da concentração."
+        ],
+        "takeaway": "Biomagnificação relaciona a concentração de contaminantes à posição ocupada na cadeia alimentar."
+      }
+    },
+    {
+      "id": "2018-98",
+      "moduleId": "bio-ecologia",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Corredores ecológicos favorecem a troca de alelos entre populações.",
+        "steps": [
+          "A fragmentação separa populações e dificulta o encontro entre indivíduos de áreas diferentes. Os corredores restabelecem conexões pelas quais animais podem se deslocar e sementes ou pólen podem ser transportados.",
+          "Quando esse deslocamento resulta em reprodução, ocorre fluxo gênico: alelos passam de uma população a outra. Isso reduz o isolamento genético e contribui para a conservação da biodiversidade, justificando a alternativa A."
+        ],
+        "takeaway": "Conectar fragmentos favorece a circulação de organismos e de seus genes."
+      }
+    },
+    {
+      "id": "2019-97",
+      "moduleId": "bio-ecologia",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "A disputa por um recurso limitado caracteriza competição.",
+        "steps": [
+          "As cutias enterram sementes para utilizá-las como alimento em períodos de escassez. Quando uma retira a reserva de outra, ambas estão disputando o mesmo recurso alimentar.",
+          "A relação destacada é entre as cutias que querem utilizar as sementes, não entre a cutia e a planta. Trata-se de competição intraespecífica, alternativa D, pois os animais envolvidos pertencem à mesma espécie."
+        ],
+        "takeaway": "Identifique quais organismos estão sendo comparados antes de nomear a relação ecológica."
+      }
+    },
+    {
+      "id": "2021-117",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 8,
+      "explanation": {
+        "concept": "A digestão anaeróbia de resíduos orgânicos pode produzir biogás.",
+        "steps": [
+          "Os dejetos suínos contêm matéria orgânica que pode ser degradada em biodigestores, em condições com pouco ou nenhum oxigênio. Uma comunidade de microrganismos transforma essa matéria e produz uma mistura gasosa rica em metano.",
+          "Essa mistura é o biogás, alternativa B. Seu aproveitamento como combustível combina tratamento de resíduos com recuperação de energia; etanol e biodiesel são obtidos por outras rotas de produção."
+        ],
+        "takeaway": "Resíduos orgânicos podem fornecer energia pela formação e pelo aproveitamento do metano."
+      }
+    },
+    {
+      "id": "2021-127",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "A perda de dispersores altera a distribuição das plantas.",
+        "steps": [
+          "As preguiças-gigantes consumiam frutos e sementes e podiam transportá-los para outros locais. Essa interação contribuía para que plantas alcançassem áreas afastadas da planta de origem.",
+          "Com a extinção desses animais, diminuiu um importante fator de disseminação das sementes. Isso ajuda a explicar a menor abundância e a distribuição mais restrita da flora, conforme a alternativa C, sem exigir redução do número de sementes produzidas por fruto."
+        ],
+        "takeaway": "Extinguir um animal pode afetar a vegetação por romper uma interação de dispersão."
+      }
+    },
+    {
+      "id": "2023-116",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "A amonificação devolve à forma inorgânica o nitrogênio dos detritos.",
+        "steps": [
+          "Os decompositores degradam moléculas nitrogenadas da matéria orgânica morta e dos resíduos. Nesse processo, liberam nitrogênio na forma de amônia ou amônio, etapa chamada amonificação.",
+          "No esquema, a seta 2 liga detritos a amônia. Sem os microrganismos decompositores, essa transformação deixaria de ocorrer diretamente. Portanto, a resposta é B, que indica a etapa 2."
+        ],
+        "takeaway": "Diferencie a amonificação dos detritos da fixação do nitrogênio atmosférico."
+      }
+    },
+    {
+      "id": "2017-96",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "A nitratação é a etapa da nitrificação que produz nitrato.",
+        "steps": [
+          "O principal componente citado dos fertilizantes é o nitrato. No ciclo do nitrogênio, primeiro ocorre a oxidação de amônia ou amônio a nitrito, chamada nitrosação.",
+          "Em seguida, microrganismos oxidam nitrito a nitrato. Essa segunda etapa é a nitratação, alternativa A. Fixação e amonificação introduzem nitrogênio em outras formas e não produzem diretamente o nitrato pedido."
+        ],
+        "takeaway": "Na nitrificação, nitrosação forma nitrito e nitratação forma nitrato."
+      }
+    },
+    {
+      "id": "2017-118",
+      "moduleId": "bio-ecologia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Áreas permeáveis permitem que parte da água da chuva infiltre no solo.",
+        "steps": [
+          "O piso tradicional da figura cobre a superfície de modo contínuo. Já o concregrama possui aberturas preenchidas com solo e grama, pelas quais a água pode entrar no terreno.",
+          "Assim, esse revestimento reduz a impermeabilização, alternativa A. A infiltração ajuda a diminuir o escoamento superficial e preserva parte das trocas de água entre a superfície e o solo."
+        ],
+        "takeaway": "A presença de solo exposto entre peças de pavimentação mantém caminhos para a infiltração."
+      }
+    },
+    {
+      "id": "2016-73",
+      "moduleId": "bio-ecologia",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Sistemas agroflorestais integram produção e recuperação de processos ecológicos.",
+        "steps": [
+          "As árvores incorporadas aos cultivos fornecem folhas, galhos e raízes que aumentam a entrada de matéria orgânica no solo. Esse material serve de alimento e abrigo para diversos organismos decompositores e outros integrantes da comunidade.",
+          "O aumento da matéria orgânica favorece a diversidade de vida no solo e a ciclagem de nutrientes. Essa relação explica a alternativa C e permite conciliar recuperação ambiental com produção agrícola diversificada."
+        ],
+        "takeaway": "A diversidade de plantas pode recuperar funções do solo sem eliminar a produção agrícola."
+      }
+    },
+    {
+      "id": "2017-94",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "A etapa inicial da fotossíntese depende da absorção de energia luminosa.",
+        "steps": [
+          "Os nanotubos funcionam como antenas que absorvem comprimentos de onda pouco aproveitados pelos pigmentos vegetais. Assim, ampliam diretamente a captação dos fótons, as unidades de energia da luz.",
+          "A energia absorvida favorece a excitação e o transporte de elétrons nos cloroplastos. O efeito direto descrito é a absorção de fótons, alternativa B; a produção de açúcares e a liberação de oxigênio são consequências de outras etapas do processo."
+        ],
+        "takeaway": "Distinga a intervenção direta na captação de luz de seus efeitos posteriores sobre a fotossíntese."
+      }
+    },
+    {
+      "id": "2017-116",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "A mistura de proteínas marcadas evidencia a fluidez da membrana.",
+        "steps": [
+          "Na etapa 3, as proteínas de camundongo e humanas ocupam regiões distintas da membrana da célula híbrida. Os anticorpos fluorescentes permitem acompanhar cada conjunto.",
+          "Após 40 minutos a 37 °C, na etapa 4, os dois tipos aparecem misturados ao redor da célula. A redistribuição demonstra movimento lateral das proteínas no plano da bicamada lipídica, alternativa A, conforme o modelo do mosaico fluido."
+        ],
+        "takeaway": "Marcadores permitem observar deslocamentos moleculares que revelam propriedades da membrana."
+      }
+    },
+    {
+      "id": "2017-132",
+      "moduleId": "bio-celulas",
+      "competency": 5,
+      "skill": 18,
+      "explanation": {
+        "concept": "O salgamento retira água das células por osmose.",
+        "steps": [
+          "A adição de muito sal torna o meio extracelular hipertônico em relação ao interior das células. A membrana permite a passagem de água, que se desloca para o meio com maior concentração efetiva de solutos.",
+          "As células perdem água para o exterior, correspondendo à alternativa E. A menor disponibilidade de água também dificulta o crescimento de muitos microrganismos responsáveis pela deterioração do alimento."
+        ],
+        "takeaway": "A conservação por sal depende da concentração de solutos e da disponibilidade de água."
+      }
+    },
+    {
+      "id": "2017-135",
+      "moduleId": "bio-celulas",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "A transfusão introduz células em um tecido que já integra o organismo.",
+        "steps": [
+          "O sangue é um tecido, e uma transfusão pode repor componentes celulares, como hemácias. Portanto, introduzir células de um doador no organismo para tratar uma condição já era uma prática hospitalar antes das terapias regenerativas mais recentes.",
+          "Entre as técnicas apresentadas, essa descrição corresponde à transfusão de sangue, alternativa E. Biópsia retira material para análise, enquanto hemodiálise filtra o sangue e não consiste na introdução de novas células."
+        ],
+        "takeaway": "Uma técnica conhecida pode se enquadrar em um conceito amplo de terapia celular."
+      }
+    },
+    {
+      "id": "2018-94",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "O glucagon favorece a mobilização das reservas hepáticas de glicose.",
+        "steps": [
+          "Na hipoglicemia, a concentração de glicose no sangue está baixa. O glucagon estimula no fígado a degradação do glicogênio, um polissacarídeo que armazena unidades de glicose.",
+          "A mobilização dessa reserva permite liberar glicose para o sangue e contribuir para a correção da queda. Assim, o efeito catabólico pedido é estimular a utilização do glicogênio, alternativa E, e não consumir mais glicose em fermentação."
+        ],
+        "takeaway": "Catabolizar uma reserva pode fornecer ao sangue moléculas necessárias à manutenção do equilíbrio interno."
+      }
+    },
+    {
+      "id": "2018-100",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Pontos de controle do ciclo celular limitam a multiplicação de células com danos.",
+        "steps": [
+          "A p53 pode interromper a progressão do ciclo quando há danos no DNA. Isso cria uma oportunidade para reparo ou, se o dano for grave, contribui para a morte programada da célula.",
+          "Sem essa proteção, células alteradas podem continuar dividindo-se e transmitir os danos às descendentes. A proliferação exagerada pode favorecer um tumor, alternativa E; a ausência de p53 não garante estabilidade genética."
+        ],
+        "takeaway": "O controle do ciclo celular ajuda a impedir a expansão de células geneticamente danificadas."
+      }
+    },
+    {
+      "id": "2019-116",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "Caudas curtas e insaturadas diminuem o empacotamento dos fosfolipídios.",
+        "steps": [
+          "As insaturações representadas por dobras dificultam a aproximação entre as caudas dos fosfolipídios. Caudas mais curtas também oferecem menor superfície para interações entre si.",
+          "Na figura, a bicamada II reúne caudas curtas e insaturadas, reduzindo a intensidade das interações e facilitando o movimento dos componentes. Portanto, ela apresenta a maior fluidez, alternativa B."
+        ],
+        "takeaway": "Menor empacotamento entre as caudas lipídicas favorece a fluidez da membrana."
+      }
+    },
+    {
+      "id": "2019-127",
+      "moduleId": "bio-celulas",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "O desacoplamento dissipa o gradiente de prótons sem aproveitar toda sua energia na síntese de ATP.",
+        "steps": [
+          "A cadeia respiratória transporta prótons para o espaço intermembranas. Normalmente, seu retorno à matriz pela ATP sintase fornece energia para produzir ATP.",
+          "O DNP devolve prótons à matriz por outra via. Assim, diminui a produção de ATP por quantidade de nutrientes oxidada, levando a célula a consumir mais nutrientes para atender à demanda energética.",
+          "Essa relação corresponde à alternativa E. O mecanismo é de desacoplamento, e não de bloqueio direto do ciclo de Krebs ou da cadeia respiratória."
+        ],
+        "takeaway": "O gradiente de prótons só favorece a produção de ATP quando seu retorno está acoplado à ATP sintase."
+      }
+    },
+    {
+      "id": "2015-48",
+      "moduleId": "bio-celulas",
+      "competency": 5,
+      "skill": 17,
+      "explanation": {
+        "concept": "Proteínas destinadas à secreção percorrem retículo, Golgi e vesículas.",
+        "steps": [
+          "As proteínas secretadas começam a ser produzidas por ribossomos associados ao retículo endoplasmático rugoso. Depois passam pelo complexo golgiense, onde são processadas e encaminhadas, e finalmente chegam às vesículas de secreção.",
+          "O marcador radioativo deve aparecer primeiro com maior intensidade no retículo, depois no Golgi e, por último, nas vesículas. O gráfico C mostra essa sequência: predomínio no retículo aos 5 minutos, no Golgi aos 10 e nas vesículas aos 15 minutos."
+        ],
+        "takeaway": "Em experimentos de marcação, a mudança de localização ao longo do tempo revela o trajeto do produto celular."
+      }
+    },
+    {
+      "id": "2016-56",
+      "moduleId": "bio-celulas",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Peptídeos sinais direcionam proteínas ao compartimento onde devem atuar.",
+        "steps": [
+          "O ciclo de Krebs ocorre na matriz mitocondrial das células eucarióticas. Uma proteína que o bloqueia precisa alcançar essa região para interagir com seus alvos.",
+          "Por isso, a proteína carregada pela nanopartícula deve apresentar um sinal de endereçamento para a mitocôndria, alternativa B. A simples entrada da proteína na célula não garante sua chegada à organela correta."
+        ],
+        "takeaway": "Uma intervenção celular depende tanto da função da molécula quanto de sua localização."
+      }
+    },
+    {
+      "id": "2017-117",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "A inativação do cromossomo X pode produzir fenótipos diferentes com o mesmo genótipo.",
+        "steps": [
+          "As duas gêmeas são heterozigóticas: possuem um X com o alelo normal e outro com o alelo mutante. Durante o desenvolvimento, um dos cromossomos X é inativado em cada célula, e essa escolha é mantida em suas descendentes.",
+          "Se os padrões de inativação diferirem entre as gêmeas, uma pode ter maior proporção de células musculares com o X portador da mutação ativo. Isso pode explicar a manifestação desigual da doença, como descreve a alternativa D.",
+          "Portanto, não é necessário atribuir às gêmeas origens parentais diferentes do alelo: a diferença pode estar em qual cromossomo permanece funcional nos tecidos."
+        ],
+        "takeaway": "A expressão de um alelo depende também de mecanismos de regulação, como a inativação do X."
+      }
+    },
+    {
+      "id": "2017-125",
+      "moduleId": "bio-genetica",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "A composição de bases influencia a separação das fitas de DNA.",
+        "steps": [
+          "O enunciado informa duas ligações de hidrogênio por par A–T e três por par G–C. Entre segmentos de mesmo comprimento, aquele com mais pares A–T exige desfazer menos ligações nesse modelo.",
+          "O segmento C possui seis pares A–T e dois pares G–C: 6·2 + 2·3 = 18 ligações de hidrogênio. Os segmentos A, B, D e E têm, respectivamente, 22, 21, 21 e 20.",
+          "Logo, C é o segmento que desnatura primeiro durante o aquecimento. A alternativa correta é C."
+        ],
+        "takeaway": "Compare a proporção de A–T e G–C antes de avaliar a estabilidade dos segmentos de DNA."
+      }
+    },
+    {
+      "id": "2018-107",
+      "moduleId": "bio-genetica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "A enxertia preserva o genótipo do ramo da planta escolhida.",
+        "steps": [
+          "A atemoia reúne características das espécies que originaram o híbrido. Se novas plantas forem obtidas por sementes, a reprodução sexuada pode separar e recombinar alelos, alterando a combinação desejada.",
+          "Na enxertia, um ramo da planta selecionada é mantido sobre um porta-enxerto e cresce por divisões mitóticas. O genótipo desse ramo é preservado, justificando a alternativa C; não há transgenia nem recriação dos genótipos das espécies parentais."
+        ],
+        "takeaway": "A propagação vegetativa mantém combinações genéticas de uma planta selecionada."
+      }
+    },
+    {
+      "id": "2018-110",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Código genético é a relação entre códons e os produtos da tradução.",
+        "steps": [
+          "Na tradução, o RNA mensageiro é lido em trincas de nucleotídeos, chamadas códons. A sequência de códons orienta a incorporação dos aminoácidos; alguns códons sinalizam o término da tradução.",
+          "O conceito pedido corresponde às trincas que codificam aminoácidos, alternativa A. O conjunto de sequências de DNA de um organismo é seu genoma, enquanto a localização dos genes pertence ao mapeamento genético."
+        ],
+        "takeaway": "Código genético e genoma são conceitos distintos: regra de tradução e conjunto de material genético."
+      }
+    },
+    {
+      "id": "2018-127",
+      "moduleId": "bio-genetica",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Marcadores em mais de um loco permitem identificar a origem do pólen.",
+        "steps": [
+          "No loco A, a matriz M apresenta os alelos 1 e 3, mas S1 apresenta 1 e 2. Portanto, o alelo 2 veio do pólen. Entre as doadoras, apenas DP2 e DP5 possuem esse alelo.",
+          "No loco B, S1 apresenta somente a banda do alelo 3, indicando duas cópias desse alelo no modelo da questão. A matriz pode fornecer uma cópia, mas o pólen também precisa fornecer o alelo 3.",
+          "DP2 possui os alelos 2 e 5 no loco B e não satisfaz essa condição. DP5 possui o alelo 3 e é compatível com os dois locos. Logo, a resposta é E, DP5."
+        ],
+        "takeaway": "Um candidato à paternidade precisa explicar simultaneamente os alelos herdados em todos os marcadores analisados."
+      }
+    },
+    {
+      "id": "2019-110",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Genes próximos em um mesmo cromossomo apresentam ligação gênica.",
+        "steps": [
+          "A distribuição independente descreve bem genes situados em cromossomos diferentes, pois os pares de cromossomos se orientam independentemente na meiose. Ela não pode ser aplicada sem considerar a posição dos genes.",
+          "Genes fisicamente próximos no mesmo cromossomo tendem a seguir juntos para os gametas. A permutação pode separá-los, mas isso é menos provável quanto menor for a distância entre eles. Essa ligação explica a alternativa D."
+        ],
+        "takeaway": "A proximidade no mesmo cromossomo pode reduzir a independência da transmissão de dois genes."
+      }
+    },
+    {
+      "id": "2015-66",
+      "moduleId": "bio-genetica",
+      "competency": 5,
+      "skill": 19,
+      "explanation": {
+        "concept": "O cariótipo permite identificar alterações no número de cromossomos.",
+        "steps": [
+          "A fórmula 47, XY, +18 informa um indivíduo com cromossomos sexuais XY e um cromossomo 18 adicional. O total é 47, em vez dos 46 usuais, porque há três cópias do cromossomo 18.",
+          "O ganho de um cromossomo específico é uma alteração numérica do tipo aneuploidia, alternativa E. Poliploidia envolve conjuntos cromossômicos inteiros; deleção e duplicação são alterações estruturais de segmentos."
+        ],
+        "takeaway": "Um cromossomo adicional caracteriza aneuploidia; um conjunto inteiro adicional caracteriza poliploidia."
+      }
+    },
+    {
+      "id": "2015-74",
+      "moduleId": "bio-genetica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "O DNA recombinante pode fornecer a informação para fabricar uma proteína humana.",
+        "steps": [
+          "Para produzir insulina, a bactéria precisa receber uma sequência de DNA que codifique essa proteína e possa ser expressa. A informação inserida é transcrita e depois traduzida pela maquinaria celular.",
+          "Por isso, a alternativa A é correta: a bactéria recebeu a sequência de DNA codificante de insulina humana. Receber somente a proteína pronta não daria à célula uma instrução duradoura para sintetizá-la."
+        ],
+        "takeaway": "Uma célula modificada pode fabricar uma proteína de interesse quando recebe e expressa o DNA que a codifica."
+      }
+    },
+    {
+      "id": "2015-54",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "O microquimerismo reúne células originadas de indivíduos geneticamente diferentes.",
+        "steps": [
+          "O achado de células com cromossomo Y em tecidos de mulheres que tiveram filhos homens indica, no contexto apresentado, a permanência de células transferidas do feto para a mãe durante a gestação.",
+          "Essas células fetais se originaram do zigoto do filho, enquanto a maior parte das células maternas se originou do zigoto que deu origem à mãe. Assim, o achado contesta a ideia de que todas as células presentes no corpo provêm de um único zigoto, alternativa E."
+        ],
+        "takeaway": "A presença de uma pequena população celular de outra origem caracteriza microquimerismo."
+      }
+    },
+    {
+      "id": "2014-74",
+      "moduleId": "bio-genetica",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Pais afetados que transmitem a condição a todas as filhas sugerem herança dominante ligada ao X.",
+        "steps": [
+          "No heredograma, os homens afetados com parceiras não afetadas têm filhas afetadas e filhos não afetados. O pai transmite seu cromossomo X a todas as filhas e seu Y aos filhos.",
+          "Se o alelo causador estiver no X e for dominante, uma única cópia herdada do pai já se manifesta nas filhas. O padrão também permite que mulheres afetadas transmitam a condição a filhos e filhas.",
+          "Portanto, a interpretação compatível é herança dominante ligada ao sexo, especificamente ao X, como afirma a alternativa D."
+        ],
+        "takeaway": "Na herança ligada ao X, acompanhe separadamente a transmissão do pai para filhas e para filhos."
+      }
+    },
+    {
+      "id": "2017-98",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Classificações filogenéticas procuram representar relações de ancestralidade.",
+        "steps": [
+          "Whittaker agrupou os seres vivos em cinco reinos usando organização celular e nutrição. Woese comparou sequências relacionadas ao RNA ribossômico, obtendo evidências moleculares de parentesco evolutivo.",
+          "Essas comparações mostraram que os procariontes reunidos em Monera não formavam um grupo evolutivamente uniforme e fundamentaram sua separação nos domínios Archaea e Bacteria. O critério central mais recente são as relações filogenéticas, alternativa C."
+        ],
+        "takeaway": "Semelhança na organização celular não garante parentesco evolutivo próximo."
+      }
+    },
+    {
+      "id": "2017-123",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "Bromélias epífitas possuem estruturas que acumulam água da chuva.",
+        "steps": [
+          "As epífitas vivem apoiadas em outras plantas, o que facilita o acesso à luz. Esse apoio não significa que retirem água da seiva da árvore como fariam plantas parasitas.",
+          "Nas bromélias consideradas, a disposição das folhas permite acumular água da chuva, que pode ser absorvida pela planta. Essa é a alternativa C e explica sua sobrevivência sem raízes diretamente ligadas ao solo."
+        ],
+        "takeaway": "Uma adaptação pode permitir a obtenção de água sem acesso direto ao solo."
+      }
+    },
+    {
+      "id": "2018-101",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "A excreção concentrada reduz a perda de água em ambientes secos.",
+        "steps": [
+          "Em desertos, conservar água é uma exigência importante. Eliminar resíduos nitrogenados com pouca água permite reduzir uma das vias de perda hídrica do organismo.",
+          "Por isso, a adaptação comum indicada é a eliminação de excretas nitrogenadas concentradas, alternativa B. Os grupos citados não compartilham todos ovos com casca ou o mesmo tipo de respiração, mas podem apresentar mecanismos que economizam água na excreção."
+        ],
+        "takeaway": "Relacione a adaptação ao fator limitante do ambiente: no deserto, a disponibilidade de água."
+      }
+    },
+    {
+      "id": "2018-111",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "A polinização pelo vento depende de grande oferta de pólen.",
+        "steps": [
+          "Os estames são estruturas reprodutivas masculinas das flores; suas anteras produzem os grãos de pólen. Como o vento transporta o pólen sem direcioná-lo a uma flor específica, muitos grãos não alcançarão um estigma compatível.",
+          "Aumentar o número de estames amplia a produção e a disponibilidade de pólen, elevando a chance de sucesso desse transporte. Portanto, a alternativa E é correta. Néctar e pétalas vistosas favorecem sobretudo a atração de animais polinizadores."
+        ],
+        "takeaway": "Na polinização pelo vento, a abundância de pólen compensa a dispersão pouco direcionada."
+      }
+    },
+    {
+      "id": "2018-133",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "A metamorfose completa permite explorar nichos distintos ao longo da vida.",
+        "steps": [
+          "Larvas e adultos de insetos holometábolos podem utilizar alimentos e habitats diferentes. Uma lagarta e uma borboleta, por exemplo, podem explorar recursos distintos.",
+          "Essa separação reduz a competição entre fases da mesma espécie e amplia o aproveitamento dos recursos ambientais. É a vantagem apontada na alternativa C. A fase de pupa não se alimenta, portanto não cabe atribuir o sucesso à alimentação em todas as etapas."
+        ],
+        "takeaway": "Diferenças entre fases de vida podem diminuir a competição dentro de uma espécie."
+      }
+    },
+    {
+      "id": "2019-96",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 30,
+      "explanation": {
+        "concept": "Espécies com reprodução rápida podem iniciar a recolonização de áreas perturbadas.",
+        "steps": [
+          "A tabela associa a estratégia 1 a ambientes instáveis, elevado potencial biótico, reprodução precoce e muitos descendentes. Essas características permitem aumentar a população rapidamente quando há espaço disponível.",
+          "Uma área recém-desmatada é perturbada e ainda não oferece as condições estáveis associadas à estratégia 2. Por isso, as espécies da estratégia 1 são as indicadas para a introdução inicial, conforme a alternativa C."
+        ],
+        "takeaway": "Na restauração, as características das espécies devem ser compatíveis com a etapa de recuperação do ambiente."
+      }
+    },
+    {
+      "id": "2019-125",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "O tubo polínico permite levar os gametas masculinos ao local da fecundação sem água externa.",
+        "steps": [
+          "Plantas como musgos e samambaias dependem de água no ambiente para que os gametas masculinos alcancem o feminino. A formação de um tubo a partir do grão de pólen fornece outra via para esse transporte.",
+          "Na legenda, a formação do tubo polínico está indicada pelo número 3. Essa aquisição reduz a dependência de água externa para a fecundação e é a resposta pedida: alternativa C.",
+          "Frutos e polinização pelo vento são outras características mostradas, mas não explicam diretamente a independência da água para o encontro dos gametas."
+        ],
+        "takeaway": "A reprodução foi uma etapa decisiva da ocupação terrestre; o tubo polínico resolve o transporte dos gametas."
+      }
+    },
+    {
+      "id": "2021-129",
+      "moduleId": "bio-evolucao",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "A dupla fecundação das angiospermas origina embrião e tecido nutritivo.",
+        "steps": [
+          "Uma célula espermática fecunda a oosfera e forma o zigoto diploide que dará origem ao embrião. A outra participa da fecundação da célula central, reunindo-se aos dois núcleos polares no modelo usual.",
+          "Essa segunda união forma o endosperma triploide, um tecido que fornece reservas para o desenvolvimento do embrião. Portanto, a alternativa B é correta; ele não é o revestimento da semente nem o tecido vascular da planta jovem."
+        ],
+        "takeaway": "As duas fecundações têm produtos distintos: embrião diploide e endosperma geralmente triploide."
+      }
+    },
+    {
+      "id": "2014-53",
+      "moduleId": "bio-evolucao",
+      "competency": 1,
+      "skill": 3,
+      "explanation": {
+        "concept": "Evolução descreve mudanças hereditárias nas populações, sem uma meta obrigatória.",
+        "steps": [
+          "Ao longo das gerações, as populações podem apresentar modificações em suas características hereditárias. Essas mudanças ocorrem em diferentes linhagens e dependem de processos como mutação, seleção e deriva genética.",
+          "Não há uma regra que faça toda linhagem aumentar de tamanho, tornar-se mais complexa ou caminhar para uma finalidade predeterminada. Por isso, a descrição adequada é modificação de características, alternativa A, e não uma escala cujo ápice seriam os humanos."
+        ],
+        "takeaway": "Mudança evolutiva não é sinônimo de progresso em direção a um organismo ideal."
+      }
+    },
+    {
+      "id": "2016-71",
+      "moduleId": "bio-evolucao",
+      "competency": 8,
+      "skill": 28,
+      "explanation": {
+        "concept": "As adaptações do manguezal respondem ao solo lodoso, à pouca oxigenação e ao sal.",
+        "steps": [
+          "Raízes espalhadas e estruturas de sustentação ajudam a fixar plantas em um substrato lamacento. Raízes que emergem do solo favorecem trocas gasosas em um ambiente alagado e pobre em oxigênio.",
+          "Glândulas que eliminam sal e estruturas que reduzem a perda de água também são compatíveis com a influência da água salina. A combinação dessas características identifica o manguezal, alternativa D."
+        ],
+        "takeaway": "Use o conjunto de adaptações para reconhecer o ambiente, em vez de uma característica isolada."
+      }
+    },
+    {
+      "id": "2017-92",
+      "moduleId": "bio-saude",
+      "competency": 5,
+      "skill": 18,
+      "explanation": {
+        "concept": "Antibióticos podem atingir alvos específicos das células bacterianas.",
+        "steps": [
+          "Alguns antibióticos interferem em estruturas ou processos característicos das bactérias. Um exemplo é a inibição da produção de sua parede celular, o que pode comprometer a integridade da célula.",
+          "Esse tipo de ação corresponde a danificar estruturas específicas da célula bacteriana, alternativa E. Ativar diretamente a imunidade ou combater a inflamação não descreve o mecanismo antibacteriano pedido."
+        ],
+        "takeaway": "A seletividade de um medicamento pode depender de diferenças entre a bactéria e as células do hospedeiro."
+      }
+    },
+    {
+      "id": "2017-100",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "Uma intervenção que favorece a coagulação pode ajudar em condições com sangramento prolongado.",
+        "steps": [
+          "A hemofilia compromete a coagulação por alterações em fatores desse processo, fazendo com que sangramentos sejam mais difíceis de conter. Isso se relaciona diretamente à função que os pesquisadores pretendem reproduzir com o material.",
+          "A rede artificial descrita se fixa às lesões e busca acelerar a contenção do sangramento. Entre as doenças apresentadas, a hemofilia é a candidata a se beneficiar desse efeito, alternativa B.",
+          "O vínculo está na dificuldade de coagular; isso não significa que a hemofilia seja causada por falta de plaquetas."
+        ],
+        "takeaway": "Associe a finalidade da tecnologia à função comprometida pela doença."
+      }
+    },
+    {
+      "id": "2019-93",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "A vacinação pode preparar uma resposta imune antes da manifestação da doença.",
+        "steps": [
+          "A proteína do esquistossomo utilizada na vacina funciona como antígeno e pode estimular uma resposta específica, com formação de memória imunológica. Em contato posterior com o parasita, o organismo pode reagir mais prontamente.",
+          "No cenário proposto, essa preparação pode permitir combater o esquistossomo dentro do organismo antes do aparecimento dos sintomas, alternativa E. A vacina não elimina o caramujo nem impede fisicamente que larvas atravessem a pele."
+        ],
+        "takeaway": "A proteção vacinal atua por meio da resposta imune do hospedeiro, e não pela remoção do vetor ou hospedeiro intermediário."
+      }
+    },
+    {
+      "id": "2019-101",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "As hemácias transportam oxigênio necessário à respiração aeróbia.",
+        "steps": [
+          "A eritropoetina estimula a produção e a maturação de eritrócitos, as hemácias. Sua hemoglobina transporta oxigênio dos órgãos respiratórios para os tecidos.",
+          "Uma maior capacidade de transporte de oxigênio pode favorecer a respiração aeróbia e a produção de ATP durante exercícios de resistência. Essa é a relação descrita na alternativa C; as hemácias não transportam ATP para abastecer diretamente os músculos."
+        ],
+        "takeaway": "O fornecimento de oxigênio influencia a produção de ATP nas células musculares."
+      }
+    },
+    {
+      "id": "2019-114",
+      "moduleId": "bio-saude",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "Antirretrovirais interferem em etapas do ciclo de reprodução dos retrovírus.",
+        "steps": [
+          "Retrovírus produzem DNA a partir de RNA por meio da transcriptase reversa e dependem de outras etapas para gerar novas partículas virais. Essas etapas oferecem alvos para medicamentos.",
+          "O desenvolvimento de antirretrovirais que dificultam a reprodução viral é o avanço relacionado ao tratamento, alternativa E. O texto afasta a necessidade de vetores, e equipamentos de proteção ou vacinas têm finalidade preventiva, não descrevem o tratamento medicamentoso pedido."
+        ],
+        "takeaway": "Identifique se a questão pede prevenção da transmissão ou bloqueio da reprodução viral no organismo."
+      }
+    },
+    {
+      "id": "2019-133",
+      "moduleId": "bio-saude",
+      "competency": 5,
+      "skill": 18,
+      "explanation": {
+        "concept": "A excreção renal remove resíduos nitrogenados do sangue.",
+        "steps": [
+          "A ureia é formada principalmente no fígado a partir do metabolismo de compostos nitrogenados, circula no sangue e é eliminada pela urina. Os rins participam de sua remoção e do controle de água e solutos.",
+          "Um dispositivo que substitua funções renais e a hemodiálise deve promover diretamente a remoção de ureia, alternativa A. Produzir vasopressina ou aldosterona não é uma função de filtração renal; esses hormônios têm outras origens."
+        ],
+        "takeaway": "Diferencie a produção de um resíduo metabólico de sua eliminação pelos rins."
+      }
+    },
+    {
+      "id": "2022-118",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 15,
+      "explanation": {
+        "concept": "A comparação com grupos-controle relaciona uma alteração hormonal ao fenótipo observado.",
+        "steps": [
+          "O gráfico mostra concentração alta do hormônio nos machos-controle, em torno de 4 ng/mL, e concentrações inferiores a 1 ng/mL nos machos expostos à atrazina e nas fêmeas-controle.",
+          "A redução nos machos expostos acompanha a desmasculinização descrita. Esse padrão é compatível com a testosterona, hormônio associado ao desenvolvimento de caracteres sexuais masculinos, alternativa C.",
+          "O grupo-controle masculino permite identificar a queda, enquanto o feminino fornece uma referência adicional para interpretar sua magnitude."
+        ],
+        "takeaway": "Para interpretar um experimento, relacione a mudança na medida à função biológica da substância investigada."
+      }
+    },
+    {
+      "id": "2018-119",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 30,
+      "explanation": {
+        "concept": "O controle de um inseto vetor pode reduzir a transmissão de uma doença.",
+        "steps": [
+          "A leishmaniose é transmitida por flebotomíneos, insetos conhecidos popularmente como mosquito-palha. Produtos capazes de combater esses insetos podem interferir na transmissão do protozoário entre hospedeiros.",
+          "Entre as doenças listadas, essa é a que possui um inseto vetor, portanto a alternativa C é correta. A esquistossomose tem um caramujo como hospedeiro intermediário; as demais opções também não dependem desse tipo de vetor."
+        ],
+        "takeaway": "Uma medida contra insetos só atinge diretamente a transmissão quando um inseto participa do ciclo da doença."
+      }
+    },
+    {
+      "id": "2022-122",
+      "moduleId": "bio-saude",
+      "competency": 8,
+      "skill": 29,
+      "explanation": {
+        "concept": "A modulação da coagulação pode impedir obstruções vasculares por trombos.",
+        "steps": [
+          "Um trombo é uma massa formada no interior de um vaso pelo processo de coagulação e pode bloquear a circulação. Quando a obstrução compromete o fluxo para o cérebro, pode ocorrer um acidente vascular cerebral isquêmico.",
+          "A molécula descrita deriva de uma proteína que interfere na coagulação e apresenta potencial para impedir a formação de trombos. Esse é o efeito da alternativa A; tratar anemia, alergias ou hipertensão envolve outros mecanismos.",
+          "A expressão 'alguns casos' é importante: o efeito considerado é sobre obstrução por coágulo, e não sobre AVC provocado por hemorragia."
+        ],
+        "takeaway": "Relacione a intervenção ao mecanismo específico do problema vascular."
+      }
+    },
+    {
+      "id": "2015-67",
+      "moduleId": "bio-saude",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "A conservação de água pelos rins concentra a urina.",
+        "steps": [
+          "Sem ingestão de água e expostos ao sol, os estudantes perdem água e precisam conservá-la. A resposta envolve maior reabsorção de água nos rins, favorecida pela ação do hormônio antidiurético.",
+          "Com menos água sendo eliminada, a urina tende a ter menor volume e maior concentração de solutos, incluindo sais. Assim, a alternativa D é correta; produzir mais urina ou reduzir a reabsorção não ajudaria a enfrentar a desidratação."
+        ],
+        "takeaway": "Ao conservar água, os rins reduzem seu volume de excreção e tornam a urina mais concentrada."
+      }
+    }
   ]
 }
