@@ -1,0 +1,363 @@
+{
+  "source": "https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf",
+  "retrievedAt": "2026-10-12",
+  "sha256": "4f540d5439df00f88e13363ecaff3d884b83d16c1ae6cedbe5c2c3aabbf288b6",
+  "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Fisio, não uma classificação oficial do INEP.",
+  "areas": {
+    "matematica": {
+      "title": "Matemática e suas Tecnologias",
+      "competencies": [
+        {
+          "number": 1,
+          "description": "Construir significados para os números naturais, inteiros, racionais e reais.",
+          "page": 13,
+          "skills": [
+            {
+              "number": 1,
+              "description": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações — naturais, inteiros, racionais ou reais."
+            },
+            {
+              "number": 2,
+              "description": "Identificar padrões numéricos ou princípios de contagem."
+            },
+            {
+              "number": 3,
+              "description": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            },
+            {
+              "number": 4,
+              "description": "Avaliar a razoabilidade de um resultado numérico na construção de argumentos sobre afirmações quantitativas."
+            },
+            {
+              "number": 5,
+              "description": "Avaliar propostas de intervenção na realidade utilizando conhecimentos numéricos."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela.",
+          "page": 14,
+          "skills": [
+            {
+              "number": 6,
+              "description": "Interpretar a localização e a movimentação de pessoas/objetos no espaço tridimensional e sua representação no espaço bidimensional."
+            },
+            {
+              "number": 7,
+              "description": "Identificar características de figuras planas ou espaciais."
+            },
+            {
+              "number": 8,
+              "description": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+            },
+            {
+              "number": 9,
+              "description": "Utilizar conhecimentos geométricos de espaço e forma na seleção de argumentos propostos como solução de problemas do cotidiano."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano.",
+          "page": 14,
+          "skills": [
+            {
+              "number": 10,
+              "description": "Identificar relações entre grandezas e unidades de medida."
+            },
+            {
+              "number": 11,
+              "description": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+            },
+            {
+              "number": 12,
+              "description": "Resolver situação-problema que envolva medidas de grandezas."
+            },
+            {
+              "number": 13,
+              "description": "Avaliar o resultado de uma medição na construção de um argumento consistente."
+            },
+            {
+              "number": 14,
+              "description": "Avaliar proposta de intervenção na realidade utilizando conhecimentos geométricos relacionados a grandezas e medidas."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano.",
+          "page": 15,
+          "skills": [
+            {
+              "number": 15,
+              "description": "Identificar a relação de dependência entre grandezas."
+            },
+            {
+              "number": 16,
+              "description": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+            },
+            {
+              "number": 17,
+              "description": "Analisar informações envolvendo a variação de grandezas como recurso para a construção de argumentação."
+            },
+            {
+              "number": 18,
+              "description": "Avaliar propostas de intervenção na realidade envolvendo variação de grandezas."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas.",
+          "page": 15,
+          "skills": [
+            {
+              "number": 19,
+              "description": "Identificar representações algébricas que expressem a relação entre grandezas."
+            },
+            {
+              "number": 20,
+              "description": "Interpretar gráfico cartesiano que represente relações entre grandezas."
+            },
+            {
+              "number": 21,
+              "description": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+            },
+            {
+              "number": 22,
+              "description": "Utilizar conhecimentos algébricos/geométricos como recurso para a construção de argumentação."
+            },
+            {
+              "number": 23,
+              "description": "Avaliar propostas de intervenção na realidade utilizando conhecimentos algébricos."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação.",
+          "page": 16,
+          "skills": [
+            {
+              "number": 24,
+              "description": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            },
+            {
+              "number": 25,
+              "description": "Resolver problema com dados apresentados em tabelas ou gráficos."
+            },
+            {
+              "number": 26,
+              "description": "Analisar informações expressas em gráficos ou tabelas como recurso para a construção de argumentos."
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "description": "Compreender o caráter aleatório e não determinístico dos fenômenos naturais e sociais, e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística.",
+          "page": 16,
+          "skills": [
+            {
+              "number": 27,
+              "description": "Calcular medidas de tendência central ou de dispersão de um conjunto de dados expressos em uma tabela de frequências de dados agrupados (não em classes) ou em gráficos."
+            },
+            {
+              "number": 28,
+              "description": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+            },
+            {
+              "number": 29,
+              "description": "Utilizar conhecimentos de estatística e probabilidade como recurso para a construção de argumentação."
+            },
+            {
+              "number": 30,
+              "description": "Avaliar propostas de intervenção na realidade utilizando conhecimentos de estatística e probabilidade."
+            }
+          ]
+        }
+      ]
+    },
+    "ciencias-natureza": {
+      "title": "Ciências da Natureza e suas Tecnologias",
+      "competencies": [
+        {
+          "number": 1,
+          "description": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade.",
+          "page": 17,
+          "skills": [
+            {
+              "number": 1,
+              "description": "Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos."
+            },
+            {
+              "number": 2,
+              "description": "Associar a solução de problemas de comunicação, transporte, saúde ou outro, com o correspondente desenvolvimento científico e tecnológico."
+            },
+            {
+              "number": 3,
+              "description": "Confrontar interpretações científicas com interpretações baseadas no senso comum, ao longo do tempo ou em diferentes culturas."
+            },
+            {
+              "number": 4,
+              "description": "Avaliar propostas de intervenção no ambiente, considerando a qualidade da vida humana ou as medidas de conservação, recuperação ou utilização sustentável da biodiversidade."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos.",
+          "page": 18,
+          "skills": [
+            {
+              "number": 5,
+              "description": "Dimensionar circuitos ou dispositivos elétricos de uso cotidiano."
+            },
+            {
+              "number": 6,
+              "description": "Relacionar informações para compreender manuais de instalação ou utilização de aparelhos ou sistemas tecnológicos de uso comum."
+            },
+            {
+              "number": 7,
+              "description": "Selecionar testes de controle, parâmetros ou critérios para a comparação de materiais e produtos, tendo em vista a defesa do consumidor, a saúde do trabalhador ou a qualidade de vida."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos.",
+          "page": 18,
+          "skills": [
+            {
+              "number": 8,
+              "description": "Identificar etapas em processos de obtenção, transformação, utilização ou reciclagem de recursos naturais, energéticos ou matérias-primas, considerando processos biológicos, químicos ou físicos neles envolvidos."
+            },
+            {
+              "number": 9,
+              "description": "Compreender a importância dos ciclos biogeoquímicos ou do fluxo de energia para a vida ou da ação de agentes ou fenômenos que possam causar alterações nesses processos."
+            },
+            {
+              "number": 10,
+              "description": "Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais."
+            },
+            {
+              "number": 11,
+              "description": "Reconhecer benefícios, limitações e aspectos éticos da biotecnologia, considerando estruturas e processos biológicos envolvidos em produtos biotecnológicos."
+            },
+            {
+              "number": 12,
+              "description": "Avaliar impactos em ambientes naturais decorrentes de atividades sociais ou econômicas, considerando interesses contraditórios."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais.",
+          "page": 19,
+          "skills": [
+            {
+              "number": 13,
+              "description": "Reconhecer mecanismos de transmissão da vida, prevendo ou explicando a manifestação de características dos seres vivos."
+            },
+            {
+              "number": 14,
+              "description": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+            },
+            {
+              "number": 15,
+              "description": "Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos."
+            },
+            {
+              "number": 16,
+              "description": "Compreender o papel da evolução na produção de padrões, processos biológicos ou na organização taxonômica dos seres vivos."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos.",
+          "page": 19,
+          "skills": [
+            {
+              "number": 17,
+              "description": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            },
+            {
+              "number": 18,
+              "description": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+            },
+            {
+              "number": 19,
+              "description": "Avaliar métodos, processos ou procedimentos das ciências naturais que contribuam para diagnosticar ou solucionar problemas de ordem social, econômica ou ambiental."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Apropriar-se de conhecimentos da física para, em situações-problema, interpretar, avaliar ou planejar intervenções científico-tecnológicas.",
+          "page": 20,
+          "skills": [
+            {
+              "number": 20,
+              "description": "Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes."
+            },
+            {
+              "number": 21,
+              "description": "Utilizar leis físicas e(ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo."
+            },
+            {
+              "number": 22,
+              "description": "Compreender fenômenos decorrentes da interação entre a radiação e a matéria em suas manifestações em processos naturais ou tecnológicos, ou em suas implicações biológicas, sociais, econômicas ou ambientais."
+            },
+            {
+              "number": 23,
+              "description": "Avaliar possibilidades de geração, uso ou transformação de energia em ambientes específicos, considerando implicações éticas, ambientais, sociais e(ou) econômicas."
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "description": "Apropriar-se de conhecimentos da química para, em situações-problema, interpretar, avaliar ou planejar intervenções científico-tecnológicas.",
+          "page": 20,
+          "skills": [
+            {
+              "number": 24,
+              "description": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+            },
+            {
+              "number": 25,
+              "description": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+            },
+            {
+              "number": 26,
+              "description": "Avaliar implicações sociais, ambientais e(ou) econômicas na produção ou no consumo de recursos energéticos ou minerais, identificando transformações químicas ou de energia envolvidas nesses processos."
+            },
+            {
+              "number": 27,
+              "description": "Avaliar propostas de intervenção no meio ambiente aplicando conhecimentos químicos, observando riscos ou benefícios."
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "description": "Apropriar-se de conhecimentos da biologia para, em situações-problema, interpretar, avaliar ou planejar intervenções científico-tecnológicas.",
+          "page": 21,
+          "skills": [
+            {
+              "number": 28,
+              "description": "Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros."
+            },
+            {
+              "number": 29,
+              "description": "Interpretar experimentos ou técnicas que utilizam seres vivos, analisando implicações para o ambiente, a saúde, a produção de alimentos, as matérias-primas ou os produtos industriais."
+            },
+            {
+              "number": 30,
+              "description": "Avaliar propostas de alcance individual ou coletivo, identificando aquelas que visam à preservação e à implementação da saúde individual, coletiva ou do ambiente."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

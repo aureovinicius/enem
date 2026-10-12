@@ -1,4 +1,4 @@
-const DATA_URL = "/data/physics-questions.json?v=learning-2";
+const DATA_URL = "/data/courses.json?v=courses-1";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 
@@ -18,6 +18,7 @@ const shell = document.querySelector(".shell");
 let returnFocus = null;
 let introModuleId = null;
 
+let catalog;
 let data;
 let lessons = [];
 let activeView = location.hash.slice(1) || "aprender";
@@ -44,6 +45,7 @@ function loadState() {
     introductionsRead: [],
     answered: [],
     missed: [],
+    activeCourse: "fisica",
   };
   try {
     const saved = { ...fallback, ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
@@ -91,7 +93,7 @@ function makeLessons() {
   let globalIndex = 0;
   lessons = data.modules.flatMap((module, moduleIndex) => {
     const questions = data.questions.filter((question) => question.moduleId === module.id);
-    const lessonCount = Math.max(1, Math.min(4, Math.ceil(questions.length / 5)));
+    const lessonCount = Math.ceil(questions.length / 5);
     return Array.from({ length: lessonCount }, (_, index) => {
       const start = index * 5;
       const lessonQuestions = questions.slice(start, start + 5);
@@ -101,7 +103,7 @@ function makeLessons() {
         moduleIndex,
         index,
         globalIndex: globalIndex++,
-        title: ["Fundamentos", "Aplicações", "Desafio ENEM", "Domínio"][index],
+        title: ["Fundamentos", "Aplicações", "Desafio ENEM", "Domínio"][index] || `Prática ${index + 1}`,
         questions: lessonQuestions.length ? lessonQuestions : questions.slice(0, 5),
       };
       return lesson;
@@ -110,7 +112,39 @@ function makeLessons() {
 }
 
 function isUnlocked(lesson) {
-  return lesson.globalIndex === 0 || state.completed.includes(lessons[lesson.globalIndex - 1]?.id);
+  return lesson.index === 0 || state.completed.includes(lessons[lesson.globalIndex - 1]?.id);
+}
+
+function setCourse(courseId) {
+  const course = catalog.courses.find((c) => c.id === courseId) || catalog.courses[0];
+  const byId = new Map(catalog.questions.map((q) => [q.id, q]));
+  data = { ...course, questions: course.questionIds.map((id) => {
+    const question = byId.get(id);
+    if (course.id !== "ciencias-natureza") return question;
+    const module = course.modules.find((m) => m.competency === question.competency);
+    return { ...question, moduleId: module.id, moduleTitle: module.title };
+  }) };
+  state.activeCourse = course.id;
+  makeLessons();
+  saveState();
+}
+
+function completedLessons() {
+  return lessons.filter((lesson) => state.completed.includes(lesson.id)).length;
+}
+
+function courseSwitcher() {
+  return `<div class="course-switcher"><label for="course-select">Matéria</label><select id="course-select" aria-label="Matéria">${catalog.courses.map((course) => `<option value="${course.id}" ${course.id === data.id ? "selected" : ""}>${course.emoji} ${escapeHtml(course.title)}</option>`).join("")}</select><span>${data.total} questões comentadas</span></div>`;
+}
+
+function referenceMarkup(module) {
+  if (!module.reference) return "";
+  const practiced = new Set(data.questions.filter((q) => q.moduleId === module.id).map((q) => q.skill));
+  return `<details class="competency-reference"><summary>Competência de área ${module.competency} · ver matriz e habilidades</summary>
+    <p>${escapeHtml(module.reference.description)}</p>
+    <ul>${module.reference.skills.map((skill) => `<li><strong>H${skill.number}</strong> ${escapeHtml(skill.description)}${practiced.has(skill.number) ? '<span class="skill-present">Na prática desta unidade</span>' : ""}</li>`).join("")}</ul>
+    <p class="reference-note">Texto da matriz do INEP, p. ${module.reference.page}. A associação das questões às habilidades é editorial. As habilidades destacadas têm exercícios nesta seleção.</p>
+    <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">Consultar documento oficial ↗</a></details>`;
 }
 
 function nextLesson() {
@@ -127,7 +161,8 @@ function statMarkup() {
 
 function renderRail() {
   const goal = Math.min(100, (state.todayXp / DAILY_GOAL) * 100);
-  const course = Math.round((state.completed.length / Math.max(lessons.length, 1)) * 100);
+  const completed = completedLessons();
+  const course = Math.round((completed / Math.max(lessons.length, 1)) * 100);
   rail.innerHTML = `
     <div class="stat-strip">${statMarkup()}</div>
     <section class="rail-card">
@@ -138,14 +173,14 @@ function renderRail() {
     </section>
     <section class="rail-card">
       <h3>Seu curso</h3>
-      <p>${state.completed.length} de ${lessons.length} lições concluídas.</p>
-      <div class="progress-row"><span>Física</span><span>${course}%</span></div>
+      <p>${completed} de ${lessons.length} lições concluídas.</p>
+      <div class="progress-row"><span>${escapeHtml(data.title)}</span><span>${course}%</span></div>
       <div class="progress-track"><div class="progress-fill" style="width:${course}%;background:var(--green)"></div></div>
       <button class="button" data-action="continue">Continuar</button>
     </section>
     <section class="rail-card">
       <h3>Questões reais</h3>
-      <p class="tiny">${data.total} questões de Física com resolução comentada, de 2009 a 2023.</p>
+      <p class="tiny">${data.total} questões de ${escapeHtml(data.title)} com resolução comentada. Acervo ENEM de 2009 a 2023.</p>
       <p class="tiny" style="margin-top:9px"><a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">Fonte: enem.dev ↗</a></p>
     </section>
   `;
@@ -154,6 +189,7 @@ function renderRail() {
 function pageHeader(kicker, title, subtitle) {
   return `
     <div class="mobile-stats">${statMarkup()}</div>
+    ${courseSwitcher()}
     <p class="page-kicker">${kicker}</p>
     <h1 class="page-title">${title}</h1>
     <p class="page-subtitle">${subtitle}</p>
@@ -168,24 +204,27 @@ function renderLearn() {
   }));
 
   app.innerHTML = `
-    ${pageHeader("Trilha de Física", "Do conceito à prova.", "Avance em lições curtas, ganhe XP e pratique com questões reais do ENEM.")}
+    ${pageHeader(`Trilha de ${escapeHtml(data.title)}`, "Do conceito à prova.", escapeHtml(data.description))}
     <div class="course-toolbar">
-      <div class="course-pill"><span class="course-dot"></span> Física · ENEM</div>
+      <div class="course-pill"><span class="course-dot"></span> ${data.emoji} ${escapeHtml(data.title)} · ENEM</div>
       <button class="button" data-lesson="${next.id}">Continuar trilha</button>
     </div>
+    <div class="curriculum-note"><strong>${escapeHtml(data.areaTitle)}</strong><span>${["matematica", "ciencias-natureza"].includes(data.id) ? `${data.modules.length} unidades organizadas pelas competências da matriz do INEP.` : "Unidades organizadas por tema, com competência e habilidade indicadas em cada questão."} Comece por qualquer unidade e avance pelas lições.</span>${data.id === "ciencias-natureza" ? '<span>Esta trilha reúne todas as questões de Física, Química e Biologia, sem repetição. A revisão de erros é compartilhada entre as trilhas.</span>' : ""}</div>
+    <div class="unit-jump"><label for="unit-select">Explorar unidades</label><select id="unit-select"><option value="">Escolha uma unidade…</option>${data.modules.map((m, i) => `<option value="${m.id}">${m.competency ? `C${m.competency}` : `Unidade ${i + 1}`} · ${escapeHtml(m.title)}</option>`).join("")}</select></div>
     <div class="path">
       ${grouped.map(({ module, lessons: moduleLessons }, moduleIndex) => {
-        const [color, dark] = modulePalette[module.id] || modulePalette.mecanica;
+        const [color, dark] = modulePalette[module.id] || module.color || modulePalette.mecanica;
         const completed = moduleLessons.filter((lesson) => state.completed.includes(lesson.id)).length;
         return `
-          <section class="unit" style="--unit-color:${color};--unit-dark:${dark}">
+          <section id="unit-${module.id}" class="unit" style="--unit-color:${color};--unit-dark:${dark}">
             <div class="unit-banner">
               <div class="unit-title-wrap">
                 <span class="unit-emoji">${module.emoji}</span>
-                <div><h2>Unidade ${moduleIndex + 1} · ${module.title}</h2><p>${moduleDescriptions[module.id]}</p></div>
+                <div><h2 tabindex="-1">${module.competency ? `Competência ${module.competency}` : `Unidade ${moduleIndex + 1}`} · ${escapeHtml(module.title)}</h2><p>${escapeHtml(module.description || moduleDescriptions[module.id] || "")}</p></div>
               </div>
               <span class="unit-count">${completed}/${moduleLessons.length} lições</span>
             </div>
+            ${referenceMarkup(module)}
             <button class="intro-card" data-intro="${module.id}" aria-label="Introdução conceitual de ${module.title}">
               <span class="intro-icon" aria-hidden="true">☰</span>
               <span><strong>Introdução conceitual</strong><span>${escapeHtml(module.introduction.summary)}</span><small>${state.introductionsRead.includes(module.id) ? "✓ Lida · Revisar conceitos" : `${module.introduction.duration} de leitura · Comece por aqui`}</small></span>
@@ -196,7 +235,7 @@ function renderLearn() {
                 const complete = state.completed.includes(lesson.id);
                 const unlocked = isUnlocked(lesson);
                 const current = unlocked && !complete && lesson.id === next.id;
-                const icon = complete ? "✓" : unlocked ? ["▸", "◆", "★", "♛"][lesson.index] : "🔒";
+                const icon = complete ? "✓" : unlocked ? ["▸", "◆", "★", "♛"][lesson.index % 4] : "🔒";
                 return `
                   <div class="lesson-row">
                     <button class="lesson-node ${complete ? "complete" : ""} ${!unlocked ? "locked" : ""} ${current ? "current" : ""}"
@@ -223,9 +262,9 @@ const moduleDescriptions = {
 };
 
 function renderPractice() {
-  const missed = state.missed.length;
+  const missed = data.questions.filter((q) => state.missed.includes(q.id)).length;
   app.innerHTML = `
-    ${pageHeader("Revisão inteligente", "Treine seus pontos fracos.", "O modo prática prioriza questões que você errou e completa a sessão com novos desafios.")}
+    ${pageHeader(`Revisão de ${escapeHtml(data.title)}`, "Treine seus pontos fracos.", "A prática usa questões da matéria selecionada, prioriza seus erros e completa a sessão com novos desafios.")}
     <section class="feature-card">
       <div>
         <span class="course-pill"><span class="course-dot"></span> Sessão de 5 questões</span>
@@ -245,8 +284,8 @@ function renderAchievements() {
     ["🔥", "Em chamas", "Mantenha uma sequência de 3 dias.", state.streak >= 3],
     ["⚡", "Alta tensão", "Acumule 200 XP.", state.xp >= 200],
     ["🎯", "Precisão", "Responda 20 questões.", state.answered.length >= 20],
-    ["🏅", "Meio caminho", "Conclua metade da trilha.", state.completed.length >= Math.ceil(lessons.length / 2)],
-    ["🧠", "Mestre da Física", "Conclua toda a trilha.", state.completed.length >= lessons.length],
+    ["🏅", "Meio caminho", `Conclua metade da trilha de ${data.title}.`, completedLessons() >= Math.ceil(lessons.length / 2)],
+    ["🧠", `Domínio de ${data.title}`, "Conclua toda a trilha selecionada.", completedLessons() >= lessons.length],
   ];
   app.innerHTML = `
     ${pageHeader("Seu progresso", "Conquistas", "Cada marco registra a constância que você está construindo.")}
@@ -266,10 +305,12 @@ function renderAbout() {
     ${pageHeader("Projeto aberto", "Sobre o Fisio", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
     <div class="about-grid">
       <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
-      <article class="info-card"><div class="big-number">${data.total}</div><h3>questões comentadas</h3><p>Questões com resolução própria do Fisio. Itens com dados incompletos ou fora de Física ficam preservados no acervo bruto, fora da prática.</p></article>
+      <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. Natureza reúne Física, Química e Biologia; suas questões são contadas uma única vez neste total.</p></article>
       <article class="info-card"><div class="big-number">15</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito original.</p></article>
       <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, corações e lições concluídas ficam salvos apenas neste navegador.</p></article>
     </div>
+    <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
+    <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
     <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Fisio, não comentários oficiais do INEP. O Fisio não é afiliado ao Duolingo.</div>
   `;
 }
@@ -304,7 +345,7 @@ function openIntroduction(moduleId) {
   if (!module) return;
   const intro = module.introduction;
   introModuleId = moduleId;
-  const [color, dark] = modulePalette[moduleId];
+  const [color, dark] = modulePalette[moduleId] || module.color || modulePalette.mecanica;
   openModal(`Introdução conceitual de ${module.title}`);
   modal.innerHTML = `
     <div class="intro-shell" style="--unit-color:${color};--unit-dark:${dark}">
@@ -313,6 +354,7 @@ function openIntroduction(moduleId) {
         <p class="page-kicker">Introdução conceitual</p>
         <h1 class="page-title" tabindex="-1">${escapeHtml(intro.title)}</h1>
         <p class="page-subtitle">${escapeHtml(intro.summary)}</p>
+        ${referenceMarkup(module)}
         ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.text)}</p><div class="formula">${escapeHtml(section.formula)}</div><p class="notation">${escapeHtml(section.notation)}</p></div></section>`).join("")}
         <section class="worked-example"><p class="page-kicker">Aplicando a ideia</p><h2>${escapeHtml(intro.example.title)}</h2><ol>${intro.example.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></section>
         <div class="notice"><strong>Evite esta confusão</strong><br>${escapeHtml(intro.pitfall)}</div>
@@ -369,7 +411,8 @@ function renderQuestion() {
         <div class="quiz-hearts">♥ ${state.hearts}</div>
       </div>
       <div class="question-wrap">
-        <div class="question-meta"><span>${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
+        <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
+        ${question.skill ? `<div class="question-skill"><strong>${question.areaId === "matematica" ? "MT" : "CN"} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
         <h1 tabindex="-1">${escapeHtml(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
         <div class="answers">
@@ -461,19 +504,15 @@ function nextQuestion() {
 function finishLesson() {
   const lesson = quiz.lesson;
   const isCourseLesson = lessons.some((item) => item.id === lesson.id);
-  if (isCourseLesson && !state.completed.includes(lesson.id)) {
+  const earnedBonus = isCourseLesson && !state.completed.includes(lesson.id);
+  if (earnedBonus) {
     state.completed.push(lesson.id);
     state.xp += 20;
     state.todayXp += 20;
   }
   const today = localDay();
   if (state.lastStudyDay !== today) {
-    const yesterday = new Intl.DateTimeFormat("en-CA", {
-      timeZone: "America/Sao_Paulo",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).format(new Date(Date.now() - 36 * 60 * 60 * 1000));
+    const yesterday = new Date(new Date(`${today}T12:00:00Z`).getTime() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
     state.streak = state.lastStudyDay === yesterday ? state.streak + 1 : 1;
     state.lastStudyDay = today;
   }
@@ -487,7 +526,7 @@ function finishLesson() {
         <p>${accuracy >= 80 ? "Excelente domínio desta rodada." : "Boa prática. Seus erros já entraram na revisão."}</p>
         <div class="finish-stats">
           <div class="finish-stat"><strong>${accuracy}%</strong><span>Precisão</span></div>
-          <div class="finish-stat"><strong>+${quiz.correct * 10 + (isCourseLesson ? 20 : 0)}</strong><span>XP ganho</span></div>
+          <div class="finish-stat"><strong>+${quiz.correct * 10 + (earnedBonus ? 20 : 0)}</strong><span>XP ganho</span></div>
         </div>
         <button class="button" data-action="finish">Voltar à trilha</button>
       </div>
@@ -547,7 +586,7 @@ document.addEventListener("keydown", (event) => {
   if (modal.hidden) return;
   if (event.key === "Escape") closeQuiz();
   if (event.key !== "Tab") return;
-  const focusable = [...modal.querySelectorAll('button:not(:disabled), a[href], [tabindex="0"]')];
+  const focusable = [...modal.querySelectorAll('button:not(:disabled), a[href], summary, [tabindex="0"]')];
   const first = focusable[0];
   const last = focusable.at(-1);
   if (event.shiftKey && (document.activeElement === first || !focusable.includes(document.activeElement))) {
@@ -555,6 +594,20 @@ document.addEventListener("keydown", (event) => {
   } else if (!event.shiftKey && document.activeElement === last) {
     event.preventDefault(); first?.focus();
   }
+});
+
+document.addEventListener("change", (event) => {
+  if (event.target.id === "unit-select") {
+    const unit = app.querySelector(`#unit-${event.target.value}`);
+    if (unit) { unit.scrollIntoView({ block: "start", behavior: "smooth" }); unit.querySelector("h2").focus({ preventScroll: true }); }
+    return;
+  }
+  if (event.target.id !== "course-select") return;
+  setCourse(event.target.value);
+  activeView = "aprender";
+  history.replaceState(null, "", "#aprender");
+  renderPage();
+  app.querySelector("#course-select").focus({ preventScroll: true });
 });
 
 window.addEventListener("hashchange", () => {
@@ -566,11 +619,10 @@ async function init() {
   app.innerHTML = `<div class="loading"><div><div class="loader"></div>Carregando sua trilha…</div></div>`;
   try {
     const response = await fetch(DATA_URL, { cache: "no-cache" });
-    if (!response.ok) throw new Error("Não foi possível carregar a base de Física.");
-    data = await response.json();
-    state.missed = state.missed.filter((id) => data.questions.some((question) => question.id === id));
-    saveState();
-    makeLessons();
+    if (!response.ok) throw new Error("Não foi possível carregar as matérias.");
+    catalog = await response.json();
+    state.missed = state.missed.filter((id) => catalog.questions.some((question) => question.id === id));
+    setCourse(state.activeCourse);
     renderPage();
   } catch (error) {
     app.innerHTML = `<div class="notice" style="margin-top:40px"><strong>Falha ao iniciar.</strong><br>${escapeHtml(error.message)} Recarregue a página ou verifique se o site está sendo servido por HTTP.</div>`;

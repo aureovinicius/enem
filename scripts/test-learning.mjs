@@ -4,6 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import vm from "node:vm";
 
 const data = JSON.parse(readFileSync("dist/data/physics-questions.json", "utf8"));
+const catalog = JSON.parse(readFileSync("dist/data/courses.json", "utf8"));
 const source = readFileSync("dist/app.js", "utf8").replace(/\ninit\(\);\s*$/, "");
 
 function appHarness(saved) {
@@ -17,8 +18,8 @@ function appHarness(saved) {
     Intl, Date, setTimeout() {}, structuredClone,
   });
   vm.runInContext(source, context);
-  context.inputData = data;
-  vm.runInContext("data = inputData; makeLessons();", context);
+  context.inputCatalog = catalog;
+  vm.runInContext("catalog = inputCatalog; setCourse(state.activeCourse);", context);
   return { run: (code) => vm.runInContext(code, context), nodes, storage };
 }
 
@@ -99,4 +100,127 @@ test("practice starts with pending errors before filling with new questions", ()
   const chosen = JSON.parse(app.run("JSON.stringify(quiz.questions.map(q => q.id))"));
   assert.equal(chosen.length, 5);
   assert.ok(missed.every((id) => chosen.slice(0, 2).includes(id)));
+});
+
+test("all five courses have complete introductions, explanations and unique question references", () => {
+  assert.deepEqual(catalog.courses.map((c) => c.id), ["fisica", "quimica", "biologia", "matematica", "ciencias-natureza"]);
+  assert.equal(catalog.total, catalog.questions.length);
+  assert.equal(new Set(catalog.questions.map((q) => q.id)).size, catalog.total);
+  const explanations = new Set();
+  const originals = JSON.parse(readFileSync("data/enem/all-questions.json", "utf8")).questions;
+  for (const q of catalog.questions) {
+    const original = originals.find((o) => `${o.year}-${o.index}` === q.id && o.discipline === q.areaId);
+    assert.ok(original, q.id);
+    assert.equal(q.correctAlternative, original.correctAlternative);
+    assert.deepEqual(q.alternatives.map((a) => [a.letter, a.text, a.isCorrect]), original.alternatives.map((a) => [a.letter, a.text, a.isCorrect]));
+    assert.ok(q.explanation.concept && q.explanation.takeaway, q.id);
+    assert.ok(q.explanation.steps.length >= 2 && q.explanation.steps.every((s) => s.length > 25), q.id);
+    const steps = JSON.stringify(q.explanation.steps);
+    assert.ok(!explanations.has(steps), `Generic duplicate ${q.id}`);
+    explanations.add(steps);
+    const c = catalog.matrix.areas[q.areaId].competencies.find((c) => c.number === q.competency);
+    assert.ok(c.skills.some((s) => s.number === q.skill), q.id);
+    for (const asset of JSON.stringify(q).match(/\/assets\/questions\/\d+\/\d+\/[^\s"\\)]+\.(?:png|jpg|jpeg|webp|gif)/gi) || []) {
+      assert.ok(readFileSync(`dist${asset}`).byteLength > 0, asset);
+    }
+  }
+  const moduleIds = new Set();
+  for (const c of catalog.courses) {
+    assert.equal(c.questionIds.length, c.total);
+    assert.equal(new Set(c.questionIds).size, c.total);
+    assert.ok(c.questionIds.every((id) => catalog.questions.some((q) => q.id === id)));
+    for (const m of c.modules) {
+      assert.ok(!moduleIds.has(m.id));
+      moduleIds.add(m.id);
+      assert.ok(m.introduction.sections.length >= 3 && m.introduction.example.steps.length >= 2 && m.introduction.pitfall);
+    }
+  }
+  assert.equal(moduleIds.size, 30);
+});
+
+test("Natureza is exactly the union of Physics, Chemistry and Biology without duplicating records", () => {
+  const scienceCourses = catalog.courses.filter((c) => ["fisica", "quimica", "biologia"].includes(c.id));
+  const union = new Set(scienceCourses.flatMap((c) => c.questionIds));
+  const nature = catalog.courses.find((c) => c.id === "ciencias-natureza");
+  assert.deepEqual(new Set(nature.questionIds), union);
+  assert.equal(union.size, scienceCourses.reduce((total, c) => total + c.total, 0));
+  assert.ok(nature.questionIds.every((id) => catalog.questions.find((q) => q.id === id).areaId === "ciencias-natureza"));
+});
+
+test("Math and Natureza cover every official competence and present its exact skills", () => {
+  for (const id of ["matematica", "ciencias-natureza"]) {
+    const course = catalog.courses.find((c) => c.id === id);
+    const references = catalog.matrix.areas[id].competencies;
+    assert.equal(course.modules.length, references.length);
+    assert.deepEqual(course.modules.map((m) => m.competency), references.map((c) => c.number));
+    assert.deepEqual(references.flatMap((c) => c.skills.map((s) => s.number)), Array.from({ length: 30 }, (_, i) => i + 1));
+    const app = appHarness({ activeCourse: id });
+    for (const m of course.modules) {
+      assert.deepEqual(m.reference, references.find((c) => c.number === m.competency));
+      const count = app.run(`data.questions.filter(q => q.moduleId === ${JSON.stringify(m.id)}).length`);
+      assert.ok(count >= 5, `${id} C${m.competency}`);
+    }
+    app.run("renderLearn()");
+    assert.ok(app.nodes.get("#app").innerHTML.includes("Associação") || app.nodes.get("#app").innerHTML.includes("associação"));
+    assert.equal((app.nodes.get("#app").innerHTML.match(/ver matriz e habilidades/g) || []).length, course.modules.length);
+  }
+});
+
+test("switching course preserves old progress and every question is reachable in lessons", () => {
+  const app = appHarness({ xp: 200, completed: ["mecanica-1"], introductionsRead: ["mecanica"] });
+  assert.equal(app.run("completedLessons()"), 1);
+  for (const c of catalog.courses) {
+    app.run(`setCourse(${JSON.stringify(c.id)}); renderLearn()`);
+    assert.equal(app.run("state.xp"), 200);
+    assert.equal(app.run("lessons.filter(l => l.index === 0 && isUnlocked(l)).length"), c.modules.length);
+    const ids = JSON.parse(app.run("JSON.stringify(lessons.flatMap(l => l.questions.map(q => q.id)))"));
+    assert.deepEqual(new Set(ids), new Set(c.questionIds));
+    assert.equal(ids.length, c.total);
+    assert.equal(app.run("completedLessons()"), c.id === "fisica" ? 1 : 0);
+    for (const m of c.modules) {
+      app.run(`openIntroduction(${JSON.stringify(m.id)}); completeIntroduction()`);
+    }
+  }
+  const saved = JSON.parse(app.storage.get("fisio-progress-v1"));
+  assert.equal(saved.activeCourse, "ciencias-natureza");
+  assert.deepEqual(saved.completed, ["mecanica-1"]);
+  assert.equal(saved.introductionsRead.length, 30);
+  const reloaded = appHarness(saved);
+  assert.equal(reloaded.run("data.id"), "ciencias-natureza");
+  assert.equal(reloaded.run("state.xp"), 200);
+});
+
+test("review is shared between a science subject and Natureza while remaining filtered by course", () => {
+  const physicsId = catalog.courses[0].questionIds[0];
+  const chemId = catalog.courses[1].questionIds[0];
+  const mathId = catalog.courses[3].questionIds[0];
+  const app = appHarness({ missed: [physicsId, chemId, mathId] });
+  app.run("startPractice()");
+  assert.equal(app.run("quiz.questions[0].id"), physicsId);
+  assert.equal(app.run("quiz.questions.some(q => q.subjectId !== 'fisica')"), false);
+  app.run("closeQuiz(); setCourse('ciencias-natureza'); startPractice()");
+  const first = JSON.parse(app.run("JSON.stringify(quiz.questions.slice(0, 2).map(q => q.id))"));
+  assert.deepEqual(new Set(first), new Set([physicsId, chemId]));
+  const answered = app.run("quiz.questions[0].id");
+  app.run("selectAnswer(quiz.questions[0].correctAlternative); checkAnswer()");
+  assert.equal(app.run(`state.missed.includes(${JSON.stringify(answered)})`), false);
+  assert.equal(app.run(`state.missed.includes(${JSON.stringify(mathId)})`), true);
+  app.run("closeQuiz(); setCourse('matematica'); startPractice()");
+  assert.equal(app.run("quiz.questions[0].id"), mathId);
+});
+
+test("all courses show explanations after correct or wrong answers and persist separate lesson completion", () => {
+  const app = appHarness();
+  for (const c of catalog.courses) {
+    app.run(`setCourse(${JSON.stringify(c.id)}); startLesson(lessons[0].id)`);
+    assert.ok(!app.nodes.get("#lesson-modal").innerHTML.includes('class="explanation"'));
+    app.run("selectAnswer(quiz.questions[0].alternatives.find(a => a.letter !== quiz.questions[0].correctAlternative).letter); checkAnswer()");
+    assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes("Por que a alternativa"));
+    app.run("nextQuestion(); selectAnswer(quiz.questions[1].correctAlternative); checkAnswer()");
+    assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes("Por que a alternativa"));
+    app.run("while (quiz.index < quiz.questions.length - 1) { nextQuestion(); selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); } nextQuestion();");
+    assert.equal(app.run("completedLessons()"), 1);
+    app.run("closeQuiz()");
+  }
+  assert.equal(app.run("state.completed.length"), 5);
 });

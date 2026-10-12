@@ -587,6 +587,46 @@ button:focus-visible, a:focus-visible {
 .finish-stat span { color: var(--muted); font-size: 11px; font-weight: 800; text-transform: uppercase; }
 .finish-card .button { width: 100%; }
 
+.course-switcher {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 6px 14px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+}
+.course-switcher label { color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+.course-switcher select {
+  min-width: 0;
+  width: 100%;
+  padding: 9px 8px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--ink);
+  background: var(--surface-2);
+  font: 800 15px "DM Sans", sans-serif;
+  cursor: pointer;
+}
+.course-switcher > span { grid-column: 2; color: var(--muted); font-size: 12px; }
+.unit-jump { display: grid; gap: 8px; margin: 0 0 28px; }
+.unit-jump label { font-size: 12px; font-weight: 800; color: var(--muted); }
+.unit-jump select { width: 100%; min-width: 0; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); font: 600 14px "DM Sans", sans-serif; }
+.unit { scroll-margin-top: 12px; }
+.curriculum-note { display: grid; gap: 7px; margin: 0 0 30px; padding: 18px; border-left: 3px solid var(--green); background: var(--surface-2); font-size: 13px; line-height: 1.6; }
+.curriculum-note span { color: var(--muted); }
+.competency-reference { margin: 14px 0; padding: 16px 18px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); font-size: 13px; line-height: 1.6; }
+.competency-reference summary { font-weight: 800; cursor: pointer; }
+.competency-reference p { margin: 12px 0; }
+.competency-reference ul { padding-left: 20px; }
+.competency-reference li { margin: 12px 0; }
+.reference-note { color: var(--muted); font-size: 12px; }
+.skill-present { display: block; width: fit-content; margin-top: 5px; padding: 2px 7px; color: #167342; border-radius: 5px; background: #e7f8ee; font-size: 11px; font-weight: 700; }
+.question-skill { display: grid; gap: 5px; margin: 10px 0 24px; padding: 13px 15px; border-radius: 12px; background: var(--surface-2); font-size: 12px; line-height: 1.6; }
+.question-skill strong { color: #167342; }
+.question-skill small { color: var(--muted); font-size: 11px; }
 .toast {
   position: fixed;
   left: 50%;
