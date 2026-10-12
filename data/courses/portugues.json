@@ -2,72 +2,314 @@
   "id": "portugues",
   "title": "Língua Portuguesa",
   "emoji": "💬",
-  "description": "Leitura, argumentação, variação linguística e construção de sentidos.",
+  "description": "Oito temas para interpretar textos, reconhecer argumentos e compreender os usos da língua, com 300 questões comentadas.",
   "modules": [
     {
-      "id": "pt-leitura",
-      "title": "Leitura, gêneros e argumentação",
-      "emoji": "🔎",
-      "description": "Identifique finalidade, público, argumentos e a circulação das informações.",
+      "id": "pt-organizacao",
+      "skills": [
+        18
+      ],
+      "title": "Coesão e organização do texto",
+      "emoji": "🧩",
+      "description": "Acompanhe retomadas, conectivos e a maneira como cada trecho desenvolve o assunto.",
       "introduction": {
-        "title": "Leitura, gêneros e argumentação",
+        "title": "Como as partes de um texto se conectam",
         "duration": "4 min",
-        "summary": "Identifique finalidade, público, argumentos e a circulação das informações.",
+        "summary": "Aprenda a localizar o referente de uma expressão e a explicar o papel de uma frase no conjunto do texto.",
         "sections": [
           {
-            "title": "Leia para descobrir o que o texto faz",
-            "text": "Uma notícia informa, uma campanha procura modificar comportamentos e uma resenha avalia uma obra. O tema é o assunto; a finalidade é o efeito que o autor busca produzir no leitor. Um dado numérico pode ser um recurso para persuadir, sem constituir o objetivo geral."
+            "title": "Descubra o que está sendo retomado",
+            "text": "Pronomes como ele, isso e essa, repetições e expressões equivalentes ligam informações. Para identificar uma retomada, substitua a expressão pelo possível referente e releia a frase. O referente pode ser uma ideia inteira, não apenas o substantivo mais próximo. Em “O bairro ganhou uma biblioteca. Essa conquista mobilizou os moradores”, a conquista é a abertura da biblioteca."
           },
           {
-            "title": "Observe a construção do argumento",
-            "text": "Exemplos, comparações, depoimentos e referências a pesquisas sustentam posições. Distinga a voz do autor das falas citadas. Quando a pergunta pede a intenção principal, procure uma alternativa que explique o conjunto do texto, não apenas uma frase."
+            "title": "Nomeie a relação entre as ideias",
+            "text": "Observe se um trecho acrescenta, contrasta, explica, exemplifica ou conclui uma informação. Em “A biblioteca é pequena, mas recebe muitos leitores”, mas introduz um contraste com a expectativa de pouca circulação. A relação precisa fazer sentido no contexto: decorar listas de conectivos não basta para interpretar o que eles fazem em cada texto."
           },
           {
-            "title": "Leia criticamente a informação",
-            "text": "Redes sociais, jornais e outros meios selecionam formas de apresentar os acontecimentos. Compare fontes, identifique pistas de autoria e examine a função das tecnologias. Desconfiar de tudo não substitui investigar e confrontar informações."
+            "title": "Acompanhe o avanço do assunto",
+            "text": "Pergunte o que cada parágrafo acrescenta ao anterior: apresenta uma situação, desenvolve uma causa, inclui um exemplo ou muda o foco? Uma repetição também pode produzir progressão ao ampliar uma ideia ou insistir em um problema. Nas alternativas, procure a descrição desse movimento, e não apenas uma frase que resuma o tema."
           }
         ],
         "example": {
-          "title": "Uma campanha sobre trânsito",
+          "title": "Exemplo autoral: uma retomada que inclui uma ação",
           "steps": [
-            "Um texto apresenta acidentes e termina pedindo cuidado com a vida. Os números sustentam o argumento.",
-            "A finalidade é sensibilizar para uma conduta responsável; divulgar estatísticas é um meio usado para isso."
+            "Leia: “A escola abriu a biblioteca aos sábados. A medida ampliou o acesso aos livros. Por isso, os empréstimos cresceram.”",
+            "A medida retoma a abertura da biblioteca aos sábados. Trocar a expressão apenas por biblioteca alteraria o sentido.",
+            "Por isso apresenta o crescimento dos empréstimos como consequência do acesso ampliado. O texto avança da ação para seus efeitos."
           ]
         },
-        "pitfall": "Não confunda o assunto de um texto com a intenção de quem o produz. Uma alternativa pode mencionar um detalhe verdadeiro e ainda não responder à pergunta."
+        "pitfall": "Não escolha automaticamente a palavra mais próxima como referente. Teste a substituição e verifique se ela preserva o sentido da frase."
       }
     },
     {
-      "id": "pt-lingua",
-      "title": "Língua, sentidos e identidade",
-      "emoji": "💬",
-      "description": "Entenda variação, adequação, coesão e o valor social das línguas.",
+      "id": "pt-finalidade",
+      "skills": [
+        23
+      ],
+      "title": "Gêneros e finalidade dos textos",
+      "emoji": "🎯",
+      "description": "Diferencie o assunto, os recursos usados e o efeito que o texto procura produzir no leitor.",
       "introduction": {
-        "title": "Língua, sentidos e identidade",
+        "title": "O que o texto pretende fazer com o leitor",
         "duration": "4 min",
-        "summary": "Entenda variação, adequação, coesão e o valor social das línguas.",
+        "summary": "Use autoria, público, suporte e escolhas de linguagem para reconhecer a finalidade de notícias, campanhas, anúncios e outros gêneros.",
         "sections": [
           {
-            "title": "Variação não é falha da língua",
-            "text": "Toda língua varia conforme região, grupos sociais, época e situação. Isso também ocorre nas línguas de sinais. A norma-padrão é uma referência para determinados contextos; não torna os demais usos inferiores nem elimina suas regras de funcionamento."
+            "title": "Separe tema e finalidade",
+            "text": "Tema é aquilo de que o texto trata; finalidade é o que ele busca realizar. Dois textos sobre água podem ter objetivos diferentes: uma notícia informa sobre o abastecimento, enquanto uma campanha busca estimular a economia. Complete mentalmente a frase “Esse texto procura...” com um verbo, como informar, orientar, criticar, divulgar ou convencer."
           },
           {
-            "title": "Adapte a linguagem ao contexto",
-            "text": "Considere quem fala, para quem, com qual finalidade e em qual situação. Uma correção pode ser inadequada numa conversa informal. Termos técnicos podem ser úteis entre especialistas e criar barreiras quando o público não os conhece."
+            "title": "Reconstrua a situação de comunicação",
+            "text": "Identifique quem produz a mensagem, a quem ela se dirige e onde circula. Uma instrução em uma embalagem atende a uma necessidade diferente de um comentário em uma rede social. O gênero oferece pistas, mas a resposta deve se apoiar no exemplar apresentado: uma publicidade, por exemplo, pode divulgar um serviço, construir a imagem de uma marca ou incentivar uma conduta."
           },
           {
-            "title": "Acompanhe os sentidos no texto",
-            "text": "Pronomes, repetições e expressões equivalentes ajudam a retomar informações. Verifique o referente antes de escolher a alternativa. Além de comunicar, uma língua guarda memória, pertencimento e formas de compreender o mundo."
+            "title": "Encontre o papel dos detalhes",
+            "text": "Números, histórias pessoais, humor e imagens podem servir à finalidade principal. Ao ler uma campanha que apresenta dados e termina com um convite à ação, pergunte para que os dados foram usados. Confronte cada alternativa com o texto inteiro: mencionar um recurso presente não é o mesmo que explicar o objetivo da mensagem."
           }
         ],
         "example": {
-          "title": "Duas expressões, um referente",
+          "title": "Exemplo autoral: o dado a serviço de um convite",
           "steps": [
-            "Em uma notícia, o escritor aparece primeiro pelo nome e depois como o autor do romance.",
-            "As duas expressões podem retomar a mesma pessoa; essa conexão mantém a continuidade do texto."
+            "Um cartaz escolar informa quantos copos descartáveis foram usados na semana e termina com “Traga sua caneca”.",
+            "O tema é o consumo de descartáveis. A quantidade citada dimensiona o problema e dá força ao apelo final.",
+            "A finalidade é incentivar uma mudança de hábito. A alternativa “apresentar um levantamento numérico” descreve um recurso, mas deixa de fora o convite que orienta o cartaz."
           ]
         },
-        "pitfall": "Não trate variedade regional como erro nem suponha que palavras diferentes sempre indiquem pessoas ou objetos diferentes."
+        "pitfall": "Não responda somente sobre o assunto. Procure o efeito pretendido sobre o público e confira se ele explica o conjunto da mensagem."
+      }
+    },
+    {
+      "id": "pt-argumentacao",
+      "skills": [
+        21,
+        24
+      ],
+      "title": "Argumentação e persuasão",
+      "emoji": "💡",
+      "description": "Reconheça teses, evidências, apelos e escolhas de linguagem que procuram conquistar a adesão do leitor.",
+      "introduction": {
+        "title": "Como uma posição ganha força no texto",
+        "duration": "5 min",
+        "summary": "Localize a posição defendida e explique de que maneira exemplos, dados, vozes citadas e recursos visuais a sustentam.",
+        "sections": [
+          {
+            "title": "Diferencie posição e sustentação",
+            "text": "A tese é a posição que o texto defende. Os argumentos são as razões apresentadas para que o leitor a aceite. Um exemplo aproxima a ideia de uma situação concreta; uma comparação destaca semelhanças ou diferenças; um dado dimensiona um fenômeno. Pergunte “Que posição esse trecho ajuda a defender?” antes de nomear o recurso usado."
+          },
+          {
+            "title": "Observe como o leitor é envolvido",
+            "text": "Vocativos, perguntas, imperativos, humor, emoção e imagens podem aproximar o público da mensagem. Em uma campanha, a palavra você pode atribuir responsabilidade ao leitor; em outro contexto, pode criar intimidade. Descreva a relação entre a escolha e seu efeito, em vez de considerar que uma palavra produz sempre o mesmo resultado."
+          },
+          {
+            "title": "Examine a força da evidência",
+            "text": "Uma voz especializada pode conferir credibilidade ao argumento, mas sua presença não transforma qualquer afirmação em verdade comprovada. Confira quem é citado e a que conclusão o trecho se refere. Observe também concessões, como “Embora a mudança custe recursos...”: reconhecer uma dificuldade pode preparar a defesa de uma medida, sem abandonar a tese."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: reconhecer uma objeção e defender uma proposta",
+          "steps": [
+            "Leia: “Ampliar o horário da biblioteca exige organização, mas permite que estudantes do turno noturno também a frequentem. Por que restringir esse acesso?”",
+            "A posição defendida é ampliar o horário. O acesso dos estudantes é a razão apresentada; a necessidade de organização é uma dificuldade reconhecida pelo próprio texto.",
+            "A pergunta final não busca uma informação factual: convida o leitor a questionar a restrição e reforça a defesa do acesso."
+          ]
+        },
+        "pitfall": "Não confunda a objeção mencionada com a opinião do autor. Verifique se o texto acolhe, limita ou contesta a ideia que apresenta."
+      }
+    },
+    {
+      "id": "pt-multimodal",
+      "skills": [
+        1,
+        2,
+        3,
+        4,
+        28,
+        29,
+        30
+      ],
+      "title": "Imagem, mídia e cultura digital",
+      "emoji": "📱",
+      "description": "Leia palavras e imagens em conjunto e avalie como os meios de comunicação fazem as informações circular.",
+      "introduction": {
+        "title": "Ler além das palavras",
+        "duration": "5 min",
+        "summary": "Relacione recursos visuais e verbais, identifique usos sociais da tecnologia e observe o que muda quando uma mensagem circula em diferentes meios.",
+        "sections": [
+          {
+            "title": "Monte o sentido com todas as pistas",
+            "text": "Em uma tirinha, anúncio ou postagem, observe falas, expressões, enquadramentos, tamanho das letras e sequência das cenas. A imagem pode completar ou contrariar o texto verbal. Se a questão pede humor ou crítica, procure o ponto em que as pistas se encontram: uma frase aparentemente elogiosa pode ganhar sentido irônico diante da cena."
+          },
+          {
+            "title": "Relacione o recurso à necessidade social",
+            "text": "Legendas, áudio, hiperlinks e ferramentas de busca oferecem diferentes formas de acessar ou produzir informação. Identifique que necessidade o recurso atende e quais condições limitam seu uso. Um serviço digital pode ampliar o acesso a um documento e ainda excluir pessoas sem conexão ou sem uma interface acessível."
+          },
+          {
+            "title": "Investigue produção e circulação",
+            "text": "Pergunte quem publicou, qual é a fonte original, em que data e com qual recorte. Repetição e número de compartilhamentos mostram circulação, não comprovam veracidade. Nas questões sobre mídias, observe efeitos concretos descritos no texto, como participação do público, velocidade de divulgação, seleção de informações e novas relações entre autores e leitores."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: a imagem altera o elogio",
+          "steps": [
+            "Uma charge mostra duas pessoas sentadas lado a lado, cada uma olhando para o próprio celular. A legenda diz: “Nunca estivemos tão conectados”.",
+            "A palavra conectados pode se referir à rede digital; a imagem destaca a ausência de interação entre as pessoas presentes.",
+            "A aproximação desses sentidos produz uma crítica ao uso da tecnologia naquela situação. A charge não permite concluir que toda comunicação digital impede vínculos."
+          ]
+        },
+        "pitfall": "Não leia a legenda isoladamente nem transforme uma crítica a um uso específico em uma condenação de toda tecnologia."
+      }
+    },
+    {
+      "id": "pt-expressividade",
+      "skills": [
+        15,
+        16,
+        17,
+        22
+      ],
+      "title": "Literatura, estilo e pontos de vista",
+      "emoji": "✍️",
+      "description": "Interprete imagens poéticas, vozes, valores sociais e diferentes maneiras de abordar um mesmo tema.",
+      "introduction": {
+        "title": "Da escolha das palavras à visão de mundo",
+        "duration": "5 min",
+        "summary": "Explique o efeito dos recursos expressivos e compare perspectivas com apoio nas marcas de cada texto.",
+        "sections": [
+          {
+            "title": "Explique o efeito, além do nome",
+            "text": "Uma metáfora aproxima sentidos; uma repetição pode criar ritmo, insistência ou contraste; uma mudança na ordem das palavras pode destacar uma imagem. Identificar a figura de linguagem é apenas uma etapa. Pergunte o que essa escolha permite perceber no texto. Em “a cidade acordou impaciente”, a atribuição de uma atitude humana ajuda a representar a agitação coletiva."
+          },
+          {
+            "title": "Distinga as vozes e situe os valores",
+            "text": "Narrador, personagem, voz poética e autor não são automaticamente a mesma pessoa. Observe quem expressa cada julgamento e se o texto o confirma ou o coloca em tensão. Informações sobre o contexto ajudam a entender relações sociais e valores, mas precisam se ligar a pistas do trecho: a data, sozinha, não determina o sentido de uma obra."
+          },
+          {
+            "title": "Compare a perspectiva sobre o tema",
+            "text": "Quando há dois textos, formule separadamente o que cada um afirma sobre o assunto comum. Um pode tratar a cidade como promessa de oportunidades; outro, como experiência de isolamento. Procure a convergência ou a diferença pedida no enunciado. Compartilhar o tema não significa defender a mesma opinião ou usar os mesmos recursos."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: duas cidades no mesmo tema",
+          "steps": [
+            "O texto A diz: “A cidade me abriu portas”. O texto B diz: “Entre tantas janelas, nenhuma sabia meu nome”.",
+            "Portas abertas sugerem possibilidades no texto A. As janelas do texto B contrastam com a falta de reconhecimento e constroem uma experiência de solidão.",
+            "Os dois trechos abordam a vida urbana, mas oferecem perspectivas diferentes. Para compará-los, relacione as imagens às experiências representadas."
+          ]
+        },
+        "pitfall": "Não atribua automaticamente ao autor a fala de uma personagem nem escolha uma alternativa sobre uma escola literária sem apoio no trecho."
+      }
+    },
+    {
+      "id": "pt-funcoes",
+      "skills": [
+        19
+      ],
+      "title": "Funções da linguagem",
+      "emoji": "📣",
+      "description": "Reconheça o foco da comunicação e a função predominante em situações concretas.",
+      "introduction": {
+        "title": "Qual elemento da comunicação ganha destaque",
+        "duration": "4 min",
+        "summary": "Relacione a função da linguagem à organização da mensagem, sem depender de uma palavra isolada.",
+        "sections": [
+          {
+            "title": "Observe informação, expressão e apelo",
+            "text": "Na função referencial, o foco recai sobre informações do contexto, como horários e acontecimentos. Na emotiva, sobressai a expressão da atitude ou do sentimento de quem fala. Na conativa, a mensagem se dirige ao destinatário para orientar ou influenciar sua ação. Essas funções podem coexistir; procure qual delas orienta o trecho solicitado."
+          },
+          {
+            "title": "Reconheça contato, código e forma",
+            "text": "A função fática estabelece ou mantém o contato, como em “Você está me ouvindo?”. A metalinguística explica ou examina o próprio código, como um verbete que define uma palavra ou um poema que reflete sobre sua escrita. A poética destaca a forma da mensagem, explorando ritmo, sonoridade ou combinação de sentidos; também pode aparecer em anúncios e conversas."
+          },
+          {
+            "title": "Justifique a predominância",
+            "text": "Depois de identificar uma pista, explique como ela participa da finalidade do trecho. A presença de eu não torna qualquer texto predominantemente emotivo; uma rima, por si só, não resolve toda questão sobre função poética. Confira se a pergunta trata do texto inteiro, de uma passagem ou da interação entre funções."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: função principal e recurso de apoio",
+          "steps": [
+            "Uma campanha usa a frase “Apague a luz. Acenda essa ideia.” ao pedir que o público reduza o consumo de energia.",
+            "Os verbos dirigidos ao leitor sustentam a função conativa: a campanha busca estimular uma ação.",
+            "O jogo entre apagar e acender valoriza a forma da mensagem e acrescenta um recurso poético. As duas funções podem atuar juntas."
+          ]
+        },
+        "pitfall": "Não suponha que cada texto tenha uma única função ou que a função poética apareça apenas em poemas."
+      }
+    },
+    {
+      "id": "pt-variacao",
+      "skills": [
+        25,
+        26,
+        27
+      ],
+      "title": "Variação e adequação linguística",
+      "emoji": "💬",
+      "description": "Relacione usos da língua a grupos, regiões e situações, reconhecendo adequação e preconceito linguístico.",
+      "introduction": {
+        "title": "Quem fala, com quem e em qual situação",
+        "duration": "5 min",
+        "summary": "Interprete marcas de variedades linguísticas e o papel da norma-padrão sem hierarquizar os falantes.",
+        "sections": [
+          {
+            "title": "Localize a marca de variação",
+            "text": "Vocabulário, pronúncia, construções gramaticais e modos de tratamento variam entre regiões, grupos, épocas e situações. Apoie sua leitura em uma marca concreta: uma expressão antiga, um termo profissional ou uma escolha de tratamento. Evite deduzir toda a identidade de alguém a partir de uma palavra; uma mesma forma pode circular por vários grupos."
+          },
+          {
+            "title": "Avalie a adequação à situação",
+            "text": "Uma mensagem para um amigo e uma solicitação institucional podem exigir escolhas diferentes. Considere interlocutores, finalidade e grau de formalidade. A norma-padrão funciona como referência em contextos específicos; as outras variedades também apresentam regularidades. Ajustar a linguagem à situação é diferente de afirmar que um grupo não sabe falar."
+          },
+          {
+            "title": "Reconheça o valor social atribuído ao uso",
+            "text": "O preconceito linguístico surge quando características da fala são usadas para desqualificar pessoas ou grupos. Um texto pode registrar uma variedade para representar pertencimento, proximidade ou oralidade. Na questão, observe se o uso é descrito, valorizado, estigmatizado ou empregado para produzir algum efeito na relação com o leitor."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: a mesma pessoa em duas situações",
+          "steps": [
+            "Em uma conversa, uma estudante escreve “Oi! Dá pra mudar nosso horário?”. Para a secretaria, escreve “Gostaria de solicitar a alteração do horário”.",
+            "A mudança de tratamento e de construção acompanha o interlocutor e o contexto. As duas mensagens fazem um pedido, com diferentes graus de formalidade.",
+            "O contraste mostra adequação situacional. Não permite concluir que a primeira mensagem seja incapaz de comunicar ou que a segunda indique maior inteligência."
+          ]
+        },
+        "pitfall": "Não confunda uso informal com falta de regras. Se a questão pedir norma-padrão, analise sua função naquele contexto, sem julgar o valor dos falantes."
+      }
+    },
+    {
+      "id": "pt-patrimonio",
+      "skills": [
+        20
+      ],
+      "title": "Língua, memória e patrimônio",
+      "emoji": "🌱",
+      "description": "Entenda como usos da língua registram experiências, formam identidades e preservam memórias coletivas.",
+      "introduction": {
+        "title": "O que uma língua guarda de uma comunidade",
+        "duration": "4 min",
+        "summary": "Relacione palavras, narrativas e formas de expressão à diversidade cultural e ao pertencimento.",
+        "sections": [
+          {
+            "title": "Identifique a memória presente na linguagem",
+            "text": "Nomes de lugares, expressões, relatos orais e vocabulários de ofícios podem registrar experiências de uma comunidade. Quando a questão relaciona língua e patrimônio, procure o vínculo específico: o que aquele uso permite lembrar, transmitir ou reconhecer? A resposta deve explicar essa função cultural, não apenas afirmar que a língua serve para comunicar."
+          },
+          {
+            "title": "Reconheça encontros e transformações",
+            "text": "O português usado no Brasil reúne marcas de diferentes trajetórias e contatos linguísticos. Empréstimos e mudanças de sentido podem fazer parte desse processo. Analise o efeito apresentado no texto antes de julgar uma transformação como perda ou enriquecimento. A ideia de uma língua pura e imóvel não descreve os usos de uma comunidade ao longo do tempo."
+          },
+          {
+            "title": "Associe preservação a pessoas e práticas",
+            "text": "Valorizar o patrimônio linguístico envolve reconhecer os falantes e as práticas em que a língua vive: contar histórias, nomear o território, trabalhar, ensinar e criar. Registrar expressões pode preservar memória, mas não exige impedir toda mudança. Observe se o texto defende documentação, transmissão entre gerações ou respeito à diversidade de usos."
+          }
+        ],
+        "example": {
+          "title": "Exemplo autoral: um glossário de memórias",
+          "steps": [
+            "Estudantes entrevistam moradores antigos e organizam um glossário de expressões usadas nas feiras do bairro, incluindo relatos sobre quando e por quem eram ditas.",
+            "O registro liga as palavras a práticas de trabalho, convivência e história local. Sua função ultrapassa a definição de vocabulário.",
+            "A iniciativa valoriza a memória e o pertencimento da comunidade. Isso não implica exigir que todos os moradores adotem sempre as mesmas expressões."
+          ]
+        },
+        "pitfall": "Não confunda preservação do patrimônio com proibição de mudanças ou com a imposição de uma única maneira de falar."
       }
     }
   ],
@@ -84,7 +326,7 @@
         ],
         "takeaway": "Relacione a circulação da informação às redes e aos recursos de cada sociedade."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2023-10",
@@ -98,7 +340,7 @@
         ],
         "takeaway": "Marcas linguísticas e padrões de uso podem ajudar a investigar a origem de mensagens."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2023-11",
@@ -112,7 +354,7 @@
         ],
         "takeaway": "Distinga a finalidade do texto dos argumentos empregados para alcançá-la."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-finalidade"
     },
     {
       "id": "2023-27",
@@ -126,7 +368,7 @@
         ],
         "takeaway": "Repetições podem desenvolver uma ideia ao ampliar progressivamente seu alcance."
       },
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "promptStart": "O recurso que promove"
     },
     {
@@ -141,7 +383,7 @@
         ],
         "takeaway": "O objetivo de um texto pode ser inferido da transformação que ele destaca."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-finalidade"
     },
     {
       "id": "2022-10",
@@ -155,7 +397,7 @@
         ],
         "takeaway": "Uma inovação pode ampliar a circulação cultural e criar desafios à proteção da autoria."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2022-11",
@@ -169,7 +411,7 @@
         ],
         "takeaway": "Dominar tecnologias envolve aprender suas linguagens, não apenas ter acesso aos aparelhos."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2022-22",
@@ -183,7 +425,7 @@
         ],
         "takeaway": "Compare textos pela finalidade comum, sem transferir a um deles detalhes exclusivos do outro."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2022-36",
@@ -197,7 +439,7 @@
         ],
         "takeaway": "Um texto informativo também pode sensibilizar o público para um problema coletivo."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-finalidade"
     },
     {
       "id": "2021-29",
@@ -211,7 +453,7 @@
         ],
         "takeaway": "Ler criticamente envolve comparar perspectivas e investigar, não apenas desconfiar de tudo."
       },
-      "moduleId": "pt-leitura"
+      "moduleId": "pt-finalidade"
     },
     {
       "id": "2023-8",
@@ -225,7 +467,7 @@
         ],
         "takeaway": "Variedades linguísticas não constituem uma escala natural de superioridade entre povos."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-variacao"
     },
     {
       "id": "2023-15",
@@ -239,7 +481,7 @@
         ],
         "takeaway": "Preservar registros linguísticos significa preservar experiências e memórias que podem ser insubstituíveis."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-patrimonio"
     },
     {
       "id": "2023-16",
@@ -253,7 +495,7 @@
         ],
         "takeaway": "Línguas de sinais também variam socialmente, regionalmente e ao longo do tempo."
       },
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "promptStart": "Nesse texto, a Língua Brasileira"
     },
     {
@@ -268,7 +510,7 @@
         ],
         "takeaway": "O vocabulário técnico pode se tornar instrumento de poder quando impede a compreensão pública."
       },
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-argumentacao",
       "promptStart": "Nesse texto, a estratégia usada"
     },
     {
@@ -283,7 +525,7 @@
         ],
         "takeaway": "Reconhecer variedades linguísticas pode resolver dificuldades concretas de comunicação."
       },
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "promptStart": "Ao registrarem usos regionais"
     },
     {
@@ -298,7 +540,7 @@
         ],
         "takeaway": "Observe o efeito contextual das figuras de linguagem, não apenas sua classificação."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-variacao"
     },
     {
       "id": "2022-12",
@@ -312,7 +554,7 @@
         ],
         "takeaway": "Adequação linguística exige considerar situação, interlocutores e finalidade da fala."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-variacao"
     },
     {
       "id": "2022-28",
@@ -326,7 +568,7 @@
         ],
         "takeaway": "A recuperação de uma língua pode fortalecer vínculos de pertencimento e memória coletiva."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-patrimonio"
     },
     {
       "id": "2022-37",
@@ -340,7 +582,7 @@
         ],
         "takeaway": "Na leitura crítica das redes, distinga a representação selecionada da totalidade da experiência."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-multimodal"
     },
     {
       "id": "2021-26",
@@ -354,13 +596,13 @@
         ],
         "takeaway": "A coesão referencial conecta expressões diferentes que designam a mesma pessoa ou objeto."
       },
-      "moduleId": "pt-lingua"
+      "moduleId": "pt-organizacao"
     },
     {
       "id": "2009-92",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Adequação de registro",
         "steps": [
@@ -374,7 +616,7 @@
       "id": "2009-107",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Argumentação por fatos",
         "steps": [
@@ -388,7 +630,7 @@
       "id": "2009-108",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Comparação de finalidades",
         "steps": [
@@ -402,7 +644,7 @@
       "id": "2009-111",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Patrimônio linguístico oral",
         "steps": [
@@ -416,7 +658,7 @@
       "id": "2009-119",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Norma e usos efetivos",
         "steps": [
@@ -430,7 +672,7 @@
       "id": "2009-121",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Identificação do interlocutor",
         "steps": [
@@ -444,7 +686,7 @@
       "id": "2009-122",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Norma-padrão e interlocução",
         "steps": [
@@ -458,7 +700,7 @@
       "id": "2009-124",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Oximoro",
         "steps": [
@@ -472,7 +714,7 @@
       "id": "2009-129",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Convergência de argumentos",
         "steps": [
@@ -486,7 +728,7 @@
       "id": "2009-131",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Preconceito linguístico",
         "steps": [
@@ -500,7 +742,7 @@
       "id": "2010-98",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade do horóscopo",
         "steps": [
@@ -514,7 +756,7 @@
       "id": "2010-99",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Registro técnico",
         "steps": [
@@ -528,7 +770,7 @@
       "id": "2010-102",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Ironia",
         "steps": [
@@ -542,7 +784,7 @@
       "id": "2011-103",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Texto e suporte",
         "steps": [
@@ -556,7 +798,7 @@
       "id": "2011-106",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Coesão aditiva",
         "steps": [
@@ -570,7 +812,7 @@
       "id": "2011-109",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Intenção argumentativa",
         "steps": [
@@ -584,7 +826,7 @@
       "id": "2011-111",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Anedota",
         "steps": [
@@ -598,7 +840,7 @@
       "id": "2011-115",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Leitura crítica de tese",
         "steps": [
@@ -612,7 +854,7 @@
       "id": "2011-119",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Contato de línguas",
         "steps": [
@@ -626,7 +868,7 @@
       "id": "2011-120",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função emotiva",
         "steps": [
@@ -640,7 +882,7 @@
       "id": "2011-121",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função referencial",
         "steps": [
@@ -654,7 +896,7 @@
       "id": "2011-125",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Língua e brasilidade",
         "steps": [
@@ -668,7 +910,7 @@
       "id": "2011-126",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Comparação de opiniões",
         "steps": [
@@ -682,7 +924,7 @@
       "id": "2011-128",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Variedades do português",
         "steps": [
@@ -696,7 +938,7 @@
       "id": "2011-130",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Variação regional lexical",
         "steps": [
@@ -710,7 +952,7 @@
       "id": "2011-131",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Norma real e norma ideal",
         "steps": [
@@ -724,7 +966,7 @@
       "id": "2012-98",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Preservação da memória",
         "steps": [
@@ -738,7 +980,7 @@
       "id": "2012-99",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Marcas da oralidade",
         "steps": [
@@ -752,7 +994,7 @@
       "id": "2012-101",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Linguagem e relações de poder",
         "steps": [
@@ -766,7 +1008,7 @@
       "id": "2012-105",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Tratamento e distância social",
         "steps": [
@@ -780,7 +1022,7 @@
       "id": "2012-110",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Criatividade nos usos coloquiais",
         "steps": [
@@ -794,7 +1036,7 @@
       "id": "2012-111",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Linguagem radiofônica",
         "steps": [
@@ -808,7 +1050,7 @@
       "id": "2012-119",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Carta do leitor",
         "steps": [
@@ -822,7 +1064,7 @@
       "id": "2012-120",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade da divulgação",
         "steps": [
@@ -836,7 +1078,7 @@
       "id": "2012-123",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Norma e contexto",
         "steps": [
@@ -850,7 +1092,7 @@
       "id": "2012-127",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função emotiva",
         "steps": [
@@ -864,7 +1106,7 @@
       "id": "2012-128",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Adequação na entrevista",
         "steps": [
@@ -878,7 +1120,7 @@
       "id": "2012-129",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Léxico e experiência cultural",
         "steps": [
@@ -892,7 +1134,7 @@
       "id": "2012-130",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Mudança linguística e purismo",
         "steps": [
@@ -906,7 +1148,7 @@
       "id": "2012-132",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Enunciado e objetivo textual",
         "steps": [
@@ -920,7 +1162,7 @@
       "id": "2013-98",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Primeira pessoa e persuasão",
         "steps": [
@@ -934,7 +1176,7 @@
       "id": "2013-100",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Coloquialidade",
         "steps": [
@@ -948,7 +1190,7 @@
       "id": "2013-101",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Metáfora e memória",
         "steps": [
@@ -962,7 +1204,7 @@
       "id": "2013-105",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Precisão do texto legal",
         "steps": [
@@ -976,7 +1218,7 @@
       "id": "2013-107",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Leitura de edital",
         "steps": [
@@ -990,7 +1232,7 @@
       "id": "2013-112",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Pontuação como recurso expressivo",
         "steps": [
@@ -1004,7 +1246,7 @@
       "id": "2013-113",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Efeito poético",
         "steps": [
@@ -1018,7 +1260,7 @@
       "id": "2013-115",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Repetição e intensificação",
         "steps": [
@@ -1032,7 +1274,7 @@
       "id": "2013-118",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Marcas de informalidade",
         "steps": [
@@ -1046,7 +1288,7 @@
       "id": "2013-121",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Elipse e coesão",
         "steps": [
@@ -1060,7 +1302,7 @@
       "id": "2013-125",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Confronto de informações",
         "steps": [
@@ -1074,7 +1316,7 @@
       "id": "2013-130",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Retificação argumentativa",
         "steps": [
@@ -1088,7 +1330,7 @@
       "id": "2013-132",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Humor e interpretação",
         "steps": [
@@ -1102,7 +1344,7 @@
       "id": "2014-101",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Referenciação textual",
         "steps": [
@@ -1116,7 +1358,7 @@
       "id": "2014-103",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Posicionamento argumentativo",
         "steps": [
@@ -1130,7 +1372,7 @@
       "id": "2014-104",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Adequação linguística",
         "steps": [
@@ -1144,7 +1386,7 @@
       "id": "2014-106",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Manutenção da interação",
         "steps": [
@@ -1158,7 +1400,7 @@
       "id": "2014-107",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Função social do blog",
         "steps": [
@@ -1172,7 +1414,7 @@
       "id": "2014-111",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Modalização verbal",
         "steps": [
@@ -1186,7 +1428,7 @@
       "id": "2014-114",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Pesquisa como argumento",
         "steps": [
@@ -1200,7 +1442,7 @@
       "id": "2014-118",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Variação histórica",
         "steps": [
@@ -1214,7 +1456,7 @@
       "id": "2014-120",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Ironia narrativa",
         "steps": [
@@ -1228,7 +1470,7 @@
       "id": "2014-121",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Função do editorial",
         "steps": [
@@ -1242,7 +1484,7 @@
       "id": "2014-129",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Vocabulário regional",
         "steps": [
@@ -1256,7 +1498,7 @@
       "id": "2014-132",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Ditados e justificação",
         "steps": [
@@ -1270,7 +1512,7 @@
       "id": "2014-134",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Empréstimos e história",
         "steps": [
@@ -1284,7 +1526,7 @@
       "id": "2015-100",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Expressões coloquiais",
         "steps": [
@@ -1298,7 +1540,7 @@
       "id": "2015-101",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Hibridismo de gêneros",
         "steps": [
@@ -1312,7 +1554,7 @@
       "id": "2015-102",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Informação e orientação",
         "steps": [
@@ -1326,7 +1568,7 @@
       "id": "2015-103",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade de conscientização",
         "steps": [
@@ -1340,7 +1582,7 @@
       "id": "2015-106",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Escrita digital e contexto",
         "steps": [
@@ -1354,7 +1596,7 @@
       "id": "2015-109",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Herança linguística africana",
         "steps": [
@@ -1368,7 +1610,7 @@
       "id": "2015-113",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Neologismo e produtividade",
         "steps": [
@@ -1382,7 +1624,7 @@
       "id": "2015-114",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Inferência e limites da informação",
         "steps": [
@@ -1396,7 +1638,7 @@
       "id": "2015-115",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Oralidade e memória",
         "steps": [
@@ -1410,7 +1652,7 @@
       "id": "2015-116",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Regularidade da variação",
         "steps": [
@@ -1424,7 +1666,7 @@
       "id": "2015-117",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Registro e gênero oficial",
         "steps": [
@@ -1438,7 +1680,7 @@
       "id": "2015-120",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Estigma e desaparecimento lexical",
         "steps": [
@@ -1452,7 +1694,7 @@
       "id": "2015-121",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Circulação da leitura",
         "steps": [
@@ -1466,7 +1708,7 @@
       "id": "2015-122",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Língua e conhecimento local",
         "steps": [
@@ -1480,7 +1722,7 @@
       "id": "2015-123",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Reformulação de registro",
         "steps": [
@@ -1494,7 +1736,7 @@
       "id": "2015-125",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Texto instrucional",
         "steps": [
@@ -1508,7 +1750,7 @@
       "id": "2015-128",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Gênero biográfico",
         "steps": [
@@ -1522,7 +1764,7 @@
       "id": "2015-135",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Divulgação científica",
         "steps": [
@@ -1536,7 +1778,7 @@
       "id": "2016-96",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Metalinguagem",
         "steps": [
@@ -1550,7 +1792,7 @@
       "id": "2016-97",
       "competency": 1,
       "skill": 4,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Leitura crítica de mensagens",
         "steps": [
@@ -1564,7 +1806,7 @@
       "id": "2016-99",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Regionalismo",
         "steps": [
@@ -1578,7 +1820,7 @@
       "id": "2016-101",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Oração condicional",
         "steps": [
@@ -1592,7 +1834,7 @@
       "id": "2016-102",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "História do significado",
         "steps": [
@@ -1606,7 +1848,7 @@
       "id": "2016-103",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Convergência de teses",
         "steps": [
@@ -1620,7 +1862,7 @@
       "id": "2016-104",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Dois-pontos argumentativos",
         "steps": [
@@ -1634,7 +1876,7 @@
       "id": "2016-108",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Apresentação de obra",
         "steps": [
@@ -1648,7 +1890,7 @@
       "id": "2016-110",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Analogia e criação",
         "steps": [
@@ -1662,7 +1904,7 @@
       "id": "2016-111",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Marcas de diário",
         "steps": [
@@ -1676,7 +1918,7 @@
       "id": "2016-115",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Tabu linguístico",
         "steps": [
@@ -1690,7 +1932,7 @@
       "id": "2016-117",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Repetição e sensibilização",
         "steps": [
@@ -1704,7 +1946,7 @@
       "id": "2016-118",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Resenha crítica",
         "steps": [
@@ -1718,7 +1960,7 @@
       "id": "2016-122",
       "competency": 7,
       "skill": 21,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Finalidade de campanha",
         "steps": [
@@ -1732,7 +1974,7 @@
       "id": "2016-123",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Fala culta e escrita",
         "steps": [
@@ -1746,7 +1988,7 @@
       "id": "2016-124",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Registro e humor",
         "steps": [
@@ -1760,7 +2002,7 @@
       "id": "2016-127",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Tese sobre um gênero",
         "steps": [
@@ -1774,7 +2016,7 @@
       "id": "2016-131",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Imprensa e memória",
         "steps": [
@@ -1788,7 +2030,7 @@
       "id": "2016-133",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Rubricas teatrais",
         "steps": [
@@ -1802,7 +2044,7 @@
       "id": "2016-134",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Contraste argumentativo",
         "steps": [
@@ -1816,7 +2058,7 @@
       "id": "2016-135",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Reticências e implícito",
         "steps": [
@@ -1830,7 +2072,7 @@
       "id": "2017-6",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Permanência da comunicação",
         "steps": [
@@ -1844,7 +2086,7 @@
       "id": "2017-9",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Oralidade e padrões culturais",
         "steps": [
@@ -1858,7 +2100,7 @@
       "id": "2017-12",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Herança indígena no léxico",
         "steps": [
@@ -1872,7 +2114,7 @@
       "id": "2017-14",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Pressão de grupo",
         "steps": [
@@ -1886,7 +2128,7 @@
       "id": "2017-15",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Grafia e pertencimento",
         "steps": [
@@ -1900,7 +2142,7 @@
       "id": "2017-17",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Tese e ponderação",
         "steps": [
@@ -1914,7 +2156,7 @@
       "id": "2017-20",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Patrimônio em renovação",
         "steps": [
@@ -1928,7 +2170,7 @@
       "id": "2017-22",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Comparação de línguas",
         "steps": [
@@ -1942,7 +2184,7 @@
       "id": "2017-23",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Subjetividade e intensidade",
         "steps": [
@@ -1956,7 +2198,7 @@
       "id": "2017-24",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Duplo sentido",
         "steps": [
@@ -1970,7 +2212,7 @@
       "id": "2017-25",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Resenha e avaliação",
         "steps": [
@@ -1984,7 +2226,7 @@
       "id": "2017-27",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Sentidos em situação",
         "steps": [
@@ -1998,7 +2240,7 @@
       "id": "2017-29",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função metalinguística",
         "steps": [
@@ -2012,7 +2254,7 @@
       "id": "2017-33",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Presente narrativo",
         "steps": [
@@ -2026,7 +2268,7 @@
       "id": "2017-35",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Interlocução explícita",
         "steps": [
@@ -2040,7 +2282,7 @@
       "id": "2017-38",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Verossimilhança linguística",
         "steps": [
@@ -2054,7 +2296,7 @@
       "id": "2017-39",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Prestígio de variedade",
         "steps": [
@@ -2068,7 +2310,7 @@
       "id": "2017-44",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Pontuação e estilo",
         "steps": [
@@ -2082,7 +2324,7 @@
       "id": "2018-6",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Estratégia e finalidade",
         "steps": [
@@ -2096,7 +2338,7 @@
       "id": "2018-8",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Registro e compreensão",
         "steps": [
@@ -2110,7 +2352,7 @@
       "id": "2018-9",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Dados contra estereótipo",
         "steps": [
@@ -2124,7 +2366,7 @@
       "id": "2018-12",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Predominância referencial",
         "steps": [
@@ -2138,7 +2380,7 @@
       "id": "2018-14",
       "competency": 7,
       "skill": 21,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Ressignificação de fala pública",
         "steps": [
@@ -2152,7 +2394,7 @@
       "id": "2018-17",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Ambientação e quebra de expectativa",
         "steps": [
@@ -2166,7 +2408,7 @@
       "id": "2018-18",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Contraste argumentativo",
         "steps": [
@@ -2180,7 +2422,7 @@
       "id": "2018-20",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Inferência narrativa",
         "steps": [
@@ -2194,7 +2436,7 @@
       "id": "2018-21",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Norma-padrão e solenidade",
         "steps": [
@@ -2208,7 +2450,7 @@
       "id": "2018-24",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Impessoalidade acadêmica",
         "steps": [
@@ -2222,7 +2464,7 @@
       "id": "2018-27",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Título e síntese",
         "steps": [
@@ -2236,7 +2478,7 @@
       "id": "2018-33",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Resenha e crítica",
         "steps": [
@@ -2250,7 +2492,7 @@
       "id": "2018-36",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Nomeação e imagem poética",
         "steps": [
@@ -2264,7 +2506,7 @@
       "id": "2018-37",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Registro e patrimônio",
         "steps": [
@@ -2278,7 +2520,7 @@
       "id": "2018-38",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Tempos narrativos",
         "steps": [
@@ -2292,7 +2534,7 @@
       "id": "2018-40",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Suporte e restrição formal",
         "steps": [
@@ -2306,7 +2548,7 @@
       "id": "2014-126",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Texto teatral e encenação",
         "steps": [
@@ -2320,7 +2562,7 @@
       "id": "2016-113",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Metalinguagem da criação",
         "steps": [
@@ -2334,7 +2576,7 @@
       "id": "2019-33",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Imagens e cadência",
         "steps": [
@@ -2348,7 +2590,7 @@
       "id": "2021-24",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Representação da violência",
         "steps": [
@@ -2362,7 +2604,7 @@
       "id": "2019-7",
       "competency": 7,
       "skill": 21,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Duplo sentido na campanha",
         "steps": [
@@ -2376,7 +2618,7 @@
       "id": "2019-8",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Negação e investigação",
         "steps": [
@@ -2390,7 +2632,7 @@
       "id": "2019-15",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função referencial e informação",
         "steps": [
@@ -2405,7 +2647,7 @@
       "id": "2019-24",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Injunção e participação",
         "steps": [
@@ -2419,7 +2661,7 @@
       "id": "2019-30",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Memória histórica das línguas",
         "steps": [
@@ -2433,7 +2675,7 @@
       "id": "2019-32",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Argumento que relativiza uma novidade",
         "steps": [
@@ -2447,7 +2689,7 @@
       "id": "2019-34",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Origem latina do léxico",
         "steps": [
@@ -2461,7 +2703,7 @@
       "id": "2019-42",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Pergunta retórica e progressão",
         "steps": [
@@ -2475,7 +2717,7 @@
       "id": "2019-44",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Referentes e flexões verbais",
         "steps": [
@@ -2489,7 +2731,7 @@
       "id": "2019-45",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Marcas da variedade popular",
         "steps": [
@@ -2503,7 +2745,7 @@
       "id": "2020-6",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Metalinguagem e criação poética",
         "steps": [
@@ -2517,7 +2759,7 @@
       "id": "2020-9",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Inventário linguístico brasileiro",
         "steps": [
@@ -2531,7 +2773,7 @@
       "id": "2020-10",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáforas de valorização",
         "steps": [
@@ -2545,7 +2787,7 @@
       "id": "2020-16",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Apelo ao pertencimento e patriotismo",
         "steps": [
@@ -2559,7 +2801,7 @@
       "id": "2020-19",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Jogo poético em petição",
         "steps": [
@@ -2573,7 +2815,7 @@
       "id": "2020-23",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Repetição e caracterização do narrador",
         "steps": [
@@ -2587,7 +2829,7 @@
       "id": "2020-24",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Aspecto durativo do gerúndio",
         "steps": [
@@ -2601,7 +2843,7 @@
       "id": "2020-27",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Sequências narrativa e descritiva",
         "steps": [
@@ -2615,7 +2857,7 @@
       "id": "2020-29",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Exagero e efeito humorístico",
         "steps": [
@@ -2629,7 +2871,7 @@
       "id": "2020-31",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Características do gênero notícia",
         "steps": [
@@ -2643,7 +2885,7 @@
       "id": "2020-32",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Ditado e justificativa",
         "steps": [
@@ -2657,7 +2899,7 @@
       "id": "2020-34",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Perspectiva narrativa e memória",
         "steps": [
@@ -2671,7 +2913,7 @@
       "id": "2020-38",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Voz externa e valorização histórica",
         "steps": [
@@ -2685,7 +2927,7 @@
       "id": "2020-39",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Descrição valorativa",
         "steps": [
@@ -2699,7 +2941,7 @@
       "id": "2020-41",
       "competency": 8,
       "skill": 27,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Norma-padrão e petição",
         "steps": [
@@ -2713,7 +2955,7 @@
       "id": "2021-6",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Hipóteses e efeito alarmante",
         "steps": [
@@ -2727,7 +2969,7 @@
       "id": "2021-7",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Crítica ao preciosismo linguístico",
         "steps": [
@@ -2741,7 +2983,7 @@
       "id": "2021-8",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Singularidade como argumento",
         "steps": [
@@ -2755,7 +2997,7 @@
       "id": "2021-10",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Opinião implícita na resenha",
         "steps": [
@@ -2769,7 +3011,7 @@
       "id": "2021-11",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Memória linguística da escravidão",
         "steps": [
@@ -2783,7 +3025,7 @@
       "id": "2021-16",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Exemplificação como argumento",
         "steps": [
@@ -2797,7 +3039,7 @@
       "id": "2021-21",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Confronto entre pontos de vista",
         "steps": [
@@ -2811,7 +3053,7 @@
       "id": "2021-22",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Variação dos pronomes de tratamento",
         "steps": [
@@ -2825,7 +3067,7 @@
       "id": "2021-30",
       "competency": 8,
       "skill": 26,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Adequação e formalidade",
         "steps": [
@@ -2839,7 +3081,7 @@
       "id": "2021-32",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função emotiva na crônica",
         "steps": [
@@ -2853,7 +3095,7 @@
       "id": "2021-39",
       "competency": 8,
       "skill": 25,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Marcas de informalidade",
         "steps": [
@@ -2867,7 +3109,7 @@
       "id": "2022-14",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Léxico e experiência social",
         "steps": [
@@ -2881,7 +3123,7 @@
       "id": "2022-16",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Resenha e avaliação de obra",
         "steps": [
@@ -2895,7 +3137,7 @@
       "id": "2022-18",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Justaposição de frases",
         "steps": [
@@ -2909,7 +3151,7 @@
       "id": "2022-26",
       "competency": 6,
       "skill": 19,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Expressão da subjetividade",
         "steps": [
@@ -2923,7 +3165,7 @@
       "id": "2023-17",
       "competency": 1,
       "skill": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Sinal gráfico e identidade editorial",
         "steps": [
@@ -2937,7 +3179,7 @@
       "id": "2023-18",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Tema comum em textos de épocas distintas",
         "steps": [
@@ -2951,7 +3193,7 @@
       "id": "2023-19",
       "competency": 7,
       "skill": 24,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Citação e evidência estatística",
         "steps": [
@@ -2966,7 +3208,7 @@
       "id": "2023-23",
       "competency": 7,
       "skill": 22,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Estereótipos e representações",
         "steps": [
@@ -2980,7 +3222,7 @@
       "id": "2023-39",
       "competency": 1,
       "skill": 3,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Mobilização e mudança lexical",
         "steps": [
@@ -2994,7 +3236,7 @@
       "id": "2023-43",
       "competency": 1,
       "skill": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Metáforas na homenagem",
         "steps": [
@@ -3009,7 +3251,7 @@
       "id": "2023-45",
       "competency": 7,
       "skill": 23,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade da carta aberta",
         "steps": [
@@ -3024,7 +3266,7 @@
       "id": "2011-98",
       "competency": 9,
       "skill": 29,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Leitura hipertextual e percursos do leitor",
         "steps": [
@@ -3038,7 +3280,7 @@
       "id": "2011-132",
       "competency": 6,
       "skill": 20,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Patrimônio linguístico e apropriação de tecnologias",
         "steps": [
@@ -3052,7 +3294,7 @@
       "id": "2011-135",
       "competency": 6,
       "skill": 18,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Concisão nos gêneros digitais",
         "steps": [
@@ -3066,7 +3308,7 @@
       "id": "2012-135",
       "competency": 5,
       "skill": 15,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Identidade nacional e síntese modernista",
         "steps": [
@@ -3080,7 +3322,7 @@
       "id": "2013-122",
       "competency": 5,
       "skill": 16,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Metáfora do relógio e percepção do tempo",
         "steps": [
@@ -3094,7 +3336,7 @@
       "id": "2015-98",
       "competency": 5,
       "skill": 16,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Ironia na representação da história humana",
         "steps": [
@@ -3108,7 +3350,7 @@
       "id": "2015-130",
       "competency": 5,
       "skill": 17,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Idealização familiar e ocultação de conflitos",
         "steps": [
@@ -3122,7 +3364,7 @@
       "id": "2009-93",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Público-alvo e mudança de hábitos",
         "steps": [
@@ -3136,7 +3378,7 @@
       "id": "2009-96",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Interlocução e imperativo",
         "steps": [
@@ -3150,7 +3392,7 @@
       "id": "2009-97",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade de campanha institucional",
         "steps": [
@@ -3164,7 +3406,7 @@
       "id": "2009-100",
       "skill": 19,
       "competency": 6,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Função emotiva",
         "steps": [
@@ -3178,7 +3420,7 @@
       "id": "2009-105",
       "skill": 1,
       "competency": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Oralidade nos quadrinhos",
         "steps": [
@@ -3192,7 +3434,7 @@
       "id": "2009-109",
       "skill": 27,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Tempo verbal coloquial",
         "steps": [
@@ -3206,7 +3448,7 @@
       "id": "2009-114",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Consumo e certificação",
         "steps": [
@@ -3220,7 +3462,7 @@
       "id": "2009-127",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Interlocutor explícito",
         "steps": [
@@ -3234,7 +3476,7 @@
       "id": "2010-96",
       "skill": 26,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Redução na fala informal",
         "steps": [
@@ -3248,7 +3490,7 @@
       "id": "2010-101",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Persuasão comercial",
         "steps": [
@@ -3262,7 +3504,7 @@
       "id": "2011-97",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Leitura de infográfico",
         "steps": [
@@ -3276,7 +3518,7 @@
       "id": "2011-100",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Intertextualidade publicitária",
         "steps": [
@@ -3290,7 +3532,7 @@
       "id": "2011-122",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metalinguagem na publicidade",
         "steps": [
@@ -3304,7 +3546,7 @@
       "id": "2011-123",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade institucional",
         "steps": [
@@ -3318,7 +3560,7 @@
       "id": "2011-124",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Contraste persuasivo",
         "steps": [
@@ -3332,7 +3574,7 @@
       "id": "2011-127",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Associação visual publicitária",
         "steps": [
@@ -3346,7 +3588,7 @@
       "id": "2011-129",
       "skill": 27,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Pronome e função sintática",
         "steps": [
@@ -3360,7 +3602,7 @@
       "id": "2011-134",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora visual e tecnologia",
         "steps": [
@@ -3374,7 +3616,7 @@
       "id": "2012-97",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Publicidade e suportes de leitura",
         "steps": [
@@ -3388,7 +3630,7 @@
       "id": "2012-103",
       "skill": 1,
       "competency": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Polissemia",
         "steps": [
@@ -3402,7 +3644,7 @@
       "id": "2012-106",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Persuasão ajustada ao desejo",
         "steps": [
@@ -3416,7 +3658,7 @@
       "id": "2012-107",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Exemplificação e comparação",
         "steps": [
@@ -3430,7 +3672,7 @@
       "id": "2012-108",
       "skill": 25,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Variação histórica do léxico",
         "steps": [
@@ -3444,7 +3686,7 @@
       "id": "2012-109",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Modalização de hipótese",
         "steps": [
@@ -3458,7 +3700,7 @@
       "id": "2012-114",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Função educativa do cartaz",
         "steps": [
@@ -3472,7 +3714,7 @@
       "id": "2012-133",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Persuasão socioambiental",
         "steps": [
@@ -3486,7 +3728,7 @@
       "id": "2013-96",
       "skill": 20,
       "competency": 6,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-patrimonio",
       "explanation": {
         "concept": "Documento e memória cultural",
         "steps": [
@@ -3500,7 +3742,7 @@
       "id": "2013-103",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Responsabilização do leitor",
         "steps": [
@@ -3514,7 +3756,7 @@
       "id": "2013-109",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Contraste e crítica visual",
         "steps": [
@@ -3528,7 +3770,7 @@
       "id": "2013-110",
       "skill": 1,
       "competency": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Independência e pensamento coletivo",
         "steps": [
@@ -3542,7 +3784,7 @@
       "id": "2013-119",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Conjunção adversativa e humor",
         "steps": [
@@ -3556,7 +3798,7 @@
       "id": "2013-120",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Intertexto filosófico e cotidiano",
         "steps": [
@@ -3570,7 +3812,7 @@
       "id": "2013-128",
       "skill": 19,
       "competency": 6,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-funcoes",
       "explanation": {
         "concept": "Reflexão sobre o livro",
         "steps": [
@@ -3584,7 +3826,7 @@
       "id": "2013-131",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Ironia e crítica tecnológica",
         "steps": [
@@ -3598,7 +3840,7 @@
       "id": "2013-133",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora da venda",
         "steps": [
@@ -3612,7 +3854,7 @@
       "id": "2013-135",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Síntese em gráficos",
         "steps": [
@@ -3626,7 +3868,7 @@
       "id": "2014-96",
       "skill": 22,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Complementaridade entre textos",
         "steps": [
@@ -3640,7 +3882,7 @@
       "id": "2014-105",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora persuasiva",
         "steps": [
@@ -3654,7 +3896,7 @@
       "id": "2014-112",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Personalização da comunicação",
         "steps": [
@@ -3668,7 +3910,7 @@
       "id": "2014-115",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Perguntas e perfil do destinatário",
         "steps": [
@@ -3682,7 +3924,7 @@
       "id": "2014-127",
       "skill": 1,
       "competency": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Polissemia e intertexto visual",
         "steps": [
@@ -3696,7 +3938,7 @@
       "id": "2014-131",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Humor e autorretratos digitais",
         "steps": [
@@ -3710,7 +3952,7 @@
       "id": "2014-135",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora visual da palavra",
         "steps": [
@@ -3724,7 +3966,7 @@
       "id": "2015-96",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Informação e opinião",
         "steps": [
@@ -3738,7 +3980,7 @@
       "id": "2015-118",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Argumento de autoridade",
         "steps": [
@@ -3752,7 +3994,7 @@
       "id": "2015-132",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Tempos verbais e efeito de rapidez",
         "steps": [
@@ -3766,7 +4008,7 @@
       "id": "2016-105",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Consumo e água indireta",
         "steps": [
@@ -3780,7 +4022,7 @@
       "id": "2016-109",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Experiência visual e persuasão",
         "steps": [
@@ -3794,7 +4036,7 @@
       "id": "2017-11",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Perfil do consumidor digital",
         "steps": [
@@ -3808,7 +4050,7 @@
       "id": "2017-16",
       "skill": 22,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Polissemia criativa",
         "steps": [
@@ -3822,7 +4064,7 @@
       "id": "2017-28",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Conscientização e denúncia",
         "steps": [
@@ -3836,7 +4078,7 @@
       "id": "2017-34",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Incentivo à formação leitora",
         "steps": [
@@ -3850,7 +4092,7 @@
       "id": "2017-41",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Imagem institucional",
         "steps": [
@@ -3864,7 +4106,7 @@
       "id": "2018-7",
       "skill": 26,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Oralidade em campanha",
         "steps": [
@@ -3878,7 +4120,7 @@
       "id": "2018-13",
       "skill": 22,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Comparação de perspectivas",
         "steps": [
@@ -3892,7 +4134,7 @@
       "id": "2018-19",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Crítica à mercantilização da opinião",
         "steps": [
@@ -3906,7 +4148,7 @@
       "id": "2018-22",
       "skill": 25,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Paisagem linguística",
         "steps": [
@@ -3920,7 +4162,7 @@
       "id": "2018-25",
       "skill": 1,
       "competency": 1,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-multimodal",
       "explanation": {
         "concept": "Adaptação entre linguagens",
         "steps": [
@@ -3934,7 +4176,7 @@
       "id": "2018-28",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Argumento visual de reaproveitamento",
         "steps": [
@@ -3948,7 +4190,7 @@
       "id": "2018-39",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Informação e reação do leitor",
         "steps": [
@@ -3962,7 +4204,7 @@
       "id": "2018-41",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Imperativo e imagem",
         "steps": [
@@ -3976,7 +4218,7 @@
       "id": "2019-6",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Direitos e responsabilidades",
         "steps": [
@@ -3990,7 +4232,7 @@
       "id": "2019-10",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Injunção e públicos diversos",
         "steps": [
@@ -4004,7 +4246,7 @@
       "id": "2019-12",
       "skill": 22,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Narrativa visual e acessibilidade",
         "steps": [
@@ -4018,7 +4260,7 @@
       "id": "2019-17",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Exposição pessoal nas redes",
         "steps": [
@@ -4032,7 +4274,7 @@
       "id": "2019-23",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora de empatia",
         "steps": [
@@ -4046,7 +4288,7 @@
       "id": "2019-26",
       "skill": 22,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-expressividade",
       "explanation": {
         "concept": "Direito previsto e realidade narrada",
         "steps": [
@@ -4060,7 +4302,7 @@
       "id": "2019-43",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Hibridismo de gêneros",
         "steps": [
@@ -4074,7 +4316,7 @@
       "id": "2020-7",
       "skill": 27,
       "competency": 8,
-      "moduleId": "pt-lingua",
+      "moduleId": "pt-variacao",
       "explanation": {
         "concept": "Preposição na variedade coloquial",
         "steps": [
@@ -4088,7 +4330,7 @@
       "id": "2020-22",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade de conscientização",
         "steps": [
@@ -4102,7 +4344,7 @@
       "id": "2020-26",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Imagem e realidade virtual",
         "steps": [
@@ -4116,7 +4358,7 @@
       "id": "2020-30",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Metáfora de defesa",
         "steps": [
@@ -4130,7 +4372,7 @@
       "id": "2020-33",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Suporte e circulação poética",
         "steps": [
@@ -4144,7 +4386,7 @@
       "id": "2020-44",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Imagem e valorização da adoção",
         "steps": [
@@ -4158,7 +4400,7 @@
       "id": "2021-12",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Ambiguidade e sensibilização",
         "steps": [
@@ -4172,7 +4414,7 @@
       "id": "2021-13",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Ironia sobre emancipação",
         "steps": [
@@ -4186,7 +4428,7 @@
       "id": "2021-33",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Função do prefácio",
         "steps": [
@@ -4200,7 +4442,7 @@
       "id": "2021-34",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Informação orientada à ação",
         "steps": [
@@ -4214,7 +4456,7 @@
       "id": "2022-9",
       "skill": 24,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Apelo emocional",
         "steps": [
@@ -4228,7 +4470,7 @@
       "id": "2022-15",
       "skill": 18,
       "competency": 6,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-organizacao",
       "explanation": {
         "concept": "Recontextualização de gênero",
         "steps": [
@@ -4242,7 +4484,7 @@
       "id": "2022-27",
       "skill": 21,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-argumentacao",
       "explanation": {
         "concept": "Desconstrução de estereótipos",
         "steps": [
@@ -4256,7 +4498,7 @@
       "id": "2022-32",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Orientação por faixa etária",
         "steps": [
@@ -4270,7 +4512,7 @@
       "id": "2023-24",
       "skill": 23,
       "competency": 7,
-      "moduleId": "pt-leitura",
+      "moduleId": "pt-finalidade",
       "explanation": {
         "concept": "Finalidade e contexto da campanha",
         "steps": [
@@ -4280,5 +4522,308 @@
         "takeaway": "Separe o objetivo principal de uma campanha dos meios e instituições apresentados para realizá-lo."
       }
     }
-  ]
+  ],
+  "legacyQuestionCredits": {
+    "2023-9": "pt-leitura-1",
+    "2023-10": "pt-leitura-1",
+    "2023-11": "pt-leitura-1",
+    "2023-27": "pt-leitura-1",
+    "2022-8": "pt-leitura-1",
+    "2022-10": "pt-leitura-2",
+    "2022-11": "pt-leitura-2",
+    "2022-22": "pt-leitura-2",
+    "2022-36": "pt-leitura-2",
+    "2021-29": "pt-leitura-2",
+    "2009-107": "pt-leitura-3",
+    "2009-108": "pt-leitura-3",
+    "2009-119": "pt-leitura-3",
+    "2009-121": "pt-leitura-3",
+    "2009-124": "pt-leitura-3",
+    "2009-129": "pt-leitura-4",
+    "2009-131": "pt-leitura-4",
+    "2010-98": "pt-leitura-4",
+    "2010-102": "pt-leitura-4",
+    "2011-103": "pt-leitura-4",
+    "2011-106": "pt-leitura-5",
+    "2011-109": "pt-leitura-5",
+    "2011-111": "pt-leitura-5",
+    "2011-115": "pt-leitura-5",
+    "2011-120": "pt-leitura-5",
+    "2011-121": "pt-leitura-6",
+    "2011-126": "pt-leitura-6",
+    "2012-111": "pt-leitura-6",
+    "2012-119": "pt-leitura-6",
+    "2012-120": "pt-leitura-6",
+    "2012-127": "pt-leitura-7",
+    "2012-132": "pt-leitura-7",
+    "2013-98": "pt-leitura-7",
+    "2013-101": "pt-leitura-7",
+    "2013-107": "pt-leitura-7",
+    "2013-112": "pt-leitura-8",
+    "2013-113": "pt-leitura-8",
+    "2013-115": "pt-leitura-8",
+    "2013-121": "pt-leitura-8",
+    "2013-125": "pt-leitura-8",
+    "2013-130": "pt-leitura-9",
+    "2013-132": "pt-leitura-9",
+    "2014-101": "pt-leitura-9",
+    "2014-103": "pt-leitura-9",
+    "2014-106": "pt-leitura-9",
+    "2014-107": "pt-leitura-10",
+    "2014-111": "pt-leitura-10",
+    "2014-114": "pt-leitura-10",
+    "2014-120": "pt-leitura-10",
+    "2014-121": "pt-leitura-10",
+    "2014-132": "pt-leitura-11",
+    "2015-101": "pt-leitura-11",
+    "2015-102": "pt-leitura-11",
+    "2015-103": "pt-leitura-11",
+    "2015-113": "pt-leitura-11",
+    "2015-114": "pt-leitura-12",
+    "2015-121": "pt-leitura-12",
+    "2015-125": "pt-leitura-12",
+    "2015-128": "pt-leitura-12",
+    "2015-135": "pt-leitura-12",
+    "2016-96": "pt-leitura-13",
+    "2016-97": "pt-leitura-13",
+    "2016-101": "pt-leitura-13",
+    "2016-103": "pt-leitura-13",
+    "2016-104": "pt-leitura-13",
+    "2016-108": "pt-leitura-14",
+    "2016-110": "pt-leitura-14",
+    "2016-111": "pt-leitura-14",
+    "2016-117": "pt-leitura-14",
+    "2016-118": "pt-leitura-14",
+    "2016-122": "pt-leitura-15",
+    "2016-127": "pt-leitura-15",
+    "2016-133": "pt-leitura-15",
+    "2016-134": "pt-leitura-15",
+    "2016-135": "pt-leitura-15",
+    "2017-6": "pt-leitura-16",
+    "2017-14": "pt-leitura-16",
+    "2017-17": "pt-leitura-16",
+    "2017-22": "pt-leitura-16",
+    "2017-23": "pt-leitura-16",
+    "2017-24": "pt-leitura-17",
+    "2017-25": "pt-leitura-17",
+    "2017-29": "pt-leitura-17",
+    "2017-33": "pt-leitura-17",
+    "2017-35": "pt-leitura-17",
+    "2017-44": "pt-leitura-18",
+    "2018-6": "pt-leitura-18",
+    "2018-9": "pt-leitura-18",
+    "2018-12": "pt-leitura-18",
+    "2018-14": "pt-leitura-18",
+    "2018-17": "pt-leitura-19",
+    "2018-18": "pt-leitura-19",
+    "2018-20": "pt-leitura-19",
+    "2018-24": "pt-leitura-19",
+    "2018-27": "pt-leitura-19",
+    "2018-33": "pt-leitura-20",
+    "2018-36": "pt-leitura-20",
+    "2018-38": "pt-leitura-20",
+    "2018-40": "pt-leitura-20",
+    "2014-126": "pt-leitura-20",
+    "2016-113": "pt-leitura-21",
+    "2019-33": "pt-leitura-21",
+    "2021-24": "pt-leitura-21",
+    "2019-7": "pt-leitura-21",
+    "2019-8": "pt-leitura-21",
+    "2019-15": "pt-leitura-22",
+    "2019-24": "pt-leitura-22",
+    "2019-30": "pt-leitura-22",
+    "2019-32": "pt-leitura-22",
+    "2019-42": "pt-leitura-22",
+    "2020-6": "pt-leitura-23",
+    "2020-10": "pt-leitura-23",
+    "2020-16": "pt-leitura-23",
+    "2020-19": "pt-leitura-23",
+    "2020-23": "pt-leitura-23",
+    "2020-24": "pt-leitura-24",
+    "2020-27": "pt-leitura-24",
+    "2020-29": "pt-leitura-24",
+    "2020-31": "pt-leitura-24",
+    "2020-32": "pt-leitura-24",
+    "2020-34": "pt-leitura-25",
+    "2020-38": "pt-leitura-25",
+    "2020-39": "pt-leitura-25",
+    "2021-6": "pt-leitura-25",
+    "2021-8": "pt-leitura-25",
+    "2021-10": "pt-leitura-26",
+    "2021-16": "pt-leitura-26",
+    "2021-21": "pt-leitura-26",
+    "2021-32": "pt-leitura-26",
+    "2022-14": "pt-leitura-26",
+    "2022-16": "pt-leitura-27",
+    "2022-18": "pt-leitura-27",
+    "2022-26": "pt-leitura-27",
+    "2023-17": "pt-leitura-27",
+    "2023-18": "pt-leitura-27",
+    "2023-19": "pt-leitura-28",
+    "2023-23": "pt-leitura-28",
+    "2023-39": "pt-leitura-28",
+    "2023-43": "pt-leitura-28",
+    "2023-45": "pt-leitura-28",
+    "2011-98": "pt-leitura-29",
+    "2011-135": "pt-leitura-29",
+    "2012-135": "pt-leitura-29",
+    "2013-122": "pt-leitura-29",
+    "2015-98": "pt-leitura-29",
+    "2015-130": "pt-leitura-30",
+    "2009-93": "pt-leitura-31",
+    "2009-96": "pt-leitura-31",
+    "2009-97": "pt-leitura-31",
+    "2009-105": "pt-leitura-31",
+    "2009-114": "pt-leitura-31",
+    "2009-127": "pt-leitura-32",
+    "2010-101": "pt-leitura-32",
+    "2011-97": "pt-leitura-32",
+    "2011-100": "pt-leitura-32",
+    "2011-122": "pt-leitura-32",
+    "2011-123": "pt-leitura-33",
+    "2011-124": "pt-leitura-33",
+    "2011-127": "pt-leitura-33",
+    "2011-134": "pt-leitura-33",
+    "2012-97": "pt-leitura-33",
+    "2012-103": "pt-leitura-34",
+    "2012-106": "pt-leitura-34",
+    "2012-107": "pt-leitura-34",
+    "2012-109": "pt-leitura-34",
+    "2012-114": "pt-leitura-34",
+    "2012-133": "pt-leitura-35",
+    "2013-103": "pt-leitura-35",
+    "2013-109": "pt-leitura-35",
+    "2013-110": "pt-leitura-35",
+    "2013-119": "pt-leitura-35",
+    "2013-120": "pt-leitura-36",
+    "2013-131": "pt-leitura-36",
+    "2013-133": "pt-leitura-36",
+    "2013-135": "pt-leitura-36",
+    "2014-96": "pt-leitura-36",
+    "2014-105": "pt-leitura-37",
+    "2014-112": "pt-leitura-37",
+    "2014-115": "pt-leitura-37",
+    "2014-127": "pt-leitura-37",
+    "2014-131": "pt-leitura-37",
+    "2014-135": "pt-leitura-38",
+    "2015-96": "pt-leitura-38",
+    "2015-118": "pt-leitura-38",
+    "2015-132": "pt-leitura-38",
+    "2016-105": "pt-leitura-38",
+    "2016-109": "pt-leitura-39",
+    "2017-11": "pt-leitura-39",
+    "2017-16": "pt-leitura-39",
+    "2017-28": "pt-leitura-39",
+    "2017-34": "pt-leitura-39",
+    "2017-41": "pt-leitura-40",
+    "2018-13": "pt-leitura-40",
+    "2018-19": "pt-leitura-40",
+    "2018-25": "pt-leitura-40",
+    "2018-28": "pt-leitura-40",
+    "2018-39": "pt-leitura-41",
+    "2018-41": "pt-leitura-41",
+    "2019-6": "pt-leitura-41",
+    "2019-10": "pt-leitura-41",
+    "2019-12": "pt-leitura-41",
+    "2019-17": "pt-leitura-42",
+    "2019-23": "pt-leitura-42",
+    "2019-26": "pt-leitura-42",
+    "2019-43": "pt-leitura-42",
+    "2020-22": "pt-leitura-42",
+    "2020-26": "pt-leitura-43",
+    "2020-30": "pt-leitura-43",
+    "2020-33": "pt-leitura-43",
+    "2020-44": "pt-leitura-43",
+    "2021-12": "pt-leitura-43",
+    "2021-13": "pt-leitura-44",
+    "2021-33": "pt-leitura-44",
+    "2021-34": "pt-leitura-44",
+    "2022-9": "pt-leitura-44",
+    "2022-15": "pt-leitura-44",
+    "2022-27": "pt-leitura-45",
+    "2022-32": "pt-leitura-45",
+    "2023-24": "pt-leitura-45",
+    "2023-8": "pt-lingua-1",
+    "2023-15": "pt-lingua-1",
+    "2023-16": "pt-lingua-1",
+    "2023-20": "pt-lingua-1",
+    "2023-21": "pt-lingua-1",
+    "2022-6": "pt-lingua-2",
+    "2022-12": "pt-lingua-2",
+    "2022-28": "pt-lingua-2",
+    "2022-37": "pt-lingua-2",
+    "2021-26": "pt-lingua-2",
+    "2009-92": "pt-lingua-3",
+    "2009-111": "pt-lingua-3",
+    "2009-122": "pt-lingua-3",
+    "2010-99": "pt-lingua-3",
+    "2011-119": "pt-lingua-3",
+    "2011-125": "pt-lingua-4",
+    "2011-128": "pt-lingua-4",
+    "2011-130": "pt-lingua-4",
+    "2011-131": "pt-lingua-4",
+    "2012-98": "pt-lingua-4",
+    "2012-99": "pt-lingua-5",
+    "2012-101": "pt-lingua-5",
+    "2012-105": "pt-lingua-5",
+    "2012-110": "pt-lingua-5",
+    "2012-123": "pt-lingua-5",
+    "2012-128": "pt-lingua-6",
+    "2012-129": "pt-lingua-6",
+    "2012-130": "pt-lingua-6",
+    "2013-100": "pt-lingua-6",
+    "2013-105": "pt-lingua-6",
+    "2013-118": "pt-lingua-7",
+    "2014-104": "pt-lingua-7",
+    "2014-118": "pt-lingua-7",
+    "2014-129": "pt-lingua-7",
+    "2014-134": "pt-lingua-7",
+    "2015-100": "pt-lingua-8",
+    "2015-106": "pt-lingua-8",
+    "2015-109": "pt-lingua-8",
+    "2015-115": "pt-lingua-8",
+    "2015-116": "pt-lingua-8",
+    "2015-117": "pt-lingua-9",
+    "2015-120": "pt-lingua-9",
+    "2015-122": "pt-lingua-9",
+    "2015-123": "pt-lingua-9",
+    "2016-99": "pt-lingua-9",
+    "2016-102": "pt-lingua-10",
+    "2016-115": "pt-lingua-10",
+    "2016-123": "pt-lingua-10",
+    "2016-124": "pt-lingua-10",
+    "2016-131": "pt-lingua-10",
+    "2017-9": "pt-lingua-11",
+    "2017-12": "pt-lingua-11",
+    "2017-15": "pt-lingua-11",
+    "2017-20": "pt-lingua-11",
+    "2017-27": "pt-lingua-11",
+    "2017-38": "pt-lingua-12",
+    "2017-39": "pt-lingua-12",
+    "2018-8": "pt-lingua-12",
+    "2018-21": "pt-lingua-12",
+    "2018-37": "pt-lingua-12",
+    "2019-34": "pt-lingua-13",
+    "2019-44": "pt-lingua-13",
+    "2019-45": "pt-lingua-13",
+    "2020-9": "pt-lingua-13",
+    "2020-41": "pt-lingua-13",
+    "2021-7": "pt-lingua-14",
+    "2021-11": "pt-lingua-14",
+    "2021-22": "pt-lingua-14",
+    "2021-30": "pt-lingua-14",
+    "2021-39": "pt-lingua-14",
+    "2011-132": "pt-lingua-15",
+    "2009-100": "pt-lingua-16",
+    "2009-109": "pt-lingua-16",
+    "2010-96": "pt-lingua-16",
+    "2011-129": "pt-lingua-16",
+    "2012-108": "pt-lingua-16",
+    "2013-96": "pt-lingua-17",
+    "2013-128": "pt-lingua-17",
+    "2018-7": "pt-lingua-17",
+    "2018-22": "pt-lingua-17",
+    "2020-7": "pt-lingua-17"
+  },
+  "studyGuide": true
 }

@@ -12,7 +12,7 @@ App web gamificado para estudar para o ENEM com questões reais da API [enem.dev
 | Geografia | 5 por tema | 80 |
 | História | 5 por tema | 80 |
 | Ciências Humanas | 6 por competência | 200 |
-| Língua Portuguesa | 2 por tema | 300 |
+| Língua Portuguesa | 8 por tema | 300 |
 | Literatura | 2 por tema | 100 |
 | Inglês | 2 por tema | 30 |
 | Espanhol | 2 por tema | 30 |
@@ -29,6 +29,14 @@ As lições antigas de Linguagens foram repartidas por competência, preservando
 Matemática tem 20 questões por competência, distribuídas em quatro lições de cinco questões (28 lições). A ampliação acrescentou 105 itens comentados aos 35 anteriores, preservando suas posições e os IDs das lições já concluídas. O acervo bruto local contém 642 registros de Matemática; somente os itens selecionados e revisados entram na prática.
 
 Química e Biologia receberam mais 50 questões cada (10 por unidade), com resoluções específicas. A composição das lições anteriores, inclusive as lições parciais de três questões, é preservada em `data/courses/lesson-layout.json`. Cada matéria agora tem 20 lições. A questão anulada 2023-164 foi substituída por 2017-165 na mesma posição de Matemática (C6/H26), mantendo o ID e a conclusão da lição; o motivo e as fontes estão em `data/courses/math-replacement.json`.
+
+## Trilha de Língua Portuguesa
+
+As 300 questões estão distribuídas em oito temas: coesão e organização (51), gêneros e finalidade (51), argumentação e persuasão (62), linguagens e mídias (16), literatura, estilo e pontos de vista (26), funções da linguagem (18), variação e adequação (53), patrimônio linguístico (23). O mapa mostra os temas e seu progresso; somente a unidade escolhida expõe suas lições de até cinco questões. A seleção persiste no navegador. Introduções têm exemplos autorais, orientações práticas e armadilhas de interpretação.
+
+A ação principal orienta da leitura conceitual para a próxima lição do tema. Ao concluir, é possível seguir diretamente à próxima lição ou voltar aos temas. “Praticar este tema” abre os filtros com a unidade selecionada. A trilha mantém o limite de três erros por tentativa.
+
+O mapa congelado `legacyQuestionCredits` vincula cada questão à lição antiga. Apenas lições aprovadas geram crédito; respostas avulsas e prática não geram conclusão. Grupos novos integralmente cobertos são concluídos automaticamente, sem XP. Nos grupos parcialmente cobertos, o progresso aparece por questão e a tentativa apresenta somente os itens restantes. Esses grupos não repetem o bônus de conclusão; os acertos novos continuam valendo XP. Histórico, favoritos, erros e introduções antigas permanecem salvos; as novas introduções precisam ser lidas.
 
 ## Aprovação nas lições
 

@@ -329,7 +329,7 @@ test("every previously published lesson retains its questions and position after
   const previous = JSON.parse(readFileSync("scripts/fixtures/lessons-before-practice.json", "utf8"));
   const correction = JSON.parse(readFileSync("data/courses/math-replacement.json", "utf8"));
   const app = appHarness();
-  for (const courseId of Object.keys(previous).filter(id => id !== "linguagens")) {
+  for (const courseId of Object.keys(previous).filter(id => id !== "portugues")) {
     assert.ok(catalog.courses.some(course => course.id === courseId), `Missing published course: ${courseId}`);
     app.run(`setCourse(${JSON.stringify(courseId)})`);
     for (const [module, groups] of Object.entries(previous[courseId])) {
@@ -645,7 +645,7 @@ test("Linguagens covers seven subjects in nine competency units with 500 unique 
 
 test("Linguagens migration preserves completed question groups and history without granting XP", () => {
   const area = catalog.courses.find(c => c.id === 'linguagens');
-  const legacy = JSON.parse(readFileSync('scripts/fixtures/lessons-before-practice.json', 'utf8')).linguagens;
+  const legacy = area.legacyLessonLayout;
   for (const [module, groups] of Object.entries(legacy)) {
     for (const [index, ids] of groups.entries()) {
       const oldId = `${module}-${index + 1}`;
@@ -708,4 +708,87 @@ test("language reading passages remain complete and separate from the question h
     assert.ok(!html.includes('\\['), q.id);
     assert.equal(q.tri?.language || null, q.language || null, q.id);
   }
+});
+
+test('Portuguese splits the same 300 questions into eight focused topics and short lessons', () => {
+  const c = catalog.courses.find(c => c.id === 'portugues');
+  const before = JSON.parse(readFileSync('scripts/fixtures/lessons-before-practice.json', 'utf8')).portugues;
+  assert.equal(c.modules.length, 8);
+  assert.deepEqual(new Set(c.questionIds), new Set(Object.values(before).flat(2)));
+  for (const m of c.modules) {
+    const qs = catalog.questions.filter(q => q.subjectId === 'portugues' && q.moduleId === m.id);
+    assert.ok(qs.length >= 15 && qs.length <= 65);
+    assert.ok(qs.every(q => m.skills.includes(q.skill)));
+    assert.ok(c.lessonLayout[m.id].every(ids => ids.length >= 3 && ids.length <= 5));
+  }
+  const app = appHarness({activeCourse:'portugues'});
+  app.run('renderLearn()');
+  assert.equal((app.nodes.get('#app').innerHTML.match(/data-study-unit=/g) || []).length, 8);
+  assert.equal((app.nodes.get('#app').innerHTML.match(/class="study-detail unit"/g) || []).length, 1);
+});
+
+test('all old Portuguese completions migrate fully and idempotently without awarding XP', () => {
+  const c = catalog.courses.find(c => c.id === 'portugues');
+  const old = [...new Set(Object.values(c.legacyQuestionCredits))];
+  const saved = {activeCourse:'portugues',completed:old,xp:777,missed:[c.questionIds[0]],favorites:[c.questionIds[1]],introductionsRead:['pt-leitura']};
+  const app = appHarness(saved);
+  assert.equal(app.run('studiedQuestionIds().size'), 300);
+  assert.equal(app.run('completedLessons() === lessons.length'), true);
+  assert.equal(app.run('state.xp'), 777);
+  assert.equal(app.run('state.introductionsRead.length'), 1);
+  const stored = JSON.parse(app.storage.get('fisio-progress-v1'));
+  const again = appHarness(stored);
+  assert.deepEqual(JSON.parse(again.run('JSON.stringify(state.completed)')), stored.completed);
+  assert.deepEqual(JSON.parse(again.run('JSON.stringify(state.missed)')), saved.missed);
+  assert.deepEqual(JSON.parse(again.run('JSON.stringify(state.favorites)')), saved.favorites);
+  again.run('renderLearn()');
+  assert.ok(again.nodes.get('#app').innerHTML.includes('Unidade concluída'));
+  assert.ok(!again.nodes.get('#app').innerHTML.includes('Continuar lição'));
+});
+
+test('partial Portuguese migration preserves every earned question credit and skips only those credits', () => {
+  const c = catalog.courses.find(c => c.id === 'portugues');
+  const oldIds = [...new Set(Object.values(c.legacyQuestionCredits))];
+  for (const oldId of [oldIds[0], oldIds.at(-1)]) {
+    const expected = Object.entries(c.legacyQuestionCredits).filter(([,id]) => id === oldId).map(([q]) => q);
+    const app = appHarness({activeCourse:'portugues',completed:[oldId],xp:100,practiceFilters:{portugues:{module:'pt-leitura',year:'2023'}}});
+    assert.deepEqual(new Set(JSON.parse(app.run('JSON.stringify([...studiedQuestionIds()])'))), new Set(expected));
+    assert.equal(app.run('practiceFilters().module'), '');
+    assert.equal(app.run('practiceFilters().year'), '2023');
+    const partial = app.run('lessons.find(l => lessonCredits(l).length > 0 && lessonCredits(l).length < l.questions.length)?.id');
+    assert.ok(partial);
+    app.run(`startLesson(${JSON.stringify(partial)})`);
+    const selected = JSON.parse(app.run('JSON.stringify(quiz.questions.map(q => q.id))'));
+    assert.ok(selected.every(id => !expected.includes(id)));
+    app.run('while (!quiz.ended) { selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); nextQuestion(); }');
+    assert.equal(app.run('state.xp'), 100 + selected.length * 10);
+    assert.equal(app.run(`state.completed.includes(${JSON.stringify(partial)})`), true);
+    assert.equal(app.run('studiedQuestionIds().size'), expected.length + selected.length);
+  }
+});
+
+test('practice answers never become Portuguese lesson credits', () => {
+  const c = catalog.courses.find(c => c.id === 'portugues');
+  const app = appHarness({activeCourse:'portugues',answered:c.questionIds,xp:3000});
+  assert.equal(app.run('studiedQuestionIds().size'), 0);
+  assert.equal(app.run('completedLessons()'), 0);
+});
+
+test('Portuguese topic selection persists and introduction starts that topic before its next lesson', () => {
+  const app = appHarness({activeCourse:'portugues'});
+  app.run('selectStudyUnit("pt-variacao"); openIntroduction("pt-variacao")');
+  assert.ok(app.nodes.get('#lesson-modal').innerHTML.includes('Concluir leitura e iniciar lição'));
+  assert.ok(!app.nodes.get('#lesson-modal').innerHTML.includes('<div class="formula"></div>'));
+  app.run('completeIntroduction()');
+  assert.equal(app.run('quiz.lesson.module.id'), 'pt-variacao');
+  assert.equal(app.run('quiz.questions.length'), 5);
+  app.run('while (!quiz.ended) { selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); nextQuestion(); }');
+  assert.ok(app.nodes.get('#lesson-modal').innerHTML.includes('Próxima lição'));
+  assert.equal(app.run('pendingUnitLesson("pt-variacao").index'), 1);
+  const saved = JSON.parse(app.storage.get('fisio-progress-v1'));
+  const again = appHarness(saved);
+  assert.equal(again.run('selectedStudyModule().id'), 'pt-variacao');
+  again.run('practiceUnit("pt-variacao")');
+  assert.equal(again.run('filteredPracticeQuestions().length'), 53);
+  assert.equal(again.run('filteredPracticeQuestions().every(q => q.moduleId === "pt-variacao")'), true);
 });

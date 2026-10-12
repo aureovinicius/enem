@@ -60,6 +60,10 @@ for (const course of [physicsCourse, ...subjectCourses, humanities, languageExtr
     assert.ok(original, `Missing question or wrong area: ${entry.id}`);
     const module = modules.find((m) => m.id === entry.moduleId);
     assert.ok(module, `Invalid unit ${entry.id}`);
+    if (course.studyGuide) {
+      assert.ok(module.skills?.includes(entry.skill), `Wrong topic skill ${entry.id}`);
+      assert.ok(course.legacyQuestionCredits?.[entry.id], `Missing previous completion reference ${entry.id}`);
+    }
     const competence = area.competencies.find((c) => c.number === entry.competency);
     assert.ok(competence?.skills.some((s) => s.number === entry.skill), `Skill does not match competence: ${entry.id}`);
     if (module.competency) assert.equal(entry.competency, module.competency, `Wrong unit: ${entry.id}`);
@@ -153,7 +157,13 @@ for (const course of courses) {
     assert.ok(previous.flat().every(id => ids.includes(id)), `Published lesson lost a question: ${module.id}`);
     const assigned = new Set(previous.flat());
     const extra = ids.filter(id => !assigned.has(id));
-    course.lessonLayout[module.id] = [...previous, ...Array.from({ length: Math.ceil(extra.length / 5) }, (_, i) => extra.slice(i * 5, i * 5 + 5))];
+    const added = Array.from({ length: Math.ceil(extra.length / 5) }, (_, i) => extra.slice(i * 5, i * 5 + 5));
+    if (course.studyGuide && added.length >= 2 && added.at(-1).length < 3) {
+      const tail = added.splice(-2).flat();
+      const split = Math.ceil(tail.length / 2);
+      added.push(tail.slice(0, split), tail.slice(split));
+    }
+    course.lessonLayout[module.id] = [...previous, ...added];
     assert.equal(new Set(course.lessonLayout[module.id].flat()).size, ids.length, `Duplicated lesson item ${module.id}`);
   }
 }

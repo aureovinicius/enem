@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-8";
+const DATA_URL = "/data/courses.json?v=pwa-9";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -52,6 +52,7 @@ function loadState() {
     attempts: [],
     favorites: [],
     practiceFilters: {},
+    studyUnits: {},
     statsSince: new Date().toISOString(),
     legacyAnsweredCount: 0,
   };
@@ -61,6 +62,7 @@ function loadState() {
     for (const key of ["completed", "introductionsRead", "answered", "missed", "favorites"]) {
       saved[key] = Array.isArray(saved[key]) ? saved[key].filter(x => typeof x === "string") : [];
     }
+    if (!saved.studyUnits || typeof saved.studyUnits !== "object" || Array.isArray(saved.studyUnits)) saved.studyUnits = {};
     saved.attempts = Array.isArray(saved.attempts) ? saved.attempts.filter(a => a && typeof a.questionId === "string" && typeof a.correct === "boolean" && Number.isFinite(Date.parse(a.at))) : [];
     if (!saved.attempts.length && !saved.legacyAnsweredCount) saved.legacyAnsweredCount = saved.answered.length;
     if (!saved.practiceFilters || typeof saved.practiceFilters !== "object" || Array.isArray(saved.practiceFilters)) saved.practiceFilters = {};
@@ -174,6 +176,9 @@ function setCourse(courseId) {
   for (const [currentId, oldId] of Object.entries(course.legacyLessonCredits || {})) {
     if (state.completed.includes(oldId) && !state.completed.includes(currentId)) state.completed.push(currentId);
   }
+  for (const lesson of lessons) {
+    if (lessonCredits(lesson).length === lesson.questions.length && !state.completed.includes(lesson.id)) state.completed.push(lesson.id);
+  }
   const filters = state.practiceFilters[course.id];
   if (filters?.module && !course.modules.some(m => m.id === filters.module)) filters.module = "";
   saveState();
@@ -211,7 +216,7 @@ function statMarkup() {
 function renderRail() {
   const goal = Math.min(100, (state.todayXp / DAILY_GOAL) * 100);
   const completed = completedLessons();
-  const course = Math.round((completed / Math.max(lessons.length, 1)) * 100);
+  const course = Math.round((data.studyGuide ? studiedQuestionIds().size / data.total : completed / Math.max(lessons.length, 1)) * 100);
   rail.innerHTML = `
     <div class="stat-strip">${statMarkup()}</div>
     <section class="rail-card">
@@ -222,10 +227,10 @@ function renderRail() {
     </section>
     <section class="rail-card">
       <h3>Seu curso</h3>
-      <p>${completed} de ${lessons.length} lições concluídas.</p>
+      <p>${data.studyGuide ? `${studiedQuestionIds().size} de ${data.total} questões em lições concluídas.` : `${completed} de ${lessons.length} lições concluídas.`}</p>
       <div class="progress-row"><span>${escapeHtml(data.title)}</span><span>${course}%</span></div>
       <div class="progress-track"><div class="progress-fill" style="width:${course}%;background:var(--green)"></div></div>
-      <button class="button" data-action="continue">Continuar</button>
+      <button class="button" data-action="continue">${data.studyGuide ? "Estudar tema" : "Continuar"}</button>
     </section>
     <section class="rail-card">
       <h3>Questões reais</h3>
@@ -245,7 +250,86 @@ function pageHeader(kicker, title, subtitle) {
   `;
 }
 
+function lessonCredits(lesson) {
+  return lesson.questions.filter(q => state.completed.includes(data.legacyQuestionCredits?.[q.id]));
+}
+
+function studiedQuestionIds() {
+  return new Set(lessons.flatMap(lesson => state.completed.includes(lesson.id)
+    ? lesson.questions.map(q => q.id) : lessonCredits(lesson).map(q => q.id)));
+}
+
+function selectedStudyModule() {
+  return data.modules.find(m => m.id === state.studyUnits[data.id]) || nextLesson().module;
+}
+
+function pendingUnitLesson(moduleId) {
+  return lessons.find(l => l.module.id === moduleId && !state.completed.includes(l.id) && isUnlocked(l));
+}
+
+function selectStudyUnit(moduleId) {
+  if (!data.modules.some(m => m.id === moduleId)) return;
+  state.studyUnits[data.id] = moduleId;
+  saveState(); renderLearn();
+  app.querySelector('.study-detail h2')?.focus({ preventScroll: true });
+  app.querySelector('.study-detail')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
+
+function practiceUnit(moduleId) {
+  if (!data.modules.some(m => m.id === moduleId)) return;
+  state.practiceFilters[data.id] = { ...defaultPracticeFilters(), module: moduleId };
+  activeView = 'praticar'; history.replaceState(null, '', '#praticar');
+  saveState(); renderPage();
+}
+
+function renderPortugueseTrail() {
+  const module = selectedStudyModule();
+  const unitLessons = lessons.filter(l => l.module.id === module.id);
+  const next = pendingUnitLesson(module.id);
+  const introRead = state.introductionsRead.includes(module.id);
+  const studied = studiedQuestionIds();
+  const currentQuestions = data.questions.filter(q => q.moduleId === module.id);
+  const unitStudied = currentQuestions.filter(q => studied.has(q.id)).length;
+  const complete = !next;
+  const [color, dark] = module.color;
+  const nextLabel = !introRead ? 'Ler introdução' : next ? `Continuar lição ${next.index + 1} de ${unitLessons.length}` : 'Revisar introdução';
+  app.innerHTML = `
+    ${pageHeader('Trilha de Língua Portuguesa', 'Leia com mais confiança.', escapeHtml(data.description))}
+    <section class="study-overview" aria-label="Progresso da trilha">
+      <div><strong>${studied.size} de ${data.total}</strong><span>questões em lições concluídas</span></div>
+      <div><strong>${data.modules.length} temas</strong><span>lições de até 5 questões</span></div>
+      <progress max="${data.total}" value="${studied.size}" aria-label="Questões concluídas na trilha de Português"></progress>
+    </section>
+    <section class="study-map" aria-labelledby="study-map-title">
+      <div class="section-heading"><div><p class="page-kicker">Seu mapa de estudo</p><h2 id="study-map-title">Escolha seu foco</h2></div></div>
+      <p class="study-help">Siga a ordem sugerida ou escolha um tema. Seu avanço é salvo em cada unidade.</p>
+      <div class="study-grid">${data.modules.map((m, i) => {
+        const qs = data.questions.filter(q => q.moduleId === m.id);
+        const done = qs.filter(q => studied.has(q.id)).length;
+        return `<button class="study-unit ${m.id === module.id ? 'selected' : ''}" data-study-unit="${m.id}" aria-pressed="${m.id === module.id}">
+          <span class="study-unit-top"><span aria-hidden="true">${m.emoji}</span><span>Tema ${i + 1}</span>${done === qs.length ? '<span class="study-done">✓ Concluído</span>' : ''}</span>
+          <strong>${escapeHtml(m.title)}</strong><span>${done}/${qs.length} questões concluídas</span>
+          <progress max="${qs.length}" value="${done}" aria-label="Progresso de ${escapeHtml(m.title)}"></progress>
+        </button>`;
+      }).join('')}</div>
+    </section>
+    <section class="study-detail unit" id="unit-${module.id}" style="--unit-color:${color};--unit-dark:${dark}" aria-labelledby="study-unit-title">
+      <div class="unit-banner"><div class="unit-title-wrap"><span class="unit-emoji">${module.emoji}</span><div><h2 id="study-unit-title" tabindex="-1">${escapeHtml(module.title)}</h2><p>${escapeHtml(module.description)}</p></div></div><span class="unit-count">${unitStudied}/${currentQuestions.length} questões</span></div>
+      <div class="study-next"><div><p class="page-kicker">${complete ? 'Unidade concluída' : 'Seu próximo passo'}</p><h3>${!introRead ? 'Comece pelos conceitos' : next ? `Lição ${next.index + 1}: coloque em prática` : 'Continue consolidando o que aprendeu'}</h3><p>${!introRead ? `${module.introduction.duration} para entender as ideias e ver um exemplo resolvido.` : next ? `${counted(next.questions.length - lessonCredits(next).length, 'questão', 'questões')} para concluir esta lição. Até ${MAX_LESSON_ERRORS} erros; ao reiniciar, as chances se renovam.` : 'Revise a introdução ou resolva questões aleatórias deste tema.'}</p></div>
+        <div class="study-actions"><button class="button" ${!introRead || !next ? `data-intro="${module.id}"` : `data-lesson="${next.id}"`}>${nextLabel}</button><button class="button secondary" data-practice-unit="${module.id}">Praticar este tema</button></div>
+      </div>
+      <button class="intro-card" data-intro="${module.id}" aria-label="Introdução conceitual de ${escapeHtml(module.title)}"><span class="intro-icon" aria-hidden="true">☰</span><span><strong>${introRead ? 'Revisar conceitos' : 'Introdução conceitual'}</strong><span>${escapeHtml(module.introduction.summary)}</span><small>${introRead ? '✓ Leitura concluída' : module.introduction.duration + ' de leitura'}</small></span><span aria-hidden="true">↗</span></button>
+      <div class="study-lessons" aria-label="Lições de ${escapeHtml(module.title)}">${unitLessons.map(l => {
+        const done = state.completed.includes(l.id);
+        const credits = lessonCredits(l).length;
+        const unlocked = isUnlocked(l);
+        return `<button class="study-lesson ${done ? 'done' : ''}" ${unlocked ? `data-lesson="${l.id}"` : 'disabled'} aria-label="Lição ${l.index + 1}${done ? ', concluída, revisar' : unlocked ? '' : ', bloqueada'}"><span class="study-lesson-icon" aria-hidden="true">${done ? '✓' : unlocked ? '▶' : '🔒'}</span><span><strong>Lição ${l.index + 1}</strong><small>${done ? 'Concluída · Revisar' : credits ? `${credits}/${l.questions.length} questões já concluídas` : counted(l.questions.length, 'questão', 'questões')}</small></span><span>${!unlocked ? 'Conclua a anterior' : done ? 'Revisar' : 'Estudar'}</span></button>`;
+      }).join('')}</div>
+    </section>`;
+}
+
 function renderLearn() {
+  if (data.studyGuide) { renderPortugueseTrail(); return; }
   const next = nextLesson();
   const grouped = data.modules.map((module) => ({
     module,
@@ -592,21 +676,23 @@ function openIntroduction(moduleId) {
         <h1 class="page-title" tabindex="-1">${renderMathText(intro.title)}</h1>
         <p class="page-subtitle">${renderMathText(intro.summary)}</p>
         ${referenceMarkup(module)}
-        ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${renderMathText(section.title)}</h2><p>${renderMathText(section.text)}</p><div class="formula">${renderMathText(section.formula)}</div><p class="notation">${renderMathText(section.notation)}</p></div></section>`).join("")}
+        ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${renderMathText(section.title)}</h2><p>${renderMathText(section.text)}</p>${section.formula ? `<div class="formula">${renderMathText(section.formula)}</div>` : ""}${section.notation ? `<p class="notation">${renderMathText(section.notation)}</p>` : ""}</div></section>`).join("")}
         <section class="worked-example"><p class="page-kicker">Aplicando a ideia</p><h2>${renderMathText(intro.example.title)}</h2><ol>${intro.example.steps.map((step) => `<li>${renderMathText(step)}</li>`).join("")}</ol></section>
         <div class="notice"><strong>Evite esta confusão</strong><br>${renderMathText(intro.pitfall)}</div>
-        <div class="intro-actions"><button class="button" data-action="complete-intro">${state.introductionsRead.includes(moduleId) ? "Voltar à unidade" : "Concluir introdução"}</button></div>
+        <div class="intro-actions"><button class="button" data-action="complete-intro">${data.studyGuide && pendingUnitLesson(moduleId) ? "Concluir leitura e iniciar lição" : state.introductionsRead.includes(moduleId) ? "Voltar à unidade" : "Concluir introdução"}</button></div>
       </article>
     </div>`;
   modal.querySelector("h1").focus();
 }
 
 function completeIntroduction() {
+  const next = data.studyGuide ? pendingUnitLesson(introModuleId) : null;
   if (!state.introductionsRead.includes(introModuleId)) {
     state.introductionsRead.push(introModuleId);
     saveState();
   }
   closeQuiz();
+  if (next) startLesson(next.id);
 }
 
 function startLesson(lessonId, customQuestions) {
@@ -616,9 +702,10 @@ function startLesson(lessonId, customQuestions) {
     module: { title: "Revisão", id: "mecanica" },
     questions: customQuestions,
   };
+  if (data.studyGuide && lessons.some(l => l.id === lesson.id)) state.studyUnits[data.id] = lesson.module.id;
   quiz = {
     lesson,
-    questions: customQuestions || lesson.questions,
+    questions: customQuestions || (data.studyGuide && !state.completed.includes(lesson.id) ? lesson.questions.filter(q => !state.completed.includes(data.legacyQuestionCredits?.[q.id])) : lesson.questions),
     index: 0,
     selected: null,
     checked: false,
@@ -628,7 +715,7 @@ function startLesson(lessonId, customQuestions) {
   };
   if (!quiz.questions?.length) { quiz = null; return; }
   resetQuestionTimer();
-  openModal(lesson.title);
+  openModal(data.studyGuide && !customQuestions ? `${lesson.module.title} · Lição ${lesson.index + 1} de ${lessons.filter(l => l.module.id === lesson.module.id).length}` : lesson.title);
   renderQuestion();
   modal.querySelector("h1").focus();
 }
@@ -770,12 +857,14 @@ function finishLesson() {
   quiz.passed = passed;
   const lesson = quiz.lesson;
   const isCourseLesson = lessons.some((item) => item.id === lesson.id);
-  const earnedBonus = passed && isCourseLesson && !state.completed.includes(lesson.id);
+  const newlyCompleted = passed && isCourseLesson && !state.completed.includes(lesson.id);
+  const earnedBonus = newlyCompleted && lessonCredits(lesson).length === 0;
+  if (newlyCompleted) state.completed.push(lesson.id);
   if (earnedBonus) {
-    state.completed.push(lesson.id);
     state.xp += 20;
     state.todayXp += 20;
   }
+  const following = data.studyGuide && passed ? pendingUnitLesson(lesson.module.id) : null;
   markStudyDay();
   const accuracy = Math.round((quiz.correct / (quiz.index + 1)) * 100);
   saveState();
@@ -791,7 +880,8 @@ function finishLesson() {
           <div class="finish-stat"><strong>+${quiz.correct * 10 + (earnedBonus ? 20 : 0)}</strong><span>XP ganho</span></div>
         </div>
         ${passed ? "" : '<button class="button" data-action="restart-lesson">Reiniciar lição</button>'}
-        <button class="${passed ? "button" : "text-button finish-back"}" data-action="finish">Voltar à trilha</button>
+        ${data.studyGuide && passed ? `<p>${following ? "Seu progresso nesta unidade foi salvo." : "Unidade concluída! Escolha o próximo tema quando quiser."}</p>${following ? `<button class="button" data-lesson="${following.id}">Próxima lição</button>` : ""}` : ""}
+        <button class="${passed && !following ? "button" : "text-button finish-back"}" data-action="finish">${data.studyGuide ? "Voltar aos temas" : "Voltar à trilha"}</button>
       </div>
     </div>
   `;
@@ -807,8 +897,8 @@ function closeQuiz() {
   quiz = null;
   introModuleId = null;
   const introId = returnFocus?.dataset?.intro;
-  renderPage(!introId);
-  const focusTarget = introId ? app.querySelector(`[data-intro="${introId}"]`) : app.querySelector("h1");
+  renderPage(!introId && !data.studyGuide);
+  const focusTarget = data.studyGuide && activeView === "aprender" ? app.querySelector(".study-detail h2") : introId ? app.querySelector(`[data-intro="${introId}"]`) : app.querySelector("h1");
   if (focusTarget) { focusTarget.tabIndex = focusTarget.matches("button") ? 0 : -1; focusTarget.focus({ preventScroll: true }); }
 }
 
@@ -827,6 +917,10 @@ document.addEventListener("click", (event) => {
     renderPage();
     return;
   }
+  const studyButton = event.target.closest("[data-study-unit]");
+  if (studyButton) { selectStudyUnit(studyButton.dataset.studyUnit); return; }
+  const practiceButton = event.target.closest("[data-practice-unit]");
+  if (practiceButton) { practiceUnit(practiceButton.dataset.practiceUnit); return; }
   const lessonButton = event.target.closest("[data-lesson]");
   if (lessonButton) startLesson(lessonButton.dataset.lesson);
   const introButton = event.target.closest("[data-intro]");
@@ -834,7 +928,13 @@ document.addEventListener("click", (event) => {
   const answer = event.target.closest("[data-answer]");
   if (answer) selectAnswer(answer.dataset.answer);
   const action = event.target.closest("[data-action]")?.dataset.action;
-  if (action === "continue") startLesson(nextLesson().id);
+  if (action === "continue") {
+    if (data.studyGuide) {
+      const module = selectedStudyModule();
+      const next = pendingUnitLesson(module.id);
+      if (!state.introductionsRead.includes(module.id) || !next) openIntroduction(module.id); else startLesson(next.id);
+    } else startLesson(nextLesson().id);
+  }
   if (action === "practice") startPractice();
   if (action === "reset-filters") { state.practiceFilters[data.id] = defaultPracticeFilters(); saveState(); renderPractice(); }
   if (action === "end-practice") endPractice();
