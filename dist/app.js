@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-4";
+const DATA_URL = "/data/courses.json?v=pwa-5";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -165,7 +165,7 @@ function setCourse(courseId) {
   const byId = new Map(catalog.questions.map((q) => [q.id, q]));
   data = { ...course, questions: course.questionIds.map((id) => {
     const question = byId.get(id);
-    if (course.id !== "ciencias-natureza") return question;
+    if (!course.integrated) return question;
     const module = course.modules.find((m) => m.competency === question.competency);
     return { ...question, moduleId: module.id, moduleTitle: module.title };
   }) };
@@ -253,7 +253,7 @@ function renderLearn() {
       <div class="course-pill"><span class="course-dot"></span> ${data.emoji} ${escapeHtml(data.title)} · ENEM</div>
       <button class="button" data-lesson="${next.id}">Continuar trilha</button>
     </div>
-    <div class="curriculum-note"><strong>${escapeHtml(data.areaTitle)}</strong><span>${["matematica", "ciencias-natureza"].includes(data.id) ? `${data.modules.length} unidades organizadas pelas competências da matriz do INEP.` : "Unidades organizadas por tema, com competência e habilidade indicadas em cada questão."} Comece por qualquer unidade e avance pelas lições.</span>${data.id === "ciencias-natureza" ? '<span>Esta trilha reúne todas as questões de Física, Química e Biologia, sem repetição. A revisão de erros é compartilhada entre as trilhas.</span>' : ""}</div>
+    <div class="curriculum-note"><strong>${escapeHtml(data.areaTitle)}</strong><span>${data.modules.every(m => m.competency) ? `${data.modules.length} unidades organizadas pelas competências da matriz do INEP.` : "Unidades organizadas por tema, com competência e habilidade indicadas em cada questão."} Comece por qualquer unidade e avance pelas lições.</span>${data.integrationNote ? `<span>${escapeHtml(data.integrationNote)}</span>` : ""}</div>
     <div class="unit-jump"><label for="unit-select">Explorar unidades</label><select id="unit-select"><option value="">Escolha uma unidade…</option>${data.modules.map((m, i) => `<option value="${m.id}">${m.competency ? `C${m.competency}` : `Unidade ${i + 1}`} · ${escapeHtml(m.title)}</option>`).join("")}</select></div>
     <div class="path">
       ${grouped.map(({ module, lessons: moduleLessons }, moduleIndex) => {
@@ -529,12 +529,12 @@ function renderAbout() {
     ${pageHeader("Projeto aberto", "Sobre o Enem", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
     <div class="about-grid">
       <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
-      <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. Natureza reúne Física, Química e Biologia; suas questões são contadas uma única vez neste total.</p></article>
+      <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. As trilhas integradas de Natureza e Humanas compartilham questões com suas disciplinas; cada questão é contada uma única vez neste total.</p></article>
       <article class="info-card"><div class="big-number">15</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito original.</p></article>
       <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, respostas e lições concluídas ficam salvos apenas neste navegador.</p></article>
     </div>
     <div class="notice"><strong>Instalar o Enem:</strong> abra este site no Chrome ou Edge e escolha a opção de instalar aplicativo no menu do navegador. No iPhone ou iPad, use Compartilhar → Adicionar à Tela de Início. Depois, o Enem abre em uma janela própria. Em navegadores compatíveis, as questões e os comentários são guardados após o primeiro carregamento; imagens ainda não carregadas precisam de conexão. O progresso continua salvo neste dispositivo.</div>
-    <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
+    <div class="notice"><strong>Áreas e competências:</strong> Matemática, Ciências da Natureza e Ciências Humanas seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
     <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
     <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa ${renderMathText(String.raw`\(500 + 100b\)`)}; não é uma previsão da nota do aluno.</div>
     <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Enem, não comentários oficiais do INEP. O Enem não é afiliado ao Duolingo.</div>
@@ -661,7 +661,7 @@ function renderQuestion() {
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
-        ${question.skill ? `<div class="question-skill"><strong>${question.areaId === "matematica" ? "MT" : "CN"} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
+        ${question.skill ? `<div class="question-skill"><strong>${({matematica: "MT", "ciencias-natureza": "CN", "ciencias-humanas": "CH"})[question.areaId]} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
         <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
         <div class="answers">

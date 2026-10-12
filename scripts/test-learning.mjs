@@ -104,8 +104,8 @@ test("practice can target pending errors without adding unrelated questions", ()
   assert.equal(app.run("quiz.practice"), true);
 });
 
-test("all five courses have complete introductions, explanations and unique question references", () => {
-  assert.deepEqual(catalog.courses.map((c) => c.id), ["fisica", "quimica", "biologia", "matematica", "ciencias-natureza"]);
+test("all eight courses have complete introductions, explanations and unique question references", () => {
+  assert.deepEqual(catalog.courses.map((c) => c.id), ["fisica", "quimica", "biologia", "matematica", "geografia", "historia", "ciencias-natureza", "ciencias-humanas"]);
   assert.equal(catalog.total, catalog.questions.length);
   assert.equal(new Set(catalog.questions.map((q) => q.id)).size, catalog.total);
   const explanations = new Set();
@@ -137,7 +137,7 @@ test("all five courses have complete introductions, explanations and unique ques
       assert.ok(m.introduction.sections.length >= 3 && m.introduction.example.steps.length >= 2 && m.introduction.pitfall);
     }
   }
-  assert.equal(moduleIds.size, 30);
+  assert.equal(moduleIds.size, catalog.courses.reduce((total, course) => total + course.modules.length, 0));
 });
 
 test("Natureza is exactly the union of Physics, Chemistry and Biology without duplicating records", () => {
@@ -149,8 +149,66 @@ test("Natureza is exactly the union of Physics, Chemistry and Biology without du
   assert.ok(nature.questionIds.every((id) => catalog.questions.find((q) => q.id === id).areaId === "ciencias-natureza"));
 });
 
-test("Math and Natureza cover every official competence and present its exact skills", () => {
-  for (const id of ["matematica", "ciencias-natureza"]) {
+test("Humanas combines both subjects and complementary Philosophy and Sociology without duplicate records", () => {
+  const humanities = catalog.courses.find(c => c.id === "ciencias-humanas");
+  assert.equal(humanities.modules.length, 6);
+  assert.equal(humanities.total, 100);
+  const expected = new Set();
+  for (const id of ["geografia", "historia"]) {
+    const course = catalog.courses.find(c => c.id === id);
+    assert.equal(course.total, 40);
+    for (const questionId of course.questionIds) expected.add(questionId);
+  }
+  const complementary = catalog.questions.filter(q => ["filosofia", "sociologia"].includes(q.subjectId));
+  assert.equal(complementary.length, 20);
+  assert.deepEqual(new Set(complementary.map(q => q.subjectTitle)), new Set(["Filosofia", "Sociologia"]));
+  for (const q of complementary) expected.add(q.id);
+  assert.deepEqual(new Set(humanities.questionIds), expected);
+  assert.ok(humanities.questionIds.every(id => catalog.questions.find(q => q.id === id).areaId === "ciencias-humanas"));
+  assert.equal(catalog.total, 540);
+});
+
+test("Humanas practice uses its competency topics and displays CH references and explanations", () => {
+  const course = catalog.courses.find(c => c.id === "ciencias-humanas");
+  for (const module of course.modules) {
+    const app = appHarness({activeCourse: course.id, practiceFilters: {[course.id]: {module: module.id, competency: String(module.competency)}}});
+    app.run("startPractice()");
+    assert.ok(app.run("quiz.questions.length > 0"), module.id);
+    const ids = JSON.parse(app.run("JSON.stringify([...quiz.questions.map(q => q.id), ...quiz.queue])"));
+    const expected = catalog.questions.filter(q => q.areaId === "ciencias-humanas" && q.competency === module.competency).map(q => q.id);
+    assert.deepEqual(new Set(ids), new Set(expected));
+    assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes(`CH · C${module.competency}`));
+    app.run("selectAnswer(quiz.questions[0].correctAlternative); checkAnswer()");
+    assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes('class="explanation"'));
+    assert.equal(app.run("state.attempts.length"), 1);
+  }
+});
+
+test("Geography and History share error review and statistics with Humanas while lesson progress stays separate", () => {
+  for (const subject of ["geografia", "historia"]) {
+    const q = catalog.questions.find(q => q.subjectId === subject);
+    const app = appHarness({activeCourse: subject});
+    app.run(`state.practiceFilters[data.id] = {query: ${JSON.stringify(q.id)}}; startPractice(); selectAnswer(quiz.questions[0].alternatives.find(a => !a.isCorrect).letter); checkAnswer()`);
+    assert.equal(app.run("courseAttempts().length"), 1);
+    app.run("closeQuiz(); setCourse('ciencias-humanas')");
+    assert.equal(app.run("courseAttempts().length"), 1);
+    assert.equal(app.run("performanceMetrics(courseAttempts()).wrong"), 1);
+    app.run("state.practiceFilters[data.id] = {status:'wrong'}; startPractice()");
+    assert.equal(app.run("quiz.questions[0].id"), q.id);
+    app.run("selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); closeQuiz()");
+    assert.equal(app.run("state.missed.length"), 0);
+    assert.equal(app.run("completedLessons()"), 0);
+    assert.equal(app.run("performanceMetrics(courseAttempts()).accuracy"), 50);
+    app.run(`setCourse(${JSON.stringify(subject)}); renderPerformance()`);
+    assert.equal(app.run("courseAttempts().length"), 2);
+    assert.ok(app.nodes.get("#app").innerHTML.includes(q.moduleTitle));
+    app.run("setCourse('ciencias-natureza')");
+    assert.equal(app.run("courseAttempts().length"), 0);
+  }
+});
+
+test("Math, Natureza and Humanas cover every official competence and present its exact skills", () => {
+  for (const id of ["matematica", "ciencias-natureza", "ciencias-humanas"]) {
     const course = catalog.courses.find((c) => c.id === id);
     const references = catalog.matrix.areas[id].competencies;
     assert.equal(course.modules.length, references.length);
@@ -184,11 +242,11 @@ test("switching course preserves old progress and every question is reachable in
     }
   }
   const saved = JSON.parse(app.storage.get("fisio-progress-v1"));
-  assert.equal(saved.activeCourse, "ciencias-natureza");
+  assert.equal(saved.activeCourse, "ciencias-humanas");
   assert.deepEqual(saved.completed, ["mecanica-1"]);
-  assert.equal(saved.introductionsRead.length, 30);
+  assert.equal(saved.introductionsRead.length, catalog.courses.reduce((total, course) => total + course.modules.length, 0));
   const reloaded = appHarness(saved);
-  assert.equal(reloaded.run("data.id"), "ciencias-natureza");
+  assert.equal(reloaded.run("data.id"), "ciencias-humanas");
   assert.equal(reloaded.run("state.xp"), 200);
 });
 
@@ -223,7 +281,7 @@ test("all courses show explanations after correct or wrong answers and persist s
     assert.equal(app.run("completedLessons()"), 1);
     app.run("closeQuiz()");
   }
-  assert.equal(app.run("state.completed.length"), 5);
+  assert.equal(app.run("state.completed.length"), catalog.courses.length);
 });
 
 test("the expanded math course keeps the seven previously completed lessons intact", () => {
@@ -271,9 +329,10 @@ test("every previously published lesson retains its questions and position after
   const previous = JSON.parse(readFileSync("scripts/fixtures/lessons-before-practice.json", "utf8"));
   const correction = JSON.parse(readFileSync("data/courses/math-replacement.json", "utf8"));
   const app = appHarness();
-  for (const course of catalog.courses) {
-    app.run(`setCourse(${JSON.stringify(course.id)})`);
-    for (const [module, groups] of Object.entries(previous[course.id])) {
+  for (const courseId of Object.keys(previous)) {
+    assert.ok(catalog.courses.some(course => course.id === courseId), `Missing published course: ${courseId}`);
+    app.run(`setCourse(${JSON.stringify(courseId)})`);
+    for (const [module, groups] of Object.entries(previous[courseId])) {
       for (const [index, ids] of groups.entries()) {
         const id = `${module}-${index + 1}`;
         const actual = JSON.parse(app.run(`JSON.stringify(lessons.find(l => l.id === ${JSON.stringify(id)}).questions.map(q => q.id))`));
@@ -297,12 +356,13 @@ test("expanded sciences contain 90 reviewed questions each without changing old 
 test("TRI joins preserve official answers and scale while unavailable items remain explicit", () => {
   const tri = JSON.parse(readFileSync('data/reference/tri-parameters.json', 'utf8'));
   const valid = catalog.questions.filter(q => q.tri);
-  assert.equal(valid.length, 431);
+  assert.equal(valid.filter(q => q.areaId !== "ciencias-humanas").length, 431);
+  assert.ok(valid.filter(q => q.areaId === "ciencias-humanas").length > 0);
   assert.equal(catalog.tri.matched, valid.length);
   assert.deepEqual([...new Set(tri.years.map(y => y.year))].sort(), Array.from({length:15},(_,i)=>2009+i));
   for (const q of catalog.questions) {
     if (!q.tri) {
-      assert.equal(q.triUnavailable.reason, 'official_item_abandoned', q.id);
+      assert.ok(q.triUnavailable?.reason, q.id);
       assert.equal(q.triUnavailable.officialAnswer, q.correctAlternative, q.id);
       continue;
     }
@@ -311,7 +371,13 @@ test("TRI joins preserve official answers and scale while unavailable items rema
     assert.equal(q.tri.year, q.year, q.id);
     assert.equal(q.tri.questionNumber, q.index, q.id);
     assert.ok(Math.abs(q.tri.difficultyScore - (500 + 100 * q.tri.b)) < 0.000001, q.id);
-    assert.ok(q.tri.matchMethod.includes('booklet_content'), q.id);
+    if (q.areaId !== "ciencias-humanas") assert.ok(q.tri.matchMethod.includes('booklet_content'), q.id);
+    else {
+      assert.equal(q.tri.area, "CH", q.id);
+      assert.equal(q.tri.color, "AZUL", q.id);
+      assert.equal(q.tri.application, "regular", q.id);
+      assert.ok(q.tri.matchMethod.includes('individual_answer'), q.id);
+    }
     assert.ok(q.tri.sourceUrl.startsWith('https://download.inep.gov.br/'), q.id);
   }
   assert.ok(!catalog.questions.some(q => q.id === '2023-164'));

@@ -1,0 +1,596 @@
+{
+  "id": "ciencias-humanas",
+  "title": "Ciências Humanas",
+  "emoji": "🏛️",
+  "description": "Geografia, História, Filosofia e Sociologia reunidas nas 6 competências da área do ENEM.",
+  "modules": [
+    {
+      "id": "hum-c1",
+      "title": "Cultura, identidades e memória",
+      "emoji": "🎭",
+      "competency": 1,
+      "description": "Fontes, patrimônio, diversidade cultural e formas de interpretar o mundo.",
+      "introduction": {
+        "title": "Toda fonte tem um lugar na história",
+        "duration": "4 min",
+        "summary": "Compare documentos, reconheça a diversidade cultural e investigue como identidades e memórias são construídas.",
+        "sections": [
+          {
+            "title": "Cultura é aprendida e transformada",
+            "text": "Línguas, costumes, conhecimentos, crenças e artes são produzidos e compartilhados socialmente. Uma cultura não é uma essência biológica nem permanece igual para sempre. Pessoas e grupos reelaboram tradições em encontros, conflitos e trocas. Evite classificar sociedades como superiores ou inferiores a partir dos hábitos de um único grupo.",
+            "formula": "Práticas compartilhadas + experiências históricas → identidades em transformação",
+            "notation": "Etnocentrismo é tomar a própria cultura como medida para julgar as demais. Reconhecer diferenças exige compreender seus contextos."
+          },
+          {
+            "title": "Leia a fonte antes de julgar a tese",
+            "text": "Uma carta, fotografia, mapa, objeto ou texto filosófico responde a situações e objetivos. Identifique quem produziu a fonte, quando, para quem e com qual argumento. Ao comparar autores, observe tanto a questão comum quanto as respostas diferentes. Uma interpretação precisa se apoiar nas evidências do documento.",
+            "formula": "Autoria + contexto + finalidade + evidências → interpretação",
+            "notation": "A data do acontecimento pode ser diferente da data em que um relato sobre ele foi escrito. Essa distância também importa."
+          },
+          {
+            "title": "Memória envolve escolhas",
+            "text": "Monumentos, museus, comemorações e narrativas selecionam o que uma sociedade lembra publicamente. A memória pode afirmar pertencimentos e também silenciar experiências. Patrimônio material inclui construções e objetos; patrimônio imaterial inclui saberes, práticas e formas de expressão reconhecidas coletivamente.",
+            "formula": "O que é lembrado? Quem aparece? Quem ficou ausente?",
+            "notation": "Valorizar um patrimônio não exige imaginar uma tradição imóvel. Grupos podem preservar referências enquanto transformam suas práticas."
+          }
+        ],
+        "example": {
+          "title": "Duas interpretações de uma mesma festa",
+          "steps": [
+            "Um viajante antigo descreve uma festa como desordem; um depoimento de seus participantes a apresenta como encontro de famílias e transmissão de saberes.",
+            "As fontes tratam da mesma prática, mas partem de posições sociais e critérios diferentes. O julgamento do viajante não é uma descrição neutra da cultura local.",
+            "Compare os argumentos e as evidências de cada relato. A conclusão pode reconhecer tanto a perspectiva externa quanto os significados atribuídos pelos participantes."
+          ]
+        },
+        "pitfall": "Não transforme a opinião de uma fonte em verdade universal. Diferencie o que o autor afirma da conclusão que a questão pede."
+      }
+    },
+    {
+      "id": "hum-c2",
+      "title": "Territórios, poder e população",
+      "emoji": "🗺️",
+      "competency": 2,
+      "description": "Representações do espaço, fronteiras, migrações e organização coletiva.",
+      "introduction": {
+        "title": "O espaço também expressa relações de poder",
+        "duration": "4 min",
+        "summary": "Relacione mapas, fluxos populacionais e ações de Estados e movimentos sociais à construção dos territórios.",
+        "sections": [
+          {
+            "title": "Espaço, território e lugar",
+            "text": "O espaço geográfico reúne elementos naturais e transformações sociais. Território destaca relações de controle, uso e poder sobre uma área; lugar envolve experiências e vínculos cotidianos. Uma fronteira não é apenas uma linha: pode organizar circulação, disputas, cooperação e pertencimento.",
+            "formula": "Quem controla a área? Quem a utiliza? Quem decide seus usos?",
+            "notation": "As escalas local, regional, nacional e mundial se relacionam. Uma decisão internacional pode modificar a vida de um bairro."
+          },
+          {
+            "title": "Mapas são representações",
+            "text": "Antes de interpretar um mapa, leia título, legenda, escala, orientação, fonte e data. Cores e símbolos representam critérios escolhidos, não características naturais obrigatórias do território. Projeções cartográficas preservam algumas propriedades e distorcem outras. Compare dados produzidos com o mesmo critério.",
+            "formula": "Título → legenda → escala → padrões espaciais → explicação",
+            "notation": "Uma área grande no desenho não prova população elevada. Verifique qual variável o mapa representa e como os dados foram agrupados."
+          },
+          {
+            "title": "Migração e ação coletiva",
+            "text": "Deslocamentos populacionais podem envolver trabalho, redes familiares, conflitos, perseguições ou eventos ambientais. Políticas migratórias, infraestrutura e acesso a serviços afetam esses trajetos. Movimentos sociais organizam demandas comuns e podem disputar direitos e usos do espaço por diferentes formas de participação.",
+            "formula": "Condições de origem + possibilidades de destino + redes e políticas → fluxos",
+            "notation": "Evite reduzir todos os deslocamentos a uma única causa. Distinguir motivações e condições ajuda a compreender cada situação."
+          }
+        ],
+        "example": {
+          "title": "Entender uma migração entre campo e cidade",
+          "steps": [
+            "Uma família deixa uma área rural após mudanças na oferta de trabalho e se dirige a uma cidade onde possui parentes.",
+            "A perda de oportunidades na origem ajuda a explicar a saída; trabalho, serviços e a rede familiar ajudam a explicar a escolha do destino.",
+            "Para avaliar os efeitos da migração, observe também moradia, transporte e políticas públicas. A chegada de pessoas, isoladamente, não explica todos os problemas urbanos."
+          ]
+        },
+        "pitfall": "Não trate fronteiras ou distribuições populacionais como fatos imutáveis. Investigue os processos históricos e as relações de poder que os produzem."
+      }
+    },
+    {
+      "id": "hum-c3",
+      "title": "Instituições, Estado e conflitos",
+      "emoji": "⚖️",
+      "competency": 3,
+      "description": "Poder político, justiça, grupos sociais e transformações institucionais.",
+      "introduction": {
+        "title": "Como as sociedades organizam o poder",
+        "duration": "4 min",
+        "summary": "Analise instituições e conflitos relacionando regras, interesses, legitimidade e participação de diferentes grupos.",
+        "sections": [
+          {
+            "title": "Instituições organizam relações sociais",
+            "text": "Instituições são conjuntos relativamente duradouros de normas e práticas, como as que estruturam a família, a escola, a justiça e a vida econômica. Elas orientam comportamentos, distribuem funções e podem ser modificadas. Investigue a quem uma regra se aplica e quais grupos participam de sua definição.",
+            "formula": "Regras + práticas + posições sociais → funcionamento institucional",
+            "notation": "Uma instituição não se reduz ao prédio que ocupa. A justiça, por exemplo, envolve normas, procedimentos, agentes e formas de acesso."
+          },
+          {
+            "title": "Estado, governo e legitimidade",
+            "text": "O Estado reúne instituições que organizam o poder político sobre uma população e um território. Governo designa a direção exercida em determinado período. Legitimidade diz respeito ao reconhecimento de uma autoridade. Autores de diferentes épocas explicam a origem e os limites desse poder de maneiras distintas.",
+            "formula": "Quem governa? Com quais regras? Sob qual justificativa?",
+            "notation": "Evite confundir uma teoria sobre como o poder funciona com uma defesa moral de todos os atos praticados por governantes."
+          },
+          {
+            "title": "Leis e direitos têm história",
+            "text": "Uma lei pode estabelecer garantias e também expressar disputas e desigualdades do contexto em que foi produzida. Movimentos sociais, conflitos e negociações podem transformar instituições. Compare o conteúdo formal das regras com sua aplicação efetiva e com o acesso de diferentes grupos à proteção jurídica.",
+            "formula": "Demandas e conflitos → disputas institucionais → possíveis mudanças",
+            "notation": "Uma mudança legal não elimina automaticamente as práticas anteriores. Investigue sua implementação e os obstáculos que permanecem."
+          }
+        ],
+        "example": {
+          "title": "Analisar uma lei que restringe uma prática cultural",
+          "steps": [
+            "Um documento legal de determinada época proíbe uma prática associada a um grupo social e prevê punições para seus participantes.",
+            "Além de identificar a proibição, pergunte quais grupos são atingidos, quem define a norma e como a justificativa se relaciona às disputas daquele período.",
+            "Compare a lei com outras fontes sobre a experiência dos envolvidos. Isso permite discutir exclusão e resistência sem presumir que todos cumpriam a norma da mesma maneira."
+          ]
+        },
+        "pitfall": "Não explique uma instituição apenas pela intenção declarada de seus dirigentes. Considere também seus efeitos, conflitos e diferenças entre os grupos envolvidos."
+      }
+    },
+    {
+      "id": "hum-c4",
+      "title": "Trabalho, ciência e tecnologia",
+      "emoji": "⚙️",
+      "competency": 4,
+      "description": "Produção, transformações técnicas, conhecimento e relações de trabalho.",
+      "introduction": {
+        "title": "Técnicas mudam a produção e a vida social",
+        "duration": "4 min",
+        "summary": "Conecte inovações e modos de produzir às relações sociais, à circulação de riquezas e aos debates sobre o conhecimento.",
+        "sections": [
+          {
+            "title": "O trabalho é uma relação social",
+            "text": "Produzir envolve atividade humana, instrumentos, conhecimentos e recursos. A organização do trabalho define quem realiza as tarefas, quem controla os meios de produção e como os resultados são distribuídos. Diferentes formas de trabalho convivem e se transformam ao longo da história.",
+            "formula": "O que se produz? Como? Por quem? Quem controla e recebe os resultados?",
+            "notation": "Produtividade é a relação entre produção e recursos utilizados. Seu aumento não garante, por si só, uma distribuição mais igualitária da renda."
+          },
+          {
+            "title": "Tecnologia reorganiza espaços e tarefas",
+            "text": "Máquinas, transportes e redes de informação podem alterar localização de empresas, exigências profissionais e divisão das tarefas. A coordenação a distância permite conectar unidades dispersas. Os efeitos dependem também de decisões empresariais, regras trabalhistas, acesso à infraestrutura e organização dos trabalhadores.",
+            "formula": "Inovação + decisões econômicas + regras sociais → mudanças na produção",
+            "notation": "Automação, terceirização e trabalho remoto são processos diferentes. Leia qual mudança o texto descreve antes de associá-la a uma consequência."
+          },
+          {
+            "title": "Conhecimento tem métodos e contextos",
+            "text": "Debates filosóficos e científicos investigam como construir e justificar explicações. A valorização de observação, experimentação, cálculo e argumentação modificou formas de interpretar a natureza e a sociedade. Ao ler um autor, identifique seu critério de conhecimento e o alcance de sua afirmação.",
+            "formula": "Problema → método de investigação → evidências e argumentos → conclusão",
+            "notation": "Uma nova técnica pode ampliar capacidades sem resolver todos os problemas sociais. Benefícios e custos precisam ser analisados no contexto proposto."
+          }
+        ],
+        "example": {
+          "title": "Uma empresa passa a coordenar equipes em rede",
+          "steps": [
+            "Uma empresa utiliza comunicação digital para distribuir tarefas entre equipes em diferentes cidades e contratar serviços externos.",
+            "A rede permite coordenação a distância e maior flexibilidade organizacional. Ela ajuda a explicar mudanças na divisão do trabalho e na localização das atividades.",
+            "Não se pode concluir apenas desse dado que o desemprego acabou ou que desapareceram conflitos trabalhistas. Essas afirmações exigiriam outras evidências."
+          ]
+        },
+        "pitfall": "Evite o determinismo tecnológico: uma inovação não produz os mesmos efeitos em todos os grupos, lugares e períodos."
+      }
+    },
+    {
+      "id": "hum-c5",
+      "title": "Ética, cidadania e democracia",
+      "emoji": "🗳️",
+      "competency": 5,
+      "description": "Autonomia, participação política, comunicação, direitos e inclusão.",
+      "introduction": {
+        "title": "Cidadania se exerce na vida coletiva",
+        "duration": "4 min",
+        "summary": "Relacione argumentos éticos, informação pública e mobilização social à construção e ao exercício dos direitos.",
+        "sections": [
+          {
+            "title": "Ética examina razões e consequências",
+            "text": "A reflexão ética investiga critérios para avaliar ações e formas de convivência. Diferentes autores destacam deveres, consequências, virtudes, autonomia ou outros fundamentos. Leia o argumento apresentado e reconheça seu contexto. Uma decisão individual pode afetar outras pessoas e adquirir dimensão coletiva e política.",
+            "formula": "Ação → razões apresentadas → efeitos e responsabilidades",
+            "notation": "Descrever como alguém age é diferente de justificar por que a ação seria correta. A questão pode exigir uma dessas tarefas ou compará-las."
+          },
+          {
+            "title": "Democracia exige participação e direitos",
+            "text": "A participação democrática inclui eleições e também debate público, fiscalização, associações e outras formas de intervenção coletiva. Cidadania envolve direitos e deveres, cujo reconhecimento e exercício variam historicamente. Compare quem é incluído na vida política em cada sociedade, sem projetar automaticamente o presente sobre o passado.",
+            "formula": "Direitos + participação + acesso à informação → exercício da cidadania",
+            "notation": "Democracias antigas e contemporâneas têm critérios distintos de participação. Reconhecer práticas democráticas não significa ignorar exclusões."
+          },
+          {
+            "title": "Informação e inclusão ampliam a participação",
+            "text": "Meios de comunicação podem fornecer informações para o debate e influenciar valores, identidades e comportamentos. A análise crítica considera fontes, interesses e modos de circulação das mensagens. Políticas de inclusão e mobilizações sociais podem reduzir barreiras ao exercício de direitos e colocar novas demandas em discussão.",
+            "formula": "Quem informa? Quem participa? Quais barreiras dificultam o acesso?",
+            "notation": "Ter um direito formal e conseguir exercê-lo são situações diferentes. Condições materiais, discriminação e acesso a serviços podem limitar sua efetivação."
+          }
+        ],
+        "example": {
+          "title": "Discutir uma decisão sobre o transporte do bairro",
+          "steps": [
+            "Moradores recebem dados sobre linhas de ônibus, apresentam problemas em uma reunião pública e propõem mudanças nos trajetos.",
+            "O acesso às informações permite discutir prioridades e fiscalizar justificativas. A participação coletiva amplia a decisão para além do momento eleitoral.",
+            "Para avaliar a inclusão, observe também se horários, local da reunião e acessibilidade permitem a presença dos grupos que dependem do transporte."
+          ]
+        },
+        "pitfall": "Não reduza democracia ao voto nem presuma que a informação, sozinha, garante igualdade de participação. Analise também as condições de acesso e intervenção."
+      }
+    },
+    {
+      "id": "hum-c6",
+      "title": "Sociedade, natureza e ambiente",
+      "emoji": "🌿",
+      "competency": 6,
+      "description": "Paisagens, recursos, impactos ambientais e estratégias de preservação.",
+      "introduction": {
+        "title": "Natureza e sociedade se transformam juntas",
+        "duration": "4 min",
+        "summary": "Relacione processos naturais, ocupação dos espaços e decisões econômicas aos impactos e às respostas ambientais.",
+        "sections": [
+          {
+            "title": "Paisagens registram processos",
+            "text": "Relevo, clima, águas, solos e vegetação influenciam usos do espaço, mas não determinam sozinhos a organização de uma sociedade. Técnicas, interesses e formas de ocupação modificam as paisagens. Observe diferentes escalas de tempo: uma chuva intensa e a ocupação de uma encosta podem atuar juntas em um problema.",
+            "formula": "Processos naturais + formas de ocupação → transformação da paisagem",
+            "notation": "Evite explicar todo desastre apenas pelo evento natural. Exposição da população, condições de moradia e medidas de prevenção também importam."
+          },
+          {
+            "title": "Recursos têm usos e disputas",
+            "text": "Água, solo, florestas e fontes de energia participam de atividades produtivas e da reprodução da vida. Sua exploração envolve escolhas sobre acesso, intensidade de uso e distribuição de benefícios e impactos. Um recurso renovável pode sofrer degradação quando o ritmo de uso supera sua recuperação.",
+            "formula": "Extração → produção → consumo → resíduos e efeitos no território",
+            "notation": "Renovável não significa inesgotável em qualquer condição. O tempo de renovação e a capacidade de recuperação do ambiente precisam ser considerados."
+          },
+          {
+            "title": "Avalie soluções em diferentes escalas",
+            "text": "Preservação, recuperação ambiental, redução de desperdício, saneamento e planejamento territorial respondem a problemas distintos. Uma proposta precisa atuar sobre as causas relevantes e considerar quem será afetado. Impactos podem ultrapassar fronteiras, exigindo coordenação entre comunidades, governos e outros agentes.",
+            "formula": "Problema e causas → proposta → efeitos esperados → limites e acompanhamento",
+            "notation": "Uma medida pode reduzir um impacto e criar outro. Compare etapas do processo e escalas local, regional e global antes de concluir."
+          }
+        ],
+        "example": {
+          "title": "Por que uma área urbana alaga com frequência?",
+          "steps": [
+            "Uma área próxima a um rio recebeu pavimentação intensa e ocupação de terrenos sujeitos a cheias. Chuvas fortes passaram a causar alagamentos frequentes.",
+            "A impermeabilização dificulta a infiltração e aumenta o escoamento superficial; a ocupação de áreas inundáveis eleva a exposição de moradores e construções.",
+            "Áreas permeáveis, planejamento do uso do solo e medidas de drenagem podem atuar sobre o problema. A solução deve considerar a bacia hidrográfica e as necessidades da população afetada."
+          ]
+        },
+        "pitfall": "Não confunda reconhecer condicionantes naturais com aceitar danos como inevitáveis. Investigue as escolhas sociais e as medidas possíveis de prevenção."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2010-34",
+      "moduleId": "hum-c3",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Foucault: leis e relações de poder",
+        "steps": [
+          "O texto liga o nascimento das leis a batalhas, conquistas e conflitos. Essa origem contrasta com a ideia de uma lei natural e neutra, anterior às relações sociais.",
+          "A alternativa E é correta: a lei organiza relações de poder dentro das sociedades e entre Estados. A passagem não a apresenta simplesmente como um instrumento destinado a impedir toda violência.",
+          "As alternativas centradas apenas em limitar guerras ou conter a agressividade ignoram a relação entre a ordem jurídica e as disputas históricas destacadas por Foucault."
+        ],
+        "takeaway": "Na passagem de Foucault, compreender a lei exige investigar as relações de poder que a constituem."
+      }
+    },
+    {
+      "id": "2010-44",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Ética e dimensão coletiva da ação",
+        "steps": [
+          "O sujeito é descrito como histórico-social: suas ações acontecem em relações com outras pessoas, e não em isolamento absoluto.",
+          "Por isso, avaliar uma ação exige considerar valores e consequências da convivência coletiva. A alternativa D expressa esse sentido coletivo e político das ações individuais.",
+          "A dimensão política da ética não significa que apenas partidos ou políticos eleitos possam definir o que é ético, como sugerem outros itens."
+        ],
+        "takeaway": "A dimensão política da ética aparece quando ações individuais são avaliadas em suas relações com a vida coletiva."
+      }
+    },
+    {
+      "id": "2011-16",
+      "moduleId": "hum-c4",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Redes de informação e flexibilização do trabalho",
+        "steps": [
+          "Castells descreve tarefas descentralizadas que continuam coordenadas em tempo real por redes de comunicação. A produção pode se distribuir sem perder a articulação entre suas partes.",
+          "Essa organização favorece trabalho flexível e contratação de serviços externos, acompanhando demandas de inovação e mobilidade dos investimentos. É o que afirma a alternativa C.",
+          "O texto não garante o fim do desemprego nem a harmonização das relações de trabalho. Esses resultados não decorrem automaticamente da comunicação digital."
+        ],
+        "takeaway": "Redes digitais permitem coordenação a distância e ajudam a reorganizar tarefas, contratos e localização da produção."
+      }
+    },
+    {
+      "id": "2011-21",
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Informação pública e participação democrática",
+        "steps": [
+          "O primeiro texto define a ação democrática pela participação nas decisões que afetam a coletividade. Para participar dessas decisões, os cidadãos precisam conhecer e discutir assuntos públicos.",
+          "O segundo texto associa liberdade de expressão, fiscalização e acesso à informação. Assim, a alternativa B é correta: os meios de comunicação fornecem informações que alimentam o debate político.",
+          "Reproduzir apenas uma versão oficial dos fatos não equivale à função democrática descrita, pois limitaria o exame e a fiscalização das decisões."
+        ],
+        "takeaway": "Na perspectiva dos textos, a comunicação contribui para a democracia ao informar o debate e permitir a fiscalização pública."
+      }
+    },
+    {
+      "id": "2011-27",
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Televisão e socialização na infância",
+        "steps": [
+          "O texto relaciona a exposição à televisão ao processo de socialização, pelo qual se aprendem valores, modelos de comportamento e papéis sociais.",
+          "As crianças ainda desenvolvem recursos para avaliar criticamente esses modelos. Por isso, a alternativa C identifica sua maior vulnerabilidade à interiorização de padrões transmitidos.",
+          "Codificar informações por observação não explica, por si só, a maior vulnerabilidade crítica. Outras alternativas atribuem resultados positivos, como tolerância e respeito às leis, que a programação não assegura."
+        ],
+        "takeaway": "A análise da socialização investiga como mensagens e relações sociais participam do aprendizado de comportamentos e valores."
+      }
+    },
+    {
+      "id": "2012-2",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Kant: esclarecimento e autonomia racional",
+        "steps": [
+          "Kant define a menoridade como a incapacidade de usar o próprio entendimento sem a condução de outra pessoa. No trecho, a dificuldade central é a falta de decisão e coragem, não de inteligência.",
+          "Sair dessa condição significa assumir o exercício autônomo da razão. A alternativa A traduz essa maioridade intelectual.",
+          "A autonomia não corresponde a aceitar passivamente verdades impostas por outra autoridade. Esse procedimento manteria a dependência que o esclarecimento procura superar."
+        ],
+        "takeaway": "O esclarecimento kantiano exige coragem para pensar por conta própria e assumir a responsabilidade pelo uso da razão."
+      }
+    },
+    {
+      "id": "2012-28",
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Comparação de explicações sobre a origem do mundo",
+        "steps": [
+          "Anaxímenes atribui ao ar a origem das coisas e explica suas transformações por diferentes estados desse elemento. Basílio, por sua vez, coloca Deus como criador e princípio do mundo.",
+          "As explicações divergem quanto à natureza desse princípio, mas ambas procuram uma origem fundamental para tudo o que existe. A alternativa D identifica esse ponto comum.",
+          "Não se pode afirmar que ambos defendem Deus como princípio, pois Anaxímenes propõe o ar. A comparação exige separar o problema compartilhado das respostas particulares."
+        ],
+        "takeaway": "Ao comparar teorias, procure primeiro a pergunta comum e depois identifique as diferentes respostas oferecidas."
+      }
+    },
+    {
+      "id": "2012-30",
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Descartes e Hume: o papel dos sentidos",
+        "steps": [
+          "Descartes recomenda cautela porque os sentidos já produziram enganos. A confiança imediata na percepção, portanto, não basta para estabelecer uma certeza.",
+          "Hume propõe investigar de qual impressão sensorial deriva uma ideia para avaliar seu significado. Nesse argumento, a experiência sensível funciona como referência para o conhecimento.",
+          "A alternativa E é correta: os autores atribuem lugares diferentes aos sentidos. Não se trata de ambos declararem impossível todo conhecimento ou de defenderem o mesmo critério de validação."
+        ],
+        "takeaway": "Descartes põe em dúvida a segurança dos sentidos; Hume investiga a origem das ideias nas impressões da experiência."
+      }
+    },
+    {
+      "id": "2013-10",
+      "moduleId": "hum-c3",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Maquiavel e os interesses na ação política",
+        "steps": [
+          "A passagem afirma que as pessoas podem demonstrar fidelidade enquanto recebem benefícios e mudar de conduta quando o perigo se aproxima.",
+          "Essa análise descreve ações guiadas por interesses e sujeitas a mudanças de circunstância. Por isso, a alternativa C resume a visão apresentada por Maquiavel.",
+          "As opções que supõem bondade espontânea ou convivência naturalmente pacífica contradizem o comportamento inconstante destacado. A questão pede interpretar essa descrição, não adotá-la como regra moral pessoal."
+        ],
+        "takeaway": "No argumento apresentado, Maquiavel considera interesses e circunstâncias para explicar a instabilidade do comportamento político."
+      }
+    },
+    {
+      "id": "2013-15",
+      "moduleId": "hum-c4",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Marx: produção material e relações sociais",
+        "steps": [
+          "Marx relaciona as instituições políticas e jurídicas à estrutura econômica, formada pelas relações de produção. A vida social é analisada a partir das condições materiais em que as pessoas produzem.",
+          "O trabalho constitui a atividade fundamental dessa produção material. A alternativa B corresponde ao fundamento real destacado no texto.",
+          "O trecho não afirma que o desenvolvimento econômico garante progresso para todos nem que a mais-valia beneficia o proletariado. Essas conclusões alteram o sentido da análise das relações de produção."
+        ],
+        "takeaway": "Na análise marxiana do trecho, a produção material e suas relações de trabalho ajudam a compreender a organização política e jurídica."
+      }
+    },
+    {
+      "id": "2013-41",
+      "moduleId": "hum-c4",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Ciência, razão e a expectativa moderna de progresso",
+        "steps": [
+          "O texto apresenta o domínio técnico da natureza como parte de um projeto que pretendia melhorar a vida humana, física e culturalmente.",
+          "Nesse projeto moderno e iluminista, a ciência expressa o uso da razão e se torna referência para outros campos que buscam progresso. É a alternativa C.",
+          "O objetivo descrito não é encerrar definitivamente todas as controvérsias, eliminar a ética ou impedir debates. Essas afirmações absolutas ultrapassam o que a passagem sustenta."
+        ],
+        "takeaway": "O projeto moderno descrito associa investigação racional, desenvolvimento científico e expectativa de melhoria das condições humanas."
+      }
+    },
+    {
+      "id": "2014-19",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Cidadania e participação política na pólis",
+        "steps": [
+          "Tucídides valoriza o envolvimento dos cidadãos no debate e nas decisões públicas. A cidadania aparece como participação ativa nos assuntos coletivos.",
+          "Aristóteles destaca o direito de administrar justiça e exercer funções públicas. A comparação aponta para a participação política, alternativa C.",
+          "O critério comum aos trechos não é riqueza ou parentesco. Isso também não significa que a cidadania ateniense incluísse todos os habitantes: a questão identifica a atividade que caracteriza o cidadão nas fontes."
+        ],
+        "takeaway": "Nos dois textos, ser cidadão significa participar da vida política, das decisões e das funções públicas da comunidade."
+      }
+    },
+    {
+      "id": "2014-24",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Epicuro e a escolha prudente dos desejos",
+        "steps": [
+          "Epicuro distingue desejos necessários de desejos dispensáveis e orienta a abandonar os que são difíceis de satisfazer ou geram danos.",
+          "Essa avaliação prudente busca um prazer estável, com redução do sofrimento, em vez da satisfação ilimitada de qualquer impulso. A alternativa A sintetiza a busca do prazer moderado e da felicidade.",
+          "O trecho não recomenda o sofrimento como finalidade da vida nem funda a conduta em mandamentos divinos. Ele avalia desejos por seus efeitos sobre uma vida feliz."
+        ],
+        "takeaway": "A ética epicurista associa felicidade à escolha prudente dos prazeres e à redução de desejos que provocam perturbação."
+      }
+    },
+    {
+      "id": "2014-29",
+      "moduleId": "hum-c4",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Galileu e a matematização da natureza",
+        "steps": [
+          "Galileu compara o universo a um livro que exige o domínio da linguagem matemática para ser compreendido. Figuras e relações quantitativas tornam-se instrumentos da investigação.",
+          "No contexto da Revolução Científica, essa posição sustenta uma física quantitativa que se contrapõe aos pressupostos da tradição escolástica. A alternativa C é correta.",
+          "A matemática não é apresentada como inadequada nem como simples apoio ao estudo de idiomas. Ela é o meio central de formular e compreender relações da natureza no argumento citado."
+        ],
+        "takeaway": "A proposta galileana valoriza a matemática como linguagem para investigar e expressar regularidades dos fenômenos naturais."
+      }
+    },
+    {
+      "id": "2015-13",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Trasímaco: justiça como convenção humana",
+        "steps": [
+          "No texto, Trasímaco nega que as regras de certo e errado sejam verdades independentes da sociedade. As pessoas aprendem a obedecer a normas produzidas por seres humanos.",
+          "Assim, a relação entre justiça e ética é atribuída a convenções sociais vinculadas a interesses contingentes. Isso corresponde à alternativa D.",
+          "Explicações baseadas em determinações biológicas, mandamentos divinos ou verdades anteriores aos interesses sociais contrariam a origem convencional defendida pelo personagem."
+        ],
+        "takeaway": "A posição de Trasímaco apresentada no trecho trata normas de justiça como construções humanas situadas socialmente."
+      }
+    },
+    {
+      "id": "2015-25",
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Movimentos sociais e democracia além das eleições",
+        "steps": [
+          "Gohn destaca que os movimentos sociais não contribuíram apenas para encerrar o regime militar e restabelecer instituições representativas.",
+          "Ao dialogar com a população e o Estado, esses movimentos levaram demandas, valores e práticas participativas à vida cotidiana. A alternativa B expressa a democracia como valor social que ultrapassa momentos eleitorais.",
+          "Limitar a contribuição à representação política perderia justamente a ampliação cultural e social enfatizada no texto."
+        ],
+        "takeaway": "A democratização também envolve organização coletiva, participação cotidiana e diálogo social para além do ato de votar."
+      }
+    },
+    {
+      "id": "2015-26",
+      "moduleId": "hum-c3",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Hobbes e o conflito no estado de natureza",
+        "steps": [
+          "Hobbes argumenta que as diferenças de capacidade não impedem duas pessoas de aspirarem ao mesmo benefício. A igualdade de expectativas pode colocar indivíduos em competição por um objeto.",
+          "Antes da constituição de um poder comum, essa disputa pode gerar conflito. Por isso, a alternativa A responde à situação proposta.",
+          "Apelar a governantes pressuporia uma autoridade política já constituída, ausente no estado de natureza descrito. A solidariedade não é a consequência indicada para a competição em questão."
+        ],
+        "takeaway": "Em Hobbes, a competição por objetos desejados pode gerar conflito na ausência de um poder comum capaz de ordenar as relações."
+      }
+    },
+    {
+      "id": "2015-39",
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Identidade, visibilidade e imagens midiáticas",
+        "steps": [
+          "O texto destaca a busca de aparecer, ser visto e receber atenção pública. As imagens pessoais circulam e podem adquirir valor econômico na indústria do espetáculo.",
+          "A referência aos selfies e ao desejo de espelhamento indica uma identidade voltada para a própria imagem. A alternativa A nomeia essa prática identitária autorreferente.",
+          "A crítica não se concentra apenas na rapidez das notícias ou na convergência de aparelhos. Seu foco é a construção do sujeito a partir da exibição e da repercussão de si mesmo."
+        ],
+        "takeaway": "Na crítica do texto, a busca de visibilidade transforma a própria imagem em referência central da identidade e do reconhecimento social."
+      }
+    },
+    {
+      "id": "2015-40",
+      "moduleId": "hum-c4",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Weber e o desencantamento do mundo",
+        "steps": [
+          "Weber descreve a crença de que os fenômenos podem ser conhecidos e calculados, sem recorrer necessariamente a forças misteriosas e incalculáveis.",
+          "Esse processo de racionalização caracteriza o afastamento de explicações tradicionais na modernidade. A alternativa D corresponde ao desencantamento apresentado.",
+          "O autor não afirma que cada pessoa já conhece tudo nem que toda crença religiosa desapareceu. Tampouco identifica racionalização com emancipação garantida ou progresso moral automático."
+        ],
+        "takeaway": "Desencantamento, no trecho, designa a valorização da explicação racional e calculável, sem significar o desaparecimento completo da religião."
+      }
+    },
+    {
+      "id": "2016-15",
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Indústria cultural e aparência de liberdade",
+        "steps": [
+          "Adorno e Horkheimer afirmam que a diversidade de opções pode ocultar a repetição de padrões e a coerção econômica na indústria cultural.",
+          "Se as alternativas disponíveis reproduzem essencialmente a mesma lógica, a liberdade de escolha parece maior do que efetivamente é. A alternativa E expressa essa ilusão da contemporaneidade.",
+          "As opções que tratam essa liberdade simplesmente como conquista ou patrimônio positivo não captam o sentido crítico da passagem."
+        ],
+        "takeaway": "A crítica à indústria cultural questiona a autonomia de escolhas moldadas por produtos padronizados e pela lógica econômica."
+      }
+    }
+  ]
+}

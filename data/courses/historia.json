@@ -1,0 +1,740 @@
+{
+  "id": "historia",
+  "title": "História",
+  "emoji": "🏛️",
+  "description": "Interprete fontes, conecte processos históricos e compreenda as disputas por poder, memória e direitos no ENEM.",
+  "modules": [
+    {
+      "id": "his-culturas",
+      "title": "Culturas, fontes e memória",
+      "emoji": "🎭",
+      "description": "Patrimônio, identidades e diferentes maneiras de registrar e transmitir experiências.",
+      "introduction": {
+        "title": "Como ler as marcas do passado",
+        "duration": "4 min",
+        "summary": "Documentos, objetos, relatos e manifestações artísticas permitem investigar como as sociedades produzem sentidos e memórias.",
+        "sections": [
+          {
+            "title": "Uma fonte tem autoria e contexto",
+            "text": "Um texto, uma pintura, um objeto ou um relato oral pode servir como fonte histórica. Pergunte quem o produziu, quando, para quem e com qual finalidade. A fonte não é uma janela neutra: registra perspectivas e interesses. Interpretar uma memória pessoal exige distinguir a experiência narrada das conclusões que o historiador pode sustentar com ela."
+          },
+          {
+            "title": "Memória é uma construção social",
+            "text": "Sociedades selecionam acontecimentos, personagens e símbolos para lembrar. Monumentos, festas e narrativas podem transformar uma pessoa em herói cívico ou transmitir conhecimentos entre gerações. Essas escolhas mudam no tempo e podem ser disputadas por diferentes grupos. Investigar como uma lembrança foi construída é diferente de apenas repetir seu conteúdo."
+          },
+          {
+            "title": "Culturas circulam e se transformam",
+            "text": "Povos africanos, indígenas, europeus e muitos outros produziram saberes e formas próprias de registro. Trocas comerciais, migrações e relações de poder colocam práticas em contato; elas podem ser apropriadas, adaptadas ou usadas como resistência. Patrimônio cultural inclui tanto objetos e construções quanto modos de fazer, celebrar e transmitir conhecimentos."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: uma dança com palavras de outra língua",
+          "steps": [
+            "Observe quem dança, em qual ocasião e quais palavras orientam os movimentos. Esses elementos são evidências de uma prática cultural concreta.",
+            "Se comandos estrangeiros ganharam pronúncias locais, há apropriação e transformação cultural. Isso não significa que a manifestação atual seja uma cópia sem identidade própria.",
+            "Associe a mudança ao processo histórico de contato entre grupos, sem supor que toda a cultura de um povo tenha uma única origem."
+          ]
+        },
+        "pitfall": "Não confunda ausência de escrita alfabética com ausência de história, conhecimento ou formas de comunicação."
+      }
+    },
+    {
+      "id": "his-poder",
+      "title": "Poder, cidades e crenças",
+      "emoji": "🏺",
+      "description": "Cidadania antiga, cidades medievais, instituições religiosas e expansão europeia.",
+      "introduction": {
+        "title": "Instituições mudam junto com as sociedades",
+        "duration": "4 min",
+        "summary": "Compare diferentes contextos sem transportar automaticamente as regras e os valores do presente para o passado.",
+        "sections": [
+          {
+            "title": "Quem podia participar das decisões?",
+            "text": "Nas cidades antigas, a condição de cidadão não abrangia toda a população. Critérios sociais, de nascimento e de riqueza variavam conforme a cidade e o regime. Leis escritas podiam limitar arbitrariedades e responder a conflitos, mas sua existência não criava igualdade plena. Leia quais grupos tinham direitos e quais continuavam excluídos."
+          },
+          {
+            "title": "Cidade e campo estavam conectados",
+            "text": "No mundo medieval, centros urbanos reuniam comércio e artesanato, enquanto o campo fornecia alimentos e matérias-primas. O crescimento das trocas podia estimular mudanças nas técnicas rurais. Muralhas, instituições religiosas e poderes locais continuavam importantes: expansão comercial não significou desaparecimento imediato das estruturas medievais."
+          },
+          {
+            "title": "Religião, conhecimento e conquista",
+            "text": "Instituições religiosas também exerciam funções sociais e políticas, como assistência a peregrinos e participação em conflitos. Na época moderna, novas concepções valorizaram a razão e contestaram autoridades estabelecidas. A expansão europeia encontrou sociedades diversas; conquistas envolveram alianças, rivalidades, violência e epidemias, sem resultar de uma suposta inferioridade dos povos conquistados."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: interpretar uma lei antiga",
+          "steps": [
+            "Localize a sociedade e o conflito: grupos submetidos às decisões de uma elite reivindicam regras conhecidas por todos.",
+            "A publicação de normas pode reduzir o arbítrio dessa elite, porque permite cobrar critérios comuns. Isso não prova que todos receberam os mesmos direitos.",
+            "Escolha uma conclusão proporcional à evidência: limitar desigualdades de tratamento é diferente de eliminar toda desigualdade social."
+          ]
+        },
+        "pitfall": "Evite explicações únicas para processos longos. Mudanças econômicas podem coexistir com antigas instituições, crenças e desigualdades."
+      }
+    },
+    {
+      "id": "his-colonia",
+      "title": "América colonial e Brasil imperial",
+      "emoji": "⛵",
+      "description": "Colonização, escravidão, independência e disputas por terra e cidadania.",
+      "introduction": {
+        "title": "Riquezas, trabalho e poder na formação do Brasil",
+        "duration": "4 min",
+        "summary": "Relacione a exploração colonial às estruturas sociais e às lutas que atravessaram a Independência e o Império.",
+        "sections": [
+          {
+            "title": "A colonização conectava interesses",
+            "text": "A exploração de recursos e o comércio atlântico articularam Estados, comerciantes e produtores. Açúcar, mineração e outras atividades se relacionavam ao trabalho compulsório e a mercados distantes. Os interesses de colonos e autoridades nem sempre coincidiam; disputas por crédito, tributos e circulação de riquezas também provocavam conflitos."
+          },
+          {
+            "title": "Escravidão não significa ausência de resistência",
+            "text": "A escravidão foi uma relação de violência e apropriação do trabalho, sustentada por instituições e interesses econômicos. Pessoas escravizadas e livres resistiram de maneiras diversas. O abolicionismo mobilizou imprensa, discursos, associações, arrecadações e ações diretas. A atuação das mulheres nesses espaços não deve ser apagada nem confundida automaticamente com uma campanha pelo voto feminino."
+          },
+          {
+            "title": "Independência política e limites sociais",
+            "text": "A ruptura com Portugal não eliminou a escravidão, as hierarquias de gênero ou as restrições à participação política. A Constituição de 1824 organizou eleições indiretas e critérios de renda. A Lei de Terras de 1850 reforçou barreiras econômicas de acesso às terras devolutas. Para compreender a cidadania no Império, observe quem podia votar, possuir terra e ocupar posições de poder."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: entender uma regra eleitoral",
+          "steps": [
+            "Se os cidadãos escolhem eleitores e estes escolhem os representantes, o voto é indireto: existe uma etapa intermediária.",
+            "Se a participação exige renda mínima, o sistema é censitário. A exigência exclui parte da população independentemente de sua vontade de participar.",
+            "A existência de eleições, portanto, não basta para afirmar que havia sufrágio universal ou igualdade política."
+          ]
+        },
+        "pitfall": "Não trate Independência, abolição e ampliação da cidadania como o mesmo acontecimento. São processos distintos, com conflitos e limites próprios."
+      }
+    },
+    {
+      "id": "his-republica",
+      "title": "República, direitos e autoritarismo",
+      "emoji": "🗳️",
+      "description": "Disputas eleitorais, lutas sociais, propaganda e repressão no Brasil republicano.",
+      "introduction": {
+        "title": "Entre a participação e a exclusão política",
+        "duration": "4 min",
+        "summary": "Acompanhe como direitos foram reivindicados e como governos buscaram apoio ou reprimiram opositores.",
+        "sections": [
+          {
+            "title": "Direitos formais precisam de condições reais",
+            "text": "Uma sociedade pode realizar eleições e, ao mesmo tempo, restringir a liberdade de escolha por ameaças, dependência econômica e fraude. Na Primeira República, poderes locais limitavam a participação efetiva. A cidadania deve ser analisada tanto pelas normas quanto pelas condições concretas de exercício dos direitos."
+          },
+          {
+            "title": "As conquistas têm sujeitos históricos",
+            "text": "Marinheiros, mulheres, trabalhadores e outros grupos contestaram desigualdades e buscaram mudanças. A Revolta da Chibata denunciou castigos corporais e práticas de matriz escravista. A conquista do voto feminino resultou também de campanhas organizadas. Uma mudança legal é relevante, mas não elimina automaticamente preconceitos e estruturas de exclusão."
+          },
+          {
+            "title": "Propaganda e repressão exercem funções diferentes",
+            "text": "A propaganda busca produzir adesão e legitimar um governo; a censura restringe a circulação de informações; a repressão intimida e elimina a atuação de opositores. O Estado Novo e a ditadura instaurada em 1964 utilizaram diferentes mecanismos autoritários. Analise cada documento em seu contexto, identificando quem fala, quais interesses defende e quem é atingido."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: uma eleição sob ameaça",
+          "steps": [
+            "Um eleitor recebe uma cédula de um chefe local e tem seu nome anotado se recusar. O ato de votar existe, mas sua escolha sofre coerção.",
+            "O problema central é a restrição do exercício de um direito. Não basta chamar a cena de propaganda: há ameaça ao eleitor.",
+            "Confronte a norma com a prática para distinguir participação formal de participação livre."
+          ]
+        },
+        "pitfall": "Identificar o argumento de um ator histórico não significa concordar com ele. Diferencie o ponto de vista da fonte da análise histórica."
+      }
+    },
+    {
+      "id": "his-revolucoes",
+      "title": "Revoluções e ordem mundial",
+      "emoji": "🌐",
+      "description": "Ideias políticas, capitalismo, guerras, direitos humanos e relações de poder.",
+      "introduction": {
+        "title": "Conflitos que transformaram a vida política",
+        "duration": "4 min",
+        "summary": "Compare projetos de sociedade e entenda como crises e guerras reorganizaram Estados, economias e direitos.",
+        "sections": [
+          {
+            "title": "Revoluções reúnem demandas diferentes",
+            "text": "Uma revolução pode envolver grupos que compartilham um adversário, mas desejam mudanças distintas. Na Inglaterra do século XVII, disputas políticas, religiosas e sociais se cruzaram. Ideias iluministas ampliaram a crítica aos privilégios e contribuíram para a afirmação da igualdade civil, embora a aplicação dos direitos permanecesse limitada e disputada."
+          },
+          {
+            "title": "Estado e economia: projetos em disputa",
+            "text": "Práticas mercantilistas associavam o fortalecimento do Estado a monopólios, proteção comercial e expansão colonial. O liberalismo econômico criticou essas restrições e defendeu a concorrência. Em outro contexto, após a crise de 1929, o New Deal ampliou a intervenção do Estado nos Estados Unidos para recuperar a atividade econômica. Compare contextos e objetivos antes de classificar uma medida."
+          },
+          {
+            "title": "Poder internacional e proteção de direitos",
+            "text": "As atrocidades nazistas impulsionaram iniciativas internacionais de condenação do racismo e defesa dos direitos humanos após a Segunda Guerra Mundial. A Declaração de 1948 estabeleceu uma referência comum de dignidade. Durante a Guerra Fria, a rivalidade entre blocos coexistiu com relações desiguais dentro deles, como dependência econômica e militar em relação às potências dirigentes."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: comparar duas interpretações de uma revolução",
+          "steps": [
+            "Um autor destaca o conflito entre Parlamento e monarquia; outro aborda também camponeses, artesãos e grupos religiosos.",
+            "Os dois podem estudar o mesmo processo com recortes diferentes. A segunda interpretação amplia os sujeitos e as demandas considerados.",
+            "Para responder, compare o que cada texto enfatiza. Não transforme diferenças de perspectiva em prova automática de que um dos autores ignora todos os demais aspectos."
+          ]
+        },
+        "pitfall": "Uma declaração de direitos estabelece princípios e compromissos; sua aprovação não significa que guerras, racismo ou violações tenham desaparecido."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2017-46",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Circulação de mercadorias e de saberes em Tombuctu",
+        "steps": [
+          "O texto reúne comércio de produtos, livros e presença de estudantes. Isso mostra uma cidade conectada a fluxos que transportavam tanto riquezas quanto conhecimentos.",
+          "A alternativa C é correta: a posição de Tombuctu nas redes de circulação favorecia seu dinamismo comercial e cultural. O isolamento reduziria essas conexões, e o tráfico transatlântico não explica o contexto do Mali do século XIV."
+        ],
+        "takeaway": "Redes comerciais também favorecem a circulação de conhecimentos e a formação de centros culturais."
+      }
+    },
+    {
+      "id": "2017-63",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Ruptura com o passado no manifesto futurista",
+        "steps": [
+          "Bibliotecas, museus e cidades antigas aparecem como alvos de destruição no manifesto. A linguagem radical rejeita instituições associadas à conservação e à autoridade do passado.",
+          "A alternativa C sintetiza a concepção defendida pelo texto: a modernidade deveria superar decisivamente a história. Não se trata de valorizar a memória coletiva, como sugerem B e E, mas de contestá-la como referência para a criação artística."
+        ],
+        "takeaway": "Ao interpretar um manifesto, identifique o projeto que ele defende; descrever esse projeto não significa endossá-lo."
+      }
+    },
+    {
+      "id": "2017-76",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Identidade e resistência cultural nas memórias de Luiz Gama",
+        "steps": [
+          "Luiz Gama destaca a origem africana da mãe e sua recusa ao batismo e à doutrina cristã. Esses elementos mostram a manutenção de referências culturais próprias em uma sociedade que pressionava pela conversão.",
+          "A alternativa B é correta porque a narrativa valoriza estratégias de resistência cultural. O vínculo familiar está presente, mas a descrição enfatiza a autonomia religiosa e a postura de resistência de Luiza Mahin, não apenas a solidariedade entre parentes."
+        ],
+        "takeaway": "Procure quais características a fonte destaca para reconhecer o sentido histórico de uma narrativa pessoal."
+      }
+    },
+    {
+      "id": "2017-82",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "A construção de Tiradentes como herói cívico",
+        "steps": [
+          "A narrativa apresenta Tiradentes como aquele que sofreu por todos e associa sua execução ao martírio e à redenção. Essa linguagem se aproxima de símbolos cristãos de sacrifício.",
+          "A alternativa A é correta: a memória republicana de um personagem político incorpora imagens de redenção cristã para construir uma referência cívica. O trecho trata da elaboração de um herói nacional, não da defesa de uma doutrina religiosa específica."
+        ],
+        "takeaway": "A memória pública pode combinar símbolos religiosos e políticos para atribuir novos sentidos a personagens do passado."
+      }
+    },
+    {
+      "id": "2018-64",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 3,
+      "explanation": {
+        "concept": "Proteção simbólica e bolsas de mandinga",
+        "steps": [
+          "O texto enumera doenças, violência, roubos e má sorte como ameaças percebidas pela população. As bolsas eram usadas para buscar proteção e segurança diante dessas incertezas.",
+          "A alternativa E é correta porque essa prática atenuava o sentimento de desamparo social. A presença de usuários escravizados e brancos também impede reduzi-la a um mecanismo de conversão dos cativos ou a um plano de derrubada da monarquia."
+        ],
+        "takeaway": "Relacione uma prática cultural às necessidades e aos sentidos atribuídos a ela por seus participantes."
+      }
+    },
+    {
+      "id": "2020-54",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 5,
+      "explanation": {
+        "concept": "Arte rupestre como transmissão de conhecimento",
+        "steps": [
+          "O povo San associa as imagens aos ensinamentos dos antepassados sobre sua visão de mundo. O próprio texto descreve funções pedagógicas e sociais da arte.",
+          "A alternativa A é correta: as representações ajudam a transmitir saberes acumulados entre gerações. Não há evidências de expansão da propriedade individual, rejeição de influências externas ou surgimento dos laços familiares."
+        ],
+        "takeaway": "Imagens e narrativas orais também registram e transmitem conhecimentos históricos e culturais."
+      }
+    },
+    {
+      "id": "2020-66",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 3,
+      "explanation": {
+        "concept": "Apropriação cultural na quadrilha",
+        "steps": [
+          "Os comandos da quadrilha derivam de expressões francesas que ganharam formas locais, como en arrière e anarriê. A mudança de pronúncia revela adaptação, não simples conservação do original.",
+          "A alternativa E é correta porque a manifestação incorporou práticas estrangeiras e lhes atribuiu uma forma brasileira. O enunciado não descreve rejeição dessas influências nem restauração integral dos costumes antigos."
+        ],
+        "takeaway": "A apropriação transforma elementos recebidos de outros contextos em práticas com novos usos e sentidos."
+      }
+    },
+    {
+      "id": "2021-83",
+      "moduleId": "his-culturas",
+      "competency": 1,
+      "skill": 5,
+      "explanation": {
+        "concept": "Objetos culturais e educação entre os Woyo",
+        "steps": [
+          "As tampas entalhadas eram oferecidas pelos pais aos filhos com sinais que aconselhavam sobre escolha do cônjuge e vida conjugal. Os objetos funcionavam como suportes de comunicação e orientação.",
+          "A alternativa A é correta: trata-se de uma pedagogia dos costumes sociais. Os artefatos ensinam comportamentos valorizados no grupo, em vez de desqualificar o casamento ou impor uma única forma de comunicação."
+        ],
+        "takeaway": "O significado de um objeto cultural depende também de seu uso social, e não apenas de seu aspecto material."
+      }
+    },
+    {
+      "id": "2017-70",
+      "moduleId": "his-poder",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Comércio urbano e aperfeiçoamento da produção de lã",
+        "steps": [
+          "Compradores da Flandres e da Itália buscavam lã, estimulando produtores a melhorar as raças e as técnicas de criação. A demanda comercial ajuda a explicar a mudança na atividade rural.",
+          "A alternativa B é correta porque o desenvolvimento da vida urbana ampliou mercados para a produção pastoril. O texto não aponta aumento do trabalho escravo ou distribuição de terras como causas das melhorias."
+        ],
+        "takeaway": "Campo e cidade não eram mundos isolados: a demanda urbana podia estimular transformações técnicas na produção rural."
+      }
+    },
+    {
+      "id": "2017-79",
+      "moduleId": "his-poder",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Leis e limites ao arbítrio nas sociedades antigas",
+        "steps": [
+          "Em Atenas, as pressões sobre dívidas e terras exigiram medidas de Sólon; em Roma, a publicação de normas tornou as regras conhecidas e limitou o arbítrio dos poderosos.",
+          "A alternativa E identifica a convergência: normas coletivas podiam diminuir desigualdades de tratamento. Os textos não afirmam que essas medidas eliminaram aristocracias, encerraram conflitos ou criaram democracia em ambas as sociedades."
+        ],
+        "takeaway": "Leis podem reduzir arbitrariedades sem eliminar todos os privilégios ou conflitos sociais."
+      }
+    },
+    {
+      "id": "2018-47",
+      "moduleId": "his-poder",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Assistência religiosa e ordens militares nas Cruzadas",
+        "steps": [
+          "O hospital de Jerusalém acolhia peregrinos e doentes, mas também passou por militarização. O texto destaca a combinação entre a finalidade religiosa e caritativa e a atuação armada.",
+          "A alternativa A é correta: essa combinação caracteriza o monasticismo guerreiro associado às Cruzadas. Não se trata da criação de faculdades de medicina nem de uma ordem exclusivamente mendicante."
+        ],
+        "takeaway": "Nas ordens religiosas militares, assistência, fé e atividade guerreira podiam integrar uma mesma instituição."
+      }
+    },
+    {
+      "id": "2018-66",
+      "moduleId": "his-poder",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Razão e liberdade de pensamento no Iluminismo",
+        "steps": [
+          "O texto valoriza análise, experimentação e razão na produção do conhecimento no século XVIII. Esse procedimento permite submeter ideias e autoridades à crítica, em vez de aceitá-las apenas pela tradição.",
+          "A alternativa E é correta porque aponta a oposição entre o controle clerical do pensamento e a liberdade de investigação. Isso não significa que todos os iluministas rejeitassem qualquer crença religiosa, mas que contestavam a imposição de uma autoridade como limite à razão."
+        ],
+        "takeaway": "Crítica à autoridade religiosa sobre o conhecimento não equivale à afirmação de que todos os pensadores eram ateus."
+      }
+    },
+    {
+      "id": "2018-68",
+      "moduleId": "his-poder",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Alianças e rivalidades na conquista do México",
+        "steps": [
+          "A questão pede uma estratégia capaz de compensar a inferioridade numérica dos espanhóis. Os povos da região não constituíam um bloco político unido e havia conflitos com o domínio mexica.",
+          "A alternativa C é correta: explorar essas rivalidades permitiu aos conquistadores formar alianças e ampliar suas forças. Epidemias tiveram impacto, mas a alternativa D propõe uma introdução deliberada de vetores que não explica a estratégia solicitada pelo texto."
+        ],
+        "takeaway": "A conquista deve ser analisada considerando a diversidade e a atuação dos povos indígenas, além das forças europeias."
+      }
+    },
+    {
+      "id": "2018-85",
+      "moduleId": "his-poder",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Infraestrutura de circulação e poder em Bagdá",
+        "steps": [
+          "Al-Mansur destaca o acesso pelos rios e canais e a capacidade de sustentar o exército e a população. A localização facilitava o abastecimento, a circulação e a obtenção de recursos.",
+          "A alternativa A é correta porque relaciona rotas e terras férteis à sustentação do poder político. A referência ao avanço mongol é incompatível com o século VIII, e o trecho não apresenta fuga de uma disputa sucessória como motivo da escolha."
+        ],
+        "takeaway": "A localização de uma capital pode atender simultaneamente a necessidades de abastecimento, circulação e dominação política."
+      }
+    },
+    {
+      "id": "2019-60",
+      "moduleId": "his-poder",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Expansão econômica e proteção na cidade medieval",
+        "steps": [
+          "O texto descreve artesanato, comércio e economia monetária, mas também menciona muralhas, portas e torres. Assim, a expansão urbana coexistia com estruturas materiais de defesa.",
+          "A alternativa E é correta porque preserva essa combinação. A intensificação do comércio não prova independência em relação aos alimentos do campo nem desaparecimento das corporações de ofício."
+        ],
+        "takeaway": "Mudança econômica e permanência de formas antigas de organização podem ocorrer ao mesmo tempo."
+      }
+    },
+    {
+      "id": "2019-79",
+      "moduleId": "his-poder",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Propriedade e participação política na Antiguidade",
+        "steps": [
+          "O enunciado compara a participação de homens livres em diferentes regimes, com menor inclusão nas aristocracias e oligarquias. Nesses contextos, riqueza e controle da terra sustentavam posições de poder e podiam restringir o acesso à cidadania plena.",
+          "A alternativa A é correta entre os critérios apresentados. Não havia igualdade de gênero como regra de participação, e alfabetização ou exclusão dos militares não explicam a diferença descrita entre os regimes. Os critérios concretos variavam entre cidades e períodos."
+        ],
+        "takeaway": "A cidadania antiga era restrita e variável; não a confunda com a noção contemporânea de sufrágio universal."
+      }
+    },
+    {
+      "id": "2017-80",
+      "moduleId": "his-colonia",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Lei de Terras e concentração fundiária",
+        "steps": [
+          "O trecho destaca a exigência de compra e pagamento em dinheiro como barreira para trabalhadores que conquistavam a liberdade. Quem não possuía recursos encontrava dificuldades para adquirir terra.",
+          "A alternativa C é correta: essa barreira favorecia a manutenção da terra concentrada nas mãos de grupos com patrimônio. A medida não distribuía propriedades, portanto não representava reforma agrária, nem se referia à mecanização da produção."
+        ],
+        "takeaway": "Uma regra de acesso à propriedade pode ampliar desigualdades quando grupos sociais têm capacidades econômicas muito diferentes."
+      }
+    },
+    {
+      "id": "2018-54",
+      "moduleId": "his-colonia",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Críticas à extração de riquezas na colonização",
+        "steps": [
+          "João de Barros critica a preferência pelo pau-brasil em detrimento do sentido religioso atribuído à terra. Frei Vicente censura colonos que pretendiam transferir seus bens e ganhos para Portugal.",
+          "A alternativa E reúne o ponto comum: o predomínio da apropriação e retirada de riquezas locais. Embora escravidão e violência contra indígenas fossem características da colonização, não constituem o núcleo das críticas desses dois trechos."
+        ],
+        "takeaway": "Em questões com duas fontes, procure a convergência efetivamente sustentada por ambas, não apenas um fato geral do período."
+      }
+    },
+    {
+      "id": "2018-57",
+      "moduleId": "his-colonia",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Atuação de mulheres no abolicionismo",
+        "steps": [
+          "Discursos, poemas e arrecadações tinham um objetivo explícito: comprar liberdades e convencer senhores a conceder alforrias. As práticas culturais eram instrumentos de mobilização contra a escravidão.",
+          "A alternativa E é correta porque identifica o movimento abolicionista. A presença de mulheres como protagonistas não transforma automaticamente a ação em campanha sufragista: o objetivo relatado é a liberdade das pessoas escravizadas, não o voto feminino."
+        ],
+        "takeaway": "Identifique um movimento por suas reivindicações no documento, sem deduzi-lo apenas da identidade de seus participantes."
+      }
+    },
+    {
+      "id": "2018-59",
+      "moduleId": "his-colonia",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Dívidas e interesses na Insurreição Pernambucana",
+        "steps": [
+          "A anulação das dívidas com os holandeses atraiu a adesão da nobreza da terra. O benefício econômico oferecido aos devedores é a pista central para explicar a mobilização.",
+          "A alternativa E é correta: os interesses dos senhores de engenho contribuíram para o desencadeamento da revolta. O trecho não demonstra fraqueza militar holandesa ou financiamento flamengo aos rebeldes."
+        ],
+        "takeaway": "Além dos discursos políticos e religiosos, investigue quais grupos ganhariam economicamente com uma mobilização."
+      }
+    },
+    {
+      "id": "2019-55",
+      "moduleId": "his-colonia",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Hierarquias de gênero nas lutas pela Independência",
+        "steps": [
+          "Maria Quitéria precisou cortar os cabelos, vestir-se de homem e usar outro nome porque mulheres eram proibidas nos batalhões. Sua atuação foi possível ao transgredir uma barreira social, não por uma abertura regular da instituição.",
+          "A alternativa A é correta: a necessidade de ocultar sua condição evidencia a rigidez hierárquica da sociedade. A alternativa B pode parecer atraente porque ela combateu, mas o caso não demonstra uma política geral de inserção feminina nos ofícios militares."
+        ],
+        "takeaway": "Uma trajetória excepcional pode revelar a força de uma exclusão, em vez de provar que essa exclusão deixou de existir."
+      }
+    },
+    {
+      "id": "2019-72",
+      "moduleId": "his-colonia",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Voto indireto e censitário no Império",
+        "steps": [
+          "O artigo 90 determina que cidadãos escolham eleitores e que estes escolham representantes: são etapas distintas, caracterizando o voto indireto.",
+          "O artigo 92 exige renda mínima para votar. Esse critério econômico caracteriza o voto censitário, tornando B a alternativa correta. Eleições com essas restrições não equivalem a participação universal ou a voto secreto."
+        ],
+        "takeaway": "Voto indireto diz respeito às etapas da escolha; voto censitário diz respeito ao requisito de renda ou patrimônio."
+      }
+    },
+    {
+      "id": "2019-81",
+      "moduleId": "his-colonia",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Mineração e deslocamento dos fluxos do tráfico",
+        "steps": [
+          "O texto aponta o crescimento da chegada de africanos escravizados ao Rio de Janeiro. A expansão da mineração no centro-sul aumentou a demanda por trabalho compulsório e a importância de rotas de abastecimento ligadas a esse porto.",
+          "A alternativa B é correta porque a extração de metais preciosos ajuda a explicar a mudança de centralidade do tráfico. Atividades como tabaco e drogas do sertão não explicam esse deslocamento para o Rio no contexto apresentado."
+        ],
+        "takeaway": "Mudanças nas atividades econômicas alteram rotas comerciais e fluxos populacionais, inclusive os deslocamentos forçados."
+      }
+    },
+    {
+      "id": "2019-86",
+      "moduleId": "his-colonia",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Corsários e rivalidades coloniais",
+        "steps": [
+          "Francis Drake atacava carregamentos de ouro e áreas sob domínio espanhol com o apoio de Elizabeth I. Os saques permitiam acessar riquezas controladas pela potência rival.",
+          "A alternativa B é correta: a tática buscava conquistar riquezas americanas. O apoio da rainha não transformava os ataques em ocupação legal de possessões ibéricas nem tinha como objetivo obter a adesão das demais potências europeias."
+        ],
+        "takeaway": "Ataques ao comércio colonial também podiam funcionar como instrumentos de disputa econômica e política entre Estados."
+      }
+    },
+    {
+      "id": "2017-78",
+      "moduleId": "his-republica",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Propaganda e legitimação no Estado Novo",
+        "steps": [
+          "O trecho destaca a intenção de empolgar multidões e produzir efeitos emocionais. O controle da comunicação permitia apresentar uma imagem favorável do governo e limitar vozes contrárias.",
+          "A alternativa A é correta porque o objetivo era conquistar apoio popular para legitimar o regime. Isso difere de ampliar decisões democráticas ou oferecer informações plurais para que a sociedade avaliasse livremente o governo."
+        ],
+        "takeaway": "Mobilização por propaganda pode produzir adesão sem ampliar a participação efetiva nas decisões políticas."
+      }
+    },
+    {
+      "id": "2017-81",
+      "moduleId": "his-republica",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Queremismo e transição política em 1945",
+        "steps": [
+          "O texto registra a mobilização em torno de Vargas no momento em que se discutia a sucessão presidencial. O queremismo buscava preservar sua influência sobre a reorganização política e constitucional.",
+          "A alternativa D é correta: a reivindicação central era uma transição constitucional sob influência do governante. Reduzir o movimento à simples manutenção da ditadura ignora sua atuação no contexto de abertura e de disputa sobre os rumos da transição."
+        ],
+        "takeaway": "Um movimento pode apoiar uma liderança e, ao mesmo tempo, disputar o modo como uma transição institucional ocorrerá."
+      }
+    },
+    {
+      "id": "2017-83",
+      "moduleId": "his-republica",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Anticomunismo e apoio ao golpe de 1964",
+        "steps": [
+          "Os documentos citados relacionavam miséria rural à possibilidade de expansão comunista e defendiam o desenvolvimento capitalista com distribuição de riqueza como forma de conter essa influência.",
+          "A alternativa E é correta porque reproduz o raciocínio atribuído à hierarquia católica: a privação material favoreceria a manipulação ideológica. A questão pede identificar essa visão histórica, não afirmar que pessoas pobres sejam necessariamente manipuláveis ou que todo o clero tenha agido da mesma forma."
+        ],
+        "takeaway": "Ao analisar um posicionamento político, atribua suas premissas ao grupo que as defendia e reconheça divergências internas."
+      }
+    },
+    {
+      "id": "2018-58",
+      "moduleId": "his-republica",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Reformas de base e mobilização social",
+        "steps": [
+          "João Goulart contrapõe uma democracia de privilégios à presença do povo nas ruas e critica interesses econômicos que, segundo ele, se opunham às demandas populares.",
+          "A alternativa D é correta porque essa retórica buscava legitimar projetos reformistas apoiados por setores trabalhistas. O discurso não defende privatizar a Petrobras nem regulamentar os meios de comunicação como medida central."
+        ],
+        "takeaway": "Relacione os argumentos de um discurso às propostas políticas e aos grupos que ele procura mobilizar."
+      }
+    },
+    {
+      "id": "2023-70",
+      "moduleId": "his-republica",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Repressão institucional na ditadura",
+        "steps": [
+          "O relato do funeral de Herzog apresenta medo, presos do DOI e denúncias de mortes. Essas evidências remetem à violência de órgãos do regime contra pessoas identificadas como opositoras.",
+          "A alternativa C é correta porque aponta mecanismos repressivos institucionalizados para eliminar focos de resistência. A cerimônia não é descrita como propaganda cívica organizada pelo governo nem como estatização da imprensa."
+        ],
+        "takeaway": "Depoimentos sobre medo, prisões e mortes podem revelar o funcionamento de estruturas de repressão política."
+      }
+    },
+    {
+      "id": "2018-71",
+      "moduleId": "his-republica",
+      "competency": 5,
+      "skill": 22,
+      "explanation": {
+        "concept": "Revolta da Chibata e permanências escravistas",
+        "steps": [
+          "A revolta se dirigia contra castigos físicos aplicados aos marinheiros, enquanto o texto registra a prisão e morte de líderes. O conflito expunha práticas violentas e hierárquicas mantidas pela oficialidade.",
+          "A alternativa E é correta porque relaciona essas práticas à permanência de uma mentalidade escravocrata mesmo após o fim do Império e da escravidão legal. A mudança de regime não eliminou automaticamente relações de tratamento marcadas pela desumanização."
+        ],
+        "takeaway": "Rupturas institucionais podem coexistir com permanências sociais; lutas por direitos enfrentam também essas continuidades."
+      }
+    },
+    {
+      "id": "2018-78",
+      "moduleId": "his-republica",
+      "competency": 5,
+      "skill": 22,
+      "explanation": {
+        "concept": "Sufragismo e ampliação da cidadania",
+        "steps": [
+          "O direito ao voto feminino, reconhecido no Código Eleitoral de 1932, foi precedido por debates e mobilizações pela participação política das mulheres. O reconhecimento legal respondeu também a essa campanha por direitos.",
+          "A alternativa E é correta: tratava-se da extensão da cidadania. A conquista não comprova a superação completa da cultura patriarcal, como afirma A, pois desigualdades e restrições sociais continuaram existindo."
+        ],
+        "takeaway": "Uma conquista legal amplia direitos, mas não significa que todas as desigualdades que motivaram a luta foram superadas."
+      }
+    },
+    {
+      "id": "2018-84",
+      "moduleId": "his-republica",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Coerção eleitoral na Primeira República",
+        "steps": [
+          "Capangas distribuem cédulas dos candidatos oficiais e anotam os nomes de quem se recusa a recebê-las. A presença de armas e a vigilância criam uma ameaça à liberdade de escolha.",
+          "A alternativa C é correta porque a cena apresenta repressão ao exercício de um direito político. Não é apenas propaganda ou fiscalização legal: o controle dos eleitores compromete a autonomia do voto."
+        ],
+        "takeaway": "A existência de eleições não garante liberdade política quando a escolha do eleitor é submetida à coerção."
+      }
+    },
+    {
+      "id": "2017-47",
+      "moduleId": "his-revolucoes",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Racismo nazista e defesa da igualdade humana",
+        "steps": [
+          "O texto trata da condenação de doutrinas que alegavam superioridade racial. Entre os acontecimentos recentes em 1948, o extermínio de grupos perseguidos pelo nazismo evidenciava as consequências dessa ideologia.",
+          "A alternativa D é correta porque o assassinato de judeus e eslavos se vinculava diretamente à hierarquização racial e à perseguição nazista. Outros eventos da guerra foram igualmente devastadores, mas não apresentam essa relação específica com a premissa do enunciado."
+        ],
+        "takeaway": "Para estabelecer uma relação histórica, identifique o vínculo específico pedido, e não apenas acontecimentos da mesma época."
+      }
+    },
+    {
+      "id": "2017-49",
+      "moduleId": "his-revolucoes",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Iluminismo e igualdade civil",
+        "steps": [
+          "A Declaração de 1789 é relacionada à crítica iluminista aos privilégios do Antigo Regime. A igualdade civil afirma que a condição de nascimento não deve determinar direitos jurídicos diferentes.",
+          "A alternativa E é correta porque expressa esse princípio. Sua formulação universal não significa que mulheres, pessoas escravizadas e todos os demais grupos tenham obtido imediatamente igualdade efetiva; essas exclusões deram origem a novas disputas."
+        ],
+        "takeaway": "Distinga a universalidade de um princípio político dos limites históricos de sua aplicação."
+      }
+    },
+    {
+      "id": "2017-62",
+      "moduleId": "his-revolucoes",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "New Deal e intervenção estatal na crise",
+        "steps": [
+          "Controle de preços e produção, valorização dos salários e regulação do emprego são ações governamentais que buscavam recuperar o poder de compra e reativar o mercado após a crise.",
+          "A alternativa E é correta: a intervenção estatal procurava recompor a atividade econômica e a acumulação capitalista. O programa descrito não propõe desregulamentação financeira nem simples contenção do crédito, que poderiam restringir a recuperação pretendida."
+        ],
+        "takeaway": "Intervir na economia pode ter como objetivo recuperar o funcionamento do capitalismo, sem substituí-lo por outro sistema."
+      }
+    },
+    {
+      "id": "2018-55",
+      "moduleId": "his-revolucoes",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Dependência e hegemonia dentro do bloco socialista",
+        "steps": [
+          "O apoio soviético a Cuba envolvia bases, ajuda militar e recursos econômicos, mas também produziu uma dívida elevada. O texto questiona a ideia de uma solidariedade inteiramente desinteressada.",
+          "A alternativa C é correta porque evidencia uma relação assimétrica com a potência hegemônica. Pertencer ao mesmo bloco ideológico não impedia dependência econômica nem colocava os dois países em condições iguais de poder."
+        ],
+        "takeaway": "Alianças ideológicas não eliminam hierarquias de poder e relações de dependência entre seus participantes."
+      }
+    },
+    {
+      "id": "2019-63",
+      "moduleId": "his-revolucoes",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Mercantilismo e liberalismo econômico",
+        "steps": [
+          "O texto I associa centralização, protecionismo e expansão colonial ao fortalecimento do Estado, características de práticas mercantilistas. Nesse contexto, monopólios régios restringiam a concorrência.",
+          "O texto II critica interferências e práticas exclusivistas, defendendo maior liberdade econômica. A alternativa B é correta porque contrapõe defesa dos monopólios régios a apoio à livre concorrência, respeitando a ordem dos textos."
+        ],
+        "takeaway": "Em comparações, identifique o princípio de cada fonte e confira se a alternativa mantém a mesma ordem apresentada."
+      }
+    },
+    {
+      "id": "2019-76",
+      "moduleId": "his-revolucoes",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Desumanização e naturalização do extermínio",
+        "steps": [
+          "Arendt descreve como o isolamento e a desumanização dos detentos tornam uma violência extrema aparentemente aceitável. A crítica recai sobre processos que retiram de certos grupos o reconhecimento de sua humanidade.",
+          "A alternativa D é correta: a segregação humana sustenta projetos de controle político sobre a vida e a morte das populações, aqui chamados biopolíticos. O trecho não apresenta uma justificativa para o extermínio; denuncia o processo que o normaliza."
+        ],
+        "takeaway": "Desumanizar e separar grupos pode preparar a aceitação da violência; reconhecer esse mecanismo é central à defesa de direitos."
+      }
+    },
+    {
+      "id": "2019-84",
+      "moduleId": "his-revolucoes",
+      "competency": 5,
+      "skill": 25,
+      "explanation": {
+        "concept": "Direitos humanos e proteção de grupos vulneráveis",
+        "steps": [
+          "A Declaração de 1948 apresenta a dignidade e os direitos como referências que ultrapassam o reconhecimento exclusivo de cada governo. Isso fornece fundamentos comuns para denunciar violações e reivindicar proteção.",
+          "A alternativa B é correta porque essa concepção favorece a defesa de grupos vulneráveis. A declaração não aboliu a soberania dos Estados nem garantiu, por si só, o fim dos conflitos ou da violência internacional."
+        ],
+        "takeaway": "Normas internacionais oferecem bases para cobrar proteção, mas sua efetivação depende de instituições e ações concretas."
+      }
+    },
+    {
+      "id": "2021-78",
+      "moduleId": "his-revolucoes",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Diferentes interpretações da Revolução Inglesa",
+        "steps": [
+          "O texto I privilegia a luta do Parlamento contra a tirania real e a conquista de liberdades. O texto II acrescenta camponeses contra cercamentos, tecelões contra a miséria e grupos religiosos com seus próprios projetos.",
+          "A alternativa A é correta porque a segunda interpretação destaca a pluralidade das demandas sociais. Não há homogeneidade religiosa nem redução de todas as motivações a um único interesse econômico."
+        ],
+        "takeaway": "Compare quais atores e reivindicações cada interpretação coloca em primeiro plano para perceber diferenças historiográficas."
+      }
+    }
+  ]
+}

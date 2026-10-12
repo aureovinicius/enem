@@ -358,6 +358,173 @@
           ]
         }
       ]
+    },
+    "ciencias-humanas": {
+      "title": "Ciências Humanas e suas Tecnologias",
+      "competencies": [
+        {
+          "number": 1,
+          "description": "Compreender os elementos culturais que constituem as identidades.",
+          "page": 22,
+          "skills": [
+            {
+              "number": 1,
+              "description": "Interpretar historicamente e(ou) geograficamente fontes documentais acerca de aspectos da cultura."
+            },
+            {
+              "number": 2,
+              "description": "Analisar a produção da memória pelas sociedades humanas."
+            },
+            {
+              "number": 3,
+              "description": "Associar as manifestações culturais do presente aos seus processos históricos."
+            },
+            {
+              "number": 4,
+              "description": "Comparar pontos de vista expressos em diferentes fontes sobre determinado aspecto da cultura."
+            },
+            {
+              "number": 5,
+              "description": "Identificar as manifestações ou representações da diversidade do patrimônio cultural e artístico em diferentes sociedades."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Compreender as transformações dos espaços geográficos como produto das relações socioeconômicas e culturais de poder.",
+          "page": 23,
+          "skills": [
+            {
+              "number": 6,
+              "description": "Interpretar diferentes representações gráficas e cartográficas dos espaços geográficos."
+            },
+            {
+              "number": 7,
+              "description": "Identificar os significados histórico-geográficos das relações de poder entre as nações."
+            },
+            {
+              "number": 8,
+              "description": "Analisar a ação dos Estados nacionais no que se refere à dinâmica dos fluxos populacionais e no enfrentamento de problemas de ordem econômico-social."
+            },
+            {
+              "number": 9,
+              "description": "Comparar o significado histórico-geográfico das organizações políticas e socioeconômicas em escala local, regional ou mundial."
+            },
+            {
+              "number": 10,
+              "description": "Reconhecer a dinâmica da organização dos movimentos sociais e a importância da participação da coletividade na transformação da realidade histórico-geográfica."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Compreender a produção e o papel histórico das instituições sociais, políticas e econômicas, associando-as aos diferentes grupos, conflitos e movimentos sociais.",
+          "page": 23,
+          "skills": [
+            {
+              "number": 11,
+              "description": "Identificar registros de práticas de grupos sociais no tempo e no espaço."
+            },
+            {
+              "number": 12,
+              "description": "Analisar o papel da justiça como instituição na organização das sociedades."
+            },
+            {
+              "number": 13,
+              "description": "Analisar a atuação dos movimentos sociais que contribuíram para mudanças ou rupturas em processos de disputa pelo poder."
+            },
+            {
+              "number": 14,
+              "description": "Comparar diferentes pontos de vista, presentes em textos analíticos e interpretativos, sobre situação ou fatos de natureza histórico-geográfica acerca das instituições sociais, políticas e econômicas."
+            },
+            {
+              "number": 15,
+              "description": "Avaliar criticamente conflitos culturais, sociais, políticos, econômicos ou ambientais ao longo da história."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social.",
+          "page": 24,
+          "skills": [
+            {
+              "number": 16,
+              "description": "Identificar registros sobre o papel das técnicas e tecnologias na organização do trabalho e(ou) da vida social."
+            },
+            {
+              "number": 17,
+              "description": "Analisar fatores que explicam o impacto das novas tecnologias no processo de territorialização da produção."
+            },
+            {
+              "number": 18,
+              "description": "Analisar diferentes processos de produção ou circulação de riquezas e suas implicações sócio-espaciais."
+            },
+            {
+              "number": 19,
+              "description": "Reconhecer as transformações técnicas e tecnológicas que determinam as várias formas de uso e apropriação dos espaços rural e urbano."
+            },
+            {
+              "number": 20,
+              "description": "Selecionar argumentos favoráveis ou contrários às modificações impostas pelas novas tecnologias à vida social e ao mundo do trabalho."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Utilizar os conhecimentos históricos para compreender e valorizar os fundamentos da cidadania e da democracia, favorecendo uma atuação consciente do indivíduo na sociedade.",
+          "page": 24,
+          "skills": [
+            {
+              "number": 21,
+              "description": "Identificar o papel dos meios de comunicação na construção da vida social."
+            },
+            {
+              "number": 22,
+              "description": "Analisar as lutas sociais e conquistas obtidas no que se refere às mudanças nas legislações ou nas políticas públicas."
+            },
+            {
+              "number": 23,
+              "description": "Analisar a importância dos valores éticos na estruturação política das sociedades."
+            },
+            {
+              "number": 24,
+              "description": "Relacionar cidadania e democracia na organização das sociedades."
+            },
+            {
+              "number": 25,
+              "description": "Identificar estratégias que promovam formas de inclusão social."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Compreender a sociedade e a natureza, reconhecendo suas interações no espaço em diferentes contextos históricos e geográficos.",
+          "page": 25,
+          "skills": [
+            {
+              "number": 26,
+              "description": "Identificar em fontes diversas o processo de ocupação dos meios físicos e as relações da vida humana com a paisagem."
+            },
+            {
+              "number": 27,
+              "description": "Analisar de maneira crítica as interações da sociedade com o meio físico, levando em consideração aspectos históricos e(ou) geográficos."
+            },
+            {
+              "number": 28,
+              "description": "Relacionar o uso das tecnologias com os impactos sócio-ambientais em diferentes contextos histórico-geográficos."
+            },
+            {
+              "number": 29,
+              "description": "Reconhecer a função dos recursos naturais na produção do espaço geográfico, relacionando-os com as mudanças provocadas pelas ações humanas."
+            },
+            {
+              "number": 30,
+              "description": "Avaliar as relações entre preservação e degradação da vida no planeta nas diferentes escalas."
+            }
+          ]
+        }
+      ]
     }
   }
 }

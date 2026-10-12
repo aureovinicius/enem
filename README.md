@@ -9,8 +9,13 @@ App web gamificado para estudar para o ENEM com questões reais da API [enem.dev
 | Biologia | 5 por tema | 90 |
 | Matemática | 7 por competência | 140 |
 | Ciências da Natureza | 8 por competência | 300 |
+| Geografia | 5 por tema | 40 |
+| História | 5 por tema | 40 |
+| Ciências Humanas | 6 por competência | 100 |
 
-Natureza é a união exata de Física, Química e Biologia. O catálogo tem **440 questões únicas**, sem duplicar registros para a trilha integrada. Todas as 30 unidades têm introdução; todas as questões ativas têm justificativa específica.
+Natureza é a união exata de Física, Química e Biologia. Humanas reúne as 40 questões de Geografia, as 40 de História e 20 complementares de Filosofia e Sociologia. O catálogo tem **540 questões únicas**, sem duplicar registros nas trilhas integradas. Todas as unidades têm introdução; todas as questões ativas têm justificativa específica.
+
+Geografia e História têm trilhas temáticas próprias. Ciências Humanas organiza os mesmos itens e os complementares pelas seis competências da matriz do INEP, cada uma com pelo menos cinco questões. Filosofia e Sociologia aparecem como disciplinas de origem nas questões da trilha integrada. Os filtros, favoritos, revisão e estatísticas funcionam nas três novas opções. Uma resposta dada em Geografia ou História conta também no desempenho de Humanas; concluir uma lição continua sendo independente em cada trilha.
 
 Matemática tem 20 questões por competência, distribuídas em quatro lições de cinco questões (28 lições). A ampliação acrescentou 105 itens comentados aos 35 anteriores, preservando suas posições e os IDs das lições já concluídas. O acervo bruto local contém 642 registros de Matemática; somente os itens selecionados e revisados entram na prática.
 
@@ -38,7 +43,7 @@ O painel Desempenho informa tentativas, questões distintas, acertos, erros, tax
 
 A API enem.dev não fornece TRI. Os parâmetros oficiais **a, b e c de 2009–2023** foram extraídos separadamente dos arquivos `ITENS_PROVA` nos [microdados do INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem). Apenas itens, dicionários e documentação foram baixados; nenhum registro de participante foi necessário.
 
-O vínculo verifica caderno azul regular, ano, área, posição, sequência de gabaritos e resposta individual, com amostras de enunciados dos cadernos oficiais para confirmar as correspondências. Itens abandonados, parâmetros inválidos, ambiguidade e divergências de gabarito não recebem dificuldade estimada. A base ativa tem **431 de 440 questões com parâmetros válidos**; os demais itens são identificados como indisponíveis.
+O vínculo verifica caderno azul regular, ano, área, posição, sequência de gabaritos e resposta individual. As correspondências de Natureza e Matemática também contam com amostras de enunciados dos cadernos oficiais; o método disponível para cada item é registrado em `matchMethod`. Itens abandonados, parâmetros inválidos, ambiguidade e divergências de gabarito não recebem dificuldade estimada. A base ativa tem **531 de 540 questões com parâmetros válidos**; os demais itens são identificados como indisponíveis.
 
 Os valores originais ficam em `data/reference/tri-parameters.json`, com código do item, código da prova, método de correspondência e fonte. O app apresenta o parâmetro de dificuldade **b convertido por 500 + 100 × b**, conforme os [procedimentos de análise do INEP, páginas impressas 20–21](https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/enem_procedimentos_de_analise.pdf). Esse valor não é peso, pontos ganhos por questão ou previsão de nota. As áreas têm escalas próprias. Os intervalos até 500, acima de 500 até 650 e acima de 650 são filtros editoriais, sem rótulos oficiais de fácil/médio/difícil.
 
@@ -65,9 +70,9 @@ O snapshot integral de 2.757 questões de 2009–2023 fica em `data/enem/all-que
 
 ## Matriz de referência
 
-Matemática e Ciências da Natureza seguem as áreas, competências e habilidades do [documento oficial do INEP](https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf), baixado em 12/10/2026. A cópia local está em `data/reference/enem-matriz-de-referencia.pdf`; `matrix.json` registra as 15 competências, 60 habilidades, fonte, data e SHA-256. `scripts/extract-enem-matrix.py` reproduz a extração com `pypdf`.
+Matemática, Ciências da Natureza e Ciências Humanas seguem as áreas, competências e habilidades do [documento oficial do INEP](https://download.inep.gov.br/enem/outros_documentos/enem_matriz_de_referencia_v1.pdf), baixado em 12/10/2026. A cópia local está em `data/reference/enem-matriz-de-referencia.pdf`; `matrix.json` registra as 21 competências, 90 habilidades, fonte, data e SHA-256. `scripts/extract-enem-matrix.py` reproduz a extração com `pypdf`.
 
-Os títulos resumidos das unidades são didáticos. O texto integral da competência e de suas habilidades aparece em “ver matriz e habilidades”. A API fornece a área, mas não separa Física, Química e Biologia nem classifica habilidades. **Essas associações são editoriais do Enem**, explicitadas na interface. Todas as competências têm pelo menos cinco questões; a seleção ainda não cobre todas as habilidades, e o app destaca as que têm exercícios.
+Os títulos resumidos das unidades são didáticos. O texto integral da competência e de suas habilidades aparece em “ver matriz e habilidades”. A API fornece a área, mas não separa as disciplinas de Natureza ou de Humanas nem classifica habilidades. **Essas associações são editoriais do Enem**, explicitadas na interface. Todas as competências têm pelo menos cinco questões; a seleção ainda não cobre todas as habilidades, e o app destaca as que têm exercícios.
 
 ## Conteúdo didático
 
@@ -80,6 +85,8 @@ Após verificar uma resposta, o app apresenta a alternativa correta e uma resolu
 - `data/learning/review-report.json`: relatório reproduzível da seleção ativa e dos motivos de exclusão. Todos os itens continuam no acervo bruto.
 - `data/courses/quimica.json`, `biologia.json`, `matematica.json`: unidades, introduções, IDs de questões, habilidades e justificativas revisadas.
 - `data/courses/natureza.json`: as oito unidades integradas e suas introduções; o gerador deriva a união das questões automaticamente.
+- `data/courses/geografia.json` e `historia.json`: trilhas temáticas com 40 questões comentadas cada.
+- `data/courses/humanas.json`: seis unidades por competência e 20 questões complementares de Filosofia/Sociologia; o gerador acrescenta os itens de Geografia e História sem duplicá-los.
 - `data/courses/physics-mapping.json`: associação editorial das questões de Física às habilidades da área de Natureza.
 
 O progresso permanece no navegador usando `fisio-progress-v1`. Os IDs antigos das lições de Física são preservados. Conclusão e leitura são independentes por trilha; XP, sequência e revisão de erros são compartilhados. Um acerto em Natureza remove o erro pendente da mesma questão na matéria de origem. A prática filtra os erros pela matéria selecionada.
@@ -112,7 +119,7 @@ O manifest e o service worker funcionam tanto na raiz do ChatGPT Sites quanto em
 
 ## GitHub e implantação contínua
 
-Repositório: [aureovinicius/enem](https://github.com/aureovinicius/enem). A branch de publicação é `main`. O histórico do projeto, o snapshot completo de 2.757 questões, as fontes de TRI e as imagens usadas nas 440 questões selecionadas estão versionados. A cópia integral do repositório externo `data/enem-source/` pode ser baixada pelo script de sincronização e não é duplicada neste Git.
+Repositório: [aureovinicius/enem](https://github.com/aureovinicius/enem). A branch de publicação é `main`. O histórico do projeto, o snapshot completo de 2.757 questões, as fontes de TRI e as imagens usadas nas 540 questões selecionadas estão versionados. A cópia integral do repositório externo `data/enem-source/` pode ser baixada pelo script de sincronização e não é duplicada neste Git.
 
 Site publicado: **[aureovinicius.com.br/enem](https://aureovinicius.com.br/enem/)**, com HTTPS obrigatório. O repositório é público para compatibilidade com o plano atual da conta. GitHub Pages usa GitHub Actions, e `PAGES_ENABLED=true` já está configurado: novos pushes em `main` publicam automaticamente após os testes passarem. O endereço usa o domínio do GitHub Pages já existente na conta.
 

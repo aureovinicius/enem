@@ -1,0 +1,735 @@
+{
+  "id": "geografia",
+  "title": "Geografia",
+  "emoji": "🌍",
+  "description": "Territórios, cidades, campo, redes globais e relações entre sociedade e natureza nas questões do ENEM.",
+  "modules": [
+    {
+      "id": "geo-territorios",
+      "title": "Territórios e geopolítica",
+      "emoji": "🌐",
+      "description": "Poder, fronteiras, recursos estratégicos e migrações internacionais.",
+      "introduction": {
+        "title": "Quem controla o território e os fluxos?",
+        "duration": "4 min",
+        "summary": "Relacione fronteiras, recursos e decisões dos Estados às disputas de poder em diferentes escalas.",
+        "sections": [
+          {
+            "title": "Território é espaço e poder",
+            "text": "Um território envolve relações de controle e apropriação do espaço. Fronteiras delimitam jurisdições, mas também são locais de circulação e de disputas. No mar, a discussão sobre quem pode explorar petróleo envolve direitos sobre áreas e recursos. Identifique os atores, seus interesses e a escala do conflito."
+          },
+          {
+            "title": "A ordem mundial se transforma",
+            "text": "Na Guerra Fria, a rivalidade entre Estados Unidos e União Soviética organizou alianças militares e projetos econômicos. O fim dessa bipolaridade não eliminou guerras nem conflitos nacionais. Países possuem capacidades diferentes de negociar e influenciar decisões, e podem buscar autonomia mesmo sob pressões externas."
+          },
+          {
+            "title": "Mobilidade também depende de decisões políticas",
+            "text": "Migrações podem decorrer da busca de trabalho, de perseguições ou de conflitos. Políticas estatais podem facilitar a acolhida ou criar barreiras. Xenofobia é hostilidade a pessoas percebidas como estrangeiras. Analise como discursos sobre segurança e emprego podem justificar discriminação, sem confundir uma população inteira com uma ameaça."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: uma disputa por petróleo no mar",
+          "steps": [
+            "Dois países reivindicam o direito de explorar a mesma área marítima. O petróleo explica o interesse econômico, mas a disputa direta é sobre quem tem autoridade nessa área.",
+            "Uma plataforma pode funcionar como demonstração de controle territorial. Portanto, a resposta deve relacionar exploração de recursos e soberania, e não apenas capacidade tecnológica."
+          ]
+        },
+        "pitfall": "Situe informações no ano do enunciado. A composição de grupos internacionais e as condições de um conflito podem mudar; uma questão antiga não descreve necessariamente o cenário atual."
+      }
+    },
+    {
+      "id": "geo-cidades",
+      "title": "Cidades, população e cartografia",
+      "emoji": "🏙️",
+      "description": "Redes urbanas, migrações, mobilidade e formas de representar o espaço.",
+      "introduction": {
+        "title": "Leia o espaço urbano pelas conexões",
+        "duration": "4 min",
+        "summary": "Reconheça como cidades, transportes e mapas organizam oportunidades, deslocamentos e desigualdades.",
+        "sections": [
+          {
+            "title": "Mapas localizam e comunicam",
+            "text": "Coordenadas geográficas combinam latitude, medida em relação ao Equador, e longitude, medida em relação ao meridiano de Greenwich. A escala relaciona uma distância representada à correspondente distância real. Todo mapa seleciona informações: comunidades também podem mapear seus lugares de uso e memória para afirmar identidades coletivas."
+          },
+          {
+            "title": "Cidades formam redes",
+            "text": "Uma cidade pode atrair pessoas e comandar serviços, comércio e decisões de outras localidades. Essa influência produz uma região polarizada. Não é necessário haver continuidade das construções: conurbação é a união física de manchas urbanas, enquanto uma rede pode conectar cidades afastadas."
+          },
+          {
+            "title": "Crescimento precisa de infraestrutura",
+            "text": "Migrações e mudanças econômicas alteram o tamanho e a distribuição da população urbana. A transferência de indústrias pode favorecer novos centros de emprego. A função social da cidade exige acesso amplo a moradia, transporte e serviços, inclusive nas periferias, e não apenas valorização imobiliária."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: duas relações entre cidades",
+          "steps": [
+            "Uma cidade oferece hospitais especializados e universidades para moradores de diversos municípios. Os deslocamentos revelam sua área de influência e uma região polarizada.",
+            "Se duas cidades têm suas áreas construídas unidas, há conurbação. A ligação por serviços, sozinha, não permite concluir que essa união física aconteceu."
+          ]
+        },
+        "pitfall": "Cidade global não é sinônimo de cidade mais populosa. O conceito destaca sua participação em redes de comando, finanças e serviços que ultrapassam as fronteiras nacionais."
+      }
+    },
+    {
+      "id": "geo-campo",
+      "title": "Campo, agricultura e ruralidades",
+      "emoji": "🌾",
+      "description": "Modernização agrícola, estrutura fundiária e transformações sociais do campo.",
+      "introduction": {
+        "title": "Produzir mais muda a vida de quem?",
+        "duration": "4 min",
+        "summary": "Examine ganhos técnicos, acesso à terra e impactos sociais e ambientais da produção agropecuária.",
+        "sections": [
+          {
+            "title": "Técnica amplia possibilidades de cultivo",
+            "text": "Máquinas, irrigação, fertilizantes e correção dos solos transformam a produção agrícola. Sensores e dados meteorológicos ajudam a decidir quando e quanto irrigar. Essas tecnologias permitem cultivar áreas antes menos aproveitadas, mas sua adoção tem custos e não elimina os limites ambientais."
+          },
+          {
+            "title": "Produtividade e justiça social são questões distintas",
+            "text": "Produzir mais por área ou por trabalhador não garante acesso à alimentação ou distribuição da renda. A concentração fundiária limita o acesso à terra; a modernização pode reduzir empregos em determinadas tarefas e ampliar o trabalho temporário. Analise quem controla os recursos e quem se apropria dos resultados."
+          },
+          {
+            "title": "O rural se conecta e permanece diverso",
+            "text": "O campo reúne produção agropecuária, serviços, turismo, circulação de informações e diferentes modos de vida. Novas ruralidades expressam essa diversificação. A expansão agrícola pode conflitar com territórios indígenas e com a conservação do Cerrado, sem que todas as atividades ou populações rurais sejam iguais."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: uma estação meteorológica na lavoura",
+          "steps": [
+            "A estação informa umidade e condições do tempo. Associados ao tipo de cultivo, esses dados orientam o manejo da irrigação e permitem acompanhar a produção.",
+            "O benefício direto é o monitoramento para tomar decisões. Medir a chuva não significa controlar o clima, e aplicar tecnologia não assegura, por si só, distribuição de renda ou emprego."
+          ]
+        },
+        "pitfall": "Não conclua que aumento de produtividade resolve automaticamente a fome. Disponibilidade de alimentos, renda, acesso à terra e distribuição são dimensões diferentes."
+      }
+    },
+    {
+      "id": "geo-redes",
+      "title": "Produção, energia e globalização",
+      "emoji": "🔗",
+      "description": "Indústria, logística, comunicação e organização mundial do trabalho.",
+      "introduction": {
+        "title": "Siga as redes que conectam a produção",
+        "duration": "4 min",
+        "summary": "Entenda como informação, transportes e energia articulam lugares e distribuem os benefícios e os riscos econômicos.",
+        "sections": [
+          {
+            "title": "As etapas produtivas se distribuem",
+            "text": "Um produto pode ser projetado em um país, receber peças de outros e ser montado em um terceiro. Transportes, comunicação e organização em rede coordenam essas etapas. Os lugares não se tornam iguais: custos, infraestrutura, qualificação e decisões empresariais influenciam sua participação."
+          },
+          {
+            "title": "A tecnologia transforma o trabalho",
+            "text": "Automação substitui algumas tarefas, cria outras e altera as qualificações exigidas. A produtividade pode crescer sem melhoria equivalente da renda ou da proteção de todos os trabalhadores. Sistemas logísticos sofisticados podem coexistir com trabalho informal e condições precárias."
+          },
+          {
+            "title": "Conexão transmite oportunidades e crises",
+            "text": "Redes financeiras facilitam remessas de migrantes e também podem propagar crises entre países. Ferrovias e portos ligam áreas produtoras a mercados. Projetos energéticos sustentam atividades econômicas, mas suas escolhas precisam considerar impactos sobre rios, territórios e comunidades."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: um produto fabricado em vários países",
+          "steps": [
+            "Uma empresa precisa combinar projeto, fornecedores, montagem e venda em lugares distantes. A troca rápida de informações coordena prazos e necessidades de cada etapa.",
+            "Essa integração torna a cadeia viável, mas cria dependências. Uma interrupção de crédito ou fornecimento em um ponto pode afetar trabalhadores e empresas em outros países."
+          ]
+        },
+        "pitfall": "Globalização não significa que todos os lugares recebam os mesmos investimentos ou benefícios. Conexão internacional pode coexistir com desigualdade e exclusão."
+      }
+    },
+    {
+      "id": "geo-ambiente",
+      "title": "Natureza e questões ambientais",
+      "emoji": "🌿",
+      "description": "Água, relevo, resíduos, biodiversidade e uso dos recursos naturais.",
+      "introduction": {
+        "title": "Conecte os processos naturais às ações humanas",
+        "duration": "4 min",
+        "summary": "Identifique causas, efeitos e escalas para avaliar intervenções ambientais de forma coerente.",
+        "sections": [
+          {
+            "title": "Água e relevo conectam lugares",
+            "text": "Uma bacia hidrográfica reúne áreas que drenam água para um sistema de rios. O uso do solo nas cabeceiras afeta regiões a jusante. Em encostas, chuvas e saturação do solo podem favorecer movimentos de massa; drenagem adequada e planejamento da ocupação ajudam a reduzir riscos."
+          },
+          {
+            "title": "O uso dos recursos tem limites",
+            "text": "A exploração de peixes, florestas, solos e água pode superar sua capacidade de recuperação. Técnicas mais potentes ampliam a produção e também os impactos possíveis. Resíduos sem tratamento contaminam o ambiente e favorecem vetores de doenças: a questão ambiental também envolve saúde e condições de vida."
+          },
+          {
+            "title": "Compare propostas e suas consequências",
+            "text": "Preservação, no sentido de intocabilidade apresentado em algumas questões, restringe a exploração; conservação pode admitir usos planejados. Políticas de compensação ambiental devem ser avaliadas tanto por seus resultados totais quanto pela distribuição dos impactos entre lugares e grupos sociais."
+          }
+        ],
+        "example": {
+          "title": "Exemplo: proteger a água do Pantanal",
+          "steps": [
+            "Rios que chegam à planície recebem água e sedimentos de áreas mais altas. Desmatar suas cabeceiras pode aumentar a erosão e alterar a dinâmica hídrica da bacia.",
+            "Proteger apenas a área alagada deixa parte do problema sem solução. O cuidado precisa alcançar nascentes, vegetação e uso do solo nas áreas que alimentam os rios."
+          ]
+        },
+        "pitfall": "Uma solução deve atuar sobre a causa indicada no enunciado. Não escolha automaticamente qualquer medida com aparência ecológica se ela não enfrenta o processo descrito."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2009-52",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "A divisão geopolítica da Guerra Fria",
+        "steps": [
+          "A oposição entre OTAN e Pacto de Varsóvia expressava a divisão europeia em blocos capitalista e socialista. O enunciado procura o nome dessa separação política, econômica e militar.",
+          "A alternativa A, Cortina de Ferro, nomeia essa divisão. O Muro de Berlim foi uma expressão material e simbólica dela em uma cidade, mas não designa toda a organização europeia apresentada."
+        ],
+        "takeaway": "Cortina de Ferro designa a divisão europeia em blocos; Muro de Berlim designa uma barreira situada em Berlim."
+      }
+    },
+    {
+      "id": "2009-55",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Conflitos na ordem pós-Guerra Fria",
+        "steps": [
+          "O fim da rivalidade bipolar não eliminou disputas nacionais, étnicas, religiosas e territoriais. A desagregação de antigas estruturas de poder também abriu espaço para conflitos internos.",
+          "A alternativa A descreve a persistência e a ampliação desses conflitos e de ameaças transnacionais. As demais supõem pacificação, desarmamento ou submissão irrestrita das potências à ONU, consequências que não decorreram do fim da bipolaridade."
+        ],
+        "takeaway": "Uma mudança na ordem internacional altera os conflitos, mas não produz automaticamente paz ou cooperação."
+      }
+    },
+    {
+      "id": "2009-66",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Autonomia na política externa brasileira",
+        "steps": [
+          "O texto destaca continuidade, cálculo de oportunidade e busca de autonomia decisória. Sua interpretação é a de que o Brasil construiu instrumentos para atuar no sistema internacional.",
+          "A alternativa E reconhece capacidade de decisão mesmo diante de pressões externas. Autonomia não significa ausência de limitações; por isso, a posição periférica ou a ideia de impossibilidade de iniciativas próprias não resume o argumento do autor."
+        ],
+        "takeaway": "Autonomia diplomática é a capacidade de formular escolhas próprias em um contexto de restrições e negociações."
+      }
+    },
+    {
+      "id": "2009-82",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Recursos energéticos e segurança geopolítica",
+        "steps": [
+          "No cenário discutido pela questão de 2009, o degelo poderia abrir acesso a recursos do Ártico. Além do volume das reservas, os interessados comparavam riscos políticos de diferentes regiões fornecedoras.",
+          "A alternativa A apresenta a vantagem comparativa de estabilidade em relação ao Oriente Médio considerada naquele contexto. Não se trata de afirmar que o Ártico seja livre de disputas, nem de garantir acesso aos países em desenvolvimento."
+        ],
+        "takeaway": "Recursos estratégicos atraem interesse por sua quantidade, acessibilidade e condições geopolíticas; situe a comparação no contexto da questão."
+      }
+    },
+    {
+      "id": "2010-9",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 9,
+      "explanation": {
+        "concept": "Emergentes e potencial econômico",
+        "steps": [
+          "O acrônimo BRIC do enunciado reuniu Brasil, Rússia, Índia e China pela expectativa de crescimento e de participação crescente na economia mundial. Ele não pressupunha identidade cultural ou igualdade social.",
+          "A alternativa A expressa esse potencial econômico. Os países tinham estruturas e trajetórias diferentes, de modo que superioridade tecnológica comum ou distribuição de renda semelhante não explica a formação do grupo citado."
+        ],
+        "takeaway": "Na questão de 2010, BRIC é uma categoria ligada a perspectivas econômicas, e não à homogeneidade cultural ou social."
+      }
+    },
+    {
+      "id": "2015-21",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Informação como recurso estratégico",
+        "steps": [
+          "O enunciado relaciona restrições a empresas de informática às suspeitas de espionagem. Informações governamentais e empresariais podem ser acessadas ou utilizadas por agentes externos.",
+          "A alternativa E identifica a segurança dos dados como preocupação central. Embora as medidas também afetem mercados, o motivo destacado pela pergunta é proteger informações, e não combater desemprego tecnológico ou apenas conceder subsídios."
+        ],
+        "takeaway": "Redes digitais também são espaços de poder: controlar o acesso a dados tem dimensão econômica e geopolítica."
+      }
+    },
+    {
+      "id": "2016-12",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Disputa de soberania em áreas marítimas",
+        "steps": [
+          "A plataforma é instalada em águas reivindicadas por diferentes países. Ao demonstrar capacidade de exploração, a China tenta impor sua autoridade e enfraquecer reivindicações concorrentes.",
+          "A alternativa D identifica o foco: a jurisdição da soberania territorial. O petróleo é o recurso em disputa, mas a pergunta trata de quem pode exercer controle e autorizar sua exploração naquela área."
+        ],
+        "takeaway": "Diferencie o recurso que desperta interesse da disputa territorial que define quem pode explorá-lo."
+      }
+    },
+    {
+      "id": "2016-31",
+      "moduleId": "geo-territorios",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Políticas migratórias e xenofobia",
+        "steps": [
+          "O primeiro texto descreve uma barreira física aos refugiados; o segundo mostra campanhas oficiais que os apresentam como ameaça aos empregos. A crítica do ACNUR recai sobre a hostilidade estimulada pelo próprio Estado.",
+          "A alternativa E é correta porque esse discurso reforça práticas de discriminação contra estrangeiros. Os textos não descrevem expansão territorial nem mudança de regime político como consequência principal."
+        ],
+        "takeaway": "Quando autoridades tratam migrantes como ameaça coletiva, podem legitimar discriminação e aprofundar sua exclusão."
+      }
+    },
+    {
+      "id": "2009-70",
+      "moduleId": "geo-cidades",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Transportes e expansão do espaço produtivo",
+        "steps": [
+          "O relato compara uma viagem lenta e difícil com a redução do percurso após a implantação ferroviária. Os ramais seguintes conectaram áreas cafeeiras do interior ao porto de Santos.",
+          "A alternativa B explica que essa rede viabilizou deslocar e contratar trabalhadores estrangeiros para cafezais cada vez mais distantes do litoral. A ferrovia ampliou a articulação territorial; o texto não afirma que colonos financiaram o sistema ou receberam grandes propriedades."
+        ],
+        "takeaway": "Infraestrutura de transporte altera o alcance da produção e a circulação tanto de mercadorias quanto de trabalhadores."
+      }
+    },
+    {
+      "id": "2009-71",
+      "moduleId": "geo-cidades",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Cidades globais e internacionalização econômica",
+        "steps": [
+          "Cidades globais participam de redes internacionais de comando, finanças e serviços. Sua importância decorre das conexões econômicas e da concentração de funções estratégicas, não apenas do tamanho populacional.",
+          "A alternativa D associa sua formação à internacionalização econômica intensificada desde o final dos anos 1970. Essa inserção não elimina desigualdades urbanas nem concede a todas as cidades o mesmo poder de influência."
+        ],
+        "takeaway": "Cidade global é um nó das redes internacionais de decisão e serviços; influência global não garante igualdade social local."
+      }
+    },
+    {
+      "id": "2009-75",
+      "moduleId": "geo-cidades",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Migrações e crescimento urbano",
+        "steps": [
+          "O texto descreve um fluxo expressivo de trabalhadores para o Sudeste, muitos inseridos em ocupações de baixa qualificação. A chegada de população amplia a demanda por moradia, transporte, empregos e serviços.",
+          "A alternativa C relaciona esse crescimento ao chamado inchaço urbano quando a estrutura urbana não acompanha a demanda. Isso não atribui culpa aos migrantes: destaca uma relação entre redistribuição populacional, mercado de trabalho e capacidade de atendimento das cidades."
+        ],
+        "takeaway": "Fluxos migratórios precisam ser analisados junto à oferta de trabalho, moradia e serviços nos lugares de destino."
+      }
+    },
+    {
+      "id": "2010-7",
+      "moduleId": "geo-cidades",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Latitude e longitude",
+        "steps": [
+          "Latitude e longitude são medidas angulares que localizam um ponto na rede de paralelos e meridianos. A latitude tem como referência o Equador; a longitude, o meridiano de Greenwich.",
+          "A alternativa C descreve essa rede de linhas imaginárias. A alternativa D inverte as referências, enquanto a A define escala e a E trata de projeção cartográfica, conceitos diferentes de coordenadas."
+        ],
+        "takeaway": "Coordenadas localizam; escala relaciona distâncias; projeção representa a superfície terrestre em um plano."
+      }
+    },
+    {
+      "id": "2015-12",
+      "moduleId": "geo-cidades",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Desconcentração industrial e dinâmica urbana",
+        "steps": [
+          "A transferência de atividades industriais para outras localidades redistribui empregos e investimentos. Parte da atração populacional antes concentrada nas maiores metrópoles passa a ocorrer em outros centros.",
+          "A alternativa E, realocação da atividade industrial, explica a desaceleração relativa do crescimento dos grandes centros. Desacelerar é crescer em ritmo menor, e não necessariamente perder população."
+        ],
+        "takeaway": "Mudanças na localização das atividades econômicas podem redistribuir os fluxos populacionais e fortalecer cidades médias."
+      }
+    },
+    {
+      "id": "2015-15",
+      "moduleId": "geo-cidades",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Cartografia social e identidades coletivas",
+        "steps": [
+          "Os próprios povos e comunidades representam suas terras, lugares e usos do território. O mapa passa a expressar conhecimentos, vínculos e referências que podem faltar em representações feitas por agentes externos.",
+          "A alternativa D destaca a valorização de identidades coletivas. A tecnologia de localização é um instrumento dessa representação; o projeto não tem como finalidade expandir o agronegócio ou remover as populações que produzem os mapas."
+        ],
+        "takeaway": "Mapear também é dar visibilidade a modos de vida, vínculos territoriais e identidades de uma comunidade."
+      }
+    },
+    {
+      "id": "2016-4",
+      "moduleId": "geo-cidades",
+      "competency": 2,
+      "skill": 9,
+      "explanation": {
+        "concept": "Região polarizada e rede urbana",
+        "steps": [
+          "O Rio de Janeiro exerce influência sobre cidades de diferentes estados por meio de serviços, atividades econômicas e deslocamentos. O critério que articula a área é a conexão com um centro urbano.",
+          "A alternativa C, região polarizada, descreve essa organização em torno de um polo. Conurbação exigiria continuidade das áreas construídas, algo que não é necessário para a rede apresentada."
+        ],
+        "takeaway": "Uma região polarizada se define pela influência de um centro; suas localidades não precisam formar uma mancha urbana contínua."
+      }
+    },
+    {
+      "id": "2016-29",
+      "moduleId": "geo-cidades",
+      "competency": 5,
+      "skill": 25,
+      "explanation": {
+        "concept": "Função social da cidade e inclusão",
+        "steps": [
+          "O texto defende que a organização urbana atenda todos os moradores, inclusive os que não participam do mercado formal. É preciso reduzir desigualdades de acesso aos benefícios da vida urbana.",
+          "A alternativa A propõe qualificar serviços públicos nas periferias, alcançando áreas frequentemente menos atendidas. Concentrar equipamentos em pontos turísticos ou apenas ampliar centros comerciais não enfrenta diretamente essa exclusão."
+        ],
+        "takeaway": "A função social da cidade se realiza com acesso efetivo a serviços, infraestrutura e oportunidades para seus moradores."
+      }
+    },
+    {
+      "id": "2009-68",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Modernização e demanda por recursos",
+        "steps": [
+          "O desenvolvimento agropecuário posterior à industrialização incorporou máquinas, transporte, fertilizantes e outros insumos. Produzir e operar esse sistema demanda energia e matérias-primas.",
+          "A alternativa C identifica o aumento da demanda por recursos naturais. Mecanizar não garante eliminar a fome nem ampliar continuamente o emprego rural, e a agricultura moderna pode intensificar o uso de corretivos e adubos."
+        ],
+        "takeaway": "Ganhos de produtividade dependem de insumos e energia e não equivalem, por si só, a ganhos sociais para todos."
+      }
+    },
+    {
+      "id": "2009-76",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Estrutura agrária e acesso aos alimentos",
+        "steps": [
+          "O enunciado contrapõe aumento da produção e permanência da subalimentação. Assim, a existência de alimentos no conjunto da economia não basta para explicar quem consegue acessá-los.",
+          "A alternativa C aponta latifúndios improdutivos e uma estrutura agrária concentrada, que restringem o acesso à terra e às condições de produzir e obter renda. A fome não se explica simplesmente por pouca inserção no comércio ou falta geral de trabalhadores."
+        ],
+        "takeaway": "Produção total e segurança alimentar não são sinônimos: a distribuição da terra, da renda e dos alimentos também importa."
+      }
+    },
+    {
+      "id": "2010-2",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Tecnificação do espaço rural",
+        "steps": [
+          "O texto mostra que técnicas e equipamentos passaram a transformar intensamente o campo. Fertilizantes, correção de acidez e manejo tornam economicamente aproveitáveis solos antes considerados menos favoráveis.",
+          "A alternativa B apresenta essa consequência: maior aproveitamento de solos menos férteis. A tecnificação também pode ampliar a fronteira agrícola e a integração com mercados; não implica reduzir automaticamente a concentração da terra."
+        ],
+        "takeaway": "Tecnologia agrícola modifica as possibilidades de uso do solo, sem eliminar custos, desigualdades ou limites ambientais."
+      }
+    },
+    {
+      "id": "2010-3",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Modernização agrícola e trabalho temporário",
+        "steps": [
+          "O depoimento descreve moradores de origem rural que vivem em um bairro urbano e viajam centenas de quilômetros por trabalho mal remunerado no campo. Essa separação entre residência e local de trabalho revela uma reorganização social.",
+          "A alternativa A relaciona o fenômeno aos impactos da modernização agrícola, que pode reduzir postos permanentes e ampliar contratação sazonal. O relato não demonstra melhoria salarial nem exigência de qualificação elevada."
+        ],
+        "takeaway": "A modernização do campo pode combinar alta produtividade com deslocamentos de trabalhadores e relações precárias de contratação."
+      }
+    },
+    {
+      "id": "2010-17",
+      "moduleId": "geo-campo",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Agronegócio e territórios indígenas",
+        "steps": [
+          "A corrida de toras denuncia o cerco de terras indígenas e a degradação dos arredores pela expansão produtiva. A terra é também base da reprodução cultural e social desses povos.",
+          "A alternativa A identifica a tensão entre expansão territorial do agronegócio e proteção indígena e ambiental. O protesto mostra organização coletiva, contrariando a ideia de povos pouco organizados apresentada em outra opção."
+        ],
+        "takeaway": "Conflitos pelo uso da terra envolvem produção econômica, direitos territoriais, conservação e diferentes modos de vida."
+      }
+    },
+    {
+      "id": "2015-33",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Monitoramento e agricultura de precisão",
+        "steps": [
+          "A estação meteorológica reúne dados sobre as condições da lavoura, e o sistema cruza essas informações com características do cultivo. As recomendações orientam quando e quanto irrigar.",
+          "A alternativa A resume o resultado direto: monitoramento da produção. Medir condições climáticas e ajustar o manejo não significa corrigir o clima, estabilizar a fertilidade ou garantir valorização da terra."
+        ],
+        "takeaway": "Tecnologias de monitoramento transformam dados do ambiente e do cultivo em informações para orientar o manejo."
+      }
+    },
+    {
+      "id": "2016-30",
+      "moduleId": "geo-campo",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Fronteira agrícola e conservação do Cerrado",
+        "steps": [
+          "A prioridade de conservação se deve à combinação de biodiversidade relevante e forte ameaça. No Cerrado, a conversão da vegetação nativa em áreas agropecuárias reduz e fragmenta habitats.",
+          "A alternativa E identifica a expansão da fronteira agrícola como a pressão decisiva entre as opções. Criar parques ecológicos é uma medida de proteção, e não a causa da necessidade de conservar o bioma."
+        ],
+        "takeaway": "A expansão agropecuária sobre vegetação nativa pode fragmentar habitats e tornar prioritárias ações de conservação."
+      }
+    },
+    {
+      "id": "2016-44",
+      "moduleId": "geo-campo",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Novas ruralidades e mudança cultural",
+        "steps": [
+          "A interpretação apresentada associa a mudança musical a um campo mais conectado e integrado à economia e à informação. O modo de vida rural não permanece isolado ou restrito a uma atividade tradicional.",
+          "A alternativa B expressa a expansão de atividades das novas ruralidades. Essa diversificação modifica práticas e referências culturais; o texto não atribui a mudança ao trabalho compulsório nem à produção extensiva."
+        ],
+        "takeaway": "Novas ruralidades abrangem atividades e modos de vida que combinam produção, serviços e conexões entre campo e cidade."
+      }
+    },
+    {
+      "id": "2009-72",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Globalização da informação e educação",
+        "steps": [
+          "O texto apresenta a coexistência de meios digitais com formas tradicionais e orais de transmissão cultural. O contato entre sociedades pode ampliar referências, mas também produzir distorções e exige leitura crítica.",
+          "A alternativa A reconhece tanto o intercâmbio cultural quanto a necessidade de repensar a educação. O autor não afirma que as tradições rurais se tornaram inúteis ou que a tecnologia serve apenas à comunicação sem valor educativo."
+        ],
+        "takeaway": "A difusão digital amplia contatos culturais e exige novas aprendizagens, sem tornar automaticamente obsoletos os saberes tradicionais."
+      }
+    },
+    {
+      "id": "2010-14",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Logística mineral e circulação de riquezas",
+        "steps": [
+          "A Estrada de Ferro Carajás conecta uma importante área mineradora do Pará ao litoral maranhense. Sua função logística é escoar a produção, destacadamente o minério de ferro, para circulação e exportação.",
+          "A alternativa C identifica a capacidade de produzir minerais metálicos. Ferro é um metal; a ligação descrita não tem como função principal importar matérias-primas nem produzir recursos energéticos."
+        ],
+        "takeaway": "Ferrovias e portos integram áreas de extração aos mercados e ajudam a explicar a organização econômica do território."
+      }
+    },
+    {
+      "id": "2010-15",
+      "moduleId": "geo-redes",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Energia e conflitos socioambientais",
+        "steps": [
+          "O projeto de Belo Monte é apresentado junto à mobilização indígena e agrícola, pois a intervenção no rio afeta territórios e condições de vida. A potência energética não resume todos os seus efeitos.",
+          "A alternativa B expressa o desafio de compatibilizar investimento econômico e conservação ambiental. Essa avaliação inclui impactos sociais sobre as comunidades; o texto não permite reduzir o conflito à oferta de mão de obra ou a valores de indenização."
+        ],
+        "takeaway": "Avaliar uma obra energética exige considerar benefícios produtivos, alterações ambientais e consequências para as populações atingidas."
+      }
+    },
+    {
+      "id": "2015-8",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Interdependência econômica e propagação de crises",
+        "steps": [
+          "A crise começa no mercado de moradias e crédito dos Estados Unidos. Relações financeiras, investimentos e comércio conectam bancos, empresas e países, permitindo que perdas locais atinjam outros mercados.",
+          "A alternativa C explica sua escala global pela interdependência do sistema econômico. Isolamento entre economias reduziria essa transmissão, e o relato não atribui a origem a um colapso industrial asiático."
+        ],
+        "takeaway": "Quanto mais interligados os mercados, maior a possibilidade de transmissão internacional de uma crise financeira."
+      }
+    },
+    {
+      "id": "2015-29",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Automação e transformações do emprego",
+        "steps": [
+          "O avanço das técnicas da informação permite integrar e automatizar processos produtivos. Tarefas antes realizadas por trabalhadores podem passar a ser executadas por máquinas e sistemas de controle.",
+          "A alternativa E combina automatização fabril e aumento do desemprego associado à substituição de tarefas no contexto discutido. Isso não significa que toda inovação elimine empregos, mas identifica a consequência coerente com a análise crítica do texto."
+        ],
+        "takeaway": "Analise separadamente ganhos de produtividade e efeitos sobre o emprego: avanço técnico não assegura inclusão no trabalho."
+      }
+    },
+    {
+      "id": "2015-38",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Redes globais de produção",
+        "steps": [
+          "Projeto, financiamento, peças, montagem e publicidade aparecem distribuídos entre vários países. Para que funcionem como partes de um mesmo processo, suas informações e decisões precisam ser coordenadas.",
+          "A alternativa D indica organização em rede e tecnologia da informação, condições para essa articulação. Protecionismo ou formação de estoques, isoladamente, não explicam a integração internacional descrita."
+        ],
+        "takeaway": "A fragmentação territorial da produção depende de redes capazes de coordenar etapas, fornecedores e mercados distantes."
+      }
+    },
+    {
+      "id": "2016-19",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Comunicações e remessas de migrantes",
+        "steps": [
+          "Os migrantes transferem parte de sua renda para pessoas no país de origem. A rapidez da comunicação e dos sistemas de transferência permite organizar esses fluxos de dinheiro a grandes distâncias.",
+          "A alternativa B identifica o avanço técnico das comunicações. Barreiras alfandegárias tratam principalmente da circulação de mercadorias e não explicam diretamente a infraestrutura que viabiliza as remessas descritas."
+        ],
+        "takeaway": "Redes de comunicação articulam fluxos financeiros e mantêm vínculos econômicos entre migrantes e seus lugares de origem."
+      }
+    },
+    {
+      "id": "2016-40",
+      "moduleId": "geo-redes",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Tecnologia e coexistência de formas de trabalho",
+        "steps": [
+          "O texto combina distribuição sofisticada de bebidas com vendedores que dependem de sua força de trabalho em condições precárias. A cadeia aumenta sua produtividade sem distribuir os benefícios de modo uniforme.",
+          "A alternativa C relaciona o fenômeno ao impacto da tecnologia e às mudanças na estrutura produtiva. Não há no exemplo garantia de formalização do emprego ou redução da jornada dos vendedores."
+        ],
+        "takeaway": "Técnicas avançadas em uma cadeia produtiva podem coexistir com trabalho informal e distribuição desigual da renda."
+      }
+    },
+    {
+      "id": "2009-80",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 28,
+      "explanation": {
+        "concept": "Capacidade técnica e risco ambiental",
+        "steps": [
+          "A ampliação da exploração e do transporte de recursos aumenta o volume de materiais movimentados. Quando ocorre uma falha, seus efeitos também podem atingir grande extensão e muitos ecossistemas.",
+          "A alternativa B exemplifica esse risco com derramamentos de óleo de petroleiros. O desenvolvimento tecnológico não eliminou desigualdades nem tornou países autossuficientes, e biomas não são desprovidos de função ecológica por não estarem industrializados."
+        ],
+        "takeaway": "A escala tecnológica da exploração pode ampliar tanto a produção quanto a extensão de um desastre ambiental."
+      }
+    },
+    {
+      "id": "2009-90",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Proteção de bacias e conservação do Pantanal",
+        "steps": [
+          "O texto explica que os rios com cabeceiras nos planaltos alimentam a planície pantaneira. Desmatamento e erosão nessas áreas alteram o transporte de sedimentos e as condições de manutenção da água.",
+          "A alternativa D enfrenta essa conexão ao exigir controle do desmatamento e da erosão nas nascentes. Medidas restritas à planície ou barragens não resolvem necessariamente a degradação nas áreas que abastecem os rios."
+        ],
+        "takeaway": "Conservar uma área a jusante também exige cuidar das cabeceiras e do uso do solo em sua bacia hidrográfica."
+      }
+    },
+    {
+      "id": "2010-4",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Resíduos, contaminação e saúde pública",
+        "steps": [
+          "No lixão, os resíduos ficam expostos sem controle. A matéria orgânica favorece a presença de animais vetores, e o chorume pode penetrar no solo e alcançar águas superficiais ou subterrâneas.",
+          "A alternativa B reúne os dois mecanismos relevantes para a saúde pública: proliferação de vetores e contaminação ambiental. Mau cheiro, por si só, não explica adequadamente todos esses riscos."
+        ],
+        "takeaway": "A destinação inadequada de resíduos afeta a saúde pela exposição a vetores e pela contaminação do ambiente."
+      }
+    },
+    {
+      "id": "2015-30",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Drenagem e estabilidade de encostas",
+        "steps": [
+          "Água acumulada no solo pode aumentar seu peso e diminuir a resistência ao deslizamento. Em vertentes inclinadas, isso favorece o deslocamento de material pela gravidade.",
+          "A alternativa B indica drenagem eficiente, que reduz o acúmulo de água e a saturação do terreno. Chuva elevada e exposição do solo favorecem riscos; a resistência da rocha matriz, sozinha, não controla o comportamento do material sobre ela."
+        ],
+        "takeaway": "Reduzir a saturação do solo é uma das medidas que ajudam a diminuir a ocorrência de movimentos de massa."
+      }
+    },
+    {
+      "id": "2015-32",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 29,
+      "explanation": {
+        "concept": "Veredas e regulação hídrica do Cerrado",
+        "steps": [
+          "O enunciado descreve veredas como áreas capazes de manter água no ambiente do Cerrado. Seus solos úmidos e a dinâmica de armazenamento contribuem para sustentar cursos de água ao longo do tempo.",
+          "A alternativa E usa a ideia de sistema represador para expressar essa retenção natural e liberação gradual. Não se trata de uma barragem construída, mas de uma função hidrológica perdida quando a área é degradada."
+        ],
+        "takeaway": "A proteção de veredas contribui para armazenar água e regular sua disponibilidade nos cursos de água do Cerrado."
+      }
+    },
+    {
+      "id": "2015-45",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Preservação e intocabilidade da natureza",
+        "steps": [
+          "A questão define a concepção em análise como intocabilidade e rejeição do aproveitamento econômico. É essa definição específica que deve orientar a escolha, independentemente de outras políticas ambientais.",
+          "A alternativa D corresponde à proibição permanente de exploração descrita. Uso sustentável ou redução de impactos admitem alguma utilização dos recursos e, por isso, não traduzem a concepção radical apresentada."
+        ],
+        "takeaway": "Diferencie a proteção por intocabilidade, definida no enunciado, de propostas que admitem uso planejado ou sustentável dos recursos."
+      }
+    },
+    {
+      "id": "2016-18",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Compensação de emissões e distribuição de impactos",
+        "steps": [
+          "Comprar créditos permite que um agente compense emissões por reduções ou sequestro realizados em outro lugar. Os ganhos contabilizados globalmente podem não coincidir com os locais onde a pressão ambiental permanece.",
+          "A alternativa D apresenta a crítica à desigualdade na distribuição do impacto ecológico. A questão pede o argumento contrário à compensação, não uma afirmação de que todo mecanismo desse tipo necessariamente fracasse."
+        ],
+        "takeaway": "Uma política ambiental precisa ser avaliada pelo resultado agregado e pela distribuição de custos e benefícios entre lugares e populações."
+      }
+    },
+    {
+      "id": "2016-39",
+      "moduleId": "geo-ambiente",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Sobrepesca e limites de renovação dos recursos",
+        "steps": [
+          "O texto relaciona o desaparecimento de estoques pesqueiros à captura intensa e ao deslocamento de grandes frotas para novas áreas. A retirada supera a capacidade de recuperação das populações exploradas.",
+          "A alternativa A identifica a insustentabilidade do modelo de produção e consumo. A causa destacada é a pressão humana da sobrepesca, e não uma mudança natural dos oceanos ou a falta de interesse comercial nos peixes."
+        ],
+        "takeaway": "Um recurso renovável pode se esgotar localmente quando sua exploração é mais rápida que sua capacidade de reposição."
+      }
+    }
+  ]
+}

@@ -5,15 +5,17 @@ import assert from "node:assert/strict";
 
 const root = process.cwd();
 const read = async (file) => JSON.parse(await readFile(path.join(root, file), "utf8"));
-const [snapshot, physics, matrix, mapping, nature] = await Promise.all([
+const [snapshot, physics, matrix, mapping, nature, humanities] = await Promise.all([
   read("data/enem/all-questions.json"), read("dist/data/physics-questions.json"),
   read("data/reference/matrix.json"), read("data/courses/physics-mapping.json"), read("data/courses/natureza.json"),
+  read("data/courses/humanas.json"),
 ]);
-const subjectCourses = await Promise.all(["quimica", "biologia", "matematica"].map((id) => read(`data/courses/${id}.json`)));
+const subjectCourses = await Promise.all(["quimica", "biologia", "matematica", "geografia", "historia"].map((id) => read(`data/courses/${id}.json`)));
 const savedLayout = await read("data/courses/lesson-layout.json");
 let tri = { questions: {}, coverage: [] };
 try { tri = await read("data/reference/tri-parameters.json"); } catch (error) { if (error.code !== "ENOENT") throw error; }
-const officialArea = (courseId) => courseId === "matematica" ? "matematica" : "ciencias-natureza";
+const officialArea = (courseId) => courseId === "matematica" ? "matematica"
+  : ["geografia", "historia", "ciencias-humanas"].includes(courseId) ? "ciencias-humanas" : "ciencias-natureza";
 const physicsSkills = Object.entries(mapping).flatMap(([skill, ids]) => ids.map((id) => [id, Number(skill)]));
 assert.equal(new Set(physicsSkills.map(([id]) => id)).size, physicsSkills.length, "Repeated physics mapping");
 const skillsById = new Map(physicsSkills);
@@ -38,7 +40,7 @@ function validateIntro(module) {
   assert.ok(i.sections?.length >= 3 && i.example?.steps?.length >= 2, `Incomplete concepts ${module.id}`);
   for (const section of i.sections) assert.ok(section.title && section.text, `Empty section ${module.id}`);
 }
-for (const course of [physicsCourse, ...subjectCourses]) {
+for (const course of [physicsCourse, ...subjectCourses, humanities]) {
   const areaId = officialArea(course.id);
   const area = matrix.areas[areaId];
   const modules = course.modules.map((m, index) => {
@@ -65,25 +67,44 @@ for (const course of [physicsCourse, ...subjectCourses]) {
     if (parameters) {
       assert.ok(Number.isFinite(parameters.b) && Number.isFinite(parameters.difficultyScore), `Invalid TRI ${entry.id}`);
       assert.equal(parameters.year, original.year, `Wrong TRI year ${entry.id}`);
+      // Existing subject selections can cross exam areas (e.g. a gravity item in MT).
+      if (areaId === "ciencias-humanas") assert.equal(parameters.area, "CH", `Wrong TRI area ${entry.id}`);
       assert.equal(parameters.questionNumber, original.index, `Wrong TRI number ${entry.id}`);
       assert.equal(parameters.officialAnswer, original.correctAlternative, `Wrong TRI answer ${entry.id}`);
       assert.ok(Math.abs(parameters.difficultyScore - (500 + 100 * parameters.b)) < 0.000001, `Wrong TRI scale ${entry.id}`);
       assert.ok(parameters.sourceUrl?.startsWith("https://download.inep.gov.br/") && parameters.matchMethod, `Missing official TRI provenance ${entry.id}`);
     }
-    questions.push({ ...normalized, ...entry, areaId, subjectId: course.id, subjectTitle: course.title, moduleTitle: module.title, tri: parameters || null, triUnavailable: parameters ? null : tri.unavailable?.[entry.id] || null });
+    const subjectId = course.id === "ciencias-humanas" ? entry.subjectId : course.id;
+    const subjectTitle = course.id === "ciencias-humanas" ? entry.subjectTitle : course.title;
+    if (course.id === "ciencias-humanas") {
+      const complementarySubjects = { filosofia: "Filosofia", sociologia: "Sociologia" };
+      assert.equal(subjectTitle, complementarySubjects[subjectId], `Invalid humanities subject ${entry.id}`);
+      assert.ok(subjectTitle, `Missing humanities subject ${entry.id}`);
+    }
+    questions.push({ ...normalized, ...entry, areaId, subjectId, subjectTitle, moduleTitle: module.title, tri: parameters || null, triUnavailable: parameters ? null : tri.unavailable?.[entry.id] || null });
   }
+  if (course.id === "ciencias-humanas") continue;
   for (const module of modules) assert.ok(course.questions.some((q) => q.moduleId === module.id), `Empty unit ${module.id}`);
   const { questions: entries, ...info } = course;
   courses.push({ ...info, areaId, areaTitle: area.title, modules, questionIds: entries.map((q) => q.id), total: entries.length });
 }
-const natureQuestions = questions.filter((q) => q.areaId === "ciencias-natureza");
-const natureModules = nature.modules.map((m, index) => {
-  validateIntro(m);
-  assert.ok(natureQuestions.filter((q) => q.competency === m.competency).length >= 5, `Nature competency ${m.competency} needs at least 5 reviewed questions`);
-  return { ...m, color: colors[index % colors.length], reference: matrix.areas["ciencias-natureza"].competencies.find((c) => c.number === m.competency) };
-});
-courses.push({ ...nature, areaId: "ciencias-natureza", areaTitle: matrix.areas["ciencias-natureza"].title, modules: natureModules,
-  questionIds: natureQuestions.map((q) => q.id), total: natureQuestions.length });
+for (const integrated of [nature, humanities]) {
+  const areaId = officialArea(integrated.id);
+  const areaQuestions = questions.filter((q) => q.areaId === areaId);
+  const modules = integrated.modules.map((m, index) => {
+    validateIntro(m);
+    const reference = matrix.areas[areaId].competencies.find((c) => c.number === m.competency);
+    assert.ok(reference, `Invalid integrated competency ${m.id}`);
+    assert.ok(areaQuestions.filter((q) => q.competency === m.competency).length >= 5, `${integrated.title} C${m.competency} needs at least 5 reviewed questions`);
+    return { ...m, color: colors[index % colors.length], reference };
+  });
+  const { questions: entries, ...info } = integrated;
+  const integrationNote = areaId === "ciencias-humanas"
+    ? "Esta trilha reúne Geografia, História, Filosofia e Sociologia, sem repetir questões. A revisão de erros é compartilhada com as trilhas de Geografia e História."
+    : "Esta trilha reúne todas as questões de Física, Química e Biologia, sem repetição. A revisão de erros é compartilhada entre as trilhas.";
+  courses.push({ ...info, integrated: true, integrationNote, areaId, areaTitle: matrix.areas[areaId].title, modules,
+    questionIds: areaQuestions.map((q) => q.id), total: areaQuestions.length });
+}
 
 // Keep published lesson boundaries, including partial lessons and the Natureza union.
 for (const course of courses) {
@@ -91,7 +112,7 @@ for (const course of courses) {
   for (const module of course.modules) {
     const ids = course.questionIds.filter(id => {
       const q = questions.find(q => q.id === id);
-      return course.id === "ciencias-natureza" ? q.competency === module.competency : q.moduleId === module.id;
+      return course.integrated ? q.competency === module.competency : q.moduleId === module.id;
     });
     const previous = savedLayout[course.id]?.[module.id] || [];
     assert.ok(previous.flat().every(id => ids.includes(id)), `Published lesson lost a question: ${module.id}`);
