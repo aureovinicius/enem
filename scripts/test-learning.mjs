@@ -104,14 +104,14 @@ test("practice can target pending errors without adding unrelated questions", ()
   assert.equal(app.run("quiz.practice"), true);
 });
 
-test("all eight courses have complete introductions, explanations and unique question references", () => {
-  assert.deepEqual(catalog.courses.map((c) => c.id), ["fisica", "quimica", "biologia", "matematica", "geografia", "historia", "ciencias-natureza", "ciencias-humanas"]);
+test("all thirteen courses have complete introductions, explanations and unique question references", () => {
+  assert.deepEqual(catalog.courses.map((c) => c.id), ["fisica", "quimica", "biologia", "matematica", "geografia", "historia", "portugues", "literatura", "ingles", "espanhol", "ciencias-natureza", "ciencias-humanas", "linguagens"]);
   assert.equal(catalog.total, catalog.questions.length);
   assert.equal(new Set(catalog.questions.map((q) => q.id)).size, catalog.total);
   const explanations = new Set();
   const originals = JSON.parse(readFileSync("data/enem/all-questions.json", "utf8")).questions;
   for (const q of catalog.questions) {
-    const original = originals.find((o) => `${o.year}-${o.index}` === q.id && o.discipline === q.areaId);
+    const original = originals.find((o) => `${o.year}-${o.index}${o.language ? `-${o.language}` : ""}` === q.id && o.discipline === q.areaId);
     assert.ok(original, q.id);
     assert.equal(q.correctAlternative, original.correctAlternative);
     assert.deepEqual(q.alternatives.map((a) => [a.letter, a.text, a.isCorrect]), original.alternatives.map((a) => [a.letter, a.text, a.isCorrect]));
@@ -165,7 +165,7 @@ test("Humanas combines both subjects and complementary Philosophy and Sociology 
   for (const q of complementary) expected.add(q.id);
   assert.deepEqual(new Set(humanities.questionIds), expected);
   assert.ok(humanities.questionIds.every(id => catalog.questions.find(q => q.id === id).areaId === "ciencias-humanas"));
-  assert.equal(catalog.total, 640);
+  assert.equal(catalog.total, 720);
 });
 
 test("Humanas practice uses its competency topics and displays CH references and explanations", () => {
@@ -242,11 +242,11 @@ test("switching course preserves old progress and every question is reachable in
     }
   }
   const saved = JSON.parse(app.storage.get("fisio-progress-v1"));
-  assert.equal(saved.activeCourse, "ciencias-humanas");
+  assert.equal(saved.activeCourse, "linguagens");
   assert.deepEqual(saved.completed, ["mecanica-1"]);
   assert.equal(saved.introductionsRead.length, catalog.courses.reduce((total, course) => total + course.modules.length, 0));
   const reloaded = appHarness(saved);
-  assert.equal(reloaded.run("data.id"), "ciencias-humanas");
+  assert.equal(reloaded.run("data.id"), "linguagens");
   assert.equal(reloaded.run("state.xp"), 200);
 });
 
@@ -356,7 +356,7 @@ test("expanded sciences contain 90 reviewed questions each without changing old 
 test("TRI joins preserve official answers and scale while unavailable items remain explicit", () => {
   const tri = JSON.parse(readFileSync('data/reference/tri-parameters.json', 'utf8'));
   const valid = catalog.questions.filter(q => q.tri);
-  assert.equal(valid.filter(q => q.areaId !== "ciencias-humanas").length, 431);
+  assert.equal(valid.filter(q => ["matematica", "ciencias-natureza"].includes(q.areaId)).length, 431);
   assert.ok(valid.filter(q => q.areaId === "ciencias-humanas").length > 0);
   assert.equal(catalog.tri.matched, valid.length);
   assert.deepEqual([...new Set(tri.years.map(y => y.year))].sort(), Array.from({length:15},(_,i)=>2009+i));
@@ -371,9 +371,9 @@ test("TRI joins preserve official answers and scale while unavailable items rema
     assert.equal(q.tri.year, q.year, q.id);
     assert.equal(q.tri.questionNumber, q.index, q.id);
     assert.ok(Math.abs(q.tri.difficultyScore - (500 + 100 * q.tri.b)) < 0.000001, q.id);
-    if (q.areaId !== "ciencias-humanas") assert.ok(q.tri.matchMethod.includes('booklet_content'), q.id);
+    if (["matematica", "ciencias-natureza"].includes(q.areaId)) assert.ok(q.tri.matchMethod.includes('booklet_content'), q.id);
     else {
-      assert.equal(q.tri.area, "CH", q.id);
+      assert.equal(q.tri.area, q.areaId === "linguagens" ? "LC" : "CH", q.id);
       assert.equal(q.tri.color, "AZUL", q.id);
       assert.equal(q.tri.application, "regular", q.id);
       assert.ok(q.tri.matchMethod.includes('individual_answer'), q.id);
@@ -611,4 +611,65 @@ test("failure on an already completed lesson preserves its completion and does n
   assert.equal(app.run("quiz.passed"), true);
   assert.equal(app.run("state.completed.length"), 1);
   assert.equal(app.run("state.xp"), 250);
+});
+
+test("Linguagens integrates four subjects and practice filters retain the selected discipline", () => {
+  const area = catalog.courses.find(c => c.id === 'linguagens');
+  const subjects = ['portugues', 'literatura', 'ingles', 'espanhol'];
+  assert.equal(area.total, 80);
+  assert.equal(area.modules.length, 4);
+  assert.deepEqual(new Set(area.questionIds), new Set(subjects.flatMap(id => catalog.courses.find(c => c.id === id).questionIds)));
+  assert.equal(catalog.matrix.areas.linguagens.competencies.length, 9);
+  assert.deepEqual(catalog.matrix.areas.linguagens.competencies.flatMap(c => c.skills.map(s => s.number)), Array.from({length:30}, (_, i) => i + 1));
+  for (const subject of subjects) {
+    const course = catalog.courses.find(c => c.id === subject);
+    assert.equal(course.total, 20);
+    assert.equal(course.modules.length, 2);
+    const app = appHarness({activeCourse:'linguagens', practiceFilters:{linguagens:{module:`lc-${subject}`}}});
+    app.run('startPractice()');
+    const pool = JSON.parse(app.run('JSON.stringify([quiz.questions[0].id, ...quiz.queue])'));
+    assert.deepEqual(new Set(pool), new Set(course.questionIds));
+    assert.ok(app.nodes.get('#lesson-modal').innerHTML.includes('LC · C'));
+    app.run('selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); closeQuiz()');
+    app.run(`setCourse(${JSON.stringify(subject)})`);
+    assert.equal(app.run('courseAttempts().length'), 1);
+    assert.equal(app.run('completedLessons()'), 0);
+  }
+});
+
+test("English and Spanish items with the same year and number never share answers, TRI or review state", () => {
+  const en = catalog.questions.find(q => q.id === '2023-3-ingles');
+  const es = catalog.questions.find(q => q.id === '2023-3-espanhol');
+  assert.equal(en.index, es.index);
+  assert.notEqual(en.correctAlternative, es.correctAlternative);
+  assert.notEqual(en.tri.itemCode, es.tri.itemCode);
+  for (const q of [en, es]) {
+    assert.equal(q.language, q.subjectId);
+    assert.equal(q.tri.language, q.language);
+    assert.equal(q.tri.area, 'LC');
+  }
+  const app = appHarness({activeCourse:'ingles', practiceFilters:{ingles:{query:en.id}}});
+  app.run('startPractice(); selectAnswer(quiz.questions[0].alternatives.find(a => !a.isCorrect).letter); checkAnswer(); closeQuiz()');
+  assert.deepEqual(JSON.parse(app.run('JSON.stringify(state.missed)')), [en.id]);
+  app.run("setCourse('espanhol')");
+  assert.equal(app.run('courseAttempts().length'), 0);
+  assert.equal(app.run('filteredPracticeQuestions({status:"wrong"}).length'), 0);
+  app.run("setCourse('linguagens')");
+  assert.equal(app.run('courseAttempts().length'), 1);
+  assert.deepEqual(JSON.parse(app.run('JSON.stringify(filteredPracticeQuestions({status:"wrong"}).map(q => q.id))')), [en.id]);
+});
+
+test("language reading passages remain complete and separate from the question heading", () => {
+  const originals = JSON.parse(readFileSync('data/enem/all-questions.json', 'utf8')).questions;
+  const app = appHarness();
+  for (const q of catalog.questions.filter(q => q.areaId === 'linguagens')) {
+    const original = originals.find(o => o.year === q.year && o.index === q.index && o.language === q.language);
+    assert.ok(q.context, q.id);
+    const compact = value => value.replace(/\s+/g, ' ').trim();
+    assert.equal(compact([q.context, q.alternativesIntroduction].join(' ')), compact([original.context || '', original.alternativesIntroduction].join(' ')), q.id);
+    const html = app.run(`renderMarkdown(${JSON.stringify(q.context)})`);
+    assert.ok(!html.includes('math-fallback'), q.id);
+    assert.ok(!html.includes('\\['), q.id);
+    assert.equal(q.tri.language || null, q.language || null, q.id);
+  }
 });

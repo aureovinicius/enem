@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-6";
+const DATA_URL = "/data/courses.json?v=pwa-7";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -115,7 +115,7 @@ function renderMathText(value = "", formatPlain = escapeHtml) {
 }
 
 function renderPlainMarkdown(value) {
-  const escaped = escapeHtml(value);
+  const escaped = escapeHtml(value).replace(/\\([\[\]])/g, "$1");
   const withImages = escaped.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, url) => {
     const safeUrl = url.startsWith("/assets/questions/") || url.startsWith("https://enem.dev/")
       ? url
@@ -166,7 +166,7 @@ function setCourse(courseId) {
   data = { ...course, questions: course.questionIds.map((id) => {
     const question = byId.get(id);
     if (!course.integrated) return question;
-    const module = course.modules.find((m) => m.competency === question.competency);
+    const module = course.modules.find((m) => course.integratedBy === "subject" ? m.subjectId === question.subjectId : m.competency === question.competency);
     return { ...question, moduleId: module.id, moduleTitle: module.title };
   }) };
   state.activeCourse = course.id;
@@ -661,9 +661,9 @@ function renderQuestion() {
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
-        ${question.skill ? `<div class="question-skill"><strong>${({matematica: "MT", "ciencias-natureza": "CN", "ciencias-humanas": "CH"})[question.areaId]} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
+        ${question.skill ? `<div class="question-skill"><strong>${({matematica: "MT", "ciencias-natureza": "CN", "ciencias-humanas": "CH", linguagens: "LC"})[question.areaId]} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
         <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
-        ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
+        ${question.context ? `<div class="question-context" lang="${question.language === "ingles" ? "en" : question.language === "espanhol" ? "es" : "pt-BR"}">${renderMarkdown(question.context)}</div>` : ""}
         <div class="answers">
           ${question.alternatives.map((alternative) => {
             let status = quiz.selected === alternative.letter ? "selected" : "";

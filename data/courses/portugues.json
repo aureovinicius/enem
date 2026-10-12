@@ -1,0 +1,360 @@
+{
+  "id": "portugues",
+  "title": "Língua Portuguesa",
+  "emoji": "💬",
+  "description": "Leitura, argumentação, variação linguística e construção de sentidos.",
+  "modules": [
+    {
+      "id": "pt-leitura",
+      "title": "Leitura, gêneros e argumentação",
+      "emoji": "🔎",
+      "description": "Identifique finalidade, público, argumentos e a circulação das informações.",
+      "introduction": {
+        "title": "Leitura, gêneros e argumentação",
+        "duration": "4 min",
+        "summary": "Identifique finalidade, público, argumentos e a circulação das informações.",
+        "sections": [
+          {
+            "title": "Leia para descobrir o que o texto faz",
+            "text": "Uma notícia informa, uma campanha procura modificar comportamentos e uma resenha avalia uma obra. O tema é o assunto; a finalidade é o efeito que o autor busca produzir no leitor. Um dado numérico pode ser um recurso para persuadir, sem constituir o objetivo geral."
+          },
+          {
+            "title": "Observe a construção do argumento",
+            "text": "Exemplos, comparações, depoimentos e referências a pesquisas sustentam posições. Distinga a voz do autor das falas citadas. Quando a pergunta pede a intenção principal, procure uma alternativa que explique o conjunto do texto, não apenas uma frase."
+          },
+          {
+            "title": "Leia criticamente a informação",
+            "text": "Redes sociais, jornais e outros meios selecionam formas de apresentar os acontecimentos. Compare fontes, identifique pistas de autoria e examine a função das tecnologias. Desconfiar de tudo não substitui investigar e confrontar informações."
+          }
+        ],
+        "example": {
+          "title": "Uma campanha sobre trânsito",
+          "steps": [
+            "Um texto apresenta acidentes e termina pedindo cuidado com a vida. Os números sustentam o argumento.",
+            "A finalidade é sensibilizar para uma conduta responsável; divulgar estatísticas é um meio usado para isso."
+          ]
+        },
+        "pitfall": "Não confunda o assunto de um texto com a intenção de quem o produz. Uma alternativa pode mencionar um detalhe verdadeiro e ainda não responder à pergunta."
+      }
+    },
+    {
+      "id": "pt-lingua",
+      "title": "Língua, sentidos e identidade",
+      "emoji": "💬",
+      "description": "Entenda variação, adequação, coesão e o valor social das línguas.",
+      "introduction": {
+        "title": "Língua, sentidos e identidade",
+        "duration": "4 min",
+        "summary": "Entenda variação, adequação, coesão e o valor social das línguas.",
+        "sections": [
+          {
+            "title": "Variação não é falha da língua",
+            "text": "Toda língua varia conforme região, grupos sociais, época e situação. Isso também ocorre nas línguas de sinais. A norma-padrão é uma referência para determinados contextos; não torna os demais usos inferiores nem elimina suas regras de funcionamento."
+          },
+          {
+            "title": "Adapte a linguagem ao contexto",
+            "text": "Considere quem fala, para quem, com qual finalidade e em qual situação. Uma correção pode ser inadequada numa conversa informal. Termos técnicos podem ser úteis entre especialistas e criar barreiras quando o público não os conhece."
+          },
+          {
+            "title": "Acompanhe os sentidos no texto",
+            "text": "Pronomes, repetições e expressões equivalentes ajudam a retomar informações. Verifique o referente antes de escolher a alternativa. Além de comunicar, uma língua guarda memória, pertencimento e formas de compreender o mundo."
+          }
+        ],
+        "example": {
+          "title": "Duas expressões, um referente",
+          "steps": [
+            "Em uma notícia, o escritor aparece primeiro pelo nome e depois como o autor do romance.",
+            "As duas expressões podem retomar a mesma pessoa; essa conexão mantém a continuidade do texto."
+          ]
+        },
+        "pitfall": "Não trate variedade regional como erro nem suponha que palavras diferentes sempre indiquem pessoas ou objetos diferentes."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2023-9",
+      "competency": 9,
+      "skill": 30,
+      "explanation": {
+        "concept": "Circulação de notícias e meios de comunicação",
+        "steps": [
+          "O texto reúne viajantes, ordens religiosas, correios e selos como elementos da circulação medieval de notícias.",
+          "A alternativa E é correta porque a eficácia depende da combinação de meios disponíveis naquele contexto, e não apenas da velocidade de um cavalo."
+        ],
+        "takeaway": "Relacione a circulação da informação às redes e aos recursos de cada sociedade."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2023-10",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Leitura crítica de perfis digitais",
+        "steps": [
+          "A repetição de vocabulário e os horários de publicação são pistas do funcionamento coordenado de perfis falsos.",
+          "A alternativa E é correta porque a análise desses padrões ajuda a identificar a disseminação de informações inverídicas; o texto não propõe flexibilizar jornadas."
+        ],
+        "takeaway": "Marcas linguísticas e padrões de uso podem ajudar a investigar a origem de mensagens."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2023-11",
+      "competency": 7,
+      "skill": 23,
+      "explanation": {
+        "concept": "Finalidade argumentativa",
+        "steps": [
+          "Os números de mortes e a enumeração de comportamentos convergem para um apelo à preservação da vida.",
+          "A alternativa D é correta porque o objetivo geral é sensibilizar para uma direção responsável; dados e causas são recursos usados para esse propósito."
+        ],
+        "takeaway": "Distinga a finalidade do texto dos argumentos empregados para alcançá-la."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2023-27",
+      "competency": 6,
+      "skill": 18,
+      "explanation": {
+        "concept": "Repetição e progressão textual",
+        "steps": [
+          "A sucessão de diferentes relações amorosas é acompanhada pela repetição de um pronome que abrange todas elas.",
+          "A alternativa A é correta porque o emprego recorrente de todos generaliza a ideia de um destino comum aos vínculos, mesmo quando suas durações diferem."
+        ],
+        "takeaway": "Repetições podem desenvolver uma ideia ao ampliar progressivamente seu alcance."
+      },
+      "moduleId": "pt-leitura",
+      "promptStart": "O recurso que promove"
+    },
+    {
+      "id": "2022-8",
+      "competency": 7,
+      "skill": 23,
+      "explanation": {
+        "concept": "Jogos e formação cidadã",
+        "steps": [
+          "A nova versão troca perguntas sobre aparência por perguntas sobre realizações de mulheres de diferentes trajetórias.",
+          "A alternativa A é correta porque divulgar esses feitos valoriza a participação das mulheres na sociedade e contribui para a formação cidadã dos jogadores."
+        ],
+        "takeaway": "O objetivo de um texto pode ser inferido da transformação que ele destaca."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2022-10",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Tecnologia e autoria artística",
+        "steps": [
+          "A facilidade de reproduzir e compartilhar obras é acompanhada de dilemas sobre intervenções não autorizadas.",
+          "A alternativa C é correta porque o risco apontado recai sobre a proteção da produção estética e de sua autoria, não sobre a possibilidade de circulação em si."
+        ],
+        "takeaway": "Uma inovação pode ampliar a circulação cultural e criar desafios à proteção da autoria."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2022-11",
+      "competency": 9,
+      "skill": 29,
+      "explanation": {
+        "concept": "Aprendizagem de novas linguagens",
+        "steps": [
+          "Os autores contestam a ideia de que uma técnica nova dispensaria aprendizagem por ser automaticamente intuitiva.",
+          "A alternativa A é correta porque cada novidade exige iniciação em uma linguagem diferente, ainda mais difícil quando hábitos anteriores já estão consolidados."
+        ],
+        "takeaway": "Dominar tecnologias envolve aprender suas linguagens, não apenas ter acesso aos aparelhos."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2022-22",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "Comunicação acessível",
+        "steps": [
+          "Os dois projetos usam recursos como Libras, áudio e braile para reduzir barreiras de acesso à informação.",
+          "A alternativa E é correta porque ambos procuram disseminar conhecimento de forma acessível; não foram necessariamente criados pela mesma pessoa ou no mesmo contexto."
+        ],
+        "takeaway": "Compare textos pela finalidade comum, sem transferir a um deles detalhes exclusivos do outro."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2022-36",
+      "competency": 7,
+      "skill": 23,
+      "explanation": {
+        "concept": "Notícia e conscientização",
+        "steps": [
+          "A notícia explica a gravidade do problema e apresenta uma proposta preventiva em discussão pública.",
+          "A alternativa C é correta porque além de informar sobre o projeto, o texto chama a atenção dos leitores para uma questão de saúde pública."
+        ],
+        "takeaway": "Um texto informativo também pode sensibilizar o público para um problema coletivo."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2021-29",
+      "competency": 7,
+      "skill": 23,
+      "explanation": {
+        "concept": "Leitura crítica das notícias",
+        "steps": [
+          "O autor diferencia a desconfiança passiva da investigação ativa de versões e elementos pouco visíveis.",
+          "A alternativa C é correta porque ele procura convencer o leitor a analisar criticamente as informações, em vez de aceitar uma suposta imparcialidade absoluta."
+        ],
+        "takeaway": "Ler criticamente envolve comparar perspectivas e investigar, não apenas desconfiar de tudo."
+      },
+      "moduleId": "pt-leitura"
+    },
+    {
+      "id": "2023-8",
+      "competency": 8,
+      "skill": 26,
+      "explanation": {
+        "concept": "Preconceito linguístico",
+        "steps": [
+          "A acusação de que brasileiros falariam errado parte da valorização exclusiva de uma variedade do português.",
+          "A alternativa C é correta porque alguns falantes tratam sua variedade como uma língua ideal superior, deslegitimando outros usos igualmente históricos e sociais."
+        ],
+        "takeaway": "Variedades linguísticas não constituem uma escala natural de superioridade entre povos."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2023-15",
+      "competency": 6,
+      "skill": 20,
+      "explanation": {
+        "concept": "Patrimônio linguístico e memória",
+        "steps": [
+          "O incêndio destruiu registros de falantes já falecidos e de línguas sem usuários vivos.",
+          "A alternativa B é correta porque essas vozes não podem simplesmente ser regravadas, o que torna a perda um dano à memória e à identidade nacionais."
+        ],
+        "takeaway": "Preservar registros linguísticos significa preservar experiências e memórias que podem ser insubstituíveis."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2023-16",
+      "competency": 8,
+      "skill": 25,
+      "explanation": {
+        "concept": "Variação na língua de sinais",
+        "steps": [
+          "O texto apresenta sinais diferentes segundo região, idade e história dos usuários de Libras.",
+          "A alternativa A é correta porque essas mudanças exemplificam a variação linguística presente nas línguas, sem significar que cada região tenha uma língua inteiramente diferente."
+        ],
+        "takeaway": "Línguas de sinais também variam socialmente, regionalmente e ao longo do tempo."
+      },
+      "moduleId": "pt-lingua",
+      "promptStart": "Nesse texto, a Língua Brasileira"
+    },
+    {
+      "id": "2023-20",
+      "competency": 7,
+      "skill": 24,
+      "explanation": {
+        "concept": "Linguagem e exclusão",
+        "steps": [
+          "A autora pergunta quem compreende os termos de profissionais que influenciam decisões sobre a vida alheia.",
+          "A alternativa E é correta porque ela critica o uso especializado da linguagem como barreira de participação e entendimento, reforçando seu argumento sobre exclusão."
+        ],
+        "takeaway": "O vocabulário técnico pode se tornar instrumento de poder quando impede a compreensão pública."
+      },
+      "moduleId": "pt-lingua",
+      "promptStart": "Nesse texto, a estratégia usada"
+    },
+    {
+      "id": "2023-21",
+      "competency": 8,
+      "skill": 26,
+      "explanation": {
+        "concept": "Variedade regional e comunicação",
+        "steps": [
+          "O dicionário aproxima expressões usadas pelos pacientes do vocabulário empregado pelos profissionais.",
+          "A alternativa D é correta porque o registro das variantes melhora a compreensão dos sintomas relatados; não descobre novas doenças nem transforma variantes em erros."
+        ],
+        "takeaway": "Reconhecer variedades linguísticas pode resolver dificuldades concretas de comunicação."
+      },
+      "moduleId": "pt-lingua",
+      "promptStart": "Ao registrarem usos regionais"
+    },
+    {
+      "id": "2022-6",
+      "competency": 8,
+      "skill": 25,
+      "explanation": {
+        "concept": "Informalidade e linguagem figurada",
+        "steps": [
+          "A vida é apresentada como um veículo que arranca depressa, em uma imagem próxima da conversa cotidiana.",
+          "A alternativa E é correta porque essa metáfora coloquial contribui para o tom distenso; a mera repetição de estruturas não explica sozinha a informalidade."
+        ],
+        "takeaway": "Observe o efeito contextual das figuras de linguagem, não apenas sua classificação."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2022-12",
+      "competency": 8,
+      "skill": 27,
+      "explanation": {
+        "concept": "Adequação à situação de uso",
+        "steps": [
+          "Uma conversa informal é continuamente interrompida por correções de colocação pronominal.",
+          "A alternativa B é correta porque a cobrança rígida da norma-padrão ignora a situação comunicativa e atrapalha a interação entre os interlocutores."
+        ],
+        "takeaway": "Adequação linguística exige considerar situação, interlocutores e finalidade da fala."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2022-28",
+      "competency": 6,
+      "skill": 20,
+      "explanation": {
+        "concept": "Língua, resistência e identidade",
+        "steps": [
+          "O povo Pataxó recupera sua língua após processos históricos de violência e dispersão.",
+          "A alternativa B é correta porque a revitalização combina resistência étnica e preservação da memória cultural, para além de uma investigação acadêmica."
+        ],
+        "takeaway": "A recuperação de uma língua pode fortalecer vínculos de pertencimento e memória coletiva."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2022-37",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Representações de felicidade nas redes",
+        "steps": [
+          "O texto contrapõe uma vida editada para parecer sempre feliz à complexidade das experiências reais.",
+          "A alternativa A é correta porque a positividade tóxica se apoia em representações superficiais e estereotipadas de felicidade, não apenas em padrões de beleza."
+        ],
+        "takeaway": "Na leitura crítica das redes, distinga a representação selecionada da totalidade da experiência."
+      },
+      "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2021-26",
+      "competency": 6,
+      "skill": 18,
+      "explanation": {
+        "concept": "Retomada e referência textual",
+        "steps": [
+          "O texto esclarece que o Pedro citado nos versos é o imperador Dom Pedro II.",
+          "A alternativa D é correta porque a expressão gigante do Brasil e a retomada Pedro mencionado apontam para o mesmo referente, garantindo continuidade ao sentido."
+        ],
+        "takeaway": "A coesão referencial conecta expressões diferentes que designam a mesma pessoa ou objeto."
+      },
+      "moduleId": "pt-lingua"
+    }
+  ]
+}

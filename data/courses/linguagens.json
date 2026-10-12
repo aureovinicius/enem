@@ -1,0 +1,146 @@
+{
+  "id": "linguagens",
+  "title": "Linguagens, Códigos e suas Tecnologias",
+  "emoji": "🗣️",
+  "description": "Língua Portuguesa, Literatura, Inglês e Espanhol em uma trilha integrada.",
+  "integratedBy": "subject",
+  "integrationNote": "Esta trilha reúne as questões de Língua Portuguesa, Literatura, Inglês e Espanhol, sem duplicar registros. Inglês e Espanhol também têm trilhas próprias. A revisão de erros e o desempenho são compartilhados com cada disciplina.",
+  "modules": [
+    {
+      "id": "lc-portugues",
+      "subjectId": "portugues",
+      "title": "Língua Portuguesa",
+      "emoji": "💬",
+      "description": "Leitura, argumentação, variação linguística e construção de sentidos.",
+      "introduction": {
+        "title": "Comece por Língua Portuguesa",
+        "duration": "4 min",
+        "summary": "Leitura, argumentação, variação linguística e construção de sentidos.",
+        "sections": [
+          {
+            "title": "Leia para descobrir o que o texto faz",
+            "text": "Uma notícia informa, uma campanha procura modificar comportamentos e uma resenha avalia uma obra. O tema é o assunto; a finalidade é o efeito que o autor busca produzir no leitor. Um dado numérico pode ser um recurso para persuadir, sem constituir o objetivo geral."
+          },
+          {
+            "title": "Variação não é falha da língua",
+            "text": "Toda língua varia conforme região, grupos sociais, época e situação. Isso também ocorre nas línguas de sinais. A norma-padrão é uma referência para determinados contextos; não torna os demais usos inferiores nem elimina suas regras de funcionamento."
+          },
+          {
+            "title": "Da leitura à resolução",
+            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+          }
+        ],
+        "example": {
+          "title": "Uma campanha sobre trânsito",
+          "steps": [
+            "Um texto apresenta acidentes e termina pedindo cuidado com a vida. Os números sustentam o argumento.",
+            "A finalidade é sensibilizar para uma conduta responsável; divulgar estatísticas é um meio usado para isso."
+          ]
+        },
+        "pitfall": "Não confunda o assunto de um texto com a intenção de quem o produz. Uma alternativa pode mencionar um detalhe verdadeiro e ainda não responder à pergunta."
+      }
+    },
+    {
+      "id": "lc-literatura",
+      "subjectId": "literatura",
+      "title": "Literatura",
+      "emoji": "📚",
+      "description": "Vozes, recursos expressivos, memória e contextos da literatura brasileira.",
+      "introduction": {
+        "title": "Comece por Literatura",
+        "duration": "4 min",
+        "summary": "Vozes, recursos expressivos, memória e contextos da literatura brasileira.",
+        "sections": [
+          {
+            "title": "Quem fala não é sempre o autor",
+            "text": "Narrador é a voz que conta uma história; eu lírico é a voz construída no poema. Suas avaliações não devem ser atribuídas automaticamente ao escritor. Observe primeira ou terceira pessoa, acesso aos pensamentos e marcas de subjetividade."
+          },
+          {
+            "title": "Contexto ajuda, mas o texto decide",
+            "text": "Conhecer o período de produção permite reconhecer debates e valores. A resposta, porém, precisa encontrar apoio no trecho. Obras de uma mesma época não repetem necessariamente as mesmas ideias nem apresentam apenas uma perspectiva."
+          },
+          {
+            "title": "Da leitura à resolução",
+            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+          }
+        ],
+        "example": {
+          "title": "O cotidiano em um poema de separação",
+          "steps": [
+            "O eu lírico imagina uma despedida grandiosa, mas a cena termina com alguém recolhendo migalhas.",
+            "O gesto banal reduz a solenidade esperada e modifica a forma de representar o sofrimento amoroso."
+          ]
+        },
+        "pitfall": "Não identifique uma escola literária apenas pela data nem escolha uma figura de linguagem sem explicar sua função no fragmento."
+      }
+    },
+    {
+      "id": "lc-ingles",
+      "subjectId": "ingles",
+      "title": "Inglês",
+      "emoji": "🇬🇧",
+      "description": "Língua estrangeira: interpretação, vocabulário em contexto e diversidade cultural.",
+      "introduction": {
+        "title": "Comece por Inglês",
+        "duration": "4 min",
+        "summary": "Língua estrangeira: interpretação, vocabulário em contexto e diversidade cultural.",
+        "sections": [
+          {
+            "title": "Comece pela situação de comunicação",
+            "text": "Observe título, gênero, fonte e comando. Pergunte quem fala, a quem se dirige e para quê. Procure a ideia geral antes de traduzir palavras isoladas. A resposta pode depender da relação entre partes do texto."
+          },
+          {
+            "title": "O inglês circula em muitas culturas",
+            "text": "Textos em inglês podem expressar experiências africanas, indianas, caribenhas e de outras regiões. Não pressuponha uma única identidade cultural nem considere usos híbridos como ausência de domínio linguístico."
+          },
+          {
+            "title": "Da leitura à resolução",
+            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+          }
+        ],
+        "example": {
+          "title": "Uma palavra muda o rumo do texto",
+          "steps": [
+            "Após elogiar uma rede social, a autora escreve que ela tem downsides e descreve problemas.",
+            "O contexto indica aspectos negativos. A continuação esclarece quais desvantagens estão sendo consideradas."
+          ]
+        },
+        "pitfall": "Não escolha por semelhança de palavras. A alternativa pode repetir vocabulário do texto e alterar sua conclusão."
+      }
+    },
+    {
+      "id": "lc-espanhol",
+      "subjectId": "espanhol",
+      "title": "Espanhol",
+      "emoji": "🇪🇸",
+      "description": "Língua estrangeira: leitura, expressões, identidades e manifestações culturais.",
+      "introduction": {
+        "title": "Comece por Espanhol",
+        "duration": "4 min",
+        "summary": "Língua estrangeira: leitura, expressões, identidades e manifestações culturais.",
+        "sections": [
+          {
+            "title": "Procure o sentido global",
+            "text": "Identifique gênero, tema, interlocutores e objetivo. A proximidade entre português e espanhol ajuda, mas não garante interpretação correta. Leia o comando e volte ao trecho que oferece evidências para a resposta."
+          },
+          {
+            "title": "Uma língua, muitas variedades",
+            "text": "O espanhol apresenta diferenças regionais e sociais de vocabulário, pronúncia e registro. Uma personagem pode notar essas diferenças sem deixar de compreender os interlocutores. Variação é parte da vida da língua."
+          },
+          {
+            "title": "Da leitura à resolução",
+            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+          }
+        ],
+        "example": {
+          "title": "Uma cortina que não é de tecido",
+          "steps": [
+            "Um autor descreve alguém que desvia a atenção para esconder seus objetivos e usa cortina de humo.",
+            "A expressão representa uma estratégia de ocultação da verdade, e não uma cortina física."
+          ]
+        },
+        "pitfall": "Não dependa de tradução palavra por palavra nem ignore que uma expressão familiar pode ter sentido figurado."
+      }
+    }
+  ]
+}

@@ -10,11 +10,14 @@ const [snapshot, physics, matrix, mapping, nature, humanities] = await Promise.a
   read("data/reference/matrix.json"), read("data/courses/physics-mapping.json"), read("data/courses/natureza.json"),
   read("data/courses/humanas.json"),
 ]);
-const subjectCourses = await Promise.all(["quimica", "biologia", "matematica", "geografia", "historia"].map((id) => read(`data/courses/${id}.json`)));
+const subjectCourses = await Promise.all(["quimica", "biologia", "matematica", "geografia", "historia", "portugues", "literatura", "ingles", "espanhol"].map((id) => read(`data/courses/${id}.json`)));
+const languages = await read("data/courses/linguagens.json");
+const questionId = (q) => `${q.year}-${q.index}${q.language ? `-${q.language}` : ""}`;
 const savedLayout = await read("data/courses/lesson-layout.json");
 let tri = { questions: {}, coverage: [] };
 try { tri = await read("data/reference/tri-parameters.json"); } catch (error) { if (error.code !== "ENOENT") throw error; }
 const officialArea = (courseId) => courseId === "matematica" ? "matematica"
+  : ["portugues", "literatura", "ingles", "espanhol", "linguagens"].includes(courseId) ? "linguagens"
   : ["geografia", "historia", "ciencias-humanas"].includes(courseId) ? "ciencias-humanas" : "ciencias-natureza";
 const physicsSkills = Object.entries(mapping).flatMap(([skill, ids]) => ids.map((id) => [id, Number(skill)]));
 assert.equal(new Set(physicsSkills.map(([id]) => id)).size, physicsSkills.length, "Repeated physics mapping");
@@ -52,7 +55,7 @@ for (const course of [physicsCourse, ...subjectCourses, humanities]) {
   for (const entry of course.questions) {
     assert.ok(!seenIds.has(entry.id), `Question belongs to two individual subjects: ${entry.id}`);
     seenIds.add(entry.id);
-    const original = snapshot.questions.find((q) => `${q.year}-${q.index}` === entry.id && q.discipline === areaId);
+    const original = snapshot.questions.find((q) => questionId(q) === entry.id && q.discipline === areaId);
     assert.ok(original, `Missing question or wrong area: ${entry.id}`);
     const module = modules.find((m) => m.id === entry.moduleId);
     assert.ok(module, `Invalid unit ${entry.id}`);
@@ -61,14 +64,28 @@ for (const course of [physicsCourse, ...subjectCourses, humanities]) {
     if (module.competency) assert.equal(entry.competency, module.competency, `Wrong unit: ${entry.id}`);
     assert.ok(entry.explanation?.concept && entry.explanation.steps?.length >= 2 && entry.explanation.takeaway, `No explanation: ${entry.id}`);
     assert.ok(original.alternatives.some((a) => a.letter === original.correctAlternative), `Invalid answer ${entry.id}`);
-    const prefix = `https://enem.dev/${original.year}/questions/${original.index}/`;
-    const normalized = JSON.parse(JSON.stringify(original).replaceAll(prefix, `/assets/questions/${original.year}/${original.index}/`));
+    const sourceIndex = `${original.index}${original.language ? `-${original.language}` : ""}`;
+    const prefix = `https://enem.dev/${original.year}/questions/${sourceIndex}/`;
+    const normalized = JSON.parse(JSON.stringify(original).replaceAll(prefix, `/assets/questions/${original.year}/${sourceIndex}/`));
+    const { promptStart, ...curated } = entry;
+    // Some source records place the entire reading passage in the prompt field.
+    if (promptStart) {
+      assert.ok(!original.context, `Unexpected context split ${entry.id}`);
+      const split = normalized.alternativesIntroduction.lastIndexOf(promptStart);
+      assert.ok(split > 0, `Missing prompt boundary ${entry.id}`);
+      normalized.context = normalized.alternativesIntroduction.slice(0, split).trim();
+      normalized.alternativesIntroduction = normalized.alternativesIntroduction.slice(split).trim();
+    }
     const parameters = tri.questions[entry.id];
     if (parameters) {
       assert.ok(Number.isFinite(parameters.b) && Number.isFinite(parameters.difficultyScore), `Invalid TRI ${entry.id}`);
       assert.equal(parameters.year, original.year, `Wrong TRI year ${entry.id}`);
       // Existing subject selections can cross exam areas (e.g. a gravity item in MT).
       if (areaId === "ciencias-humanas") assert.equal(parameters.area, "CH", `Wrong TRI area ${entry.id}`);
+      if (areaId === "linguagens") {
+        assert.equal(parameters.area, "LC", `Wrong TRI area ${entry.id}`);
+        assert.equal(parameters.language || null, original.language || null, `Wrong TRI language ${entry.id}`);
+      }
       assert.equal(parameters.questionNumber, original.index, `Wrong TRI number ${entry.id}`);
       assert.equal(parameters.officialAnswer, original.correctAlternative, `Wrong TRI answer ${entry.id}`);
       assert.ok(Math.abs(parameters.difficultyScore - (500 + 100 * parameters.b)) < 0.000001, `Wrong TRI scale ${entry.id}`);
@@ -81,27 +98,31 @@ for (const course of [physicsCourse, ...subjectCourses, humanities]) {
       assert.equal(subjectTitle, complementarySubjects[subjectId], `Invalid humanities subject ${entry.id}`);
       assert.ok(subjectTitle, `Missing humanities subject ${entry.id}`);
     }
-    questions.push({ ...normalized, ...entry, areaId, subjectId, subjectTitle, moduleTitle: module.title, tri: parameters || null, triUnavailable: parameters ? null : tri.unavailable?.[entry.id] || null });
+    questions.push({ ...normalized, ...curated, areaId, subjectId, subjectTitle, moduleTitle: module.title, tri: parameters || null, triUnavailable: parameters ? null : tri.unavailable?.[entry.id] || null });
   }
   if (course.id === "ciencias-humanas") continue;
   for (const module of modules) assert.ok(course.questions.some((q) => q.moduleId === module.id), `Empty unit ${module.id}`);
   const { questions: entries, ...info } = course;
   courses.push({ ...info, areaId, areaTitle: area.title, modules, questionIds: entries.map((q) => q.id), total: entries.length });
 }
-for (const integrated of [nature, humanities]) {
+for (const integrated of [nature, humanities, languages]) {
   const areaId = officialArea(integrated.id);
   const areaQuestions = questions.filter((q) => q.areaId === areaId);
   const modules = integrated.modules.map((m, index) => {
     validateIntro(m);
+    if (integrated.integratedBy === "subject") {
+      assert.ok(areaQuestions.filter(q => q.subjectId === m.subjectId).length >= 5, `Empty integrated subject ${m.id}`);
+      return { ...m, color: colors[index % colors.length] };
+    }
     const reference = matrix.areas[areaId].competencies.find((c) => c.number === m.competency);
     assert.ok(reference, `Invalid integrated competency ${m.id}`);
     assert.ok(areaQuestions.filter((q) => q.competency === m.competency).length >= 5, `${integrated.title} C${m.competency} needs at least 5 reviewed questions`);
     return { ...m, color: colors[index % colors.length], reference };
   });
   const { questions: entries, ...info } = integrated;
-  const integrationNote = areaId === "ciencias-humanas"
+  const integrationNote = integrated.integrationNote || (areaId === "ciencias-humanas"
     ? "Esta trilha reúne Geografia, História, Filosofia e Sociologia, sem repetir questões. A revisão de erros é compartilhada com as trilhas de Geografia e História."
-    : "Esta trilha reúne todas as questões de Física, Química e Biologia, sem repetição. A revisão de erros é compartilhada entre as trilhas.";
+    : "Esta trilha reúne todas as questões de Física, Química e Biologia, sem repetição. A revisão de erros é compartilhada entre as trilhas.");
   courses.push({ ...info, integrated: true, integrationNote, areaId, areaTitle: matrix.areas[areaId].title, modules,
     questionIds: areaQuestions.map((q) => q.id), total: areaQuestions.length });
 }
@@ -112,7 +133,8 @@ for (const course of courses) {
   for (const module of course.modules) {
     const ids = course.questionIds.filter(id => {
       const q = questions.find(q => q.id === id);
-      return course.integrated ? q.competency === module.competency : q.moduleId === module.id;
+      return course.integratedBy === "subject" ? q.subjectId === module.subjectId
+        : course.integrated ? q.competency === module.competency : q.moduleId === module.id;
     });
     const previous = savedLayout[course.id]?.[module.id] || [];
     assert.ok(previous.flat().every(id => ids.includes(id)), `Published lesson lost a question: ${module.id}`);
@@ -124,9 +146,9 @@ for (const course of courses) {
 }
 await writeFile(path.join(root, "data/courses/lesson-layout.json"), JSON.stringify(Object.fromEntries(courses.map(c => [c.id, c.lessonLayout])), null, 2) + "\n");
 
-const assetPaths = new Set(questions.flatMap((q) => JSON.stringify(q).match(/\/assets\/questions\/\d+\/\d+\/[^\s"\\)]+\.(?:png|jpg|jpeg|webp|gif)/gi) || []));
+const assetPaths = new Set(questions.flatMap((q) => JSON.stringify(q).match(/\/assets\/questions\/\d+\/\d+(?:-(?:ingles|espanhol))?\/[^\s"\\)]+\.(?:png|jpg|jpeg|webp|gif)/gi) || []));
 for (const asset of assetPaths) {
-  const [, year, index, file] = asset.match(/^\/assets\/questions\/(\d+)\/(\d+)\/(.+)$/);
+  const [, year, index, file] = asset.match(/^\/assets\/questions\/(\d+)\/(\d+(?:-(?:ingles|espanhol))?)\/(.+)$/);
   const source = path.join(root, "data/enem-source/public", year, "questions", index, file);
   await access(source);
   const destination = path.join(root, "dist", asset);

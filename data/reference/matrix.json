@@ -4,6 +4,194 @@
   "sha256": "4f540d5439df00f88e13363ecaff3d884b83d16c1ae6cedbe5c2c3aabbf288b6",
   "note": "Descrições transcritas do documento do INEP. A associação das questões às habilidades é editorial do Enem, não uma classificação oficial do INEP.",
   "areas": {
+    "linguagens": {
+      "title": "Linguagens, Códigos e suas Tecnologias",
+      "competencies": [
+        {
+          "number": 1,
+          "description": "Aplicar as tecnologias da comunicação e da informação na escola, no trabalho e em outros contextos relevantes para sua vida.",
+          "page": 8,
+          "skills": [
+            {
+              "number": 1,
+              "description": "Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação."
+            },
+            {
+              "number": 2,
+              "description": "Recorrer aos conhecimentos sobre as linguagens dos sistemas de comunicação e informação para resolver problemas sociais."
+            },
+            {
+              "number": 3,
+              "description": "Relacionar informações geradas nos sistemas de comunicação e informação, considerando a função social desses sistemas."
+            },
+            {
+              "number": 4,
+              "description": "Reconhecer posições críticas aos usos sociais que são feitos das linguagens e dos sistemas de comunicação e informação."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais.",
+          "page": 9,
+          "skills": [
+            {
+              "number": 5,
+              "description": "Associar vocábulos e expressões de um texto em LEM ao seu tema."
+            },
+            {
+              "number": 6,
+              "description": "Utilizar os conhecimentos da LEM e de seus mecanismos como meio de ampliar as possibilidades de acesso a informações, tecnologias e culturas."
+            },
+            {
+              "number": 7,
+              "description": "Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social."
+            },
+            {
+              "number": 8,
+              "description": "Reconhecer a importância da produção cultural em LEM como representação da diversidade cultural e linguística."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Compreender e usar a linguagem corporal como relevante para a própria vida, integradora social e formadora da identidade.",
+          "page": 9,
+          "skills": [
+            {
+              "number": 9,
+              "description": "Reconhecer as manifestações corporais de movimento como originárias de necessidades cotidianas de um grupo social."
+            },
+            {
+              "number": 10,
+              "description": "Reconhecer a necessidade de transformação de hábitos corporais em função das necessidades cinestésicas."
+            },
+            {
+              "number": 11,
+              "description": "Reconhecer a linguagem corporal como meio de interação social, considerando os limites de desempenho e as alternativas de adaptação para diferentes indivíduos."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Compreender a arte como saber cultural e estético gerador de significação e integrador da organização do mundo e da própria identidade.",
+          "page": 10,
+          "skills": [
+            {
+              "number": 12,
+              "description": "Reconhecer diferentes funções da arte, do trabalho da produção dos artistas em seus meios culturais."
+            },
+            {
+              "number": 13,
+              "description": "Analisar as diversas produções artísticas como meio de explicar diferentes culturas, padrões de beleza e preconceitos."
+            },
+            {
+              "number": 14,
+              "description": "Reconhecer o valor da diversidade artística e das inter-relações de elementos que se apresentam nas manifestações de vários grupos sociais e étnicos."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção.",
+          "page": 10,
+          "skills": [
+            {
+              "number": 15,
+              "description": "Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político."
+            },
+            {
+              "number": 16,
+              "description": "Relacionar informações sobre concepções artísticas e procedimentos de construção do texto literário."
+            },
+            {
+              "number": 17,
+              "description": "Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Compreender e usar os sistemas simbólicos das diferentes linguagens como meios de organização cognitiva da realidade pela constituição de significados, expressão, comunicação e informação.",
+          "page": 11,
+          "skills": [
+            {
+              "number": 18,
+              "description": "Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos."
+            },
+            {
+              "number": 19,
+              "description": "Analisar a função da linguagem predominante nos textos em situações específicas de interlocução."
+            },
+            {
+              "number": 20,
+              "description": "Reconhecer a importância do patrimônio linguístico para a preservação da memória e da identidade nacional."
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "description": "Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas.",
+          "page": 11,
+          "skills": [
+            {
+              "number": 21,
+              "description": "Reconhecer, em textos de diferentes gêneros, recursos verbais e não verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos."
+            },
+            {
+              "number": 22,
+              "description": "Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos."
+            },
+            {
+              "number": 23,
+              "description": "Inferir em um texto quais são os objetivos de seu produtor e quem é seu público-alvo, pela análise dos procedimentos argumentativos utilizados."
+            },
+            {
+              "number": 24,
+              "description": "Reconhecer no texto estratégias argumentativas empregadas para o convencimento do público, tais como a intimidação, sedução, comoção, chantagem, entre outras."
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "description": "Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade.",
+          "page": 12,
+          "skills": [
+            {
+              "number": 25,
+              "description": "Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro."
+            },
+            {
+              "number": 26,
+              "description": "Relacionar as variedades linguísticas a situações específicas de uso social."
+            },
+            {
+              "number": 27,
+              "description": "Reconhecer os usos da norma-padrão da língua portuguesa nas diferentes situações de comunicação."
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "description": "Entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação na sua vida pessoal e social, no desenvolvimento do conhecimento, associando-os aos conhecimentos científicos, às linguagens que lhes dão suporte, às demais tecnologias, aos processos de produção e aos problemas que se propõem solucionar.",
+          "page": 12,
+          "skills": [
+            {
+              "number": 28,
+              "description": "Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação."
+            },
+            {
+              "number": 29,
+              "description": "Identificar, pela análise de suas linguagens, as tecnologias da comunicação e informação."
+            },
+            {
+              "number": 30,
+              "description": "Relacionar as tecnologias de comunicação e informação ao desenvolvimento das sociedades e ao conhecimento que elas produzem."
+            }
+          ]
+        }
+      ]
+    },
     "matematica": {
       "title": "Matemática e suas Tecnologias",
       "competencies": [

@@ -1,0 +1,356 @@
+{
+  "id": "ingles",
+  "title": "Inglês",
+  "emoji": "🇬🇧",
+  "description": "Língua estrangeira: interpretação, vocabulário em contexto e diversidade cultural.",
+  "modules": [
+    {
+      "id": "en-leitura",
+      "title": "Reading: sentido e argumentação",
+      "emoji": "🔎",
+      "description": "Use contexto, organização textual e pistas linguísticas para interpretar inglês.",
+      "introduction": {
+        "title": "Reading: sentido e argumentação",
+        "duration": "4 min",
+        "summary": "Use contexto, organização textual e pistas linguísticas para interpretar inglês.",
+        "sections": [
+          {
+            "title": "Comece pela situação de comunicação",
+            "text": "Observe título, gênero, fonte e comando. Pergunte quem fala, a quem se dirige e para quê. Procure a ideia geral antes de traduzir palavras isoladas. A resposta pode depender da relação entre partes do texto."
+          },
+          {
+            "title": "Leia vocabulário no contexto",
+            "text": "Uma palavra pode ter vários sentidos. Conectores como but e though introduzem contrastes; repetições como if podem organizar condições. Use frases vizinhas e o encadeamento dos exemplos para inferir o sentido mais adequado."
+          },
+          {
+            "title": "Diferencie evidência e extrapolação",
+            "text": "A alternativa correta precisa ser sustentada pelo texto. Um exemplo específico pode apoiar uma ideia geral, mas não autoriza afirmações absolutas. Observe referências a pesquisas, comparação entre épocas e palavras de avaliação."
+          }
+        ],
+        "example": {
+          "title": "Uma palavra muda o rumo do texto",
+          "steps": [
+            "Após elogiar uma rede social, a autora escreve que ela tem downsides e descreve problemas.",
+            "O contexto indica aspectos negativos. A continuação esclarece quais desvantagens estão sendo consideradas."
+          ]
+        },
+        "pitfall": "Não escolha por semelhança de palavras. A alternativa pode repetir vocabulário do texto e alterar sua conclusão."
+      }
+    },
+    {
+      "id": "en-cultura",
+      "title": "English: culturas e identidades",
+      "emoji": "🌎",
+      "description": "Interprete poemas, narrativas e textos sobre pertencimento e diversidade.",
+      "introduction": {
+        "title": "English: culturas e identidades",
+        "duration": "4 min",
+        "summary": "Interprete poemas, narrativas e textos sobre pertencimento e diversidade.",
+        "sections": [
+          {
+            "title": "O inglês circula em muitas culturas",
+            "text": "Textos em inglês podem expressar experiências africanas, indianas, caribenhas e de outras regiões. Não pressuponha uma única identidade cultural nem considere usos híbridos como ausência de domínio linguístico."
+          },
+          {
+            "title": "Observe imagens e vozes",
+            "text": "Em poemas e narrativas, metáforas e repetições constroem perspectivas. Uma ilha pode representar isolamento; uma receita pode representar a formação de um povo. A interpretação exige ligar a imagem ao restante do texto."
+          },
+          {
+            "title": "Reconheça conflitos de pertencimento",
+            "text": "Migração, racismo, memória e resistência podem aparecer em relatos cotidianos. Identifique a posição assumida por cada voz e os indícios que a sustentam. Uma personagem pode afirmar sua identidade pela língua, pelo corpo ou por seus vínculos."
+          }
+        ],
+        "example": {
+          "title": "Uma receita de sociedade",
+          "steps": [
+            "Um poema reúne povos como ingredientes e recomenda que todos recebam o mesmo respeito.",
+            "A forma de receita celebra a mistura cultural e relaciona a convivência à igualdade entre os grupos."
+          ]
+        },
+        "pitfall": "Não reduza uma obra em inglês à cultura de um único país nem trate metáforas como descrições literais."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2022-2-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Comparação entre épocas",
+        "steps": [
+          "O texto aproxima expectativas amorosas do tempo de Jane Austen dos critérios apresentados em aplicativos atuais.",
+          "A alternativa C é correta porque o propósito é comparar exigências sociais, financeiras e estéticas de parceiros em momentos diferentes, e não apresentar apenas uma tecnologia."
+        ],
+        "takeaway": "Ao identificar a finalidade, observe a relação que organiza os exemplos ao longo do texto."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2022-4-ingles",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Vocabulário e contraste",
+        "steps": [
+          "Depois de elogiar o Instagram, a autora introduz downsides e comenta insegurança e comparação com vidas aparentemente perfeitas.",
+          "A alternativa D é correta porque o termo anuncia aspectos negativos, entre eles a ansiedade que essas comparações podem provocar nos adolescentes descritos."
+        ],
+        "takeaway": "Conectores e palavras de avaliação indicam mudanças de direção no argumento."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2021-1-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Culto à celebridade e leitura crítica",
+        "steps": [
+          "O autor explica a construção comercial das imagens e termina questionando a perda de pensamento independente do público.",
+          "A alternativa C é correta porque sua crítica procura estimular a reflexão dos fãs sobre a adesão automática a celebridades e produtos."
+        ],
+        "takeaway": "A conclusão de um texto pode revelar o comportamento que seu autor deseja questionar."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2021-3-ingles",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Sentido de unthinkable",
+        "steps": [
+          "O texto relata formas de tratamento que negavam respeito às mulheres negras e as confinavam a posições subordinadas.",
+          "A alternativa A é correta porque nesse contexto, imaginar uma mulher negra como primeira-dama parecia improvável diante das barreiras racistas de ascensão social."
+        ],
+        "takeaway": "Interprete uma palavra avaliativa a partir das relações históricas descritas ao redor dela."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2021-5-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Pontos de vista sobre lugares",
+        "steps": [
+          "Os personagens avaliam beleza, história e neutralidade de maneiras que não coincidem com imagens turísticas convencionais.",
+          "A alternativa B é correta porque as avaliações variam conforme a perspectiva do visitante, e não decorrem apenas de propriedades objetivas dos lugares."
+        ],
+        "takeaway": "Em diálogos, compare a interpretação de cada personagem antes de generalizar uma opinião."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2020-4-ingles",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Vocabulário de culpa e mudança de atitude",
+        "steps": [
+          "O eu lírico começa incomodado com o canto e depois reconhece que o problema pode estar em si mesmo.",
+          "A alternativa D é correta porque fault e blame marcam a revisão de sua atitude e a sensibilização para a natureza do pássaro, que apenas canta."
+        ],
+        "takeaway": "Mudanças no vocabulário avaliativo podem mostrar a transformação da posição do eu lírico."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2019-1-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Referências a pesquisas como argumento",
+        "steps": [
+          "A autora menciona estudos para sustentar os benefícios da convivência com animais de estimação apresentados no texto.",
+          "A alternativa B é correta porque essas referências funcionam como apoio de credibilidade para convencer o leitor; não demonstram a cura garantida de doenças."
+        ],
+        "takeaway": "Identifique a função argumentativa de uma referência científica sem ampliar o que o texto afirma."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2019-4-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Repetição de condições e aprendizagem",
+        "steps": [
+          "Cada período associa uma forma de convivência infantil a uma atitude aprendida pela criança.",
+          "A alternativa B é correta porque o conjunto expressa que as crianças aprendem com o que vivem, síntese mais abrangente que um único exemplo."
+        ],
+        "takeaway": "Uma alternativa que resume o padrão de todos os exemplos costuma expressar a ideia central."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2018-1-ingles",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Vocabulário e finalidade social",
+        "steps": [
+          "Shower indica banho, bus é o veículo adaptado e homeless identifica o público em situação de rua.",
+          "A alternativa B é correta porque a combinação desses elementos descreve o acesso a banhos por meio de ônibus transformados em estações móveis."
+        ],
+        "takeaway": "Associe palavras-chave aos papéis que desempenham no projeto apresentado."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2018-5-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Controle da memória em 1984",
+        "steps": [
+          "O Estado descrito interfere nos registros e no modo como as pessoas compreendem o passado.",
+          "A alternativa C é correta porque controlar documentos e memórias permite moldar a realidade aceita pela população e sustentar o poder totalitário."
+        ],
+        "takeaway": "Na leitura de uma distopia, relacione o mecanismo de controle aos efeitos sobre a sociedade."
+      },
+      "moduleId": "en-leitura"
+    },
+    {
+      "id": "2023-2-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Metáfora e interdependência humana",
+        "steps": [
+          "O poema contrapõe a ilha isolada à participação de cada pessoa em uma humanidade compartilhada.",
+          "A alternativa B é correta porque a imagem enfatiza a conexão entre os seres humanos, de modo que a perda de alguém afeta os demais."
+        ],
+        "takeaway": "Uma metáfora deve ser interpretada pelas relações que o poema constrói, não apenas literalmente."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2023-3-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Pluralidade das experiências de refúgio",
+        "steps": [
+          "A repetição de carry reúne lembranças, perdas, trabalho, formação e línguas de pessoas em deslocamento.",
+          "A alternativa D é correta porque a enumeração destaca experiências plurais transportadas pelos refugiados, para além de uma única causa ou trajetória."
+        ],
+        "takeaway": "Observe como a enumeração amplia as experiências representadas por uma voz coletiva."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2023-4-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Spanglish e encontro de culturas",
+        "steps": [
+          "O poema alterna inglês e espanhol e reúne referências culturais de diferentes espaços sociais.",
+          "A alternativa A é correta porque a própria forma do texto realiza a convergência linguística e cultural que ele celebra."
+        ],
+        "takeaway": "A mistura de línguas pode construir identidade e expressar experiências interculturais."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2022-1-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Exílio e pertencimento cultural",
+        "steps": [
+          "O autor narra deslocamentos familiares e a infância em uma comunidade cubana fortemente presente em Miami.",
+          "A alternativa D é correta porque o relato destaca como se deu sua integração nos Estados Unidos por meio de vínculos comunitários, sem se sentir uma minoria no cotidiano descrito."
+        ],
+        "takeaway": "O pertencimento cultural depende das relações vividas, e não apenas do país de residência."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2022-5-ingles",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Limites da comunicação por mensagens",
+        "steps": [
+          "O eu lírico relê textos e procura sinais de afeto, mas sente que os códigos não restituem a presença da outra pessoa.",
+          "A alternativa E é correta porque essa distância expressa insatisfação com a comunicação pelo celular, apesar das tentativas repetidas de conexão."
+        ],
+        "takeaway": "Confronte ações repetidas e sentimentos expressos para identificar o tom do poema."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2021-2-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Receita como metáfora cultural",
+        "steps": [
+          "O poema usa instruções culinárias para reunir diferentes povos na formação da sociedade britânica.",
+          "A alternativa A é correta porque a mistura de ingredientes representa a riqueza cultural, e a exigência de tratamento igual impede uma hierarquia entre os grupos."
+        ],
+        "takeaway": "A apropriação de outro gênero textual pode produzir uma metáfora para relações sociais."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2020-3-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Imagens sensoriais e sofrimento",
+        "steps": [
+          "O poema apresenta odores, corpos debilitados e gestos delicados de uma mãe cuidando do filho.",
+          "A alternativa E é correta porque as impressões sensoriais materializam o ambiente dos refugiados e tornam perceptível a experiência de sofrimento e cuidado."
+        ],
+        "takeaway": "Imagens de visão, cheiro e tato podem aproximar o leitor de uma experiência narrada."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2020-5-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Cabelo natural e resistência",
+        "steps": [
+          "Ifemelu defende a cor e a textura naturais do cabelo diante da insistência da cabeleireira em modificá-las.",
+          "A alternativa C é correta porque seus argumentos resistem à imposição de um padrão de beleza e afirmam o valor de sua aparência natural."
+        ],
+        "takeaway": "Posicionamentos identitários podem aparecer em escolhas e argumentos de situações cotidianas."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2019-3-ingles",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Pistas textuais sobre a perda",
+        "steps": [
+          "A referência à idade de 23 anos se combina à ausência definitiva e à impossibilidade de despedida.",
+          "A alternativa A é correta porque essas pistas indicam a morte precoce de um amigo, sem sustentar a hipótese de simples mudança de país ou rompimento amoroso."
+        ],
+        "takeaway": "Integre diferentes pistas do texto para inferir o acontecimento que motiva um sentimento."
+      },
+      "moduleId": "en-cultura"
+    },
+    {
+      "id": "2018-3-ingles",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Apropriação da língua e identidade",
+        "steps": [
+          "A poetisa reconhece sua expressão como uma combinação própria de inglês e experiências indianas.",
+          "A alternativa D é correta porque ela afirma uma identidade linguística consciente, tomando a língua como sua para expressar desejos e sentimentos."
+        ],
+        "takeaway": "Usar uma língua de circulação internacional pode incluir transformá-la segundo a própria experiência cultural."
+      },
+      "moduleId": "en-cultura"
+    }
+  ]
+}

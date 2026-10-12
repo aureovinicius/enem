@@ -1,0 +1,357 @@
+{
+  "id": "literatura",
+  "title": "Literatura",
+  "emoji": "📚",
+  "description": "Vozes, recursos expressivos, memória e contextos da literatura brasileira.",
+  "modules": [
+    {
+      "id": "lit-recursos",
+      "title": "Vozes e recursos literários",
+      "emoji": "🪶",
+      "description": "Leia imagens, narradores, ironia, ritmo e procedimentos de construção.",
+      "introduction": {
+        "title": "Vozes e recursos literários",
+        "duration": "4 min",
+        "summary": "Leia imagens, narradores, ironia, ritmo e procedimentos de construção.",
+        "sections": [
+          {
+            "title": "Quem fala não é sempre o autor",
+            "text": "Narrador é a voz que conta uma história; eu lírico é a voz construída no poema. Suas avaliações não devem ser atribuídas automaticamente ao escritor. Observe primeira ou terceira pessoa, acesso aos pensamentos e marcas de subjetividade."
+          },
+          {
+            "title": "Recursos expressivos produzem efeitos",
+            "text": "Metáforas aproximam campos de sentido; comparações explicitam uma relação; personificações atribuem traços humanos. Enumerações, repetições e contrastes também organizam a experiência do leitor. Nomear a figura é apenas o começo: explique seu efeito no trecho."
+          },
+          {
+            "title": "Leia tensões e mudanças",
+            "text": "A ironia pode nascer do contraste entre aparência e intenção. Um poema pode começar inquieto e terminar sereno. A interpretação deve acompanhar o percurso do texto e relacionar seus detalhes, sem reduzir tudo a uma palavra isolada."
+          }
+        ],
+        "example": {
+          "title": "O cotidiano em um poema de separação",
+          "steps": [
+            "O eu lírico imagina uma despedida grandiosa, mas a cena termina com alguém recolhendo migalhas.",
+            "O gesto banal reduz a solenidade esperada e modifica a forma de representar o sofrimento amoroso."
+          ]
+        },
+        "pitfall": "Não identifique uma escola literária apenas pela data nem escolha uma figura de linguagem sem explicar sua função no fragmento."
+      }
+    },
+    {
+      "id": "lit-sociedade",
+      "title": "Literatura, história e memória",
+      "emoji": "📚",
+      "description": "Relacione a construção literária às experiências sociais e históricas.",
+      "introduction": {
+        "title": "Literatura, história e memória",
+        "duration": "4 min",
+        "summary": "Relacione a construção literária às experiências sociais e históricas.",
+        "sections": [
+          {
+            "title": "Contexto ajuda, mas o texto decide",
+            "text": "Conhecer o período de produção permite reconhecer debates e valores. A resposta, porém, precisa encontrar apoio no trecho. Obras de uma mesma época não repetem necessariamente as mesmas ideias nem apresentam apenas uma perspectiva."
+          },
+          {
+            "title": "Reconheça procedimentos e perspectivas",
+            "text": "O Naturalismo pode explicar comportamentos por instintos e pelo meio; o romance social pode retratar desigualdade e deslocamentos. Observe como essas perspectivas se manifestam na escolha das imagens, na descrição e nos julgamentos do narrador."
+          },
+          {
+            "title": "Memória também se transmite pela linguagem",
+            "text": "Cantigas, relatos, diários e vozes de personagens podem preservar experiências coletivas. A literatura registra disputas de memória, denuncia violências e permite reelaborar identidades. Analise quem tem voz e quais experiências a narrativa torna visíveis."
+          }
+        ],
+        "example": {
+          "title": "Uma cantiga transmitida entre gerações",
+          "steps": [
+            "Uma personagem canta algo aprendido com o pai, que também o recebera dos mais velhos.",
+            "Mesmo sem compreender todas as palavras, o canto preserva um vínculo de ancestralidade por meio da tradição oral."
+          ]
+        },
+        "pitfall": "Não confunda a perspectiva de um narrador histórico com uma verdade científica ou com a opinião atual do leitor."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2023-12",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Descrição e ponto de vista",
+        "steps": [
+          "A empregada descreve roupas, gestos, perfume e maquiagem a partir de suas impressões sobre Timóteo.",
+          "A alternativa C é correta porque a descrição impressionista constrói o personagem por sensações e avaliações subjetivas, destacando sua relação com as vestimentas."
+        ],
+        "takeaway": "A descrição literária também revela o olhar de quem narra e suas impressões."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-13",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Memória afetiva e serenidade",
+        "steps": [
+          "As recordações de amores anteriores desembocam no repouso experimentado diante do amor presente.",
+          "A alternativa C é correta porque a entrega ao desejo produz serenidade, expressa pelo abandono dos cuidados ao final do fragmento."
+        ],
+        "takeaway": "Leia o percurso emocional do poema e observe a transformação indicada em seu fechamento."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-14",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Oralidade e arte de narrar",
+        "steps": [
+          "Os moradores já conhecem o capítulo, mas desejam ouvir novamente Soropita recontá-lo.",
+          "A alternativa D é correta porque o prazer vem de seu modo singular de contar, capaz de prender a atenção e recriar a experiência da história."
+        ],
+        "takeaway": "Na narrativa oral, o modo de contar pode ser tão importante quanto o acontecimento narrado."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-25",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Metáfora entre linguagem e lavoura",
+        "steps": [
+          "A palavra escolhida e a tentativa de pronunciá-la aproximam a língua ferida do instrumento que corta a terra.",
+          "A alternativa B é correta porque o arado deformado figura uma fala que encontra obstáculos, ligando experiência corporal e trabalho na lavoura."
+        ],
+        "takeaway": "Metáforas constroem sentido pela relação entre campos de experiência diferentes."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-28",
+      "competency": 6,
+      "skill": 19,
+      "explanation": {
+        "concept": "Função emotiva e voz poética",
+        "steps": [
+          "O eu lírico relata a distância entre o que deseja dizer e o que consegue expressar.",
+          "A alternativa C é correta porque gritar, falar e calar expõem sua dificuldade de comunicação, colocando em foco a experiência subjetiva."
+        ],
+        "takeaway": "A função emotiva enfatiza sentimentos e atitudes do enunciador diante da experiência."
+      },
+      "moduleId": "lit-recursos",
+      "promptStart": "A função emotiva presente"
+    },
+    {
+      "id": "2023-29",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Contraste e efeito desconcertante",
+        "steps": [
+          "O narrador atribui solenidade histórica aos ratos e depois imagina sua aproximação ao corpo de Tiradentes.",
+          "A alternativa E é correta porque o contraste entre a pompa da memória heroica e a imagem repugnante dos roedores produz o efeito desconcertante."
+        ],
+        "takeaway": "A aproximação de registros elevados e imagens grotescas pode desestabilizar uma narrativa solene."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-31",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Lirismo e cotidiano",
+        "steps": [
+          "O poema imagina cenários grandiosos para uma separação, mas termina no gesto de recolher migalhas.",
+          "A alternativa C é correta porque a banalidade da mesa cotidiana substitui a cena solene e dilui a comoção amorosa esperada."
+        ],
+        "takeaway": "A poesia contemporânea pode trabalhar sentimentos intensos por meio de gestos banais."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2022-29",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Ironia machadiana",
+        "steps": [
+          "A aparência simples de Bárbara convive com um olhar penetrante e com a habilidade de fascinar as visitantes.",
+          "A alternativa D é correta porque essa mistura de singeleza e astúcia sustenta a ironia da caracterização, evitando uma leitura apenas ingênua da vidente."
+        ],
+        "takeaway": "Na ironia, observe as tensões entre aparência, gestos e comentários do narrador."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2022-33",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Enumeração na narrativa",
+        "steps": [
+          "Objetos, pessoas e ações do funeral aparecem sucessivamente, em uma longa sequência de elementos.",
+          "A alternativa A é correta porque a enumeração transforma a cena em um inventário, forma que o próprio narrador comenta ao final."
+        ],
+        "takeaway": "A organização formal de um trecho pode reproduzir o tipo de registro que ele menciona."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2022-35",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Crônica e reflexão sobre a escrita",
+        "steps": [
+          "Clarice compara a profundidade desejada nos livros com a expectativa de uma leitura rápida no jornal.",
+          "A alternativa C é correta porque ela questiona a brevidade e a leveza esperadas da crônica, que parecem limitar o tratamento do tema."
+        ],
+        "takeaway": "Textos metalinguísticos refletem sobre seus próprios procedimentos e condições de produção."
+      },
+      "moduleId": "lit-recursos"
+    },
+    {
+      "id": "2023-7",
+      "competency": 5,
+      "skill": 17,
+      "explanation": {
+        "concept": "Corpo, identidade e violência",
+        "steps": [
+          "A descrição do próprio corpo é aproximada da memória da escravidão e da persistência do incômodo social.",
+          "A alternativa A é correta porque a narradora constrói sua identidade atravessada por marcas de violência racial e de gênero, presentes nas imagens corporais."
+        ],
+        "takeaway": "A literatura pode relacionar a experiência íntima a processos históricos de violência."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2023-22",
+      "competency": 6,
+      "skill": 20,
+      "explanation": {
+        "concept": "Ancestralidade e tradição oral",
+        "steps": [
+          "A cantiga atravessa gerações e é reconhecida pelo personagem mesmo sem compreensão de todas as palavras.",
+          "A alternativa C é correta porque sua transmissão oral preserva vínculos com a ancestralidade africana e com a experiência coletiva do retorno."
+        ],
+        "takeaway": "O patrimônio linguístico pode sobreviver em cantos, ritmos e práticas transmitidos entre gerações."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2023-26",
+      "competency": 5,
+      "skill": 15,
+      "explanation": {
+        "concept": "Memória da escravidão no pós-abolição",
+        "steps": [
+          "Bilac contrapõe a experiência direta do horror ao conhecimento futuro mediado por objetos de museu e notícias.",
+          "A alternativa C é correta porque o texto antecipa o distanciamento e o apagamento social dessas marcas, ressaltando que conhecer relatos não equivale a ter vivido o período."
+        ],
+        "takeaway": "Relacione a perspectiva temporal do texto ao debate sobre memória e esquecimento."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-21",
+      "competency": 5,
+      "skill": 15,
+      "explanation": {
+        "concept": "Romantismo e crítica abolicionista",
+        "steps": [
+          "A personagem mobiliza valores religiosos, cívicos e econômicos para condenar o trabalho escravizado.",
+          "A alternativa B é correta porque ela expõe a contradição entre esses valores proclamados e a defesa conservadora da escravidão."
+        ],
+        "takeaway": "A literatura romântica também inclui vozes de crítica às estruturas sociais do século XIX."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-23",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Descrição e fluxo de consciência",
+        "steps": [
+          "O olhar de Maria Santa desencadeia associações com viagens, perigos, ambições e sofrimentos antigos.",
+          "A alternativa E é correta porque essas memórias e imagens encadeadas inscrevem o sofrimento no fluxo da consciência do narrador, além da descrição física."
+        ],
+        "takeaway": "Uma característica observada pode desencadear uma sequência de associações subjetivas na narrativa."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-30",
+      "competency": 5,
+      "skill": 15,
+      "explanation": {
+        "concept": "Naturalismo e interpretação biologizante",
+        "steps": [
+          "O narrador recusa explicar a atitude da personagem por ternura e a atribui a um instinto corporal.",
+          "A alternativa C é correta porque essa explicação biologizante corresponde à influência cientificista do Naturalismo; ela pertence à perspectiva histórica do narrador."
+        ],
+        "takeaway": "No Naturalismo, identifique a explicação de comportamentos por forças biológicas e do meio."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-31",
+      "competency": 5,
+      "skill": 15,
+      "explanation": {
+        "concept": "Romance social e retirantes",
+        "steps": [
+          "O fragmento acumula imagens de fome, debilidade e deslocamento forçado pela seca.",
+          "A alternativa A é correta porque a representação crua do sofrimento dos retirantes aproxima a obra da crítica social associada ao Romance de 30."
+        ],
+        "takeaway": "Relacione os recursos descritivos à denúncia das condições sociais representadas."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-40",
+      "competency": 5,
+      "skill": 17,
+      "explanation": {
+        "concept": "Afetividade na narrativa regionalista",
+        "steps": [
+          "O mensageiro recorda a habilidade do cantador e tenta esconder as lágrimas ao anunciar sua morte.",
+          "A alternativa D é correta porque essa comoção intensifica o lirismo, mostrando o vínculo afetivo com Firmo para além da transmissão de uma notícia."
+        ],
+        "takeaway": "Gestos e silêncios podem expressar sentimentos que a personagem não enuncia diretamente."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-41",
+      "competency": 5,
+      "skill": 16,
+      "explanation": {
+        "concept": "Ambivalência diante do carnaval",
+        "steps": [
+          "O personagem deseja participar dos excessos e, ao mesmo tempo, qualifica sua própria atitude de ignóbil.",
+          "A alternativa B é correta porque o trecho reúne atração e asco perante as condutas libertinas, revelando uma percepção contraditória."
+        ],
+        "takeaway": "Sentimentos opostos podem coexistir na mesma voz narrativa e orientar sua caracterização."
+      },
+      "moduleId": "lit-sociedade"
+    },
+    {
+      "id": "2022-42",
+      "competency": 5,
+      "skill": 17,
+      "explanation": {
+        "concept": "Ironia e crítica à autoridade",
+        "steps": [
+          "Carolina observa que o tenente conhece as dificuldades da favela, mas dirige a cobrança a quem não pode resolvê-las.",
+          "A alternativa D é correta porque a resposta irônica evidencia a distância entre a fala da autoridade e a ação política necessária para enfrentar o problema."
+        ],
+        "takeaway": "A ironia pode expor contradições entre o poder de uma autoridade e suas cobranças."
+      },
+      "moduleId": "lit-sociedade"
+    }
+  ]
+}

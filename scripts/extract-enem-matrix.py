@@ -13,6 +13,7 @@ source = root / "data/reference/enem-matriz-de-referencia.pdf"
 reader = PdfReader(source)
 areas = {}
 for area, title, start, end in [
+    ("linguagens", "Linguagens, Códigos e suas Tecnologias", 9, 14),
     ("matematica", "Matemática e suas Tecnologias", 14, 18),
     ("ciencias-natureza", "Ciências da Natureza e suas Tecnologias", 18, 23),
     ("ciencias-humanas", "Ciências Humanas e suas Tecnologias", 23, 27),
@@ -21,7 +22,7 @@ for area, title, start, end in [
     for page_index in range(start, end):
         text = reader.pages[page_index].extract_text()
         text = re.sub(r"MATRIZES DE REFERÊNCIA\s+ENEM\s+VOL TAR PARA\s+O SUMÁRIO \d+", "", text)
-        text = re.sub(r"MATEMÁTICA E SUAS\s+TECNOLOGIAS|CIÊNCIAS DA NATUREZA\s+E SUAS TECNOLOGIAS|CIÊNCIAS HUMANAS\s+E SUAS TECNOLOGIAS", "", text)
+        text = re.sub(r"LINGUAGENS, CÓDIGOS\s+E SUAS TECNOLOGIAS|MATEMÁTICA E SUAS\s+TECNOLOGIAS|CIÊNCIAS DA NATUREZA\s+E SUAS TECNOLOGIAS|CIÊNCIAS HUMANAS\s+E SUAS TECNOLOGIAS", "", text)
         text = text.replace("matérias-\nprimas", "matérias-primas")
         text = re.sub(r"(?<=[a-záéíóúâêôãõç])-\n(?=[a-záéíóúâêôãõç])", "", text)
         parts = re.split(r"Competência de área (\d+)\s*", text)
@@ -31,7 +32,7 @@ for area, title, start, end in [
             clean = lambda value: re.sub(r"\s+", " ", value).strip()
             skills = [{"number": int(pieces[i]), "description": clean(pieces[i + 1])} for i in range(1, len(pieces), 2)]
             competencies.append({"number": number, "description": clean(pieces[0]), "page": page_index - 1, "skills": skills})
-    assert len(competencies) == {"matematica": 7, "ciencias-natureza": 8, "ciencias-humanas": 6}[area]
+    assert len(competencies) == {"linguagens": 9, "matematica": 7, "ciencias-natureza": 8, "ciencias-humanas": 6}[area]
     assert [s["number"] for c in competencies for s in c["skills"]] == list(range(1, 31))
     areas[area] = {"title": title, "competencies": competencies}
 payload = {

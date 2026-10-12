@@ -1,0 +1,356 @@
+{
+  "id": "espanhol",
+  "title": "Espanhol",
+  "emoji": "🇪🇸",
+  "description": "Língua estrangeira: leitura, expressões, identidades e manifestações culturais.",
+  "modules": [
+    {
+      "id": "es-leitura",
+      "title": "Lectura: contexto e intenção",
+      "emoji": "🔎",
+      "description": "Interprete expressões, argumentos e finalidades em textos de língua espanhola.",
+      "introduction": {
+        "title": "Lectura: contexto e intenção",
+        "duration": "4 min",
+        "summary": "Interprete expressões, argumentos e finalidades em textos de língua espanhola.",
+        "sections": [
+          {
+            "title": "Procure o sentido global",
+            "text": "Identifique gênero, tema, interlocutores e objetivo. A proximidade entre português e espanhol ajuda, mas não garante interpretação correta. Leia o comando e volte ao trecho que oferece evidências para a resposta."
+          },
+          {
+            "title": "Expressões dependem do contexto",
+            "text": "Uma palavra pode reunir sentidos literal e figurado. Huella pode indicar uma marca deixada no mundo; limpia pode falar de ausência de sujeira ou corrupção. As frases ao redor ajudam a decidir qual sentido está ativo."
+          },
+          {
+            "title": "Observe a estratégia do texto",
+            "text": "Resenhas avaliam, notícias informam e campanhas procuram mobilizar. Comparações, exemplos e perguntas também orientam o leitor. Distinga o que o texto relata da posição crítica que constrói sobre esse relato."
+          }
+        ],
+        "example": {
+          "title": "Uma cortina que não é de tecido",
+          "steps": [
+            "Um autor descreve alguém que desvia a atenção para esconder seus objetivos e usa cortina de humo.",
+            "A expressão representa uma estratégia de ocultação da verdade, e não uma cortina física."
+          ]
+        },
+        "pitfall": "Não dependa de tradução palavra por palavra nem ignore que uma expressão familiar pode ter sentido figurado."
+      }
+    },
+    {
+      "id": "es-cultura",
+      "title": "Español: memória e diversidade",
+      "emoji": "🌎",
+      "description": "Leia manifestações culturais, variedades linguísticas e vozes de diferentes povos.",
+      "introduction": {
+        "title": "Español: memória e diversidade",
+        "duration": "4 min",
+        "summary": "Leia manifestações culturais, variedades linguísticas e vozes de diferentes povos.",
+        "sections": [
+          {
+            "title": "Uma língua, muitas variedades",
+            "text": "O espanhol apresenta diferenças regionais e sociais de vocabulário, pronúncia e registro. Uma personagem pode notar essas diferenças sem deixar de compreender os interlocutores. Variação é parte da vida da língua."
+          },
+          {
+            "title": "Cultura aparece nas práticas cotidianas",
+            "text": "Alimentação, amizade, canções e modos de falar podem expressar identidade. Analise como essas práticas são valorizadas pelo texto. Uma lista de pratos pode produzir uma representação cultural mais ampla que um simples cardápio."
+          },
+          {
+            "title": "Leia a voz e seu posicionamento",
+            "text": "O eu lírico pode denunciar injustiças, recordar territórios ou afirmar heranças plurais. Identifique tom, imagens e contrastes. Não transforme a opinião de uma personagem ou de um autor em uma generalização sobre todos os falantes."
+          }
+        ],
+        "example": {
+          "title": "Quando uma chave significa amizade",
+          "steps": [
+            "Uma narrativa relata que amigos ofereciam suas chaves a alguém ameaçado, garantindo abrigo.",
+            "A chave adquire sentido de proteção e acolhimento, ligado ao papel da amizade naquele contexto."
+          ]
+        },
+        "pitfall": "Não trate culturas hispânicas como uniformes nem interprete uma referência cultural fora da situação apresentada."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2023-4-espanhol",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Expressão figurada e manipulação",
+        "steps": [
+          "A cortina de fumaça aparece como recurso usado para desviar a atenção dos objetivos do manipulador.",
+          "A alternativa B é correta porque a expressão indica ocultar ou mascarar a verdade, em vez de produzir fumaça de forma literal."
+        ],
+        "takeaway": "Expressões figuradas devem ser relacionadas à ação e à finalidade descritas no contexto."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2022-2-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Crítica à interferência do celular",
+        "steps": [
+          "O autor reage ao aparelho que classifica automaticamente fotografias como novas lembranças.",
+          "A alternativa D é correta porque a crítica recai sobre a ingerência da tecnologia na escolha do que deve constituir a memória do usuário."
+        ],
+        "takeaway": "Perguntas indignadas e personificação podem expressar resistência à interferência tecnológica."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2021-1-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Compromisso social na resenha",
+        "steps": [
+          "As entrevistas selecionadas enfatizam o humano, a injustiça e o sofrimento na reflexão de García Lorca.",
+          "A alternativa C é correta porque a resenha destaca seu compromisso com questões sociais, e não uma arte desligada da experiência coletiva."
+        ],
+        "takeaway": "Observe o ponto comum entre as falas citadas para reconhecer a finalidade de uma seleção textual."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2021-3-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Celulares e valor probatório",
+        "steps": [
+          "O texto descreve gravações que revelam práticas ocultas e produzem consequências em investigações e processos.",
+          "A alternativa E é correta porque a metáfora aponta para a utilidade jurídica que os aparelhos podem assumir ao registrar fatos."
+        ],
+        "takeaway": "O sentido de uma metáfora depende dos exemplos e das consequências apresentados no texto."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2021-4-espanhol",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Comparação e passagem do tempo",
+        "steps": [
+          "A ação dos anos sobre o homem é comparada ao desgaste produzido pela água sobre uma pedra.",
+          "A alternativa A é correta porque a analogia enfatiza a transformação da personagem pelo tempo, tornando o envelhecimento perceptível em sua descrição."
+        ],
+        "takeaway": "Comparações aproximam experiências diferentes para intensificar uma característica comum."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2020-3-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Resenha e identificação do público",
+        "steps": [
+          "O crítico afirma que os comportamentos violentos das personagens também podem ser reconhecidos em nós.",
+          "A alternativa E é correta porque o texto ressalta o autorreconhecimento diante de atitudes humanas representadas no filme, além de elogiar sua produção."
+        ],
+        "takeaway": "Em uma resenha, distinga a avaliação técnica da interpretação sobre o efeito da obra no público."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2019-2-espanhol",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Sentido de dejar su huella",
+        "steps": [
+          "A expressão aparece ao lado do desejo de participar de algo grande e transformar o mundo ao redor.",
+          "A alternativa B é correta porque deixar uma marca significa fazer diferença no mundo, não produzir uma pegada física."
+        ],
+        "takeaway": "Use as ideias vizinhas para interpretar o sentido figurado de uma expressão estrangeira."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2019-3-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Fábula e divulgação científica",
+        "steps": [
+          "O texto retoma personagens conhecidos para apresentar hábitos reais de formigas e cigarras.",
+          "A alternativa C é correta porque a finalidade é descrever o comportamento dos insetos na natureza, relativizando os julgamentos morais da fábula."
+        ],
+        "takeaway": "Uma narrativa conhecida pode servir de ponto de partida para explicar conhecimentos de outra área."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2018-2-espanhol",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Polissemia de limpia",
+        "steps": [
+          "A palavra se refere tanto à menor geração de resíduos como à redução de práticas ilícitas no processo de construção.",
+          "A alternativa B é correta porque o segundo sentido indica inibir a corrupção, explicitada pelos envelopes e pela discussão sobre contratações."
+        ],
+        "takeaway": "Uma mesma palavra pode ativar sentidos literal e figurado dentro de um único argumento."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2018-3-espanhol",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Leitura de uma ação solidária",
+        "steps": [
+          "O texto apresenta uma forma de contribuir para programas sociais por meio de uma escolha ligada aos impostos.",
+          "A alternativa C é correta porque a ação ocorre quando o contribuinte destina parte desses recursos ao custeio dos programas, conforme o procedimento descrito."
+        ],
+        "takeaway": "Identifique quem realiza a ação, qual recurso utiliza e a quem o benefício se destina."
+      },
+      "moduleId": "es-leitura"
+    },
+    {
+      "id": "2023-3-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Gastronomia e identidade",
+        "steps": [
+          "Os pratos são associados a lugares, paisagens e tradições, ultrapassando uma simples lista de receitas.",
+          "A alternativa E é correta porque o poema enaltece a gastronomia como expressão da identidade cultural de um povo."
+        ],
+        "takeaway": "Práticas alimentares podem representar modos de vida, memória e pertencimento coletivo."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2023-5-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Canção e denúncia da xenofobia",
+        "steps": [
+          "A narrativa de uma agressão se combina a perguntas sobre o silêncio e a falta de responsabilização.",
+          "A alternativa A é correta porque a letra manifesta indignação diante da violência racista e do desrespeito à diversidade."
+        ],
+        "takeaway": "O posicionamento de uma canção pode ser reconhecido pelo tom e pela forma de narrar um conflito."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2022-3-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Amizade e sentidos das palavras",
+        "steps": [
+          "As formas de chamar um amigo são ligadas à partilha, ao acolhimento e à proteção em diferentes lugares.",
+          "A alternativa C é correta porque as expressões variam segundo o papel da amizade nos contextos narrados, como as chaves que garantiam abrigo."
+        ],
+        "takeaway": "O sentido social de uma palavra se enriquece com as experiências que motivam seu uso."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2021-2-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Variedades do espanhol",
+        "steps": [
+          "Auxilio percebe no modo de falar dos escritores traços sonoros que os distinguem de sua própria experiência linguística.",
+          "A alternativa A é correta porque a reflexão evidencia variedades do espanhol, sem transformar a diferença de pronúncia em incapacidade de comunicação."
+        ],
+        "takeaway": "Uma língua reúne variedades que expressam trajetórias geográficas e culturais distintas."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2020-1-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Personagem e crítica política",
+        "steps": [
+          "O retorno cansado de Pablo contrasta com promessas de futuro ainda afixadas nas paredes do bairro.",
+          "A alternativa A é correta porque a experiência individual expressa a decepção com uma estrutura política que não realizou as mudanças prometidas."
+        ],
+        "takeaway": "Um personagem singular pode representar condições e frustrações compartilhadas socialmente."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2020-2-espanhol",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Obra e compromisso intelectual",
+        "steps": [
+          "Benedetti contrapõe discursos sobre liberdade à desqualificação de intelectuais comprometidos com causas políticas.",
+          "A alternativa C é correta porque o texto leva a reconhecer que o compromisso ideológico pode se refletir nas obras desses intelectuais."
+        ],
+        "takeaway": "A análise de um texto crítico exige distinguir as posições citadas da perspectiva de seu autor."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2020-4-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Território e conflito identitário",
+        "steps": [
+          "O eu lírico evoca lugares e costumes de seus antepassados e depois recusa pertencimentos nacionais exclusivos.",
+          "A alternativa E é correta porque a expropriação territorial produz um conflito de identidades, entre a memória do passado e a busca de um futuro."
+        ],
+        "takeaway": "Mudanças territoriais podem afetar o modo como sujeitos elaboram seu pertencimento cultural."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2019-1-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Identidade plural",
+        "steps": [
+          "O eu lírico se reconhece na presença moura e árabe articulada à experiência espanhola.",
+          "A alternativa A é correta porque essa combinação afirma uma formação identitária plural, sem reduzir sua origem a uma única tradição."
+        ],
+        "takeaway": "Referências a diferentes heranças culturais podem expressar uma identidade formada por encontros históricos."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2019-4-espanhol",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Personificação e cultura alimentar",
+        "steps": [
+          "A empanada recebe corpo, boca e ventre, em imagens ligadas ao prazer de comer.",
+          "A alternativa A é correta porque a personificação valoriza o prato como expressão da culinária hispânica e intensifica seu apelo sensorial."
+        ],
+        "takeaway": "A personificação atribui características humanas a elementos não humanos para criar efeitos expressivos."
+      },
+      "moduleId": "es-cultura"
+    },
+    {
+      "id": "2018-1-espanhol",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Presságio e antecipação narrativa",
+        "steps": [
+          "A abertura anuncia a morte de Santiago e informa que sua mãe não percebeu sinais negativos nos sonhos.",
+          "A alternativa B é correta porque augurio aciago remete ao destino trágico que ela não conseguiu antecipar, apesar de sua reputação como intérprete."
+        ],
+        "takeaway": "Relacione o vocabulário de presságio às informações que o narrador antecipa sobre a história."
+      },
+      "moduleId": "es-cultura"
+    }
+  ]
+}
