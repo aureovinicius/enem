@@ -1,12 +1,12 @@
 /* Change VERSION with every release of the application shell. */
-const VERSION = "pwa-1";
+const VERSION = "pwa-2";
 const SCOPE = new URL(self.registration.scope);
 const PREFIX = `enem:${encodeURIComponent(SCOPE.href)}:`;
 const CORE_CACHE = `${PREFIX}${VERSION}:core`;
 const RESOURCE_CACHE = `${PREFIX}${VERSION}:resources`;
 const CORE_PATHS = [
-  "./", "app.js?v=pwa-1", "styles.css?v=pwa-1", "pwa.js?v=pwa-1",
-  "data/courses.json?v=pwa-1", "manifest.webmanifest", "icons/icon-192.png",
+  "./", "app.js?v=pwa-2", "styles.css?v=pwa-2", "pwa.js?v=pwa-2",
+  "data/courses.json?v=pwa-2", "manifest.webmanifest", "icons/icon-192.png",
   "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png", "favicon.svg",
 ];
 const CORE_URLS = new Set(CORE_PATHS.map(path => new URL(path, SCOPE).href));

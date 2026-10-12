@@ -328,7 +328,7 @@ test("continuous practice respects intersecting filters and goes beyond five ans
   assert.equal(app.run("quiz.cycle"), 2);
   assert.equal(app.run("new Set(quiz.questions.slice(0,20).map(q=>q.id)).size"), 20);
   assert.equal(app.run("quiz.questions[19].id === quiz.questions[20].id"), false);
-  assert.equal(app.run("state.hearts"), 3);
+  assert.equal(app.run("state.hearts"), undefined);
   assert.equal(app.run("state.completed.length"), 0);
 });
 
@@ -363,7 +363,7 @@ test("difficulty, year, keyword and response filters handle missing TRI distinct
 test("statistics record verified answers once, survive reload and never infer legacy accuracy", () => {
   const app = appHarness({activeCourse:"matematica",answered:["2009-178","2009-178"],xp:20,hearts:1});
   app.run("startPractice(); quiz.timerStartedAt = Date.now() - 5000; selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); checkAnswer(); nextQuestion(); selectAnswer(quiz.questions[1].alternatives.find(a=>a.letter!==quiz.questions[1].correctAlternative).letter); checkAnswer();");
-  assert.equal(app.run("state.hearts"),1);
+  assert.equal(app.run("state.hearts"),undefined);
   assert.equal(app.run("state.legacyAnsweredCount"),2);
   assert.equal(app.run("performanceMetrics(courseAttempts()).accuracy"),50);
   assert.equal(app.run("performanceMetrics(courseAttempts()).total"),2);
@@ -400,4 +400,147 @@ test("date and mode filters separate periods and preserve Natureza shared statis
   assert.equal(app.run("courseAttempts('all').length"),1);
   app.run("setCourse('matematica')");
   assert.equal(app.run("courseAttempts('all').length"),0);
+});
+
+test("legacy hearts are removed without resetting saved study progress", () => {
+  const saved = {
+    activeCourse: "matematica", hearts: 0, xp: 230, streak: 4,
+    completed: ["mat-c1-1"], introductionsRead: ["mat-c1"],
+    answered: ["2009-178"], missed: ["2009-178"], favorites: ["2009-178"],
+    practiceFilters: { matematica: { status: "wrong" } },
+    attempts: [{ questionId: "2009-178", correct: false, answer: "A", at: "2026-10-01T15:00:00Z", day: "2026-10-01", durationMs: 1200, mode: "lesson" }],
+  };
+  const app = appHarness(saved);
+  const migrated = JSON.parse(app.storage.get("fisio-progress-v1"));
+  assert.equal(Object.hasOwn(migrated, "hearts"), false);
+  for (const key of Object.keys(saved).filter(key => key !== "hearts")) {
+    assert.deepEqual(migrated[key], saved[key], key);
+  }
+  assert.equal(app.run("isUnlocked(lessons[1])"), true);
+  app.run("startLesson(lessons[1].id)");
+  assert.equal(app.run("quiz.errors"), 0);
+});
+
+for (const errors of [0, 3]) {
+  test(`a complete lesson with ${errors} errors passes and earns its completion bonus once`, () => {
+    const app = appHarness({ activeCourse: "matematica" });
+    app.run("startLesson(lessons[0].id)");
+    assert.equal(app.run("isUnlocked(lessons[1])"), false);
+    for (let i = 0; i < 5; i++) {
+      app.run(i < errors
+        ? "selectAnswer(quiz.questions[quiz.index].alternatives.find(a => a.letter !== quiz.questions[quiz.index].correctAlternative).letter)"
+        : "selectAnswer(quiz.questions[quiz.index].correctAlternative)");
+      app.run("checkAnswer(); checkAnswer(); nextQuestion()");
+    }
+    assert.equal(app.run("quiz.errors"), errors);
+    assert.equal(app.run("quiz.passed"), true);
+    assert.equal(app.run("quiz.ended"), true);
+    assert.equal(app.run("state.attempts.length"), 5);
+    assert.equal(app.run("state.completed.includes(lessons[0].id)"), true);
+    assert.equal(app.run("isUnlocked(lessons[1])"), true);
+    assert.equal(app.run("state.xp"), (5 - errors) * 10 + 20);
+    app.run("finishLesson(); nextQuestion(); checkAnswer()");
+    assert.equal(app.run("state.xp"), (5 - errors) * 10 + 20);
+    assert.equal(app.run("state.completed.length"), 1);
+    assert.equal(app.run("state.attempts.length"), 5);
+  });
+}
+
+test("the fourth error keeps its explanation visible before failing early without unlocking or bonus", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  app.run("startLesson(lessons[0].id)");
+  for (let i = 0; i < 4; i++) {
+    app.run("selectAnswer(quiz.questions[quiz.index].alternatives.find(a => a.letter !== quiz.questions[quiz.index].correctAlternative).letter); checkAnswer(); checkAnswer()");
+    if (i < 3) app.run("nextQuestion()");
+  }
+  assert.equal(app.run("quiz.errors"), 4);
+  assert.equal(app.run("quiz.index"), 3);
+  assert.equal(app.run("Boolean(quiz.ended)"), false);
+  assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes('class="explanation"'));
+  assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes("Ver resultado"));
+  app.run("nextQuestion()");
+  assert.equal(app.run("quiz.passed"), false);
+  assert.equal(app.run("quiz.ended"), true);
+  assert.equal(app.run("quiz.index"), 3);
+  assert.equal(app.run("state.attempts.length"), 4);
+  assert.equal(app.run("state.completed.length"), 0);
+  assert.equal(app.run("isUnlocked(lessons[1])"), false);
+  assert.equal(app.run("state.xp"), 0);
+  assert.ok(app.nodes.get("#lesson-modal").innerHTML.includes('data-action="restart-lesson"'));
+  app.run("nextQuestion(); finishLesson(); selectAnswer('A'); checkAnswer()");
+  assert.equal(app.run("state.attempts.length"), 4);
+});
+
+test("restarting a failed lesson resets only the attempt and preserves answers and earned XP", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  app.run("startLesson(lessons[0].id); selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); nextQuestion()");
+  for (let i = 0; i < 4; i++) {
+    app.run("selectAnswer(quiz.questions[quiz.index].alternatives.find(a => a.letter !== quiz.questions[quiz.index].correctAlternative).letter); checkAnswer(); nextQuestion()");
+  }
+  const questionIds = app.run("JSON.stringify(quiz.questions.map(q => q.id))");
+  assert.equal(app.run("quiz.passed"), false);
+  assert.equal(app.run("state.xp"), 10);
+  app.run("restartLesson()");
+  assert.equal(app.run("JSON.stringify(quiz.questions.map(q => q.id))"), questionIds);
+  assert.equal(app.run("quiz.lesson.id"), "mat-c1-1");
+  assert.equal(app.run("quiz.errors"), 0);
+  assert.equal(app.run("quiz.correct"), 0);
+  assert.equal(app.run("quiz.index"), 0);
+  assert.equal(app.run("quiz.checked"), false);
+  assert.equal(app.run("quiz.selected"), null);
+  assert.equal(app.run("Boolean(quiz.ended)"), false);
+  assert.equal(app.run("state.attempts.length"), 5);
+  assert.equal(app.run("state.answered.length"), 5);
+  assert.equal(app.run("state.xp"), 10);
+  for (let i = 0; i < 5; i++) app.run("selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); nextQuestion()");
+  assert.equal(app.run("quiz.passed"), true);
+  assert.equal(app.run("state.attempts.length"), 10);
+  assert.equal(app.run("state.completed.length"), 1);
+  assert.equal(app.run("state.xp"), 80);
+});
+
+test("empty and unfinished lessons cannot be completed or award a bonus", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  app.run("startLesson(null, []); finishLesson()");
+  assert.equal(app.run("quiz"), null);
+  app.run("startLesson(lessons[0].id); finishLesson(); nextQuestion()");
+  assert.equal(app.run("Boolean(quiz.ended)"), false);
+  assert.equal(app.run("state.xp"), 0);
+  app.run("selectAnswer(quiz.questions[0].correctAlternative); checkAnswer(); finishLesson()");
+  assert.equal(app.run("Boolean(quiz.ended)"), false);
+  assert.equal(app.run("state.completed.length"), 0);
+  assert.equal(app.run("state.xp"), 10);
+  assert.equal(app.run("isUnlocked(lessons[1])"), false);
+});
+
+test("many practice errors never exhaust attempts or complete a course lesson", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  app.run("startPractice()");
+  for (let i = 0; i < 30; i++) {
+    app.run("selectAnswer(quiz.questions[quiz.index].alternatives.find(a => a.letter !== quiz.questions[quiz.index].correctAlternative).letter); checkAnswer(); finishLesson(); nextQuestion()");
+  }
+  assert.equal(app.run("quiz.practice"), true);
+  assert.equal(app.run("Boolean(quiz.ended)"), false);
+  assert.equal(app.run("quiz.answeredCount"), 30);
+  assert.equal(app.run("state.attempts.length"), 30);
+  assert.equal(app.run("state.completed.length"), 0);
+  assert.equal(app.run("state.xp"), 0);
+  assert.ok(!app.nodes.get("#lesson-modal").innerHTML.includes('class="quiz-errors"'));
+  app.run("restartLesson()");
+  assert.equal(app.run("quiz.answeredCount"), 30);
+});
+
+test("failure on an already completed lesson preserves its completion and does not renew the bonus", () => {
+  const app = appHarness({ activeCourse: "matematica", completed: ["mat-c1-1"], xp: 200 });
+  app.run("startLesson(lessons[0].id)");
+  for (let i = 0; i < 4; i++) app.run("selectAnswer(quiz.questions[quiz.index].alternatives.find(a => a.letter !== quiz.questions[quiz.index].correctAlternative).letter); checkAnswer(); nextQuestion()");
+  assert.equal(app.run("quiz.passed"), false);
+  assert.equal(app.run("state.completed.includes('mat-c1-1')"), true);
+  assert.equal(app.run("isUnlocked(lessons[1])"), true);
+  assert.equal(app.run("state.xp"), 200);
+  app.run("restartLesson()");
+  for (let i = 0; i < 5; i++) app.run("selectAnswer(quiz.questions[quiz.index].correctAlternative); checkAnswer(); nextQuestion()");
+  assert.equal(app.run("quiz.passed"), true);
+  assert.equal(app.run("state.completed.length"), 1);
+  assert.equal(app.run("state.xp"), 250);
 });

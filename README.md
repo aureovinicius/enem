@@ -16,9 +16,13 @@ Matemática tem 20 questões por competência, distribuídas em quatro lições 
 
 Química e Biologia receberam mais 50 questões cada (10 por unidade), com resoluções específicas. A composição das lições anteriores, inclusive as lições parciais de três questões, é preservada em `data/courses/lesson-layout.json`. Cada matéria agora tem 20 lições. A questão anulada 2023-164 foi substituída por 2017-165 na mesma posição de Matemática (C6/H26), mantendo o ID e a conclusão da lição; o motivo e as fontes estão em `data/courses/math-replacement.json`.
 
+## Aprovação nas lições
+
+Cada tentativa começa com zero erros. Para concluir a lição e liberar a próxima, responda todos os itens com no máximo **3 erros**. O quarto erro encerra a tentativa após a leitura da resolução, sem conceder conclusão nem o bônus de 20 XP. O botão **Reiniciar lição** renova a tentativa imediatamente, sem espera ou limite diário. Respostas, estatísticas e XP por acerto permanecem salvos, assim como lições aprovadas anteriormente. A regra também se aplica às lições curtas, sem alterar sua composição.
+
 ## Prática e desempenho
 
-O modo prática usa filtros combinados por matéria, assunto, competência, ano, dificuldade TRI, palavra-chave e situação (todas, não respondidas, respondidas, erros pendentes ou favoritas). Inspirado no fluxo de bancos de questões do [Qconcursos](https://www.qconcursos.com/questoes-de-concursos/questoes), permite responder, corrigir, ler a justificativa e seguir para outra questão, sem limite de cinco itens e sem consumir corações.
+O modo prática usa filtros combinados por matéria, assunto, competência, ano, dificuldade TRI, palavra-chave e situação (todas, não respondidas, respondidas, erros pendentes ou favoritas). Inspirado no fluxo de bancos de questões do [Qconcursos](https://www.qconcursos.com/questoes-de-concursos/questoes), permite responder, corrigir, ler a justificativa e seguir para outra questão, sem limite de cinco itens nem limite de erros.
 
 O sorteio não repete itens antes de percorrer a seleção. Ao terminar, começa outra rodada aleatória, exceto quando filtros como “não respondidas” ou “erros para revisar” deixam de ter itens elegíveis. Pular não registra resposta nem tempo. Favoritos e filtros persistem por matéria no navegador.
 

@@ -344,7 +344,7 @@ button:focus-visible, a:focus-visible {
 }
 .stat-strip {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 9px;
   margin-bottom: 20px;
 }
@@ -362,7 +362,6 @@ button:focus-visible, a:focus-visible {
 }
 .stat-chip.fire { color: #e58226; }
 .stat-chip.xp { color: var(--blue-dark); }
-.stat-chip.hearts { color: var(--red); }
 
 .rail-card {
   margin-bottom: 16px;
@@ -494,7 +493,8 @@ button:focus-visible, a:focus-visible {
 .icon-button:hover { background: var(--surface-2); color: var(--ink); }
 .quiz-progress { height: 14px; overflow: hidden; border-radius: 999px; background: #dfdcd4; }
 .quiz-progress span { display: block; height: 100%; border-radius: inherit; background: var(--green); transition: width 300ms ease; }
-.quiz-hearts { color: var(--red); font-weight: 800; }
+.quiz-errors { color: var(--red); font-size: 13px; font-weight: 800; white-space: nowrap; }
+.lesson-rule { width: min(900px, calc(100% - 36px)); margin: 0 auto; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .question-wrap { width: min(720px, calc(100% - 36px)); margin: 24px auto 160px; }
 .question-meta { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 16px; color: var(--muted); font-size: 12px; font-weight: 800; }
 .question-wrap h1 { margin: 0 0 18px; font: 800 clamp(23px, 4vw, 31px)/1.25 "Manrope", sans-serif; }
@@ -586,6 +586,7 @@ button:focus-visible, a:focus-visible {
 .finish-stat strong { display: block; font-size: 24px; }
 .finish-stat span { color: var(--muted); font-size: 11px; font-weight: 800; text-transform: uppercase; }
 .finish-card .button { width: 100%; }
+.finish-back { margin-top: 18px; }
 
 .course-switcher {
   display: grid;

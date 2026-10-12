@@ -1,6 +1,7 @@
-const DATA_URL = "/data/courses.json?v=pwa-1";
+const DATA_URL = "/data/courses.json?v=pwa-2";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
+const MAX_LESSON_ERRORS = 3;
 
 const modulePalette = {
   mecanica: ["#35b66f", "#178655"],
@@ -43,7 +44,6 @@ function loadState() {
     dailyDay: localDay(),
     lastStudyDay: null,
     streak: 0,
-    hearts: 5,
     completed: [],
     introductionsRead: [],
     answered: [],
@@ -57,6 +57,7 @@ function loadState() {
   };
   try {
     const saved = { ...fallback, ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
+    delete saved.hearts; // Attempts now have their own error limit; keep all study progress.
     for (const key of ["completed", "introductionsRead", "answered", "missed", "favorites"]) {
       saved[key] = Array.isArray(saved[key]) ? saved[key].filter(x => typeof x === "string") : [];
     }
@@ -65,7 +66,6 @@ function loadState() {
     if (!saved.practiceFilters || typeof saved.practiceFilters !== "object" || Array.isArray(saved.practiceFilters)) saved.practiceFilters = {};
     if (saved.dailyDay !== localDay()) {
       saved.todayXp = 0;
-      saved.hearts = 5;
       saved.dailyDay = localDay();
     }
     return saved;
@@ -170,7 +170,6 @@ function statMarkup() {
   return `
     <div class="stat-chip fire" title="Sequência diária">🔥 ${state.streak}</div>
     <div class="stat-chip xp" title="Pontos de experiência">✦ ${state.xp}</div>
-    <div class="stat-chip hearts" title="Corações">♥ ${state.hearts}</div>
   `;
 }
 
@@ -342,7 +341,7 @@ function renderPractice() {
       <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Enem, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
     </form>
     <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length ? "" : "disabled"}>Iniciar prática contínua <span aria-hidden="true">→</span></button></section>
-    <div class="notice">As respostas são salvas a cada correção. Você pode pular uma questão ou encerrar quando quiser; a prática não consome corações.</div>
+    <div class="notice">As respostas são salvas a cada correção. Você pode errar sem limite, pular uma questão ou encerrar quando quiser.</div>
   `;
 }
 
@@ -502,7 +501,7 @@ function renderAbout() {
       <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
       <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. Natureza reúne Física, Química e Biologia; suas questões são contadas uma única vez neste total.</p></article>
       <article class="info-card"><div class="big-number">15</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito original.</p></article>
-      <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, corações e lições concluídas ficam salvos apenas neste navegador.</p></article>
+      <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, respostas e lições concluídas ficam salvos apenas neste navegador.</p></article>
     </div>
     <div class="notice"><strong>Instalar o Enem:</strong> abra este site no Chrome ou Edge e escolha a opção de instalar aplicativo no menu do navegador. No iPhone ou iPad, use Compartilhar → Adicionar à Tela de Início. Depois, o Enem abre em uma janela própria. Em navegadores compatíveis, as questões e os comentários são guardados após o primeiro carregamento; imagens ainda não carregadas precisam de conexão. O progresso continua salvo neste dispositivo.</div>
     <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
@@ -589,6 +588,7 @@ function startLesson(lessonId, customQuestions) {
     selected: null,
     checked: false,
     correct: 0,
+    errors: 0,
     practice: false,
   };
   if (!quiz.questions?.length) { quiz = null; return; }
@@ -596,6 +596,11 @@ function startLesson(lessonId, customQuestions) {
   openModal(lesson.title);
   renderQuestion();
   modal.querySelector("h1").focus();
+}
+
+function restartLesson() {
+  if (!quiz || quiz.practice) return;
+  startLesson(quiz.lesson.id, quiz.questions);
 }
 
 function startPractice() {
@@ -620,8 +625,9 @@ function renderQuestion() {
   modal.innerHTML = `
     <div class="quiz-shell">
       <div class="quiz-topbar">
-        ${quiz.practice ? `<button class="text-button" data-action="end-practice">Encerrar prática</button><span class="session-counter">${counted(quiz.answeredCount, "respondida")} · ${counted(quiz.correct, "acerto")}</span><span class="session-round">Rodada ${quiz.cycle}</span>` : `<button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button><div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div><div class="quiz-hearts">♥ ${state.hearts}</div>`}
+        ${quiz.practice ? `<button class="text-button" data-action="end-practice">Encerrar prática</button><span class="session-counter">${counted(quiz.answeredCount, "respondida")} · ${counted(quiz.correct, "acerto")}</span><span class="session-round">Rodada ${quiz.cycle}</span>` : `<button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button><div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div><div class="quiz-errors" role="status" aria-label="${counted(quiz.errors, "erro")} nesta tentativa; limite de ${MAX_LESSON_ERRORS}">Erros ${quiz.errors}/${MAX_LESSON_ERRORS}</div>`}
       </div>
+      ${quiz.practice ? "" : `<p class="lesson-rule">Até ${MAX_LESSON_ERRORS} erros para concluir. Ao reiniciar a lição, a contagem volta a zero.</p>`}
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
@@ -666,8 +672,8 @@ function renderQuizFooter(question) {
   return `
     <footer class="quiz-footer ${correct ? "success" : "error"}">
       <div class="quiz-footer-inner">
-        <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>Confira a resolução comentada antes de continuar.</span></div>
-        <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.practice ? "Próxima questão" : quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
+        <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>${!quiz.practice && quiz.errors > MAX_LESSON_ERRORS ? "Limite de erros excedido. Leia a resolução antes de reiniciar." : "Confira a resolução comentada antes de continuar."}</span></div>
+        <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.practice ? "Próxima questão" : quiz.errors > MAX_LESSON_ERRORS ? "Ver resultado" : quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
       </div>
     </footer>
   `;
@@ -694,7 +700,7 @@ function checkAnswer() {
     state.todayXp += 10;
     state.missed = state.missed.filter((id) => id !== question.id);
   } else {
-    if (!quiz.practice) state.hearts = Math.max(0, state.hearts - 1);
+    if (!quiz.practice) quiz.errors += 1;
     if (!state.missed.includes(question.id)) state.missed.push(question.id);
   }
   saveState();
@@ -707,6 +713,7 @@ function checkAnswer() {
 function nextQuestion() {
   if (!quiz?.checked || quiz.ended) return;
   if (quiz.practice) { advancePractice(); return; }
+  if (quiz.errors > MAX_LESSON_ERRORS) { finishLesson(); return; }
   if (quiz.index < quiz.questions.length - 1) {
     quiz.index += 1;
     quiz.selected = null;
@@ -721,33 +728,40 @@ function nextQuestion() {
 }
 
 function finishLesson() {
-  if (!quiz || quiz.ended) return;
+  if (!quiz || quiz.practice || quiz.ended || !quiz.checked) return;
+  const passed = quiz.errors <= MAX_LESSON_ERRORS;
+  if (passed && quiz.index !== quiz.questions.length - 1) return;
   quiz.ended = true;
+  quiz.passed = passed;
   const lesson = quiz.lesson;
   const isCourseLesson = lessons.some((item) => item.id === lesson.id);
-  const earnedBonus = isCourseLesson && !state.completed.includes(lesson.id);
+  const earnedBonus = passed && isCourseLesson && !state.completed.includes(lesson.id);
   if (earnedBonus) {
     state.completed.push(lesson.id);
     state.xp += 20;
     state.todayXp += 20;
   }
   markStudyDay();
-  const accuracy = Math.round((quiz.correct / quiz.questions.length) * 100);
+  const accuracy = Math.round((quiz.correct / (quiz.index + 1)) * 100);
   saveState();
   modal.innerHTML = `
     <div class="quiz-shell">
       <div class="finish-card">
-        <div class="finish-burst">${accuracy >= 80 ? "🏆" : "⚛️"}</div>
-        <h1>Lição concluída!</h1>
-        <p>${accuracy >= 80 ? "Excelente domínio desta rodada." : "Boa prática. Seus erros já entraram na revisão."}</p>
+        <div class="finish-burst" aria-hidden="true">${passed ? accuracy >= 80 ? "🏆" : "⚛️" : "↻"}</div>
+        <h1 tabindex="-1">${passed ? "Lição concluída!" : "Limite de erros excedido"}</h1>
+        <p>${passed ? `Aprovado com ${counted(quiz.errors, "erro")}.` : `Você cometeu ${quiz.errors} erros; o limite é ${MAX_LESSON_ERRORS}. Reinicie para tentar novamente com a contagem zerada.`}</p>
+        ${passed ? "" : '<p>Suas respostas e os XP por acerto foram salvos. Esta tentativa não conclui a lição nem libera a próxima.</p>'}
         <div class="finish-stats">
           <div class="finish-stat"><strong>${accuracy}%</strong><span>Precisão</span></div>
           <div class="finish-stat"><strong>+${quiz.correct * 10 + (earnedBonus ? 20 : 0)}</strong><span>XP ganho</span></div>
         </div>
-        <button class="button" data-action="finish">Voltar à trilha</button>
+        ${passed ? "" : '<button class="button" data-action="restart-lesson">Reiniciar lição</button>'}
+        <button class="${passed ? "button" : "text-button finish-back"}" data-action="finish">Voltar à trilha</button>
       </div>
     </div>
   `;
+  modal.querySelector("h1").focus({ preventScroll: true });
+  modal.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function closeQuiz() {
@@ -804,6 +818,7 @@ document.addEventListener("click", (event) => {
   }
   if (action === "check") checkAnswer();
   if (action === "next-question") nextQuestion();
+  if (action === "restart-lesson") restartLesson();
   if (action === "finish") closeQuiz();
 });
 
