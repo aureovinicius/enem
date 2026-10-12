@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-7";
+const DATA_URL = "/data/courses.json?v=pwa-8";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -128,9 +128,9 @@ function renderPlainMarkdown(value) {
     .replace(/\n/g, "<br>");
 }
 
-function renderMarkdown(value = "") {
+function renderMarkdown(value = "", proseOnly = false) {
   // The question source escapes quotation omissions as Markdown brackets.
-  const prose = String(value).replace(/\\\[\s*(…|\.{3})\s*\\\]/g, "[$1]");
+  const prose = proseOnly ? String(value).replace(/\\([\[\]])/g, "$1") : String(value).replace(/\\\[\s*(…|\.{3})\s*\\\]/g, "[$1]");
   return `<p>${renderMathText(prose, renderPlainMarkdown)}</p>`;
 }
 
@@ -157,7 +157,7 @@ function makeLessons() {
 }
 
 function isUnlocked(lesson) {
-  return lesson.index === 0 || state.completed.includes(lessons[lesson.globalIndex - 1]?.id);
+  return state.completed.includes(lesson.id) || lesson.index === 0 || state.completed.includes(lessons[lesson.globalIndex - 1]?.id);
 }
 
 function setCourse(courseId) {
@@ -171,6 +171,11 @@ function setCourse(courseId) {
   }) };
   state.activeCourse = course.id;
   makeLessons();
+  for (const [currentId, oldId] of Object.entries(course.legacyLessonCredits || {})) {
+    if (state.completed.includes(oldId) && !state.completed.includes(currentId)) state.completed.push(currentId);
+  }
+  const filters = state.practiceFilters[course.id];
+  if (filters?.module && !course.modules.some(m => m.id === filters.module)) filters.module = "";
   saveState();
 }
 
@@ -179,7 +184,7 @@ function completedLessons() {
 }
 
 function courseSwitcher() {
-  return `<div class="course-switcher"><label for="course-select">Matéria</label><select id="course-select" aria-label="Matéria">${catalog.courses.map((course) => `<option value="${course.id}" ${course.id === data.id ? "selected" : ""}>${course.emoji} ${escapeHtml(course.title)}</option>`).join("")}</select><span>${data.total} questões comentadas</span></div>`;
+  return `<div class="course-switcher"><label for="course-select">Matéria</label><select id="course-select" aria-label="Matéria">${[...catalog.courses].sort((a, b) => a.title.localeCompare(b.title, "pt-BR", { sensitivity: "base" })).map((course) => `<option value="${course.id}" ${course.id === data.id ? "selected" : ""}>${course.emoji} ${escapeHtml(course.title)}</option>`).join("")}</select><span>${data.total} questões comentadas</span></div>`;
 }
 
 function referenceMarkup(module) {
@@ -285,7 +290,7 @@ function renderLearn() {
                     <button class="lesson-node ${complete ? "complete" : ""} ${!unlocked ? "locked" : ""} ${current ? "current" : ""}"
                       ${unlocked ? `data-lesson="${lesson.id}"` : "disabled"}
                       aria-label="${escapeHtml(lesson.title)}${complete ? ", concluída" : unlocked ? "" : ", bloqueada"}">${icon}</button>
-                    <div class="lesson-label"><strong>${lesson.title}</strong><span>${complete ? "Concluída" : unlocked ? `${lesson.questions.length} questões` : "Complete a anterior"}</span></div>
+                    <div class="lesson-label"><strong>${lesson.title}</strong><span>${complete ? "Concluída" : unlocked ? counted(lesson.questions.length, "questão", "questões") : "Complete a anterior"}</span></div>
                   </div>
                 `;
               }).join("")}
@@ -663,7 +668,7 @@ function renderQuestion() {
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
         ${question.skill ? `<div class="question-skill"><strong>${({matematica: "MT", "ciencias-natureza": "CN", "ciencias-humanas": "CH", linguagens: "LC"})[question.areaId]} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
         <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
-        ${question.context ? `<div class="question-context" lang="${question.language === "ingles" ? "en" : question.language === "espanhol" ? "es" : "pt-BR"}">${renderMarkdown(question.context)}</div>` : ""}
+        ${question.context ? `<div class="question-context" lang="${question.language === "ingles" ? "en" : question.language === "espanhol" ? "es" : "pt-BR"}">${renderMarkdown(question.context, question.areaId === "linguagens")}</div>` : ""}
         <div class="answers">
           ${question.alternatives.map((alternative) => {
             let status = quiz.selected === alternative.letter ? "selected" : "";

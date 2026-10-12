@@ -1,0 +1,751 @@
+{
+  "modules": [
+    {
+      "id": "lc-arte",
+      "subjectId": "arte",
+      "title": "Arte",
+      "emoji": "🎨",
+      "description": "Arte como linguagem, produção cultural e diversidade.",
+      "introduction": {
+        "title": "Entenda Arte",
+        "duration": "4 min",
+        "summary": "Arte como linguagem, produção cultural e diversidade.",
+        "sections": [
+          {
+            "title": "Arte e contexto",
+            "text": "Uma obra participa da cultura de seu tempo. Observe técnicas, materiais, circulação e relação com o público. Sua função pode ser ritual, crítica, estética ou política; não suponha que toda produção tenha o mesmo objetivo."
+          },
+          {
+            "title": "Forma e significado",
+            "text": "Cores, composição, movimento e escolha dos materiais podem produzir efeitos expressivos. Relacione esses recursos à pergunta. Em intervenções e performances, o espaço e a participação do público também fazem parte da obra."
+          },
+          {
+            "title": "Encontros culturais",
+            "text": "Manifestações artísticas podem combinar tradições e tecnologias. A mistura de referências não elimina necessariamente identidades: pode recriá-las. Reconheça os grupos envolvidos e evite hierarquizar suas expressões."
+          }
+        ],
+        "example": {
+          "title": "Uma instalação com objetos descartados",
+          "steps": [
+            "O artista organiza materiais cotidianos num espaço de exposição. Sua escolha modifica a maneira de olhar esses objetos.",
+            "Se o enunciado destaca o consumo, relacione os materiais à crítica do descarte, sem concluir que toda reutilização artística tenha a mesma intenção."
+          ]
+        },
+        "pitfall": "Não reduza arte à reprodução fiel da realidade nem ignore o contexto de produção."
+      }
+    },
+    {
+      "id": "lc-educacao-fisica",
+      "subjectId": "educacao-fisica",
+      "title": "Educação Física",
+      "emoji": "🏃",
+      "description": "Práticas corporais, saúde, inclusão e cultura do movimento.",
+      "introduction": {
+        "title": "Entenda Educação Física",
+        "duration": "4 min",
+        "summary": "Práticas corporais, saúde, inclusão e cultura do movimento.",
+        "sections": [
+          {
+            "title": "Corpo e cultura",
+            "text": "Esportes, danças, jogos e lutas têm histórias, regras e significados sociais. Uma prática corporal pode expressar pertencimento, lazer, competição ou resistência. Identifique a dimensão valorizada pelo texto."
+          },
+          {
+            "title": "Participação e inclusão",
+            "text": "O acesso às atividades depende de tempo, renda, espaços e condições de participação. Adaptações podem ampliar o envolvimento de diferentes pessoas. Analise barreiras sociais, além do desempenho individual."
+          },
+          {
+            "title": "Saúde em perspectiva ampla",
+            "text": "As questões podem relacionar movimento a bem-estar, vínculos e condições de vida. Não confunda o ideal corporal difundido na publicidade com uma definição universal de saúde. Observe a finalidade de campanhas e argumentos."
+          }
+        ],
+        "example": {
+          "title": "Uma atividade adaptada",
+          "steps": [
+            "Um jogo ajusta regras e materiais para permitir a participação de pessoas com diferentes possibilidades de movimento.",
+            "A mudança pode ampliar a interação e a inclusão; seu valor não depende apenas de recordes ou rendimento esportivo."
+          ]
+        },
+        "pitfall": "Evite explicar a participação em atividades físicas apenas por vontade individual, ignorando barreiras de acesso."
+      }
+    },
+    {
+      "id": "lc-ti",
+      "subjectId": "tecnologia-informacao",
+      "title": "Tecnologias da Informação",
+      "emoji": "💻",
+      "description": "Comunicação digital, circulação do conhecimento e leitura crítica.",
+      "introduction": {
+        "title": "Entenda Tecnologias da Informação",
+        "duration": "4 min",
+        "summary": "Comunicação digital, circulação do conhecimento e leitura crítica.",
+        "sections": [
+          {
+            "title": "Tecnologia como linguagem",
+            "text": "Interfaces, hiperlinks e recursos multimodais organizam formas de ler e produzir informação. Uma inovação exige aprender convenções e pode modificar a participação do usuário."
+          },
+          {
+            "title": "Informação e credibilidade",
+            "text": "Identifique fonte, autoria, contexto e finalidade. Compartilhar rapidamente não garante veracidade. Compare evidências e distinga opinião, publicidade, relato e investigação."
+          },
+          {
+            "title": "Acesso e efeitos sociais",
+            "text": "Tecnologias podem ampliar a circulação do conhecimento e também reproduzir desigualdades. Observe acessibilidade, exclusão digital, autoria e transformações nas relações sociais, sem atribuir efeitos iguais a todos os usos."
+          }
+        ],
+        "example": {
+          "title": "Uma notícia acessível",
+          "steps": [
+            "Uma plataforma apresenta conteúdos em texto, áudio e língua de sinais. Esses formatos atendem a diferentes necessidades de comunicação.",
+            "A finalidade é ampliar o acesso à informação; a tecnologia funciona como meio para reduzir barreiras."
+          ]
+        },
+        "pitfall": "Não trate a novidade tecnológica como garantia automática de inclusão ou de qualidade da informação."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "2009-95",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Vanguarda e tecnologia no palco",
+        "steps": [
+          "Parade mistura jazz, sons de tiros, máquinas e aeroplanos a cenários de Picasso e gestos teatrais.",
+          "A alternativa D é correta. A reunião desses recursos insere as inovações técnicas da vida moderna na música, na cena e na coreografia."
+        ],
+        "takeaway": "A vanguarda pode transformar objetos e sons cotidianos em matéria artística."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2009-115",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Continuidade e renovação cultural",
+        "steps": [
+          "As danças vêm dos ancestrais Xavante, enquanto os padrinhos podem sonhar novos cantos para os adolescentes.",
+          "A alternativa E é correta. A identidade coletiva continua viva ao combinar gestualidade herdada e criação de cantos, sem exigir uma tradição imóvel."
+        ],
+        "takeaway": "Preservar uma tradição não impede recriá-la no presente."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2009-118",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 12,
+      "explanation": {
+        "concept": "Participação no Teatro do Oprimido",
+        "steps": [
+          "Boal permite que o espectador substitua o protagonista e mude o desenvolvimento da história.",
+          "A alternativa C é correta. Ao apropriar-se da linguagem teatral, o cidadão deixa a posição passiva e exercita uma interpretação crítica de sua realidade."
+        ],
+        "takeaway": "A função social da arte inclui ampliar a expressão e a autonomia de seus participantes."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2013-117",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Rock e cultura de massa no Brasil",
+        "steps": [
+          "O comando procura o gênero que incorpora referências internacionais da cultura de massa na música brasileira após o tropicalismo.",
+          "A alternativa D é correta. Ovelha negra, de Rita Lee, representa o rock brasileiro, que adapta essa linguagem musical à produção nacional."
+        ],
+        "takeaway": "Na identificação de gêneros musicais, relacione a obra ao contexto cultural indicado no comando."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2014-102",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 12,
+      "explanation": {
+        "concept": "Ampliação do conceito de música",
+        "steps": [
+          "O texto relata a dificuldade de definir música diante das explorações sonoras da vanguarda.",
+          "A alternativa D é correta. Ao acolher os ruídos da rua em suas composições, Cage transforma sons antes considerados extramusicais em parte da obra."
+        ],
+        "takeaway": "O material da composição musical pode incluir ruídos e sons do cotidiano."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2014-117",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Técnica artesanal e identidade do cordel",
+        "steps": [
+          "As oficinas preservam a composição manual das letras e as capas talhadas em madeira, apesar da informatização gráfica.",
+          "A alternativa E é correta. A combinação de impressão artesanal e xilogravura mantém procedimentos reconhecidos como parte da identidade cultural do cordel."
+        ],
+        "takeaway": "A materialidade e a técnica de produção também integram o patrimônio artístico."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2014-123",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Instrumentos e circulação cultural",
+        "steps": [
+          "O enunciado pede gêneros brasileiros que utilizem cavaquinho e violão, instrumentos compartilhados em espaços de colonização portuguesa.",
+          "A alternativa C é correta. Choro e samba empregam tradicionalmente esses instrumentos em seus conjuntos, correspondendo ao critério proposto."
+        ],
+        "takeaway": "Reconhecer um gênero musical envolve também sua formação instrumental."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2014-133",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Hip-hop e afirmação identitária",
+        "steps": [
+          "Os bailes black oferecem lazer e valorizam a cultura negra por meio de música, roupas e penteados.",
+          "A alternativa D é correta. Essas práticas permitem aos jovens afirmar pertencimentos e identidades, em vez de apenas reproduzir uma moda sem significado social."
+        ],
+        "takeaway": "Expressões artísticas juvenis podem construir pertencimento e reconhecimento coletivo."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2015-111",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 13,
+      "explanation": {
+        "concept": "Arte e diversidade de sociedades",
+        "steps": [
+          "O texto critica os colonizadores por ignorarem os valores culturais dos povos que encontraram.",
+          "A alternativa C é correta. As artes de ambos resultam de impulsos humanos de sentir e pensar: compartilham uma base antropológica, ainda que suas formas sejam diferentes."
+        ],
+        "takeaway": "Diferença técnica ou cultural não estabelece uma hierarquia de valor entre manifestações artísticas."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2023-38",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Rap indígena e diálogo cultural",
+        "steps": [
+          "Kunumi MC combina referências do rap e ritmos indígenas em letras que dão voz a causas como a demarcação de terras.",
+          "A alternativa A é correta porque essa produção integra uma manifestação urbana contemporânea à cultura indígena, usando o encontro de linguagens para expressar reivindicações próprias."
+        ],
+        "takeaway": "O diálogo com linguagens externas pode fortalecer a expressão e as causas de um grupo cultural."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte",
+      "promptStart": "O movimento rap dos povos originários do Brasil revela o(a)"
+    },
+    {
+      "id": "2021-20",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 12,
+      "explanation": {
+        "concept": "Dança e multimodalidade",
+        "steps": [
+          "Mini@tures combina movimento corporal, vídeo, computação gráfica e internet, inclusive adaptando arquivos à circulação na rede.",
+          "A alternativa D é correta. A inovação está na articulação dessas mídias para ampliar a expressão da dança, e não apenas em registrar uma apresentação convencional."
+        ],
+        "takeaway": "Uma obra multimodal integra linguagens diferentes em sua forma de expressão."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2021-23",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Releitura e encontro de linguagens",
+        "steps": [
+          "John Lennon da Silva reinterpreta A morte do cisne usando popping, jeans e tênis em lugar dos códigos tradicionais do balé.",
+          "A alternativa B é correta. O encontro entre dança de rua e repertório clássico produz uma criação original sem exigir a separação de seus universos culturais."
+        ],
+        "takeaway": "Releituras podem renovar uma obra por meio do diálogo entre tradições distintas."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2022-45",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 14,
+      "explanation": {
+        "concept": "Hibridismo no manguebeat",
+        "steps": [
+          "O texto reúne maracatu, alfaias, hip-hop, rock, eletrônica e sotaque recifense na descrição do movimento.",
+          "A alternativa E é correta. A renovação de Chico Science surge justamente dessa integração de referências locais e externas em uma nova combinação estética."
+        ],
+        "takeaway": "O diálogo com referências externas pode renovar e valorizar manifestações locais."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2023-36",
+      "moduleId": "lc-arte",
+      "competency": 4,
+      "skill": 12,
+      "explanation": {
+        "concept": "Memória e ressignificação no Marabaixo",
+        "steps": [
+          "O relato liga os cantos de lamento pelas mortes na escravidão a danças, tambores e festas das comunidades negras do Amapá.",
+          "A alternativa A é correta. A prática transforma a memória de episódios dramáticos em expressão cultural coletiva, conservando vínculos e produzindo novos sentidos."
+        ],
+        "takeaway": "A arte pode reelaborar experiências dolorosas e fortalecer a memória de uma comunidade."
+      },
+      "subjectId": "arte",
+      "subjectTitle": "Arte"
+    },
+    {
+      "id": "2011-96",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Modelagem corporal e padrões sociais",
+        "steps": [
+          "O texto descreve a expansão de academias, musculação e exercícios associados ao desejo de modelar o corpo.",
+          "A alternativa E é correta. Nesse contexto, cresce a procura por dietas restritivas ou excessivas e por exercícios de alteração da aparência; a resposta descreve a tendência, não a recomenda."
+        ],
+        "takeaway": "Diferencie a descrição de uma prática social da defesa de que ela seja saudável."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2011-105",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Dança como expressão cultural",
+        "steps": [
+          "As danças folclóricas são relacionadas a festas, religiões, lendas, acontecimentos históricos e experiências cotidianas.",
+          "A alternativa A é correta. Sua expressão corporal reúne dimensões afetivas, intelectuais e espirituais dos grupos que as praticam, revelando modos de viver e significar o mundo."
+        ],
+        "takeaway": "A dança comunica valores e memórias além de organizar movimentos rítmicos."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2011-108",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Lutas e formação ética",
+        "steps": [
+          "O texto apresenta as artes marciais como práticas com fundamentos filosóficos, não como simples agressão.",
+          "A alternativa B é correta. O aprendizado pode desenvolver autocontrole, respeito e caráter; usar seus gestos em brigas contraria essa dimensão formativa."
+        ],
+        "takeaway": "Nas lutas, técnica corporal e respeito ao outro precisam ser compreendidos juntos."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2012-100",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Corporeidade e singularidade",
+        "steps": [
+          "O eu lírico pergunta se terá de mudar nome, corpo e jeito para corresponder à expectativa de crescer e vir a ser alguém.",
+          "A alternativa A é correta. Sua inquietação nasce do conflito entre padrões impostos e o desejo de manter uma existência singular, expresso pela recusa em aceitar essa obrigação."
+        ],
+        "takeaway": "A identidade corporal envolve também a relação entre expectativas sociais e percepção de si."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2012-115",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Futebol e crítica à alienação",
+        "steps": [
+          "Durante os noventa minutos, o sujeito diz esquecer trabalho, salário, fome e outros aspectos da vida.",
+          "A alternativa D é correta. A repetição dessa suspensão dos problemas sociais permite uma leitura crítica da alienação produzida pela absorção no espetáculo esportivo."
+        ],
+        "takeaway": "A interpretação crítica do esporte considera tanto seus vínculos culturais quanto seus efeitos sociais."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2013-108",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Hábitos e saúde dos adolescentes",
+        "steps": [
+          "A reportagem associa a redução de atividade física à alimentação desequilibrada e menciona hipertensão e diabetes entre jovens.",
+          "A alternativa A é correta. A resposta relaciona esses hábitos ao aparecimento de doenças crônicas, sem afirmar que um único fator determine a condição de todos os adolescentes."
+        ],
+        "takeaway": "Em textos sobre saúde, observe a combinação de fatores indicada pelas evidências apresentadas."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2013-111",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Apropriação cultural da quadrilha",
+        "steps": [
+          "A quadrilha chega como dança de salão europeia e se transforma ao ser incorporada aos festejos e gostos populares brasileiros.",
+          "A alternativa B é correta. Ela é folclórica por expressar tradições e costumes dos grupos que a praticam, não por conservar intacta sua forma estrangeira inicial."
+        ],
+        "takeaway": "Uma prática pode tornar-se tradição local por meio de adaptações históricas."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2014-97",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Regras e esportivização das lutas",
+        "steps": [
+          "A descrição do MMA destaca regras e acompanhamento médico obrigatório, afastando sua identificação com um vale-tudo.",
+          "A alternativa E é correta. Essas alterações procuram limitar a violência, preservar os atletas e organizar a luta no formato do esporte de espetáculo."
+        ],
+        "takeaway": "A institucionalização esportiva estabelece limites e critérios para a disputa corporal."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2014-98",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Consumo e ideal corporal",
+        "steps": [
+          "O texto menciona os investimentos publicitários da indústria e o apelo ao corpo ideal durante a adolescência.",
+          "A alternativa B é correta. A procura por suplementos é estimulada por essa indústria e pela mídia, o que não demonstra necessidade de uso por todos os praticantes."
+        ],
+        "takeaway": "Publicidade e busca de aparência podem influenciar práticas corporais e de consumo."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2015-97",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Break e experiência urbana",
+        "steps": [
+          "O break aparece ao lado do rap e do grafite como linguagem da cultura hip-hop originada nas ruas.",
+          "A alternativa B é correta. Seus movimentos improvisados expressam a dinâmica da vida urbana, em vez de dependerem de um repertório imóvel de gestos."
+        ],
+        "takeaway": "As manifestações corporais dialogam com os espaços e experiências dos grupos que as criam."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2019-11",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Esportivização de práticas indígenas",
+        "steps": [
+          "Arco, flecha e lança, usados na caça e na defesa, passam a ser submetidos a regulamentação e padronização nos jogos.",
+          "A alternativa D é correta. A combinação desses procedimentos com elementos tradicionais legitima as práticas como modalidades esportivas de competição."
+        ],
+        "takeaway": "A mudança de contexto e de regras pode transformar o significado de uma prática corporal."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2020-17",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 10,
+      "explanation": {
+        "concept": "Determinantes sociais dos estilos de vida",
+        "steps": [
+          "O autor contesta a ideia de que todas as pessoas tenham a mesma liberdade e os mesmos recursos para escolher hábitos saudáveis.",
+          "A alternativa D é correta. As desigualdades políticas, econômicas e sociais limitam essas escolhas; por isso a análise deve problematizar a organização social."
+        ],
+        "takeaway": "A adoção de hábitos corporais depende também das condições concretas de vida."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2020-36",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Elementos constitutivos das lutas",
+        "steps": [
+          "A definição exige contato intencional, oposição entre participantes e alternância de ações ofensivas e defensivas.",
+          "A alternativa D é correta. Uma atividade escolar corresponde a essa definição quando propõe combate corporal entre oponentes regido por regras."
+        ],
+        "takeaway": "Nem toda atividade de força é luta: oposição, intenção e regulamentação são critérios relevantes."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2022-34",
+      "moduleId": "lc-educacao-fisica",
+      "competency": 3,
+      "skill": 9,
+      "explanation": {
+        "concept": "Adaptação dos esportes de aventura",
+        "steps": [
+          "Praticantes de snowboard queriam continuar a atividade em períodos sem neve e criaram uma prancha com pneus e eixos resistentes.",
+          "A alternativa D é correta. A inovação permitiu praticar em terra, grama, pedras e outros terrenos, exemplificando a criatividade na adaptação a novos espaços."
+        ],
+        "takeaway": "Equipamentos e técnicas podem transformar uma prática corporal ao ampliar seus ambientes de realização."
+      },
+      "subjectId": "educacao-fisica",
+      "subjectTitle": "Educação Física"
+    },
+    {
+      "id": "2009-106",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 30,
+      "explanation": {
+        "concept": "Circulação do conhecimento nas redes",
+        "steps": [
+          "O texto relaciona microcomputadores e internet à expansão das trocas simbólicas entre sociedades e culturas.",
+          "A alternativa D é correta. As tecnologias favorecem registrar e disseminar conhecimentos de modo interativo e mais democrático, ampliando possibilidades de desenvolvimento social."
+        ],
+        "takeaway": "Identifique os efeitos da tecnologia descritos no texto sem presumir acesso universal já realizado."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2009-110",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Acesso público ao patrimônio",
+        "steps": [
+          "O portal disponibiliza gratuitamente obras culturais e científicas em vários formatos para professores, estudantes e população em geral.",
+          "A alternativa C é correta. Esse compartilhamento amplia o acesso ao conhecimento e exemplifica a democratização da informação."
+        ],
+        "takeaway": "Bibliotecas digitais podem reduzir barreiras de acesso ao patrimônio cultural e científico."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2009-113",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Exclusão digital e desigualdade",
+        "steps": [
+          "A questão relaciona tecnologias interativas às habilidades e conhecimentos exigidos nos meios produtivos.",
+          "A alternativa D é correta. A dificuldade das populações menos favorecidas em adquirir esses recursos pode aprofundar desigualdades existentes: esse é o sentido de divisão digital."
+        ],
+        "takeaway": "Exclusão digital abrange acesso, conhecimentos e condições de participação social."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação",
+      "promptStart": "Nesse contexto, a expressão Divisão Digital refere-se a"
+    },
+    {
+      "id": "2012-104",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 30,
+      "explanation": {
+        "concept": "Leitura e autoria no meio eletrônico",
+        "steps": [
+          "Chartier destaca a possibilidade de cada pessoa ler, emitir juízos e refletir sobre os julgamentos alheios.",
+          "A alternativa A é correta. A universalidade e a interatividade se vinculam ao acesso à informação e ao intercâmbio de opiniões, ampliados pelo suporte eletrônico."
+        ],
+        "takeaway": "A participação em rede pode articular recepção de informações e produção de interpretações."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2012-125",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Abundância e sobrecarga de informação",
+        "steps": [
+          "O texto descreve uma oferta crescente de notícias diante de leitores apressados e com dificuldade para assimilar o que recebem.",
+          "A alternativa D é correta. A desarmonia está na incompatibilidade entre o volume ofertado e o tempo disponível para compreendê-lo, não na simples falta de informações."
+        ],
+        "takeaway": "Mais informação disponível não significa automaticamente mais compreensão."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2013-102",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 29,
+      "explanation": {
+        "concept": "Hipertexto e percursos de leitura",
+        "steps": [
+          "O hipertexto conecta trechos e autores, permite aprofundamentos e reorganiza a participação de quem lê.",
+          "A alternativa C é correta. Trata-se de um modo de organizar escrita e leitura que pode existir também no papel, embora o meio digital amplie suas conexões imediatas."
+        ],
+        "takeaway": "Hipertextualidade é uma organização por conexões, não um sinônimo exclusivo de texto eletrônico."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2013-106",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Comunicação e mobilização coletiva",
+        "steps": [
+          "Castells afirma que os movimentos utilizam sistemas de comunicação para alcançar pessoas que compartilham seus valores.",
+          "A alternativa E é correta. A mobilização egípcia exemplifica a capacidade das redes de promover adesão e circulação de valores sociais, articulando ações coletivas."
+        ],
+        "takeaway": "As redes podem conectar identificações comuns e ampliar a atuação dos movimentos sociais."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2013-123",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Economia da atenção",
+        "steps": [
+          "Carr relaciona o tempo on-line e a passagem acelerada entre informações ao aumento de receita das empresas.",
+          "A alternativa E é correta. A crítica ao comércio da distração aponta para o lucro obtido com a fragmentação e a fragilidade da atenção dos usuários."
+        ],
+        "takeaway": "Para identificar uma crítica, localize a relação entre o comportamento estimulado e quem se beneficia dele."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2013-126",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 30,
+      "explanation": {
+        "concept": "Continuidade entre tecnologias de comunicação",
+        "steps": [
+          "O autor apresenta a informática como desdobramento da tradição oral e da produção escrita e impressa.",
+          "A alternativa E é correta. A escrita fornece bases para os meios eletrônicos, o que evidencia continuidade histórica em vez de ruptura absoluta com os suportes anteriores."
+        ],
+        "takeaway": "Novos meios de comunicação podem reorganizar recursos e práticas herdados de outros meios."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2013-134",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Anonimato e violência digital",
+        "steps": [
+          "No cyberbullying, agressores e vítimas não precisam estar frente a frente, e mensagens podem circular sem autoria aparente.",
+          "A alternativa B é correta. A dificuldade de identificar o agressor anônimo pode intensificar a crueldade das ameaças, efeito destacado pelo texto."
+        ],
+        "takeaway": "Ao analisar riscos de uma tecnologia, identifique o mecanismo concreto que amplia o problema."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    },
+    {
+      "id": "2019-20",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 30,
+      "explanation": {
+        "concept": "Dados públicos e informação estratégica",
+        "steps": [
+          "O DataViva reúne dados de exportações, ocupações, atividades econômicas e salários com navegação interativa.",
+          "A alternativa C é correta. A consulta integrada permite conhecer perfis econômicos e profissionais e obter informações estratégicas para compreender localidades e setores."
+        ],
+        "takeaway": "A organização de dados em ferramentas acessíveis pode apoiar análise e planejamento."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação",
+      "promptStart": "Entre as novas possibilidades promovidas pelo desenvolvimento de novas tecnologias, o texto destaca a"
+    },
+    {
+      "id": "2020-43",
+      "moduleId": "lc-ti",
+      "competency": 9,
+      "skill": 28,
+      "explanation": {
+        "concept": "Preconceito reproduzido por algoritmos",
+        "steps": [
+          "O software de seleção reproduz exclusões por sexo e origem racial; os anúncios do buscador associam nomes negros a antecedentes criminais.",
+          "A alternativa D é correta. Os casos mostram a reprodução de preconceitos sociais por sistemas informacionais, contrariando a ideia de neutralidade automática da tecnologia."
+        ],
+        "takeaway": "Automatizar decisões não elimina os vieses presentes nos dados e nas práticas sociais."
+      },
+      "subjectId": "tecnologia-informacao",
+      "subjectTitle": "Tecnologias da Informação"
+    }
+  ]
+}

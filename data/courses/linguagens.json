@@ -2,54 +2,154 @@
   "id": "linguagens",
   "title": "Linguagens, Códigos e suas Tecnologias",
   "emoji": "🗣️",
-  "description": "Língua Portuguesa, Literatura, Inglês e Espanhol em uma trilha integrada.",
-  "integratedBy": "subject",
-  "integrationNote": "Esta trilha reúne as questões de Língua Portuguesa, Literatura, Inglês e Espanhol, sem duplicar registros. Inglês e Espanhol também têm trilhas próprias. A revisão de erros e o desempenho são compartilhados com cada disciplina.",
+  "description": "As nove competências de Linguagens: comunicação, línguas estrangeiras, corpo, arte, literatura, textos, argumentação, português e tecnologia.",
+  "integrationNote": "Esta trilha reúne 500 questões de sete disciplinas nas nove competências da matriz do INEP. Português, Literatura, Inglês e Espanhol também têm trilhas próprias. Respostas, revisão de erros e desempenho são compartilhados entre as trilhas.",
   "modules": [
     {
-      "id": "lc-portugues",
-      "subjectId": "portugues",
-      "title": "Língua Portuguesa",
-      "emoji": "💬",
-      "description": "Leitura, argumentação, variação linguística e construção de sentidos.",
+      "id": "lc-c1",
+      "competency": 1,
+      "title": "Comunicação e linguagens",
+      "emoji": "📢",
+      "description": "Recursos expressivos, circulação de informações e funções sociais da comunicação.",
       "introduction": {
-        "title": "Comece por Língua Portuguesa",
+        "title": "Comunicação e linguagens",
         "duration": "4 min",
-        "summary": "Leitura, argumentação, variação linguística e construção de sentidos.",
+        "summary": "Recursos expressivos, circulação de informações e funções sociais da comunicação.",
         "sections": [
           {
-            "title": "Leia para descobrir o que o texto faz",
-            "text": "Uma notícia informa, uma campanha procura modificar comportamentos e uma resenha avalia uma obra. O tema é o assunto; a finalidade é o efeito que o autor busca produzir no leitor. Um dado numérico pode ser um recurso para persuadir, sem constituir o objetivo geral."
+            "title": "Linguagens se combinam",
+            "text": "Palavras, imagens, gestos, sons e recursos gráficos constroem sentidos. Em uma campanha, observe como a imagem se relaciona ao texto: ela pode confirmar, ampliar ou contrariar o que está escrito. A interpretação depende dessa relação."
           },
           {
-            "title": "Variação não é falha da língua",
-            "text": "Toda língua varia conforme região, grupos sociais, época e situação. Isso também ocorre nas línguas de sinais. A norma-padrão é uma referência para determinados contextos; não torna os demais usos inferiores nem elimina suas regras de funcionamento."
+            "title": "Comunicação tem contexto",
+            "text": "Identifique quem produz a mensagem, a quem se dirige, onde circula e qual problema aborda. Uma informação pode ter diferentes efeitos ao aparecer em uma notícia, campanha ou conversa. O suporte ajuda a entender as escolhas de linguagem."
           },
           {
-            "title": "Da leitura à resolução",
-            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+            "title": "Leia os usos sociais criticamente",
+            "text": "Compare informações e analise como os meios de comunicação favorecem participação, acesso ou exclusão. A presença de tecnologia não garante que todas as pessoas consigam compreender ou usar a mensagem."
           }
         ],
         "example": {
-          "title": "Uma campanha sobre trânsito",
+          "title": "Uma campanha com palavras e imagem",
           "steps": [
-            "Um texto apresenta acidentes e termina pedindo cuidado com a vida. Os números sustentam o argumento.",
-            "A finalidade é sensibilizar para uma conduta responsável; divulgar estatísticas é um meio usado para isso."
+            "Uma campanha combina uma torneira aberta com uma frase sobre desperdício. A imagem concretiza o problema apresentado pelo texto.",
+            "Relacione os dois recursos à mudança de comportamento pretendida, em vez de interpretar cada elemento isoladamente."
           ]
         },
-        "pitfall": "Não confunda o assunto de um texto com a intenção de quem o produz. Uma alternativa pode mencionar um detalhe verdadeiro e ainda não responder à pergunta."
+        "pitfall": "Não confunda o recurso usado para comunicar com a finalidade social da mensagem."
       }
     },
     {
-      "id": "lc-literatura",
-      "subjectId": "literatura",
-      "title": "Literatura",
-      "emoji": "📚",
-      "description": "Vozes, recursos expressivos, memória e contextos da literatura brasileira.",
+      "id": "lc-c2",
+      "title": "Línguas estrangeiras e culturas",
+      "emoji": "🌎",
+      "description": "Inglês e espanhol como acesso à informação, à comunicação e à diversidade cultural.",
       "introduction": {
-        "title": "Comece por Literatura",
+        "title": "Línguas estrangeiras e culturas",
         "duration": "4 min",
-        "summary": "Vozes, recursos expressivos, memória e contextos da literatura brasileira.",
+        "summary": "Inglês e espanhol como acesso à informação, à comunicação e à diversidade cultural.",
+        "sections": [
+          {
+            "title": "Comece pela situação de comunicação",
+            "text": "Observe título, gênero, fonte e comando. Pergunte quem fala, a quem se dirige e para quê. Procure a ideia geral antes de traduzir palavras isoladas. A resposta pode depender da relação entre partes do texto."
+          },
+          {
+            "title": "Inglês e espanhol em diferentes culturas",
+            "text": "Essas línguas circulam em países e grupos diversos. Observe variedades, identidades e formas de expressão sem pressupor uma única cultura. Interprete expressões pelo contexto e evite confiar apenas em palavras parecidas com o português."
+          },
+          {
+            "title": "Função social e produção cultural",
+            "text": "Notícias, poemas, canções, anúncios e relatos têm finalidades e públicos diferentes. Identifique o ponto de vista e as evidências do texto. Conhecer o tema ajuda, mas não substitui a leitura do trecho em inglês ou espanhol."
+          }
+        ],
+        "example": {
+          "title": "Uma palavra muda o rumo do texto",
+          "steps": [
+            "Após elogiar uma rede social, a autora escreve que ela tem downsides e descreve problemas.",
+            "O contexto indica aspectos negativos. A continuação esclarece quais desvantagens estão sendo consideradas."
+          ]
+        },
+        "pitfall": "Não escolha por semelhança de palavras. A alternativa pode repetir vocabulário do texto e alterar sua conclusão."
+      },
+      "competency": 2
+    },
+    {
+      "id": "lc-c3",
+      "title": "Linguagem corporal e inclusão",
+      "emoji": "🏃",
+      "description": "Práticas corporais, necessidades de movimento, interação e adaptação.",
+      "introduction": {
+        "title": "Linguagem corporal e inclusão",
+        "duration": "4 min",
+        "summary": "Práticas corporais, necessidades de movimento, interação e adaptação.",
+        "sections": [
+          {
+            "title": "Corpo e cultura",
+            "text": "Esportes, danças, jogos e lutas têm histórias, regras e significados sociais. Uma prática corporal pode expressar pertencimento, lazer, competição ou resistência. Identifique a dimensão valorizada pelo texto."
+          },
+          {
+            "title": "Participação e inclusão",
+            "text": "O acesso às atividades depende de tempo, renda, espaços e condições de participação. Adaptações podem ampliar o envolvimento de diferentes pessoas. Analise barreiras sociais, além do desempenho individual."
+          },
+          {
+            "title": "Saúde em perspectiva ampla",
+            "text": "As questões podem relacionar movimento a bem-estar, vínculos e condições de vida. Não confunda o ideal corporal difundido na publicidade com uma definição universal de saúde. Observe a finalidade de campanhas e argumentos."
+          }
+        ],
+        "example": {
+          "title": "Uma atividade adaptada",
+          "steps": [
+            "Um jogo ajusta regras e materiais para permitir a participação de pessoas com diferentes possibilidades de movimento.",
+            "A mudança pode ampliar a interação e a inclusão; seu valor não depende apenas de recordes ou rendimento esportivo."
+          ]
+        },
+        "pitfall": "Evite explicar a participação em atividades físicas apenas por vontade individual, ignorando barreiras de acesso."
+      },
+      "competency": 3
+    },
+    {
+      "id": "lc-c4",
+      "title": "Arte, cultura e diversidade",
+      "emoji": "🎨",
+      "description": "Funções da arte, padrões estéticos e manifestações de diferentes grupos.",
+      "introduction": {
+        "title": "Arte, cultura e diversidade",
+        "duration": "4 min",
+        "summary": "Funções da arte, padrões estéticos e manifestações de diferentes grupos.",
+        "sections": [
+          {
+            "title": "Arte e contexto",
+            "text": "Uma obra participa da cultura de seu tempo. Observe técnicas, materiais, circulação e relação com o público. Sua função pode ser ritual, crítica, estética ou política; não suponha que toda produção tenha o mesmo objetivo."
+          },
+          {
+            "title": "Forma e significado",
+            "text": "Cores, composição, movimento e escolha dos materiais podem produzir efeitos expressivos. Relacione esses recursos à pergunta. Em intervenções e performances, o espaço e a participação do público também fazem parte da obra."
+          },
+          {
+            "title": "Encontros culturais",
+            "text": "Manifestações artísticas podem combinar tradições e tecnologias. A mistura de referências não elimina necessariamente identidades: pode recriá-las. Reconheça os grupos envolvidos e evite hierarquizar suas expressões."
+          }
+        ],
+        "example": {
+          "title": "Uma instalação com objetos descartados",
+          "steps": [
+            "O artista organiza materiais cotidianos num espaço de exposição. Sua escolha modifica a maneira de olhar esses objetos.",
+            "Se o enunciado destaca o consumo, relacione os materiais à crítica do descarte, sem concluir que toda reutilização artística tenha a mesma intenção."
+          ]
+        },
+        "pitfall": "Não reduza arte à reprodução fiel da realidade nem ignore o contexto de produção."
+      },
+      "competency": 4
+    },
+    {
+      "id": "lc-c5",
+      "title": "Literatura e contextos",
+      "emoji": "📚",
+      "description": "Textos literários, procedimentos expressivos, história e valores sociais.",
+      "introduction": {
+        "title": "Literatura e contextos",
+        "duration": "4 min",
+        "summary": "Textos literários, procedimentos expressivos, história e valores sociais.",
         "sections": [
           {
             "title": "Quem fala não é sempre o autor",
@@ -72,75 +172,266 @@
           ]
         },
         "pitfall": "Não identifique uma escola literária apenas pela data nem escolha uma figura de linguagem sem explicar sua função no fragmento."
-      }
+      },
+      "competency": 5
     },
     {
-      "id": "lc-ingles",
-      "subjectId": "ingles",
-      "title": "Inglês",
-      "emoji": "🇬🇧",
-      "description": "Língua estrangeira: interpretação, vocabulário em contexto e diversidade cultural.",
+      "id": "lc-c6",
+      "competency": 6,
+      "title": "Organização textual e significados",
+      "emoji": "📝",
+      "description": "Progressão de ideias, funções da linguagem e patrimônio linguístico.",
       "introduction": {
-        "title": "Comece por Inglês",
+        "title": "Organização textual e significados",
         "duration": "4 min",
-        "summary": "Língua estrangeira: interpretação, vocabulário em contexto e diversidade cultural.",
+        "summary": "Progressão de ideias, funções da linguagem e patrimônio linguístico.",
         "sections": [
           {
-            "title": "Comece pela situação de comunicação",
-            "text": "Observe título, gênero, fonte e comando. Pergunte quem fala, a quem se dirige e para quê. Procure a ideia geral antes de traduzir palavras isoladas. A resposta pode depender da relação entre partes do texto."
+            "title": "Acompanhe a progressão do texto",
+            "text": "Observe como cada parte retoma informações e acrescenta ideias. Pronomes, conectivos, repetições e substituições podem ligar trechos. A função de uma palavra depende da relação que ela estabelece naquele contexto."
           },
           {
-            "title": "O inglês circula em muitas culturas",
-            "text": "Textos em inglês podem expressar experiências africanas, indianas, caribenhas e de outras regiões. Não pressuponha uma única identidade cultural nem considere usos híbridos como ausência de domínio linguístico."
+            "title": "Reconheça a função predominante",
+            "text": "Uma mensagem pode informar, expressar emoções, buscar uma reação do leitor, destacar sua própria forma, testar o contato ou explicar a linguagem. Mais de uma função pode estar presente; a questão pede a predominante em uma situação concreta."
           },
           {
-            "title": "Da leitura à resolução",
-            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+            "title": "Língua também é patrimônio",
+            "text": "Línguas, relatos e formas de expressão guardam experiências e memórias coletivas. A preservação desse patrimônio envolve seus falantes e usos sociais, e não apenas registros escritos ou a norma-padrão."
           }
         ],
         "example": {
-          "title": "Uma palavra muda o rumo do texto",
+          "title": "Uma retomada no parágrafo",
           "steps": [
-            "Após elogiar uma rede social, a autora escreve que ela tem downsides e descreve problemas.",
-            "O contexto indica aspectos negativos. A continuação esclarece quais desvantagens estão sendo consideradas."
+            "Depois de descrever uma medida de preservação, o autor escreve: “Essa iniciativa amplia a participação”. A expressão retoma a medida mencionada.",
+            "Identificar o referente conecta os períodos e permite acompanhar o desenvolvimento do argumento."
           ]
         },
-        "pitfall": "Não escolha por semelhança de palavras. A alternativa pode repetir vocabulário do texto e alterar sua conclusão."
+        "pitfall": "Não escolha a função da linguagem por uma palavra isolada. Considere a finalidade predominante da mensagem."
       }
     },
     {
-      "id": "lc-espanhol",
-      "subjectId": "espanhol",
-      "title": "Espanhol",
-      "emoji": "🇪🇸",
-      "description": "Língua estrangeira: leitura, expressões, identidades e manifestações culturais.",
+      "id": "lc-c7",
+      "competency": 7,
+      "title": "Argumentação e pontos de vista",
+      "emoji": "💬",
+      "description": "Persuasão, comparação de textos, intenção do produtor e público-alvo.",
       "introduction": {
-        "title": "Comece por Espanhol",
+        "title": "Argumentação e pontos de vista",
         "duration": "4 min",
-        "summary": "Língua estrangeira: leitura, expressões, identidades e manifestações culturais.",
+        "summary": "Persuasão, comparação de textos, intenção do produtor e público-alvo.",
         "sections": [
           {
-            "title": "Procure o sentido global",
-            "text": "Identifique gênero, tema, interlocutores e objetivo. A proximidade entre português e espanhol ajuda, mas não garante interpretação correta. Leia o comando e volte ao trecho que oferece evidências para a resposta."
+            "title": "Tese e apoio não são a mesma coisa",
+            "text": "A tese é a ideia defendida; exemplos, dados, comparações e vozes de especialistas podem sustentá-la. Verifique como o recurso contribui para a conclusão. Um argumento citado pode ser apresentado para ser refutado."
           },
           {
-            "title": "Uma língua, muitas variedades",
-            "text": "O espanhol apresenta diferenças regionais e sociais de vocabulário, pronúncia e registro. Uma personagem pode notar essas diferenças sem deixar de compreender os interlocutores. Variação é parte da vida da língua."
+            "title": "Compare posições",
+            "text": "Dois textos podem tratar do mesmo assunto e discordar sobre suas causas ou consequências. Localize o ponto comum e depois as diferenças de avaliação. Não atribua ao autor uma opinião que ele apenas relata."
           },
           {
-            "title": "Da leitura à resolução",
-            "text": "Leia o comando, selecione evidências no texto e compare as alternativas. Após responder, examine a justificativa e registre o que mudou na sua interpretação. A trilha específica desta disciplina também oferece introduções para cada um dos seus temas."
+            "title": "Observe estratégias de persuasão",
+            "text": "Humor, emoção, autoridade, identificação e advertências podem procurar convencer públicos específicos. Relacione as escolhas verbais e visuais ao efeito pretendido, sem confundir esse efeito com a comprovação da tese."
           }
         ],
         "example": {
-          "title": "Uma cortina que não é de tecido",
+          "title": "Dados em uma campanha",
           "steps": [
-            "Um autor descreve alguém que desvia a atenção para esconder seus objetivos e usa cortina de humo.",
-            "A expressão representa uma estratégia de ocultação da verdade, e não uma cortina física."
+            "Uma campanha apresenta números sobre descarte de resíduos e pede que os leitores separem o lixo. Os dados sustentam a relevância do problema.",
+            "O objetivo é estimular uma conduta; divulgar os números é um recurso argumentativo usado para alcançar esse objetivo."
           ]
         },
-        "pitfall": "Não dependa de tradução palavra por palavra nem ignore que uma expressão familiar pode ter sentido figurado."
+        "pitfall": "Uma alternativa pode mencionar um detalhe verdadeiro e ainda não explicar o ponto de vista ou a intenção solicitada."
       }
+    },
+    {
+      "id": "lc-c8",
+      "competency": 8,
+      "title": "Variação linguística e usos do português",
+      "emoji": "🗨️",
+      "description": "Variedades sociais e regionais, registro e norma-padrão em situações de comunicação.",
+      "introduction": {
+        "title": "Variação linguística e usos do português",
+        "duration": "4 min",
+        "summary": "Variedades sociais e regionais, registro e norma-padrão em situações de comunicação.",
+        "sections": [
+          {
+            "title": "A variação é parte da língua",
+            "text": "Vocabulário, pronúncia e construções variam conforme regiões, grupos, épocas e situações. As variedades têm regularidades próprias. Reconhecer uma marca regional não significa considerar seus falantes menos capazes."
+          },
+          {
+            "title": "Registro depende da situação",
+            "text": "Os interlocutores e a finalidade influenciam escolhas mais formais ou informais. Uma conversa entre amigos e um documento institucional podem exigir recursos diferentes. Adequação é a relação entre o uso e seu contexto."
+          },
+          {
+            "title": "Norma-padrão tem usos específicos",
+            "text": "A norma-padrão funciona como referência em determinados gêneros, sobretudo formais. Isso não elimina outras variedades nem transforma a linguagem coloquial em falta de regras. Observe se o comando pede identificar, explicar ou avaliar um uso."
+          }
+        ],
+        "example": {
+          "title": "Uma personagem muda o registro",
+          "steps": [
+            "Uma personagem usa tratamento formal em uma entrevista e expressões coloquiais ao conversar com familiares.",
+            "A diferença mostra adaptação aos interlocutores e às situações, sem exigir que uma das formas represente incapacidade de comunicação."
+          ]
+        },
+        "pitfall": "Não confunda variação linguística com erro de interpretação nem use a norma-padrão para hierarquizar os falantes."
+      }
+    },
+    {
+      "id": "lc-c9",
+      "title": "Tecnologias da informação e sociedade",
+      "emoji": "💻",
+      "description": "Comunicação digital, circulação do conhecimento e leitura crítica.",
+      "introduction": {
+        "title": "Tecnologias da informação e sociedade",
+        "duration": "4 min",
+        "summary": "Comunicação digital, circulação do conhecimento e leitura crítica.",
+        "sections": [
+          {
+            "title": "Tecnologia como linguagem",
+            "text": "Interfaces, hiperlinks e recursos multimodais organizam formas de ler e produzir informação. Uma inovação exige aprender convenções e pode modificar a participação do usuário."
+          },
+          {
+            "title": "Informação e credibilidade",
+            "text": "Identifique fonte, autoria, contexto e finalidade. Compartilhar rapidamente não garante veracidade. Compare evidências e distinga opinião, publicidade, relato e investigação."
+          },
+          {
+            "title": "Acesso e efeitos sociais",
+            "text": "Tecnologias podem ampliar a circulação do conhecimento e também reproduzir desigualdades. Observe acessibilidade, exclusão digital, autoria e transformações nas relações sociais, sem atribuir efeitos iguais a todos os usos."
+          }
+        ],
+        "example": {
+          "title": "Uma notícia acessível",
+          "steps": [
+            "Uma plataforma apresenta conteúdos em texto, áudio e língua de sinais. Esses formatos atendem a diferentes necessidades de comunicação.",
+            "A finalidade é ampliar o acesso à informação; a tecnologia funciona como meio para reduzir barreiras."
+          ]
+        },
+        "pitfall": "Não trate a novidade tecnológica como garantia automática de inclusão ou de qualidade da informação."
+      },
+      "competency": 9
     }
-  ]
+  ],
+  "legacyLessonLayout": {
+    "lc-portugues": [
+      [
+        "2023-9",
+        "2023-10",
+        "2023-11",
+        "2023-27",
+        "2022-8"
+      ],
+      [
+        "2022-10",
+        "2022-11",
+        "2022-22",
+        "2022-36",
+        "2021-29"
+      ],
+      [
+        "2023-8",
+        "2023-15",
+        "2023-16",
+        "2023-20",
+        "2023-21"
+      ],
+      [
+        "2022-6",
+        "2022-12",
+        "2022-28",
+        "2022-37",
+        "2021-26"
+      ]
+    ],
+    "lc-literatura": [
+      [
+        "2023-12",
+        "2023-13",
+        "2023-14",
+        "2023-25",
+        "2023-28"
+      ],
+      [
+        "2023-29",
+        "2023-31",
+        "2022-29",
+        "2022-33",
+        "2022-35"
+      ],
+      [
+        "2023-7",
+        "2023-22",
+        "2023-26",
+        "2022-21",
+        "2022-23"
+      ],
+      [
+        "2022-30",
+        "2022-31",
+        "2022-40",
+        "2022-41",
+        "2022-42"
+      ]
+    ],
+    "lc-ingles": [
+      [
+        "2022-2-ingles",
+        "2022-4-ingles",
+        "2021-1-ingles",
+        "2021-3-ingles",
+        "2021-5-ingles"
+      ],
+      [
+        "2020-4-ingles",
+        "2019-1-ingles",
+        "2019-4-ingles",
+        "2018-1-ingles",
+        "2018-5-ingles"
+      ],
+      [
+        "2023-2-ingles",
+        "2023-3-ingles",
+        "2023-4-ingles",
+        "2022-1-ingles",
+        "2022-5-ingles"
+      ],
+      [
+        "2021-2-ingles",
+        "2020-3-ingles",
+        "2020-5-ingles",
+        "2019-3-ingles",
+        "2018-3-ingles"
+      ]
+    ],
+    "lc-espanhol": [
+      [
+        "2023-4-espanhol",
+        "2022-2-espanhol",
+        "2021-1-espanhol",
+        "2021-3-espanhol",
+        "2021-4-espanhol"
+      ],
+      [
+        "2020-3-espanhol",
+        "2019-2-espanhol",
+        "2019-3-espanhol",
+        "2018-2-espanhol",
+        "2018-3-espanhol"
+      ],
+      [
+        "2023-3-espanhol",
+        "2023-5-espanhol",
+        "2022-3-espanhol",
+        "2021-2-espanhol",
+        "2020-1-espanhol"
+      ],
+      [
+        "2020-2-espanhol",
+        "2020-4-espanhol",
+        "2019-1-espanhol",
+        "2019-4-espanhol",
+        "2018-1-espanhol"
+      ]
+    ]
+  }
 }

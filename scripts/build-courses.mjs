@@ -12,6 +12,7 @@ const [snapshot, physics, matrix, mapping, nature, humanities] = await Promise.a
 ]);
 const subjectCourses = await Promise.all(["quimica", "biologia", "matematica", "geografia", "historia", "portugues", "literatura", "ingles", "espanhol"].map((id) => read(`data/courses/${id}.json`)));
 const languages = await read("data/courses/linguagens.json");
+const languageExtras = { ...languages, ...await read("data/courses/linguagens-complementares.json") };
 const questionId = (q) => `${q.year}-${q.index}${q.language ? `-${q.language}` : ""}`;
 const savedLayout = await read("data/courses/lesson-layout.json");
 let tri = { questions: {}, coverage: [] };
@@ -43,7 +44,7 @@ function validateIntro(module) {
   assert.ok(i.sections?.length >= 3 && i.example?.steps?.length >= 2, `Incomplete concepts ${module.id}`);
   for (const section of i.sections) assert.ok(section.title && section.text, `Empty section ${module.id}`);
 }
-for (const course of [physicsCourse, ...subjectCourses, humanities]) {
+for (const course of [physicsCourse, ...subjectCourses, humanities, languageExtras]) {
   const areaId = officialArea(course.id);
   const area = matrix.areas[areaId];
   const modules = course.modules.map((m, index) => {
@@ -91,16 +92,18 @@ for (const course of [physicsCourse, ...subjectCourses, humanities]) {
       assert.ok(Math.abs(parameters.difficultyScore - (500 + 100 * parameters.b)) < 0.000001, `Wrong TRI scale ${entry.id}`);
       assert.ok(parameters.sourceUrl?.startsWith("https://download.inep.gov.br/") && parameters.matchMethod, `Missing official TRI provenance ${entry.id}`);
     }
-    const subjectId = course.id === "ciencias-humanas" ? entry.subjectId : course.id;
-    const subjectTitle = course.id === "ciencias-humanas" ? entry.subjectTitle : course.title;
-    if (course.id === "ciencias-humanas") {
-      const complementarySubjects = { filosofia: "Filosofia", sociologia: "Sociologia" };
+    const subjectId = ["ciencias-humanas", "linguagens"].includes(course.id) ? entry.subjectId : course.id;
+    const subjectTitle = ["ciencias-humanas", "linguagens"].includes(course.id) ? entry.subjectTitle : course.title;
+    if (["ciencias-humanas", "linguagens"].includes(course.id)) {
+      const complementarySubjects = course.id === "linguagens"
+        ? { arte: "Arte", "educacao-fisica": "Educação Física", "tecnologia-informacao": "Tecnologias da Informação" }
+        : { filosofia: "Filosofia", sociologia: "Sociologia" };
       assert.equal(subjectTitle, complementarySubjects[subjectId], `Invalid humanities subject ${entry.id}`);
       assert.ok(subjectTitle, `Missing humanities subject ${entry.id}`);
     }
     questions.push({ ...normalized, ...curated, areaId, subjectId, subjectTitle, moduleTitle: module.title, tri: parameters || null, triUnavailable: parameters ? null : tri.unavailable?.[entry.id] || null });
   }
-  if (course.id === "ciencias-humanas") continue;
+  if (["ciencias-humanas", "linguagens"].includes(course.id)) continue;
   for (const module of modules) assert.ok(course.questions.some((q) => q.moduleId === module.id), `Empty unit ${module.id}`);
   const { questions: entries, ...info } = course;
   courses.push({ ...info, areaId, areaTitle: area.title, modules, questionIds: entries.map((q) => q.id), total: entries.length });
@@ -130,13 +133,23 @@ for (const integrated of [nature, humanities, languages]) {
 // Keep published lesson boundaries, including partial lessons and the Natureza union.
 for (const course of courses) {
   course.lessonLayout = {};
+  course.legacyLessonCredits = {};
   for (const module of course.modules) {
     const ids = course.questionIds.filter(id => {
       const q = questions.find(q => q.id === id);
       return course.integratedBy === "subject" ? q.subjectId === module.subjectId
         : course.integrated ? q.competency === module.competency : q.moduleId === module.id;
     });
-    const previous = savedLayout[course.id]?.[module.id] || [];
+    // Repartition previously published Linguagens lessons by competence. Each
+    // resulting group keeps its original completion credit without awarding XP.
+    const legacyGroups = Object.entries(course.legacyLessonLayout || {}).flatMap(([oldModule, groups]) =>
+      groups.map((group, index) => ({ oldId: `${oldModule}-${index + 1}`, ids: group.filter(id => ids.includes(id)) }))
+    ).filter(group => group.ids.length);
+    const previous = savedLayout[course.id]?.[module.id] || legacyGroups.map(group => group.ids);
+    legacyGroups.forEach((group, index) => {
+      assert.deepEqual(previous[index], group.ids, `Changed migrated lesson ${module.id}`);
+      course.legacyLessonCredits[`${module.id}-${index + 1}`] = group.oldId;
+    });
     assert.ok(previous.flat().every(id => ids.includes(id)), `Published lesson lost a question: ${module.id}`);
     const assigned = new Set(previous.flat());
     const extra = ids.filter(id => !assigned.has(id));

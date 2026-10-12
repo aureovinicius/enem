@@ -355,6 +355,3930 @@
         "takeaway": "A coesão referencial conecta expressões diferentes que designam a mesma pessoa ou objeto."
       },
       "moduleId": "pt-lingua"
+    },
+    {
+      "id": "2009-92",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Adequação de registro",
+        "steps": [
+          "A gerente começa com tratamento formal e passa a dizer Julinho, cara e cê depois de reconhecer o amigo.",
+          "A alternativa A é correta. A mudança acompanha a intimidade entre os interlocutores; não decorre de um defeito de linguagem nem da cidade onde nasceram."
+        ],
+        "takeaway": "O registro se ajusta à relação social e à situação comunicativa."
+      }
+    },
+    {
+      "id": "2009-107",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Argumentação por fatos",
+        "steps": [
+          "O segundo texto relaciona sacolas a bueiros entupidos, enchentes e animais sufocados.",
+          "A alternativa E é correta. Essas constatações sustentam o apelo para evitar sacolas; não se oferecem instruções práticas de reciclagem nem previsões futuras."
+        ],
+        "takeaway": "Exemplos de consequências observadas podem sustentar a persuasão."
+      }
+    },
+    {
+      "id": "2009-108",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Comparação de finalidades",
+        "steps": [
+          "O primeiro texto enumera aplicações e vantagens do plástico, mas lamenta a baixa reciclagem.",
+          "A alternativa B é correta. O segundo desloca o foco para os danos ambientais do descarte; por isso é incorreto dizer que o primeiro não faz ressalvas."
+        ],
+        "takeaway": "Compare a orientação global de cada texto, preservando suas ressalvas."
+      }
+    },
+    {
+      "id": "2009-111",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Patrimônio linguístico oral",
+        "steps": [
+          "Bera, espaia e parentaia conservam traços da fala transmitida com a canção.",
+          "A alternativa C é correta. Essas formas integram a memória coletiva e a identidade do grupo, em vez de constituírem falhas a eliminar da cultura."
+        ],
+        "takeaway": "A tradição oral preserva modos de falar e experiências históricas."
+      }
+    },
+    {
+      "id": "2009-119",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Norma e usos efetivos",
+        "steps": [
+          "Almeida censura afastamentos do padrão, enquanto Perini assume escolhas presentes no português brasileiro atual.",
+          "A alternativa E é correta. O contraste está entre prescrição rígida e descrição de usos contemporâneos, não entre duas defesas da mesma rigidez."
+        ],
+        "takeaway": "Compare a concepção de língua que sustenta cada posicionamento."
+      }
+    },
+    {
+      "id": "2009-121",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Identificação do interlocutor",
+        "steps": [
+          "Terena contrapõe nós, indígenas, a vocês e pergunta pelas marcas indígenas existentes nos ouvintes.",
+          "A alternativa B é correta. Essa oposição mostra que se dirige a brasileiros não indígenas, sem restringi-los à origem europeia ou estrangeira."
+        ],
+        "takeaway": "Pronomes e oposições entre grupos ajudam a reconhecer o público."
+      }
+    },
+    {
+      "id": "2009-122",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Norma-padrão e interlocução",
+        "steps": [
+          "Terena afirma usar o código dos interlocutores e reivindica reconhecimento sem paternalismo.",
+          "A alternativa B é correta. A variedade compartilhada favorece diálogo em condições de igualdade, em vez de servir a uma aula de correção gramatical."
+        ],
+        "takeaway": "A escolha de variedade também pode construir posições sociais no diálogo."
+      }
+    },
+    {
+      "id": "2009-124",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Oximoro",
+        "steps": [
+          "No trecho selecionado, viver se articula a nessa que morre e matança a deu vida.",
+          "A alternativa D é correta. A aproximação de sentidos excludentes reforça a tensão expressiva, correspondendo à definição de oximoro apresentada."
+        ],
+        "takeaway": "O oximoro reúne sentidos incompatíveis em uma mesma formulação."
+      }
+    },
+    {
+      "id": "2009-129",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Convergência de argumentos",
+        "steps": [
+          "Serafim considera pouco marcadas as fronteiras geográficas; Teyssier privilegia diferenças socioculturais.",
+          "A alternativa E é correta. Ambos reduzem o peso da delimitação espacial, embora só o segundo enfatize explicitamente a dimensão social da diversidade."
+        ],
+        "takeaway": "Um ponto comum não torna idênticas todas as teses comparadas."
+      }
+    },
+    {
+      "id": "2009-131",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Preconceito linguístico",
+        "steps": [
+          "João de Barros classifica como barbarização o modo de povos dominados empregarem o português.",
+          "A alternativa D é correta. Sua avaliação pressupõe um modelo homogêneo pertencente aos portugueses, em contraste com a mudança pelo contato defendida no primeiro texto."
+        ],
+        "takeaway": "Julgar variedades pelo padrão do dominador revela uma hierarquia social."
+      }
+    },
+    {
+      "id": "2010-98",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade do horóscopo",
+        "steps": [
+          "O texto interpela a leitora e recomenda calma, prudência e cuidado nas relações.",
+          "A alternativa E é correta. Os conselhos sobre vida cotidiana definem sua função; a referência ao eclipse não o transforma em divulgação astronômica."
+        ],
+        "takeaway": "O objetivo comunicativo distingue textos que compartilham um tema."
+      }
+    },
+    {
+      "id": "2010-99",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Registro técnico",
+        "steps": [
+          "Dicotômicas, modalidades e código aparecem para explicar relações entre fala e escrita a professores.",
+          "A alternativa C é correta. O vocabulário especializado caracteriza uma exposição técnica; tratar da oralidade não equivale a reproduzir fala informal."
+        ],
+        "takeaway": "O assunto de um texto não determina sozinho seu registro."
+      }
+    },
+    {
+      "id": "2010-102",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ironia",
+        "steps": [
+          "A narradora celebra uma consulta paranormal a Freud e depois obtém o mesmo resultado com respostas opostas.",
+          "A alternativa E é correta. O elogio exagerado expõe a falta de personalização e de credibilidade do teste, produzindo sentido irônico."
+        ],
+        "takeaway": "A ironia pode elogiar na superfície para criticar no contexto."
+      }
+    },
+    {
+      "id": "2011-103",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Texto e suporte",
+        "steps": [
+          "A metáfora da alma que reencarna separa a obra dos diferentes materiais que a veiculam.",
+          "A alternativa D é correta. O cronista sustenta que textos sobrevivem à mudança de suporte; não prevê o desaparecimento da leitura junto com o papel."
+        ],
+        "takeaway": "Distinguir conteúdo e suporte evita inferências excessivas."
+      }
+    },
+    {
+      "id": "2011-106",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Coesão aditiva",
+        "steps": [
+          "Além disso acrescenta benefícios aos que já foram apresentados sobre hábitos saudáveis.",
+          "A alternativa A é correta. O conector faz a argumentação avançar por adição; mas também soma informações, sem estabelecer contraste nesse emprego."
+        ],
+        "takeaway": "O valor de um conector depende da relação que ele constrói no contexto."
+      }
+    },
+    {
+      "id": "2011-109",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Intenção argumentativa",
+        "steps": [
+          "O paradoxo opõe o desejo de viver muito à tristeza quando a velhice chega.",
+          "A alternativa E é correta. A referência a Cícero sustenta uma atitude de aceitação da passagem do tempo, não de combate ao envelhecimento."
+        ],
+        "takeaway": "A conclusão orienta a identificação da finalidade de um argumento."
+      }
+    },
+    {
+      "id": "2011-111",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Anedota",
+        "steps": [
+          "Adãozinho critica o retrato e descobre que a pessoa retratada é a mãe do delegado.",
+          "A alternativa A é correta. A resposta feiura caprichada tenta contornar o constrangimento e encerra uma narrativa breve com efeito cômico."
+        ],
+        "takeaway": "Uma situação breve com desfecho humorístico caracteriza a anedota."
+      }
+    },
+    {
+      "id": "2011-115",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Leitura crítica de tese",
+        "steps": [
+          "O texto reconhece a importância da alfabetização, mas afirma que a cidadania depende também de romper a pobreza.",
+          "A alternativa D é correta. Essa ressalva avalia criticamente limites da condição cidadã; não rejeita leitura e escrita nem as considera suficientes."
+        ],
+        "takeaway": "Concessões preservam um valor enquanto delimitam seu alcance."
+      }
+    },
+    {
+      "id": "2011-119",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Contato de línguas",
+        "steps": [
+          "O relato apresenta o tupi no cotidiano familiar e nas expedições, junto ao português aprendido na escola.",
+          "A alternativa E é correta. O gabarito se refere à convivência linguística descrita; não permite concluir que toda a colonização tenha ocorrido pacificamente."
+        ],
+        "takeaway": "Uma afirmação sobre contato linguístico não apaga violências históricas."
+      }
+    },
+    {
+      "id": "2011-120",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função emotiva",
+        "steps": [
+          "Expressões como meu coração e eu vou voltar pra mim explicitam sentimentos da voz que canta.",
+          "A alternativa A é correta. A primeira pessoa e a dor amorosa põem o emissor em foco, coexistindo com a elaboração poética."
+        ],
+        "takeaway": "A função emotiva manifesta a perspectiva afetiva do emissor."
+      }
+    },
+    {
+      "id": "2011-121",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função referencial",
+        "steps": [
+          "A notícia informa localização, estimativas de volume e resultados atribuídos aos pesquisadores da UFPA.",
+          "A alternativa B é correta. Essas informações objetivas concentram a mensagem no referente, mesmo que o título use uma formulação expressiva."
+        ],
+        "takeaway": "Dados e atribuição de fontes são marcas da exposição informativa."
+      }
+    },
+    {
+      "id": "2011-125",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Língua e brasilidade",
+        "steps": [
+          "O museu apresenta o idioma como vivo e associa formas cotidianas de falar ao que significa ser brasileiro.",
+          "A alternativa B é correta. O foco é a língua na construção identitária, não o custo da inauguração ou políticas públicas específicas."
+        ],
+        "takeaway": "Práticas linguísticas participam da construção de identidades coletivas."
+      }
+    },
+    {
+      "id": "2011-126",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Comparação de opiniões",
+        "steps": [
+          "Uma carta denuncia desculpas políticas; a outra propõe prevenção e critica a culpabilização dos moradores.",
+          "A alternativa C é correta. As duas apontam falhas da atuação pública, mas apenas a segunda formula um serviço semelhante ao SUS."
+        ],
+        "takeaway": "O ponto comum deve estar sustentado nos dois textos."
+      }
+    },
+    {
+      "id": "2011-128",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Variedades do português",
+        "steps": [
+          "O texto distingue variedades brasileiras e europeias sem negar diferenças internas entre usos cultos e populares.",
+          "A alternativa C é correta. A existência de traços compartilhados no Brasil permite falar em norma nacional, apesar de sua diversidade."
+        ],
+        "takeaway": "Uma língua nacional comporta diferentes normas e variedades."
+      }
+    },
+    {
+      "id": "2011-130",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Variação regional lexical",
+        "steps": [
+          "Aipim, macaxeira e mandioca designam a mesma planta em diferentes regiões.",
+          "A alternativa A é correta. A mudança ocorre no nome empregado pelas comunidades, não necessariamente nas características botânicas da espécie."
+        ],
+        "takeaway": "Variação lexical pode atribuir vários nomes ao mesmo referente."
+      }
+    },
+    {
+      "id": "2011-131",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Norma real e norma ideal",
+        "steps": [
+          "A autora registra usos como ter existencial inclusive entre falantes escolarizados.",
+          "A alternativa B é correta. Isso mostra que a prática linguística não coincide integralmente com a prescrição, sem autorizar julgamento de inferioridade dos falantes."
+        ],
+        "takeaway": "A norma idealizada não esgota os usos efetivos de uma comunidade."
+      }
+    },
+    {
+      "id": "2012-98",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Preservação da memória",
+        "steps": [
+          "O texto enumera as várias atividades de Alencar e anuncia a digitalização de documentos inéditos.",
+          "A alternativa D é correta. Disponibilizar esse acervo conserva registros da língua e da formação cultural brasileira, além dos romances mais conhecidos."
+        ],
+        "takeaway": "Preservar documentos amplia o acesso ao patrimônio linguístico e cultural."
+      }
+    },
+    {
+      "id": "2012-99",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Marcas da oralidade",
+        "steps": [
+          "Reticências, alongamentos e risos registram hesitações e pausas do depoimento.",
+          "A alternativa A é correta. A organização acompanha a produção espontânea da fala, sem tornar o relato incoerente nem restrito a um vocabulário regional."
+        ],
+        "takeaway": "Pausas e reformulações podem caracterizar a modalidade oral."
+      }
+    },
+    {
+      "id": "2012-101",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Linguagem e relações de poder",
+        "steps": [
+          "O personagem escolhe humildade diante de superiores úteis e grosseria diante dos inferiores.",
+          "A alternativa A é correta. A imagem do títere revela que o manipulador também se submete ao jogo social; suas escolhas são calculadas, não aleatórias."
+        ],
+        "takeaway": "A adaptação do discurso pode revelar interesses e relações de poder."
+      }
+    },
+    {
+      "id": "2012-105",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Tratamento e distância social",
+        "steps": [
+          "O autor recebe senhor enquanto os demais são tratados por você e interpreta a diferença como marca de sua idade.",
+          "A alternativa A é correta. A imagem do muro frio traduz o distanciamento produzido pela escolha do tratamento na interação."
+        ],
+        "takeaway": "Formas de tratamento podem produzir proximidade ou afastamento."
+      }
+    },
+    {
+      "id": "2012-110",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Criatividade nos usos coloquiais",
+        "steps": [
+          "Voltou de ateu cria uma imagem de fantasia, e disilimina transforma uma jogada em descoberta verbal.",
+          "A alternativa E é correta. O narrador valoriza efeitos lúdicos e poéticos das formas populares, em vez de apenas corrigir desvios da norma."
+        ],
+        "takeaway": "Usos coloquiais podem produzir humor, imagens e sentidos novos."
+      }
+    },
+    {
+      "id": "2012-111",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Linguagem radiofônica",
+        "steps": [
+          "A canção simula um locutor que fala com vocês, lê uma carta e apela diretamente a Arlindo.",
+          "A alternativa A é correta. Essa interlocução simples e emotiva exemplifica as características do rádio descritas no primeiro texto."
+        ],
+        "takeaway": "Um gênero pode incorporar marcas comunicativas de outro meio."
+      }
+    },
+    {
+      "id": "2012-119",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Carta do leitor",
+        "steps": [
+          "O leitor questiona a utilidade de conselhos dirigidos a separações de pessoas com obras de arte.",
+          "A alternativa E é correta. Ao propor informações mais próximas do leitor médio, contesta o recorte da reportagem e sugere outra abordagem."
+        ],
+        "takeaway": "A carta do leitor pode avaliar criticamente a pauta de uma publicação."
+      }
+    },
+    {
+      "id": "2012-120",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade da divulgação",
+        "steps": [
+          "O texto apresenta a extensão SendLater, explica o agendamento e menciona sua limitação de funcionamento.",
+          "A alternativa E é correta. A intenção é divulgar uma ferramenta que acrescenta uma possibilidade ao e-mail, não oferecer formação especializada."
+        ],
+        "takeaway": "Descrição de utilidade e funcionamento pode servir à divulgação de um recurso."
+      }
+    },
+    {
+      "id": "2012-123",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Norma e contexto",
+        "steps": [
+          "Rubem Alves admite que varreção poderia prejudicá-lo em um vestibular, embora seja usual na fala mineira.",
+          "A alternativa B é correta. Ele reconhece exigências formais da escrita sem negar legitimidade aos usos da comunidade rural."
+        ],
+        "takeaway": "Adequação formal e valorização da diversidade podem coexistir."
+      }
+    },
+    {
+      "id": "2012-127",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função emotiva",
+        "steps": [
+          "Estou nervoso e Estou zangado explicitam o estado de espírito do cronista.",
+          "A alternativa B é correta. Os acontecimentos são filtrados pelo desabafo do enunciador, que domina a mensagem apesar do contato inicial com o leitor."
+        ],
+        "takeaway": "A predominância emotiva decorre da centralidade da atitude do emissor."
+      }
+    },
+    {
+      "id": "2012-128",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Adequação na entrevista",
+        "steps": [
+          "Bagno defende usos brasileiros e emprega registro formal na entrevista publicada.",
+          "A alternativa A é correta. Usar norma-padrão nessa situação não contradiz o reconhecimento de outras variedades; corresponde à adaptação ao contexto de circulação."
+        ],
+        "takeaway": "Defender a diversidade não impede empregar a norma-padrão quando adequada."
+      }
+    },
+    {
+      "id": "2012-129",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Léxico e experiência cultural",
+        "steps": [
+          "O texto distingue capacidade expressiva potencial de disponibilidade histórica de termos especializados.",
+          "A alternativa D é correta. Diferenças vocabulares refletem experiências das comunidades e podem ser superadas por criação ou empréstimo, sem inferioridade gramatical."
+        ],
+        "takeaway": "Ausência de um termo não significa incapacidade de uma língua."
+      }
+    },
+    {
+      "id": "2012-130",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Mudança linguística e purismo",
+        "steps": [
+          "A história de ter e haver revela usos variáveis, inclusive em períodos antigos.",
+          "A alternativa E é correta. Uma norma tomada como única oculta essa diversidade e sustenta hierarquias entre falantes, contrariando a análise histórica."
+        ],
+        "takeaway": "Estudar mudanças ajuda a questionar julgamentos puristas sobre a língua."
+      }
+    },
+    {
+      "id": "2012-132",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Enunciado e objetivo textual",
+        "steps": [
+          "A abertura reformula uma frase estereotipada e é seguida por números sobre matrículas femininas na área automotiva.",
+          "A alternativa A é correta. Os dados comprovam mudança na participação social das mulheres; o jogo verbal serve a essa demonstração."
+        ],
+        "takeaway": "Relacionar abertura e desenvolvimento revela a intenção global do texto."
+      }
+    },
+    {
+      "id": "2013-98",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Primeira pessoa e persuasão",
+        "steps": [
+          "Carregamos, desenvolvemos e controlamos incluem autor e leitores no mesmo grupo.",
+          "A alternativa D é correta. Essa inclusão torna o leitor participante da relação ambivalente de controlar tecnologias e ser controlado por elas."
+        ],
+        "takeaway": "O nós pode construir cumplicidade e corresponsabilidade argumentativa."
+      }
+    },
+    {
+      "id": "2013-100",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Coloquialidade",
+        "steps": [
+          "Pro céu, se liga e pode crer aproximam a canção de práticas informais de fala.",
+          "A alternativa D é correta. Essas escolhas conferem espontaneidade; não são marcas exclusivas da internet nem se explicam apenas pela concisão."
+        ],
+        "takeaway": "O registro coloquial aproxima a mensagem da interação cotidiana."
+      }
+    },
+    {
+      "id": "2013-101",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora e memória",
+        "steps": [
+          "Cada retalho da manta desencadeia uma história dos antigos donos das roupas.",
+          "A alternativa E é correta. Seu valor decorre da ligação entre matéria e memória oral, superior ao preço de joias ou palácios."
+        ],
+        "takeaway": "Um objeto pode representar a continuidade de experiências familiares."
+      }
+    },
+    {
+      "id": "2013-105",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Precisão do texto legal",
+        "steps": [
+          "O estatuto define faixas etárias e explicita os sujeitos responsáveis por assegurar direitos.",
+          "A alternativa B é correta. Essa delimitação procura evitar leituras ambíguas para cumprir sua função normativa, sem depender de informalidade."
+        ],
+        "takeaway": "Gêneros legais privilegiam precisão na delimitação de direitos e deveres."
+      }
+    },
+    {
+      "id": "2013-107",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Leitura de edital",
+        "steps": [
+          "A resolução comunica o tombamento de imóveis, medida voltada à proteção patrimonial.",
+          "A alternativa E é correta. Concordar com ela significa apoiar preservação, não demolição nem transformação automática em moradia popular."
+        ],
+        "takeaway": "Compreender um termo institucional é decisivo para interpretar o ato divulgado."
+      }
+    },
+    {
+      "id": "2013-112",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Pontuação como recurso expressivo",
+        "steps": [
+          "Após Não física, dois pontos, aparecem exemplos de manipulação política, publicitária e psicológica.",
+          "A alternativa C é correta. Escrever o sinal por extenso mantém sua função de anunciar esclarecimentos exemplificativos e organiza o avanço das ideias."
+        ],
+        "takeaway": "Uma escolha estilística pode preservar a função organizadora da pontuação."
+      }
+    },
+    {
+      "id": "2013-113",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Efeito poético",
+        "steps": [
+          "A recusa cotidiana ao convite se transforma em cena dramática diante do espelho, terminando com Perfeita.",
+          "A alternativa B é correta. O poema surpreende pela encenação e pelo contraste entre cotidiano e espetáculo, sem compromisso de relatar um fato real."
+        ],
+        "takeaway": "O efeito poético pode recriar ações banais de modo inesperado."
+      }
+    },
+    {
+      "id": "2013-115",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Repetição e intensificação",
+        "steps": [
+          "Espremidos, empilhados e esmagados reaparecem associados ao corpo e à alma dos meninos.",
+          "A alternativa A é correta. A acumulação reforça a violência física e moral e sua relação com desesperos e ódios, não com apatia."
+        ],
+        "takeaway": "Repetições podem intensificar uma representação e seu efeito emocional."
+      }
+    },
+    {
+      "id": "2013-118",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Marcas de informalidade",
+        "steps": [
+          "A formulação pra valer usa a redução de para e uma expressão frequente na conversa cotidiana.",
+          "A alternativa D é correta. Ela marca o registro informal do narrador, diferentemente de trechos lexicalmente neutros como Pela admiração."
+        ],
+        "takeaway": "Contrações e expressões idiomáticas ajudam a reconhecer o registro."
+      }
+    },
+    {
+      "id": "2013-121",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Elipse e coesão",
+        "steps": [
+          "Em fizesse referência, o sujeito não é repetido, mas pode ser recuperado no desenvolvimento sobre o termo francês.",
+          "A alternativa E é correta. Essa omissão com recuperação contextual constitui elipse; O primeiro e O segundo são retomadas expressas."
+        ],
+        "takeaway": "A elipse evita repetição mantendo recuperável o elemento omitido."
+      }
+    },
+    {
+      "id": "2013-125",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Confronto de informações",
+        "steps": [
+          "O primeiro texto apresenta fontes alimentares de vitamina D; o segundo privilegia a produção na pele.",
+          "A alternativa C é correta. A divergência recai no papel da alimentação diante da produção corporal, não na importância da substância para a saúde."
+        ],
+        "takeaway": "Compare o foco das afirmações sem transformar uma pergunta em comprovação."
+      }
+    },
+    {
+      "id": "2013-130",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Retificação argumentativa",
+        "steps": [
+          "Na verdade introduz a diversidade de povos e línguas ocultada pelo rótulo genérico índios.",
+          "A alternativa E é correta. A informação corrige uma visão preconcebida e sustenta o reconhecimento dessas comunidades como civilizações."
+        ],
+        "takeaway": "Marcadores de retificação podem abrir uma contestação de estereótipos."
+      }
+    },
+    {
+      "id": "2013-132",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Humor e interpretação",
+        "steps": [
+          "A pergunta opõe lagarto e largato para discutir a forma da palavra.",
+          "A alternativa C é correta. A resposta sobre a rapidez do bicho trata a dúvida como identificação do animal e rompe a expectativa metalinguística."
+        ],
+        "takeaway": "O humor pode nascer de interlocutores atribuírem sentidos distintos à pergunta."
+      }
+    },
+    {
+      "id": "2014-101",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Referenciação textual",
+        "steps": [
+          "Nisso aparece antes de botar a cara na janela em crônica de jornal.",
+          "A alternativa A é correta. O demonstrativo antecipa a informação que lhe dá conteúdo, enquanto as demais alternativas atribuem referentes inadequados às retomadas."
+        ],
+        "takeaway": "Uma referência pode apontar para informação que ainda será apresentada."
+      }
+    },
+    {
+      "id": "2014-103",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Posicionamento argumentativo",
+        "steps": [
+          "Após enumerar queixas sobre leitura, a autora introduz pesquisas segundo as quais brasileiros leem obras ignoradas pelas estatísticas tradicionais.",
+          "A alternativa D é correta. Esse contraponto questiona a formulação da crise, em vez de reafirmar simplesmente o desinteresse dos jovens."
+        ],
+        "takeaway": "O contraste entre diagnóstico corrente e evidências revela a posição do autor."
+      }
+    },
+    {
+      "id": "2014-104",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Adequação linguística",
+        "steps": [
+          "Possenti compara contratos, manuais, decisões judiciais e cordéis para mostrar diferentes modos de escrever.",
+          "A alternativa D é correta. Dominar a língua exige escolher formas adequadas ao gênero e ao contexto, sem abolir toda correção."
+        ],
+        "takeaway": "A adequação considera finalidade, interlocutores e gênero textual."
+      }
+    },
+    {
+      "id": "2014-106",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Manutenção da interação",
+        "steps": [
+          "Né reaparece enquanto o falante organiza o relato de como os pais se conheceram.",
+          "A alternativa B é correta. O marcador solicita acompanhamento do interlocutor e mantém o contato, sem provar baixa escolaridade ou origem regional exclusiva."
+        ],
+        "takeaway": "Marcadores conversacionais ajudam a sustentar a interação oral."
+      }
+    },
+    {
+      "id": "2014-107",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função social do blog",
+        "steps": [
+          "O texto contrapõe o diário pessoal inicial à publicação de opiniões e aos comentários de leitores.",
+          "A alternativa B é correta. A troca amplia o blog para um espaço de discussão e circulação de ideias, não apenas exposição da rotina."
+        ],
+        "takeaway": "As funções de um gênero podem se ampliar com suas práticas de uso."
+      }
+    },
+    {
+      "id": "2014-111",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Modalização verbal",
+        "steps": [
+          "Em deve acabar logo, dever não impõe uma obrigação à água: apresenta uma expectativa atribuída às teorias pessimistas.",
+          "A alternativa D é correta. Nesse contexto, o verbo modaliza uma previsão de escassez; a questão analisa o sentido linguístico, não confirma a previsão."
+        ],
+        "takeaway": "Verbos modais expressam graus de expectativa, necessidade ou obrigação conforme o contexto."
+      }
+    },
+    {
+      "id": "2014-114",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Pesquisa como argumento",
+        "steps": [
+          "O autor confronta estereótipos musicais com resultados do levantamento do Ibope entre 2012 e 2013.",
+          "A alternativa A é correta. Os dados de preferência dão sustentação verificável à tese de mudança do perfil musical naquele período."
+        ],
+        "takeaway": "Dados de pesquisa podem funcionar como evidência para uma tese."
+      }
+    },
+    {
+      "id": "2014-118",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Variação histórica",
+        "steps": [
+          "Fita de cinema e artista são comparados a filme e ator como escolhas de gerações diferentes.",
+          "A alternativa B é correta. A substituição lexical ao longo do tempo mostra renovação do vocabulário, não diferenças botânicas, geográficas ou obrigação de descartar palavras."
+        ],
+        "takeaway": "Mudanças de vocabulário podem indicar diferenças geracionais."
+      }
+    },
+    {
+      "id": "2014-120",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ironia narrativa",
+        "steps": [
+          "O vizinho espiona os encontros de Abílio e tenta repetir o sinal, mas reage à recusa com ameaça de denunciar.",
+          "A alternativa C é correta. A malícia do episódio e a revelação do interesse do imitador produzem ironia, sem formular uma lição moral explícita."
+        ],
+        "takeaway": "A ironia pode surgir da distância entre a aparência e os interesses das personagens."
+      }
+    },
+    {
+      "id": "2014-121",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função do editorial",
+        "steps": [
+          "O editorial parte da notícia sobre lixo na estrada e julga a conduta dos moradores, propondo consciência e reciclagem.",
+          "A alternativa D é correta. Essa avaliação dos fatos para o debate público distingue o gênero de uma mera repetição informativa da reportagem."
+        ],
+        "takeaway": "O editorial interpreta acontecimentos e explicita uma posição do veículo."
+      }
+    },
+    {
+      "id": "2014-129",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Vocabulário regional",
+        "steps": [
+          "Cabras, empregado para designar pessoas, marca um uso regional reconhecível na canção.",
+          "A alternativa C é correta. Outras expressões informais circulam amplamente; esse valor lexical particular é a pista regional pedida."
+        ],
+        "takeaway": "Informalidade geral e marca regional não são equivalentes."
+      }
+    },
+    {
+      "id": "2014-132",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ditados e justificação",
+        "steps": [
+          "Constança recorre a provérbios enquanto toma providências para aproximar seus desejos dos desígnios de Deus.",
+          "A alternativa C é correta. A sabedoria coletiva é mobilizada para legitimar suas próprias ações, não apenas citada mecanicamente."
+        ],
+        "takeaway": "Um saber tradicional pode ser usado como argumento em favor de interesses particulares."
+      }
+    },
+    {
+      "id": "2014-134",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Empréstimos e história",
+        "steps": [
+          "O texto relaciona palavras indígenas, africanas e europeias à colonização, imigração e independência.",
+          "A alternativa A é correta. Os empréstimos registram contatos históricos distintos e ajudam a explicar diferenças entre o português brasileiro e o europeu."
+        ],
+        "takeaway": "O vocabulário guarda marcas dos contatos vividos por uma comunidade."
+      }
+    },
+    {
+      "id": "2015-100",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Expressões coloquiais",
+        "steps": [
+          "Meu dia voa, vou penar e valeu a pena são expressões correntes da conversa cotidiana.",
+          "A alternativa B é correta. Elas aproximam a voz da canção do interlocutor; primeira pessoa e rimas, isoladamente, não definem coloquialidade."
+        ],
+        "takeaway": "Expressões populares podem marcar a informalidade de um texto."
+      }
+    },
+    {
+      "id": "2015-101",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Hibridismo de gêneros",
+        "steps": [
+          "A canção situa um endereço e se dirige a Tom como meu amigo, evocando lembranças compartilhadas.",
+          "A alternativa B é correta. Essas marcas de carta organizam a troca nostálgica sobre o Rio e as mudanças percebidas, sem aceitação pragmática do presente."
+        ],
+        "takeaway": "Uma canção pode incorporar interlocução e função de outro gênero."
+      }
+    },
+    {
+      "id": "2015-102",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Informação e orientação",
+        "steps": [
+          "O texto associa descarte inadequado à poluição, ao entupimento e à dificuldade de obter água.",
+          "A alternativa B é correta. As explicações informam consequências e sustentam orientações ao leitor, combinando função referencial e conativa."
+        ],
+        "takeaway": "Informar consequências pode fundamentar a orientação de comportamentos."
+      }
+    },
+    {
+      "id": "2015-103",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade de conscientização",
+        "steps": [
+          "A enumeração de enchentes, incêndios e acidentes é acompanhada da possibilidade de reaproveitar materiais.",
+          "A alternativa E é correta. Os dados apoiam a conscientização ambiental e a segurança rodoviária, não constituem um levantamento de produtos já reciclados."
+        ],
+        "takeaway": "Distingua os dados usados como argumento da finalidade geral do texto."
+      }
+    },
+    {
+      "id": "2015-106",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Escrita digital e contexto",
+        "steps": [
+          "O texto relaciona abreviações ao suporte e ressalta a necessidade de discernir situações distintas.",
+          "A alternativa E é correta. Cabe à escola desenvolver escolhas adequadas a diferentes ambientes, em vez de impor uma única norma para todos."
+        ],
+        "takeaway": "Dominar registros envolve reconhecer exigências distintas de cada situação."
+      }
+    },
+    {
+      "id": "2015-109",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Herança linguística africana",
+        "steps": [
+          "A letra incorpora vocábulos iorubás e referências a orixás em uma canção brasileira.",
+          "A alternativa B é correta. Essa presença evidencia a continuidade da cultura africana, sem afirmar superioridade cultural nem ridicularizar a religião."
+        ],
+        "takeaway": "O contato entre línguas torna visíveis heranças culturais na produção artística."
+      }
+    },
+    {
+      "id": "2015-113",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Neologismo e produtividade",
+        "steps": [
+          "Sambódromo serve de modelo a rangódromo, beijódromo e camelódromo.",
+          "A alternativa A é correta. A reutilização do elemento formador mostra criatividade produtiva da língua, mesmo que um autor questione sua adequação etimológica."
+        ],
+        "takeaway": "Novos usos podem ampliar o sentido de elementos formadores de palavras."
+      }
+    },
+    {
+      "id": "2015-114",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Inferência e limites da informação",
+        "steps": [
+          "A pesquisa compara características deduzidas dos perfis a avaliações posteriores dos chefes.",
+          "A alternativa D é correta. Isso permite analisar informações pessoais e comportamentais, sem certificar competência, inteligência ou capacidade física."
+        ],
+        "takeaway": "Uma correlação relatada não autoriza conclusões que excedem os dados apresentados."
+      }
+    },
+    {
+      "id": "2015-115",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Oralidade e memória",
+        "steps": [
+          "O texto relaciona narrativas e saberes de cultivo transmitidos entre gerações por meio da fala.",
+          "A alternativa B é correta. A ausência de escrita alfabética não impede conservação de conhecimento e continuidade da memória cultural."
+        ],
+        "takeaway": "A transmissão oral é uma forma efetiva de preservação de saberes."
+      }
+    },
+    {
+      "id": "2015-116",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Regularidade da variação",
+        "steps": [
+          "Em tarvez e sorto, o som representado por l em talvez e solto aparece como r.",
+          "A alternativa B é correta. A mesma alteração fonética explica as duas formas; os outros pares envolvem processos diferentes."
+        ],
+        "takeaway": "Variedades linguísticas apresentam padrões regulares de transformação."
+      }
+    },
+    {
+      "id": "2015-117",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Registro e gênero oficial",
+        "steps": [
+          "O relatório emprega comentários irônicos e expressões como esticou a canela ao avaliar o uso de telegramas.",
+          "A alternativa E é correta. Essa subjetividade se afasta da impessoalidade esperada no documento administrativo, apesar de conservar sua situação oficial."
+        ],
+        "takeaway": "Um texto pode manter o gênero e transgredir seu estilo habitual."
+      }
+    },
+    {
+      "id": "2015-120",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Estigma e desaparecimento lexical",
+        "steps": [
+          "Pinchar é associado ao mundo rural e a gerações antigas, levando falantes a abandoná-lo para evitar essa identificação.",
+          "A alternativa C é correta. O desuso é relacionado a avaliações sociais de grupos, não apenas à necessidade de modernizar o vocabulário."
+        ],
+        "takeaway": "Preconceitos contra falantes podem atingir as palavras que eles usam."
+      }
+    },
+    {
+      "id": "2015-121",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Circulação da leitura",
+        "steps": [
+          "Poemas são impressos nos sacos de pão distribuídos por padarias e chegam ao café da manhã dos moradores.",
+          "A alternativa D é correta. O suporte cotidiano amplia o acesso de diferentes públicos, incluindo autores conhecidos e iniciantes sem excluir os primeiros."
+        ],
+        "takeaway": "Mudar o suporte pode ampliar o alcance social da leitura."
+      }
+    },
+    {
+      "id": "2015-122",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Língua e conhecimento local",
+        "steps": [
+          "O nome Itaorna, interpretado como pedra podre, registrava uma característica do lugar desconhecida dos engenheiros.",
+          "A alternativa A é correta. Segundo o texto, valorizar esse repertório linguístico permitiria incorporar conhecimento ambiental já preservado na denominação."
+        ],
+        "takeaway": "Topônimos podem guardar conhecimentos das comunidades sobre o território."
+      }
+    },
+    {
+      "id": "2015-123",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Reformulação de registro",
+        "steps": [
+          "Encrencas é coloquial, e por trás de indica a relação causal entre aterosclerose e problemas mencionados.",
+          "A alternativa E é correta. Causadora de problemas mantém essa relação com maior formalidade; os demais pares conservam informalidade ou alteram o sentido."
+        ],
+        "takeaway": "Uma reformulação adequada muda o registro sem mudar a relação semântica."
+      }
+    },
+    {
+      "id": "2015-125",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Texto instrucional",
+        "steps": [
+          "O guia recomenda conhecer o destinatário, verificar a vaga e escrever uma apresentação breve.",
+          "A alternativa C é correta. O modelo exemplifica como enviar o currículo de modo eficiente, não como dispará-lo indiscriminadamente nem como redigir o currículo inteiro."
+        ],
+        "takeaway": "A função instrucional se reconhece pelas orientações de procedimento."
+      }
+    },
+    {
+      "id": "2015-128",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Gênero biográfico",
+        "steps": [
+          "A apresentação de Jota Barros encadeia nascimento, ofícios, publicações e mudança para São Paulo.",
+          "A alternativa B é correta. Esse percurso situado no tempo valoriza sua atuação artística, sem recorrer à ficcionalização dos acontecimentos."
+        ],
+        "takeaway": "Biografias organizam acontecimentos para apresentar uma trajetória singular."
+      }
+    },
+    {
+      "id": "2015-135",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Divulgação científica",
+        "steps": [
+          "A pergunta sobre formigas leva à explicação de como micro-ondas interagem com a água e aquecem materiais.",
+          "A alternativa C é correta. O objetivo geral é apresentar informações sobre essas ondas, não apenas comparar organismos ou denunciar o uso doméstico."
+        ],
+        "takeaway": "O exemplo inicial pode servir à explicação de um fenômeno mais amplo."
+      }
+    },
+    {
+      "id": "2016-96",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metalinguagem",
+        "steps": [
+          "A autora usa um texto escrito para discutir o que significa ler e construir sentidos.",
+          "A alternativa D é correta. O próprio processo de linguagem se torna objeto da mensagem, o que caracteriza a função metalinguística."
+        ],
+        "takeaway": "A metalinguagem ocorre quando a linguagem volta a atenção para seus processos."
+      }
+    },
+    {
+      "id": "2016-97",
+      "competency": 1,
+      "skill": 4,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Leitura crítica de mensagens",
+        "steps": [
+          "O texto descreve mensagens alarmantes, imagens chocantes e atribuições falsas como sinais recorrentes de hoaxes.",
+          "A alternativa B é correta. Observar essas escolhas de linguagem ajuda a reconhecer tentativas de manipulação, sem reduzir a prevenção a recusar toda brincadeira."
+        ],
+        "takeaway": "Analisar a formulação de uma mensagem integra a avaliação de sua credibilidade."
+      }
+    },
+    {
+      "id": "2016-99",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Regionalismo",
+        "steps": [
+          "O peste e cachorro da molest’a conferem à fala de Euricão marcas reconhecíveis de um repertório regional.",
+          "A alternativa B é correta. Essas escolhas caracterizam usos de uma comunidade, sem permitir identificar exclusivamente classe social ou autoridade."
+        ],
+        "takeaway": "O léxico pode situar culturalmente as personagens de um diálogo."
+      }
+    },
+    {
+      "id": "2016-101",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Oração condicional",
+        "steps": [
+          "Acontecendo de o cientista provocar um dano pode ser reformulado como Se o cientista provocar um dano.",
+          "A alternativa C é correta. O acontecimento apresentado condiciona a interrupção da vocalização descrita a seguir, em vez de indicar finalidade."
+        ],
+        "takeaway": "Orações reduzidas podem expressar relações recuperáveis por conectivos."
+      }
+    },
+    {
+      "id": "2016-102",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "História do significado",
+        "steps": [
+          "O texto vincula a passagem de mandinga a feitiçaria às percepções dos portugueses durante as navegações.",
+          "A alternativa A é correta. O significado se forma em um contexto de contato e relações históricas, não apenas por uma definição geográfica isolada."
+        ],
+        "takeaway": "Mudanças semânticas guardam marcas de relações sócio-históricas."
+      }
+    },
+    {
+      "id": "2016-103",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Convergência de teses",
+        "steps": [
+          "O primeiro texto relaciona bens a valorização social; o segundo descreve desejos e relações submetidos ao consumo.",
+          "A alternativa B é correta. Ambos apontam transformações nos valores e na vida social, embora não apresentem as mesmas causas em todos os detalhes."
+        ],
+        "takeaway": "O ponto comum deve abranger o argumento de ambos os textos."
+      }
+    },
+    {
+      "id": "2016-104",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Dois-pontos argumentativos",
+        "steps": [
+          "Após considerar um erro buscar a essência entre obra e autor, o texto explica onde seria melhor procurá-la.",
+          "A alternativa D é correta. Os dois-pontos introduzem o esclarecimento que fundamenta a afirmação anterior."
+        ],
+        "takeaway": "A pontuação pode explicitar a organização de um argumento."
+      }
+    },
+    {
+      "id": "2016-108",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Apresentação de obra",
+        "steps": [
+          "Os autores descrevem a abordagem, o conteúdo e os destinatários de Madeira de ponta a ponta.",
+          "A alternativa A é correta. Esses comentários apresentam o livro; a exploração da floresta é seu tema, não a função comunicativa imediata desse trecho."
+        ],
+        "takeaway": "Distingua apresentar uma obra de executar o objetivo da obra apresentada."
+      }
+    },
+    {
+      "id": "2016-110",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Analogia e criação",
+        "steps": [
+          "A formação gradual da pérola a partir de uma perturbação é aproximada da transformação da dor em escrita.",
+          "A alternativa C é correta. A analogia concebe a criação como elaboração persistente da experiência, sem exigir reconhecimento externo."
+        ],
+        "takeaway": "Analogias relacionam processos distintos para tornar uma ideia compreensível."
+      }
+    },
+    {
+      "id": "2016-111",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Marcas de diário",
+        "steps": [
+          "A repetição de Hoje enquadra episódios vividos pela primeira pessoa, acompanhados de suas percepções.",
+          "A alternativa E é correta. O registro autorreflexivo aproxima a canção de um diário; rimas e poeticidade pertencem à canção, não definem esse gênero."
+        ],
+        "takeaway": "Diários associam experiências pessoais a um ponto de vista reflexivo."
+      }
+    },
+    {
+      "id": "2016-115",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Tabu linguístico",
+        "steps": [
+          "O nome antigo do inseto era considerado indecoroso e impróprio para textos sérios.",
+          "A alternativa E é correta. A criação de pirilampo responde à restrição social de uma palavra, não à necessidade científica de classificar o animal."
+        ],
+        "takeaway": "Avaliações sociais podem motivar substituições no vocabulário."
+      }
+    },
+    {
+      "id": "2016-117",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Repetição e sensibilização",
+        "steps": [
+          "O refrão Você pode não acreditar apresenta cenas de confiança e convivência cotidiana.",
+          "A alternativa B é correta. A recorrência constrói nostalgia e sensibiliza o leitor para relações vistas como mais aprazíveis, sem prescrever gestão do tempo."
+        ],
+        "takeaway": "Repetir uma estrutura pode reforçar uma perspectiva afetiva e argumentativa."
+      }
+    },
+    {
+      "id": "2016-118",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Resenha crítica",
+        "steps": [
+          "O texto resume o episódio de Tartaglia e Cardano e avalia o livro como acessível e interessante.",
+          "A alternativa C é correta. A combinação de síntese e apreciação caracteriza a resenha, que ultrapassa a apresentação impessoal do conteúdo."
+        ],
+        "takeaway": "A resenha informa sobre uma obra e a avalia."
+      }
+    },
+    {
+      "id": "2016-122",
+      "competency": 7,
+      "skill": 21,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade de campanha",
+        "steps": [
+          "A campanha explica riscos não eliminados pelos testes e termina associando honestidade à vida do receptor.",
+          "A alternativa A é correta. O foco é responsabilizar o doador pelas informações que fornece, e não apenas aumentar o volume de doações."
+        ],
+        "takeaway": "O apelo final ajuda a identificar o comportamento que uma campanha pretende promover."
+      }
+    },
+    {
+      "id": "2016-123",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Fala culta e escrita",
+        "steps": [
+          "A primeira versão conserva hesitações da entrevista; a segunda reorganiza o mesmo conteúdo para publicação escrita.",
+          "A alternativa E é correta. As duas são usos de uma falante culta em modalidades distintas; hesitar não elimina essa caracterização sociolinguística."
+        ],
+        "takeaway": "Fala culta também contém pausas, repetições e reformulações."
+      }
+    },
+    {
+      "id": "2016-124",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Registro e humor",
+        "steps": [
+          "Os interlocutores estranham outrossim e distribuem palavras formais por dias da semana.",
+          "A alternativa B é correta. O deslocamento desse vocabulário para a conversa cotidiana cria a brincadeira, sem constituir uma classificação temporal real."
+        ],
+        "takeaway": "O contraste de registros pode produzir humor."
+      }
+    },
+    {
+      "id": "2016-127",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Tese sobre um gênero",
+        "steps": [
+          "Possenti propõe investigar piadas para conhecer valores sociais e o funcionamento da língua.",
+          "A alternativa E é correta. Machismo, racismo e outros temas aparecem como exemplos do potencial investigativo, não como sua única característica relevante."
+        ],
+        "takeaway": "Exemplos devem ser relacionados à tese que ajudam a sustentar."
+      }
+    },
+    {
+      "id": "2016-131",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Imprensa e memória",
+        "steps": [
+          "A leitura de jornais velhos é associada à recomposição do extinto e à revivescência do passado.",
+          "A alternativa C é correta. O jornal permite reconstruir experiências históricas, ultrapassando o sentimento individual de saudade."
+        ],
+        "takeaway": "Registros escritos podem funcionar como instrumentos de memória coletiva."
+      }
+    },
+    {
+      "id": "2016-133",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Rubricas teatrais",
+        "steps": [
+          "Indicações como faz uma pausa e volta a lhe dar as costas orientam ações e atitudes em cena.",
+          "A alternativa D é correta. Essas rubricas organizam a representação dramática e distinguem o trecho de uma fala apenas transcrita."
+        ],
+        "takeaway": "Rubricas indicam como a ação teatral pode ser encenada."
+      }
+    },
+    {
+      "id": "2016-134",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Contraste argumentativo",
+        "steps": [
+          "O crítico destaca que um artista gaúcho de ascendência italiana e fronteiriça compôs samba com excelência.",
+          "A alternativa A é correta. O contraste entre origem e realização no gênero reforça o elogio da habilidade artística."
+        ],
+        "takeaway": "Uma aparente distância entre origem e realização pode intensificar um elogio."
+      }
+    },
+    {
+      "id": "2016-135",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Reticências e implícito",
+        "steps": [
+          "A fala O PM pensou que se interrompe após a notícia dos tiros contra quem brincava.",
+          "A alternativa B é correta. O motivo atribuído ao policial fica para inferência do leitor, sem ser explicitado por uma oração completa."
+        ],
+        "takeaway": "Reticências podem deixar uma informação implícita a ser reconstruída pelo contexto."
+      }
+    },
+    {
+      "id": "2017-6",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Permanência da comunicação",
+        "steps": [
+          "Papiros comentados e tábuas respondidas são comparados às publicações e respostas em redes digitais.",
+          "A alternativa B é correta. O compartilhamento de informações permanece, apesar das diferenças de velocidade, suporte e alcance social."
+        ],
+        "takeaway": "Comparar meios exige distinguir funções permanentes de condições históricas variáveis."
+      }
+    },
+    {
+      "id": "2017-9",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Oralidade e padrões culturais",
+        "steps": [
+          "O comentário interpreta a sequência pai, irmão e marido como hierarquia de obediência na vida da mulher.",
+          "A alternativa E é correta. A transmissão da cantiga pode reforçar expectativas sociais sobre casamento e papéis femininos."
+        ],
+        "takeaway": "Textos da tradição oral também podem reproduzir padrões de comportamento."
+      }
+    },
+    {
+      "id": "2017-12",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Herança indígena no léxico",
+        "steps": [
+          "O texto explica nomes como Itu e Pindamonhangaba por características e atividades dos lugares.",
+          "A alternativa A é correta. Esses exemplos sustentam a contribuição tupi à toponímia, sem afirmar que o português inteiro se originou dela."
+        ],
+        "takeaway": "Nomes de lugares preservam contribuições linguísticas de povos indígenas."
+      }
+    },
+    {
+      "id": "2017-14",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Pressão de grupo",
+        "steps": [
+          "A propaganda descrita apresenta a posição de uma minoria como se fosse convicção geral.",
+          "A alternativa C é correta. Ao induzir conformidade, favorece a imposição de interesses de grupos particulares, não uma decisão necessariamente consciente."
+        ],
+        "takeaway": "A aparência de consenso pode ser usada como estratégia persuasiva."
+      }
+    },
+    {
+      "id": "2017-15",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Grafia e pertencimento",
+        "steps": [
+          "O menino explica que o lugar foi registrado com g e o relaciona ao cultivo local de gerimum.",
+          "A alternativa E é correta. Defender essa grafia reafirma o vínculo afetivo com a origem, mais do que exemplificar a norma geral de ortografia."
+        ],
+        "takeaway": "Escolhas linguísticas podem afirmar a identidade ligada a um lugar."
+      }
+    },
+    {
+      "id": "2017-17",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Tese e ponderação",
+        "steps": [
+          "A autora rejeita a imagem do computador como vilão, mas recomenda orientar caminhos e equilibrar meios.",
+          "A alternativa D é correta. A mediação amplia a aprendizagem e o conhecimento de mundo, sem exigir proibição nem uso exclusivo da rede."
+        ],
+        "takeaway": "Reconhecer benefícios de uma prática pode coexistir com limites e orientação."
+      }
+    },
+    {
+      "id": "2017-20",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Patrimônio em renovação",
+        "steps": [
+          "A referência a Camões reconhece uma herança, enquanto língua já feita é negada.",
+          "A alternativa B é correta. A passagem reúne tradição recebida e abertura para criação dos escritores atuais, atendendo aos dois aspectos pedidos."
+        ],
+        "takeaway": "Patrimônio linguístico se preserva também por sua capacidade de renovação."
+      }
+    },
+    {
+      "id": "2017-22",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Comparação de línguas",
+        "steps": [
+          "O ticuna predomina nas aldeias descritas; o inglês ocupa posição dominante em redes globais.",
+          "A alternativa D é correta. Em escalas diferentes, ambos prevalecem sobre línguas de contato; o texto não prova que tenham a mesma expansão ou sintaxe."
+        ],
+        "takeaway": "O elemento comum pode ser uma relação social, apesar das diferenças de escala."
+      }
+    },
+    {
+      "id": "2017-23",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Subjetividade e intensidade",
+        "steps": [
+          "A formulação represente muito para mim explicita diretamente o valor das atrizes para o eu lírico.",
+          "A alternativa E é correta. Muito intensifica a admiração pessoal, enquanto outros versos narram atitudes que não expressam esse grau de valorização."
+        ],
+        "takeaway": "Pronomes e intensificadores podem tornar explícita a atitude do emissor."
+      }
+    },
+    {
+      "id": "2017-24",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Duplo sentido",
+        "steps": [
+          "Tomar posição e esquerda ou direita podem designar tanto postura corporal quanto alinhamento político.",
+          "A alternativa D é correta. A revelação sobre cadeiras rangendo explora essa ambiguidade para representar o impasse ideológico sugerido no enunciado."
+        ],
+        "takeaway": "A polissemia pode aproximar um gesto físico de uma escolha política."
+      }
+    },
+    {
+      "id": "2017-25",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Resenha e avaliação",
+        "steps": [
+          "Após retomar o festival, o autor apresenta o livro e promete ao leitor prazer nas histórias ampliadas.",
+          "A alternativa E é correta. Predomina a apreciação de uma obra sobre a cena musical, não apenas o relato histórico dos participantes."
+        ],
+        "takeaway": "Marcas avaliativas distinguem a resenha da exposição neutra do assunto."
+      }
+    },
+    {
+      "id": "2017-27",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Sentidos em situação",
+        "steps": [
+          "Grávida e gestante são aproximadas, mas associadas a situações como conversa geral e atendimento preferencial.",
+          "A alternativa B é correta. As nuances são explicadas por contextos de uso e posições de quem fala, não por diferenças de flexão ou grafia."
+        ],
+        "takeaway": "Vocábulos próximos podem assumir valores distintos conforme a situação."
+      }
+    },
+    {
+      "id": "2017-29",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função metalinguística",
+        "steps": [
+          "O primeiro texto discute regras gramaticais; o segundo descreve a experiência com palavras e construções verbais.",
+          "A alternativa B é correta. Apesar da diferença de estilo, ambos tomam a própria linguagem como objeto da mensagem."
+        ],
+        "takeaway": "Textos técnicos e literários podem compartilhar uma função metalinguística."
+      }
+    },
+    {
+      "id": "2017-33",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Presente narrativo",
+        "steps": [
+          "Retorna e descobre apresentam acontecimentos do enredo como se estivessem em curso.",
+          "A alternativa B é correta. O presente do indicativo atualiza a narrativa e aproxima o leitor dos eventos do filme."
+        ],
+        "takeaway": "Tempos verbais podem construir vivacidade além de indicar cronologia literal."
+      }
+    },
+    {
+      "id": "2017-35",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Interlocução explícita",
+        "steps": [
+          "O narrador se dirige a você e imagina seu cansaço e sua sensação de exclusão.",
+          "A alternativa C é correta. Esse endereçamento insere o leitor na cena e produz envolvimento, para além de descrever o escritório."
+        ],
+        "takeaway": "Nomear o interlocutor é um recurso de aproximação argumentativa."
+      }
+    },
+    {
+      "id": "2017-38",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Verossimilhança linguística",
+        "steps": [
+          "Expressões como tiquinho, proseio e tomar tenência acompanham café, bica e fogão a lenha.",
+          "A alternativa B é correta. O repertório linguístico torna coerente a ambientação rural, não restringe o narrador a observar passivamente."
+        ],
+        "takeaway": "A variedade escolhida pode reforçar a credibilidade do ambiente narrado."
+      }
+    },
+    {
+      "id": "2017-39",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Prestígio de variedade",
+        "steps": [
+          "A valsa emprega fulvos, circúnvagos e liriais, classificados pelo narrador como palavras difíceis e belas.",
+          "A alternativa A é correta. O comentário atribui valor ao repertório erudito de prestígio, sem dizer que ele seja exclusivo da fala."
+        ],
+        "takeaway": "Avaliações estéticas da linguagem também podem revelar prestígio social."
+      }
+    },
+    {
+      "id": "2017-44",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Pontuação e estilo",
+        "steps": [
+          "Saramago encadeia perguntas e respostas por vírgulas, sem os marcadores convencionais de cada fala.",
+          "A alternativa C é correta. Essa organização singulariza a escrita e contribui para a sensação de desorientação, sem tornar o romance incompatível com pontuação."
+        ],
+        "takeaway": "A transgressão deliberada de convenções pode construir efeitos expressivos."
+      }
+    },
+    {
+      "id": "2018-6",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Estratégia e finalidade",
+        "steps": [
+          "A diretora relaciona progresso aos direitos humanos e afirma que o processo deve começar nas carteiras escolares.",
+          "A alternativa C é correta. A educação básica aparece como caminho concreto para alcançar a finalidade, enquanto dignidade e direitos universais são objetivos amplos."
+        ],
+        "takeaway": "Diferencie o objetivo defendido do meio proposto para realizá-lo."
+      }
+    },
+    {
+      "id": "2018-8",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Registro e compreensão",
+        "steps": [
+          "O interlocutor pede fala de pobre e linguagem de dia de semana depois de receber sinônimos eruditos.",
+          "A alternativa C é correta. A associação aos dias indica preferência por linguagem cotidiana e acessível, não localização geográfica."
+        ],
+        "takeaway": "A metáfora sobre o registro pode expressar uma demanda de adequação ao interlocutor."
+      }
+    },
+    {
+      "id": "2018-9",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Dados contra estereótipo",
+        "steps": [
+          "O texto contrapõe a imagem de cordialidade a uma pesquisa que registra alta proporção de mensagens intolerantes.",
+          "A alternativa B é correta. Os números são usados para contestar uma ideia preconcebida sobre o brasileiro, não para confirmar a democracia racial."
+        ],
+        "takeaway": "Evidências podem sustentar a refutação de uma representação idealizada."
+      }
+    },
+    {
+      "id": "2018-12",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Predominância referencial",
+        "steps": [
+          "O fragmento explica funcionamento, desenvolvimento e disponibilidade do aplicativo Whatscine.",
+          "A alternativa D é correta. Esses dados denotativos predominam, embora uma fala citada contenha pergunta e entusiasmo."
+        ],
+        "takeaway": "A presença de outras funções não elimina a predominância informativa de um texto."
+      }
+    },
+    {
+      "id": "2018-14",
+      "competency": 7,
+      "skill": 21,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ressignificação de fala pública",
+        "steps": [
+          "As candidatas substituem medidas corporais esperadas por dados de violência contra mulheres.",
+          "A alternativa E é correta. A fala de apresentação se converte em denúncia política, alterando sua função tradicional no concurso."
+        ],
+        "takeaway": "Uma prática comunicativa pode ser subvertida para produzir protesto."
+      }
+    },
+    {
+      "id": "2018-17",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ambientação e quebra de expectativa",
+        "steps": [
+          "Ele me abandonou e parecia que seria para sempre evocam um relato de desilusão amorosa.",
+          "A alternativa C é correta. Essas frases feitas criam o cenário inicial depois reinterpretado como perda de celulares, mantendo o fio da narrativa."
+        ],
+        "takeaway": "Expressões estereotipadas podem preparar uma interpretação que o texto depois modifica."
+      }
+    },
+    {
+      "id": "2018-18",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Contraste argumentativo",
+        "steps": [
+          "Planos de viagem, maratona e encontros são repetidamente contrariados por acontecimentos inesperados.",
+          "A alternativa D é correta. As construções de oposição sustentam a tese de que a vida escapa ao planejamento, em vez de apenas indicar rapidez das mudanças."
+        ],
+        "takeaway": "Contrastes recorrentes podem organizar a sustentação de uma tese."
+      }
+    },
+    {
+      "id": "2018-20",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Inferência narrativa",
+        "steps": [
+          "A narradora teme ser exposta à família, embora viva sua relação com naturalidade em outros ambientes.",
+          "A alternativa B é correta. O silêncio procura preservar o equilíbrio familiar diante da possível revelação; não há ameaça explícita de punição no fragmento."
+        ],
+        "takeaway": "Os sentimentos narrados permitem inferir motivos sem inventar ações não mencionadas."
+      }
+    },
+    {
+      "id": "2018-21",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Norma-padrão e solenidade",
+        "steps": [
+          "O hino reúne vocabulário elevado, invocação à pátria e construção formal.",
+          "A alternativa B é correta. A escolha se ajusta ao caráter solene e protocolar do gênero, não significa ausência total de oralidade."
+        ],
+        "takeaway": "O grau de formalidade se relaciona à função social do gênero."
+      }
+    },
+    {
+      "id": "2018-24",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Impessoalidade acadêmica",
+        "steps": [
+          "Este artigo tem por finalidade e Evidencia-se apresentam objetivos e resultados sem centralizar um eu pessoal.",
+          "A alternativa A é correta. Essa organização objetiva caracteriza a função referencial do resumo, mesmo tratando de um problema social avaliado criticamente."
+        ],
+        "takeaway": "Impessoalidade é um recurso de apresentação de informações acadêmicas."
+      }
+    },
+    {
+      "id": "2018-27",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Título e síntese",
+        "steps": [
+          "O título separa big de bang, e o texto opõe expansão a explosão.",
+          "A alternativa C é correta. O jogo lexical condensa a explicação proposta na reportagem sobre o início do universo; não confirma uma explosão como resposta."
+        ],
+        "takeaway": "Um título criativo pode sintetizar a distinção central desenvolvida no texto."
+      }
+    },
+    {
+      "id": "2018-33",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Resenha e crítica",
+        "steps": [
+          "O fragmento resume a história de Liesel e avalia a narradora como simpática e o tom como leve e divertido.",
+          "A alternativa E é correta. Esses julgamentos tornam a apresentação crítica, distinguindo-a de uma sinopse estritamente impessoal."
+        ],
+        "takeaway": "A apreciação valorativa é uma marca decisiva da resenha."
+      }
+    },
+    {
+      "id": "2018-36",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Nomeação e imagem poética",
+        "steps": [
+          "Antes do termo enseada, o rio é percebido como vidro mole e cobra de vidro.",
+          "A alternativa B é correta. O nome convencional reduz, para a voz poética, a riqueza dessas associações subjetivas, sem ser acusado de erro geográfico."
+        ],
+        "takeaway": "Nomear de modo convencional pode contrastar com a liberdade da imaginação poética."
+      }
+    },
+    {
+      "id": "2018-37",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Registro e patrimônio",
+        "steps": [
+          "O usuário menciona a existência de um dicionário com verbetes do pajubá.",
+          "A alternativa C é correta. Esse registro formal consolida e torna reconhecível o repertório como patrimônio, sem depender apenas de seu tamanho ou do ofício de um falante."
+        ],
+        "takeaway": "Registrar um repertório contribui para sua visibilidade e preservação."
+      }
+    },
+    {
+      "id": "2018-38",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Tempos narrativos",
+        "steps": [
+          "Surrou-me apresenta um evento, distinguia descreve sua percepção e ferira-me retoma uma ação anterior.",
+          "A alternativa B é correta. A alternância de tempos verbais organiza os planos da narrativa e a sequência dos acontecimentos."
+        ],
+        "takeaway": "Tempos verbais articulam ações, estados e anterioridade na progressão narrativa."
+      }
+    },
+    {
+      "id": "2018-40",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Suporte e restrição formal",
+        "steps": [
+          "O concurso pede outro final para o conto dentro de uma quantidade máxima de caracteres.",
+          "A alternativa A é correta. A restrição de extensão aproxima a proposta das práticas de escrita breve associadas ao Twitter no contexto da notícia."
+        ],
+        "takeaway": "Condições do suporte podem orientar regras de produção textual."
+      }
+    },
+    {
+      "id": "2014-126",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Texto teatral e encenação",
+        "steps": [
+          "As rubricas sugerem que Fabiana expresse raiva e bata o pé ao reclamar.",
+          "A alternativa B é correta. Elas oferecem indicações para a cena, mas a montagem pode reinterpretá-las; sua presença não anula a autonomia de direção e atuação."
+        ],
+        "takeaway": "O texto teatral orienta a encenação sem esgotar suas possibilidades interpretativas."
+      }
+    },
+    {
+      "id": "2016-113",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metalinguagem da criação",
+        "steps": [
+          "O poema fala de cortar conectivos e palavras com tesoura, facão e foice.",
+          "A alternativa C é correta. Essas imagens representam a supressão intensa como trabalho constitutivo da escrita, cujas marcas devem permanecer no resultado."
+        ],
+        "takeaway": "A reflexão sobre escrever pode ser construída pelas imagens do próprio poema."
+      }
+    },
+    {
+      "id": "2019-33",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Imagens e cadência",
+        "steps": [
+          "Nevoeiros, gelo, túmulos de cristal e vento compõem uma paisagem sensorial, articulada em longas enumerações.",
+          "A alternativa E é correta. A força visual das palavras se combina à cadência das repetições, produzindo plasticidade e musicalidade na prosa."
+        ],
+        "takeaway": "Prosa poética pode reunir imagens sensoriais e ritmo sem versos regulares."
+      }
+    },
+    {
+      "id": "2021-24",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Representação da violência",
+        "steps": [
+          "A enumeração de lesões é seguida por frases curtas como Obedece e Cumpre as ordens.",
+          "A alternativa B é correta. A forma concentra a submissão produzida por punições arbitrárias, expondo práticas em que garantias e direitos são suspensos."
+        ],
+        "takeaway": "Recursos sintáticos podem intensificar uma crítica à violência institucional."
+      }
+    },
+    {
+      "id": "2019-7",
+      "competency": 7,
+      "skill": 21,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Duplo sentido na campanha",
+        "steps": [
+          "A letra usa marcas no corpo, calafrios e gritos, que podem parecer sinais de paixão quando lidos isoladamente.",
+          "A alternativa C é correta. No contexto de combate à violência, essas expressões também revelam medo, controle e agressão, desfazendo a identificação entre abuso e amor."
+        ],
+        "takeaway": "O contexto de circulação pode mudar a interpretação de expressões aparentemente amorosas."
+      }
+    },
+    {
+      "id": "2019-8",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Negação e investigação",
+        "steps": [
+          "Gregson informa que não houve assalto e que o corpo não apresentava sangue nem feridas.",
+          "A alternativa B é correta. As negativas eliminam explicações possíveis para a morte e organizam o enigma que ele pede a Holmes para investigar."
+        ],
+        "takeaway": "A repetição de negativas pode restringir hipóteses e fazer uma investigação progredir."
+      }
+    },
+    {
+      "id": "2019-15",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função referencial e informação",
+        "steps": [
+          "O texto apresenta o acervo digital de um museu e descreve categorias, pesquisa, ampliação e download de imagens.",
+          "A alternativa C é correta. Predomina a informação sobre o serviço e seu acesso, com foco no assunto explicado ao leitor, característica da função referencial."
+        ],
+        "takeaway": "Identifique o foco comunicativo predominante mesmo quando o texto também inclui instruções."
+      },
+      "promptStart": "A função da linguagem que predomina nesse texto se caracteriza por"
+    },
+    {
+      "id": "2019-24",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Injunção e participação",
+        "steps": [
+          "A canção repete convites coletivos a pedir piedade e dirige ao Senhor o pedido de grandeza e coragem.",
+          "A alternativa C é correta. Essas solicitações convocam a participação do interlocutor e caracterizam a sequência injuntiva próxima da ladainha."
+        ],
+        "takeaway": "Convites, pedidos e ordens são recursos que orientam ações do interlocutor."
+      }
+    },
+    {
+      "id": "2019-30",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Memória histórica das línguas",
+        "steps": [
+          "O primeiro texto compara a língua a camadas que guardam marcas do passado; o segundo menciona a influência árabe no português.",
+          "A alternativa C é correta. Os dois permitem reconhecer o português como resultado de contatos históricos cujos vestígios permanecem no idioma."
+        ],
+        "takeaway": "A formação de uma língua envolve permanências e transformações acumuladas em contatos culturais."
+      }
+    },
+    {
+      "id": "2019-32",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Argumento que relativiza uma novidade",
+        "steps": [
+          "Após apresentar a irisina como possibilidade de emagrecimento, a reportagem ressalta outros hormônios e benefícios do exercício.",
+          "A alternativa E é correta. A estratégia preserva a importância da atividade física ao mostrar que o hormônio isolado não reproduz todas as suas vantagens, como fortalecer músculos."
+        ],
+        "takeaway": "Uma ressalva pode limitar o alcance de uma descoberta sem negar sua existência."
+      }
+    },
+    {
+      "id": "2019-34",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Origem latina do léxico",
+        "steps": [
+          "A sequência Januarius, Februarius, Martius e outros nomes romanos permite comparação com os meses atuais.",
+          "A alternativa A é correta. A semelhança histórica dos nomes evidencia a origem latina do português, mesmo com alterações de forma ao longo do tempo."
+        ],
+        "takeaway": "Palavras atuais podem conservar vestígios da história e da origem de um idioma."
+      }
+    },
+    {
+      "id": "2019-42",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Pergunta retórica e progressão",
+        "steps": [
+          "O autor pergunta por que os pelos humanos são menos eficientes como órgãos sensoriais e responde logo em seguida.",
+          "A alternativa D é correta. A pergunta simula uma dúvida do leitor e introduz a explicação sobre a quantidade de pelos e nervos das aranhas."
+        ],
+        "takeaway": "Perguntas respondidas pelo próprio texto podem criar interlocução e organizar a explicação."
+      }
+    },
+    {
+      "id": "2019-44",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Referentes e flexões verbais",
+        "steps": [
+          "O poema se dirige à trabalhadora usando formas como tomas e levas, além de pronomes de segunda pessoa.",
+          "A alternativa E é correta. A concordância padrão articula o destinatário e o distingue de referentes em terceira pessoa, servindo à construção poética da cena."
+        ],
+        "takeaway": "As escolhas gramaticais podem organizar os referentes e participar do efeito estético de um poema."
+      }
+    },
+    {
+      "id": "2019-45",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Marcas da variedade popular",
+        "steps": [
+          "A canção emprega formas como cantadô, amô, querê e alembrá ao evocar o Cariri.",
+          "A alternativa B é correta. Essas marcas aproximam a escrita de usos populares e constroem linguisticamente a ambientação sertaneja."
+        ],
+        "takeaway": "Variedades populares podem ser recursos expressivos de identificação cultural."
+      }
+    },
+    {
+      "id": "2020-6",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metalinguagem e criação poética",
+        "steps": [
+          "Bandeira explica como conheceu o nome Pasárgada e como o poema amadureceu ao longo de anos.",
+          "A alternativa C é correta. O objeto do relato é o próprio processo de criação verbal, de modo que a linguagem comenta a produção de linguagem."
+        ],
+        "takeaway": "Há metalinguagem quando o texto reflete sobre seu código ou sobre o fazer textual."
+      }
+    },
+    {
+      "id": "2020-9",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Inventário linguístico brasileiro",
+        "steps": [
+          "O texto reúne expressões como cabra da peste e nhenhenhém e explica seus usos e possíveis percursos históricos.",
+          "A alternativa A é correta. Esses registros apresentam componentes do repertório do português brasileiro, ligados a experiências culturais e regionais."
+        ],
+        "takeaway": "Expressões idiomáticas fazem parte do patrimônio linguístico e registram experiências coletivas."
+      }
+    },
+    {
+      "id": "2020-10",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáforas de valorização",
+        "steps": [
+          "Os metais são chamados de ouro do século 21, elementos do futuro e vitaminas da indústria.",
+          "A alternativa C é correta. As comparações associam essas substâncias à riqueza, à inovação e à importância funcional, valorizando o objeto da reportagem."
+        ],
+        "takeaway": "Metáforas podem orientar a avaliação do leitor sobre aquilo que se descreve."
+      }
+    },
+    {
+      "id": "2020-16",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Apelo ao pertencimento e patriotismo",
+        "steps": [
+          "Diante da intenção de saída dos trabalhadores, o engenheiro afirma que concluir a ponte é questão de honra e orgulho nacional.",
+          "A alternativa E é correta. Ele procura neutralizar as reclamações fazendo o trabalhador identificar-se com a empresa e com uma realização patriótica."
+        ],
+        "takeaway": "Reconheça quando um argumento mobiliza pertencimento coletivo para desviar a atenção de uma reivindicação concreta."
+      }
+    },
+    {
+      "id": "2020-19",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Jogo poético em petição",
+        "steps": [
+          "A petição contrapõe o violão a armas e descreve o acusado como alguém que canta suas dores nas ruas.",
+          "A alternativa C é correta. O emprego de versos e da oposição entre música e violência reduz a gravidade atribuída ao ato e favorece o pedido de liberdade."
+        ],
+        "takeaway": "Recursos expressivos podem adaptar um gênero formal para produzir persuasão e comoção."
+      }
+    },
+    {
+      "id": "2020-23",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Repetição e caracterização do narrador",
+        "steps": [
+          "O narrador insiste em seu visto, suas empresas e seu carro importado como sinais de superioridade.",
+          "A alternativa A é correta. As frases curtas e repetidas expõem um discurso vazio de ostentação, centrado em poder de compra e distinção social."
+        ],
+        "takeaway": "Repetições podem revelar criticamente o modo de pensar de uma personagem."
+      }
+    },
+    {
+      "id": "2020-24",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Aspecto durativo do gerúndio",
+        "steps": [
+          "O decreto associa o gerúndio a justificativas de ineficiência no serviço público.",
+          "A alternativa D é correta. A crítica explora seu valor de continuidade, sugerindo ações sempre em andamento e sem conclusão, embora esse seja um uso contextual da forma."
+        ],
+        "takeaway": "O gerúndio pode apresentar processos em curso; sua interpretação depende da situação de uso."
+      }
+    },
+    {
+      "id": "2020-27",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Sequências narrativa e descritiva",
+        "steps": [
+          "O eu lírico relata seu deslocamento pelas ruas enquanto enumera imagens, pessoas e notícias que encontra.",
+          "A alternativa D é correta. A sucessão das andanças constitui narração, e a apresentação do cenário e de seus elementos constitui descrição."
+        ],
+        "takeaway": "Um mesmo texto pode narrar acontecimentos e descrever o ambiente em que ocorrem."
+      }
+    },
+    {
+      "id": "2020-29",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Exagero e efeito humorístico",
+        "steps": [
+          "Os casamentos criam relações sobrepostas de parentesco e levam o narrador a declarar que já não sabe quem é.",
+          "A alternativa B é correta. A hipótese de o neto acabar sendo seu avô leva a confusão ao absurdo e intensifica o humor da canção."
+        ],
+        "takeaway": "Uma conclusão exagerada pode ampliar o efeito cômico de uma sequência de situações improváveis."
+      }
+    },
+    {
+      "id": "2020-31",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Características do gênero notícia",
+        "steps": [
+          "O texto relata o caso de uma mulher identificada, menciona fontes médicas e apresenta local, sintomas e desdobramentos.",
+          "A alternativa E é correta. A divulgação informativa de um acontecimento e de informações relacionadas à síndrome caracteriza uma notícia."
+        ],
+        "takeaway": "Reconheça o gênero pela finalidade e pelo tratamento dos fatos, não apenas pelo assunto abordado."
+      }
+    },
+    {
+      "id": "2020-32",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ditado e justificativa",
+        "steps": [
+          "A mãe responde às queixas do marido lembrando que o filho herdou seu temperamento.",
+          "A alternativa B é correta. O ditado apresenta o gênio difícil de Chiquito como traço semelhante ao do pai, justificando-o e acalmando a reclamação."
+        ],
+        "takeaway": "O sentido de um provérbio depende da situação em que uma personagem o emprega."
+      }
+    },
+    {
+      "id": "2020-34",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Perspectiva narrativa e memória",
+        "steps": [
+          "O narrador compara a vida a brincadeiras interrompidas por adultos e lembra o Carnaval como um tempo mágico.",
+          "A alternativa A é correta. Essas imagens e a referência às crianças fora dos calendários constroem uma perspectiva infantil que organiza a memória afetiva."
+        ],
+        "takeaway": "Para reconhecer a perspectiva narrativa, observe as comparações e os modos de perceber o tempo."
+      }
+    },
+    {
+      "id": "2020-38",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Voz externa e valorização histórica",
+        "steps": [
+          "A narradora incorpora entre aspas a fórmula antiga que caracteriza o Porto como nobre, leal e invicto.",
+          "A alternativa A é correta. A citação traz uma voz histórica externa para reforçar sua admiração pela cidade e seduzir o leitor do relato de viagem."
+        ],
+        "takeaway": "Uma expressão citada pode emprestar autoridade e valor cultural à avaliação do narrador."
+      }
+    },
+    {
+      "id": "2020-39",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Descrição valorativa",
+        "steps": [
+          "O hino descreve a bandeira por meio do céu azul, das matas e do Cruzeiro do Sul, acompanhados de expressões elogiosas.",
+          "A alternativa C é correta. A descrição seleciona e valoriza elementos do símbolo nacional, contribuindo para sua exaltação."
+        ],
+        "takeaway": "Descrições podem carregar avaliação, especialmente quando escolhem qualificações elogiosas."
+      }
+    },
+    {
+      "id": "2020-41",
+      "competency": 8,
+      "skill": 27,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Norma-padrão e petição",
+        "steps": [
+          "Quaresma dirige um pedido oficial ao Congresso e invoca um direito constitucional para sustentá-lo.",
+          "A alternativa A é correta. O emprego formal da língua corresponde à situação institucional de uma petição, independentemente da peculiaridade da proposta."
+        ],
+        "takeaway": "A adequação à norma-padrão depende também do gênero e da situação social de enunciação."
+      }
+    },
+    {
+      "id": "2021-6",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Hipóteses e efeito alarmante",
+        "steps": [
+          "O texto enumera consequências que ocorreriam se o asteroide colidisse com o continente ou o oceano.",
+          "A alternativa B é correta. A repetição de cenários condicionais catastróficos amplifica o alarme mesmo tendo sido relatado que a colisão não aconteceu."
+        ],
+        "takeaway": "Formulações hipotéticas podem orientar a reação emocional do leitor a um acontecimento."
+      }
+    },
+    {
+      "id": "2021-7",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Crítica ao preciosismo linguístico",
+        "steps": [
+          "O poeta ironiza a troca de pega por captura e oferece ao dicionário expressões que o povo já emprega.",
+          "A alternativa D é correta. Ao defender essas formas contra o gosto excessivamente formal do literato, ele valoriza variedades e usos populares."
+        ],
+        "takeaway": "A legitimidade de uma expressão não depende apenas do prestígio social de quem a emprega."
+      }
+    },
+    {
+      "id": "2021-8",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Singularidade como argumento",
+        "steps": [
+          "O documentário sobre um menino do interior nordestino é apontado como o único finalista produzido fora do eixo Estados Unidos-Europa.",
+          "A alternativa C é correta. Essa singularidade intensifica o mérito da conquista e destaca a proeza da premiação de uma história pouco conhecida."
+        ],
+        "takeaway": "Dados comparativos podem valorizar uma realização ao mostrar seu caráter excepcional no contexto apresentado."
+      }
+    },
+    {
+      "id": "2021-10",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Opinião implícita na resenha",
+        "steps": [
+          "O resenhista afirma que premiar a abordagem ousada do filme seria um passo à frente dos votantes.",
+          "A alternativa E é correta. A formulação pressupõe uma avaliação favorável da obra e sugere que reconhecê-la representaria avanço nos critérios da Academia."
+        ],
+        "takeaway": "Uma opinião pode aparecer nas consequências avaliadas de uma escolha, sem a fórmula explícita eu penso."
+      }
+    },
+    {
+      "id": "2021-11",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Memória linguística da escravidão",
+        "steps": [
+          "O eu lírico se dirige à sinhá e ao senhor em formas de tratamento históricas e menciona tronco, mutilação e oração.",
+          "A alternativa A é correta. Vocabulário e situação recuperam a violência física e simbólica sofrida por escravizados, componente doloroso da memória nacional."
+        ],
+        "takeaway": "O patrimônio linguístico pode registrar relações de poder e experiências históricas de violência."
+      }
+    },
+    {
+      "id": "2021-16",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Exemplificação como argumento",
+        "steps": [
+          "O artigo critica a comunicação apressada e apresenta o encontro superficial de dois personagens em Sinal fechado.",
+          "A alternativa B é correta. A cena da canção concretiza o problema denunciado e ajuda o leitor a reconhecer seus efeitos nas relações cotidianas."
+        ],
+        "takeaway": "Exemplos podem tornar uma tese abstrata reconhecível e mais persuasiva."
+      }
+    },
+    {
+      "id": "2021-21",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Confronto entre pontos de vista",
+        "steps": [
+          "O primeiro texto afirma que o ciclo hidrológico repõe indefinidamente a água doce; o segundo destaca obstáculos à reposição de aquíferos.",
+          "A alternativa A é correta. A divergência diz respeito à possibilidade de manter os estoques: um ressalta renovação, enquanto o outro aponta limites locais à recuperação."
+        ],
+        "takeaway": "Ao comparar textos, identifique a afirmação específica em que suas perspectivas divergem."
+      }
+    },
+    {
+      "id": "2021-22",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Variação dos pronomes de tratamento",
+        "steps": [
+          "O texto mostra mudanças históricas na informalidade e diferentes distribuições de tu e você nas cidades brasileiras.",
+          "A alternativa B é correta. A convivência dessas formas caracteriza a diversidade da língua, em vez de indicar que uma delas deva desaparecer em todo o país."
+        ],
+        "takeaway": "Uma língua varia no tempo, no espaço e nas relações sociais de seus falantes."
+      }
+    },
+    {
+      "id": "2021-30",
+      "competency": 8,
+      "skill": 26,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Adequação e formalidade",
+        "steps": [
+          "Pelino interrompe conversas informais para corrigir expressões segundo seu ideal rígido de correção.",
+          "A alternativa E é correta. Sua postura ignora os diferentes níveis de formalidade e as condições de uso da linguagem em cada situação."
+        ],
+        "takeaway": "A avaliação linguística precisa considerar o contexto, não impor o mesmo registro a toda interação."
+      }
+    },
+    {
+      "id": "2021-32",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função emotiva na crônica",
+        "steps": [
+          "O narrador contrapõe o prazer sensorial de seu antigo estojo ao desconforto causado pelo computador novo.",
+          "A alternativa D é correta. As lembranças em primeira pessoa e os julgamentos pessoais colocam o enunciador e sua atitude no centro da comunicação."
+        ],
+        "takeaway": "A função emotiva destaca sentimentos, impressões e avaliações de quem enuncia."
+      }
+    },
+    {
+      "id": "2021-39",
+      "competency": 8,
+      "skill": 25,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Marcas de informalidade",
+        "steps": [
+          "Falação é uma escolha lexical coloquial, e pros combina para e os em uma forma comum na fala.",
+          "A alternativa A é correta. Essas duas ocorrências marcam o registro informal da letra do samba e aproximam sua linguagem da conversação."
+        ],
+        "takeaway": "A informalidade pode aparecer tanto no vocabulário quanto em contrações e construções gramaticais."
+      }
+    },
+    {
+      "id": "2022-14",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Léxico e experiência social",
+        "steps": [
+          "O primeiro texto afirma que a língua classifica a realidade e condensa experiências; o segundo aponta expressões marcadas por discriminação racial.",
+          "A alternativa D é correta. Os exemplos ilustram como preconceitos historicamente recorrentes podem ser incorporados às escolhas lexicais de uma sociedade."
+        ],
+        "takeaway": "As palavras não são rótulos neutros: seus usos podem carregar valores e preconceitos sociais."
+      }
+    },
+    {
+      "id": "2022-16",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Resenha e avaliação de obra",
+        "steps": [
+          "O texto apresenta a história de Elena e comenta o modo como o filme transforma perda e memória em imagens.",
+          "A alternativa E é correta. Ao caracterizar a obra pela delicadeza e por seus sentidos, o autor realiza uma avaliação crítica típica de resenha."
+        ],
+        "takeaway": "Uma resenha combina informações sobre a obra com interpretação e julgamento de suas qualidades."
+      }
+    },
+    {
+      "id": "2022-18",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Justaposição de frases",
+        "steps": [
+          "O fragmento alterna enunciados com verbos e sequências nominais como buraco, cratera e pedra solta.",
+          "A alternativa A é correta. A sucessão sem ligações sintáticas extensas coloca essas estruturas lado a lado, caracterizando a justaposição."
+        ],
+        "takeaway": "Observe como as frases se articulam, não apenas o tema, para identificar a organização textual."
+      }
+    },
+    {
+      "id": "2022-26",
+      "competency": 6,
+      "skill": 19,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Expressão da subjetividade",
+        "steps": [
+          "O verso sobre a cidade não morar mais no eu lírico usa a primeira pessoa e apresenta uma experiência íntima de desapego.",
+          "A alternativa C é correta. A atenção ao estado subjetivo do enunciador torna perceptível a função emotiva, mesmo em um texto predominantemente poético."
+        ],
+        "takeaway": "As funções da linguagem podem coexistir, com marcas locais que destacam uma delas."
+      }
+    },
+    {
+      "id": "2023-17",
+      "competency": 1,
+      "skill": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Sinal gráfico e identidade editorial",
+        "steps": [
+          "Os colchetes do nome aparecem virados para fora, e o editorial os explica como sinais abertos e receptivos.",
+          "A alternativa D é correta. A disposição visual simboliza a proposta da revista de receber e promover a circulação de ideias trazidas pelos livros."
+        ],
+        "takeaway": "Sinais gráficos podem ganhar funções expressivas além de seu emprego convencional na escrita."
+      }
+    },
+    {
+      "id": "2023-18",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Tema comum em textos de épocas distintas",
+        "steps": [
+          "A primeira letra menciona a abundância de notícias e imagens; a segunda apresenta telas e algoritmos em um fluxo crescente.",
+          "A alternativa B é correta. Ambas percebem a profusão de informações associada aos meios tecnológicos, apesar das diferenças entre seus contextos históricos."
+        ],
+        "takeaway": "Compare as ideias construídas pelos textos, e não somente as tecnologias específicas que mencionam."
+      }
+    },
+    {
+      "id": "2023-19",
+      "competency": 7,
+      "skill": 24,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Citação e evidência estatística",
+        "steps": [
+          "O texto associa os versos sobre racismo a números que mostram a elevada proporção de negros entre vítimas de homicídio.",
+          "A alternativa D é correta. A citação e os dados se reforçam como argumentos para evidenciar a exposição da população negra à violência."
+        ],
+        "takeaway": "Fontes de naturezas diferentes podem convergir para sustentar a mesma tese argumentativa."
+      },
+      "promptStart": "O uso de citação e de dados estatísticos nesse texto tem o objetivo de"
+    },
+    {
+      "id": "2023-23",
+      "competency": 7,
+      "skill": 22,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Estereótipos e representações",
+        "steps": [
+          "O primeiro texto critica piadas machistas num desenho futurista; o segundo explica papéis de gênero como formações imaginárias históricas.",
+          "A alternativa C é correta. O estereótipo sobre mulheres ao volante exemplifica a persistência de construções sociais cristalizadas mesmo em cenários de inovação tecnológica."
+        ],
+        "takeaway": "Avanços técnicos numa representação não garantem mudança nos valores sociais que ela reproduz."
+      }
+    },
+    {
+      "id": "2023-39",
+      "competency": 1,
+      "skill": 3,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Mobilização e mudança lexical",
+        "steps": [
+          "A notícia relata uma petição pública que pediu alterar a definição de casamento para abranger pessoas sem especificar homem e mulher.",
+          "A alternativa C é correta. A utilização da petição pelos cidadãos impulsionou a revisão do verbete, mostrando a interação entre uso social e registro dicionarizado."
+        ],
+        "takeaway": "Dicionários podem revisar definições em resposta a mudanças e demandas de seus usuários."
+      }
+    },
+    {
+      "id": "2023-43",
+      "competency": 1,
+      "skill": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáforas na homenagem",
+        "steps": [
+          "Rui Barbosa aproxima a trajetória de Machado de imagens como florescimento, frutificação, aliança e renascimento.",
+          "A alternativa A é correta. Essas metáforas relacionam criação literária, vida afetiva e permanência da memória para construir o elogio ao homenageado."
+        ],
+        "takeaway": "Metáforas podem organizar a valorização de uma trajetória em discursos de homenagem."
+      },
+      "promptStart": "Esse é um trecho do discurso de Rui Barbosa"
+    },
+    {
+      "id": "2023-45",
+      "competency": 7,
+      "skill": 23,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade da carta aberta",
+        "steps": [
+          "A entidade descreve deficiências na atenção pública aos idosos e dirige sua preocupação a cidadãos e governantes.",
+          "A alternativa E é correta. A carta busca chamar a atenção da população para a qualidade desses serviços e defender investimentos que garantam dignidade."
+        ],
+        "takeaway": "O destinatário amplo e o apelo público ajudam a identificar a finalidade de uma carta aberta."
+      },
+      "promptStart": "O objetivo desse texto é"
+    },
+    {
+      "id": "2011-98",
+      "competency": 9,
+      "skill": 29,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Leitura hipertextual e percursos do leitor",
+        "steps": [
+          "O texto define o hipertexto pela ligação entre blocos que podem ser acessados em diferentes sequências. O leitor escolhe os caminhos e participa da construção do texto que efetivamente lê.",
+          "A alternativa E é correta. Essa possibilidade de decidir o percurso sustenta a alternativa E. A liberdade de navegação não garante que toda informação encontrada seja segura ou verdadeira, como afirma outra opção."
+        ],
+        "takeaway": "Hipertexto articula blocos por conexões e permite percursos de leitura sem uma sequência única imposta ao leitor."
+      }
+    },
+    {
+      "id": "2011-132",
+      "competency": 6,
+      "skill": 20,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Patrimônio linguístico e apropriação de tecnologias",
+        "steps": [
+          "Os guaranis criam expressões em seu próprio idioma para nomear computador, mouse e outros elementos da informática. Eles incorporam a tecnologia sem abandonar a língua da comunidade.",
+          "A alternativa C é correta. A alternativa C relaciona essa escolha lexical à preservação da identidade. Enviar documentos e aderir ao projeto são fatos do relato, mas não explicam o significado cultural da criação dos termos."
+        ],
+        "takeaway": "Adotar uma tecnologia de outro grupo não exige abandonar a própria língua; nomeá-la pode fortalecer a identidade cultural."
+      }
+    },
+    {
+      "id": "2011-135",
+      "competency": 6,
+      "skill": 18,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Concisão nos gêneros digitais",
+        "steps": [
+          "O texto relaciona o limite de caracteres então usado pelo Twitter à necessidade de selecionar palavras e condensar ideias. Também enumera usos variados, como humor, jornalismo e literatura.",
+          "A alternativa E é correta. A alternativa E sintetiza esse potencial para produzir enunciados claros e objetivos na interação. O autor não apresenta brevidade como falta de significado nem afirma que o recurso seja exclusivo de quem domina a norma-padrão."
+        ],
+        "takeaway": "Concisão consiste em expressar uma ideia com economia de palavras e clareza, sem necessariamente empobrecer seu conteúdo."
+      }
+    },
+    {
+      "id": "2012-135",
+      "competency": 5,
+      "skill": 15,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Identidade nacional e síntese modernista",
+        "steps": [
+          "No verso final, o eu lírico associa a figura indígena tupi a um instrumento de origem europeia, o alaúde. A imagem reúne referências culturais distintas na representação da identidade nacional.",
+          "A alternativa D é correta. A alternativa D reconhece essa síntese, relacionada pelo comando ao projeto modernista e à posterior proposta antropofágica. Os termos selvagem e civilizado pertencem à oposição histórica mobilizada pela alternativa, não a uma hierarquia válida entre culturas."
+        ],
+        "takeaway": "Na leitura do Modernismo, observe como referências indígenas e europeias podem ser combinadas e reelaboradas na construção da identidade nacional."
+      }
+    },
+    {
+      "id": "2013-122",
+      "competency": 5,
+      "skill": 16,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora do relógio e percepção do tempo",
+        "steps": [
+          "Brás Cubas costumava perceber cada batida do relógio como perda de vida. Depois do beijo, passa a experimentar os mesmos minutos como ganhos, mostrando que seu estado afetivo altera a percepção do tempo.",
+          "A alternativa D é correta. A alternativa D reconhece o relógio como materialização concreta do tempo em tensão com a fantasia amorosa. O narrador continua percebendo as horas; ele muda a avaliação que faz delas, sem tornar o beijo eterno."
+        ],
+        "takeaway": "Um objeto concreto pode revelar a transformação subjetiva de uma personagem: o tempo do relógio permanece, mas sua experiência muda."
+      }
+    },
+    {
+      "id": "2015-98",
+      "competency": 5,
+      "skill": 16,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ironia na representação da história humana",
+        "steps": [
+          "A narrativa encadeia invenções, saberes e obrigações como se resumisse toda a humanidade, mas associa a História a eventos sem sentido e termina com pessoas tentando se virar em meio às feridas.",
+          "A alternativa D é correta. A alternativa D reconhece o humor e a ironia desse painel do caos cotidiano. A alusão à criação bíblica participa da construção expressiva, sem transformar o texto em elogio religioso ou em defesa de um saber específico."
+        ],
+        "takeaway": "A ironia pode surgir do contraste entre a promessa de ordem produzida pelos saberes humanos e a persistência do desamparo cotidiano."
+      }
+    },
+    {
+      "id": "2015-130",
+      "competency": 5,
+      "skill": 17,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Idealização familiar e ocultação de conflitos",
+        "steps": [
+          "A narradora começa reproduzindo a imagem de uma família perfeita, reforçada pela avó. As revelações de Margarida expõem interesses econômicos e desejos que essa narrativa familiar mantinha encobertos.",
+          "A alternativa C é correta. A alternativa C explica a oposição entre aparência e bastidores como um pacto de ocultações e hipocrisias. A reação preconceituosa da narradora à posição social e racial de Margarida também mostra sua resistência a questionar os heróis familiares."
+        ],
+        "takeaway": "Ao interpretar conflitos familiares na ficção, compare a imagem defendida pelas personagens com as ações e interesses revelados pelo relato."
+      }
+    },
+    {
+      "id": "2009-93",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Público-alvo e mudança de hábitos",
+        "steps": [
+          "A avaliação do perfil fanático afirma que a presença na internet supera a vida real e recomenda encontrar amigos pessoalmente.",
+          "A recomendação se dirige a quem dedica mais tempo às redes do que ao convívio presencial; os demais perfis não recebem essa advertência."
+        ],
+        "takeaway": "Identifique a quem se aplica uma recomendação pelas condições descritas no próprio texto."
+      }
+    },
+    {
+      "id": "2009-96",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Interlocução e imperativo",
+        "steps": [
+          "Você e sua aproximam a campanha do leitor; entre, evite e cubra convocam diretamente sua ação.",
+          "Essas marcas de interlocução favorecem adesão à campanha de 2009, enquanto títulos e listas organizam a informação."
+        ],
+        "takeaway": "Pronomes de tratamento e formas imperativas podem combinar proximidade e orientação em campanhas."
+      }
+    },
+    {
+      "id": "2009-97",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade de campanha institucional",
+        "steps": [
+          "O cartaz de 2009 enumera sintomas e apresenta ações destinadas à prevenção da transmissão.",
+          "Sua finalidade comunicativa é orientar a população, sem convocar indistintamente todas as pessoas para exames."
+        ],
+        "takeaway": "Diferencie a finalidade informativa de um texto histórico das medidas sanitárias atuais."
+      }
+    },
+    {
+      "id": "2009-100",
+      "skill": 19,
+      "competency": 6,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Função emotiva",
+        "steps": [
+          "O escritor declara que não aguentava mais escrever e revisar, repetindo ações para mostrar seu cansaço.",
+          "A resposta destaca sua experiência subjetiva diante da produção do livro, não uma descrição objetiva de etapas editoriais."
+        ],
+        "takeaway": "Primeira pessoa e avaliações afetivas evidenciam a função emotiva da linguagem."
+      }
+    },
+    {
+      "id": "2009-105",
+      "skill": 1,
+      "competency": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Oralidade nos quadrinhos",
+        "steps": [
+          "A saudação Fala e a pergunta Como vão as coisas simulam um encontro e a alternância de turnos entre conhecidos.",
+          "O texto escrito reproduz características da conversa presencial, embora o humor acrescente códigos de HTML à resposta."
+        ],
+        "takeaway": "Quadrinhos podem representar conversação por balões e marcas de oralidade."
+      }
+    },
+    {
+      "id": "2009-109",
+      "skill": 27,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Tempo verbal coloquial",
+        "steps": [
+          "Hagar diz pensei que você tinha consertado ao justificar ter embarcado sem reparar o vazamento.",
+          "O uso coloquial do indicativo nesse contexto distingue a fala de uma construção mais monitorada com tivesse consertado."
+        ],
+        "takeaway": "Formas verbais também variam conforme o grau de formalidade da situação comunicativa."
+      }
+    },
+    {
+      "id": "2009-114",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Consumo e certificação",
+        "steps": [
+          "Os selos ilustrados são associados a princípios ambientais e ao respeito aos direitos das populações da floresta.",
+          "O convite é verificar a produção ética antes de comprar, não apenas consumir qualquer mercadoria originada na Amazônia."
+        ],
+        "takeaway": "Texto e imagem podem ensinar um critério específico para orientar uma escolha de consumo."
+      }
+    },
+    {
+      "id": "2009-127",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Interlocutor explícito",
+        "steps": [
+          "O anúncio começa por Senhor Prefeito e pede que ele organize mutirões com lideranças comunitárias.",
+          "O destinatário direto é a autoridade municipal, ainda que a iniciativa deva envolver outros grupos sociais."
+        ],
+        "takeaway": "Diferencie o destinatário do texto dos participantes mencionados na ação proposta."
+      }
+    },
+    {
+      "id": "2010-96",
+      "skill": 26,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Redução na fala informal",
+        "steps": [
+          "O avô usa tá vendo ao conversar com o neto, reduzindo a forma verbal está.",
+          "Essa redução reproduz a oralidade informal da interação familiar; contrações como desse não são exclusivas desse registro."
+        ],
+        "takeaway": "Marcas de oralidade devem ser analisadas em sua situação de uso, sem confundi-las com incapacidade linguística."
+      }
+    },
+    {
+      "id": "2010-101",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Persuasão comercial",
+        "steps": [
+          "O anúncio desafia a memória do leitor e destaca a condição de pagamento em doze parcelas sem juros.",
+          "O jogo com a memória do computador procura incentivar a compra, não ensinar informática ou combater o consumo."
+        ],
+        "takeaway": "A intenção comercial pode aparecer em um desafio aparentemente lúdico ao leitor."
+      }
+    },
+    {
+      "id": "2011-97",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Leitura de infográfico",
+        "steps": [
+          "As setas e descrições distinguem autorização recíproca de acompanhamento sem permissão na amizade assimétrica.",
+          "O infográfico atribui à relação assimétrica facilidade para formar laços e comunidades por interesses comuns, não maior intimidade."
+        ],
+        "takeaway": "Relacione legendas, setas e avaliações antes de comparar categorias de um infográfico."
+      }
+    },
+    {
+      "id": "2011-100",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Intertextualidade publicitária",
+        "steps": [
+          "A fotografia de um corpo identificado e a frase quem é morto sempre aparece alteram o dito quem é vivo sempre aparece.",
+          "O reconhecimento desse provérbio permite entender o jogo que associa a campanha à atração de terror."
+        ],
+        "takeaway": "A publicidade pode modificar expressões conhecidas para transferir seus sentidos ao produto anunciado."
+      }
+    },
+    {
+      "id": "2011-122",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metalinguagem na publicidade",
+        "steps": [
+          "O anúncio risca sua própria afirmação de eficiência total e explica por que promessas de perfeição seriam mentirosas.",
+          "A publicidade demonstra em si mesma o controle de exageros que anuncia, subvertendo a autopromoção habitual."
+        ],
+        "takeaway": "Um anúncio é metalinguístico quando usa sua própria construção para discutir práticas publicitárias."
+      }
+    },
+    {
+      "id": "2011-123",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade institucional",
+        "steps": [
+          "O Conar explica sua missão, o cuidado com denúncias e a possibilidade de qualquer pessoa reclamar de um anúncio.",
+          "O texto informa consumidores sobre a atuação do órgão, sem restringir a mensagem a publicitários ou empresários."
+        ],
+        "takeaway": "O público-alvo deve ser reconhecido pelo alcance dos esclarecimentos e das orientações fornecidas."
+      }
+    },
+    {
+      "id": "2011-124",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Contraste persuasivo",
+        "steps": [
+          "A dificuldade de acordar no inverno é contrastada com a dificuldade de dormir enfrentada por quem sofre frio e fome.",
+          "O jogo entre acordar e dormir relativiza o incômodo do leitor para motivá-lo a ajudar os necessitados."
+        ],
+        "takeaway": "Comparar experiências de intensidade diferente pode gerar empatia e adesão a uma campanha."
+      }
+    },
+    {
+      "id": "2011-127",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Associação visual publicitária",
+        "steps": [
+          "O saco de açúcar recebe aparência de abdome, ligando a embalagem à imagem corporal sugerida pelo mote.",
+          "A peça tenta persuadir o consumidor a substituir açúcar por adoçante mediante essa associação estética, não por demonstração científica."
+        ],
+        "takeaway": "Identifique a associação persuasiva sem tratá-la como evidência de um benefício de saúde."
+      }
+    },
+    {
+      "id": "2011-129",
+      "skill": 27,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Pronome e função sintática",
+        "steps": [
+          "Na expressão arrasar eles, o pronome ocupa a posição de objeto direto, embora tenha forma do caso reto.",
+          "A norma-padrão pede o pronome oblíquo correspondente; a cobra interrompe a ameaça para corrigir essa marcação de função."
+        ],
+        "takeaway": "A classificação de um pronome deve considerar sua função na oração e a variedade linguística solicitada."
+      }
+    },
+    {
+      "id": "2011-134",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora visual e tecnologia",
+        "steps": [
+          "A sequência de figuras culmina em alguém curvado sobre um computador, concentrado no equipamento.",
+          "A charge sugere dependência de um novo modelo tecnológico, não comprova regressão biológica da espécie."
+        ],
+        "takeaway": "Leia metáforas visuais como avaliações críticas, sem convertê-las em afirmações científicas literais."
+      }
+    },
+    {
+      "id": "2012-97",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Publicidade e suportes de leitura",
+        "steps": [
+          "O anúncio oferece uma assinatura impressa acompanhada de acesso à versão digital mediante acréscimo de preço.",
+          "A oferta conjunta revela mudanças na comercialização e no consumo de publicações, sem anunciar desaparecimento do impresso."
+        ],
+        "takeaway": "Novos suportes podem modificar o mercado pela combinação de formatos, não só pela substituição."
+      }
+    },
+    {
+      "id": "2012-103",
+      "skill": 1,
+      "competency": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Polissemia",
+        "steps": [
+          "Rede social designa habitualmente conexões entre pessoas, mas a imagem mostra uma família reunida em uma rede de descanso.",
+          "O humor explora a multiplicidade de sentidos de rede e reaplica social à convivência doméstica."
+        ],
+        "takeaway": "A imagem pode ativar um sentido literal de uma expressão normalmente entendida de outra forma."
+      }
+    },
+    {
+      "id": "2012-106",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Persuasão ajustada ao desejo",
+        "steps": [
+          "A consumidora recusa duas ofertas, mas aceita a abordagem que promete um celular mediante pequeno acréscimo.",
+          "O vendedor adapta o discurso a um desejo provável da cliente e obtém adesão pela indução, não por uma prova da qualidade da fruta."
+        ],
+        "takeaway": "Uma estratégia persuasiva pode deslocar a atenção do produto principal para um benefício desejado."
+      }
+    },
+    {
+      "id": "2012-107",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Exemplificação e comparação",
+        "steps": [
+          "O texto menciona corvos, chimpanzés e outros animais ao discutir amor, consciência e cultura.",
+          "Os exemplos sustentam comparações com capacidades humanas e enfraquecem a tese de exclusividade dessas características."
+        ],
+        "takeaway": "Identifique como cada caso concreto se conecta à tese defendida pelo autor."
+      }
+    },
+    {
+      "id": "2012-108",
+      "skill": 25,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Variação histórica do léxico",
+        "steps": [
+          "A tabela esclarece expressões antigas do fragmento, como convescote e tunda, pouco usadas por muitos leitores atuais.",
+          "A necessidade de explicação evidencia que o vocabulário muda e se diversifica historicamente, em vez de permanecer estável."
+        ],
+        "takeaway": "Palavras podem perder frequência de uso sem que a língua perca sua capacidade expressiva."
+      }
+    },
+    {
+      "id": "2012-109",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Modalização de hipótese",
+        "steps": [
+          "Hagar observa os tubarões e diz que é como se soubessem que algo ruim acontecerá.",
+          "A expressão apresenta uma suposição de perigo, não uma certeza sobre o conhecimento dos animais."
+        ],
+        "takeaway": "Locuções comparativas podem marcar hipótese e modular o grau de certeza do enunciado."
+      }
+    },
+    {
+      "id": "2012-114",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função educativa do cartaz",
+        "steps": [
+          "Os relógios de Dalí acompanham a orientação de devolver livros no prazo e o aviso de multa e prejuízo aos demais usuários.",
+          "A obra visual serve a uma finalidade educativa dentro da biblioteca, e não apenas à contemplação artística."
+        ],
+        "takeaway": "O local de circulação ajuda a definir a função principal de um texto multimodal."
+      }
+    },
+    {
+      "id": "2012-133",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Persuasão socioambiental",
+        "steps": [
+          "A campanha associa o planeta à sacola retornável e afirma que a ajuda do leitor é necessária à sustentabilidade.",
+          "O comportamento proposto é um consumo ambientalmente responsável, concretizado pela troca da sacola descartável."
+        ],
+        "takeaway": "Identifique a ação específica solicitada, em vez de atribuir ao anúncio um programa ambiental não expresso."
+      }
+    },
+    {
+      "id": "2013-96",
+      "skill": 20,
+      "competency": 6,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Documento e memória cultural",
+        "steps": [
+          "A redação escolar de 1911 descreve a bandeira como símbolo da pátria, vinculando suas cores às riquezas e aos ideais nacionais.",
+          "O manuscrito transmite valores patrióticos de seu contexto histórico e permite reconhecê-los hoje."
+        ],
+        "takeaway": "Documentos antigos podem preservar valores e práticas culturais sem funcionar como instruções atuais."
+      }
+    },
+    {
+      "id": "2013-103",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Responsabilização do leitor",
+        "steps": [
+          "O planeta aparece numa gota prestes a cair e o verbo derreter passa da primeira pessoa ao tratamento direto do leitor.",
+          "A pergunta sobre querer conjugar esse verbo associa o problema ambiental à posição e à ação humanas."
+        ],
+        "takeaway": "A conjugação verbal pode ser explorada como recurso persuasivo para incluir o destinatário num problema coletivo."
+      }
+    },
+    {
+      "id": "2013-109",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Contraste e crítica visual",
+        "steps": [
+          "Uma criança puxa um vagão real enquanto outra tem um trem de brinquedo, contrastando trabalho e infância lúdica.",
+          "A imagem provoca reflexão sobre desigualdade e trabalho infantil sem apresentar solução ou comparação entre países."
+        ],
+        "takeaway": "O contraste entre objetos semelhantes em usos distintos pode sustentar uma crítica social."
+      }
+    },
+    {
+      "id": "2013-110",
+      "skill": 1,
+      "competency": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Independência e pensamento coletivo",
+        "steps": [
+          "As figuras repetidas têm chaves de corda, mas a personagem destacada anda em sentido oposto e não apresenta esse mecanismo.",
+          "A diferença visual sugere reação à condução mecânica do pensamento coletivo, em vez de simples carência tecnológica."
+        ],
+        "takeaway": "Analise os atributos que distinguem uma figura do conjunto para interpretar o argumento visual."
+      }
+    },
+    {
+      "id": "2013-119",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Conjunção adversativa e humor",
+        "steps": [
+          "A fala parte do provérbio que censura a preguiça, mas passa a exigir respeito à mãe dos vícios.",
+          "A oração introduzida por mas inverte a expectativa de condenação e fornece uma justificativa cômica para a preguiça."
+        ],
+        "takeaway": "Uma conjunção adversativa pode redirecionar a conclusão de um argumento."
+      }
+    },
+    {
+      "id": "2013-120",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Intertexto filosófico e cotidiano",
+        "steps": [
+          "A afirmação atribuída a Parmênides sobre ausência de movimento é aplicada a uma fila de carros congestionada.",
+          "O deslocamento irônico da ideia filosófica critica a dificuldade de circulação no trânsito urbano."
+        ],
+        "takeaway": "Intertextos podem ganhar novo sentido ao serem transportados para uma situação cotidiana."
+      }
+    },
+    {
+      "id": "2013-128",
+      "skill": 19,
+      "competency": 6,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Reflexão sobre o livro",
+        "steps": [
+          "Os quadrinhos enumeram papel, letras, histórias e sonhos e terminam destacando os olhos do leitor.",
+          "O texto reflete sobre a constituição material e simbólica do livro, incluindo sua realização na leitura."
+        ],
+        "takeaway": "A função metalinguística pode discutir tanto a forma quanto a produção de sentido de um objeto comunicativo."
+      }
+    },
+    {
+      "id": "2013-131",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ironia e crítica tecnológica",
+        "steps": [
+          "As legendas negam preconceito, ignorância e covardia, enquanto as cenas mostram mentira sobre identidade, recusa à leitura e hostilidade mediada por mensagens.",
+          "A contradição entre afirmações e exemplos constrói uma crítica irônica às promessas idealizadas da conexão."
+        ],
+        "takeaway": "Na ironia multimodal, a imagem pode desmentir aquilo que o texto verbal afirma."
+      }
+    },
+    {
+      "id": "2013-133",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora da venda",
+        "steps": [
+          "A cabeça formada por dispositivos tecnológicos tem os olhos cobertos e pede ajuda.",
+          "A venda representa conotativamente a informação que permanece oculta ao usuário, apesar da abundância de recursos digitais."
+        ],
+        "takeaway": "A presença de tecnologia não equivale automaticamente a acesso completo ou compreensão da informação."
+      }
+    },
+    {
+      "id": "2013-135",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Síntese em gráficos",
+        "steps": [
+          "O infográfico compara o aumento de casamentos e a participação de pessoas acima de 60 anos no mercado de trabalho.",
+          "Os gráficos resumem a expansão dos dois fenômenos, sem afirmar que cresceram em proporções iguais."
+        ],
+        "takeaway": "Compare os indicadores apresentados sem extrapolar para fenômenos que o gráfico não mede."
+      }
+    },
+    {
+      "id": "2014-96",
+      "skill": 22,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Complementaridade entre textos",
+        "steps": [
+          "A notícia relata aumento de transplantes e redução de filas; o cartaz pede adesão à doação e comunicação à família.",
+          "As funções se complementam: uma informa resultados e a outra estimula a continuidade da participação."
+        ],
+        "takeaway": "Textos sobre o mesmo tema podem combinar informação e persuasão sem repetir a mesma finalidade."
+      }
+    },
+    {
+      "id": "2014-105",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora persuasiva",
+        "steps": [
+          "A campanha afirma que algumas crianças vivem um pesadelo antes de dormir e convoca à denúncia da violência.",
+          "Pesadelo dimensiona o sofrimento causado pelo abuso, não indica o horário literal em que a agressão ocorre."
+        ],
+        "takeaway": "O contexto do apelo ajuda a distinguir uma metáfora de uma informação factual."
+      }
+    },
+    {
+      "id": "2014-112",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Personalização da comunicação",
+        "steps": [
+          "A chamada destaca assistir ao que se quer e quando se quer, além de usar uma segunda tela.",
+          "O foco são recursos que atendem preferências individuais, não apenas a substituição do aparelho de televisão."
+        ],
+        "takeaway": "Para identificar a ideia central, observe os benefícios repetidamente destacados pela chamada."
+      }
+    },
+    {
+      "id": "2014-115",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Perguntas e perfil do destinatário",
+        "steps": [
+          "O anúncio pergunta se o leitor gosta de tecnologia, pensa em assuntos incomuns e está entre os melhores alunos.",
+          "As perguntas constroem um perfil desejado e estimulam identificação antes do convite para trabalhar na empresa."
+        ],
+        "takeaway": "Perguntas dirigidas podem selecionar o público e dinamizar a persuasão."
+      }
+    },
+    {
+      "id": "2014-127",
+      "skill": 1,
+      "competency": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Polissemia e intertexto visual",
+        "steps": [
+          "A charge recria Guernica com um automóvel e chama o trânsito de quadro dramático.",
+          "Quadro designa tanto uma pintura quanto uma situação, ligando o sofrimento da obra ao problema do trânsito."
+        ],
+        "takeaway": "Uma expressão polissêmica pode conectar a imagem citada ao tema de uma nova produção."
+      }
+    },
+    {
+      "id": "2014-131",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Humor e autorretratos digitais",
+        "steps": [
+          "A expectativa de uma fotografia científica de Marte é quebrada por uma imagem do próprio robô posando para a câmera.",
+          "A charge critica a profusão de autorretratos digitais, deslocando esse hábito para uma missão espacial."
+        ],
+        "takeaway": "A quebra de expectativa pode revelar o alvo da crítica com mais precisão que o cenário apresentado."
+      }
+    },
+    {
+      "id": "2014-135",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora visual da palavra",
+        "steps": [
+          "O cabo segurado como arma termina em um megafone e acompanha a afirmação de que a paz se consegue com voz.",
+          "A fusão visual substitui a violência armada pela expressão da comunidade, defendendo o poder transformador da palavra."
+        ],
+        "takeaway": "A combinação de objetos em uma imagem pode construir um argumento por substituição simbólica."
+      }
+    },
+    {
+      "id": "2015-96",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Informação e opinião",
+        "steps": [
+          "A imagem liga cabeça e balão de fala à frase segundo a qual a opinião não sai se a informação não chega.",
+          "A campanha apresenta o acesso à informação como condição para o cidadão formar e expressar opinião."
+        ],
+        "takeaway": "Observe a direção da relação entre dois processos para não inverter o argumento do texto."
+      }
+    },
+    {
+      "id": "2015-118",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Argumento de autoridade",
+        "steps": [
+          "A campanha acompanha orientações sobre hepatite com a imagem de uma profissional de saúde.",
+          "Essa representação reforça a credibilidade das informações pela associação a um discurso especializado e autorizado."
+        ],
+        "takeaway": "Na publicidade, a figura de um especialista pode funcionar como recurso de legitimação."
+      }
+    },
+    {
+      "id": "2015-132",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Tempos verbais e efeito de rapidez",
+        "steps": [
+          "O anúncio passa de vai ser bom para não foi, transformando algo ainda futuro em ação já concluída.",
+          "A sucessão entre futuro e passado produz a impressão de execução instantânea e valoriza a rapidez do serviço."
+        ],
+        "takeaway": "A escolha de tempos verbais pode produzir efeitos persuasivos além de situar fatos na cronologia."
+      }
+    },
+    {
+      "id": "2016-105",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Consumo e água indireta",
+        "steps": [
+          "A campanha informa que alimentos e roupas exigem água em sua produção e conclui que evitar desperdício de bens também poupa água.",
+          "O convite é adotar consumo consciente, ampliando a economia de água para além das torneiras domésticas."
+        ],
+        "takeaway": "A conclusão de uma campanha esclarece qual comportamento seus dados procuram estimular."
+      }
+    },
+    {
+      "id": "2016-109",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Experiência visual e persuasão",
+        "steps": [
+          "A alternância de telas e cenas da rua dificulta perceber uma criança e o texto compara essa distração àquela causada pelo celular ao volante.",
+          "A peça tenta modificar a conduta de motoristas, fazendo o leitor experimentar uma falha de atenção."
+        ],
+        "takeaway": "Uma campanha pode transformar o próprio modo de leitura em demonstração do risco que denuncia."
+      }
+    },
+    {
+      "id": "2017-11",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Perfil do consumidor digital",
+        "steps": [
+          "O diagrama reúne avaliações em blogs, conselhos on-line, novas formas de comunicação e preferência por compras na rede.",
+          "Essas características revelam influência da cultura do comércio eletrônico, não apenas busca do menor preço."
+        ],
+        "takeaway": "Uma inferência sobre um perfil deve reunir as várias informações do diagrama."
+      }
+    },
+    {
+      "id": "2017-16",
+      "skill": 22,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Polissemia criativa",
+        "steps": [
+          "A homenagem às mães afirma que ninguém entende melhor de criação, palavra usada também no trabalho publicitário.",
+          "O duplo sentido aproxima criar filhos e criar anúncios, exemplificando a releitura simples do cotidiano descrita no primeiro texto."
+        ],
+        "takeaway": "A criatividade publicitária pode nascer de um novo vínculo entre sentidos já conhecidos de uma palavra."
+      }
+    },
+    {
+      "id": "2017-28",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Conscientização e denúncia",
+        "steps": [
+          "O desenho infantil representa o pai como figura ameaçadora e o texto afirma que a agressão à mulher fere toda a família.",
+          "O convite a não se calar e denunciar dirige-se à população, ultrapassando apenas vítimas ou agressores."
+        ],
+        "takeaway": "O comando final ajuda a identificar a finalidade concreta de uma campanha social."
+      }
+    },
+    {
+      "id": "2017-34",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Incentivo à formação leitora",
+        "steps": [
+          "O cartaz pede que um adulto leia para uma criança e associa esse gesto ao início de descobertas e aprendizados.",
+          "A finalidade é incentivar a formação do leitor desde a infância, não discutir matrícula ou idade da alfabetização."
+        ],
+        "takeaway": "Ler para uma criança e ensiná-la a decodificar palavras são práticas relacionadas, mas não idênticas."
+      }
+    },
+    {
+      "id": "2017-41",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Imagem institucional",
+        "steps": [
+          "A floresta aparece ligada a personagens e títulos literários, conectando a matéria-prima da empresa à produção de livros.",
+          "Essa associação constrói uma imagem positiva do anunciante por sua alegada contribuição cultural e sustentabilidade."
+        ],
+        "takeaway": "Analise o efeito reputacional de uma publicidade sem transformar sua alegação em fato comprovado."
+      }
+    },
+    {
+      "id": "2018-7",
+      "skill": 26,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Oralidade em campanha",
+        "steps": [
+          "Expressões como está difícil largar e ir se acostumando aproximam o aviso do modo cotidiano de falar.",
+          "As marcas de oralidade tornam a campanha acessível ao público geral, em vez de restringi-la a vocabulário médico."
+        ],
+        "takeaway": "O registro coloquial pode favorecer proximidade e compreensão em textos institucionais."
+      }
+    },
+    {
+      "id": "2018-13",
+      "skill": 22,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Comparação de perspectivas",
+        "steps": [
+          "O cartaz responsabiliza quem não encontra tempo para exercícios; o segundo texto descreve trabalho, deslocamento e cuidados familiares que limitam esse tempo.",
+          "A segunda perspectiva amplia o problema ao considerar condições sociais, evitando reduzi-lo à decisão individual."
+        ],
+        "takeaway": "Compare o alcance das explicações oferecidas pelos textos, não apenas sua concordância sobre um tema."
+      }
+    },
+    {
+      "id": "2018-19",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Crítica à mercantilização da opinião",
+        "steps": [
+          "Um personagem muda de posição por se dizer profissional e outro apresenta preços diferentes para memes e textos longos.",
+          "A sequência critica a venda de pontos de vista, não o simples uso de redes sociais ou de memes."
+        ],
+        "takeaway": "As falas que atribuem preço e interesse econômico ajudam a identificar o alvo da sátira."
+      }
+    },
+    {
+      "id": "2018-22",
+      "skill": 25,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Paisagem linguística",
+        "steps": [
+          "O supermercado apresenta seu nome em vários idiomas para um espaço urbano frequentado por comunidades diversas.",
+          "A escolha visível de línguas revela planejamento comunicativo voltado à diversidade local, não apagamento das identidades."
+        ],
+        "takeaway": "Inscrições no espaço urbano mostram escolhas linguísticas relacionadas ao público e ao contexto social."
+      }
+    },
+    {
+      "id": "2018-25",
+      "skill": 1,
+      "competency": 1,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Adaptação entre linguagens",
+        "steps": [
+          "Contrastes de claro e escuro, enquadramentos e a onomatopeia do disparo reforçam o episódio narrado.",
+          "A adaptação usa recursos visuais para intensificar a dramaticidade, em vez de simplesmente copiar o texto literário."
+        ],
+        "takeaway": "Adaptar uma obra envolve explorar possibilidades expressivas próprias do novo meio."
+      }
+    },
+    {
+      "id": "2018-28",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Argumento visual de reaproveitamento",
+        "steps": [
+          "A garrafa se associa ao molde, à tesoura e à costura de um tecido novo.",
+          "A transformação representada visualmente demonstra reaproveitamento de material e dá razão concreta para reciclar."
+        ],
+        "takeaway": "Diferencie o argumento mostrado pela imagem de outros benefícios apenas mencionados no texto."
+      }
+    },
+    {
+      "id": "2018-39",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Informação e reação do leitor",
+        "steps": [
+          "Os símbolos passam de aprovação a tristeza e irritação conforme o rótulo acrescenta preço, sabor, traços de glúten ou informação incorreta.",
+          "As reações mostram variações na apresentação de dados relevantes para esse público, sem reduzir tudo a uma única mensagem padronizada."
+        ],
+        "takeaway": "A mesma categoria de produto pode receber avaliações diferentes conforme clareza e conteúdo do rótulo."
+      }
+    },
+    {
+      "id": "2018-41",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Imperativo e imagem",
+        "steps": [
+          "As mulheres cobrem olhos, boca e ouvidos, enquanto o cartaz ordena romper o silêncio e denunciar.",
+          "A associação contrasta o bloqueio da percepção e da fala com a ação solicitada, reforçando a mudança de comportamento."
+        ],
+        "takeaway": "Leia os gestos representados em relação aos verbos que dirigem a ação do destinatário."
+      }
+    },
+    {
+      "id": "2019-6",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Direitos e responsabilidades",
+        "steps": [
+          "A campanha contrapõe os efeitos construtivos e destrutivos das palavras e associa liberdade de expressão à responsabilidade.",
+          "Sua função social é conscientizar sobre os deveres vinculados ao exercício de um direito."
+        ],
+        "takeaway": "A ideia central pode ser mais ampla que um exemplo específico de violação mencionado no texto."
+      }
+    },
+    {
+      "id": "2019-10",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Injunção e públicos diversos",
+        "steps": [
+          "O cartaz separa orientações para vítimas, conhecidos das vítimas e pessoas que conhecem o agressor.",
+          "Comandos e recomendações convocam diferentes participantes a agir contra o bullying, em vez de limitar a campanha a um único grupo."
+        ],
+        "takeaway": "Estruturas injuntivas orientam ações e podem distribuir responsabilidades entre vários destinatários."
+      }
+    },
+    {
+      "id": "2019-12",
+      "skill": 22,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Narrativa visual e acessibilidade",
+        "steps": [
+          "A sequência de imagens comunica a história sem exigir leitura de palavras; a reportagem apresenta essa forma de criação por uma artista surda.",
+          "Os dois textos ampliam o reconhecimento e as possibilidades de acesso à comunicação, cada um por sua própria linguagem."
+        ],
+        "takeaway": "Textos de gêneros diferentes podem contribuir para uma mesma função social sem ter objetivos idênticos."
+      }
+    },
+    {
+      "id": "2019-17",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Exposição pessoal nas redes",
+        "steps": [
+          "Os perfis mostram publicações repetidas de viagens, relacionamentos, refeições e autorretratos para valorizar a própria imagem.",
+          "O conjunto critica a exposição exagerada dos indivíduos, não uma mobilização por causas coletivas."
+        ],
+        "takeaway": "Procure o traço comum entre as categorias de um infográfico para inferir sua crítica geral."
+      }
+    },
+    {
+      "id": "2019-23",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora de empatia",
+        "steps": [
+          "A frase propõe calçar os sapatos dos refugiados e dar o primeiro passo para compreender sua situação.",
+          "O calçado simboliza assumir outra perspectiva e aderir à causa, sem constituir um pedido literal de doação de sapatos."
+        ],
+        "takeaway": "Expressões figuradas podem transformar objetos visuais em convite à identificação com outras pessoas."
+      }
+    },
+    {
+      "id": "2019-26",
+      "skill": 22,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Direito previsto e realidade narrada",
+        "steps": [
+          "O segundo texto enumera garantias, enquanto o primeiro relata denúncias de violações e insuficiência de proteção social.",
+          "A comparação mostra contraste entre direitos previstos e condições efetivamente oferecidas no contexto retratado, não necessidade de retirar direitos."
+        ],
+        "takeaway": "Diferencie a existência de uma norma de sua realização na experiência social descrita."
+      }
+    },
+    {
+      "id": "2019-43",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Hibridismo de gêneros",
+        "steps": [
+          "Foto, formação, nascimento e contribuições do pesquisador são organizados no formato de uma carta colecionável.",
+          "O texto aproxima informação biográfica e universo dos jogos, reaproveitando a estrutura de um gênero para outra finalidade."
+        ],
+        "takeaway": "Um gênero pode ser reconfigurado ao receber conteúdo e função diferentes dos habituais."
+      }
+    },
+    {
+      "id": "2020-7",
+      "skill": 27,
+      "competency": 8,
+      "moduleId": "pt-lingua",
+      "explanation": {
+        "concept": "Preposição na variedade coloquial",
+        "steps": [
+          "O título pergunta que horas ela volta, sem a preposição que apareceria na construção a que horas.",
+          "O apagamento de a marca uma estrutura corrente da fala brasileira, independentemente de a frase ser interrogativa."
+        ],
+        "takeaway": "Reconheça a marca específica de variação solicitada, sem confundi-la com características gerais da frase."
+      }
+    },
+    {
+      "id": "2020-22",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade de conscientização",
+        "steps": [
+          "O anúncio aprova conversar e torcer juntos e rejeita tocar sem permissão e empurrar, incluindo um apelo à denúncia.",
+          "A peça procura reduzir violência de gênero nos eventos esportivos por conscientização, não promulgar regras legais novas."
+        ],
+        "takeaway": "Orientações de campanha são recursos de mudança de comportamento e não equivalem por si mesmas a legislação."
+      }
+    },
+    {
+      "id": "2020-26",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Imagem e realidade virtual",
+        "steps": [
+          "O dispositivo na cabeça é cercado por cenas variadas, sugerindo experiências acessadas visualmente pelo usuário.",
+          "A imagem representa transporte mental a outros ambientes sem deslocamento físico, sem limitar a tecnologia aos jogos."
+        ],
+        "takeaway": "A leitura visual deve distinguir a experiência simulada de um deslocamento material."
+      }
+    },
+    {
+      "id": "2020-30",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Metáfora de defesa",
+        "steps": [
+          "A rua é chamada de campo de batalha e a mulher usa um lenço associado à proteção em situação de confronto.",
+          "A imagem reforça a necessidade de defender-se do assédio dentro dessa metáfora, não uma ordem de permanecer calada."
+        ],
+        "takeaway": "O enunciado verbal orienta qual sentido de um gesto ou acessório deve ser ativado."
+      }
+    },
+    {
+      "id": "2020-33",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Suporte e circulação poética",
+        "steps": [
+          "O projeto leva poemas a cartazes de rua para interromper o olhar habituado e estimular atenção à cidade e a si.",
+          "O lambe-lambe passa a disseminar poesia num suporte não convencional para essa finalidade, deslocando seu uso habitual."
+        ],
+        "takeaway": "Uma mudança de conteúdo pode reconfigurar a função de um suporte já conhecido."
+      }
+    },
+    {
+      "id": "2020-44",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Imagem e valorização da adoção",
+        "steps": [
+          "A fotografia reúne uma família cujas legendas registram adoções em diferentes idades, incluindo adolescência e vida adulta.",
+          "A associação sustenta uma visão positiva da adoção tardia, sem comparar a felicidade de todas as famílias."
+        ],
+        "takeaway": "Use as informações específicas das legendas para delimitar a tese apoiada pela imagem."
+      }
+    },
+    {
+      "id": "2021-12",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ambiguidade e sensibilização",
+        "steps": [
+          "PET identifica o plástico da garrafa e pet remete ao animal de estimação; o texto contrapõe o que é descartável ao que não é.",
+          "O jogo com a palavra e as imagens sensibiliza contra o abandono de animais, indo além de apenas informar uma sanção."
+        ],
+        "takeaway": "Um termo compartilhado por referentes diferentes pode sustentar uma oposição persuasiva."
+      }
+    },
+    {
+      "id": "2021-13",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Ironia sobre emancipação",
+        "steps": [
+          "A personagem enumera renúncias exigidas pelo casamento e termina anunciando que assim acaba outro capítulo de sua emancipação.",
+          "A conclusão irônica contrasta o ideal de igualdade com a perda de autonomia apresentada nas falas anteriores."
+        ],
+        "takeaway": "A ironia se reconhece pela incompatibilidade entre a conclusão enunciada e a situação representada."
+      }
+    },
+    {
+      "id": "2021-33",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Função do prefácio",
+        "steps": [
+          "Os quadrinhos apresentam pesquisa, roteiro e produção da obra e encerram convidando à leitura do livro.",
+          "Essa função de apresentação permite reconhecer um prefácio, mesmo realizado visualmente em quadrinhos."
+        ],
+        "takeaway": "Um gênero se define também pela função comunicativa, não apenas pelo formato de sua linguagem."
+      }
+    },
+    {
+      "id": "2021-34",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Informação orientada à ação",
+        "steps": [
+          "O infográfico relaciona celular antes de dormir a problemas de sono e termina com recomendações práticas ao leitor.",
+          "As informações científicas servem à finalidade de modificar hábitos considerados prejudiciais às crianças, não apenas divulgar uma pesquisa."
+        ],
+        "takeaway": "A presença de recomendações finais revela a orientação persuasiva de um texto informativo."
+      }
+    },
+    {
+      "id": "2022-9",
+      "skill": 24,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Apelo emocional",
+        "steps": [
+          "A pessoa com o rosto nas mãos acompanha a palavra arrependimento e a advertência de que causar um acidente marca a vida.",
+          "A campanha apela à culpa do possível causador para desencorajar beber e dirigir, sem centrar o argumento na punição."
+        ],
+        "takeaway": "A emoção mobilizada deve ser atribuída ao papel social indicado pelo texto."
+      }
+    },
+    {
+      "id": "2022-15",
+      "skill": 18,
+      "competency": 6,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Recontextualização de gênero",
+        "steps": [
+          "A postagem usa a imagem de um outdoor para apresentar uma proposta de divulgar gastos nas próprias peças publicitárias.",
+          "A apropriação do formato ajuda a divulgar um projeto de transparência e solicitar opinião, sem garantir por si só fiscalização efetiva."
+        ],
+        "takeaway": "Diferencie divulgar uma proposta de colocá-la em execução ou atribuir novas funções ao leitor."
+      }
+    },
+    {
+      "id": "2022-27",
+      "skill": 21,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Desconstrução de estereótipos",
+        "steps": [
+          "A campanha risca o ditado depreciativo sobre mulheres ao volante e retira a negação da frase homens não choram.",
+          "Essas alterações propõem rever representações estereotipadas, em vez de confirmar papéis fixos para cada gênero."
+        ],
+        "takeaway": "Suprimir palavras de uma expressão conhecida pode inverter seu sentido e sua orientação social."
+      }
+    },
+    {
+      "id": "2022-32",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Orientação por faixa etária",
+        "steps": [
+          "O manual organiza sugestões sobre telas para crianças até dois anos, de dois a cinco e até dez anos.",
+          "A divisão indica ações específicas por etapa da infância, não uma regra única indiferente à idade."
+        ],
+        "takeaway": "A organização de um texto instrucional revela como as recomendações se ajustam a diferentes destinatários."
+      }
+    },
+    {
+      "id": "2023-24",
+      "skill": 23,
+      "competency": 7,
+      "moduleId": "pt-leitura",
+      "explanation": {
+        "concept": "Finalidade e contexto da campanha",
+        "steps": [
+          "A máscara aparece junto à afirmação de não se calar e ao imperativo denuncie durante o isolamento da pandemia.",
+          "O objetivo central é incentivar mulheres a denunciar violência; o canal e a referência à Defensoria apoiam esse convite."
+        ],
+        "takeaway": "Separe o objetivo principal de uma campanha dos meios e instituições apresentados para realizá-lo."
+      }
     }
   ]
 }

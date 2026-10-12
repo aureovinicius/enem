@@ -351,6 +351,146 @@
         "takeaway": "Usar uma língua de circulação internacional pode incluir transformá-la segundo a própria experiência cultural."
       },
       "moduleId": "en-cultura"
+    },
+    {
+      "id": "2010-92-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Contraste entre passado e presente",
+        "steps": [
+          "A repetição de used to apresenta o poder que o eu lírico possuía, enquanto now introduz sua situação solitária e rebaixada.",
+          "A alternativa A é correta. O contraste entre governar o mundo e varrer as ruas antes possuídas caracteriza uma perda súbita de poder e recursos."
+        ],
+        "takeaway": "Used to indica um hábito ou estado passado que contrasta com o presente."
+      }
+    },
+    {
+      "id": "2010-93-ingles",
+      "moduleId": "en-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Temas de conversa e cultura",
+        "steps": [
+          "Conversar sobre o clima é apresentado como hábito britânico, mas pode parecer banal a pessoas de outras nacionalidades.",
+          "A alternativa D é correta. A comparação evidencia particularidades culturais no uso da língua: o mesmo assunto pode ter valores diferentes entre comunidades."
+        ],
+        "takeaway": "O sentido social de uma conversa depende também de convenções culturais."
+      }
+    },
+    {
+      "id": "2012-91-ingles",
+      "moduleId": "en-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Resistência ao racismo na poesia",
+        "steps": [
+          "O sujeito é enviado à cozinha, mas afirma que se fortalece e que no futuro ocupará a mesa.",
+          "A alternativa A é correta. Essa projeção de reconhecimento e superação exprime coragem diante da exclusão, não aceitação passiva de sua inferiorização."
+        ],
+        "takeaway": "Em textos de resistência, observe como o sujeito responde à discriminação e imagina o futuro."
+      }
+    },
+    {
+      "id": "2012-93-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Sentido contextual de tough love",
+        "steps": [
+          "A fala identifica falta de amor e limites, mas defende firmeza quando os jovens ultrapassam a lei.",
+          "A alternativa D é correta. Tough love combina acolhimento e rigor: a posição expressa não reduz a resposta nem ao afeto isolado nem à punição sem vínculos."
+        ],
+        "takeaway": "Interprete expressões compostas pelas relações estabelecidas no texto, não por palavras isoladas."
+      }
+    },
+    {
+      "id": "2013-91-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Identificação do acontecimento noticiado",
+        "steps": [
+          "O título e o primeiro parágrafo relatam um incêndio noturno em uma prisão hondurenha com centenas de mortes.",
+          "A alternativa A é correta. A superlotação aparece como possível fator agravante; o acontecimento central é o incêndio no presídio, não uma investigação já concluída."
+        ],
+        "takeaway": "Diferencie o fato principal da notícia das hipóteses levantadas para explicar suas causas."
+      }
+    },
+    {
+      "id": "2013-92-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Leitura de divulgação científica",
+        "steps": [
+          "A reportagem afirma que ratos produzem morfina e que humanos e outros mamíferos possuem o mesmo chemical road map.",
+          "A alternativa B é correta. A expressão designa a via bioquímica de produção, permitindo concluir que ratos e humanos compartilham esse mecanismo segundo a pesquisa relatada."
+        ],
+        "takeaway": "Em divulgação científica, metáforas como mapa químico podem representar processos biológicos."
+      }
+    },
+    {
+      "id": "2013-93-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Finalidade de uma homenagem",
+        "steps": [
+          "O texto enumera realizações de Jobs e o apresenta como pioneiro que abriu possibilidades para novas gerações.",
+          "A alternativa C é correta. Esse vocabulário avaliativo e a retomada de suas conquistas têm a finalidade de enaltecer sua contribuição ao mundo digital."
+        ],
+        "takeaway": "Adjetivos avaliativos e seleção de realizações revelam a intenção de um perfil biográfico."
+      }
+    },
+    {
+      "id": "2013-94-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Correspondência entre orientação e exemplo",
+        "steps": [
+          "A quarta orientação combina divulgar a própria cultura e aprender sobre outras culturas.",
+          "A alternativa C é correta. Participar do Programa Jovens Embaixadores para mostrar seu país e conhecer outros modos de vida contempla as duas ações simultaneamente."
+        ],
+        "takeaway": "Ao associar um exemplo a uma instrução, confira todos os componentes exigidos por ela."
+      }
+    },
+    {
+      "id": "2014-91-ingles",
+      "moduleId": "en-leitura",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Título figurado e inovação arquitetônica",
+        "steps": [
+          "O edifício projetado em Seul usaria a fachada para reproduzir imagens do ambiente e parecer desaparecer.",
+          "A alternativa A é correta. Os jogos com altura e limite do céu apresentam essa inovação tecnológica, que vai além da disputa pela maior altura física."
+        ],
+        "takeaway": "Relacione expressões figuradas do título ao projeto descrito no corpo do texto."
+      }
+    },
+    {
+      "id": "2014-92-ingles",
+      "moduleId": "en-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Canção de protesto e interesses bélicos",
+        "steps": [
+          "A voz se dirige aos fabricantes de armas que se escondem enquanto colocam uma arma na mão de quem enfrenta a guerra.",
+          "A alternativa C é correta. A oposição denuncia um sistema em que interesses econômicos promovem conflitos e recrutam outros para assumir seus riscos."
+        ],
+        "takeaway": "Em uma canção de protesto, identifique quem é criticado e qual relação de poder é denunciada."
+      }
     }
   ]
 }

@@ -351,6 +351,146 @@
         "takeaway": "Relacione o vocabulário de presságio às informações que o narrador antecipa sobre a história."
       },
       "moduleId": "es-cultura"
+    },
+    {
+      "id": "2010-91-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Sequência temporal em instruções",
+        "steps": [
+          "O aviso diz que, na Espanha, os animais devem ter sido vacinados contra a raiva antes de o dono solicitar a documentação.",
+          "A alternativa E é correta. A sequência exigida pelo texto é vacinar o cachorro e depois pedir seu passaporte, pois antes de estabelece a precedência da vacinação."
+        ],
+        "takeaway": "Marcadores temporais ajudam a ordenar corretamente etapas em avisos e instruções."
+      }
+    },
+    {
+      "id": "2010-92-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Argumentação sobre ensino bilíngue",
+        "steps": [
+          "O autor reconhece que a escola fortaleceu o guarani, mas critica métodos de ensino que prejudicaram a língua e seus falantes.",
+          "A alternativa D é correta. Defender a presença escolar exige uma postura ética: o guarani deve servir à comunicação, sem que sua valorização justifique imposição pedagógica."
+        ],
+        "takeaway": "Uma concessão pode reconhecer uma conquista e, ao mesmo tempo, sustentar a necessidade de mudança."
+      }
+    },
+    {
+      "id": "2010-93-espanhol",
+      "moduleId": "es-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Valorização escolar do guarani",
+        "steps": [
+          "O texto relata que os programas escolares aproximaram falantes das duas línguas e ajudaram a superar preconceitos contra o guarani.",
+          "A alternativa D é correta. A inclusão e a permanência de seu ensino representam o processo de valorização da língua, ao contrário de excluí-la da educação média."
+        ],
+        "takeaway": "Políticas de ensino podem participar do reconhecimento de línguas socialmente desvalorizadas."
+      }
+    },
+    {
+      "id": "2011-91-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 5,
+      "explanation": {
+        "concept": "Neologismo e concentração turística",
+        "steps": [
+          "A reportagem propõe atrair visitantes para outros lugares do Peru e menciona a advertência sobre a saturação de Machu Picchu.",
+          "A alternativa D é correta. Desmachupizar resume a necessidade de reduzir a concentração excessiva de turistas na cidadela, diversificando destinos."
+        ],
+        "takeaway": "Um neologismo pode condensar o problema central de uma reportagem."
+      }
+    },
+    {
+      "id": "2011-92-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Título e intenção de alerta",
+        "steps": [
+          "A palestra associa defeitos informáticos em implantes médicos a riscos potencialmente fatais.",
+          "A alternativa B é correta. O título Muerto por el código antecipa o alerta sobre falhas de software que podem ameaçar a vida de usuários desses dispositivos."
+        ],
+        "takeaway": "A relação entre título e desenvolvimento ajuda a reconhecer a finalidade comunicativa de um texto."
+      }
+    },
+    {
+      "id": "2011-93-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Localização de atribuições institucionais",
+        "steps": [
+          "O segundo parágrafo informa que as delegações deliberam sobre novas candidaturas e sobre conservação e risco dos bens já reconhecidos.",
+          "A alternativa D é correta. Discutir o estado de conservação do patrimônio declarado é, portanto, uma atribuição explicitamente indicada no encontro descrito."
+        ],
+        "takeaway": "Localize verbos de ação e seus complementos para reconhecer atribuições em textos institucionais."
+      }
+    },
+    {
+      "id": "2011-94-espanhol",
+      "moduleId": "es-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Circulação cultural do tango",
+        "steps": [
+          "O relato acompanha o tango desde ambientes portenhos até salões parisienses, versões de grupos de rock e filmes estrangeiros.",
+          "A alternativa C é correta. Essa trajetória demonstra sua permanência e difusão para além da Argentina, com adaptações a novos públicos e espaços."
+        ],
+        "takeaway": "A circulação internacional de uma manifestação cultural pode envolver continuidade e transformação."
+      }
+    },
+    {
+      "id": "2012-91-espanhol",
+      "moduleId": "es-cultura",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Ironia e dependência econômica",
+        "steps": [
+          "O poema contrasta a abundância local de madeira, ferro e pastos com a importação dos produtos usados no funeral.",
+          "A alternativa A é correta. A conclusão de que a Guatemala forneceu apenas o cadáver intensifica a crítica à dependência de bens estrangeiros apesar dos recursos disponíveis."
+        ],
+        "takeaway": "Contrastes reiterados e uma conclusão irônica podem revelar a crítica social de um poema."
+      }
+    },
+    {
+      "id": "2012-92-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Inferência em notícia arqueológica",
+        "steps": [
+          "O texto afirma que as investigações identificaram no pátio um cenário de rituais e descreve a retirada de escombros.",
+          "A alternativa D é correta. A conclusão de que o sítio possui um pátio utilizado em rituais é sustentada por essa informação, sem exigir prever futuras descobertas."
+        ],
+        "takeaway": "Diferencie descobertas já mencionadas das expectativas sobre novas etapas de uma pesquisa."
+      }
+    },
+    {
+      "id": "2012-93-espanhol",
+      "moduleId": "es-leitura",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Relações de dependência no argumento",
+        "steps": [
+          "Galeano descreve recursos e trabalho latino-americanos convertidos em riqueza acumulada nos centros externos de poder.",
+          "A alternativa A é correta. Na interpretação defendida pelo autor, a região permanece subordinada a nações exploradoras por relações históricas de dependência."
+        ],
+        "takeaway": "Ao interpretar um argumento, reconstrua a tese do autor e a relação entre os exemplos apresentados."
+      }
     }
   ]
 }
