@@ -92,6 +92,14 @@ python3 -m http.server 4173 --directory dist
 
 Depois, abra `http://localhost:4173`.
 
+## Instalar como aplicativo
+
+Abra o site em HTTPS no Chrome ou Edge e use a opção **Instalar Enem** no menu do navegador (o nome e a posição variam conforme a versão). No iPhone/iPad, use **Compartilhar → Adicionar à Tela de Início**. O aplicativo usa ícone próprio e abre em uma janela independente.
+
+Após o primeiro carregamento completo, a interface, as questões e as explicações ficam disponíveis offline. Imagens de questões ficam disponíveis depois de visualizadas; imagens ainda não abertas precisam de internet. O progresso continua salvo no navegador, separado por domínio. O acesso offline depende do armazenamento disponível no dispositivo.
+
+O manifest e o service worker funcionam tanto na raiz do ChatGPT Sites quanto em `/enem/` no GitHub Pages. Para cada atualização de conteúdo ou código, altere `VERSION` e os valores `?v=` de `CORE_PATHS` em `dist/sw.js`, junto com as versões em `dist/index.html` e `DATA_URL` em `dist/app.js`. O novo cache é preparado antes de ativar a atualização; feche as janelas do app e reabra para concluí-la sem interromper uma lição. Não use `skipWaiting` para forçar a troca durante uma sessão.
+
 ## GitHub e implantação contínua
 
 Repositório: [aureovinicius/enem](https://github.com/aureovinicius/enem). A branch de publicação é `main`. O histórico do projeto, o snapshot completo de 2.757 questões, as fontes de TRI e as imagens usadas nas 440 questões selecionadas estão versionados. A cópia integral do repositório externo `data/enem-source/` pode ser baixada pelo script de sincronização e não é duplicada neste Git.
@@ -103,7 +111,7 @@ O workflow `.github/workflows/pages.yml` executa os testes e prepara um artefato
 Para testar o mesmo pacote localmente:
 
 ```bash
-node --test scripts/test-learning.mjs scripts/test-github-pages.mjs
+node --test scripts/test-*.mjs
 node scripts/build-github-pages.mjs --base-path /enem --out-dir .preview/enem
 python3 -m http.server 4173 --bind 127.0.0.1 --directory .preview
 ```

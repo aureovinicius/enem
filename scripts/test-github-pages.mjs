@@ -10,10 +10,17 @@ async function fixture(t) {
   const root = await mkdtemp(path.join(tmpdir(), "fisio-pages-test-"));
   t.after(() => rm(root, { recursive: true, force: true }));
   const source = {
-    "index.html": '<link rel="icon" href="/favicon.svg"><link href="/styles.css?v=2"><script src="/app.js?v=2"></script><a href="#praticar">Praticar</a>',
+    "index.html": '<link rel="icon" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link href="/styles.css?v=2"><script src="/app.js?v=2"></script><script type="module" src="/pwa.js?v=2"></script><a href="#praticar">Praticar</a>',
     "app.js": 'const DATA_URL = "/data/courses.json?v=2"; const allowed = url => url.startsWith("/assets/questions/"); const download = `<a href="/data/matrix.pdf">Download</a>`;',
     "styles.css": "body { color: #123; }",
     "favicon.svg": "<svg></svg>",
+    "pwa.js": 'navigator.serviceWorker.register(new URL("./sw.js", import.meta.url)); const fallback = "/sw.js";',
+    "sw.js": 'const root = self.registration.scope; const shell = ["./", "./app.js?v=2", "./styles.css?v=2"];',
+    "manifest.webmanifest": JSON.stringify({ name: "Enem", id: "/", start_url: "/#aprender", scope: "/", display: "standalone", icons: [{ src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" }, { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" }, { src: "/icons/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" }] }),
+    "icons/icon-192.png": "192 pixel icon fixture",
+    "icons/icon-512.png": "512 pixel icon fixture",
+    "icons/icon-maskable-512.png": "maskable icon fixture",
+    "apple-touch-icon.png": "Apple icon fixture",
     "data/matrix.pdf": "pdf fixture",
     "data/courses.json": JSON.stringify({ context: "![Gráfico](/assets/questions/2023/1/chart.png)", alternatives: [{ file: "/assets/questions/2023/1/chart.png" }], source: "https://example.org/data/official.json", sourceImage: "https://enem.dev/2023/questions/1/chart.png" }),
     "assets/questions/2023/1/chart.png": "image fixture",
@@ -35,6 +42,9 @@ for (const basePath of ["/", "/enem", "/nested/enem/"]) {
     const base = normalizeBasePath(basePath);
     const html = await readFile(path.join(built.output, "index.html"), "utf8");
     assert.ok(html.includes(`src="${base}/app.js?v=2"`));
+    assert.ok(html.includes(`href="${base}/manifest.webmanifest"`));
+    assert.ok(html.includes(`href="${base}/apple-touch-icon.png"`));
+    assert.ok(html.includes(`src="${base}/pwa.js?v=2"`));
     assert.ok(html.includes('href="#praticar"'));
     const js = await readFile(path.join(built.output, "app.js"), "utf8");
     assert.ok(js.includes(`"${base}/data/courses.json?v=2"`));
@@ -45,6 +55,22 @@ for (const basePath of ["/", "/enem", "/nested/enem/"]) {
     assert.equal(catalog.alternatives[0].file, `${base}/assets/questions/2023/1/chart.png`);
     assert.equal(catalog.source, "https://example.org/data/official.json");
     assert.equal(catalog.sourceImage, "https://enem.dev/2023/questions/1/chart.png");
+    const manifest = JSON.parse(await readFile(path.join(built.output, "manifest.webmanifest"), "utf8"));
+    assert.equal(manifest.id, `${base}/`);
+    assert.equal(manifest.scope, `${base}/`);
+    assert.equal(manifest.start_url, `${base}/#aprender`);
+    assert.equal(manifest.display, "standalone");
+    assert.deepEqual(manifest.icons.map(icon => icon.src), ["icon-192.png", "icon-512.png", "icon-maskable-512.png"].map(name => `${base}/icons/${name}`));
+    assert.equal(manifest.icons[2].purpose, "maskable");
+    const origin = "https://example.org";
+    const documentUrl = `${origin}${base}/`;
+    const pwaUrl = new URL(`${base}/pwa.js?v=2`, documentUrl);
+    assert.equal(new URL("./sw.js", pwaUrl).pathname, `${base}/sw.js`);
+    assert.equal(new URL(manifest.start_url, documentUrl).pathname, new URL(manifest.scope, documentUrl).pathname);
+    const pwa = await readFile(path.join(built.output, "pwa.js"), "utf8");
+    assert.ok(pwa.includes('new URL("./sw.js", import.meta.url)'));
+    assert.ok(pwa.includes(`"${base}/sw.js"`));
+    assert.equal(await readFile(path.join(built.output, "sw.js"), "utf8"), source["sw.js"]);
     assert.deepEqual(await readdir(path.join(built.output, "assets/questions/2023/1")), ["chart.png"]);
     assert.equal(built.files, Object.keys(source).length + 1);
     for (const [relative, contents] of Object.entries(source)) assert.equal(await readFile(path.join(root, "dist", relative), "utf8"), contents);
@@ -66,6 +92,25 @@ test("requires tracked referenced resources and prevents partial output", async 
   await writeFile(path.join(root, "dist/data/courses.json"), JSON.stringify({ context: "![Missing](/assets/questions/2023/1/chart%202.png)" }));
   await assert.rejects(buildGitHubPages({ root, basePath: "/enem" }), /Missing or unsafe local resource/);
   assert.ok(!(await readdir(root)).includes("_site"));
+});
+
+test("requires all manifest icons to be tracked before creating output", async t => {
+  const { root } = await fixture(t);
+  execFileSync("git", ["rm", "--cached", "-q", "--", "dist/icons/icon-maskable-512.png"], { cwd: root });
+  await assert.rejects(buildGitHubPages({ root, basePath: "/enem" }), /Missing or unsafe local resource in manifest.webmanifest/);
+  assert.ok(!(await readdir(root)).includes("_site"));
+});
+
+test("rejects unsafe or missing manifest routes before creating output", async t => {
+  const { root, source } = await fixture(t);
+  for (const field of ["id", "start_url", "scope"]) {
+    for (const route of [undefined, "enem/", "https://example.org/", "//example.org/", "/../enem/", "/enem\\other/", "/enem\n/"]) {
+      const manifest = { ...JSON.parse(source["manifest.webmanifest"]), [field]: route };
+      await writeFile(path.join(root, "dist/manifest.webmanifest"), JSON.stringify(manifest));
+      await assert.rejects(buildGitHubPages({ root, basePath: "/enem" }), new RegExp(`Manifest ${field}`));
+      assert.ok(!(await readdir(root)).includes("_site"));
+    }
+  }
 });
 
 test("refuses unsafe output directories, existing files, and tracked symlinks", async t => {

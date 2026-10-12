@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: '24'
       - name: Validar conteúdo, aprendizagem e pacote
-        run: node --test scripts/test-learning.mjs scripts/test-github-pages.mjs
+        run: node --test scripts/test-*.mjs
       - name: Gerar pacote estático
         env:
           PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH || format('/{0}', github.event.repository.name) }}

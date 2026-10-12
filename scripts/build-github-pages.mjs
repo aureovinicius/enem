@@ -4,10 +4,22 @@ import { lstat, mkdir, readFile, readdir, realpath, writeFile } from "node:fs/pr
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const TEXT_EXTENSIONS = new Set([".html", ".js", ".css", ".json", ".svg"]);
+const TEXT_EXTENSIONS = new Set([".html", ".js", ".css", ".json", ".webmanifest", ".svg"]);
 // Match local URL tokens only, including Markdown image URLs and the image allowlist.
-const LOCAL_URL = /(["'(])\/(assets\/questions\/|data\/|favicon\.svg\b|styles\.css\b|app\.js\b)/g;
-const LOCAL_REFERENCE = /["'(](\/(?:assets\/questions\/|data\/|favicon\.svg\b|styles\.css\b|app\.js\b)[^"'\\\s<)]*)/g;
+const LOCAL_URL = /(["'(])\/(assets\/questions\/|data\/|icons\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)/g;
+const LOCAL_REFERENCE = /["'(](\/(?:assets\/questions\/|data\/|icons\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)[^"'\\\s<)]*)/g;
+
+function rewriteManifestRoutes(text, base) {
+  const manifest = JSON.parse(text);
+  for (const field of ["id", "start_url", "scope"]) {
+    const route = manifest[field];
+    if (typeof route !== "string" || !route.startsWith("/") || route.startsWith("//") || /[\\\s]/.test(route) || route.includes("..")) {
+      throw new Error(`Manifest ${field} must be a safe root-relative URL.`);
+    }
+    manifest[field] = `${base}${route}`;
+  }
+  return `${JSON.stringify(manifest, null, 2)}\n`;
+}
 
 export function normalizeBasePath(value = "") {
   if (value === "" || value === "/") return "";
@@ -51,7 +63,7 @@ export async function buildGitHubPages({ root = process.cwd(), output = "_site",
     if (!(await lstat(absolute)).isFile() || !(await realpath(absolute)).startsWith(`${sourceRoot}${path.sep}`)) throw new Error(`Only regular files inside dist can be packaged: ${trackedPath}`);
     files.set(trackedPath.slice(5), await readFile(absolute));
   }
-  for (const required of ["index.html", "app.js", "styles.css", "data/courses.json"]) {
+  for (const required of ["index.html", "app.js", "styles.css", "data/courses.json", "manifest.webmanifest", "pwa.js", "sw.js"]) {
     if (!files.has(required)) throw new Error(`Missing tracked deployment file: dist/${required}`);
   }
   let references = 0;
@@ -65,7 +77,8 @@ export async function buildGitHubPages({ root = process.cwd(), output = "_site",
       if (resource.includes("..") || !files.has(resource.slice(1))) throw new Error(`Missing or unsafe local resource in ${relative}: ${resource}`);
       references++;
     }
-    files.set(relative, Buffer.from(text.replace(LOCAL_URL, (_, boundary, resource) => `${boundary}${base}/${resource}`)));
+    const withRoutes = relative === "manifest.webmanifest" ? rewriteManifestRoutes(text, base) : text;
+    files.set(relative, Buffer.from(withRoutes.replace(LOCAL_URL, (_, boundary, resource) => `${boundary}${base}/${resource}`)));
   }
   await mkdir(outputRoot, { recursive: true });
   // An output parent symlink must not turn a project-local path into an external write.

@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f7f4ec" />
+    <meta name="application-name" content="Enem" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Enem" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta
       name="description"
       content="Enem: Física, Química, Biologia, Matemática e Ciências da Natureza para o ENEM, com conceitos e questões comentadas."
     />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" sizes="180x180" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Manrope:wght@700;800&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css?v=brand-enem-1" />
+    <link rel="stylesheet" href="/styles.css?v=pwa-1" />
     <title>Enem — Estude para o ENEM</title>
   </head>
   <body>
@@ -63,6 +69,7 @@
     <div id="lesson-modal" class="modal" role="dialog" aria-modal="true" aria-label="Lição" hidden></div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-    <script type="module" src="/app.js?v=brand-enem-1"></script>
+    <script type="module" src="/app.js?v=pwa-1"></script>
+    <script type="module" src="/pwa.js?v=pwa-1"></script>
   </body>
 </html>
