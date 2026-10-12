@@ -1,4 +1,4 @@
-const DATA_URL = "/data/physics-questions.json";
+const DATA_URL = "/data/physics-questions.json?v=learning-2";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 
@@ -14,6 +14,9 @@ const app = document.querySelector("#app");
 const rail = document.querySelector("#right-rail");
 const modal = document.querySelector("#lesson-modal");
 const toast = document.querySelector("#toast");
+const shell = document.querySelector(".shell");
+let returnFocus = null;
+let introModuleId = null;
 
 let data;
 let lessons = [];
@@ -38,6 +41,7 @@ function loadState() {
     streak: 0,
     hearts: 5,
     completed: [],
+    introductionsRead: [],
     answered: [],
     missed: [],
   };
@@ -141,7 +145,7 @@ function renderRail() {
     </section>
     <section class="rail-card">
       <h3>Questões reais</h3>
-      <p class="tiny">${data.total} questões indexadas como Física, de 2009 a 2023.</p>
+      <p class="tiny">${data.total} questões de Física com resolução comentada, de 2009 a 2023.</p>
       <p class="tiny" style="margin-top:9px"><a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">Fonte: enem.dev ↗</a></p>
     </section>
   `;
@@ -182,6 +186,11 @@ function renderLearn() {
               </div>
               <span class="unit-count">${completed}/${moduleLessons.length} lições</span>
             </div>
+            <button class="intro-card" data-intro="${module.id}" aria-label="Introdução conceitual de ${module.title}">
+              <span class="intro-icon" aria-hidden="true">☰</span>
+              <span><strong>Introdução conceitual</strong><span>${escapeHtml(module.introduction.summary)}</span><small>${state.introductionsRead.includes(module.id) ? "✓ Lida · Revisar conceitos" : `${module.introduction.duration} de leitura · Comece por aqui`}</small></span>
+              <span aria-hidden="true">↗</span>
+            </button>
             <div class="lesson-path">
               ${moduleLessons.map((lesson) => {
                 const complete = state.completed.includes(lesson.id);
@@ -257,15 +266,15 @@ function renderAbout() {
     ${pageHeader("Projeto aberto", "Sobre o Fisio", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
     <div class="about-grid">
       <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
-      <article class="info-card"><div class="big-number">${data.total}</div><h3>questões de Física</h3><p>Um índice auditável seleciona questões de Ciências da Natureza por evidências no texto.</p></article>
+      <article class="info-card"><div class="big-number">${data.total}</div><h3>questões comentadas</h3><p>Questões com resolução própria do Fisio. Itens com dados incompletos ou fora de Física ficam preservados no acervo bruto, fora da prática.</p></article>
       <article class="info-card"><div class="big-number">15</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito original.</p></article>
       <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, corações e lições concluídas ficam salvos apenas neste navegador.</p></article>
     </div>
-    <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. O Fisio não é afiliado ao Duolingo.</div>
+    <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Fisio, não comentários oficiais do INEP. O Fisio não é afiliado ao Duolingo.</div>
   `;
 }
 
-function renderPage() {
+function renderPage(resetScroll = true) {
   document.querySelectorAll("[data-view]").forEach((item) => {
     item.classList.toggle("active", item.dataset.view === activeView);
   });
@@ -274,11 +283,51 @@ function renderPage() {
   else if (activeView === "sobre") renderAbout();
   else renderLearn();
   renderRail();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (resetScroll) window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
+}
+
+function openModal(label) {
+  returnFocus = document.activeElement;
+  modal.setAttribute("aria-label", label);
+  modal.hidden = false;
+  shell.inert = true;
+  document.body.style.overflow = "hidden";
+  modal.scrollTop = 0;
+}
+
+function openIntroduction(moduleId) {
+  const module = data.modules.find((item) => item.id === moduleId);
+  if (!module) return;
+  const intro = module.introduction;
+  introModuleId = moduleId;
+  const [color, dark] = modulePalette[moduleId];
+  openModal(`Introdução conceitual de ${module.title}`);
+  modal.innerHTML = `
+    <div class="intro-shell" style="--unit-color:${color};--unit-dark:${dark}">
+      <header class="intro-topbar"><span>${module.emoji} ${module.title} · ${intro.duration}</span><button class="icon-button" data-action="close-intro" aria-label="Fechar introdução">×</button></header>
+      <article class="intro-content">
+        <p class="page-kicker">Introdução conceitual</p>
+        <h1 class="page-title" tabindex="-1">${escapeHtml(intro.title)}</h1>
+        <p class="page-subtitle">${escapeHtml(intro.summary)}</p>
+        ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.text)}</p><div class="formula">${escapeHtml(section.formula)}</div><p class="notation">${escapeHtml(section.notation)}</p></div></section>`).join("")}
+        <section class="worked-example"><p class="page-kicker">Aplicando a ideia</p><h2>${escapeHtml(intro.example.title)}</h2><ol>${intro.example.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></section>
+        <div class="notice"><strong>Evite esta confusão</strong><br>${escapeHtml(intro.pitfall)}</div>
+        <div class="intro-actions"><button class="button" data-action="complete-intro">${state.introductionsRead.includes(moduleId) ? "Voltar à unidade" : "Concluir introdução"}</button></div>
+      </article>
+    </div>`;
+  modal.querySelector("h1").focus();
+}
+
+function completeIntroduction() {
+  if (!state.introductionsRead.includes(introModuleId)) {
+    state.introductionsRead.push(introModuleId);
+    saveState();
+  }
+  closeQuiz();
 }
 
 function startLesson(lessonId, customQuestions) {
@@ -296,9 +345,9 @@ function startLesson(lessonId, customQuestions) {
     checked: false,
     correct: 0,
   };
-  modal.hidden = false;
-  document.body.style.overflow = "hidden";
+  openModal(lesson.title);
   renderQuestion();
+  modal.querySelector("h1").focus();
 }
 
 function startPractice() {
@@ -306,7 +355,7 @@ function startPractice() {
     .map((id) => data.questions.find((question) => question.id === id))
     .filter(Boolean);
   const filler = shuffle(data.questions.filter((question) => !state.missed.includes(question.id)));
-  startLesson(null, shuffle([...missed, ...filler]).slice(0, 5));
+  startLesson(null, [...shuffle(missed), ...filler].slice(0, 5));
 }
 
 function renderQuestion() {
@@ -321,7 +370,7 @@ function renderQuestion() {
       </div>
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
-        <h1>${escapeHtml(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
+        <h1 tabindex="-1">${escapeHtml(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
         <div class="answers">
           ${question.alternatives.map((alternative) => {
@@ -334,10 +383,23 @@ function renderQuestion() {
             return `<button class="answer ${status}" data-answer="${alternative.letter}" ${quiz.checked ? "disabled" : ""}><span class="answer-letter">${alternative.letter}</span><span class="answer-text">${body}</span></button>`;
           }).join("")}
         </div>
+        ${quiz.checked ? renderExplanation(question) : ""}
       </div>
       ${renderQuizFooter(question)}
     </div>
   `;
+}
+
+function renderExplanation(question) {
+  const explanation = question.explanation;
+  const correctAnswer = question.alternatives.find((alternative) => alternative.letter === question.correctAlternative);
+  return `<section class="explanation" aria-labelledby="explanation-title" tabindex="-1">
+    <p class="page-kicker">${escapeHtml(explanation.concept)}</p>
+    <h2 id="explanation-title">Por que a alternativa ${escapeHtml(question.correctAlternative)} está correta?</h2>
+    <div class="correct-answer"><strong>Alternativa ${escapeHtml(question.correctAlternative)}</strong>${correctAnswer.text ? `<p>${escapeHtml(correctAnswer.text)}</p>` : ""}${correctAnswer.file ? `<img src="${escapeHtml(correctAnswer.file)}" alt="Resposta correta, alternativa ${question.correctAlternative}">` : ""}</div>
+    <ol>${explanation.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
+    <p class="takeaway"><strong>Guarde esta ideia:</strong> ${escapeHtml(explanation.takeaway)}</p>
+  </section>`;
 }
 
 function renderQuizFooter(question) {
@@ -348,7 +410,7 @@ function renderQuizFooter(question) {
   return `
     <footer class="quiz-footer ${correct ? "success" : "error"}">
       <div class="quiz-footer-inner">
-        <div class="feedback-copy"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>${correct ? "Seu raciocínio está no caminho certo." : "Revise o enunciado e tente reconhecer a ideia física central."}</span></div>
+        <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>Confira a resolução comentada antes de continuar.</span></div>
         <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
       </div>
     </footer>
@@ -378,6 +440,9 @@ function checkAnswer() {
   }
   saveState();
   renderQuestion();
+  const explanation = modal.querySelector(".explanation");
+  explanation.focus({ preventScroll: true });
+  explanation.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 function nextQuestion() {
@@ -386,6 +451,7 @@ function nextQuestion() {
     quiz.selected = null;
     quiz.checked = false;
     renderQuestion();
+    modal.querySelector("h1").focus({ preventScroll: true });
     modal.scrollTo({ top: 0, behavior: "smooth" });
     return;
   }
@@ -433,8 +499,13 @@ function closeQuiz() {
   modal.hidden = true;
   modal.innerHTML = "";
   document.body.style.overflow = "";
+  shell.inert = false;
   quiz = null;
-  renderPage();
+  introModuleId = null;
+  const introId = returnFocus?.dataset?.intro;
+  renderPage(!introId);
+  const focusTarget = introId ? app.querySelector(`[data-intro="${introId}"]`) : app.querySelector("h1");
+  if (focusTarget) { focusTarget.tabIndex = focusTarget.matches("button") ? 0 : -1; focusTarget.focus({ preventScroll: true }); }
 }
 
 function showToast(message) {
@@ -454,18 +525,36 @@ document.addEventListener("click", (event) => {
   }
   const lessonButton = event.target.closest("[data-lesson]");
   if (lessonButton) startLesson(lessonButton.dataset.lesson);
+  const introButton = event.target.closest("[data-intro]");
+  if (introButton) openIntroduction(introButton.dataset.intro);
   const answer = event.target.closest("[data-answer]");
   if (answer) selectAnswer(answer.dataset.answer);
   const action = event.target.closest("[data-action]")?.dataset.action;
   if (action === "continue") startLesson(nextLesson().id);
   if (action === "practice") startPractice();
+  if (action === "close-intro") closeQuiz();
+  if (action === "complete-intro") completeIntroduction();
   if (action === "close-quiz") {
     closeQuiz();
-    showToast("Seu progresso da lição não foi salvo.");
+    showToast("Respostas salvas. Conclua a lição para avançar na trilha.");
   }
   if (action === "check") checkAnswer();
   if (action === "next-question") nextQuestion();
   if (action === "finish") closeQuiz();
+});
+
+document.addEventListener("keydown", (event) => {
+  if (modal.hidden) return;
+  if (event.key === "Escape") closeQuiz();
+  if (event.key !== "Tab") return;
+  const focusable = [...modal.querySelectorAll('button:not(:disabled), a[href], [tabindex="0"]')];
+  const first = focusable[0];
+  const last = focusable.at(-1);
+  if (event.shiftKey && (document.activeElement === first || !focusable.includes(document.activeElement))) {
+    event.preventDefault(); last?.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault(); first?.focus();
+  }
 });
 
 window.addEventListener("hashchange", () => {
@@ -476,9 +565,11 @@ window.addEventListener("hashchange", () => {
 async function init() {
   app.innerHTML = `<div class="loading"><div><div class="loader"></div>Carregando sua trilha…</div></div>`;
   try {
-    const response = await fetch(DATA_URL);
+    const response = await fetch(DATA_URL, { cache: "no-cache" });
     if (!response.ok) throw new Error("Não foi possível carregar a base de Física.");
     data = await response.json();
+    state.missed = state.missed.filter((id) => data.questions.some((question) => question.id === id));
+    saveState();
     makeLessons();
     renderPage();
   } catch (error) {

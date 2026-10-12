@@ -13,6 +13,23 @@ node scripts/build-physics-index.mjs
 
 O snapshot integral fica em `data/enem/all-questions.json` e também é copiado para `dist/data/all-questions.json`. O índice usado pela interface fica em `dist/data/physics-questions.json`.
 
+## Conteúdo didático
+
+Cada uma das cinco unidades tem uma introdução conceitual com fórmulas, notação, exemplo resolvido e um alerta sobre erros comuns. A leitura pode ser marcada como concluída, sem bloquear a prática ou alterar lições já concluídas.
+
+Após verificar uma resposta, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros, inclusive na prática personalizada. Esse conteúdo é elaborado para o Fisio; não é uma resolução oficial fornecida pelo INEP ou pela API.
+
+- `data/learning/introductions.json`: introduções das cinco unidades.
+- `data/learning/explanations-*.json`: resoluções por ID de questão, com conceito, passos e ideia-chave. `moduleId` permite corrigir a classificação da questão; `excludeReason` documenta itens incompletos ou fora do escopo.
+- `data/learning/review-report.json`: relatório reproduzível da seleção ativa e dos motivos de exclusão. Todos os itens continuam no acervo bruto.
+
+O gerador só publica questões com resolução revisada, evitando que futuras sincronizações introduzam perguntas sem justificativa. Valide o conteúdo e os fluxos com:
+
+```bash
+node scripts/build-physics-index.mjs
+node --test scripts/test-learning.mjs
+```
+
 ## Desenvolvimento
 
 O projeto é estático. Sirva a pasta `dist` com qualquer servidor HTTP local:

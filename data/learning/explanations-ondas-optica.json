@@ -1,0 +1,318 @@
+{
+  "2023-112": {
+    "concept": "Difração e resolução óptica",
+    "steps": [
+      "O enunciado relaciona o tamanho mínimo das cavidades que podem ser lidas ao comprimento de onda do laser: quando as dimensões ficam próximas de λ, a difração dificulta distinguir os detalhes. Diminuir λ permite ler cavidades menores e armazenar mais dados por área.",
+      "Entre violeta, azul, verde, vermelho e infravermelho, o violeta tem o menor comprimento de onda. Portanto, a alternativa A permite a melhor resolução entre as opções apresentadas."
+    ],
+    "takeaway": "Menor comprimento de onda permite resolver detalhes menores em um sistema óptico."
+  },
+  "2022-135": {
+    "concept": "Refração da luz",
+    "steps": [
+      "A luz solar atravessa interfaces entre ar, plástico e água. A mudança de meio modifica sua velocidade e, em incidência oblíqua, sua direção, conforme a lei de Snell: n₁ sen θ₁ = n₂ sen θ₂.",
+      "A forma da garrafa faz esses desvios distribuírem a luz para diferentes direções no interior da casa. Esse funcionamento corresponde à refração, alternativa E. A informação de que o buraco é muito maior que o comprimento de onda afasta a difração como explicação principal."
+    ],
+    "takeaway": "A refração desvia a luz ao atravessar meios com índices de refração diferentes."
+  },
+  "2018-125": {
+    "concept": "Dispersão em prismas e reflexão",
+    "steps": [
+      "As frequências obedecem a f_vermelha < f_verde < f_azul. Como o índice de refração do prisma cresce com a frequência, o azul sofre o maior desvio em direção à base do prisma, o verde um desvio intermediário e o vermelho o menor.",
+      "Depois da reflexão no espelho horizontal, cada raio obedece à igualdade entre os ângulos de incidência e de reflexão. Acompanhar os trajetos no desenho coloca o vermelho no ponto inferior do filme, o verde no intermediário e o azul no superior: alternativa A."
+    ],
+    "takeaway": "Para ordenar as cores no anteparo, acompanhe o desvio no prisma e depois a reflexão no espelho."
+  },
+  "2017-107": {
+    "concept": "Absorção seletiva da radiação",
+    "steps": [
+      "O comprimento de onda deve combinar absorção significativa pela melanina com absorção pequena pela oxi-hemoglobina e pela água. Escolher apenas o máximo de absorção da melanina também poderia aquecer tecidos que se deseja preservar.",
+      "No gráfico, em 700 nm a melanina ainda absorve bastante, a oxi-hemoglobina está próxima de seu mínimo e a água apresenta absorção muito pequena. Essa combinação favorece o aquecimento dos pelos e corresponde à alternativa B."
+    ],
+    "takeaway": "Uma escolha seletiva compara simultaneamente as curvas do alvo e dos materiais que devem ser preservados."
+  },
+  "2014-76": {
+    "concept": "Radiação térmica e espectro eletromagnético",
+    "steps": [
+      "O corpo humano emite radiação eletromagnética por estar a uma temperatura acima do zero absoluto. Em temperaturas próximas à do corpo, essa emissão térmica se concentra na região do infravermelho.",
+      "O detector responde a essa radiação emitida pela pessoa, mesmo sem depender de iluminação visível. Portanto, a faixa captada é o infravermelho, alternativa C."
+    ],
+    "takeaway": "Corpos à temperatura ambiente ou corporal emitem radiação térmica principalmente no infravermelho."
+  },
+  "2014-84": {
+    "concept": "Ressonância e sintonia",
+    "steps": [
+      "Um circuito receptor possui uma frequência natural de oscilação. Ao mudar seus parâmetros elétricos, alteramos essa frequência para selecionar a estação desejada.",
+      "Quando a frequência da onda recebida coincide com a frequência de sintonia do circuito, a transferência de energia é máxima. Essa condição caracteriza a ressonância, alternativa E."
+    ],
+    "takeaway": "Na ressonância, uma excitação próxima da frequência natural produz uma resposta intensa."
+  },
+  "2012-88": {
+    "concept": "Frequência e energia da radiação",
+    "steps": [
+      "O próprio enunciado associa a produção de melanina à incidência de ultravioleta. Essa radiação tem frequência maior e comprimento de onda menor que a luz visível.",
+      "A lâmpada incandescente emite principalmente infravermelho e luz visível, com frequências inferiores às necessárias para o efeito descrito. Assim, a justificativa é a baixa frequência em comparação ao ultravioleta, alternativa B; permanecer mais tempo sob a lâmpada não substitui essa característica espectral."
+    ],
+    "takeaway": "A energia de um fóton é E = hf: mudar a intensidade não equivale a mudar a frequência."
+  },
+  "2011-74": {
+    "concept": "Atenuação de ondas em materiais",
+    "steps": [
+      "Para revelar estruturas cobertas por sedimentos, a onda precisa alcançar essas estruturas e retornar com um sinal detectável. A intensidade restante depende de como cada material absorve e espalha aquele tipo de onda.",
+      "Luz e som sofrem atenuações diferentes na água e nos sedimentos. Nas condições descritas, o sonar consegue obter informação que a iluminação óptica não fornece, o que justifica a alternativa D. Isso não significa que o som nunca seja absorvido: ele também perde energia durante a propagação."
+    ],
+    "takeaway": "A adequação de uma onda para produzir imagens depende de sua interação com o material atravessado."
+  },
+  "2010-47": {
+    "concept": "Propagação de rádio pela ionosfera",
+    "steps": [
+      "Uma transmissão direta, em linha reta, ficaria limitada pelo horizonte terrestre. Para alcançar uma região além dele, parte da radiação precisa retornar à superfície depois de atingir a atmosfera superior.",
+      "No modelo empregado pela questão, a ionosfera funciona como uma região que devolve determinadas ondas de rádio em direção à Terra. Esse retorno é descrito como reflexão ionosférica, alternativa A, permitindo a comunicação além do horizonte."
+    ],
+    "takeaway": "A reflexão ionosférica pode permitir que ondas de rádio alcancem locais além do horizonte."
+  },
+  "2010-84": {
+    "concept": "Refração em um meio de índice negativo",
+    "steps": [
+      "Para índices positivos usuais, os segmentos incidente e refratado ficam em lados opostos da normal quando desenhados a partir do ponto de incidência. Um índice relativo negativo produz uma refração com orientação diferente da habitual.",
+      "Na figura D, a superfície de separação é vertical e sua normal é horizontal. O segmento incidente vem de baixo à esquerda e o refratado segue para baixo à direita: ambos ficam do mesmo lado da normal. Essa é a representação da refração negativa solicitada."
+    ],
+    "takeaway": "Identifique primeiro a normal à interface para comparar refração usual e refração negativa."
+  },
+  "2023-135": {
+    "concept": "Ecos e tempo de percurso",
+    "steps": [
+      "Os dois ecos percorrem o mesmo trecho rochoso. O segundo percorre adicionalmente a camada líquida na ida e na volta, cobrindo 2 × 450 = 900 m dentro do líquido.",
+      "O tempo exclusivo desse percurso adicional é Δt = 1,1 − 0,5 = 0,6 s. Portanto, v = 900/0,6 = 1 500 m/s, alternativa D. Usar apenas 450 m esqueceria o retorno do pulso."
+    ],
+    "takeaway": "Em problemas de eco, conte os percursos de ida e volta; a diferença entre ecos pode isolar uma camada."
+  },
+  "2020-130": {
+    "concept": "Dispersão e radiação infravermelha",
+    "steps": [
+      "O prisma separa as faixas do espectro solar. No desenho, a luz vermelha chega ao lado esquerdo do espectro visível, enquanto o violeta chega ao lado direito.",
+      "O recipiente A fica além da borda vermelha, na região em que incide o infravermelho. Nas condições do experimento descrito, essa radiação produz o maior aquecimento, por isso a resposta é o recipiente A, alternativa A. A radiação não precisa ser visível para transportar energia."
+    ],
+    "takeaway": "O infravermelho fica além do vermelho no espectro e pode aquecer materiais mesmo sendo invisível."
+  },
+  "2018-91": {
+    "concept": "Isomerização fotoquímica",
+    "excludeReason": "Questão de Química sobre isomeria cis-trans do azobenzeno, classificada como Física apenas por mencionar luz e comprimentos de onda."
+  },
+  "2018-120": {
+    "concept": "Interferência destrutiva de ondas sonoras",
+    "steps": [
+      "Inverter a polaridade de uma das caixas inverte o sentido de seu movimento para o mesmo sinal elétrico: quando um cone avança, o outro recua. As ondas mantêm a mesma frequência, mas ficam em oposição de fase.",
+      "Em pontos equidistantes das duas caixas, os tempos de percurso são iguais e essa oposição de fase se mantém na chegada. Compressões de uma onda coincidem com rarefações da outra, reduzindo o som por interferência destrutiva. Isso corresponde à alternativa E."
+    ],
+    "takeaway": "Ondas de mesma frequência em oposição de fase podem se cancelar quando chegam com amplitudes iguais."
+  },
+  "2018-129": {
+    "concept": "Percepção de cores e resposta dos fotorreceptores",
+    "steps": [
+      "Segundo os valores apresentados, as luzes de 530 nm e 600 nm ativam o pigmento vermelho em aproximadamente 75%, enquanto o pigmento azul não fornece uma diferença relevante entre esses estímulos. A distinção indicada no enunciado depende da resposta do pigmento verde.",
+      "Sem o pigmento verde funcional, e usando a mesma intensidade luminosa, os dois estímulos produzem a mesma resposta dos pigmentos restantes no modelo da questão. O indivíduo não distingue esses comprimentos de onda, alternativa E; isso não significa deixar de detectar a luz."
+    ],
+    "takeaway": "A percepção de cor depende da combinação de respostas dos cones, não de um único receptor para cada cor."
+  },
+  "2017-101": {
+    "concept": "Espectro de emissão e iluminação eficiente",
+    "steps": [
+      "Para iluminar bem, interessa emitir na região em que o olho é sensível. Energia emitida fora do visível não contribui diretamente para a iluminação, e uma grande emissão infravermelha favorece o aquecimento por radiação.",
+      "Nos gráficos, o LED concentra sua emissão no visível e apresenta pouca emissão no infravermelho. Ele atende melhor ao objetivo proposto, alternativa E. A comparação indica menor aquecimento associado ao espectro; não significa que uma lâmpada real produza calor absolutamente nulo."
+    ],
+    "takeaway": "Compare a emissão da lâmpada com a sensibilidade do olho e com a parcela de energia fora do visível."
+  },
+  "2017-112": {
+    "concept": "Interferência sonora no trombone de Quincke",
+    "steps": [
+      "No desenho, o ramo esquerdo mede 40 cm a partir do eixo central e o direito, 30 cm. Como cada caminho tem ida e volta horizontal, a diferença total de percurso é ΔL = 2 × (40 − 30) = 20 cm = 0,20 m; as curvas iguais se cancelam na comparação.",
+      "Partindo de caminhos iguais, o primeiro mínimo de intensidade ocorre quando ΔL = λ/2. Assim, λ = 0,40 m e f = v/λ = 320/0,40 = 800 Hz, alternativa C."
+    ],
+    "takeaway": "Para fontes inicialmente em fase, a primeira interferência destrutiva ocorre com diferença de percurso de meio comprimento de onda."
+  },
+  "2015-75": {
+    "concept": "Refração atmosférica e miragens",
+    "steps": [
+      "Camadas de ar a temperaturas diferentes apresentam densidades e índices de refração diferentes. Ao atravessar essas camadas, a luz muda de direção; em uma variação contínua do índice, seu trajeto pode se curvar.",
+      "O observador interpreta a direção de chegada da luz como se o percurso fosse retilíneo, percebendo uma imagem aparente em outra posição. Esse mecanismo de miragem decorre da refração, alternativa B."
+    ],
+    "takeaway": "Miragens surgem quando variações do índice de refração atmosférico desviam o caminho da luz."
+  },
+  "2015-86": {
+    "concept": "Timbre e composição harmônica",
+    "steps": [
+      "Emitir a mesma nota significa ter a mesma frequência fundamental, portanto a mesma altura musical. Isso não obriga a flauta e o piano a produzirem ondas com o mesmo formato.",
+      "Cada instrumento combina harmônicos e características de ataque e decaimento de maneira própria. Essa composição caracteriza o timbre, que permite reconhecer os instrumentos mesmo na mesma nota. A alternativa D descreve essa diferença."
+    ],
+    "takeaway": "Altura distingue grave de agudo; timbre distingue fontes sonoras que tocam a mesma nota."
+  },
+  "2014-68": {
+    "concept": "Lei de Snell e índice de refração",
+    "steps": [
+      "A razão fornecida é sen i/sen r. Com o ângulo incidente i fixo, elevar essa razão de 1,4 para 1,9 exige diminuir sen r, pois sen r = sen i/razão.",
+      "Para ângulos entre 0° e 90°, diminuir o seno significa diminuir o ângulo refratado r, medido em relação à normal. O raio se aproxima da normal à superfície, alternativa E."
+    ],
+    "takeaway": "Com incidência fixa a partir do ar, um índice maior implica menor ângulo refratado com a normal."
+  },
+  "2009-31": {
+    "concept": "Intensidade e propagação de ondas eletromagnéticas",
+    "steps": [
+      "A questão iguala as condições de intensidade de transmissão e de recepção e pede uma comparação idealizada de cobertura. Nesse modelo, o espalhamento geométrico faz a intensidade diminuir com a distância da mesma forma: I é proporcional a 1/r² para emissão esférica.",
+      "A frequência diferente muda o comprimento de onda, mas não altera esse decaimento geométrico assumido. Assim, sob as condições expressas, qualquer tecnologia pode ser escolhida, alternativa E. A resposta depende dessa simplificação e não compara todos os fatores de uma rede real."
+    ],
+    "takeaway": "Resolva a comparação com as hipóteses do enunciado: espalhamento geométrico e frequência são características distintas."
+  },
+  "2009-37": {
+    "concept": "Luz refletida e visão sem discriminação de cores",
+    "steps": [
+      "Um objeto branco reflete as componentes luminosas que recebe. Sob iluminação apenas vermelha, ele reflete luz vermelha; o branco do objeto não é uma segunda luz que se mistura à iluminação.",
+      "No indivíduo descrito, a informação dos cones não é captada. Restam os bastonetes, que informam luminosidade sem distinguir a cor. O objeto é percebido em escala de cinza, alternativa D."
+    ],
+    "takeaway": "A luz disponível, a reflexão do objeto e os receptores ativos participam da percepção visual."
+  },
+  "2023-111": {
+    "concept": "Atenuação e amplitude de uma onda",
+    "steps": [
+      "As vibrações perdem energia ao percorrer o barbante devido aos processos de dissipação. Um comprimento maior aumenta o trajeto ao longo do qual essas perdas ocorrem, reduzindo a intensidade do sinal que chega à outra lata.",
+      "A perda de energia se manifesta na diminuição da amplitude da vibração, alternativa C. Mantidas a fonte e as propriedades do barbante, não é necessário mudar a frequência, o período ou a velocidade para explicar o som mais fraco."
+    ],
+    "takeaway": "Atenuação reduz a amplitude e a intensidade de uma onda ao longo de sua propagação."
+  },
+  "2023-125": {
+    "concept": "Herança cromossômica",
+    "excludeReason": "Questão de Biologia sobre trissomia do cromossomo 21 e formação de zigotos; não avalia um conceito de Física."
+  },
+  "2022-130": {
+    "concept": "Intensidade luminosa e detecção de fótons",
+    "steps": [
+      "O enunciado relaciona a intensidade luminosa à quantidade de fótons incidentes. Em um ambiente mal iluminado, chegam menos fótons aos receptores visuais.",
+      "Bastonetes mais sensíveis conseguem responder a uma quantidade menor de fótons, permitindo enxergar em menor luminosidade. Isso corresponde à alternativa C. Essa sensibilidade não amplia, por si só, a faixa de cores percebidas."
+    ],
+    "takeaway": "Maior sensibilidade à luz permite detectar sinais de menor intensidade."
+  },
+  "2022-134": {
+    "concept": "Tempos de chegada em meios diferentes",
+    "steps": [
+      "Os mesmos pontos do sinal aparecem 12 s mais tarde no detector B que no A: por exemplo, o padrão próximo de 220 s em A reaparece próximo de 232 s em B. Esse atraso ocorre porque o som se propaga mais devagar no ar.",
+      "Os tempos de viagem são t_ar = L/340 e t_água = L/1 540. Subtraindo: 12 = L × (1/340 − 1/1 540). Logo, L = 12 × 340 × 1 540/(1 540 − 340) = 5 236 m, aproximadamente 5 240 m, alternativa D."
+    ],
+    "takeaway": "Compare o mesmo ponto da onda nos dois gráficos e use a diferença dos tempos de viagem."
+  },
+  "2021-92": {
+    "concept": "Frequência de vibração e velocidade do som",
+    "steps": [
+      "Para barras do mesmo material e espessura, a barra mais curta vibra com frequência fundamental maior, produzindo um som mais agudo. Portanto, f₁ > f₂.",
+      "Depois de emitidos, os dois sons se propagam pelo mesmo ar nas mesmas condições. A velocidade depende desse meio e não de qual barra emitiu o som, portanto v₁ = v₂. A combinação correta é a alternativa D."
+    ],
+    "takeaway": "A fonte determina a frequência; o meio de propagação determina a velocidade do som."
+  },
+  "2020-114": {
+    "concept": "Ressonâncias consecutivas em tubo fechado",
+    "steps": [
+      "Uma cavidade aberta no topo e fechada no fundo admite frequências fₙ = (2n − 1)v/(4L). Duas ressonâncias consecutivas diferem em Δf = v/(2L), mesmo quando a menor frequência medida não é a fundamental.",
+      "Se L = 30 m e v = 360 m/s, então Δf = 360/(2 × 30) = 6 Hz. A ressonância seguinte à medida de 135 Hz será 135 + 6 = 141 Hz, alternativa C."
+    ],
+    "takeaway": "Em um tubo fechado em uma extremidade, o espaçamento entre ressonâncias consecutivas é v/(2L)."
+  },
+  "2019-105": {
+    "concept": "Emissão de fótons em transições eletrônicas",
+    "steps": [
+      "A chama fornece energia que pode excitar elétrons dos átomos ou íons. Quando um elétron retorna a um estado de menor energia, a diferença entre os níveis pode ser emitida na forma de um fóton: ΔE = hf.",
+      "As diferenças de energia características de cada espécie produzem frequências e cores características. A alternativa D descreve a transição para um nível mais interno e menos energético; a promoção para um nível mais energético exige absorção, não explica a luz emitida."
+    ],
+    "takeaway": "Uma transição eletrônica para menor energia pode emitir um fóton com energia igual à diferença entre os níveis."
+  },
+  "2018-97": {
+    "concept": "Indução eletromagnética em uma bobina",
+    "steps": [
+      "O leitor produz um campo de radiofrequência variável. A componente magnética faz variar o fluxo magnético através das espiras da bobina da etiqueta.",
+      "Pela lei de Faraday, a variação do fluxo induz uma tensão e, no circuito fechado, uma corrente. Essa energia recebida do leitor alimenta a etiqueta sem pilhas. A alternativa C identifica o campo magnético e a corrente induzida na bobina."
+    ],
+    "takeaway": "Uma bobina pode receber energia por indução quando o fluxo magnético através dela varia."
+  },
+  "2018-103": {
+    "concept": "Frequência de encontros periódicos",
+    "steps": [
+      "Cada faixa produz uma nova vibração ao ser atingida. O intervalo entre vibrações é o tempo para o carro percorrer a distância entre faixas: T = d/v.",
+      "Convertendo as unidades, v = 108/3,6 = 30 m/s e d = 8 cm = 0,08 m. Portanto, f = 1/T = v/d = 30/0,08 = 375 Hz, alternativa C. A velocidade usada é a do automóvel, não a do som no ar."
+    ],
+    "takeaway": "A frequência de eventos repetidos ao longo de um trajeto é a velocidade dividida pelo espaçamento."
+  },
+  "2017-103": {
+    "concept": "Atenuação de sinais em fibra óptica",
+    "steps": [
+      "Para maximizar a distância, o sinal deve começar no maior nível permitido, 100 dB, e pode perder até chegar a 10 dB. A perda total disponível é 100 − 10 = 90 dB.",
+      "No gráfico, a menor perda por distância é 1 dB/km, próxima de 1,5 µm. Usando essa faixa, a distância máxima é 90 dB ÷ (1 dB/km) = 90 km, alternativa D. Escolher outra faixa com atenuação maior reduziria o alcance."
+    ],
+    "takeaway": "O alcance máximo resulta da perda total tolerada dividida pela menor atenuação por quilômetro."
+  },
+  "2016-89": {
+    "concept": "Taxa média de aquecimento e leitura de gráficos",
+    "steps": [
+      "A taxa média de aquecimento é ΔT/Δt. Como o intervalo de 0 a 40 s é o mesmo para todos os solventes, basta identificar a curva com a menor variação de temperatura.",
+      "A curva do n-hexano fica quase horizontal, próxima de 30 °C, enquanto as demais sobem bastante. Sua fórmula é CH₃CH₂CH₂CH₂CH₂CH₃, apresentada na alternativa E; portanto, ele tem a taxa média mais próxima de zero."
+    ],
+    "takeaway": "Em um gráfico de temperatura por tempo, uma curva quase horizontal indica aquecimento muito pequeno."
+  },
+  "2015-53": {
+    "concept": "Interferência em película fina",
+    "excludeReason": "O registro local contém somente o desenho de uma película de óleo e a pergunta sobre sua espessura mínima. Faltam o enunciado que define a condição de interferência e as hipóteses ópticas necessárias para justificar univocamente λ/4."
+  },
+  "2014-87": {
+    "concept": "Frequência e altura musical",
+    "steps": [
+      "Notas musicais diferentes correspondem a frequências fundamentais diferentes. A frequência é o número de oscilações por segundo e determina a altura: frequências maiores são percebidas como sons mais agudos.",
+      "O ouvido absoluto descrito permite reconhecer a nota a partir dessa característica. Logo, a propriedade procurada é a frequência, alternativa A. Aumentar o volume altera a intensidade, mas não transforma a nota em outra."
+    ],
+    "takeaway": "A frequência fundamental identifica a altura de uma nota musical."
+  },
+  "2013-52": {
+    "concept": "Interferência em canais de radiofrequência",
+    "steps": [
+      "Um receptor de rádio seleciona sinais em uma faixa de frequências. Uma emissão indesejada próxima dessa faixa pode entrar na recepção e dificultar a identificação do sinal de comunicação.",
+      "Por isso, no cenário proposto pelo enunciado, o risco de interferência decorre de frequências próximas, alternativa E. Não é necessário que os sinais tenham amplitudes iguais ou fases exatamente opostas; as ondas de rádio também não são ondas sonoras audíveis."
+    ],
+    "takeaway": "Emissões em frequências próximas podem disputar a mesma faixa de recepção e prejudicar uma comunicação."
+  },
+  "2013-65": {
+    "concept": "Velocidade, comprimento de onda e frequência",
+    "steps": [
+      "Um ciclo espacial da ola ocupa 16 espaçamentos de 0,80 m, então seu comprimento de onda é λ = 16 × 0,80 = 12,8 m. A velocidade de propagação é 45 km/h ÷ 3,6 = 12,5 m/s.",
+      "Aplicando v = λf, obtemos f = 12,5/12,8 ≈ 0,98 Hz. O valor mais próximo é 1,0 Hz, alternativa C. Cada pessoa oscila em torno de sua posição enquanto a perturbação avança pela arquibancada."
+    ],
+    "takeaway": "Use v = λf com velocidade e comprimento de onda em unidades compatíveis."
+  },
+  "2012-61": {
+    "concept": "Eficiência luminosa",
+    "steps": [
+      "A eficiência definida no enunciado é o fluxo luminoso dividido pela potência. Para a incandescente: 600/40 = 15 lm/W. Para a fluorescente: 3 000/40 = 75 lm/W, cinco vezes mais.",
+      "Pela proporcionalidade informada, uma fluorescente de 8 W emite 8 × 75 = 600 lm, o mesmo fluxo da incandescente de 40 W, consumindo menos potência. Portanto, a incandescente é menos eficiente, como afirma a alternativa C."
+    ],
+    "takeaway": "Compare eficiência por lúmens por watt, e não apenas por potência ou brilho isoladamente."
+  },
+  "2011-67": {
+    "concept": "Assinatura espectral e reflectância",
+    "steps": [
+      "Para distinguir os materiais pela luz refletida, interessa uma faixa em que suas reflectâncias sejam bem diferentes. Quando duas curvas se cruzam ou ficam próximas, os alvos podem produzir respostas parecidas no sensor.",
+      "Entre 0,8 e 0,9 µm, a grama apresenta a maior reflectância, seguida por concreto, solo arenoso, asfalto e água, com separação clara entre as curvas. Essa faixa permite a melhor discriminação entre as alternativas, portanto a resposta é E."
+    ],
+    "takeaway": "Uma boa faixa para identificar materiais maximiza as diferenças entre suas respostas espectrais."
+  },
+  "2010-88": {
+    "concept": "Ritmo circadiano",
+    "excludeReason": "Questão de Biologia sobre regulação do ciclo sono-vigília pela luz; não avalia propagação, energia ou outra propriedade física da radiação."
+  },
+  "2009-28": {
+    "concept": "Sucessão ecológica e reflorestamento",
+    "excludeReason": "Questão de Biologia sobre escolha de espécies pioneiras e sucessão ecológica, classificada como Física por referências à luminosidade."
+  },
+  "2009-32": {
+    "concept": "Absorção de raios X e contraste radiográfico",
+    "steps": [
+      "A radiografia registra diferenças na quantidade de raios X que atravessa cada região. Os ossos, ricos em cálcio, atenuam mais a radiação que os tecidos moles, criando o contraste que permite reconhecer a coluna na imagem.",
+      "A alternativa B expressa essa maior absorção associada ao cálcio. Ionizar um átomo significa remover elétrons, não transformar cálcio em fósforo; a diferença de contraste também não é explicada principalmente pela refração."
+    ],
+    "takeaway": "Imagens radiográficas dependem da absorção diferente dos raios X pelos materiais atravessados."
+  }
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -102,7 +102,17 @@ function classify(question) {
 }
 
 const snapshot = JSON.parse(await readFile(sourcePath, "utf8"));
-const classified = snapshot.questions
+const learningDir = path.join(root, "data", "learning");
+const introductions = JSON.parse(await readFile(path.join(learningDir, "introductions.json"), "utf8"));
+const explanations = {};
+for (const file of (await readdir(learningDir)).filter((name) => /^explanations-.*\.json$/.test(name)).sort()) {
+  const entries = JSON.parse(await readFile(path.join(learningDir, file), "utf8"));
+  for (const [id, entry] of Object.entries(entries)) {
+    if (explanations[id]) throw new Error(`Explicação duplicada: ${id}`);
+    explanations[id] = entry;
+  }
+}
+const candidates = snapshot.questions
   .map((question) => ({ question, classification: classify(question) }))
   .filter((entry) => entry.classification?.score >= 2)
   .map(({ question, classification }) => ({
@@ -137,26 +147,50 @@ const classified = snapshot.questions
   }))
   .sort((a, b) => b.confidence - a.confidence || b.year - a.year);
 
+const excluded = [];
+const classified = [];
+for (const question of candidates) {
+  const explanation = explanations[question.id];
+  if (!explanation || explanation.excludeReason) {
+    excluded.push({ id: question.id, reason: explanation?.excludeReason || "Aguardando resolução comentada e revisão editorial." });
+    continue;
+  }
+  if (!explanation.concept || explanation.steps?.length < 2 || !explanation.takeaway) {
+    throw new Error(`Resolução incompleta: ${question.id}`);
+  }
+  const module = modules.find((item) => item.id === (explanation.moduleId || question.moduleId));
+  if (!module) throw new Error(`Unidade inválida: ${question.id}`);
+  classified.push({ ...question, moduleId: module.id, moduleTitle: module.title, moduleEmoji: module.emoji,
+    explanation: { concept: explanation.concept, steps: explanation.steps, takeaway: explanation.takeaway } });
+}
+for (const module of modules) {
+  if (!introductions[module.id]) throw new Error(`Introdução ausente: ${module.id}`);
+  module.introduction = introductions[module.id];
+  if (!classified.some((question) => question.moduleId === module.id)) throw new Error(`Unidade sem questões revisadas: ${module.id}`);
+}
+
 const payload = {
   source: snapshot.source,
   generatedAt: new Date().toISOString(),
-  method: "Índice heurístico auditável por termos de Física; preserve o snapshot integral para reclassificação.",
+  method: "Seleção por termos de Física com revisão editorial e resoluções próprias; o acervo bruto permanece integral.",
+  explanationSource: "Resoluções didáticas elaboradas para o Fisio; não são comentários oficiais do INEP nem da API enem.dev.",
   total: classified.length,
   modules,
   questions: classified,
 };
 
-await rm(targetAssets, { recursive: true, force: true });
 for (const question of classified) {
   const from = path.join(sourceAssets, String(question.year), "questions", String(question.index));
   const to = path.join(targetAssets, String(question.year), String(question.index));
   await mkdir(to, { recursive: true });
   for (const entry of await readdir(from, { withFileTypes: true })) {
     if (!entry.isFile() || entry.name === "details.json") continue;
+    if (!JSON.stringify(question).includes(`/assets/questions/${question.year}/${question.index}/${entry.name}`)) continue;
     await cp(path.join(from, entry.name), path.join(to, entry.name));
   }
 }
 
 await writeFile(targetPath, `${JSON.stringify(payload)}\n`);
+await writeFile(path.join(learningDir, "review-report.json"), `${JSON.stringify({ candidates: candidates.length, published: classified.length, excluded }, null, 2)}\n`);
 process.stdout.write(`Índice de Física: ${classified.length} questões.\n`);
 

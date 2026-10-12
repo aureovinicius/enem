@@ -1,0 +1,118 @@
+{
+  "candidates": 148,
+  "published": 120,
+  "excluded": [
+    {
+      "id": "2019-121",
+      "reason": "O enunciado importado omite a fração da altura da haste medida no ponto mais baixo ('obtendo da altura'). Sem esse dado não é possível calcular a variação da altura do centro de massa nem justificar numericamente o gabarito."
+    },
+    {
+      "id": "2023-114",
+      "reason": "As alternativas A e C importadas são idênticas. Ambas apresentam os valores fisicamente corretos: atrito máximo de 400 N, T2 = 200 N na aceleração e T1 = 600 N na frenagem. O aplicativo marcaria uma resposta correta como errada."
+    },
+    {
+      "id": "2016-84",
+      "reason": "O snapshot não contém o contexto da experiência: faltam o material colocado nas bandejas e as condições iniciais. As alternativas isoladas não constituem um enunciado resolúvel."
+    },
+    {
+      "id": "2021-107",
+      "reason": "O texto anuncia um quadro de desempenho das versões a álcool e gasolina, mas esse quadro não foi importado e não há imagem associada. Faltam os dados necessários para comparar as taxas de variação de energia cinética."
+    },
+    {
+      "id": "2013-46",
+      "reason": "Questão de eletroquímica sobre oxirredução de polímeros e transporte de íons, classificada em Termologia por palavras das alternativas. Não pertence à unidade de Física térmica."
+    },
+    {
+      "id": "2009-27",
+      "reason": "O contexto importado contém apenas uma fotografia. A fala do astronauta e o texto que a pergunta solicita analisar estão ausentes."
+    },
+    {
+      "id": "2022-107",
+      "reason": "Questão de Química sobre catálise da hidrólise de polissacarídeos, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2021-105",
+      "reason": "O gabarito importado aponta A, cuja imagem mostra as duas forças no mesmo sentido. Para cargas de sinais opostos com a mesma velocidade, F = q(v × B) exige sentidos opostos. Além disso, foram importadas apenas quatro alternativas. É necessário restaurar e conferir as alternativas originais."
+    },
+    {
+      "id": "2018-91",
+      "reason": "Questão de Química sobre isomeria cis-trans do azobenzeno, classificada como Física apenas por mencionar luz e comprimentos de onda."
+    },
+    {
+      "id": "2016-47",
+      "reason": "Gabarito inconsistente com os dados: P teórica = 1 000 × 690 × 10 × 118,4 = 816,96 MW por unidade; P instalada = 14 000/20 = 700 MW; perda = 116,96 MW, alternativa B. A base marca C (816,96 MW) e contém só quatro alternativas."
+    },
+    {
+      "id": "2011-46",
+      "reason": "A importação preservou somente a figura da engrenagem e omitiu o texto que explica o funcionamento do dispositivo e a origem do movimento aleatório. A necessidade da trava não pode ser avaliada com o contexto apresentado."
+    },
+    {
+      "id": "2009-11",
+      "reason": "O item pede identificar o sistema do corpo humano responsável pela sudorese. É uma questão de Fisiologia/Biologia, apesar da referência à evaporação e à temperatura."
+    },
+    {
+      "id": "2023-95",
+      "reason": "Questão de Biologia sobre músculos vermelhos e metabolismo das aves, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2023-104",
+      "reason": "Questão de Química sobre dissolução de alumínio e deslocamento de equilíbrio, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2023-125",
+      "reason": "Questão de Biologia sobre trissomia do cromossomo 21 e formação de zigotos; não avalia um conceito de Física."
+    },
+    {
+      "id": "2021-135",
+      "reason": "O item avalia a identificação de ligações duplas conjugadas em estruturas orgânicas. Trata-se de Química, classificada em Eletricidade pela menção às aplicações de polímeros condutores."
+    },
+    {
+      "id": "2018-108",
+      "reason": "O texto anuncia uma equação para a tensão em função da corrente, mas essa equação está ausente do snapshot. A curva isolada não especifica de forma exata a função necessária para construir o gráfico da resistência."
+    },
+    {
+      "id": "2015-53",
+      "reason": "O registro local contém somente o desenho de uma película de óleo e a pergunta sobre sua espessura mínima. Faltam o enunciado que define a condição de interferência e as hipóteses ópticas necessárias para justificar univocamente λ/4."
+    },
+    {
+      "id": "2012-70",
+      "reason": "Questão de Química sobre ação de tensoativos na solubilização de hidrocarbonetos. Foi classificada em Termologia por menções incidentais a temperatura e energia térmica."
+    },
+    {
+      "id": "2012-90",
+      "reason": "Questão de Química sobre conversão de massa de aspartame em mol, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2011-55",
+      "reason": "Questão de Química sobre hidrofilia e solubilidade em óleo de mamona, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2011-73",
+      "reason": "O contexto contém apenas o desenho de um objeto parcialmente imerso preso a um dinamômetro. Faltam os valores de força, massa e volume necessários para determinar numericamente a densidade do lago."
+    },
+    {
+      "id": "2011-80",
+      "reason": "Questão de impacto ambiental e ciclo do carbono, sem conteúdo de Mecânica; a classificação automática foi acionada pelo vocabulário de geração de energia."
+    },
+    {
+      "id": "2010-67",
+      "reason": "Questão de termoquímica sobre armazenamento de energia em uma reação química reversível, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2010-79",
+      "reason": "Questão de Química sobre balanceamento da combustão do octano, classificada indevidamente como Mecânica."
+    },
+    {
+      "id": "2010-88",
+      "reason": "Questão de Biologia sobre regulação do ciclo sono-vigília pela luz; não avalia propagação, energia ou outra propriedade física da radiação."
+    },
+    {
+      "id": "2009-22",
+      "reason": "A pergunta avalia efeitos colaterais e vias de administração de medicamentos com base no texto. A referência à eletricidade contextualiza uma questão de Biologia, sem avaliar um conceito físico na escolha da resposta."
+    },
+    {
+      "id": "2009-28",
+      "reason": "Questão de Biologia sobre escolha de espécies pioneiras e sucessão ecológica, classificada como Física por referências à luminosidade."
+    }
+  ]
+}
