@@ -29,7 +29,7 @@
           {
             "title": "Ler sinais de degradação",
             "text": "Esgoto rico em matéria orgânica aumenta a atividade de decompositores e a demanda bioquímica de oxigênio. A queda do oxigênio dissolvido prejudica organismos aquáticos. Contaminantes persistentes também podem alcançar concentrações elevadas nos níveis tróficos superiores.",
-            "formula": "Mais matéria orgânica → maior DBO → consumo de O₂",
+            "formula": "Mais matéria orgânica → maior DBO → consumo de \\(\\mathrm{O_2}\\)",
             "notation": "DBO é a demanda bioquímica de oxigênio; OD é o oxigênio dissolvido disponível na água."
           }
         ],
@@ -69,7 +69,7 @@
           {
             "title": "ATP liga a obtenção ao uso de energia",
             "text": "Na respiração aeróbia, a cadeia transportadora de elétrons contribui para formar um gradiente de prótons na mitocôndria. O retorno desses prótons pela ATP sintase permite produzir ATP. Na fotossíntese, a energia luminosa sustenta a produção de matéria orgânica e a liberação de oxigênio.",
-            "formula": "Gradiente de H⁺ → ATP sintase → ATP",
+            "formula": "Gradiente de \\(\\mathrm{H^+}\\) → ATP sintase → ATP",
             "notation": "ATP é um intermediário usado para acoplar a liberação e o consumo de energia nos processos celulares."
           }
         ],
@@ -102,9 +102,9 @@
           },
           {
             "title": "Herança e probabilidade",
-            "text": "Em um modelo autossômico recessivo, heterozigotos podem portar um alelo associado a uma doença sem manifestá-la. Dois heterozigotos podem gerar descendentes AA, Aa ou aa. As probabilidades se aplicam a cada gestação, não garantem uma distribuição exata em uma família.",
-            "formula": "Aa × Aa → ¼ AA + ½ Aa + ¼ aa",
-            "notation": "A é o alelo dominante e a o recessivo, neste modelo de um único gene."
+            "text": "Em um modelo autossômico recessivo, heterozigotos podem portar um alelo associado a uma doença sem manifestá-la. Dois heterozigotos podem gerar descendentes \\(AA\\), \\(Aa\\) ou \\(aa\\). As probabilidades se aplicam a cada gestação, não garantem uma distribuição exata em uma família.",
+            "formula": "\\[Aa \\times Aa \\rightarrow \\tfrac{1}{4}AA + \\tfrac{1}{2}Aa + \\tfrac{1}{4}aa\\]",
+            "notation": "\\(A\\) é o alelo dominante e \\(a\\) é o recessivo, neste modelo de um único gene."
           },
           {
             "title": "Técnicas respondem a perguntas diferentes",
@@ -354,7 +354,7 @@
       "explanation": {
         "concept": "Temperatura e atividade enzimática",
         "steps": [
-          "Os ensaios variam somente a temperatura. A tabela mostra atividade máxima entre os valores medidos a 15 °C, de 10,5 × 10⁻¹² mol/min, e queda da atividade em temperaturas superiores, chegando a 3,1 × 10⁻¹² mol/min a 35 °C.",
+          "Os ensaios variam somente a temperatura. A tabela mostra atividade máxima entre os valores medidos a 15 °C, de \\(10{,}5 \\times 10^{-12}\\,\\mathrm{mol/min}\\), e queda da atividade em temperaturas superiores, chegando a \\(3{,}1 \\times 10^{-12}\\,\\mathrm{mol/min}\\) a 35 °C.",
           "A temperatura pode modificar a estrutura tridimensional da catalase e prejudicar o encaixe e a ação sobre o substrato. Assim, a alternativa E explica a diferença de atividade. Não há indicação de mudança de pH nem de consumo da enzima."
         ],
         "takeaway": "A atividade de uma enzima depende de sua estrutura e das condições do meio, não apenas da quantidade de substrato."
@@ -382,7 +382,7 @@
       "explanation": {
         "concept": "Desacoplamento da fosforilação oxidativa",
         "steps": [
-          "Na mitocôndria, a cadeia respiratória estabelece um gradiente de prótons. O retorno de H⁺ pela ATP sintase normalmente fornece a energia para produzir ATP na fosforilação oxidativa.",
+          "Na mitocôndria, a cadeia respiratória estabelece um gradiente de prótons. O retorno de \\(\\mathrm{H^+}\\) pela ATP sintase normalmente fornece a energia para produzir ATP na fosforilação oxidativa.",
           "A termogenina permite dissipar esse gradiente por outra via, reduzindo o acoplamento à síntese de ATP e liberando energia como calor. A etapa afetada é, portanto, a fosforilação oxidativa, alternativa E."
         ],
         "takeaway": "O gradiente de prótons pode ser usado para produzir ATP ou dissipado com produção de calor."
@@ -396,7 +396,7 @@
       "explanation": {
         "concept": "Bloqueio do transporte de elétrons",
         "steps": [
-          "O NADH é oxidado a NAD⁺ quando fornece elétrons para a cadeia respiratória. O funcionamento contínuo da cadeia depende da transferência final desses elétrons ao oxigênio.",
+          "O NADH é oxidado a \\(\\mathrm{NAD^+}\\) quando fornece elétrons para a cadeia respiratória. O funcionamento contínuo da cadeia depende da transferência final desses elétrons ao oxigênio.",
           "Ao bloquear a citocromo c oxidase, o cianeto impede o escoamento dos elétrons e dificulta a oxidação de NADH. Com menor consumo dessa forma reduzida, sua concentração aumenta. A alternativa C é correta; a produção de ATP pela cadeia, ao contrário, diminui."
         ],
         "takeaway": "Bloquear uma etapa pode provocar acúmulo de moléculas que seriam consumidas nas etapas anteriores."
@@ -452,9 +452,9 @@
       "explanation": {
         "concept": "Equilíbrio genético no sistema ABO",
         "steps": [
-          "Em equilíbrio genético, o grupo O tem frequência r² = 0,25, então r = 0,5. Os indivíduos A homozigotos têm p² = 0,16, então p = 0,4. Como p + q + r = 1, q = 0,1.",
-          "A frequência do grupo B é q² + 2qr = 0,01 + 2 × 0,1 × 0,5 = 0,11, ou 11%. Na compatibilidade de hemácias considerando apenas ABO, uma pessoa B pode receber dos grupos B e O.",
-          "Somando 11% de B aos 25% de O, obtêm-se 36% de doadores compatíveis no modelo da questão: alternativa D."
+          "Em equilíbrio genético, o grupo O tem frequência \\(r^2 = 0{,}25\\), então \\(r = 0{,}5\\). Os indivíduos A homozigotos têm \\(p^2 = 0{,}16\\), então \\(p = 0{,}4\\). Como \\(p + q + r = 1\\), \\(q = 0{,}1\\).",
+          "A frequência do grupo B é \\(q^2 + 2qr = 0{,}01 + 2 \\times 0{,}1 \\times 0{,}5 = 0{,}11\\), ou \\(11\\%\\). Na compatibilidade de hemácias considerando apenas ABO, uma pessoa B pode receber dos grupos B e O.",
+          "Somando \\(11\\%\\) de B aos \\(25\\%\\) de O, obtêm-se \\(36\\%\\) de doadores compatíveis no modelo da questão: alternativa D."
         ],
         "takeaway": "Calcule primeiro as frequências dos alelos e depois os fenótipos que atendem à condição pedida."
       }
@@ -495,10 +495,10 @@
       "explanation": {
         "concept": "Herança autossômica recessiva",
         "steps": [
-          "O gene está no cromossomo 10, um autossomo. Pais sem manifestação podem portar o alelo da doença, o que é compatível com indivíduos heterozigotos Aa.",
-          "No cruzamento Aa × Aa, os genótipos esperados são ¼ AA, ½ Aa e ¼ aa. Apenas aa manifesta a condição nesse modelo, explicando a chance de um em quatro. Portanto, a herança é recessiva, alternativa A."
+          "O gene está no cromossomo 10, um autossomo. Pais sem manifestação podem portar o alelo da doença, o que é compatível com indivíduos heterozigotos \\(Aa\\).",
+          "No cruzamento \\(Aa \\times Aa\\), os genótipos esperados são \\(\\tfrac{1}{4}AA\\), \\(\\tfrac{1}{2}Aa\\) e \\(\\tfrac{1}{4}aa\\). Apenas \\(aa\\) manifesta a condição nesse modelo, explicando a chance de um em quatro. Portanto, a herança é recessiva, alternativa A."
         ],
-        "takeaway": "Pais portadores sem manifestação e risco de 25% sugerem herança recessiva de um gene."
+        "takeaway": "Pais portadores sem manifestação e risco de \\(25\\%\\) sugerem herança recessiva de um gene."
       }
     },
     {
@@ -1072,7 +1072,7 @@
         "concept": "A composição de bases influencia a separação das fitas de DNA.",
         "steps": [
           "O enunciado informa duas ligações de hidrogênio por par A–T e três por par G–C. Entre segmentos de mesmo comprimento, aquele com mais pares A–T exige desfazer menos ligações nesse modelo.",
-          "O segmento C possui seis pares A–T e dois pares G–C: 6·2 + 2·3 = 18 ligações de hidrogênio. Os segmentos A, B, D e E têm, respectivamente, 22, 21, 21 e 20.",
+          "O segmento C possui seis pares A–T e dois pares G–C: \\(6 \\cdot 2 + 2 \\cdot 3 = 18\\) ligações de hidrogênio. Os segmentos A, B, D e E têm, respectivamente, 22, 21, 21 e 20.",
           "Logo, C é o segmento que desnatura primeiro durante o aquecimento. A alternativa correta é C."
         ],
         "takeaway": "Compare a proporção de A–T e G–C antes de avaliar a estabilidade dos segmentos de DNA."

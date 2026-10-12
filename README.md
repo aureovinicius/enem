@@ -20,6 +20,12 @@ Química e Biologia receberam mais 50 questões cada (10 por unidade), com resol
 
 Cada tentativa começa com zero erros. Para concluir a lição e liberar a próxima, responda todos os itens com no máximo **3 erros**. O quarto erro encerra a tentativa após a leitura da resolução, sem conceder conclusão nem o bônus de 20 XP. O botão **Reiniciar lição** renova a tentativa imediatamente, sem espera ou limite diário. Respostas, estatísticas e XP por acerto permanecem salvos, assim como lições aprovadas anteriormente. A regra também se aplica às lições curtas, sem alterar sua composição.
 
+## Notação matemática
+
+Variáveis e expressões do conteúdo editorial usam delimitadores explícitos `\(...\)` no texto e `\[...\]` em blocos, com sintaxe TeX. Nos arquivos JSON, escape as barras como `\\(a\\)`. Use frações, expoentes e índices para distinguir as variáveis da prosa; explique o significado de cada quantidade. Esquemas conceituais sem matemática permanecem em texto. Valores monetários com `R$` não são tratados como delimitadores.
+
+O KaTeX 0.19.0 e suas fontes WOFF2 estão em `dist/vendor/katex/`, com licença MIT e registro da integridade do pacote. A renderização gera HTML e MathML para acessibilidade, não aceita HTML arbitrário ou comandos confiáveis do TeX e funciona offline após o primeiro carregamento completo. Expressões longas podem ser roladas horizontalmente em telas pequenas. Os testes validam todas as expressões do catálogo e a presença das fontes no cache offline.
+
 ## Prática e desempenho
 
 O modo prática usa filtros combinados por matéria, assunto, competência, ano, dificuldade TRI, palavra-chave e situação (todas, não respondidas, respondidas, erros pendentes ou favoritas). Inspirado no fluxo de bancos de questões do [Qconcursos](https://www.qconcursos.com/questoes-de-concursos/questoes), permite responder, corrigir, ler a justificativa e seguir para outra questão, sem limite de cinco itens nem limite de erros.

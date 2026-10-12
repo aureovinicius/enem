@@ -12,25 +12,25 @@
   "2022-112": {
     "concept": "Energia e força centrípeta no balanço",
     "steps": [
-      "Quando o balanço sai de 90° em relação à vertical, ele desce uma altura igual ao comprimento L da corda até o ponto mais baixo. Pela conservação de energia, mgL = mv²/2, portanto v² = 2gL.",
-      "No ponto mais baixo, as duas cordas exercem a mesma tensão T. A resultante para cima é centrípeta: 2T − mg = mv²/L = 2mg. Assim, T = 3mg/2 = 3 × 24 × 10/2 = 360 N em cada segmento.",
-      "A resistência de ruptura deve superar essa tensão em 25%: Tr = 1,25 × 360 = 450 N. Por isso, a alternativa D é correta."
+      "Quando o balanço sai de \\(90^\\circ\\) em relação à vertical, ele desce uma altura igual ao comprimento \\(L\\) da corda até o ponto mais baixo. Pela conservação de energia, \\(mgL=\\frac{mv^2}{2}\\), portanto \\(v^2=2gL\\).",
+      "No ponto mais baixo, as duas cordas exercem a mesma tensão \\(T\\). A resultante para cima é centrípeta: \\(2T-mg=\\frac{mv^2}{L}=2mg\\). Assim, \\(T=\\frac{3mg}{2}=\\frac{3\\times24\\times10}{2}=360\\,\\mathrm{N}\\) em cada segmento.",
+      "A resistência de ruptura deve superar essa tensão em 25%: \\(T_r=1{,}25\\times360=450\\,\\mathrm{N}\\). Por isso, a alternativa D é correta."
     ],
     "takeaway": "No ponto mais baixo, a corda sustenta o peso e fornece a força centrípeta; depois se aplica a margem de segurança."
   },
   "2015-64": {
     "concept": "Teorema da energia cinética",
     "steps": [
-      "O trabalho total das forças sobre o corredor é a variação de sua energia cinética: W = Ec final − Ec inicial. Como Bolt parte do repouso, sua energia cinética inicial é zero.",
-      "Com m = 90 kg e v = 12 m/s, W = mv²/2 = 90 × 12²/2 = 6 480 J ≈ 6,5 × 10³ J. Esse é o valor da alternativa B; não é necessário usar o tempo de 3,78 s para calcular o trabalho."
+      "O trabalho total das forças sobre o corredor é a variação de sua energia cinética: \\(W=E_{c,\\text{final}}-E_{c,\\text{inicial}}\\). Como Bolt parte do repouso, sua energia cinética inicial é zero.",
+      "Com \\(m=90\\,\\mathrm{kg}\\) e \\(v=12\\,\\mathrm{m/s}\\), \\(W=\\frac{mv^2}{2}=\\frac{90\\times12^2}{2}=6\\,480\\,\\mathrm{J}\\approx6{,}5\\times10^3\\,\\mathrm{J}\\). Esse é o valor da alternativa B; não é necessário usar o tempo de \\(3{,}78\\,\\mathrm{s}\\) para calcular o trabalho."
     ],
     "takeaway": "Para o trabalho total, compare as energias cinéticas inicial e final."
   },
   "2014-46": {
     "concept": "Período de um pêndulo simples",
     "steps": [
-      "Para pequenas oscilações, o período do pêndulo é T = 2π√(L/g). A contagem de tempo depende de manter esse período constante.",
-      "Como g é considerado constante, é preciso manter o comprimento L da haste constante, como diz a alternativa A. A dilatação térmica da haste modificaria L e faria o relógio adiantar ou atrasar; a massa suspensa não aparece na expressão do período."
+      "Para pequenas oscilações, o período do pêndulo é \\(T=2\\pi\\sqrt{\\frac Lg}\\). A contagem de tempo depende de manter esse período constante.",
+      "Como \\(g\\) é considerado constante, é preciso manter o comprimento \\(L\\) da haste constante, como diz a alternativa A. A dilatação térmica da haste modificaria \\(L\\) e faria o relógio adiantar ou atrasar; a massa suspensa não aparece na expressão do período."
     ],
     "takeaway": "Um pêndulo mais comprido oscila mais lentamente; estabilidade de comprimento garante estabilidade do período."
   },
@@ -42,17 +42,17 @@
   "2019-106": {
     "concept": "Equilíbrio de forças e decomposição vetorial",
     "steps": [
-      "A atleta pesa P = mg = 80 × 10 = 800 N. Por estar no centro, as trações dos dois lados da fita têm o mesmo módulo T, e suas componentes horizontais se cancelam.",
-      "As componentes verticais sustentam a atleta: 2T sen(10°) = 800. Portanto, T = 800/(2 × 0,17) ≈ 2 353 N ≈ 2,4 × 10³ N. A fita transmite essa tração a cada árvore, correspondendo à alternativa D."
+      "A atleta pesa \\(P=mg=80\\times10=800\\,\\mathrm{N}\\). Por estar no centro, as trações dos dois lados da fita têm o mesmo módulo \\(T\\), e suas componentes horizontais se cancelam.",
+      "As componentes verticais sustentam a atleta: \\(2T\\operatorname{sen}(10^\\circ)=800\\). Portanto, \\(T=\\frac{800}{2\\times0{,}17}\\approx2\\,353\\,\\mathrm{N}\\approx2{,}4\\times10^3\\,\\mathrm{N}\\). A fita transmite essa tração a cada árvore, correspondendo à alternativa D."
     ],
     "takeaway": "Quanto mais horizontal a fita, menor a componente vertical de cada tração e maior a força necessária para sustentar a pessoa."
   },
   "2019-111": {
     "concept": "Impulso e quantidade de movimento",
     "steps": [
-      "Durante a queda, v² = 2gh = 2 × 10 × 5, então o tijolo chega ao capacete com v = 10 m/s. Ao parar, seu momento linear varia em módulo mΔv = 2,5 × 10 = 25 kg·m/s.",
-      "No modelo impulsivo adotado pela questão, F média = mΔv/Δt = 25/0,5 = 50 N. O peso de um tijolo é mg = 25 N, de modo que a força impulsiva equivale a 50/25 = 2 pesos: alternativa A.",
-      "Esse cálculo corresponde à força resultante média associada à mudança de momento. Uma força de contato calculada incluindo explicitamente o peso durante os 0,5 s teria outra expressão; a pergunta utiliza a aproximação impulsiva."
+      "Durante a queda, \\(v^2=2gh=2\\times10\\times5\\), então o tijolo chega ao capacete com \\(v=10\\,\\mathrm{m/s}\\). Ao parar, seu momento linear varia em módulo \\(m\\Delta v=2{,}5\\times10=25\\,\\mathrm{kg\\cdot m/s}\\).",
+      "No modelo impulsivo adotado pela questão, \\(F_{\\text{média}}=\\frac{m\\Delta v}{\\Delta t}=\\frac{25}{0{,}5}=50\\,\\mathrm{N}\\). O peso de um tijolo é \\(mg=25\\,\\mathrm{N}\\), de modo que a força impulsiva equivale a \\(\\frac{50}{25}=2\\) pesos: alternativa A.",
+      "Esse cálculo corresponde à força resultante média associada à mudança de momento. Uma força de contato calculada incluindo explicitamente o peso durante os \\(0{,}5\\,\\mathrm{s}\\) teria outra expressão; a pergunta utiliza a aproximação impulsiva."
     ],
     "takeaway": "Para a mesma mudança de momento, aumentar a duração da colisão reduz a força impulsiva média."
   },
@@ -60,8 +60,8 @@
     "moduleId": "eletromagnetismo",
     "concept": "Movimento circular de uma carga no campo magnético",
     "steps": [
-      "A componente da velocidade perpendicular ao campo realiza movimento circular. A força magnética faz o papel de resultante centrípeta: qv⊥B = mv⊥²/r. Assim, a velocidade angular é ω = v⊥/r = qB/m, usando q como módulo da carga.",
-      "Em N voltas o ângulo percorrido é 2πN, e o tempo medido é t. Logo, ω = 2πN/t. Igualando as duas expressões, qB/m = 2πN/t, obtemos m = qBt/(2πN), expressão exibida na alternativa A.",
+      "A componente da velocidade perpendicular ao campo realiza movimento circular. A força magnética faz o papel de resultante centrípeta: \\(qv_\\perp B=\\frac{mv_\\perp^2}{r}\\). Assim, a velocidade angular é \\(\\omega=\\frac{v_\\perp}{r}=\\frac{qB}{m}\\), usando \\(q\\) como módulo da carga.",
+      "Em \\(N\\) voltas o ângulo percorrido é \\(2\\pi N\\), e o tempo medido é \\(t\\). Logo, \\(\\omega=\\frac{2\\pi N}{t}\\). Igualando as duas expressões, \\(\\frac{qB}{m}=\\frac{2\\pi N}{t}\\), obtemos \\(m=\\frac{qBt}{2\\pi N}\\), expressão exibida na alternativa A.",
       "A velocidade paralela ao campo determina o avanço ao longo do eixo da hélice, mas não altera o período das voltas."
     ],
     "takeaway": "O período da órbita magnética depende de massa, carga e campo, não da velocidade inicial."
@@ -70,7 +70,7 @@
     "moduleId": "termologia",
     "concept": "Dilatação térmica e distância entre átomos",
     "steps": [
-      "O gráfico mostra que, conforme a temperatura cresce de T1 até T4, os pontos que representam a distância média entre os átomos se deslocam para a direita. Portanto, a separação média aumenta.",
+      "O gráfico mostra que, conforme a temperatura cresce de \\(T_1\\) até \\(T_4\\), os pontos que representam a distância média entre os átomos se deslocam para a direita. Portanto, a separação média aumenta.",
       "Quando muitas distâncias interatômicas aumentam, as dimensões do sólido também aumentam: ocorre dilatação térmica, alternativa B. Os átomos continuam ligados; o fenômeno representado não exige ionização nem quebra das ligações."
     ],
     "takeaway": "A dilatação de um sólido corresponde ao aumento médio das distâncias entre suas partículas."
@@ -78,24 +78,24 @@
   "2017-99": {
     "concept": "Força de impacto e pico de desaceleração",
     "steps": [
-      "Os bonecos têm a mesma massa, então F = ma: um pico maior de desaceleração corresponde a um pico maior de força sobre o corpo. Como as velocidades inicial e final são iguais em todos os testes, a variação total de momento é a mesma.",
-      "No gráfico, o cinto 2 distribui a desaceleração ao longo do intervalo com o menor valor máximo, cerca de 65 m/s², abaixo dos picos dos demais cintos. Ele reduz o pico de força e oferece o menor risco, por isso a alternativa B é correta."
+      "Os bonecos têm a mesma massa, então \\(F=ma\\): um pico maior de desaceleração corresponde a um pico maior de força sobre o corpo. Como as velocidades inicial e final são iguais em todos os testes, a variação total de momento é a mesma.",
+      "No gráfico, o cinto 2 distribui a desaceleração ao longo do intervalo com o menor valor máximo, cerca de \\(65\\,\\mathrm{m/s^2}\\), abaixo dos picos dos demais cintos. Ele reduz o pico de força e oferece o menor risco, por isso a alternativa B é correta."
     ],
     "takeaway": "Mesmo impulso não significa mesma força máxima; distribuir a desaceleração reduz os picos de força."
   },
   "2013-61": {
     "concept": "Princípio de Pascal",
     "steps": [
-      "A massa total elevada inclui a pessoa, a cadeira e a plataforma: m = 65 + 15 + 20 = 100 kg. Com velocidade constante, a força no pistão deve equilibrar o peso: F maior = 100 × 10 = 1 000 N.",
-      "Pelo princípio de Pascal, F menor/A menor = F maior/A maior. Como A maior = 5A menor, F menor = 1 000/5 = 200 N, alternativa C."
+      "A massa total elevada inclui a pessoa, a cadeira e a plataforma: \\(m=65+15+20=100\\,\\mathrm{kg}\\). Com velocidade constante, a força no pistão deve equilibrar o peso: \\(F_{\\text{maior}}=100\\times10=1\\,000\\,\\mathrm{N}\\).",
+      "Pelo princípio de Pascal, \\(\\frac{F_{\\text{menor}}}{A_{\\text{menor}}}=\\frac{F_{\\text{maior}}}{A_{\\text{maior}}}\\). Como \\(A_{\\text{maior}}=5A_{\\text{menor}}\\), \\(F_{\\text{menor}}=\\frac{1\\,000}{5}=200\\,\\mathrm{N}\\), alternativa C."
     ],
     "takeaway": "Uma área cinco vezes maior multiplica por cinco a força transmitida pela mesma pressão."
   },
   "2011-77": {
     "concept": "Queda livre e aceleração constante",
     "steps": [
-      "Na queda livre, desprezando a resistência do ar, o peso P = mg é constante perto da superfície. Pela segunda lei de Newton, ele produz aceleração constante g, e não velocidade constante.",
-      "Uma régua solta do repouso percorre d = gt²/2. Como a distância depende do quadrado do tempo, ela cresce mais rapidamente que o tempo de reação. A alternativa D identifica corretamente a força constante que produz esse movimento acelerado."
+      "Na queda livre, desprezando a resistência do ar, o peso \\(P=mg\\) é constante perto da superfície. Pela segunda lei de Newton, ele produz aceleração constante \\(g\\), e não velocidade constante.",
+      "Uma régua solta do repouso percorre \\(d=\\frac{gt^2}{2}\\). Como a distância depende do quadrado do tempo, ela cresce mais rapidamente que o tempo de reação. A alternativa D identifica corretamente a força constante que produz esse movimento acelerado."
     ],
     "takeaway": "Aceleração constante faz a velocidade crescer linearmente e a distância crescer com o quadrado do tempo."
   },
@@ -103,7 +103,7 @@
     "concept": "Transformações de energia no salto com vara",
     "steps": [
       "Na etapa I, o atleta corre e possui energia cinética. Ao apoiar a vara na etapa II, parte dessa energia é temporariamente armazenada como energia potencial elástica na vara deformada.",
-      "A vara devolve energia ao atleta durante a subida. Na altura máxima, etapa III, a energia aparece principalmente como potencial gravitacional mgh. No modelo sem perdas, converter ao máximo a energia cinética inicial em energia gravitacional maximiza a altura: alternativa C.",
+      "A vara devolve energia ao atleta durante a subida. Na altura máxima, etapa III, a energia aparece principalmente como potencial gravitacional \\(mgh\\). No modelo sem perdas, converter ao máximo a energia cinética inicial em energia gravitacional maximiza a altura: alternativa C.",
       "A etapa IV já é a queda no colchão e não representa o instante de altura máxima pedido."
     ],
     "takeaway": "A vara é uma etapa intermediária: energia cinética da corrida → energia elástica → energia potencial gravitacional."
@@ -117,16 +117,16 @@
     "moduleId": "ondas-optica",
     "concept": "Taxa de dose e conversão de unidades",
     "steps": [
-      "O cálculo considera a fase de cruzeiro: 80% de 1 000 horas anuais correspondem a 800 h. A dose acumulada nessa fase é 2 μSv/h × 800 h = 1 600 μSv.",
-      "Uma radiografia corresponde a 0,2 mSv = 200 μSv. Dividindo as doses, 1 600/200 = 8 radiografias, alternativa A. É essencial converter milissievert e microsievert para a mesma unidade."
+      "O cálculo considera a fase de cruzeiro: 80% de 1 000 horas anuais correspondem a \\(800\\,\\mathrm{h}\\). A dose acumulada nessa fase é \\(2\\,\\mathrm{\\mu Sv/h}\\times800\\,\\mathrm{h}=1\\,600\\,\\mathrm{\\mu Sv}\\).",
+      "Uma radiografia corresponde a \\(0{,}2\\,\\mathrm{mSv}=200\\,\\mathrm{\\mu Sv}\\). Dividindo as doses, \\(\\frac{1\\,600}{200}=8\\) radiografias, alternativa A. É essencial converter milissievert e microsievert para a mesma unidade."
     ],
-    "takeaway": "Dose acumulada = taxa de dose × tempo; 1 mSv equivale a 1 000 μSv."
+    "takeaway": "Dose acumulada = taxa de dose × tempo; \\(1\\,\\mathrm{mSv}\\) equivale a \\(1\\,000\\,\\mathrm{\\mu Sv}\\)."
   },
   "2022-103": {
     "concept": "Diagrama de forças e atrito estático",
     "steps": [
       "O peso atua verticalmente para baixo no centro de massa. A normal atua no ponto de contato com o piso e aponta para cima, perpendicularmente ao piso. A força aplicada no topo acompanha a muleta, apontando para baixo e para a esquerda.",
-      "A componente horizontal dessa força tende a fazer a base escorregar para a esquerda. O atrito estático do piso sobre a muleta aponta, portanto, para a direita, no próprio ponto de contato. No ângulo crítico ele atinge o limite μeN.",
+      "A componente horizontal dessa força tende a fazer a base escorregar para a esquerda. O atrito estático do piso sobre a muleta aponta, portanto, para a direita, no próprio ponto de contato. No ângulo crítico ele atinge o limite \\(\\mu_eN\\).",
       "A alternativa E é o diagrama que apresenta os pontos de aplicação e os sentidos corretos dessas quatro forças."
     ],
     "takeaway": "O atrito estático se opõe à tendência de deslizamento no contato; peso e normal atuam em pontos diferentes."
@@ -145,8 +145,8 @@
     "moduleId": "eletromagnetismo",
     "concept": "Lei de Faraday e gerador elétrico",
     "steps": [
-      "A tensão induzida depende da rapidez de variação do fluxo magnético: |ε| = N|dΦ/dt|. Não basta existir fluxo; ele precisa variar no tempo.",
-      "Em um gerador em rotação, Φ = BA cos(ωt), e a amplitude da tensão é NBAω. Aumentar a velocidade angular faz o fluxo variar mais rapidamente e aumenta a tensão nos terminais, como afirma a alternativa D.",
+      "A tensão induzida depende da rapidez de variação do fluxo magnético: \\(|\\varepsilon|=N\\left|\\frac{d\\Phi}{dt}\\right|\\). Não basta existir fluxo; ele precisa variar no tempo.",
+      "Em um gerador em rotação, \\(\\Phi=BA\\cos(\\omega t)\\), e a amplitude da tensão é \\(NBA\\omega\\). Aumentar a velocidade angular faz o fluxo variar mais rapidamente e aumenta a tensão nos terminais, como afirma a alternativa D.",
       "No funcionamento descrito, a geometria das bobinas e o ímã são mantidos. A alteração operacional que explica o aumento inesperado é a rotação mais rápida."
     ],
     "takeaway": "Quanto mais rapidamente o fluxo magnético varia, maior a tensão induzida."
@@ -155,7 +155,7 @@
     "concept": "Lançamento horizontal",
     "steps": [
       "Ao sair da mesa, a bolinha mantém sua velocidade horizontal por inércia, enquanto a gravidade começa imediatamente a aumentar sua velocidade vertical para baixo. Os movimentos horizontal e vertical ocorrem simultaneamente.",
-      "Com x = v0t e y = gt²/2, eliminar t fornece y = gx²/(2v0²), uma parábola com tangente horizontal na saída. Esse formato está na alternativa D; não há um trecho de voo horizontal seguido de uma queda vertical."
+      "Com \\(x=v_0t\\) e \\(y=\\frac{gt^2}{2}\\), eliminar \\(t\\) fornece \\(y=\\frac{gx^2}{2v_0^2}\\), uma parábola com tangente horizontal na saída. Esse formato está na alternativa D; não há um trecho de voo horizontal seguido de uma queda vertical."
     ],
     "takeaway": "A gravidade curva a trajetória desde o instante em que o apoio termina."
   },
@@ -164,15 +164,15 @@
     "steps": [
       "No carro B, a ventoinha lança ar para a esquerda. A reação do ar sobre o conjunto empurra o carro para a direita, produzindo propulsão direta.",
       "No carro A, a ventoinha lança ar contra a vela curva. A vela redireciona parte do fluxo para trás, de modo que o ar que sai pode levar momento para a esquerda e o carro avança para a direita. A interação com a vela e as perdas no redirecionamento reduzem a propulsão em comparação com B.",
-      "Assim, na montagem apresentada, o carro A se move para a direita com velocidade média positiva, porém menor que a de B: 0 < VA < VB. É exatamente a alternativa B."
+      "Assim, na montagem apresentada, o carro A se move para a direita com velocidade média positiva, porém menor que a de B: \\(0<V_A<V_B\\). É exatamente a alternativa B."
     ],
     "takeaway": "Analise o momento do ar que sai do conjunto inteiro; o formato da vela altera a direção do fluxo."
   },
   "2018-142": {
     "concept": "Lei da gravitação universal",
     "steps": [
-      "Para todos os satélites, a massa da Terra e G são iguais. Logo, basta comparar F ∝ m/r². Os pontos A e B têm o mesmo raio orbital, mas B tem massa maior, portanto FB > FA.",
-      "Os pontos A e C têm a mesma massa, mas C está em uma órbita de raio maior. O denominador r² cresce e a força diminui: FC < FA. Reunindo as comparações, FC < FA < FB, relação da alternativa E."
+      "Para todos os satélites, a massa da Terra e \\(G\\) são iguais. Logo, basta comparar \\(F\\propto\\frac{m}{r^2}\\). Os pontos A e B têm o mesmo raio orbital, mas B tem massa maior, portanto \\(F_B>F_A\\).",
+      "Os pontos A e C têm a mesma massa, mas C está em uma órbita de raio maior. O denominador \\(r^2\\) cresce e a força diminui: \\(F_C<F_A\\). Reunindo as comparações, \\(F_C<F_A<F_B\\), relação da alternativa E."
     ],
     "takeaway": "A força gravitacional aumenta com a massa e diminui com o quadrado da distância ao centro da Terra."
   },
@@ -184,11 +184,11 @@
   "2015-49": {
     "concept": "Potência solar e energia cinética",
     "steps": [
-      "O painel recebe 1 000 W/m² × 9 m² = 9 000 W. Com rendimento de 30%, a potência aproveitada é 0,30 × 9 000 = 2 700 W.",
-      "A velocidade desejada é 108/3,6 = 30 m/s. Partindo do repouso, o carro precisa adquirir Ec = mv²/2 = 200 × 30²/2 = 90 000 J.",
-      "No modelo sem perdas mecânicas, t = ΔEc/P = 90 000/2 700 ≈ 33 s, alternativa D."
+      "O painel recebe \\(1\\,000\\,\\mathrm{W/m^2}\\times9\\,\\mathrm{m^2}=9\\,000\\,\\mathrm{W}\\). Com rendimento de 30%, a potência aproveitada é \\(0{,}30\\times9\\,000=2\\,700\\,\\mathrm{W}\\).",
+      "A velocidade desejada é \\(\\frac{108}{3{,}6}=30\\,\\mathrm{m/s}\\). Partindo do repouso, o carro precisa adquirir \\(E_c=\\frac{mv^2}{2}=\\frac{200\\times30^2}{2}=90\\,000\\,\\mathrm{J}\\).",
+      "No modelo sem perdas mecânicas, \\(t=\\frac{\\Delta E_c}{P}=\\frac{90\\,000}{2\\,700}\\approx33\\,\\mathrm{s}\\), alternativa D."
     ],
-    "takeaway": "Converta a velocidade para m/s e aplique o rendimento antes de relacionar energia e potência."
+    "takeaway": "Converta a velocidade para \\(\\mathrm{m/s}\\) e aplique o rendimento antes de relacionar energia e potência."
   },
   "2014-82": {
     "concept": "Aceleração tangencial e movimento orbital",
@@ -210,7 +210,7 @@
     "concept": "Resistência do ar e velocidade terminal",
     "steps": [
       "Tomando o sentido da queda como positivo, no início a resistência do ar é pequena e a resultante é aproximadamente o peso. Conforme a velocidade aumenta, o arrasto cresce e a resultante diminui até zero na primeira velocidade terminal.",
-      "Ao abrir o paraquedas em TA, o arrasto aumenta bruscamente e fica maior que o peso. A resultante passa a apontar para cima, aparecendo com sinal negativo no gráfico e reduzindo a velocidade de queda.",
+      "Ao abrir o paraquedas em \\(T_A\\), o arrasto aumenta bruscamente e fica maior que o peso. A resultante passa a apontar para cima, aparecendo com sinal negativo no gráfico e reduzindo a velocidade de queda.",
       "Com a redução da velocidade, o arrasto diminui até equilibrar novamente o peso. A resultante retorna a zero numa velocidade terminal menor. Essa sequência corresponde ao gráfico B."
     ],
     "takeaway": "Velocidade terminal significa resultante nula; durante a desaceleração, a resultante aponta contra a queda."
@@ -244,13 +244,13 @@
       "No motor, a energia química do combustível é liberada na combustão. Parte é transferida como trabalho, e parte sai como calor nos gases de escape e para o ambiente.",
       "A segunda lei da termodinâmica impede que uma máquina térmica cíclica transforme integralmente em trabalho o calor recebido. Assim, a impossibilidade de conversão integral é a explicação da alternativa C; a conversão parcial é justamente o que permite ao motor funcionar."
     ],
-    "takeaway": "O balanço é Q recebido = trabalho + Q rejeitado, com rejeição de calor necessária numa máquina térmica cíclica."
+    "takeaway": "O balanço é \\(Q_{\\text{recebido}}=W+Q_{\\text{rejeitado}}\\), com rejeição de calor necessária numa máquina térmica cíclica."
   },
   "2009-17": {
     "concept": "Aceleração centrípeta e raio de curva",
     "steps": [
-      "O percurso tem 403 000 m e a duração é 1 h 25 min = 5 100 s. Como a velocidade é suposta constante, v = 403 000/5 100 ≈ 79 m/s, aproximadamente 80 m/s.",
-      "A aceleração lateral máxima admitida é 0,1g = 1 m/s². Usando ac = v²/R, o raio mínimo é R = v²/ac ≈ 80²/1 = 6 400 m, alternativa E."
+      "O percurso tem \\(403\\,000\\,\\mathrm{m}\\) e a duração é \\(1\\,\\mathrm{h}\\;25\\,\\mathrm{min}=5\\,100\\,\\mathrm{s}\\). Como a velocidade é suposta constante, \\(v=\\frac{403\\,000}{5\\,100}\\approx79\\,\\mathrm{m/s}\\), aproximadamente \\(80\\,\\mathrm{m/s}\\).",
+      "A aceleração lateral máxima admitida é \\(0{,}1g=1\\,\\mathrm{m/s^2}\\). Usando \\(a_c=\\frac{v^2}{R}\\), o raio mínimo é \\(R=\\frac{v^2}{a_c}\\approx\\frac{80^2}{1}=6\\,400\\,\\mathrm{m}\\), alternativa E."
     ],
     "takeaway": "Para manter a aceleração lateral confortável, trens muito rápidos precisam de curvas com raios grandes."
   },
@@ -263,7 +263,7 @@
     "concept": "Velocidade e aceleração no lançamento vertical",
     "steps": [
       "No ponto mais alto, a esfera termina a subida e começa a descida. Nesse instante de mudança de sentido, sua velocidade vertical é zero.",
-      "A força peso continua atuando para baixo, mesmo quando v = 0. Portanto, a aceleração continua não nula e dirigida para baixo, com módulo g no modelo sem resistência do ar. A combinação correta é a alternativa C."
+      "A força peso continua atuando para baixo, mesmo quando \\(v=0\\). Portanto, a aceleração continua não nula e dirigida para baixo, com módulo \\(g\\) no modelo sem resistência do ar. A combinação correta é a alternativa C."
     ],
     "takeaway": "Velocidade instantaneamente nula não significa aceleração nula."
   },
@@ -275,17 +275,17 @@
   "2022-100": {
     "concept": "Lançamento horizontal e altura máxima",
     "steps": [
-      "No lançamento horizontal, a água cai 1 m com velocidade vertical inicial nula: 1 = gt²/2 = 5t². Portanto, t² = 0,2 s².",
-      "O alcance horizontal é 3 m, logo v0 = 3/t e v0² = 9/t² = 45 m²/s². Ao orientar a mesma saída verticalmente, essa é a velocidade inicial de subida.",
-      "Na altura máxima, v = 0. Pela equação v² = v0² − 2gH, H = 45/(2 × 10) = 2,25 m acima da saída, alternativa B."
+      "No lançamento horizontal, a água cai \\(1\\,\\mathrm{m}\\) com velocidade vertical inicial nula: \\(1=\\frac{gt^2}{2}=5t^2\\). Portanto, \\(t^2=0{,}2\\,\\mathrm{s^2}\\).",
+      "O alcance horizontal é \\(3\\,\\mathrm{m}\\), logo \\(v_0=\\frac3t\\) e \\(v_0^2=\\frac9{t^2}=45\\,\\mathrm{m^2/s^2}\\). Ao orientar a mesma saída verticalmente, essa é a velocidade inicial de subida.",
+      "Na altura máxima, \\(v=0\\). Pela equação \\(v^2=v_0^2-2gH\\), \\(H=\\frac{45}{2\\times10}=2{,}25\\,\\mathrm{m}\\) acima da saída, alternativa B."
     ],
     "takeaway": "O ensaio horizontal revela a velocidade de saída, que depois determina a altura do lançamento vertical."
   },
   "2022-105": {
     "concept": "Impulso e energia dissipada numa colisão",
     "steps": [
-      "Com os blocos, o carro para: a variação de momento tem módulo mvi. Com os pneus, ele volta com velocidade de módulo vr, então a variação de momento é maior, m(vi + vr), porque a velocidade troca de sentido.",
-      "Como a duração das colisões é igual, F média = |Δp|/Δt é maior na barreira de pneus. Já os blocos retiram toda a energia cinética inicial do carro, enquanto nos pneus ainda resta a energia cinética do retorno.",
+      "Com os blocos, o carro para: a variação de momento tem módulo \\(mv_i\\). Com os pneus, ele volta com velocidade de módulo \\(v_r\\), então a variação de momento é maior, \\(m(v_i+v_r)\\), porque a velocidade troca de sentido.",
+      "Como a duração das colisões é igual, \\(F_{\\text{média}}=\\frac{|\\Delta p|}{\\Delta t}\\) é maior na barreira de pneus. Já os blocos retiram toda a energia cinética inicial do carro, enquanto nos pneus ainda resta a energia cinética do retorno.",
       "Logo, a força média é maior com pneus e a energia mecânica dissipada é maior com blocos: alternativa A."
     ],
     "takeaway": "Rebater aumenta a mudança de momento; parar completamente dissipa mais energia cinética do que retornar com alguma velocidade."
@@ -293,8 +293,8 @@
   "2022-123": {
     "concept": "Gravitação e massa da fonte",
     "steps": [
-      "A grandes distâncias de um corpo aproximadamente esférico, o campo gravitacional depende de sua massa e da distância ao centro: g = GM/r². O tamanho físico da fonte não aparece nessa expressão.",
-      "O buraco negro tem a mesma massa do Sol, e os planetas estão muito além de seu horizonte de eventos de 3 km. Nas condições idealizadas da questão, as forças gravitacionais e as velocidades iniciais dos planetas permanecem as mesmas, portanto eles mantêm suas órbitas: alternativa E."
+      "A grandes distâncias de um corpo aproximadamente esférico, o campo gravitacional depende de sua massa e da distância ao centro: \\(g=\\frac{GM}{r^2}\\). O tamanho físico da fonte não aparece nessa expressão.",
+      "O buraco negro tem a mesma massa do Sol, e os planetas estão muito além de seu horizonte de eventos de \\(3\\,\\mathrm{km}\\). Nas condições idealizadas da questão, as forças gravitacionais e as velocidades iniciais dos planetas permanecem as mesmas, portanto eles mantêm suas órbitas: alternativa E."
     ],
     "takeaway": "Um buraco negro de mesma massa não exerce uma atração extra sobre planetas distantes."
   },
@@ -302,26 +302,26 @@
     "moduleId": "eletricidade",
     "concept": "Lei de Ohm aplicada a uma analogia",
     "steps": [
-      "O modelo define a resistência de cada rota pela razão entre a diferença de potencial e a corrente: R = U/I. É essa razão que deve ser comparada, e não apenas o fluxo de carros ou o gasto de energia isoladamente.",
-      "Pela tabela: R1 = 510/4 = 127,5; R2 = 608/4 = 152; R3 = 575/3 ≈ 191,7, nas unidades do modelo. A ordem crescente é R1 < R2 < R3, ou seja, rotas 1, 2 e 3: alternativa A."
+      "O modelo define a resistência de cada rota pela razão entre a diferença de potencial e a corrente: \\(R=\\frac UI\\). É essa razão que deve ser comparada, e não apenas o fluxo de carros ou o gasto de energia isoladamente.",
+      "Pela tabela: \\(R_1=\\frac{510}{4}=127{,}5\\); \\(R_2=\\frac{608}{4}=152\\); \\(R_3=\\frac{575}{3}\\approx191{,}7\\), nas unidades do modelo. A ordem crescente é \\(R_1<R_2<R_3\\), ou seja, rotas 1, 2 e 3: alternativa A."
     ],
     "takeaway": "Em analogias elétricas, aplique a relação entre as grandezas definida no enunciado."
   },
   "2020-99": {
     "concept": "Movimento acelerado seguido de movimento uniforme",
     "steps": [
-      "A velocidade final da aceleração é 72 km/h = 20 m/s. Partindo do repouso com a = 1 m/s², o carro leva 20 s para atingi-la e percorre s = at²/2 = 200 m nesse intervalo.",
-      "Os semáforos precisam abrir quando o carro está nas posições 400 m, 900 m e 1 400 m, pois cada um deve ser antecipado em 100 m. Depois dos primeiros 200 m, o carro anda a 20 m/s.",
-      "Os instantes são tA = 20 + (400 − 200)/20 = 30 s; tB = 20 + (900 − 200)/20 = 55 s; tC = 20 + (1 400 − 200)/20 = 80 s. Esses valores formam a alternativa D."
+      "A velocidade final da aceleração é \\(72\\,\\mathrm{km/h}=20\\,\\mathrm{m/s}\\). Partindo do repouso com \\(a=1\\,\\mathrm{m/s^2}\\), o carro leva \\(20\\,\\mathrm{s}\\) para atingi-la e percorre \\(s=\\frac{at^2}{2}=200\\,\\mathrm{m}\\) nesse intervalo.",
+      "Os semáforos precisam abrir quando o carro está nas posições \\(400\\,\\mathrm{m}\\), \\(900\\,\\mathrm{m}\\) e \\(1\\,400\\,\\mathrm{m}\\), pois cada um deve ser antecipado em \\(100\\,\\mathrm{m}\\). Depois dos primeiros \\(200\\,\\mathrm{m}\\), o carro anda a \\(20\\,\\mathrm{m/s}\\).",
+      "Os instantes são \\(t_A=20+\\frac{400-200}{20}=30\\,\\mathrm{s}\\); \\(t_B=20+\\frac{900-200}{20}=55\\,\\mathrm{s}\\); \\(t_C=20+\\frac{1\\,400-200}{20}=80\\,\\mathrm{s}\\). Esses valores formam a alternativa D."
     ],
-    "takeaway": "Separe os trechos do movimento e aplique a antecipação de 100 m antes de calcular os tempos."
+    "takeaway": "Separe os trechos do movimento e aplique a antecipação de \\(100\\,\\mathrm{m}\\) antes de calcular os tempos."
   },
   "2020-106": {
     "concept": "Pressão hidrostática e leitura de gráfico",
     "steps": [
-      "A pressão do ar preso na caverna é a mesma da água na interface, situada a 50 m de profundidade na figura. A medida de 30 m é horizontal e não entra na pressão hidrostática.",
-      "Para chegar à superfície, a variação de pressão é Δp = ρgh = 1 000 × 10 × 50 = 500 000 Pa = 500 kPa. A pressão atmosférica está nos dois estados e se cancela ao calcular a diferença.",
-      "No gráfico, uma variação de 500 kPa corresponde a 60 minutos de descompressão. Portanto, a alternativa C é correta."
+      "A pressão do ar preso na caverna é a mesma da água na interface, situada a \\(50\\,\\mathrm{m}\\) de profundidade na figura. A medida de \\(30\\,\\mathrm{m}\\) é horizontal e não entra na pressão hidrostática.",
+      "Para chegar à superfície, a variação de pressão é \\(\\Delta p=\\rho gh=1\\,000\\times10\\times50=500\\,000\\,\\mathrm{Pa}=500\\,\\mathrm{kPa}\\). A pressão atmosférica está nos dois estados e se cancela ao calcular a diferença.",
+      "No gráfico, uma variação de \\(500\\,\\mathrm{kPa}\\) corresponde a 60 minutos de descompressão. Portanto, a alternativa C é correta."
     ],
     "takeaway": "A pressão hidrostática depende da profundidade vertical; o gráfico usa a variação de pressão, não a pressão absoluta."
   },
@@ -337,7 +337,7 @@
     "concept": "Velocidade angular relativa",
     "steps": [
       "O foguete reentrou acima do Rio e seus fragmentos atingiram o Atlântico, a leste da cidade na figura. Eles avançaram em relação ao solo no mesmo sentido da rotação terrestre.",
-      "Se a velocidade angular fosse igual à da Terra, não haveria esse avanço angular relativo. O deslocamento para leste exige ω foguete − ω Terra > 0 no sentido da rotação: velocidade angular maior e de mesmo sentido, alternativa B."
+      "Se a velocidade angular fosse igual à da Terra, não haveria esse avanço angular relativo. O deslocamento para leste exige \\(\\omega_{\\text{foguete}}-\\omega_{\\text{Terra}}>0\\) no sentido da rotação: velocidade angular maior e de mesmo sentido, alternativa B."
     ],
     "takeaway": "Compare o deslocamento do objeto com o de um ponto da superfície; é a diferença das velocidades angulares que determina o avanço relativo."
   },
@@ -362,7 +362,7 @@
     "concept": "Centro de massa e rolamento",
     "steps": [
       "O enunciado especifica que o diâmetro total de roda e pneu aumenta. Isso eleva o chassi e o centro de massa do carro. Um centro de massa mais alto favorece o tombamento sob ação lateral, reduzindo a estabilidade.",
-      "A cada volta, a roda maior percorre uma distância 2πR maior. Se o velocímetro continua calibrado para o raio antigo, calcula uma velocidade menor que a real, pois v = ωR. As duas consequências estão na alternativa A."
+      "A cada volta, a roda maior percorre uma distância \\(2\\pi R\\) maior. Se o velocímetro continua calibrado para o raio antigo, calcula uma velocidade menor que a real, pois \\(v=\\omega R\\). As duas consequências estão na alternativa A."
     ],
     "takeaway": "Aumentar o raio da roda eleva o veículo e aumenta a distância percorrida por rotação."
   },
@@ -370,7 +370,7 @@
     "moduleId": "ondas-optica",
     "concept": "Conversão de energia na fotossíntese",
     "steps": [
-      "No ciclo mostrado, a etapa que produz combustíveis a partir de CO₂ e água é a fotossíntese. Ela utiliza a luz solar como fonte de energia.",
+      "No ciclo mostrado, a etapa que produz combustíveis a partir de \\(\\mathrm{CO_2}\\) e água é a fotossíntese. Ela utiliza a luz solar como fonte de energia.",
       "A luz é radiação eletromagnética; os combustíveis produzidos passam a armazenar energia química, posteriormente liberável em processos metabólicos. A conversão na formação desses combustíveis é, portanto, de energia eletromagnética em química, alternativa E."
     ],
     "takeaway": "A fotossíntese armazena parte da energia da luz na forma de energia química."
@@ -378,8 +378,8 @@
   "2018-131": {
     "concept": "Energia potencial elástica e lançamento",
     "steps": [
-      "Sem atrito e num trilho horizontal, a energia da mola comprimida transforma-se em energia cinética do cubo: kx²/2 = mv²/2. Logo, v = x√(k/m).",
-      "Mantendo a mesma mola e a mesma massa, v é diretamente proporcional à deformação x. Para quadruplicar a velocidade, basta quadruplicar a deformação: alternativa B. A energia armazenada aumenta dezesseis vezes, mas a velocidade aumenta quatro vezes."
+      "Sem atrito e num trilho horizontal, a energia da mola comprimida transforma-se em energia cinética do cubo: \\(\\frac{kx^2}{2}=\\frac{mv^2}{2}\\). Logo, \\(v=x\\sqrt{\\frac km}\\).",
+      "Mantendo a mesma mola e a mesma massa, \\(v\\) é diretamente proporcional à deformação \\(x\\). Para quadruplicar a velocidade, basta quadruplicar a deformação: alternativa B. A energia armazenada aumenta dezesseis vezes, mas a velocidade aumenta quatro vezes."
     ],
     "takeaway": "Com massa e mola fixas, velocidade de lançamento é proporcional à compressão da mola."
   },
@@ -402,9 +402,9 @@
   "2017-131": {
     "concept": "Tempo de reação e distância de frenagem",
     "steps": [
-      "O motorista atento começa a frear a 14 m/s. Com desaceleração de módulo 5 m/s², sua distância até parar é d atento = v²/(2a) = 14²/10 = 19,6 m.",
-      "Durante o segundo extra de reação, o desatento ainda acelera a 1 m/s². Nesse intervalo percorre 14 × 1 + 1 × 1²/2 = 14,5 m e passa a ter velocidade 15 m/s.",
-      "Sua frenagem passa a exigir 15²/10 = 22,5 m. A distância extra total é 14,5 + 22,5 − 19,6 = 17,4 m, alternativa E. O atraso aumenta tanto a distância de reação quanto a de frenagem."
+      "O motorista atento começa a frear a \\(14\\,\\mathrm{m/s}\\). Com desaceleração de módulo \\(5\\,\\mathrm{m/s^2}\\), sua distância até parar é \\(d_{\\text{atento}}=\\frac{v^2}{2a}=\\frac{14^2}{10}=19{,}6\\,\\mathrm{m}\\).",
+      "Durante o segundo extra de reação, o desatento ainda acelera a \\(1\\,\\mathrm{m/s^2}\\). Nesse intervalo percorre \\(14\\times1+\\frac{1\\times1^2}{2}=14{,}5\\,\\mathrm{m}\\) e passa a ter velocidade \\(15\\,\\mathrm{m/s}\\).",
+      "Sua frenagem passa a exigir \\(\\frac{15^2}{10}=22{,}5\\,\\mathrm{m}\\). A distância extra total é \\(14{,}5+22{,}5-19{,}6=17{,}4\\,\\mathrm{m}\\), alternativa E. O atraso aumenta tanto a distância de reação quanto a de frenagem."
     ],
     "takeaway": "Se o carro continua acelerando durante a distração, a frenagem também começa com velocidade maior."
   },
@@ -422,7 +422,7 @@
     "concept": "Pressão dos gases e temperatura",
     "steps": [
       "Quando a porta é aberta, parte do ar frio é substituída por ar mais quente do ambiente. Depois que a porta fecha, esse ar esfria em um volume aproximadamente fixo.",
-      "Pela relação pV = nRT, com V e n aproximadamente constantes no curto intervalo, a queda de temperatura reduz a pressão interna. A pressão externa fica maior e exerce uma força resultante que mantém a porta fechada, como diz a alternativa D."
+      "Pela relação \\(pV=nRT\\), com \\(V\\) e \\(n\\) aproximadamente constantes no curto intervalo, a queda de temperatura reduz a pressão interna. A pressão externa fica maior e exerce uma força resultante que mantém a porta fechada, como diz a alternativa D."
     ],
     "takeaway": "O resfriamento de um gás em volume fixo diminui sua pressão."
   },
@@ -475,8 +475,8 @@
     "moduleId": "termologia",
     "concept": "Potência útil de aquecimento",
     "steps": [
-      "Para aquecer uma amostra, a energia recebida é Q = mcΔT. Como as amostras têm massas e substâncias diferentes, o mesmo aumento de 10 °C não corresponde necessariamente à mesma energia.",
-      "O critério de desempenho usado na pergunta compara a energia transferida por tempo: P útil = Q/Δt. Fornecer uma quantidade maior de energia em menos tempo representa maior potência útil, combinação apresentada na alternativa C.",
+      "Para aquecer uma amostra, a energia recebida é \\(Q=mc\\Delta T\\). Como as amostras têm massas e substâncias diferentes, o mesmo aumento de \\(10\\,\\mathrm{{}^\\circ C}\\) não corresponde necessariamente à mesma energia.",
+      "O critério de desempenho usado na pergunta compara a energia transferida por tempo: \\(P_{\\text{útil}}=\\frac Q{\\Delta t}\\). Fornecer uma quantidade maior de energia em menos tempo representa maior potência útil, combinação apresentada na alternativa C.",
       "Tecnicamente, rendimento energético é a razão entre energia útil e energia consumida; como o consumo elétrico não foi fornecido, a questão avalia a rapidez útil de aquecimento."
     ],
     "takeaway": "Potência mede energia por tempo; rendimento mede a fração da energia de entrada que é aproveitada."
@@ -503,8 +503,8 @@
   "2010-81": {
     "concept": "Princípio de Arquimedes",
     "steps": [
-      "Ao ficar submersa, a escultura recebe da água uma força para cima chamada empuxo. Seu módulo é E = ρ água gV deslocado; para a escultura totalmente submersa, o volume deslocado é o volume da própria escultura.",
-      "O peso real mg continua o mesmo, mas o empuxo se soma à força para cima exercida pelos trabalhadores. A soma pode superar o peso com menor esforço humano, exatamente como afirma a alternativa E.",
+      "Ao ficar submersa, a escultura recebe da água uma força para cima chamada empuxo. Seu módulo é \\(E=\\rho_{\\text{água}}gV_{\\text{deslocado}}\\); para a escultura totalmente submersa, o volume deslocado é o volume da própria escultura.",
+      "O peso real \\(mg\\) continua o mesmo, mas o empuxo se soma à força para cima exercida pelos trabalhadores. A soma pode superar o peso com menor esforço humano, exatamente como afirma a alternativa E.",
       "Como o ferro é mais denso que a água, o empuxo sozinho não faz a escultura maciça flutuar."
     ],
     "takeaway": "O empuxo reduz o peso aparente, sem alterar a massa nem o peso gravitacional do objeto."

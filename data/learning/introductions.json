@@ -4,11 +4,33 @@
     "duration": "4 min",
     "summary": "Conecte movimento, forças e energia antes de resolver os exercícios.",
     "sections": [
-      {"title": "Movimento depende do referencial", "text": "Um passageiro sentado está parado em relação ao ônibus e em movimento em relação à rua. Defina o referencial e diferencie distância percorrida (todo o caminho) de deslocamento (posição final menos posição inicial).", "formula": "v média = Δs / Δt ; a média = Δv / Δt", "notation": "Δ significa variação. No SI: posição s em metros, tempo t em segundos, velocidade v em m/s e aceleração a em m/s²."},
-      {"title": "Força resultante muda a velocidade", "text": "Pela primeira lei de Newton, resultante nula significa repouso ou velocidade vetorial constante. Pela segunda lei, a aceleração aponta no sentido da força resultante. Peso é uma força; massa é uma propriedade do corpo. Ação e reação atuam em corpos diferentes.", "formula": "F resultante = m · a ; Peso = m · g", "notation": "Força em newtons (N), massa m em kg e g ≈ 10 m/s² quando indicado. Forças se somam como vetores; use sinais coerentes."},
-      {"title": "Energia acompanha as transformações", "text": "Energia cinética está associada à velocidade; energia potencial gravitacional, à altura escolhida em relação a uma referência. Quando apenas forças conservativas realizam trabalho, a energia mecânica se conserva. Com atrito, parte dela se transforma em energia interna. Trabalho transfere energia; potência mede a rapidez dessa transferência.", "formula": "Ec = m · v² / 2 ; Ep = m · g · h ; P média = E / Δt", "notation": "Energia em joules (J), altura h em metros e potência em watts (W = J/s)."}
+      {
+        "title": "Movimento depende do referencial",
+        "text": "Um passageiro sentado está parado em relação ao ônibus e em movimento em relação à rua. Defina o referencial e diferencie distância percorrida (todo o caminho) de deslocamento (posição final menos posição inicial).",
+        "formula": "\\[v_{\\text{média}}=\\frac{\\Delta s}{\\Delta t}\\,;\\qquad a_{\\text{média}}=\\frac{\\Delta v}{\\Delta t}\\]",
+        "notation": "\\(\\Delta\\) significa variação. No SI: posição \\(s\\) em metros, tempo \\(t\\) em segundos, velocidade \\(v\\) em \\(\\mathrm{m/s}\\) e aceleração \\(a\\) em \\(\\mathrm{m/s^2}\\)."
+      },
+      {
+        "title": "Força resultante muda a velocidade",
+        "text": "Pela primeira lei de Newton, resultante nula significa repouso ou velocidade vetorial constante. Pela segunda lei, a aceleração aponta no sentido da força resultante. Peso é uma força; massa é uma propriedade do corpo. Ação e reação atuam em corpos diferentes.",
+        "formula": "\\[\\vec F_{\\text{resultante}}=m\\vec a\\,;\\qquad P=mg\\]",
+        "notation": "Força em newtons (\\(\\mathrm{N}\\)), massa \\(m\\) em \\(\\mathrm{kg}\\) e \\(g\\approx10\\,\\mathrm{m/s^2}\\) quando indicado. Forças se somam como vetores; use sinais coerentes."
+      },
+      {
+        "title": "Energia acompanha as transformações",
+        "text": "Energia cinética está associada à velocidade; energia potencial gravitacional, à altura escolhida em relação a uma referência. Quando apenas forças conservativas realizam trabalho, a energia mecânica se conserva. Com atrito, parte dela se transforma em energia interna. Trabalho transfere energia; potência mede a rapidez dessa transferência.",
+        "formula": "\\[\\begin{aligned}E_c&=\\frac{mv^2}{2}\\\\E_p&=mgh\\\\P_{\\text{média}}&=\\frac E{\\Delta t}\\end{aligned}\\]",
+        "notation": "Energia em joules (\\(\\mathrm{J}\\)), altura \\(h\\) em metros e potência em watts (\\(\\mathrm{W}=\\mathrm{J/s}\\))."
+      }
     ],
-    "example": {"title": "Exemplo: uma queda sem resistência do ar", "steps": ["Um corpo de 2 kg é solto do repouso a 5 m de altura. Com g = 10 m/s², sua energia potencial inicial é 2 × 10 × 5 = 100 J, tomando o solo como referência.", "Imediatamente antes de chegar ao solo, os 100 J viraram energia cinética: 2 × v² / 2 = 100. Portanto, v = 10 m/s.", "A massa cancela na igualdade mgh = mv²/2: nessa situação ideal, a velocidade final não depende da massa."]},
+    "example": {
+      "title": "Exemplo: uma queda sem resistência do ar",
+      "steps": [
+        "Um corpo de \\(2\\,\\mathrm{kg}\\) é solto do repouso a \\(5\\,\\mathrm{m}\\) de altura. Com \\(g=10\\,\\mathrm{m/s^2}\\), sua energia potencial inicial é \\(2\\times10\\times5=100\\,\\mathrm{J}\\), tomando o solo como referência.",
+        "Imediatamente antes de chegar ao solo, os \\(100\\,\\mathrm{J}\\) viraram energia cinética: \\(\\frac{2v^2}{2}=100\\). Portanto, \\(v=10\\,\\mathrm{m/s}\\).",
+        "A massa cancela na igualdade \\(mgh=\\frac{mv^2}{2}\\): nessa situação ideal, a velocidade final não depende da massa."
+      ]
+    },
     "pitfall": "Velocidade constante não significa ausência de forças: significa força resultante nula. Antes de calcular, desenhe as forças que atuam no corpo."
   },
   "eletricidade": {
@@ -16,23 +38,67 @@
     "duration": "4 min",
     "summary": "Entenda corrente, tensão e resistência, e transforme potência em consumo.",
     "sections": [
-      {"title": "Carga em movimento", "text": "Corrente elétrica é a taxa de passagem de carga por uma seção do condutor. A tensão representa a energia transferida por unidade de carga entre dois pontos. Para haver corrente contínua em um circuito simples, é necessário um caminho fechado e uma fonte de tensão.", "formula": "i = ΔQ / Δt ; U = E / Q", "notation": "Corrente i em ampères (A), carga Q em coulombs (C), tensão U em volts (V) e energia E em joules."},
-      {"title": "Resistores e associações", "text": "Para um resistor ôhmico, com condições físicas constantes, tensão e corrente são proporcionais. Em série, passa a mesma corrente pelos resistores e as tensões se somam. Em paralelo, todos os ramos estão submetidos à mesma tensão e a corrente total se divide entre eles.", "formula": "U = R · i ; Série: R eq = R1 + R2 ; Paralelo: 1/R eq = 1/R1 + 1/R2", "notation": "Resistência R em ohms (Ω). Em paralelo, a resistência equivalente é menor que a menor resistência de um ramo."},
-      {"title": "Potência e conta de luz", "text": "Um aparelho transforma energia elétrica em outras formas. Em um resistor, o efeito Joule aquece o material. O consumo depende tanto da potência quanto do tempo de uso. O quilowatt-hora é unidade de energia, não de potência.", "formula": "P = U · i ; Para resistor: P = R · i² = U²/R ; E = P · Δt", "notation": "Use kW e horas para obter kWh. 1 kWh = 3,6 milhões de joules."}
+      {
+        "title": "Carga em movimento",
+        "text": "Corrente elétrica é a taxa de passagem de carga por uma seção do condutor. A tensão representa a energia transferida por unidade de carga entre dois pontos. Para haver corrente contínua em um circuito simples, é necessário um caminho fechado e uma fonte de tensão.",
+        "formula": "\\[i=\\frac{\\Delta Q}{\\Delta t}\\,;\\qquad U=\\frac EQ\\]",
+        "notation": "Corrente \\(i\\) em ampères (\\(\\mathrm{A}\\)), carga \\(Q\\) em coulombs (\\(\\mathrm{C}\\)), tensão \\(U\\) em volts (\\(\\mathrm{V}\\)) e energia \\(E\\) em joules."
+      },
+      {
+        "title": "Resistores e associações",
+        "text": "Para um resistor ôhmico, com condições físicas constantes, tensão e corrente são proporcionais. Em série, passa a mesma corrente pelos resistores e as tensões se somam. Em paralelo, todos os ramos estão submetidos à mesma tensão e a corrente total se divide entre eles.",
+        "formula": "\\[\\begin{aligned}U&=Ri\\\\\\text{Série: }R_{\\text{eq}}&=R_1+R_2\\\\\\text{Paralelo: }\\frac1{R_{\\text{eq}}}&=\\frac1{R_1}+\\frac1{R_2}\\end{aligned}\\]",
+        "notation": "Resistência \\(R\\) em ohms (\\(\\Omega\\)). Em paralelo, a resistência equivalente é menor que a menor resistência de um ramo."
+      },
+      {
+        "title": "Potência e conta de luz",
+        "text": "Um aparelho transforma energia elétrica em outras formas. Em um resistor, o efeito Joule aquece o material. O consumo depende tanto da potência quanto do tempo de uso. O quilowatt-hora é unidade de energia, não de potência.",
+        "formula": "\\[\\begin{aligned}P&=Ui\\\\\\text{Para resistor: }P&=Ri^2=\\frac{U^2}{R}\\\\E&=P\\Delta t\\end{aligned}\\]",
+        "notation": "Use \\(\\mathrm{kW}\\) e horas para obter \\(\\mathrm{kWh}\\). \\(1\\,\\mathrm{kWh}=3{,}6\\times10^6\\,\\mathrm{J}\\)."
+      }
     ],
-    "example": {"title": "Exemplo: o consumo de um chuveiro", "steps": ["Um chuveiro de 5 500 W funciona 20 minutos por dia. Converta: 5 500 W = 5,5 kW e 20 min = 1/3 h.", "Em 30 dias, são 10 h de uso. Logo, E = 5,5 × 10 = 55 kWh.", "Em uma rede de 220 V, a corrente durante o funcionamento é i = P/U = 5 500/220 = 25 A."]},
-    "pitfall": "Se a tensão for mantida constante, diminuir a resistência aumenta a potência (P = U²/R). Se a corrente for mantida constante, a relação muda: P = Ri²."
+    "example": {
+      "title": "Exemplo: o consumo de um chuveiro",
+      "steps": [
+        "Um chuveiro de \\(5\\,500\\,\\mathrm{W}\\) funciona 20 minutos por dia. Converta: \\(5\\,500\\,\\mathrm{W}=5{,}5\\,\\mathrm{kW}\\) e \\(20\\,\\mathrm{min}=\\frac13\\,\\mathrm{h}\\).",
+        "Em 30 dias, são \\(10\\,\\mathrm{h}\\) de uso. Logo, \\(E=5{,}5\\times10=55\\,\\mathrm{kWh}\\).",
+        "Em uma rede de \\(220\\,\\mathrm{V}\\), a corrente durante o funcionamento é \\(i=\\frac{P}{U}=\\frac{5\\,500}{220}=25\\,\\mathrm{A}\\)."
+      ]
+    },
+    "pitfall": "Se a tensão for mantida constante, diminuir a resistência aumenta a potência (\\(P=\\frac{U^2}{R}\\)). Se a corrente for mantida constante, a relação muda: \\(P=Ri^2\\)."
   },
   "ondas-optica": {
     "title": "Como som e luz transportam energia",
     "duration": "4 min",
     "summary": "Conheça frequência, comprimento de onda e os fenômenos que aparecem na prova.",
     "sections": [
-      {"title": "Onda transporta energia", "text": "Uma onda é uma perturbação que se propaga, transportando energia sem transportar matéria de forma líquida no modelo usual. Som é uma onda mecânica e precisa de meio material. Luz é eletromagnética e pode se propagar no vácuo.", "formula": "v = λ · f ; f = 1/T", "notation": "Velocidade v em m/s, comprimento de onda λ em metros, frequência f em hertz (Hz) e período T em segundos."},
-      {"title": "O que muda ao passar de meio", "text": "Na reflexão, a onda retorna ao meio de origem. Na refração, atravessa a interface e sua velocidade muda; a direção também pode mudar. A frequência é determinada pela fonte e se mantém na passagem entre meios estacionários. Como v = λf, o comprimento de onda acompanha a mudança de velocidade.", "formula": "Reflexão: ângulo de incidência = ângulo de reflexão ; n = c/v", "notation": "Os ângulos são medidos em relação à normal à superfície. n é o índice de refração, sem unidade; c é a velocidade da luz no vácuo."},
-      {"title": "Reconheça o fenômeno", "text": "Difração é o espalhamento ao contornar obstáculos ou atravessar aberturas, mais evidente quando suas dimensões são comparáveis ao comprimento de onda. Interferência é a superposição de ondas. Ressonância ocorre quando uma excitação periódica próxima de uma frequência natural aumenta a amplitude de vibração. No som, frequência distingue grave de agudo; intensidade se relaciona à energia transportada.", "formula": "Eco: distância ao obstáculo = v · Δt / 2", "notation": "O tempo do eco inclui ida e volta. Amplitude e frequência descrevem características diferentes da onda."}
+      {
+        "title": "Onda transporta energia",
+        "text": "Uma onda é uma perturbação que se propaga, transportando energia sem transportar matéria de forma líquida no modelo usual. Som é uma onda mecânica e precisa de meio material. Luz é eletromagnética e pode se propagar no vácuo.",
+        "formula": "\\[v=\\lambda f\\,;\\qquad f=\\frac1T\\]",
+        "notation": "Velocidade \\(v\\) em \\(\\mathrm{m/s}\\), comprimento de onda \\(\\lambda\\) em metros, frequência \\(f\\) em hertz (\\(\\mathrm{Hz}\\)) e período \\(T\\) em segundos."
+      },
+      {
+        "title": "O que muda ao passar de meio",
+        "text": "Na reflexão, a onda retorna ao meio de origem. Na refração, atravessa a interface e sua velocidade muda; a direção também pode mudar. A frequência é determinada pela fonte e se mantém na passagem entre meios estacionários. Como \\(v=\\lambda f\\), o comprimento de onda acompanha a mudança de velocidade.",
+        "formula": "\\[\\text{Reflexão: }\\theta_i=\\theta_r\\,;\\qquad n=\\frac cv\\]",
+        "notation": "Os ângulos de incidência \\(\\theta_i\\) e de reflexão \\(\\theta_r\\) são medidos em relação à normal à superfície. \\(n\\) é o índice de refração, sem unidade; \\(c\\) é a velocidade da luz no vácuo."
+      },
+      {
+        "title": "Reconheça o fenômeno",
+        "text": "Difração é o espalhamento ao contornar obstáculos ou atravessar aberturas, mais evidente quando suas dimensões são comparáveis ao comprimento de onda. Interferência é a superposição de ondas. Ressonância ocorre quando uma excitação periódica próxima de uma frequência natural aumenta a amplitude de vibração. No som, frequência distingue grave de agudo; intensidade se relaciona à energia transportada.",
+        "formula": "\\[\\text{Eco: }d=\\frac{v\\Delta t}{2}\\]",
+        "notation": "\\(d\\) é a distância ao obstáculo. O tempo do eco inclui ida e volta. Amplitude e frequência descrevem características diferentes da onda."
+      }
     ],
-    "example": {"title": "Exemplo: um som e seu eco", "steps": ["Um som de 680 Hz se propaga no ar a 340 m/s. Seu comprimento de onda é λ = v/f = 340/680 = 0,50 m.", "Se o eco retorna 0,20 s depois, o som percorreu 340 × 0,20 = 68 m na ida e na volta.", "A distância entre a fonte e a parede é a metade: 34 m."]},
+    "example": {
+      "title": "Exemplo: um som e seu eco",
+      "steps": [
+        "Um som de \\(680\\,\\mathrm{Hz}\\) se propaga no ar a \\(340\\,\\mathrm{m/s}\\). Seu comprimento de onda é \\(\\lambda=\\frac vf=\\frac{340}{680}=0{,}50\\,\\mathrm{m}\\).",
+        "Se o eco retorna \\(0{,}20\\,\\mathrm{s}\\) depois, o som percorreu \\(340\\times0{,}20=68\\,\\mathrm{m}\\) na ida e na volta.",
+        "A distância entre a fonte e a parede é a metade: \\(34\\,\\mathrm{m}\\)."
+      ]
+    },
     "pitfall": "Um som mais alto em intensidade não é necessariamente mais agudo. Agudo significa frequência maior, não amplitude maior."
   },
   "termologia": {
@@ -40,11 +106,33 @@
     "duration": "4 min",
     "summary": "Descubra por que os materiais aquecem de maneiras diferentes e como o calor se propaga.",
     "sections": [
-      {"title": "Temperatura não é calor", "text": "Temperatura caracteriza o estado térmico; calor é energia em trânsito por diferença de temperatura. Espontaneamente, essa transferência acontece do corpo mais quente para o mais frio. No equilíbrio térmico, os corpos têm a mesma temperatura, mas não necessariamente a mesma energia interna.", "formula": "T em kelvin = temperatura em °C + 273,15", "notation": "Uma variação de 1 °C tem o mesmo tamanho que uma variação de 1 K. Use kelvin nas razões de temperaturas de termodinâmica."},
-      {"title": "Aquecer e mudar de estado", "text": "Sem mudança de fase, a energia trocada depende da massa, do calor específico e da variação de temperatura. Durante uma mudança de fase de uma substância pura a pressão constante, a temperatura pode permanecer constante enquanto ela recebe ou libera calor.", "formula": "Calor sensível: Q = m · c · ΔT ; Calor latente: Q = m · L", "notation": "Q em joules, m em kg, c em J/(kg·K) e L em J/kg. A capacidade térmica do corpo é C = m·c."},
-      {"title": "Três formas de transferência", "text": "Condução ocorre pela interação microscópica entre regiões do material, sem escoamento macroscópico. Convecção envolve movimento de um fluido. Radiação térmica ocorre por ondas eletromagnéticas e dispensa meio material. Isolantes reduzem a taxa de transferência; não produzem frio.", "formula": "Sistema termicamente isolado: soma dos calores trocados = 0", "notation": "Nessa convenção, Q é positivo quando um corpo recebe calor e negativo quando o cede."}
+      {
+        "title": "Temperatura não é calor",
+        "text": "Temperatura caracteriza o estado térmico; calor é energia em trânsito por diferença de temperatura. Espontaneamente, essa transferência acontece do corpo mais quente para o mais frio. No equilíbrio térmico, os corpos têm a mesma temperatura, mas não necessariamente a mesma energia interna.",
+        "formula": "\\[\\frac T{\\mathrm{K}}=\\frac\\theta{\\mathrm{{}^\\circ C}}+273{,}15\\]",
+        "notation": "\\(T\\) representa a temperatura em kelvin e \\(\\theta\\), em graus Celsius. Uma variação de \\(1\\,\\mathrm{{}^\\circ C}\\) tem o mesmo tamanho que uma variação de \\(1\\,\\mathrm{K}\\). Use kelvin nas razões de temperaturas de termodinâmica."
+      },
+      {
+        "title": "Aquecer e mudar de estado",
+        "text": "Sem mudança de fase, a energia trocada depende da massa, do calor específico e da variação de temperatura. Durante uma mudança de fase de uma substância pura a pressão constante, a temperatura pode permanecer constante enquanto ela recebe ou libera calor.",
+        "formula": "\\[\\begin{aligned}\\text{Calor sensível: }Q&=mc\\Delta T\\\\\\text{Calor latente: }Q&=mL\\end{aligned}\\]",
+        "notation": "\\(Q\\) em joules, \\(m\\) em \\(\\mathrm{kg}\\), \\(c\\) em \\(\\mathrm{J/(kg\\cdot K)}\\) e \\(L\\) em \\(\\mathrm{J/kg}\\). A capacidade térmica do corpo é \\(C=mc\\)."
+      },
+      {
+        "title": "Três formas de transferência",
+        "text": "Condução ocorre pela interação microscópica entre regiões do material, sem escoamento macroscópico. Convecção envolve movimento de um fluido. Radiação térmica ocorre por ondas eletromagnéticas e dispensa meio material. Isolantes reduzem a taxa de transferência; não produzem frio.",
+        "formula": "\\[\\text{Sistema termicamente isolado: }\\sum_i Q_i=0\\]",
+        "notation": "A soma dos calores trocados é zero. Nessa convenção, \\(Q_i\\) é positivo quando um corpo recebe calor e negativo quando o cede."
+      }
     ],
-    "example": {"title": "Exemplo: aquecendo água", "steps": ["Para aquecer 0,5 kg de água de 20 °C a 30 °C, use c = 4 200 J/(kg·°C) e ΔT = 10 °C.", "Q = 0,5 × 4 200 × 10 = 21 000 J. A mesma energia produziria uma variação menor em uma massa maior de água.", "Com um aquecedor de 700 W e sem perdas, Δt = Q/P = 21 000/700 = 30 s."]},
+    "example": {
+      "title": "Exemplo: aquecendo água",
+      "steps": [
+        "Para aquecer \\(0{,}5\\,\\mathrm{kg}\\) de água de \\(20\\,\\mathrm{{}^\\circ C}\\) a \\(30\\,\\mathrm{{}^\\circ C}\\), use \\(c=4\\,200\\,\\mathrm{J/(kg\\cdot{}^\\circ C)}\\) e \\(\\Delta T=10\\,\\mathrm{{}^\\circ C}\\).",
+        "\\(Q=0{,}5\\times4\\,200\\times10=21\\,000\\,\\mathrm{J}\\). A mesma energia produziria uma variação menor em uma massa maior de água.",
+        "Com um aquecedor de \\(700\\,\\mathrm{W}\\) e sem perdas, \\(\\Delta t=\\frac QP=\\frac{21\\,000}{700}=30\\,\\mathrm{s}\\)."
+      ]
+    },
     "pitfall": "Materiais à mesma temperatura podem provocar sensações diferentes: um metal retira calor da mão mais rapidamente que a madeira. Sensação térmica não é uma leitura direta da temperatura."
   },
   "eletromagnetismo": {
@@ -52,11 +140,33 @@
     "duration": "3 min",
     "summary": "Veja a conexão que permite o funcionamento de geradores, transformadores e fogões de indução.",
     "sections": [
-      {"title": "Correntes criam campos", "text": "Uma corrente elétrica produz um campo magnético ao redor do condutor. Em uma bobina, os campos das espiras se combinam. Ímãs também produzem campos, que podem exercer forças sobre materiais ferromagnéticos e sobre cargas em movimento.", "formula": "Força magnética em uma carga: F = |q| · v · B · sen(θ)", "notation": "B em teslas (T), q em coulombs, v em m/s e θ é o ângulo entre velocidade e campo. Se forem paralelos, a força é zero."},
-      {"title": "É a variação que induz tensão", "text": "A lei de Faraday relaciona a tensão induzida à variação do fluxo magnético através do circuito. Esse fluxo pode variar porque o campo muda, a área muda ou a espira gira. Um campo constante atravessando uma espira parada não basta para induzir corrente.", "formula": "Φ = B · A · cos(θ) ; |ε média| = N · |ΔΦ| / Δt", "notation": "Para campo uniforme: área A em m², Φ em webers (Wb), ε em volts e N é o número de espiras. Aqui θ é o ângulo entre o campo e a normal à área."},
-      {"title": "A lei de Lenz e as aplicações", "text": "A corrente induzida cria um campo que se opõe à variação do fluxo que a originou. Essa oposição respeita a conservação de energia. Geradores convertem energia mecânica em elétrica. Transformadores ideais usam fluxo variável para modificar tensões alternadas; não criam energia.", "formula": "Transformador ideal: U2/U1 = N2/N1 ; U1 · i1 = U2 · i2", "notation": "Os índices 1 e 2 indicam primário e secundário. Ao elevar a tensão, a corrente disponível diminui na mesma proporção no modelo ideal."}
+      {
+        "title": "Correntes criam campos",
+        "text": "Uma corrente elétrica produz um campo magnético ao redor do condutor. Em uma bobina, os campos das espiras se combinam. Ímãs também produzem campos, que podem exercer forças sobre materiais ferromagnéticos e sobre cargas em movimento.",
+        "formula": "\\[F=|q|vB\\operatorname{sen}\\theta\\]",
+        "notation": "\\(F\\) é o módulo da força magnética na carga. \\(B\\) em teslas (\\(\\mathrm{T}\\)), \\(q\\) em coulombs, \\(v\\) em \\(\\mathrm{m/s}\\) e \\(\\theta\\) é o ângulo entre velocidade e campo. Se forem paralelos, a força é zero."
+      },
+      {
+        "title": "É a variação que induz tensão",
+        "text": "A lei de Faraday relaciona a tensão induzida à variação do fluxo magnético através do circuito. Esse fluxo pode variar porque o campo muda, a área muda ou a espira gira. Um campo constante atravessando uma espira parada não basta para induzir corrente.",
+        "formula": "\\[\\begin{aligned}\\Phi&=BA\\cos\\theta\\\\|\\varepsilon_{\\text{média}}|&=N\\frac{|\\Delta\\Phi|}{\\Delta t}\\end{aligned}\\]",
+        "notation": "Para campo uniforme: área \\(A\\) em \\(\\mathrm{m^2}\\), \\(\\Phi\\) em webers (\\(\\mathrm{Wb}\\)), \\(\\varepsilon\\) em volts e \\(N\\) é o número de espiras. Aqui \\(\\theta\\) é o ângulo entre o campo e a normal à área."
+      },
+      {
+        "title": "A lei de Lenz e as aplicações",
+        "text": "A corrente induzida cria um campo que se opõe à variação do fluxo que a originou. Essa oposição respeita a conservação de energia. Geradores convertem energia mecânica em elétrica. Transformadores ideais usam fluxo variável para modificar tensões alternadas; não criam energia.",
+        "formula": "\\[\\text{Transformador ideal: }\\frac{U_2}{U_1}=\\frac{N_2}{N_1}\\,;\\quad U_1i_1=U_2i_2\\]",
+        "notation": "Os índices 1 e 2 indicam primário e secundário. Ao elevar a tensão, a corrente disponível diminui na mesma proporção no modelo ideal."
+      }
     ],
-    "example": {"title": "Exemplo: uma bobina e um ímã", "steps": ["Em uma bobina de 100 espiras, o fluxo por espira aumenta de 0,01 Wb para 0,03 Wb em 0,5 s.", "O módulo da tensão média induzida é 100 × (0,03 − 0,01)/0,5 = 4 V.", "Se o circuito estiver fechado, haverá corrente no sentido que se opõe ao aumento do fluxo. Ao parar a variação, a tensão induzida desaparece nesse modelo."]},
+    "example": {
+      "title": "Exemplo: uma bobina e um ímã",
+      "steps": [
+        "Em uma bobina de 100 espiras, o fluxo por espira aumenta de \\(0{,}01\\,\\mathrm{Wb}\\) para \\(0{,}03\\,\\mathrm{Wb}\\) em \\(0{,}5\\,\\mathrm{s}\\).",
+        "O módulo da tensão média induzida é \\(100\\times\\frac{0{,}03-0{,}01}{0{,}5}=4\\,\\mathrm{V}\\).",
+        "Se o circuito estiver fechado, haverá corrente no sentido que se opõe ao aumento do fluxo. Ao parar a variação, a tensão induzida desaparece nesse modelo."
+      ]
+    },
     "pitfall": "A corrente induzida se opõe à variação do fluxo, não necessariamente ao campo existente. Para definir o sentido, primeiro decida se o fluxo está aumentando ou diminuindo."
   }
 }

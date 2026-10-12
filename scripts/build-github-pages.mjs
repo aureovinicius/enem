@@ -6,8 +6,8 @@ import { fileURLToPath } from "node:url";
 
 const TEXT_EXTENSIONS = new Set([".html", ".js", ".css", ".json", ".webmanifest", ".svg"]);
 // Match local URL tokens only, including Markdown image URLs and the image allowlist.
-const LOCAL_URL = /(["'(])\/(assets\/questions\/|data\/|icons\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)/g;
-const LOCAL_REFERENCE = /["'(](\/(?:assets\/questions\/|data\/|icons\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)[^"'\\\s<)]*)/g;
+const LOCAL_URL = /(["'(])\/(assets\/questions\/|data\/|icons\/|vendor\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)/g;
+const LOCAL_REFERENCE = /["'(](\/(?:assets\/questions\/|data\/|icons\/|vendor\/|favicon\.svg\b|apple-touch-icon\.png\b|styles\.css\b|app\.js\b|pwa\.js\b|sw\.js\b|manifest\.webmanifest\b)[^"'\\\s<)]*)/g;
 
 function rewriteManifestRoutes(text, base) {
   const manifest = JSON.parse(text);

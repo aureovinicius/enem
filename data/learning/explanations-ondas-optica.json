@@ -2,7 +2,7 @@
   "2023-112": {
     "concept": "Difração e resolução óptica",
     "steps": [
-      "O enunciado relaciona o tamanho mínimo das cavidades que podem ser lidas ao comprimento de onda do laser: quando as dimensões ficam próximas de λ, a difração dificulta distinguir os detalhes. Diminuir λ permite ler cavidades menores e armazenar mais dados por área.",
+      "O enunciado relaciona o tamanho mínimo das cavidades que podem ser lidas ao comprimento de onda do laser: quando as dimensões ficam próximas de \\(\\lambda\\), a difração dificulta distinguir os detalhes. Diminuir \\(\\lambda\\) permite ler cavidades menores e armazenar mais dados por área.",
       "Entre violeta, azul, verde, vermelho e infravermelho, o violeta tem o menor comprimento de onda. Portanto, a alternativa A permite a melhor resolução entre as opções apresentadas."
     ],
     "takeaway": "Menor comprimento de onda permite resolver detalhes menores em um sistema óptico."
@@ -10,7 +10,7 @@
   "2022-135": {
     "concept": "Refração da luz",
     "steps": [
-      "A luz solar atravessa interfaces entre ar, plástico e água. A mudança de meio modifica sua velocidade e, em incidência oblíqua, sua direção, conforme a lei de Snell: n₁ sen θ₁ = n₂ sen θ₂.",
+      "A luz solar atravessa interfaces entre ar, plástico e água. A mudança de meio modifica sua velocidade e, em incidência oblíqua, sua direção, conforme a lei de Snell: \\(n_1\\operatorname{sen}\\theta_1=n_2\\operatorname{sen}\\theta_2\\).",
       "A forma da garrafa faz esses desvios distribuírem a luz para diferentes direções no interior da casa. Esse funcionamento corresponde à refração, alternativa E. A informação de que o buraco é muito maior que o comprimento de onda afasta a difração como explicação principal."
     ],
     "takeaway": "A refração desvia a luz ao atravessar meios com índices de refração diferentes."
@@ -18,7 +18,7 @@
   "2018-125": {
     "concept": "Dispersão em prismas e reflexão",
     "steps": [
-      "As frequências obedecem a f_vermelha < f_verde < f_azul. Como o índice de refração do prisma cresce com a frequência, o azul sofre o maior desvio em direção à base do prisma, o verde um desvio intermediário e o vermelho o menor.",
+      "As frequências obedecem a \\(f_{\\text{vermelha}}<f_{\\text{verde}}<f_{\\text{azul}}\\). Como o índice de refração do prisma cresce com a frequência, o azul sofre o maior desvio em direção à base do prisma, o verde um desvio intermediário e o vermelho o menor.",
       "Depois da reflexão no espelho horizontal, cada raio obedece à igualdade entre os ângulos de incidência e de reflexão. Acompanhar os trajetos no desenho coloca o vermelho no ponto inferior do filme, o verde no intermediário e o azul no superior: alternativa A."
     ],
     "takeaway": "Para ordenar as cores no anteparo, acompanhe o desvio no prisma e depois a reflexão no espelho."
@@ -27,7 +27,7 @@
     "concept": "Absorção seletiva da radiação",
     "steps": [
       "O comprimento de onda deve combinar absorção significativa pela melanina com absorção pequena pela oxi-hemoglobina e pela água. Escolher apenas o máximo de absorção da melanina também poderia aquecer tecidos que se deseja preservar.",
-      "No gráfico, em 700 nm a melanina ainda absorve bastante, a oxi-hemoglobina está próxima de seu mínimo e a água apresenta absorção muito pequena. Essa combinação favorece o aquecimento dos pelos e corresponde à alternativa B."
+      "No gráfico, em \\(700\\,\\mathrm{nm}\\) a melanina ainda absorve bastante, a oxi-hemoglobina está próxima de seu mínimo e a água apresenta absorção muito pequena. Essa combinação favorece o aquecimento dos pelos e corresponde à alternativa B."
     ],
     "takeaway": "Uma escolha seletiva compara simultaneamente as curvas do alvo e dos materiais que devem ser preservados."
   },
@@ -53,7 +53,7 @@
       "O próprio enunciado associa a produção de melanina à incidência de ultravioleta. Essa radiação tem frequência maior e comprimento de onda menor que a luz visível.",
       "A lâmpada incandescente emite principalmente infravermelho e luz visível, com frequências inferiores às necessárias para o efeito descrito. Assim, a justificativa é a baixa frequência em comparação ao ultravioleta, alternativa B; permanecer mais tempo sob a lâmpada não substitui essa característica espectral."
     ],
-    "takeaway": "A energia de um fóton é E = hf: mudar a intensidade não equivale a mudar a frequência."
+    "takeaway": "A energia de um fóton é \\(E=hf\\): mudar a intensidade não equivale a mudar a frequência."
   },
   "2011-74": {
     "concept": "Atenuação de ondas em materiais",
@@ -82,8 +82,8 @@
   "2023-135": {
     "concept": "Ecos e tempo de percurso",
     "steps": [
-      "Os dois ecos percorrem o mesmo trecho rochoso. O segundo percorre adicionalmente a camada líquida na ida e na volta, cobrindo 2 × 450 = 900 m dentro do líquido.",
-      "O tempo exclusivo desse percurso adicional é Δt = 1,1 − 0,5 = 0,6 s. Portanto, v = 900/0,6 = 1 500 m/s, alternativa D. Usar apenas 450 m esqueceria o retorno do pulso."
+      "Os dois ecos percorrem o mesmo trecho rochoso. O segundo percorre adicionalmente a camada líquida na ida e na volta, cobrindo \\(2\\times450=900\\,\\mathrm{m}\\) dentro do líquido.",
+      "O tempo exclusivo desse percurso adicional é \\(\\Delta t=1{,}1-0{,}5=0{,}6\\,\\mathrm{s}\\). Portanto, \\(v=\\frac{900}{0{,}6}=1\\,500\\,\\mathrm{m/s}\\), alternativa D. Usar apenas \\(450\\,\\mathrm{m}\\) esqueceria o retorno do pulso."
     ],
     "takeaway": "Em problemas de eco, conte os percursos de ida e volta; a diferença entre ecos pode isolar uma camada."
   },
@@ -110,7 +110,7 @@
   "2018-129": {
     "concept": "Percepção de cores e resposta dos fotorreceptores",
     "steps": [
-      "Segundo os valores apresentados, as luzes de 530 nm e 600 nm ativam o pigmento vermelho em aproximadamente 75%, enquanto o pigmento azul não fornece uma diferença relevante entre esses estímulos. A distinção indicada no enunciado depende da resposta do pigmento verde.",
+      "Segundo os valores apresentados, as luzes de \\(530\\,\\mathrm{nm}\\) e \\(600\\,\\mathrm{nm}\\) ativam o pigmento vermelho em aproximadamente 75%, enquanto o pigmento azul não fornece uma diferença relevante entre esses estímulos. A distinção indicada no enunciado depende da resposta do pigmento verde.",
       "Sem o pigmento verde funcional, e usando a mesma intensidade luminosa, os dois estímulos produzem a mesma resposta dos pigmentos restantes no modelo da questão. O indivíduo não distingue esses comprimentos de onda, alternativa E; isso não significa deixar de detectar a luz."
     ],
     "takeaway": "A percepção de cor depende da combinação de respostas dos cones, não de um único receptor para cada cor."
@@ -126,8 +126,8 @@
   "2017-112": {
     "concept": "Interferência sonora no trombone de Quincke",
     "steps": [
-      "No desenho, o ramo esquerdo mede 40 cm a partir do eixo central e o direito, 30 cm. Como cada caminho tem ida e volta horizontal, a diferença total de percurso é ΔL = 2 × (40 − 30) = 20 cm = 0,20 m; as curvas iguais se cancelam na comparação.",
-      "Partindo de caminhos iguais, o primeiro mínimo de intensidade ocorre quando ΔL = λ/2. Assim, λ = 0,40 m e f = v/λ = 320/0,40 = 800 Hz, alternativa C."
+      "No desenho, o ramo esquerdo mede \\(40\\,\\mathrm{cm}\\) a partir do eixo central e o direito, \\(30\\,\\mathrm{cm}\\). Como cada caminho tem ida e volta horizontal, a diferença total de percurso é \\(\\Delta L=2\\times(40-30)=20\\,\\mathrm{cm}=0{,}20\\,\\mathrm{m}\\); as curvas iguais se cancelam na comparação.",
+      "Partindo de caminhos iguais, o primeiro mínimo de intensidade ocorre quando \\(\\Delta L=\\frac\\lambda2\\). Assim, \\(\\lambda=0{,}40\\,\\mathrm{m}\\) e \\(f=\\frac v\\lambda=\\frac{320}{0{,}40}=800\\,\\mathrm{Hz}\\), alternativa C."
     ],
     "takeaway": "Para fontes inicialmente em fase, a primeira interferência destrutiva ocorre com diferença de percurso de meio comprimento de onda."
   },
@@ -150,15 +150,15 @@
   "2014-68": {
     "concept": "Lei de Snell e índice de refração",
     "steps": [
-      "A razão fornecida é sen i/sen r. Com o ângulo incidente i fixo, elevar essa razão de 1,4 para 1,9 exige diminuir sen r, pois sen r = sen i/razão.",
-      "Para ângulos entre 0° e 90°, diminuir o seno significa diminuir o ângulo refratado r, medido em relação à normal. O raio se aproxima da normal à superfície, alternativa E."
+      "A razão fornecida é \\(\\frac{\\operatorname{sen}i}{\\operatorname{sen}r}\\). Com o ângulo incidente \\(i\\) fixo, elevar essa razão de 1,4 para 1,9 exige diminuir \\(\\operatorname{sen}r\\), pois \\(\\operatorname{sen}r=\\frac{\\operatorname{sen}i}{\\text{razão}}\\).",
+      "Para ângulos entre \\(0^\\circ\\) e \\(90^\\circ\\), diminuir o seno significa diminuir o ângulo refratado \\(r\\), medido em relação à normal. O raio se aproxima da normal à superfície, alternativa E."
     ],
     "takeaway": "Com incidência fixa a partir do ar, um índice maior implica menor ângulo refratado com a normal."
   },
   "2009-31": {
     "concept": "Intensidade e propagação de ondas eletromagnéticas",
     "steps": [
-      "A questão iguala as condições de intensidade de transmissão e de recepção e pede uma comparação idealizada de cobertura. Nesse modelo, o espalhamento geométrico faz a intensidade diminuir com a distância da mesma forma: I é proporcional a 1/r² para emissão esférica.",
+      "A questão iguala as condições de intensidade de transmissão e de recepção e pede uma comparação idealizada de cobertura. Nesse modelo, o espalhamento geométrico faz a intensidade diminuir com a distância da mesma forma: \\(I\\) é proporcional a \\(\\frac1{r^2}\\) para emissão esférica.",
       "A frequência diferente muda o comprimento de onda, mas não altera esse decaimento geométrico assumido. Assim, sob as condições expressas, qualquer tecnologia pode ser escolhida, alternativa E. A resposta depende dessa simplificação e não compara todos os fatores de uma rede real."
     ],
     "takeaway": "Resolva a comparação com as hipóteses do enunciado: espalhamento geométrico e frequência são características distintas."
@@ -194,31 +194,31 @@
   "2022-134": {
     "concept": "Tempos de chegada em meios diferentes",
     "steps": [
-      "Os mesmos pontos do sinal aparecem 12 s mais tarde no detector B que no A: por exemplo, o padrão próximo de 220 s em A reaparece próximo de 232 s em B. Esse atraso ocorre porque o som se propaga mais devagar no ar.",
-      "Os tempos de viagem são t_ar = L/340 e t_água = L/1 540. Subtraindo: 12 = L × (1/340 − 1/1 540). Logo, L = 12 × 340 × 1 540/(1 540 − 340) = 5 236 m, aproximadamente 5 240 m, alternativa D."
+      "Os mesmos pontos do sinal aparecem \\(12\\,\\mathrm{s}\\) mais tarde no detector B que no A: por exemplo, o padrão próximo de \\(220\\,\\mathrm{s}\\) em A reaparece próximo de \\(232\\,\\mathrm{s}\\) em B. Esse atraso ocorre porque o som se propaga mais devagar no ar.",
+      "Os tempos de viagem são \\(t_{\\text{ar}}=\\frac L{340}\\) e \\(t_{\\text{água}}=\\frac L{1\\,540}\\). Subtraindo: \\(12=L\\left(\\frac1{340}-\\frac1{1\\,540}\\right)\\). Logo, \\(L=\\frac{12\\times340\\times1\\,540}{1\\,540-340}=5\\,236\\,\\mathrm{m}\\), aproximadamente \\(5\\,240\\,\\mathrm{m}\\), alternativa D."
     ],
     "takeaway": "Compare o mesmo ponto da onda nos dois gráficos e use a diferença dos tempos de viagem."
   },
   "2021-92": {
     "concept": "Frequência de vibração e velocidade do som",
     "steps": [
-      "Para barras do mesmo material e espessura, a barra mais curta vibra com frequência fundamental maior, produzindo um som mais agudo. Portanto, f₁ > f₂.",
-      "Depois de emitidos, os dois sons se propagam pelo mesmo ar nas mesmas condições. A velocidade depende desse meio e não de qual barra emitiu o som, portanto v₁ = v₂. A combinação correta é a alternativa D."
+      "Para barras do mesmo material e espessura, a barra mais curta vibra com frequência fundamental maior, produzindo um som mais agudo. Portanto, \\(f_1>f_2\\).",
+      "Depois de emitidos, os dois sons se propagam pelo mesmo ar nas mesmas condições. A velocidade depende desse meio e não de qual barra emitiu o som, portanto \\(v_1=v_2\\). A combinação correta é a alternativa D."
     ],
     "takeaway": "A fonte determina a frequência; o meio de propagação determina a velocidade do som."
   },
   "2020-114": {
     "concept": "Ressonâncias consecutivas em tubo fechado",
     "steps": [
-      "Uma cavidade aberta no topo e fechada no fundo admite frequências fₙ = (2n − 1)v/(4L). Duas ressonâncias consecutivas diferem em Δf = v/(2L), mesmo quando a menor frequência medida não é a fundamental.",
-      "Se L = 30 m e v = 360 m/s, então Δf = 360/(2 × 30) = 6 Hz. A ressonância seguinte à medida de 135 Hz será 135 + 6 = 141 Hz, alternativa C."
+      "Uma cavidade aberta no topo e fechada no fundo admite frequências \\(f_n=\\frac{(2n-1)v}{4L}\\). Duas ressonâncias consecutivas diferem em \\(\\Delta f=\\frac v{2L}\\), mesmo quando a menor frequência medida não é a fundamental.",
+      "Se \\(L=30\\,\\mathrm{m}\\) e \\(v=360\\,\\mathrm{m/s}\\), então \\(\\Delta f=\\frac{360}{2\\times30}=6\\,\\mathrm{Hz}\\). A ressonância seguinte à medida de \\(135\\,\\mathrm{Hz}\\) será \\(135+6=141\\,\\mathrm{Hz}\\), alternativa C."
     ],
-    "takeaway": "Em um tubo fechado em uma extremidade, o espaçamento entre ressonâncias consecutivas é v/(2L)."
+    "takeaway": "Em um tubo fechado em uma extremidade, o espaçamento entre ressonâncias consecutivas é \\(\\frac v{2L}\\)."
   },
   "2019-105": {
     "concept": "Emissão de fótons em transições eletrônicas",
     "steps": [
-      "A chama fornece energia que pode excitar elétrons dos átomos ou íons. Quando um elétron retorna a um estado de menor energia, a diferença entre os níveis pode ser emitida na forma de um fóton: ΔE = hf.",
+      "A chama fornece energia que pode excitar elétrons dos átomos ou íons. Quando um elétron retorna a um estado de menor energia, a diferença entre os níveis pode ser emitida na forma de um fóton: \\(\\Delta E=hf\\).",
       "As diferenças de energia características de cada espécie produzem frequências e cores características. A alternativa D descreve a transição para um nível mais interno e menos energético; a promoção para um nível mais energético exige absorção, não explica a luz emitida."
     ],
     "takeaway": "Uma transição eletrônica para menor energia pode emitir um fóton com energia igual à diferença entre os níveis."
@@ -234,24 +234,24 @@
   "2018-103": {
     "concept": "Frequência de encontros periódicos",
     "steps": [
-      "Cada faixa produz uma nova vibração ao ser atingida. O intervalo entre vibrações é o tempo para o carro percorrer a distância entre faixas: T = d/v.",
-      "Convertendo as unidades, v = 108/3,6 = 30 m/s e d = 8 cm = 0,08 m. Portanto, f = 1/T = v/d = 30/0,08 = 375 Hz, alternativa C. A velocidade usada é a do automóvel, não a do som no ar."
+      "Cada faixa produz uma nova vibração ao ser atingida. O intervalo entre vibrações é o tempo para o carro percorrer a distância entre faixas: \\(T=\\frac dv\\).",
+      "Convertendo as unidades, \\(v=\\frac{108}{3{,}6}=30\\,\\mathrm{m/s}\\) e \\(d=8\\,\\mathrm{cm}=0{,}08\\,\\mathrm{m}\\). Portanto, \\(f=\\frac1T=\\frac vd=\\frac{30}{0{,}08}=375\\,\\mathrm{Hz}\\), alternativa C. A velocidade usada é a do automóvel, não a do som no ar."
     ],
     "takeaway": "A frequência de eventos repetidos ao longo de um trajeto é a velocidade dividida pelo espaçamento."
   },
   "2017-103": {
     "concept": "Atenuação de sinais em fibra óptica",
     "steps": [
-      "Para maximizar a distância, o sinal deve começar no maior nível permitido, 100 dB, e pode perder até chegar a 10 dB. A perda total disponível é 100 − 10 = 90 dB.",
-      "No gráfico, a menor perda por distância é 1 dB/km, próxima de 1,5 µm. Usando essa faixa, a distância máxima é 90 dB ÷ (1 dB/km) = 90 km, alternativa D. Escolher outra faixa com atenuação maior reduziria o alcance."
+      "Para maximizar a distância, o sinal deve começar no maior nível permitido, \\(100\\,\\mathrm{dB}\\), e pode perder até chegar a \\(10\\,\\mathrm{dB}\\). A perda total disponível é \\(100-10=90\\,\\mathrm{dB}\\).",
+      "No gráfico, a menor perda por distância é \\(1\\,\\mathrm{dB/km}\\), próxima de \\(1{,}5\\,\\mathrm{\\mu m}\\). Usando essa faixa, a distância máxima é \\(\\frac{90\\,\\mathrm{dB}}{1\\,\\mathrm{dB/km}}=90\\,\\mathrm{km}\\), alternativa D. Escolher outra faixa com atenuação maior reduziria o alcance."
     ],
     "takeaway": "O alcance máximo resulta da perda total tolerada dividida pela menor atenuação por quilômetro."
   },
   "2016-89": {
     "concept": "Taxa média de aquecimento e leitura de gráficos",
     "steps": [
-      "A taxa média de aquecimento é ΔT/Δt. Como o intervalo de 0 a 40 s é o mesmo para todos os solventes, basta identificar a curva com a menor variação de temperatura.",
-      "A curva do n-hexano fica quase horizontal, próxima de 30 °C, enquanto as demais sobem bastante. Sua fórmula é CH₃CH₂CH₂CH₂CH₂CH₃, apresentada na alternativa E; portanto, ele tem a taxa média mais próxima de zero."
+      "A taxa média de aquecimento é \\(\\frac{\\Delta T}{\\Delta t}\\). Como o intervalo de 0 a \\(40\\,\\mathrm{s}\\) é o mesmo para todos os solventes, basta identificar a curva com a menor variação de temperatura.",
+      "A curva do n-hexano fica quase horizontal, próxima de \\(30\\,\\mathrm{{}^\\circ C}\\), enquanto as demais sobem bastante. Sua fórmula é \\(\\mathrm{CH_3CH_2CH_2CH_2CH_2CH_3}\\), apresentada na alternativa E; portanto, ele tem a taxa média mais próxima de zero."
     ],
     "takeaway": "Em um gráfico de temperatura por tempo, uma curva quase horizontal indica aquecimento muito pequeno."
   },
@@ -278,16 +278,16 @@
   "2013-65": {
     "concept": "Velocidade, comprimento de onda e frequência",
     "steps": [
-      "Um ciclo espacial da ola ocupa 16 espaçamentos de 0,80 m, então seu comprimento de onda é λ = 16 × 0,80 = 12,8 m. A velocidade de propagação é 45 km/h ÷ 3,6 = 12,5 m/s.",
-      "Aplicando v = λf, obtemos f = 12,5/12,8 ≈ 0,98 Hz. O valor mais próximo é 1,0 Hz, alternativa C. Cada pessoa oscila em torno de sua posição enquanto a perturbação avança pela arquibancada."
+      "Um ciclo espacial da ola ocupa 16 espaçamentos de \\(0{,}80\\,\\mathrm{m}\\), então seu comprimento de onda é \\(\\lambda=16\\times0{,}80=12{,}8\\,\\mathrm{m}\\). A velocidade de propagação é \\(\\frac{45}{3{,}6}\\,\\mathrm{m/s}=12{,}5\\,\\mathrm{m/s}\\).",
+      "Aplicando \\(v=\\lambda f\\), obtemos \\(f=\\frac{12{,}5}{12{,}8}\\approx0{,}98\\,\\mathrm{Hz}\\). O valor mais próximo é \\(1{,}0\\,\\mathrm{Hz}\\), alternativa C. Cada pessoa oscila em torno de sua posição enquanto a perturbação avança pela arquibancada."
     ],
-    "takeaway": "Use v = λf com velocidade e comprimento de onda em unidades compatíveis."
+    "takeaway": "Use \\(v=\\lambda f\\) com velocidade e comprimento de onda em unidades compatíveis."
   },
   "2012-61": {
     "concept": "Eficiência luminosa",
     "steps": [
-      "A eficiência definida no enunciado é o fluxo luminoso dividido pela potência. Para a incandescente: 600/40 = 15 lm/W. Para a fluorescente: 3 000/40 = 75 lm/W, cinco vezes mais.",
-      "Pela proporcionalidade informada, uma fluorescente de 8 W emite 8 × 75 = 600 lm, o mesmo fluxo da incandescente de 40 W, consumindo menos potência. Portanto, a incandescente é menos eficiente, como afirma a alternativa C."
+      "A eficiência definida no enunciado é o fluxo luminoso dividido pela potência. Para a incandescente: \\(\\frac{600}{40}=15\\,\\mathrm{lm/W}\\). Para a fluorescente: \\(\\frac{3\\,000}{40}=75\\,\\mathrm{lm/W}\\), cinco vezes mais.",
+      "Pela proporcionalidade informada, uma fluorescente de \\(8\\,\\mathrm{W}\\) emite \\(8\\times75=600\\,\\mathrm{lm}\\), o mesmo fluxo da incandescente de \\(40\\,\\mathrm{W}\\), consumindo menos potência. Portanto, a incandescente é menos eficiente, como afirma a alternativa C."
     ],
     "takeaway": "Compare eficiência por lúmens por watt, e não apenas por potência ou brilho isoladamente."
   },
@@ -295,7 +295,7 @@
     "concept": "Assinatura espectral e reflectância",
     "steps": [
       "Para distinguir os materiais pela luz refletida, interessa uma faixa em que suas reflectâncias sejam bem diferentes. Quando duas curvas se cruzam ou ficam próximas, os alvos podem produzir respostas parecidas no sensor.",
-      "Entre 0,8 e 0,9 µm, a grama apresenta a maior reflectância, seguida por concreto, solo arenoso, asfalto e água, com separação clara entre as curvas. Essa faixa permite a melhor discriminação entre as alternativas, portanto a resposta é E."
+      "Entre 0,8 e \\(0{,}9\\,\\mathrm{\\mu m}\\), a grama apresenta a maior reflectância, seguida por concreto, solo arenoso, asfalto e água, com separação clara entre as curvas. Essa faixa permite a melhor discriminação entre as alternativas, portanto a resposta é E."
     ],
     "takeaway": "Uma boa faixa para identificar materiais maximiza as diferenças entre suas respostas espectrais."
   },

@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-2";
+const DATA_URL = "/data/courses.json?v=pwa-4";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -90,7 +90,31 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#039;");
 }
 
-function renderMarkdown(value = "") {
+function renderMathText(value = "", formatPlain = escapeHtml) {
+  const source = String(value);
+  const expressions = /\\\(([\s\S]+?)\\\)|\\\[([\s\S]+?)\\\]/g;
+  let html = "";
+  let end = 0;
+  for (const match of source.matchAll(expressions)) {
+    html += formatPlain(source.slice(end, match.index));
+    const display = match[2] !== undefined;
+    const tex = match[1] ?? match[2];
+    try {
+      const math = window.katex.renderToString(tex, {
+        displayMode: display, output: "htmlAndMathml", throwOnError: true,
+        trust: false, strict: "ignore", maxExpand: 1000, maxSize: 12,
+      });
+      html += `<span class="math-${display ? "display" : "inline"}">${math}</span>`;
+    } catch {
+      // Keep content readable if a formula or the optional renderer is unavailable.
+      html += `<code class="math-fallback">${escapeHtml(tex)}</code>`;
+    }
+    end = match.index + match[0].length;
+  }
+  return html + formatPlain(source.slice(end));
+}
+
+function renderPlainMarkdown(value) {
   const escaped = escapeHtml(value);
   const withImages = escaped.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, url) => {
     const safeUrl = url.startsWith("/assets/questions/") || url.startsWith("https://enem.dev/")
@@ -98,10 +122,16 @@ function renderMarkdown(value = "") {
       : "";
     return safeUrl ? `<img src="${safeUrl}" alt="${alt || "Imagem da questão"}" loading="lazy">` : "";
   });
-  return `<p>${withImages
+  return withImages
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\n\n+/g, "</p><p>")
-    .replace(/\n/g, "<br>")}</p>`;
+    .replace(/\n/g, "<br>");
+}
+
+function renderMarkdown(value = "") {
+  // The question source escapes quotation omissions as Markdown brackets.
+  const prose = String(value).replace(/\\\[\s*(…|\.{3})\s*\\\]/g, "[$1]");
+  return `<p>${renderMathText(prose, renderPlainMarkdown)}</p>`;
 }
 
 function makeLessons() {
@@ -241,7 +271,7 @@ function renderLearn() {
             ${referenceMarkup(module)}
             <button class="intro-card" data-intro="${module.id}" aria-label="Introdução conceitual de ${module.title}">
               <span class="intro-icon" aria-hidden="true">☰</span>
-              <span><strong>Introdução conceitual</strong><span>${escapeHtml(module.introduction.summary)}</span><small>${state.introductionsRead.includes(module.id) ? "✓ Lida · Revisar conceitos" : `${module.introduction.duration} de leitura · Comece por aqui`}</small></span>
+              <span><strong>Introdução conceitual</strong><span>${renderMathText(module.introduction.summary)}</span><small>${state.introductionsRead.includes(module.id) ? "✓ Lida · Revisar conceitos" : `${module.introduction.duration} de leitura · Comece por aqui`}</small></span>
               <span aria-hidden="true">↗</span>
             </button>
             <div class="lesson-path">
@@ -394,7 +424,7 @@ function renderPerformance() {
 function triMarkup(question) {
   const score = difficultyScore(question);
   if (score === null) return `<div class="tri-badge unavailable">Dificuldade TRI: indisponível${question.triUnavailable?.reason === "official_item_abandoned" ? " · item excluído da calibração oficial" : " para este item na base vinculada"}</div>`;
-  return `<details class="tri-details"><summary>Dificuldade TRI <strong>${score.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}</strong> <span>INEP · ${question.year}</span></summary><p>Quanto maior o valor, maior a dificuldade do item. Este valor não representa pontos ganhos ao acertar nem uma previsão de nota.</p><p>b original (escala 0,1): ${escapeHtml(question.tri.b)}. Conversão para a escala do ENEM: 500 + 100 × b. Item ${escapeHtml(question.tri.itemCode)} · Prova ${escapeHtml(question.tri.examCode)}.</p><a class="source-link" href="${escapeHtml(question.tri.sourceUrl)}" target="_blank" rel="noreferrer">Consultar parâmetros oficiais ↗</a> · <a class="source-link" href="${escapeHtml(catalog.tri.scale.methodologyUrl)}" target="_blank" rel="noreferrer">Metodologia do INEP ↗</a></details>`;
+  return `<details class="tri-details"><summary>Dificuldade TRI <strong>${score.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}</strong> <span>INEP · ${question.year}</span></summary><p>Quanto maior o valor, maior a dificuldade do item. Este valor não representa pontos ganhos ao acertar nem uma previsão de nota.</p><p>${renderMathText(String.raw`\(b\)`)} original (escala 0,1): ${escapeHtml(question.tri.b)}. Conversão para a escala do ENEM: ${renderMathText(String.raw`\(500 + 100b\)`)}. Item ${escapeHtml(question.tri.itemCode)} · Prova ${escapeHtml(question.tri.examCode)}.</p><a class="source-link" href="${escapeHtml(question.tri.sourceUrl)}" target="_blank" rel="noreferrer">Consultar parâmetros oficiais ↗</a> · <a class="source-link" href="${escapeHtml(catalog.tri.scale.methodologyUrl)}" target="_blank" rel="noreferrer">Metodologia do INEP ↗</a></details>`;
 }
 
 function markStudyDay() {
@@ -506,7 +536,7 @@ function renderAbout() {
     <div class="notice"><strong>Instalar o Enem:</strong> abra este site no Chrome ou Edge e escolha a opção de instalar aplicativo no menu do navegador. No iPhone ou iPad, use Compartilhar → Adicionar à Tela de Início. Depois, o Enem abre em uma janela própria. Em navegadores compatíveis, as questões e os comentários são guardados após o primeiro carregamento; imagens ainda não carregadas precisam de conexão. O progresso continua salvo neste dispositivo.</div>
     <div class="notice"><strong>Áreas e competências:</strong> Matemática e Ciências da Natureza seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
     <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
-    <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa 500 + 100 × b; não é uma previsão da nota do aluno.</div>
+    <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa ${renderMathText(String.raw`\(500 + 100b\)`)}; não é uma previsão da nota do aluno.</div>
     <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Enem, não comentários oficiais do INEP. O Enem não é afiliado ao Duolingo.</div>
   `;
 }
@@ -554,12 +584,12 @@ function openIntroduction(moduleId) {
       <header class="intro-topbar"><span>${module.emoji} ${module.title} · ${intro.duration}</span><button class="icon-button" data-action="close-intro" aria-label="Fechar introdução">×</button></header>
       <article class="intro-content">
         <p class="page-kicker">Introdução conceitual</p>
-        <h1 class="page-title" tabindex="-1">${escapeHtml(intro.title)}</h1>
-        <p class="page-subtitle">${escapeHtml(intro.summary)}</p>
+        <h1 class="page-title" tabindex="-1">${renderMathText(intro.title)}</h1>
+        <p class="page-subtitle">${renderMathText(intro.summary)}</p>
         ${referenceMarkup(module)}
-        ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.text)}</p><div class="formula">${escapeHtml(section.formula)}</div><p class="notation">${escapeHtml(section.notation)}</p></div></section>`).join("")}
-        <section class="worked-example"><p class="page-kicker">Aplicando a ideia</p><h2>${escapeHtml(intro.example.title)}</h2><ol>${intro.example.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></section>
-        <div class="notice"><strong>Evite esta confusão</strong><br>${escapeHtml(intro.pitfall)}</div>
+        ${intro.sections.map((section, index) => `<section class="concept-section"><span class="concept-number">0${index + 1}</span><div><h2>${renderMathText(section.title)}</h2><p>${renderMathText(section.text)}</p><div class="formula">${renderMathText(section.formula)}</div><p class="notation">${renderMathText(section.notation)}</p></div></section>`).join("")}
+        <section class="worked-example"><p class="page-kicker">Aplicando a ideia</p><h2>${renderMathText(intro.example.title)}</h2><ol>${intro.example.steps.map((step) => `<li>${renderMathText(step)}</li>`).join("")}</ol></section>
+        <div class="notice"><strong>Evite esta confusão</strong><br>${renderMathText(intro.pitfall)}</div>
         <div class="intro-actions"><button class="button" data-action="complete-intro">${state.introductionsRead.includes(moduleId) ? "Voltar à unidade" : "Concluir introdução"}</button></div>
       </article>
     </div>`;
@@ -632,7 +662,7 @@ function renderQuestion() {
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
         ${question.skill ? `<div class="question-skill"><strong>${question.areaId === "matematica" ? "MT" : "CN"} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
-        <h1 tabindex="-1">${escapeHtml(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
+        <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context">${renderMarkdown(question.context)}</div>` : ""}
         <div class="answers">
           ${question.alternatives.map((alternative) => {
@@ -641,7 +671,7 @@ function renderQuestion() {
             else if (quiz.checked && quiz.selected === alternative.letter) status = "wrong";
             const body = alternative.file
               ? `<img src="${escapeHtml(alternative.file)}" alt="Alternativa ${alternative.letter}" style="max-width:100%;max-height:180px">`
-              : escapeHtml(alternative.text || "Alternativa com imagem");
+              : renderMathText(alternative.text || "Alternativa com imagem");
             return `<button class="answer ${status}" data-answer="${alternative.letter}" ${quiz.checked ? "disabled" : ""}><span class="answer-letter">${alternative.letter}</span><span class="answer-text">${body}</span></button>`;
           }).join("")}
         </div>
@@ -656,11 +686,11 @@ function renderExplanation(question) {
   const explanation = question.explanation;
   const correctAnswer = question.alternatives.find((alternative) => alternative.letter === question.correctAlternative);
   return `<section class="explanation" aria-labelledby="explanation-title" tabindex="-1">
-    <p class="page-kicker">${escapeHtml(explanation.concept)}</p>
+    <p class="page-kicker">${renderMathText(explanation.concept)}</p>
     <h2 id="explanation-title">Por que a alternativa ${escapeHtml(question.correctAlternative)} está correta?</h2>
-    <div class="correct-answer"><strong>Alternativa ${escapeHtml(question.correctAlternative)}</strong>${correctAnswer.text ? `<p>${escapeHtml(correctAnswer.text)}</p>` : ""}${correctAnswer.file ? `<img src="${escapeHtml(correctAnswer.file)}" alt="Resposta correta, alternativa ${question.correctAlternative}">` : ""}</div>
-    <ol>${explanation.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
-    <p class="takeaway"><strong>Guarde esta ideia:</strong> ${escapeHtml(explanation.takeaway)}</p>
+    <div class="correct-answer"><strong>Alternativa ${escapeHtml(question.correctAlternative)}</strong>${correctAnswer.text ? `<p>${renderMathText(correctAnswer.text)}</p>` : ""}${correctAnswer.file ? `<img src="${escapeHtml(correctAnswer.file)}" alt="Resposta correta, alternativa ${question.correctAlternative}">` : ""}</div>
+    <ol>${explanation.steps.map((step) => `<li>${renderMathText(step)}</li>`).join("")}</ol>
+    <p class="takeaway"><strong>Guarde esta ideia:</strong> ${renderMathText(explanation.takeaway)}</p>
   </section>`;
 }
 

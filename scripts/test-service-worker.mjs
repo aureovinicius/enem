@@ -1,9 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import vm from "node:vm";
 
 const source = await readFile(new URL("../dist/sw.js", import.meta.url), "utf8");
+const FONT_FILES = await readdir(new URL("../dist/vendor/katex/fonts/", import.meta.url));
 const APP_HTML = '<!doctype html><meta name="application-name" content="Enem" /><main>Enem</main>';
 
 function response(body, type, options = {}) {
@@ -17,6 +18,7 @@ function contentFor(url) {
   if (url.pathname.endsWith(".js")) return response("/* shell */", "text/javascript");
   if (url.pathname.endsWith(".css")) return response("body {}", "text/css");
   if (/\.(json|webmanifest)$/.test(url.pathname)) return response("{}", "application/json");
+  if (url.pathname.endsWith(".woff2")) return response("font", "font/woff2");
   if (url.pathname.endsWith(".pdf")) return response("pdf", "application/pdf");
   return response("image", url.pathname.endsWith(".svg") ? "image/svg+xml" : "image/png");
 }
@@ -27,8 +29,8 @@ function harness(scope = "https://example.test/enem/") {
   const calls = [];
   const failures = { open: false, put: false };
   const prefix = `enem:${encodeURIComponent(scope)}:`;
-  const core = `${prefix}pwa-2:core`;
-  const resources = `${prefix}pwa-2:resources`;
+  const core = `${prefix}pwa-4:core`;
+  const resources = `${prefix}pwa-4:resources`;
   let network = request => contentFor(new URL(typeof request === "string" ? request : request.url));
   let claims = 0;
   let skips = 0;
@@ -83,14 +85,14 @@ for (const scope of ["https://example.test/", "https://example.test/enem/"]) {
   test(`precache installs a coherent shell in scope ${new URL(scope).pathname} and waits for open windows`, async () => {
     const app = harness(scope);
     await app.dispatch("install");
-    assert.equal(app.buckets.get(app.core).size, 11);
-    assert.equal(app.calls.length, 11);
+    assert.equal(app.buckets.get(app.core).size, 13 + FONT_FILES.length);
+    assert.equal(app.calls.length, 13 + FONT_FILES.length);
     assert.equal(app.skips, 0);
     assert.ok(app.calls.every(request => request.url.startsWith(scope) && request.cache === "reload"));
     app.network(() => { throw new TypeError("Offline"); });
     assert.equal(await (await app.fetch("./", { mode: "navigate" })).text(), APP_HTML);
     assert.equal(await (await app.fetch("index.html", { mode: "navigate" })).text(), APP_HTML);
-    for (const path of ["app.js?v=pwa-2", "styles.css?v=pwa-2", "pwa.js?v=pwa-2", "data/courses.json?v=pwa-2"]) {
+    for (const path of ["app.js?v=pwa-4", "styles.css?v=pwa-4", "pwa.js?v=pwa-4", "data/courses.json?v=pwa-4", "vendor/katex/katex.min.js", "vendor/katex/katex.min.css", ...FONT_FILES.map(name => `vendor/katex/fonts/${name}`)]) {
       assert.equal((await app.fetch(path)).status, 200);
     }
   });
@@ -120,7 +122,7 @@ test("failed precache never replaces an existing version with authentication HTM
     response("Forbidden", "text/html", { status: 403 }),
   ]) {
     const app = harness();
-    const old = app.core.replace("pwa-2", "pwa-0");
+    const old = app.core.replace("pwa-4", "pwa-0");
     app.buckets.set(old, new Map([[app.scope, response(APP_HTML, "text/html")]]));
     app.network(request => request.url === app.scope ? result : contentFor(new URL(request.url)));
     await assert.rejects(app.dispatch("install"), /shell unavailable/);
@@ -128,7 +130,7 @@ test("failed precache never replaces an existing version with authentication HTM
     assert.ok(!app.buckets.has(app.core));
   }
   const app = harness();
-  const old = app.core.replace("pwa-2", "pwa-0");
+  const old = app.core.replace("pwa-4", "pwa-0");
   app.buckets.set(old, new Map());
   app.failures.put = true;
   await assert.rejects(app.dispatch("install"), /Quota exceeded/);
@@ -192,7 +194,7 @@ test("storage read and write failures do not block available network resources",
 
 test("activation removes only old caches for this exact scope and leaves other applications untouched", async () => {
   const app = harness();
-  const old = app.core.replace("pwa-2", "pwa-0");
+  const old = app.core.replace("pwa-4", "pwa-0");
   const root = harness("https://example.test/").core;
   const sibling = harness("https://example.test/enem-other/").core;
   for (const name of [old, app.core, app.resources, root, sibling, "unrelated-cache"]) app.buckets.set(name, new Map());

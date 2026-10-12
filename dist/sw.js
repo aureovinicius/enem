@@ -1,12 +1,15 @@
 /* Change VERSION with every release of the application shell. */
-const VERSION = "pwa-2";
+const VERSION = "pwa-4";
 const SCOPE = new URL(self.registration.scope);
 const PREFIX = `enem:${encodeURIComponent(SCOPE.href)}:`;
 const CORE_CACHE = `${PREFIX}${VERSION}:core`;
 const RESOURCE_CACHE = `${PREFIX}${VERSION}:resources`;
+const MATH_FONTS = ["KaTeX_AMS-Regular.woff2", "KaTeX_Caligraphic-Bold.woff2", "KaTeX_Caligraphic-Regular.woff2", "KaTeX_Fraktur-Bold.woff2", "KaTeX_Fraktur-Regular.woff2", "KaTeX_Main-Bold.woff2", "KaTeX_Main-BoldItalic.woff2", "KaTeX_Main-Italic.woff2", "KaTeX_Main-Regular.woff2", "KaTeX_Math-BoldItalic.woff2", "KaTeX_Math-Italic.woff2", "KaTeX_SansSerif-Bold.woff2", "KaTeX_SansSerif-Italic.woff2", "KaTeX_SansSerif-Regular.woff2", "KaTeX_Script-Regular.woff2", "KaTeX_Size1-Regular.woff2", "KaTeX_Size2-Regular.woff2", "KaTeX_Size3-Regular.woff2", "KaTeX_Size4-Regular.woff2", "KaTeX_Typewriter-Regular.woff2"];
 const CORE_PATHS = [
-  "./", "app.js?v=pwa-2", "styles.css?v=pwa-2", "pwa.js?v=pwa-2",
-  "data/courses.json?v=pwa-2", "manifest.webmanifest", "icons/icon-192.png",
+  "vendor/katex/katex.min.js", "vendor/katex/katex.min.css",
+  ...MATH_FONTS.map(name => `vendor/katex/fonts/${name}`),
+  "./", "app.js?v=pwa-4", "styles.css?v=pwa-4", "pwa.js?v=pwa-4",
+  "data/courses.json?v=pwa-4", "manifest.webmanifest", "icons/icon-192.png",
   "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png", "favicon.svg",
 ];
 const CORE_URLS = new Set(CORE_PATHS.map(path => new URL(path, SCOPE).href));
@@ -33,6 +36,7 @@ async function safeResponse(response, url, html = false) {
   if (/\.js$/.test(path)) return ["text/javascript", "application/javascript"].includes(type);
   if (/\.css$/.test(path)) return type === "text/css";
   if (/\.(json|webmanifest)$/.test(path)) return ["application/json", "application/manifest+json"].includes(type);
+  if (/\.woff2$/.test(path)) return ["font/woff2", "application/font-woff", "application/font-woff2", "application/octet-stream"].includes(type);
   if (/\.pdf$/.test(path)) return type === "application/pdf";
   return /^image\/(png|jpeg|svg\+xml|webp|gif|avif)$/.test(type);
 }

@@ -17,29 +17,29 @@
         "sections": [
           {
             "title": "Frações, decimais e porcentagens",
-            "text": "As três formas podem representar a mesma parte de um todo: 1/4 = 0,25 = 25%. Para encontrar uma porcentagem de um valor, transforme a taxa em fração de 100 e multiplique pelo valor de referência.",
-            "formula": "parte = total × p/100",
-            "notation": "p é a taxa percentual; total é a base sobre a qual a porcentagem incide."
+            "text": "As três formas podem representar a mesma parte de um todo: \\(\\frac{1}{4}=0{,}25=25\\%\\). Para encontrar uma porcentagem de um valor, transforme a taxa em fração de 100 e multiplique pelo valor de referência.",
+            "formula": "\\[\\text{parte}=\\text{total}\\times\\frac{p}{100}\\]",
+            "notation": "\\(p\\) é o número que expressa a taxa percentual; por exemplo, em \\(25\\%\\), usamos \\(p=25\\). O total é a base sobre a qual a porcentagem incide."
           },
           {
             "title": "Mudanças sucessivas",
-            "text": "Um desconto de 20% mantém 80% do preço. Outro desconto de 10% incide sobre o preço já reduzido. Os fatores se multiplicam: 0,80 × 0,90 = 0,72, equivalente a desconto total de 28%.",
-            "formula": "valor final = valor inicial × fator 1 × fator 2",
-            "notation": "O fator de aumento é 1 + p/100; o de desconto é 1 − p/100."
+            "text": "Um desconto de \\(20\\%\\) mantém \\(80\\%\\) do preço. Outro desconto de \\(10\\%\\) incide sobre o preço já reduzido. Os fatores se multiplicam: \\(0{,}80\\times0{,}90=0{,}72\\), equivalente a desconto total de \\(28\\%\\).",
+            "formula": "\\[V_f=V_i\\times f_1\\times f_2\\]",
+            "notation": "\\(V_i\\) e \\(V_f\\) são os valores inicial e final; \\(f_1\\) e \\(f_2\\) são os fatores de cada mudança. Para uma taxa de \\(p\\%\\), o fator de aumento é \\(1+\\frac{p}{100}\\); o de desconto é \\(1-\\frac{p}{100}\\)."
           },
           {
             "title": "Contar sem listar tudo",
-            "text": "Se uma escolha tem a possibilidades e cada uma permite b escolhas seguintes, há a × b resultados. Primeiro verifique se pode repetir elementos e se trocar a ordem cria um resultado diferente. Escolher dois lugares entre quatro dá seis pares, não oito.",
-            "formula": "N = a × b; C(n,k) = n!/[k!(n−k)!]",
-            "notation": "C(n,k) conta grupos de k elementos entre n, sem considerar a ordem; n! é o produto dos inteiros positivos de 1 até n."
+            "text": "As letras \\(a\\) e \\(b\\) representam quantidades de opções. Se a primeira etapa tem \\(a\\) opções e, para cada uma delas, a segunda tem \\(b\\) opções, o total é \\(a\\times b\\). Por exemplo, 3 camisetas e 2 calças permitem \\(3\\times2=6\\) combinações de roupa. Já escolher um grupo de 2 lugares entre 4, sem repetição e sem distinguir a ordem, é outro tipo de contagem: há \\(\\binom{4}{2}=6\\) pares.",
+            "formula": "\\[\\begin{aligned}N&=a\\times b\\\\[4pt]\\binom{n}{k}&=\\frac{n!}{k!\\,(n-k)!}\\end{aligned}\\]",
+            "notation": "\\(N\\) é o total de resultados das duas etapas. \\(\\binom{n}{k}\\), também escrito \\(C(n,k)\\), conta grupos de \\(k\\) elementos escolhidos entre \\(n\\), sem repetição e sem considerar a ordem. O fatorial \\(n!\\) é o produto dos inteiros de 1 até \\(n\\), e \\(0!=1\\). Antes de contar, verifique se repetir elementos é permitido e se trocar a ordem produz um resultado diferente."
           }
         ],
         "example": {
           "title": "Quanto custa a promoção?",
           "steps": [
-            "Um tênis de R$ 200 recebe desconto de 15%: 200 × 0,85 = R$ 170.",
-            "Um cupom oferece mais 10% sobre R$ 170: 170 × 0,90 = R$ 153.",
-            "A economia é de R$ 47, ou 47/200 = 23,5% do preço original. Somar 15% e 10% daria um resultado incorreto."
+            "Um tênis de R$ 200 recebe desconto de \\(15\\%\\): \\(200\\times0{,}85=170\\). O preço passa a R$ 170.",
+            "Um cupom oferece mais \\(10\\%\\) sobre R$ 170: \\(170\\times0{,}90=153\\). O preço final é R$ 153.",
+            "A economia é de R$ 47, ou \\(\\frac{47}{200}=23{,}5\\%\\) do preço original. Somar \\(15\\%\\) e \\(10\\%\\) daria um resultado incorreto."
           ]
         },
         "pitfall": "Sempre pergunte: porcentagem de quê? Em contagem, não misture a escolha dos elementos com a escolha de suas posições."
@@ -59,28 +59,28 @@
           {
             "title": "Triângulos semelhantes",
             "text": "Triângulos com ângulos correspondentes iguais têm lados correspondentes proporcionais. Uma rampa de inclinação constante, por exemplo, mantém a razão entre a altura e a distância percorrida ao longo dela.",
-            "formula": "a′/a = b′/b = c′/c = k",
-            "notation": "k é o fator de ampliação; os pares a e a′, b e b′, c e c′ representam lados correspondentes."
+            "formula": "\\[\\frac{a'}{a}=\\frac{b'}{b}=\\frac{c'}{c}=k\\]",
+            "notation": "\\(k\\) é o fator de ampliação; os pares \\(a\\) e \\(a'\\), \\(b\\) e \\(b'\\), \\(c\\) e \\(c'\\) representam lados correspondentes."
           },
           {
             "title": "Pitágoras e lei dos cossenos",
             "text": "Em um triângulo retângulo, o quadrado da hipotenusa é a soma dos quadrados dos catetos. Para outros triângulos, a lei dos cossenos relaciona o lado oposto a um ângulo aos outros dois lados. Um ângulo obtuso tem cosseno negativo.",
-            "formula": "a² = b² + c² − 2bc cos(α)",
-            "notation": "a é o lado oposto ao ângulo α. Quando α = 90°, cos(α) = 0 e a relação se torna o teorema de Pitágoras."
+            "formula": "\\[a^2=b^2+c^2-2bc\\cos(\\alpha)\\]",
+            "notation": "\\(a\\) é o lado oposto ao ângulo \\(\\alpha\\). Quando \\(\\alpha=90^{\\circ}\\), temos \\(\\cos(\\alpha)=0\\), e a relação se torna o teorema de Pitágoras."
           },
           {
             "title": "Faces, vértices e cortes",
             "text": "Uma face é uma superfície plana do sólido; arestas são os encontros de faces; vértices são os encontros de arestas. Um corte plano pode criar um novo polígono: cada face atravessada contribui com um segmento para seu contorno.",
-            "formula": "V − A + F = 2",
-            "notation": "Para um poliedro convexo, V é o número de vértices, A o de arestas e F o de faces. A fórmula ajuda a conferir uma contagem."
+            "formula": "\\[V-A+F=2\\]",
+            "notation": "Para um poliedro convexo, \\(V\\) é o número de vértices, \\(A\\) o de arestas e \\(F\\) o de faces. A fórmula ajuda a conferir uma contagem."
           }
         ],
         "example": {
           "title": "A diagonal de uma tela",
           "steps": [
             "Uma tela retangular mede 30 cm por 40 cm. Sua diagonal forma um triângulo retângulo com esses lados.",
-            "Pelo teorema de Pitágoras, d² = 30² + 40² = 900 + 1 600 = 2 500.",
-            "Assim, d = 50 cm. A diagonal é maior que cada lado, mas menor que a soma 30 + 40 = 70 cm, o que confirma a razoabilidade do resultado."
+            "Pelo teorema de Pitágoras, \\(d^2=30^2+40^2=900+1\\,600=2\\,500\\).",
+            "Assim, \\(d=50\\,\\text{cm}\\). A diagonal é maior que cada lado, mas menor que a soma \\(30+40=70\\,\\text{cm}\\), o que confirma a razoabilidade do resultado."
           ]
         },
         "pitfall": "Um desenho pode estar fora de escala. Use as medidas e propriedades informadas, e não a aparência da figura."
@@ -99,29 +99,29 @@
         "sections": [
           {
             "title": "Converta pela equivalência",
-            "text": "Uma conversão muda o número e a unidade, mas preserva a quantidade. Como 1 m = 100 cm, uma medida de 2,5 m equivale a 250 cm. No volume, 1 L = 1 000 mL = 1 000 cm³.",
-            "formula": "1 m² = 10 000 cm²; 1 m³ = 1 000 L",
+            "text": "Uma conversão muda o número e a unidade, mas preserva a quantidade. Como \\(1\\,\\text{m}=100\\,\\text{cm}\\), uma medida de 2,5 m equivale a 250 cm. No volume, \\(1\\,\\text{L}=1\\,000\\,\\text{mL}=1\\,000\\,\\text{cm}^3\\).",
+            "formula": "\\[\\begin{aligned}1\\,\\text{m}^2&=10\\,000\\,\\text{cm}^2\\\\1\\,\\text{m}^3&=1\\,000\\,\\text{L}\\end{aligned}\\]",
             "notation": "O expoente também afeta o fator de conversão: área usa duas dimensões e volume usa três."
           },
           {
             "title": "Leia a escala",
-            "text": "Na escala 1:n, uma unidade de comprimento no desenho corresponde a n unidades na realidade. Coloque as duas medidas na mesma unidade antes de montar a razão.",
-            "formula": "comprimento real = n × comprimento no desenho",
-            "notation": "n é o denominador da escala. Em 1:50, cada 1 cm do desenho corresponde a 50 cm reais."
+            "text": "Na escala \\(1:n\\), uma unidade de comprimento no desenho corresponde a \\(n\\) unidades na realidade. Coloque as duas medidas na mesma unidade antes de montar a razão.",
+            "formula": "\\[L_{\\text{real}}=n\\times L_{\\text{desenho}}\\]",
+            "notation": "\\(L\\) representa comprimento e \\(n\\) é o denominador da escala. Em \\(1:50\\), cada 1 cm do desenho corresponde a 50 cm reais."
           },
           {
             "title": "Escalas de área e volume",
-            "text": "Se todos os comprimentos são multiplicados por n, a área é multiplicada por n² e o volume por n³. Depois da ampliação, converta o resultado para a unidade pedida, como litros ou metros quadrados.",
-            "formula": "A real = n² A modelo; V real = n³ V modelo",
-            "notation": "As relações valem para figuras ou sólidos semelhantes, com a mesma escala em todas as direções."
+            "text": "Se todos os comprimentos são multiplicados por \\(n\\), a área é multiplicada por \\(n^2\\) e o volume por \\(n^3\\). Depois da ampliação, converta o resultado para a unidade pedida, como litros ou metros quadrados.",
+            "formula": "\\[\\begin{aligned}A_{\\text{real}}&=n^2A_{\\text{modelo}}\\\\V_{\\text{real}}&=n^3V_{\\text{modelo}}\\end{aligned}\\]",
+            "notation": "\\(A\\) representa área e \\(V\\), volume. As relações valem para figuras ou sólidos semelhantes, com a mesma escala em todas as direções."
           }
         ],
         "example": {
           "title": "O reservatório da maquete",
           "steps": [
-            "Um reservatório ocupa 10 cm³ numa maquete de escala 1:100.",
-            "O volume real é 10 × 100³ = 10 000 000 cm³.",
-            "Como 1 L = 1 000 cm³, a capacidade real é 10 000 L. Multiplicar apenas por 100 confundiria volume com comprimento."
+            "Um reservatório ocupa \\(10\\,\\text{cm}^3\\) numa maquete de escala \\(1:100\\).",
+            "O volume real é \\(10\\times100^3=10\\,000\\,000\\,\\text{cm}^3\\).",
+            "Como \\(1\\,\\text{L}=1\\,000\\,\\text{cm}^3\\), a capacidade real é 10 000 L. Multiplicar apenas por 100 confundiria volume com comprimento."
           ]
         },
         "pitfall": "Não aplique a escala linear diretamente à área ou ao volume. Ao comparar medidas, padronize as unidades primeiro."
@@ -141,27 +141,27 @@
           {
             "title": "Proporcionalidade direta",
             "text": "Se o ritmo de produção permanece constante, dobrar o tempo dobra a quantidade produzida. A razão entre as duas grandezas permanece fixa. Uma proporção de mistura também mantém constantes as razões entre as partes.",
-            "formula": "y = kx; y/x = k",
-            "notation": "k é a constante de proporcionalidade, como a quantidade produzida por hora."
+            "formula": "\\[y=kx\\quad\\text{e}\\quad\\frac{y}{x}=k\\]",
+            "notation": "\\(x\\) e \\(y\\) são as grandezas relacionadas; a razão exige \\(x\\ne0\\). \\(k\\) é a constante de proporcionalidade, como a quantidade produzida por hora."
           },
           {
             "title": "Proporcionalidade inversa",
             "text": "Para percorrer uma distância fixa, aumentar a velocidade reduz o tempo. Ao dobrar a velocidade, o tempo cai pela metade. Nesse caso, é o produto das grandezas que fica constante.",
-            "formula": "xy = k; t = d/v",
-            "notation": "d é a distância fixa, v a velocidade e t o tempo. Grandezas que apenas variam juntas não são necessariamente proporcionais."
+            "formula": "\\[xy=k\\quad\\text{e}\\quad t=\\frac{d}{v}\\]",
+            "notation": "\\(x\\) e \\(y\\) são grandezas cujo produto é a constante \\(k\\). No exemplo, \\(d\\) é a distância fixa, \\(v\\) a velocidade e \\(t\\) o tempo. Grandezas que apenas variam juntas não são necessariamente proporcionais."
           },
           {
             "title": "Várias grandezas e percentuais",
             "text": "Com produtividade constante, uma coleta depende do número de pessoas, das horas por dia e do número de dias. Separe mudanças por período. Para percentuais sucessivos, aplique cada taxa sobre o valor já atualizado.",
-            "formula": "produção = taxa × pessoas × horas × dias",
-            "notation": "A taxa é a produção por pessoa e por hora. A fórmula exige a hipótese de produtividade constante e ausência de limitações adicionais."
+            "formula": "\\[Q=r\\times p\\times h\\times d\\]",
+            "notation": "\\(Q\\) é a produção; \\(r\\), a taxa por pessoa e por hora; \\(p\\), o número de pessoas; \\(h\\), as horas de trabalho por dia; e \\(d\\), o número de dias. A fórmula exige produtividade constante e ausência de limitações adicionais."
           }
         ],
         "example": {
           "title": "Uma equipe maior",
           "steps": [
-            "Quatro pessoas montam 80 kits em 2 horas. A produtividade é 80/(4 × 2) = 10 kits por pessoa por hora.",
-            "Seis pessoas trabalhando 3 horas, no mesmo ritmo, montam 10 × 6 × 3 = 180 kits.",
+            "Quatro pessoas montam 80 kits em 2 horas. A produtividade é \\(\\frac{80}{4\\times2}=10\\) kits por pessoa por hora.",
+            "Seis pessoas trabalhando 3 horas, no mesmo ritmo, montam \\(10\\times6\\times3=180\\) kits.",
             "Para montar os mesmos 80 kits com oito pessoas, bastaria 1 hora: dobrar a equipe reduz à metade o tempo da tarefa fixa."
           ]
         },
@@ -181,32 +181,32 @@
         "sections": [
           {
             "title": "Função afim",
-            "text": "Uma cobrança com parcela fixa e preço constante por unidade pode ser representada por uma função afim. O coeficiente de x informa quanto o total muda a cada unidade; o termo constante representa a parte independente de x.",
-            "formula": "y = ax + b",
-            "notation": "a é a taxa de variação e b é o valor de y quando x = 0, quando esse valor pertence ao contexto."
+            "text": "Uma cobrança com parcela fixa e preço constante por unidade pode ser representada por uma função afim. O coeficiente de \\(x\\) informa quanto o total muda a cada unidade; o termo constante representa a parte independente de \\(x\\).",
+            "formula": "\\[y=ax+b\\]",
+            "notation": "\\(a\\) é a taxa de variação e \\(b\\) é o valor de \\(y\\) quando \\(x=0\\), quando esse valor pertence ao contexto."
           },
           {
             "title": "Sistemas de equações",
             "text": "Quando há duas quantidades desconhecidas, duas relações independentes podem determinar seus valores. Substituição e eliminação são maneiras de combinar as equações preservando suas soluções.",
-            "formula": "ax + by = c; dx + ey = f",
-            "notation": "x e y são as incógnitas. Depois de resolver, substitua os valores nas duas equações originais."
+            "formula": "\\[\\begin{cases}ax+by=c\\\\dx+ey=f\\end{cases}\\]",
+            "notation": "\\(x\\) e \\(y\\) são as incógnitas; as demais letras representam coeficientes conhecidos. Depois de resolver, substitua os valores nas duas equações originais."
           },
           {
             "title": "Produtos e modelos quadráticos",
-            "text": "Uma receita é preço multiplicado por quantidade vendida. Se os dois fatores variam linearmente com um desconto, seu produto pode gerar uma função quadrática. O sinal do termo x² indica a concavidade da parábola.",
-            "formula": "R(x) = (p − ax)(q + bx)",
-            "notation": "p é o preço inicial, q a quantidade inicial, a a redução de preço por unidade de x e b o aumento de vendas correspondente."
+            "text": "Uma receita é preço multiplicado por quantidade vendida. Se os dois fatores variam linearmente com um desconto, seu produto pode gerar uma função quadrática. O sinal do termo em \\(x^2\\) indica a concavidade da parábola.",
+            "formula": "\\[R(x)=(p-ax)(q+bx)\\]",
+            "notation": "\\(R(x)\\) é a receita; \\(p\\), o preço inicial; \\(q\\), a quantidade inicial; \\(a\\), a redução de preço por unidade de \\(x\\); e \\(b\\), o aumento de vendas correspondente."
           }
         ],
         "example": {
           "title": "Custo de um passeio",
           "steps": [
-            "Um ônibus custa R$ 600 para contratar, mais R$ 20 de ingresso por participante. Para n pessoas, C(n) = 600 + 20n.",
-            "Se o orçamento total é R$ 1 400, resolvemos 600 + 20n = 1 400.",
-            "Logo, n = 40 pessoas. Conferindo: 600 + 20 × 40 = 1 400."
+            "Um ônibus custa R$ 600 para contratar, mais R$ 20 de ingresso por participante. Para \\(n\\) pessoas, \\(C(n)=600+20n\\), em reais.",
+            "Se o orçamento total é R$ 1 400, resolvemos \\(600+20n=1\\,400\\).",
+            "Logo, \\(n=40\\) pessoas. Conferindo: \\(600+20\\times40=1\\,400\\)."
           ]
         },
-        "pitfall": "Uma variável pode incluir alguém ou algo cobrado de forma diferente. Se X inclui o gerente, os diaristas são X − 1."
+        "pitfall": "Uma variável pode incluir alguém ou algo cobrado de forma diferente. Se \\(X\\) inclui o gerente, os diaristas são \\(X-1\\)."
       }
     },
     {
@@ -223,28 +223,28 @@
           {
             "title": "Eixos e unidades",
             "text": "Um valor 23 020 em um eixo marcado 'em mil pessoas' significa 23 020 000 pessoas. Em gráficos com várias curvas ou barras, use a legenda para identificar cada série. Eixos interrompidos podem exagerar diferenças visuais.",
-            "formula": "valor real = valor lido × multiplicador da unidade",
-            "notation": "O multiplicador pode ser mil, milhão ou outra escala indicada junto ao eixo ou no título."
+            "formula": "\\[V_{\\text{real}}=V_{\\text{lido}}\\times m\\]",
+            "notation": "\\(V\\) representa o valor. O multiplicador \\(m\\) pode ser mil, milhão ou outra escala indicada junto ao eixo ou no título."
           },
           {
             "title": "Tendência e projeção",
             "text": "Variação absoluta constante significa somar ou subtrair a mesma quantidade a cada período. Variação percentual constante significa multiplicar sempre pelo mesmo fator. Extrapolar é projetar além do intervalo observado, sob uma hipótese explícita.",
-            "formula": "valor seguinte = valor atual + Δ; ou valor atual × (1 + r)",
-            "notation": "Δ é a variação absoluta por período; r é a taxa proporcional escrita como decimal."
+            "formula": "\\[\\begin{aligned}V_{n+1}&=V_n+\\Delta\\\\\\text{ou}\\qquad V_{n+1}&=V_n(1+r)\\end{aligned}\\]",
+            "notation": "\\(V_n\\) é o valor atual e \\(V_{n+1}\\), o seguinte. \\(\\Delta\\) é a variação absoluta por período; \\(r\\) é a taxa proporcional escrita como decimal."
           },
           {
             "title": "Combine linhas e colunas",
             "text": "Uma tabela pode exigir multiplicar quantidades por preços, durações por taxas ou somar várias categorias. Preserve a correspondência entre cada valor e seu rótulo. Em um gráfico de radar, cada direção representa uma categoria e a distância ao centro representa o valor.",
-            "formula": "total = quantidade 1 × taxa 1 + quantidade 2 × taxa 2 + …",
-            "notation": "Cada produto deve usar valores da mesma categoria e unidades compatíveis."
+            "formula": "\\[T=\\sum_{i=1}^{n}q_i\\,t_i\\]",
+            "notation": "\\(T\\) é o total; \\(q_i\\) e \\(t_i\\) são a quantidade e a taxa da categoria \\(i\\). O símbolo \\(\\sum\\) indica a soma dos produtos das \\(n\\) categorias: \\(q_1t_1+q_2t_2+\\cdots+q_nt_n\\). Cada produto deve usar unidades compatíveis."
           }
         ],
         "example": {
           "title": "Quando uma venda supera a outra?",
           "steps": [
             "Em março, a loja A vende 100 peças e cresce 20 por mês; B vende 160 e perde 10 por mês.",
-            "Em abril: A = 120 e B = 150. Em maio: A = 140 e B = 140. Em junho: A = 160 e B = 130.",
-            "A supera B pela primeira vez em junho. A igualdade de maio ainda não satisfaz a condição 'superar'."
+            "Em abril: \\(A=120\\) e \\(B=150\\). Em maio: \\(A=140\\) e \\(B=140\\). Em junho: \\(A=160\\) e \\(B=130\\).",
+            "A supera B pela primeira vez em junho. A igualdade de maio ainda não satisfaz a condição “superar”."
           ]
         },
         "pitfall": "Não confunda 'igualar' com 'superar', nem o mês em que o evento ocorre com o mês seguinte solicitado pela pergunta."
@@ -264,31 +264,31 @@
           {
             "title": "Média, mediana e dispersão",
             "text": "A média divide a soma pelo número de valores. A mediana é o valor central após ordenar os dados; com quantidade par, é a média dos dois centrais. A dispersão indica quanto os dados se afastam entre si: conjuntos de mesma média podem ter amplitudes muito diferentes.",
-            "formula": "média = soma/n; amplitude = maior − menor",
-            "notation": "n é a quantidade de observações. Quando há frequências, cada valor aparece tantas vezes quanto sua frequência indica."
+            "formula": "\\[\\begin{aligned}\\bar{x}&=\\frac{x_1+x_2+\\cdots+x_n}{n}\\\\\\text{amplitude}&=x_{\\max}-x_{\\min}\\end{aligned}\\]",
+            "notation": "\\(n\\) é a quantidade de observações; \\(x_1,\\ldots,x_n\\) são os valores observados; \\(\\bar{x}\\) é a média; \\(x_{\\max}\\) e \\(x_{\\min}\\) são o maior e o menor valor. Quando há frequências, cada valor aparece tantas vezes quanto sua frequência indica."
           },
           {
             "title": "Probabilidade e contagem",
             "text": "Em resultados igualmente prováveis, a chance de um evento é a fração de resultados favoráveis. Para eventos independentes que precisam ocorrer juntos, multiplicamos probabilidades; para casos incompatíveis, somamos.",
-            "formula": "P(A) = favoráveis/possíveis; P(A e B) = P(A)P(B) se independentes",
-            "notation": "Independência significa que saber o resultado de um evento não muda a chance do outro."
+            "formula": "\\[\\begin{aligned}P(A)&=\\frac{\\text{casos favoráveis}}{\\text{casos possíveis}}\\\\P(A\\cap B)&=P(A)\\,P(B)\\end{aligned}\\]",
+            "notation": "\\(A\\) e \\(B\\) representam eventos. \\(A\\cap B\\) significa que ambos ocorrem. A segunda fórmula vale para eventos independentes: saber o resultado de um evento não muda a chance do outro."
           },
           {
             "title": "A condição muda o universo",
             "text": "Uma pergunta que diz 'sabendo que' restringe o grupo de referência. Entre os que não falam inglês, por exemplo, o denominador deve contar apenas quem não fala inglês, e não todos os alunos.",
-            "formula": "P(A | B) = P(A e B)/P(B)",
-            "notation": "P(A | B) é a probabilidade de A quando B já é conhecido e P(B) é diferente de zero."
+            "formula": "\\[P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}\\]",
+            "notation": "\\(P(A\\mid B)\\) é a probabilidade de \\(A\\) quando \\(B\\) já é conhecido, com \\(P(B)\\ne0\\)."
           }
         ],
         "example": {
           "title": "Uma chance dentro de um grupo",
           "steps": [
             "Uma turma tem 30 pessoas: 18 estudam espanhol e, dessas, 6 também estudam francês.",
-            "Sorteando entre todos, a chance de estudar as duas línguas é 6/30 = 20%.",
-            "Sabendo que a pessoa estuda espanhol, o grupo fica restrito a 18 pessoas: a chance de também estudar francês é 6/18 = 1/3."
+            "Sorteando entre todos, a chance de estudar as duas línguas é \\(\\frac{6}{30}=20\\%\\).",
+            "Sabendo que a pessoa estuda espanhol, o grupo fica restrito a 18 pessoas: a chance de também estudar francês é \\(\\frac{6}{18}=\\frac{1}{3}\\)."
           ]
         },
-        "pitfall": "P(A | B) geralmente é diferente de P(B | A). Antes de dividir, identifique exatamente qual grupo foi fixado pela condição."
+        "pitfall": "\\(P(A\\mid B)\\) geralmente é diferente de \\(P(B\\mid A)\\). Antes de dividir, identifique exatamente qual grupo foi fixado pela condição."
       }
     }
   ],
@@ -301,9 +301,9 @@
       "explanation": {
         "concept": "Comparação de propostas com descontos e juros",
         "steps": [
-          "As dívidas originais são 12 × 150 = R$ 1 800 e 5 × 80 = R$ 400. Quitá-las com desconto exige R$ 1 500 e R$ 300, respectivamente. O empréstimo do amigo deve ser devolvido multiplicado por 1,25.",
-          "Compare os gastos: renegociar custa 18 × 125 = R$ 2 250; tomar R$ 1 800 emprestados para quitar ambas custa R$ 2 250; pagar normalmente custa R$ 2 200; quitar só o cheque com empréstimo custa 1 500 × 1,25 + 400 = R$ 2 275.",
-          "Quitar apenas o cartão com empréstimo custa 300 × 1,25 + 1 800 = R$ 2 175, o menor total. Essa é a alternativa E."
+          "As dívidas originais são \\(12 \\times  150 = \\text{R\\$}\\, 1\\,800\\) e \\(5 \\times  80 = \\text{R\\$}\\, 400\\). Quitá-las com desconto exige R$ 1 500 e R$ 300, respectivamente. O empréstimo do amigo deve ser devolvido multiplicado por 1,25.",
+          "Compare os gastos: renegociar custa \\(18 \\times  125 = \\text{R\\$}\\, 2\\,250\\); tomar R$ 1 800 emprestados para quitar ambas custa R$ 2 250; pagar normalmente custa R$ 2 200; quitar só o cheque com empréstimo custa \\(1\\,500 \\times  1{,}25 + 400 = \\text{R\\$}\\, 2\\,275\\).",
+          "Quitar apenas o cartão com empréstimo custa \\(300 \\times  1{,}25 + 1\\,800 = \\text{R\\$}\\, 2\\,175\\), o menor total. Essa é a alternativa E."
         ],
         "takeaway": "Compare o custo final de cada proposta, incluindo o juro que incide sobre o dinheiro usado para obter o desconto."
       }
@@ -316,8 +316,8 @@
       "explanation": {
         "concept": "Descontos sucessivos",
         "steps": [
-          "O desconto inicial de 20% reduz o preço de R$ 50 para 50 × 0,80 = R$ 40. Esse é o preço disponível a qualquer cliente.",
-          "O cartão daria 10% de desconto sobre os R$ 40 já remarcados: 0,10 × 40 = R$ 4. Essa é a economia adicional perguntada, alternativa E; o preço final com cartão seria R$ 36."
+          "O desconto inicial de \\(20\\%\\) reduz o preço de R$ 50 para \\(50 \\times  0{,}80 = \\text{R\\$}\\, 40\\). Esse é o preço disponível a qualquer cliente.",
+          "O cartão daria \\(10\\%\\) de desconto sobre os R$ 40 já remarcados: \\(0{,}10 \\times  40 = \\text{R\\$}\\, 4\\). Essa é a economia adicional perguntada, alternativa E; o preço final com cartão seria R$ 36."
         ],
         "takeaway": "Um desconto adicional incide sobre o preço já atualizado, não sobre o preço original."
       }
@@ -330,9 +330,9 @@
       "explanation": {
         "concept": "Princípio multiplicativo e escolha de posições",
         "steps": [
-          "Há 10 possibilidades para cada algarismo e 52 para cada letra, pois as 26 maiúsculas diferem das 26 minúsculas. Como não há proibição de repetição, para uma disposição fixa são 10² × 52² senhas.",
-          "As duas posições dos algarismos podem ser escolhidas entre quatro de C(4,2) = 4!/(2!2!) = 6 maneiras; as outras ficam para as letras.",
-          "O total é 10² × 52² × 4!/(2!2!) = 1 622 400, expressão representada na alternativa E."
+          "Há 10 possibilidades para cada algarismo e 52 para cada letra, pois as 26 maiúsculas diferem das 26 minúsculas. Como não há proibição de repetição, para uma disposição fixa são \\(10^{2} \\times  52^{2}\\) senhas.",
+          "As duas posições dos algarismos podem ser escolhidas entre quatro de \\(\\binom{4}{2}=\\frac{4!}{2!\\,2!}=6\\) maneiras; as outras ficam para as letras.",
+          "O total é \\(10^2\\times52^2\\times\\frac{4!}{2!\\,2!}=1\\,622\\,400\\), expressão representada na alternativa E."
         ],
         "takeaway": "Conte os caracteres e também as posições que cada tipo de caractere pode ocupar."
       }
@@ -345,8 +345,8 @@
       "explanation": {
         "concept": "Contagem de configurações independentes",
         "steps": [
-          "Cada um dos três opcionais pode estar presente ou ausente, totalizando 2³ = 8 conjuntos de opcionais, inclusive não escolher nenhum. Para cada cor, há 7 modelos × 2 motores × 8 conjuntos = 112 configurações.",
-          "Com c cores, a divulgação exige 112c > 1 000. Oito cores dão 896 configurações, enquanto nove dão 1 008. Logo, são necessárias pelo menos 9 cores, alternativa B."
+          "Cada um dos três opcionais pode estar presente ou ausente, totalizando \\(2^{3} = 8\\) conjuntos de opcionais, inclusive não escolher nenhum. Para cada cor, combinamos 7 modelos, 2 motores e 8 conjuntos de opcionais: \\(7\\times2\\times8=112\\) configurações.",
+          "Com \\(c\\) cores, a divulgação exige \\(112c > 1\\,000\\). Oito cores dão 896 configurações, enquanto nove dão 1 008. Logo, são necessárias pelo menos 9 cores, alternativa B."
         ],
         "takeaway": "Opcionais independentes geram combinações por presença ou ausência; 'mais de' exige uma desigualdade estrita."
       }
@@ -361,7 +361,7 @@
         "steps": [
           "Na fase de grupos, cada equipe joga três partidas. Para chegar à final e disputá-la, acrescenta quatro partidas: oitavas, quartas, semifinal e final. Uma finalista precisa, portanto, de sete datas de jogo.",
           "Três dias completos de descanso exigem quatro dias entre as datas: os jogos podem ocorrer nos dias 1, 5, 9, 13, 17, 21 e 25. As equipes de cada rodada podem jogar simultaneamente, pois o problema não limita campos.",
-          "Do primeiro ao último dia, o torneio ocupa no mínimo 1 + 6 × 4 = 25 dias, alternativa B."
+          "Do primeiro ao último dia, o torneio ocupa no mínimo \\(1 + 6 \\times  4 = 25\\) dias, alternativa B."
         ],
         "takeaway": "Sete eventos têm seis intervalos entre eles; conte também o primeiro dia."
       }
@@ -374,8 +374,8 @@
       "explanation": {
         "concept": "Semelhança de triângulos na rampa",
         "steps": [
-          "A inclinação constante da rampa forma triângulos semelhantes. A cada 3,2 m percorridos ao longo dela, a altura aumenta 0,8 m: a razão distância/altura é 3,2/0,8 = 4.",
-          "Falta subir verticalmente 2,2 − 0,8 = 1,4 m. A distância correspondente sobre a rampa é 4 × 1,4 = 5,6 m, alternativa D. O comprimento total da rampa seria 8,8 m, mas a pergunta pede apenas o trecho restante."
+          "A inclinação constante da rampa forma triângulos semelhantes. A cada 3,2 m percorridos ao longo dela, a altura aumenta 0,8 m: a razão distância/altura é \\(\\frac{3{,}2}{0{,}8}=4\\).",
+          "Falta subir verticalmente \\(2{,}2 - 0{,}8 = 1{,}4\\) m. A distância correspondente sobre a rampa é \\(4 \\times  1{,}4 = 5{,}6\\) m, alternativa D. O comprimento total da rampa seria 8,8 m, mas a pergunta pede apenas o trecho restante."
         ],
         "takeaway": "Na semelhança, compare medidas correspondentes; distância sobre a rampa não é sua projeção horizontal."
       }
@@ -403,7 +403,7 @@
         "concept": "Truncamento de um tetraedro regular",
         "steps": [
           "O tetraedro tem quatro vértices. Cortar cada vértice por um plano paralelo à face oposta cria uma nova face triangular equilátera. Assim, surgem quatro triângulos.",
-          "Cada uma das quatro faces triangulares originais perde seus três cantos, tornando-se um hexágono. Como cada corte retira um terço das arestas, os seis segmentos restantes ou criados em cada face têm comprimento a/3 e ângulos de 120°, formando hexágonos regulares.",
+          "Cada uma das quatro faces triangulares originais perde seus três cantos, tornando-se um hexágono. Como cada corte retira um terço das arestas, os seis segmentos restantes ou criados em cada face têm comprimento \\(\\frac{a}{3}\\) e ângulos de \\(120^{\\circ}\\), formando hexágonos regulares. Aqui, \\(a\\) representa o comprimento de uma aresta do tetraedro original.",
           "Portanto, a luminária possui 4 hexágonos regulares e 4 triângulos equiláteros, alternativa A."
         ],
         "takeaway": "Em um truncamento, conte separadamente as faces novas dos cortes e as faces originais transformadas."
@@ -417,8 +417,8 @@
       "explanation": {
         "concept": "Teorema de Pitágoras na dobradura",
         "steps": [
-          "O retângulo original mede 18 cm na horizontal e 12 cm na vertical. Na figura, EC = 12 cm; portanto E está 18 − 12 = 6 cm à direita da projeção vertical de A sobre a borda inferior.",
-          "O segmento AE é a hipotenusa de um triângulo retângulo com catetos 6 cm e 12 cm. Assim, AE² = 6² + 12² = 180, e AE = √180 = 6√5 cm, alternativa D."
+          "O retângulo original mede 18 cm na horizontal e 12 cm na vertical. Na figura, \\(EC = 12\\) cm; portanto E está \\(18 - 12 = 6\\) cm à direita da projeção vertical de A sobre a borda inferior.",
+          "O segmento \\(AE\\) é a hipotenusa de um triângulo retângulo com catetos 6 cm e 12 cm. Assim, \\(AE^{2} = 6^{2} + 12^{2} = 180\\), e \\(AE=\\sqrt{180}=6\\sqrt{5}\\) cm, alternativa D."
         ],
         "takeaway": "Localize os catetos pela diferença entre medidas do retângulo antes de aplicar Pitágoras."
       }
@@ -431,9 +431,9 @@
       "explanation": {
         "concept": "Lei dos cossenos e comparação de áreas",
         "steps": [
-          "A área de um círculo de diâmetro d é πd²/4. Se a é o diâmetro da pizza do professor e b e c são os dos amigos, a afirmação sobre as áreas equivale a a² > b² + c².",
-          "Na figura, α é o ângulo oposto ao lado a. Pela lei dos cossenos, a² = b² + c² − 2bc cos(α). Para a² superar a soma, é necessário cos(α) < 0.",
-          "Um ângulo interno de triângulo com cosseno negativo é obtuso: 90° < α < 180°. Por isso, a alternativa C está correta."
+          "A área de um círculo de diâmetro \\(d\\) é \\(\\frac{\\pi d^2}{4}\\). Se \\(a\\) é o diâmetro da pizza do professor e \\(b\\) e \\(c\\) são os dos amigos, a afirmação sobre as áreas equivale a \\(a^{2} > b^{2} + c^{2}\\).",
+          "Na figura, \\(\\alpha \\) é o ângulo oposto ao lado \\(a\\). Pela lei dos cossenos, \\(a^{2} = b^{2} + c^{2} - 2bc \\cos (\\alpha )\\). Para \\(a^{2}\\) superar a soma, é necessário \\(\\cos (\\alpha ) < 0\\).",
+          "Um ângulo interno de triângulo com cosseno negativo é obtuso: \\(90^{\\circ} < \\alpha  < 180^{\\circ}\\). Por isso, a alternativa C está correta."
         ],
         "takeaway": "Comparar áreas de círculos equivale a comparar os quadrados de seus diâmetros."
       }
@@ -446,8 +446,8 @@
       "explanation": {
         "concept": "Conversão entre unidades de volume",
         "steps": [
-          "Uma onça fluida equivale a 2,95 cL. Como 1 cL = 10 mL, temos 1 fl oz = 29,5 mL.",
-          "Para converter 355 mL em onças fluidas, dividimos por 29,5: 355/29,5 ≈ 12,03 fl oz. Esse é o valor da alternativa C."
+          "Uma onça fluida equivale a 2,95 cL. Como \\(1\\,\\text{cL}=10\\,\\text{mL}\\), temos \\(1\\,\\text{fl oz}=29{,}5\\,\\text{mL}\\).",
+          "Para converter 355 mL em onças fluidas, dividimos por 29,5: \\(\\frac{355}{29{,}5}\\approx12{,}03\\) fl oz. Esse é o valor da alternativa C."
         ],
         "takeaway": "Converta as equivalências para a mesma unidade antes de dividir os volumes."
       }
@@ -460,8 +460,8 @@
       "explanation": {
         "concept": "Escala volumétrica e capacidade",
         "steps": [
-          "Na escala 1:200, cada dimensão real é 200 vezes a dimensão da maquete. Logo, o volume real é 45 × 200³ = 360 000 000 cm³.",
-          "Como 1 L = 1 000 cm³, o reservatório tem 360 000 L. Ao consumo de 30 000 L por dia, durará 360 000/30 000 = 12 dias, alternativa C."
+          "Na escala \\(1:200\\), cada dimensão real é 200 vezes a dimensão da maquete. Logo, o volume real é \\(45 \\times  200^{3} = 360\\,000\\,000\\) cm³.",
+          "Como \\(1\\,\\text{L}=1\\,000\\,\\text{cm}^3\\), o reservatório tem 360 000 L. Ao consumo de 30 000 L por dia, durará \\(\\frac{360\\,000}{30\\,000}=12\\) dias, alternativa C."
         ],
         "takeaway": "O fator de escala de um volume é o cubo do fator de escala dos comprimentos."
       }
@@ -474,8 +474,8 @@
       "explanation": {
         "concept": "Conversão encadeada de comprimento",
         "steps": [
-          "A tabela informa que uma jarda equivale a 3 pés e também a 0,9144 m. Portanto, 1 pé = 0,9144/3 = 0,3048 m = 30,48 cm.",
-          "Como uma polegada mede 2,54 cm, um pé corresponde a 30,48/2,54 = 12 polegadas, alternativa D."
+          "A tabela informa que uma jarda equivale a 3 pés e também a 0,9144 m. Portanto, \\(1\\,\\text{pé}=\\frac{0{,}9144}{3}\\,\\text{m}=0{,}3048\\,\\text{m}=30{,}48\\,\\text{cm}\\).",
+          "Como uma polegada mede 2,54 cm, um pé corresponde a \\(\\frac{30{,}48}{2{,}54}=12\\) polegadas, alternativa D."
         ],
         "takeaway": "Uma unidade intermediária comum permite relacionar medidas mesmo quando a equivalência não está dada diretamente."
       }
@@ -488,8 +488,8 @@
       "explanation": {
         "concept": "Escala e espaço de instalação",
         "steps": [
-          "Na escala 1:50, o espaço real tem altura 3,8 × 50 = 190 cm e largura 1,6 × 50 = 80 cm.",
-          "A geladeira precisa deixar 10 cm livres acima e 10 cm em cada lateral. Sua altura máxima é 190 − 10 = 180 cm e sua largura máxima é 80 − 20 = 60 cm.",
+          "Na escala \\(1:50\\), o espaço real tem altura \\(3{,}8 \\times  50 = 190\\) cm e largura \\(1{,}6 \\times  50 = 80\\) cm.",
+          "A geladeira precisa deixar 10 cm livres acima e 10 cm em cada lateral. Sua altura máxima é \\(190 - 10 = 180\\) cm e sua largura máxima é \\(80 - 20 = 60\\) cm.",
           "Convertendo para metros, as dimensões são 1,80 m e 0,60 m, alternativa A."
         ],
         "takeaway": "Depois de aplicar a escala, desconte as folgas em cada direção; duas laterais exigem dois descontos."
@@ -503,8 +503,8 @@
       "explanation": {
         "concept": "Conversão entre unidades de tempo",
         "steps": [
-          "O governo durou 20 ciclos de 52 anos Haab: 20 × 52 = 1 040 anos Haab. Cada um contém 365 dias, logo o período tem 1 040 × 365 = 379 600 dias.",
-          "Cada ano Tzolkim contém 260 dias. Portanto, o mesmo período corresponde a 379 600/260 = 1 460 anos Tzolkim, alternativa C."
+          "O governo durou 20 ciclos de 52 anos Haab: \\(20 \\times  52 = 1\\,040\\) anos Haab. Cada um contém 365 dias, logo o período tem \\(1\\,040 \\times  365 = 379\\,600\\) dias.",
+          "Cada ano Tzolkim contém 260 dias. Portanto, o mesmo período corresponde a \\(\\frac{379\\,600}{260}=1\\,460\\) anos Tzolkim, alternativa C."
         ],
         "takeaway": "Calendários diferentes podem ser comparados convertendo primeiro para uma unidade comum, como dias."
       }
@@ -517,8 +517,8 @@
       "explanation": {
         "concept": "Produtividade proporcional e restrição de custo",
         "steps": [
-          "Para colher 180 hectares em 6 dias, a equipe precisa colher 30 hectares por dia. O contrato inicial prevê 20 hectares em 6 horas; a produção diária deve aumentar pelo fator 30/20 = 1,5.",
-          "Mantendo trabalhadores, máquinas e ritmo, a jornada deve ser 6 × 1,5 = 9 horas por dia. O custo informado é diário: 12 × 10 + 4 × 1 000 = R$ 4 120 por dia, ou R$ 24 720 em seis dias.",
+          "Para colher 180 hectares em 6 dias, a equipe precisa colher 30 hectares por dia. O contrato inicial prevê 20 hectares em 6 horas; a produção diária deve aumentar pelo fator \\(\\frac{30}{20}=1{,}5\\).",
+          "Mantendo trabalhadores, máquinas e ritmo, a jornada deve ser \\(6 \\times  1{,}5 = 9\\) horas por dia. O custo informado é diário: \\(12 \\times  10 + 4 \\times  1\\,000 = \\text{R\\$}\\, 4\\,120\\) por dia, ou R$ 24 720 em seis dias.",
           "A jornada de 9 horas atende tanto à área quanto ao limite inferior a R$ 25 000. Assim, a alternativa D é correta, dentro das condições de custo diário fixadas no enunciado."
         ],
         "takeaway": "Uma proposta precisa satisfazer ao mesmo tempo a meta de produção e o orçamento."
@@ -532,9 +532,9 @@
       "explanation": {
         "concept": "Proporcionalidade composta em dois períodos",
         "steps": [
-          "Nos primeiros 10 dias, a coleta soma 12 × 10 = 120 kg. O ritmo é 12/(20 × 3) = 0,2 kg por aluno por hora.",
-          "Nos 20 dias restantes, trabalham 20 + 30 = 50 alunos por 4 horas diárias. A coleta diária passa a 0,2 × 50 × 4 = 40 kg, e a segunda etapa rende 40 × 20 = 800 kg.",
-          "O total da campanha é 120 + 800 = 920 kg, alternativa A."
+          "Nos primeiros 10 dias, a coleta soma \\(12 \\times  10 = 120\\) kg. O ritmo é \\(\\frac{12}{20\\times3}=0{,}2\\) kg por aluno por hora.",
+          "Nos 20 dias restantes, trabalham \\(20 + 30 = 50\\) alunos por 4 horas diárias. A coleta diária passa a \\(0{,}2 \\times  50 \\times  4 = 40\\) kg, e a segunda etapa rende \\(40 \\times  20 = 800\\) kg.",
+          "O total da campanha é \\(120 + 800 = 920\\) kg, alternativa A."
         ],
         "takeaway": "Separe os períodos com equipes ou jornadas diferentes e só depois some os resultados."
       }
@@ -547,8 +547,8 @@
       "explanation": {
         "concept": "Divisão em partes proporcionais",
         "steps": [
-          "A mistura utiliza 1 parte de cimento, 4 de areia e 2 de brita, totalizando 1 + 4 + 2 = 7 partes.",
-          "Os 14 m³ correspondem às sete partes; cada parte vale 14/7 = 2 m³. Como o cimento representa uma parte, seu volume é 2 m³, alternativa B."
+          "A mistura utiliza 1 parte de cimento, 4 de areia e 2 de brita, totalizando \\(1 + 4 + 2 = 7\\) partes.",
+          "Os \\(14\\,\\text{m}^{3}\\) correspondem às sete partes; cada parte vale \\(\\frac{14}{7}=2\\) m³. Como o cimento representa uma parte, seu volume é \\(2\\,\\text{m}^{3}\\), alternativa B."
         ],
         "takeaway": "Para dividir um total em uma proporção, some primeiro todas as partes da mistura."
       }
@@ -561,8 +561,8 @@
       "explanation": {
         "concept": "Variações percentuais sucessivas",
         "steps": [
-          "Aplicando o aumento de 7,2% ao valor de 2000, o rendimento de 2010 no problema é 1 250 × 1,072 = R$ 1 340.",
-          "A projeção de 2020 adiciona 10% ao valor de 2010: 1 340 × 1,10 = R$ 1 474. Assim, sob a hipótese da projeção do enunciado, a alternativa E é correta."
+          "Aplicando o aumento de \\(7{,}2\\%\\) ao valor de 2000, o rendimento de 2010 no problema é \\(1\\,250 \\times  1{,}072 = \\text{R\\$}\\, 1\\,340\\).",
+          "A projeção de 2020 adiciona \\(10\\%\\) ao valor de 2010: \\(1\\,340 \\times  1{,}10 = \\text{R\\$}\\, 1\\,474\\). Assim, sob a hipótese da projeção do enunciado, a alternativa E é correta."
         ],
         "takeaway": "Taxas de períodos sucessivos multiplicam fatores; a segunda taxa usa a base já aumentada."
       }
@@ -575,9 +575,9 @@
       "explanation": {
         "concept": "Consumo proporcional, embalagens e desconto",
         "steps": [
-          "A escola usa 6 000/1 200 = 5 folhas por aluno. Para 1 150 alunos, precisa de 5 × 1 150 = 5 750 folhas.",
-          "Como as embalagens contêm 100 folhas, é necessário comprar 58 embalagens, e não 57,5. O preço sem desconto é 58 × 4 = R$ 232.",
-          "Para gastar R$ 220, o desconto é R$ 12, equivalente a 12/232 × 100 ≈ 5,17%. Esse valor está no intervalo (5,0; 5,5), alternativa A."
+          "A escola usa \\(\\frac{6\\,000}{1\\,200}=5\\) folhas por aluno. Para 1 150 alunos, precisa de \\(5 \\times  1\\,150 = 5\\,750\\) folhas.",
+          "Como as embalagens contêm 100 folhas, é necessário comprar 58 embalagens, e não 57,5. O preço sem desconto é \\(58 \\times  4 = \\text{R\\$}\\, 232\\).",
+          "Para gastar R$ 220, o desconto é R$ 12, equivalente a \\(\\frac{12}{232}\\times100\\%\\approx5{,}17\\%\\). Esse valor está no intervalo (5,0; 5,5), alternativa A."
         ],
         "takeaway": "A proporção determina a necessidade, mas a compra deve respeitar embalagens inteiras."
       }
@@ -590,9 +590,9 @@
       "explanation": {
         "concept": "Equação para a divisão de uma despesa",
         "steps": [
-          "As 50 pessoas iniciais pagarão mais R$ 7 cada, contribuindo com 50 × 7 = R$ 350 para cobrir os R$ 510 que faltavam.",
-          "Restam 510 − 350 = R$ 160, que serão pagos pelas cinco novas pessoas. Como elas ainda não haviam contribuído, sua contribuição é a cota final completa: 160/5 = R$ 32, alternativa D.",
-          "Conferindo: a cota inicial era 32 − 7 = R$ 25; o total final é 55 × 32 = R$ 1 760, exatamente R$ 510 acima dos 50 × 25 = R$ 1 250 inicialmente arrecadados."
+          "As 50 pessoas iniciais pagarão mais R$ 7 cada, contribuindo com \\(50 \\times  7 = \\text{R\\$}\\, 350\\) para cobrir os R$ 510 que faltavam.",
+          "Restam \\(510 - 350 = \\text{R\\$}\\, 160\\), que serão pagos pelas cinco novas pessoas. Como elas ainda não haviam contribuído, sua contribuição é a cota final completa: \\(\\frac{160}{5}=\\text{R\\$}\\,32\\), alternativa D.",
+          "Conferindo: a cota inicial era \\(32 - 7 = \\text{R\\$}\\, 25\\); o total final é \\(55 \\times  32 = \\text{R\\$}\\, 1\\,760\\), exatamente R$ 510 acima dos \\(50 \\times  25 = \\text{R\\$}\\, 1\\,250\\) inicialmente arrecadados."
         ],
         "takeaway": "Uma equação pode representar apenas a diferença que falta arrecadar, simplificando a conta."
       }
@@ -605,9 +605,9 @@
       "explanation": {
         "concept": "Receita como produto de preço e quantidade",
         "steps": [
-          "O desconto x está em centavos; em reais, ele vale 0,01x. O preço por litro passa a 1,50 − 0,01x, e as vendas diárias passam a 10 000 + 100x litros.",
-          "A receita é V = (1,50 − 0,01x)(10 000 + 100x). Desenvolvendo: V = 15 000 + 150x − 100x − x² = 15 000 + 50x − x².",
-          "Essa é a expressão da alternativa D. Em x = 0, ela retorna R$ 15 000, a receita inicial, o que confere o termo constante."
+          "O desconto \\(x\\) está em centavos; em reais, ele vale \\(0{,}01x\\). O preço por litro passa a \\(1{,}50 - 0{,}01x\\), e as vendas diárias passam a \\(10\\,000 + 100x\\) litros.",
+          "A receita é \\(V = (1{,}50 - 0{,}01x)(10\\,000 + 100x)\\). Desenvolvendo: \\[\\begin{aligned}V&=15\\,000+150x-100x-x^2\\\\&=15\\,000+50x-x^2\\end{aligned}\\].",
+          "Essa é a expressão da alternativa D. Em \\(x = 0\\), ela retorna R$ 15 000, a receita inicial, o que confere o termo constante."
         ],
         "takeaway": "Antes de desenvolver uma expressão, escreva o significado de cada fator e padronize as unidades."
       }
@@ -620,8 +620,8 @@
       "explanation": {
         "concept": "Função afim para a folha de pagamento",
         "steps": [
-          "Cada diarista recebe 2 × 80 = R$ 160 por semana. Como X é o total de funcionários e inclui um gerente, existem X − 1 diaristas.",
-          "Somando o salário do gerente: Y = 1 000 + 160(X − 1) = 160X + 840. Portanto, a alternativa D é correta. A expressão 160X + 1 000 contaria o gerente novamente como diarista."
+          "Cada diarista recebe \\(2 \\times  80 = \\text{R\\$}\\, 160\\) por semana. Como \\(X\\) é o total de funcionários e inclui um gerente, existem \\(X - 1\\) diaristas.",
+          "Somando o salário do gerente: \\(Y = 1\\,000 + 160(X - 1) = 160X + 840\\). Portanto, a alternativa D é correta. A expressão \\(160X + 1\\,000\\) contaria o gerente novamente como diarista."
         ],
         "takeaway": "Quando um total inclui uma categoria especial, retire essa categoria antes de aplicar o preço comum."
       }
@@ -634,9 +634,9 @@
       "explanation": {
         "concept": "Sistema linear e otimização inteira",
         "steps": [
-          "Se L e S são os comprimentos dos circuitos maior e menor, então 3L + 2S = 1 800 e 2L + S = 1 100. Dobrando a segunda equação e subtraindo a primeira, obtemos L = 400 m; depois S = 300 m.",
-          "Para 5 000 m, com x voltas maiores e y menores, 400x + 300y = 5 000, ou 4x + 3y = 50. Como cada volta tem pelo menos 300 m, não é possível completar 17 voltas, que somariam pelo menos 5 100 m.",
-          "Dezesseis voltas são possíveis: x = 2 e y = 14 dão 800 + 4 200 = 5 000 m. Logo, o máximo é 16 voltas, alternativa E."
+          "Se \\(L\\) e \\(S\\) são os comprimentos dos circuitos maior e menor, então \\(3L + 2S = 1\\,800\\) e \\(2L + S = 1\\,100\\). Dobrando a segunda equação e subtraindo a primeira, obtemos \\(L = 400\\) m; depois \\(S = 300\\) m.",
+          "Para 5 000 m, com \\(x\\) voltas maiores e \\(y\\) menores, \\(400x + 300y = 5\\,000\\), ou \\(4x + 3y = 50\\). Como cada volta tem pelo menos 300 m, não é possível completar 17 voltas, que somariam pelo menos 5 100 m.",
+          "Dezesseis voltas são possíveis: \\(x = 2\\) e \\(y = 14\\) dão \\(800 + 4\\,200 = 5\\,000\\) m. Logo, o máximo é 16 voltas, alternativa E."
         ],
         "takeaway": "Depois de resolver os comprimentos, respeite a exigência de números inteiros de voltas e demonstre o máximo."
       }
@@ -649,9 +649,9 @@
       "explanation": {
         "concept": "Sistema de preços unitários",
         "steps": [
-          "Defina a como preço de um tíquete azul e v como o de um vermelho. Duas cartelas azuis e uma vermelha contêm 18 azuis e 9 vermelhos: 18a + 9v = 32,40. Dividindo por 9, 2a + v = 3,60.",
-          "A outra condição é a − v = v + 0,05, portanto a = 2v + 0,05. Substituindo: 2(2v + 0,05) + v = 3,60, então 5v = 3,50 e v = R$ 0,70.",
-          "Uma cartela vermelha contém nove tíquetes: 9 × 0,70 = R$ 6,30, alternativa B."
+          "Defina \\(a\\) como preço de um tíquete azul e \\(v\\) como o de um vermelho. Duas cartelas azuis e uma vermelha contêm 18 azuis e 9 vermelhos: \\(18a + 9v = 32{,}40\\). Dividindo por 9, \\(2a + v = 3{,}60\\).",
+          "A outra condição é \\(a - v = v + 0{,}05\\), portanto \\(a = 2v + 0{,}05\\). Substituindo: \\(2(2v + 0{,}05) + v = 3{,}60\\), então \\(5v = 3{,}50\\) e \\(v = \\text{R\\$}\\, 0{,}70\\).",
+          "Uma cartela vermelha contém nove tíquetes: \\(9 \\times  0{,}70 = \\text{R\\$}\\, 6{,}30\\), alternativa B."
         ],
         "takeaway": "Diferencie preço de um tíquete e preço da cartela para montar e interpretar o sistema."
       }
@@ -665,7 +665,7 @@
         "concept": "Leitura da escala e projeção percentual",
         "steps": [
           "O gráfico informa para maio de 2009 o valor 23 020 em uma escala de mil pessoas. Assim, a população economicamente ativa naquele mês era 23 020 000 pessoas.",
-          "Com crescimento de 4%, a projeção para junho é 23 020 000 × 1,04 = 23 940 800 pessoas, alternativa D. Os 920 800 correspondem apenas ao aumento, não ao total projetado."
+          "Com crescimento de \\(4\\%\\), a projeção para junho é \\(23\\,020\\,000 \\times  1{,}04 = 23\\,940\\,800\\) pessoas, alternativa D. Os 920 800 correspondem apenas ao aumento, não ao total projetado."
         ],
         "takeaway": "Leia o multiplicador da unidade e diferencie aumento absoluto de valor final."
       }
@@ -678,8 +678,8 @@
       "explanation": {
         "concept": "Média do gráfico e extrapolação de tendência",
         "steps": [
-          "O gráfico registra 700, 2 500, 2 500, 2 800 e 2 700 unidades de julho a novembro. A média é (700 + 2 500 + 2 500 + 2 800 + 2 700)/5 = 2 240, que é a venda de dezembro.",
-          "De novembro para dezembro, a redução é 2 700 − 2 240 = 460 unidades. Mantendo essa redução absoluta mensal, as vendas serão 1 780 em janeiro, 1 320 em fevereiro, 860 em março e 400 em abril.",
+          "O gráfico registra 700, 2 500, 2 500, 2 800 e 2 700 unidades de julho a novembro. A média é \\[\\begin{aligned}S&=700+2\\,500+2\\,500\\\\&\\quad+2\\,800+2\\,700=11\\,200\\\\\\bar{x}&=\\frac{S}{5}=2\\,240\\end{aligned}\\], que é a venda de dezembro.",
+          "De novembro para dezembro, a redução é \\(2\\,700 - 2\\,240 = 460\\) unidades. Mantendo essa redução absoluta mensal, as vendas serão 1 780 em janeiro, 1 320 em fevereiro, 860 em março e 400 em abril.",
           "Abril é o primeiro mês com vendas inferiores às 700 de julho. O argumento do diretor financeiro corresponde à alternativa D."
         ],
         "takeaway": "Uma tendência absoluta constante subtrai a mesma quantidade, não a mesma porcentagem, a cada mês."
@@ -694,8 +694,8 @@
         "concept": "Leitura de gráfico de radar e projeção de totais",
         "steps": [
           "Lendo de domingo a sábado, os pastéis vendidos foram 10, 2, 4, 4, 7, 8 e 10, somando 45. Os refrigerantes foram 7, 4, 4, 5, 8, 8 e 8, totalizando 44; os caldos foram 4, 3, 1, 2, 4, 7 e 7, totalizando 28.",
-          "A previsão diária de refrigerantes é a soma do refrigerante e do caldo do dia anterior correspondente; os pastéis previstos igualam essa soma. Portanto, a previsão semanal de pastéis é 44 + 28 = 72.",
-          "O acréscimo em relação aos 45 pastéis anteriores será 72 − 45 = 27, alternativa B."
+          "A previsão diária de refrigerantes é a soma do refrigerante e do caldo do dia anterior correspondente; os pastéis previstos igualam essa soma. Portanto, a previsão semanal de pastéis é \\(44 + 28 = 72\\).",
+          "O acréscimo em relação aos 45 pastéis anteriores será \\(72 - 45 = 27\\), alternativa B."
         ],
         "takeaway": "Em gráficos de radar, use a legenda e leia o valor ao longo de cada eixo; a pergunta pede a diferença entre os totais."
       }
@@ -709,7 +709,7 @@
         "concept": "Extrapolação de duas séries em tabela",
         "steps": [
           "De abril a junho, o produto I passa por 80, 90 e 100 unidades: cresce 10 por mês. O produto II passa por 190, 170 e 150: diminui 20 por mês.",
-          "Mantendo o padrão, julho terá I = 110 e II = 130; agosto terá I = 120 e II = 110. Portanto, I supera II pela primeira vez em agosto.",
+          "Mantendo o padrão, julho terá \\(\\mathrm{I}=110\\) e \\(\\mathrm{II}=130\\); agosto terá \\(\\mathrm{I}=120\\) e \\(\\mathrm{II}=110\\). Portanto, I supera II pela primeira vez em agosto.",
           "A produção deve cessar no mês seguinte à superação, isto é, setembro, alternativa D."
         ],
         "takeaway": "A data do critério e a data da decisão podem ser diferentes; leia o intervalo solicitado."
@@ -723,9 +723,9 @@
       "explanation": {
         "concept": "Combinação de tabelas de duração e taxa",
         "steps": [
-          "Multiplique as horas de cada atividade pela respectiva taxa: caminhar 248, correr 764, bicicleta 356 e futebol 492 cal/h. Na segunda, o total é 1 × 248 + 0,5 × 764 + 2 × 492 = 1 614 cal.",
-          "Aplicando o mesmo procedimento, terça soma 0,5 × 248 + 764 + 0,5 × 356 + 492 = 1 558 cal; quarta soma 1,5 × 764 + 356 + 0,5 × 492 = 1 748 cal.",
-          "Quinta soma 2 × 764 = 1 528 cal, e sexta soma 0,5 × 764 + 2,5 × 492 = 1 612 cal. O maior total é o da quarta-feira, alternativa C, usando as unidades fornecidas no enunciado."
+          "Multiplique as horas de cada atividade pela respectiva taxa: caminhar 248, correr 764, bicicleta 356 e futebol 492 cal/h. Na segunda, o total é \\[\\begin{aligned}E&=1\\times248+0{,}5\\times764\\\\&\\quad+2\\times492=1\\,614\\end{aligned}\\] cal.",
+          "Aplicando o mesmo procedimento, terça soma \\[\\begin{aligned}E&=0{,}5\\times248+764\\\\&\\quad+0{,}5\\times356+492=1\\,558\\end{aligned}\\] cal; quarta soma \\(1{,}5 \\times  764 + 356 + 0{,}5 \\times  492 = 1\\,748\\) cal.",
+          "Quinta soma \\(2 \\times  764 = 1\\,528\\) cal, e sexta soma \\(0{,}5 \\times  764 + 2{,}5 \\times  492 = 1\\,612\\) cal. O maior total é o da quarta-feira, alternativa C, usando as unidades fornecidas no enunciado."
         ],
         "takeaway": "Compare o gasto total, obtido por duração vezes taxa, e não apenas o total de horas de atividade."
       }
@@ -738,9 +738,9 @@
       "explanation": {
         "concept": "Probabilidade binomial",
         "steps": [
-          "A chance de defeito em cada aparelho é p = 0,2% = 0,002; a de não apresentar defeito é 1 − p = 99,8%. No modelo de fabricação independente adotado pelo problema, uma escolha específica de dois defeituosos e dois bons tem probabilidade p²(1 − p)².",
-          "Há C(4,2) = 6 maneiras de escolher quais dois dos quatro aparelhos são os defeituosos. Os casos são distintos e suas probabilidades se somam.",
-          "Assim, P = 6 × (0,2%)² × (99,8%)², expressão da alternativa C."
+          "A chance de defeito em cada aparelho é \\(p = 0{,}2\\% = 0{,}002\\); a de não apresentar defeito é \\(1 - p = 99{,}8\\%\\). No modelo de fabricação independente adotado pelo problema, uma escolha específica de dois defeituosos e dois bons tem probabilidade \\(p^{2}(1 - p)^{2}\\).",
+          "Há \\(\\binom{4}{2}=6\\) maneiras de escolher quais dois dos quatro aparelhos são os defeituosos. Os casos são distintos e suas probabilidades se somam.",
+          "Assim, \\(P = 6 \\times  (0{,}2\\%)^{2} \\times  (99{,}8\\%)^{2}\\), expressão da alternativa C."
         ],
         "takeaway": "'Exatamente dois' exige contar as posições dos defeituosos e incluir a probabilidade de os outros dois funcionarem."
       }
@@ -754,8 +754,8 @@
         "concept": "Probabilidade condicional em conjuntos",
         "steps": [
           "Dos 1 200 alunos, 600 falam inglês. A condição 'não fala inglês' restringe o sorteio aos outros 600 alunos.",
-          "Dentro desse grupo de 600, há 300 que não falam nenhuma das duas línguas. Os 600 − 300 = 300 restantes falam espanhol e não inglês.",
-          "Portanto, a probabilidade pedida é 300/600 = 1/2, alternativa A. O denominador não deve ser a escola inteira."
+          "Dentro desse grupo de 600, há 300 que não falam nenhuma das duas línguas. Os \\(600 - 300 = 300\\) restantes falam espanhol e não inglês.",
+          "Portanto, a probabilidade pedida é \\(\\frac{300}{600}=\\frac{1}{2}\\), alternativa A. O denominador não deve ser a escola inteira."
         ],
         "takeaway": "A informação dada na condição redefine o conjunto de resultados possíveis."
       }
@@ -768,8 +768,8 @@
       "explanation": {
         "concept": "Alteração de uma média",
         "steps": [
-          "A soma das alturas dos 20 jogadores é 20 × 1,80 = 36 m. Trocar um jogador por outro 0,20 m mais baixo reduz essa soma para 35,80 m.",
-          "O grupo continua com 20 jogadores, então a nova média é 35,80/20 = 1,79 m, alternativa C. A média cai 0,20/20 = 0,01 m, e não 0,20 m."
+          "A soma das alturas dos 20 jogadores é \\(20 \\times  1{,}80 = 36\\) m. Trocar um jogador por outro 0,20 m mais baixo reduz essa soma para 35,80 m.",
+          "O grupo continua com 20 jogadores, então a nova média é \\(\\frac{35{,}80}{20}=1{,}79\\) m, alternativa C. A média cai \\(\\frac{0{,}20}{20}=0{,}01\\) m, e não 0,20 m."
         ],
         "takeaway": "A mudança em um único valor se distribui por todos os integrantes ao recalcular a média."
       }
@@ -782,9 +782,9 @@
       "explanation": {
         "concept": "Probabilidade condicional e divisão em grupos",
         "steps": [
-          "Considere 1 000 declarações: 20% são inconsistentes, ou 200. Dessas, 25% são fraudulentas: 50 declarações.",
-          "Das 800 sem inconsistências, 6,25% são fraudulentas, também 50. Assim, existem 100 declarações fraudulentas no total, das quais 50 foram consideradas inconsistentes.",
-          "Sabendo que a declaração é fraudulenta, a probabilidade de ser inconsistente é 50/100 = 0,5000, alternativa E. A taxa de 25% refere-se à condição inversa."
+          "Considere 1 000 declarações: \\(20\\%\\) são inconsistentes, ou 200. Dessas, \\(25\\%\\) são fraudulentas: 50 declarações.",
+          "Das 800 sem inconsistências, \\(6{,}25\\%\\) são fraudulentas, também 50. Assim, existem 100 declarações fraudulentas no total, das quais 50 foram consideradas inconsistentes.",
+          "Sabendo que a declaração é fraudulenta, a probabilidade de ser inconsistente é \\(\\frac{50}{100}=0{,}5000\\), alternativa E. A taxa de \\(25\\%\\) refere-se à condição inversa."
         ],
         "takeaway": "Uma tabela com uma população hipotética torna claro qual subconjunto deve formar o denominador."
       }
@@ -797,8 +797,8 @@
       "explanation": {
         "concept": "Médias móveis de dois meses e escolha de período",
         "steps": [
-          "Calcule a média de cada par consecutivo: outubro–novembro = (250 + 150)/2 = 200 mm; novembro–dezembro = (150 + 200)/2 = 175 mm; dezembro–janeiro = (200 + 450)/2 = 325 mm.",
-          "Os outros pares dão janeiro–fevereiro = (450 + 100)/2 = 275 mm e fevereiro–março = (100 + 200)/2 = 150 mm.",
+          "Calcule a média de cada par consecutivo: outubro–novembro: \\(\\frac{250+150}{2}=200\\) mm; novembro–dezembro: \\(\\frac{150+200}{2}=175\\) mm; dezembro–janeiro: \\(\\frac{200+450}{2}=325\\) mm.",
+          "Os outros pares dão janeiro–fevereiro: \\(\\frac{450+100}{2}=275\\) mm e fevereiro–março: \\(\\frac{100+200}{2}=150\\) mm.",
           "A maior média é 325 mm no par dezembro–janeiro. Portanto, o plantio deve começar em dezembro, alternativa C."
         ],
         "takeaway": "Para escolher uma janela de dois meses, compare os pares consecutivos; o mês isolado mais chuvoso não determina a resposta."
@@ -812,9 +812,9 @@
       "explanation": {
         "concept": "Frações representam durações musicais que podem ser somadas para preencher os compassos.",
         "steps": [
-          "Cada compasso deve durar 3/4 de uma semibreve. Portanto, os oito compassos exigem duração total de 8 × 3/4 = 6 semibreves.",
-          "Pela tabela, cada colcheia vale 1/8 e cada semínima vale 1/4. Assim, 24 colcheias e 12 semínimas somam 24/8 + 12/4 = 3 + 3 = 6, correspondendo à alternativa D.",
-          "É possível distribuir essas notas em oito compassos: quatro com seis colcheias cada e quatro com três semínimas cada. Em ambos os casos, cada compasso soma exatamente 3/4."
+          "Cada compasso deve durar \\(\\frac{3}{4}\\) de uma semibreve. Portanto, os oito compassos exigem duração total de \\(8\\times\\frac{3}{4}=6\\) semibreves.",
+          "Pela tabela, cada colcheia vale \\(\\frac{1}{8}\\) e cada semínima vale \\(\\frac{1}{4}\\). Assim, 24 colcheias e 12 semínimas somam \\(\\frac{24}{8}+\\frac{12}{4}=3+3=6\\), correspondendo à alternativa D.",
+          "É possível distribuir essas notas em oito compassos: quatro com seis colcheias cada e quatro com três semínimas cada. Em ambos os casos, cada compasso soma exatamente \\(\\frac{3}{4}\\)."
         ],
         "takeaway": "Converta cada nota para a mesma unidade de duração antes de somar as frações."
       }
@@ -827,9 +827,9 @@
       "explanation": {
         "concept": "Comparar propostas exige somar todos os pagamentos previstos em cada uma delas.",
         "steps": [
-          "Nos três primeiros dias, a despesa é 3 × R$ 150,00 = R$ 450,00. As diárias do quarto, quinto e sexto dias são R$ 130,00, R$ 110,00 e R$ 90,00, pois o preço cai R$ 20,00 a cada dia.",
-          "O sétimo e o oitavo dias mantêm a diária de R$ 90,00. O pacote de oito dias custa, portanto, 450 + 130 + 110 + 90 + 90 + 90 = R$ 960,00.",
-          "Sete dias fora da promoção custariam 7 × 150 = R$ 1.050,00. A economia é 1.050 − 960 = R$ 90,00, alternativa A."
+          "Nos três primeiros dias, a despesa é \\(3 \\times  \\text{R\\$}\\, 150{,}00 = \\text{R\\$}\\, 450{,}00\\). As diárias do quarto, quinto e sexto dias são R$ 130,00, R$ 110,00 e R$ 90,00, pois o preço cai R$ 20,00 a cada dia.",
+          "O sétimo e o oitavo dias mantêm a diária de R$ 90,00. O pacote de oito dias custa, portanto, \\[\\begin{aligned}C&=450+130+110\\\\&\\quad+90+90+90\\\\&=\\text{R\\$}\\,960{,}00\\end{aligned}\\].",
+          "Sete dias fora da promoção custariam \\(7 \\times  150 = \\text{R\\$}\\, 1\\,050{,}00\\). A economia é \\(1\\,050 - 960 = \\text{R\\$}\\, 90{,}00\\), alternativa A."
         ],
         "takeaway": "Respeite os períodos de cada proposta: a comparação pedida é entre oito dias promocionais e sete dias comuns."
       }
@@ -842,9 +842,9 @@
       "explanation": {
         "concept": "O cálculo de dígitos verificadores combina soma ponderada e resto da divisão inteira.",
         "steps": [
-          "Para o primeiro dígito, a soma é 1×10 + 2×9 + 3×8 + 4×7 + 5×6 + 6×5 + 7×4 + 8×3 + 9×2 = 210. Como 210 = 19×11 + 1, o resto é 1 e a regra determina d₁ = 0.",
-          "Para o segundo dígito, usamos os algarismos de 2 a 9 e, ao final, d₁ = 0. A nova soma é 2×10 + 3×9 + 4×8 + 5×7 + 6×6 + 7×5 + 8×4 + 9×3 + 0×2 = 244.",
-          "Como 244 = 22×11 + 2, o resto agora é 2. Logo, d₂ = 11 − 2 = 9. Os dígitos são 0 e 9, alternativa A."
+          "Para o primeiro dígito, a soma é \\[\\begin{aligned}S_1={}&1\\times10+2\\times9+3\\times8\\\\&+4\\times7+5\\times6+6\\times5\\\\&+7\\times4+8\\times3+9\\times2\\\\={}&210\\end{aligned}\\]. Como \\(210 = 19\\times 11 + 1\\), o resto é 1 e a regra determina \\(d_{1} = 0\\).",
+          "Para o segundo dígito, usamos os algarismos de 2 a 9 e, ao final, \\(d_{1} = 0\\). A nova soma é \\[\\begin{aligned}S_2={}&2\\times10+3\\times9+4\\times8\\\\&+5\\times7+6\\times6+7\\times5\\\\&+8\\times4+9\\times3+0\\times2\\\\={}&244\\end{aligned}\\].",
+          "Como \\(244 = 22\\times 11 + 2\\), o resto agora é 2. Logo, \\(d_{2} = 11 - 2 = 9\\). Os dígitos são 0 e 9, alternativa A."
         ],
         "takeaway": "Aplique a regra ao resto, e atualize a sequência de algarismos antes de calcular o segundo dígito."
       }
@@ -857,9 +857,9 @@
       "explanation": {
         "concept": "A escolha de armazenamento depende do volume total de dados após a redução percentual.",
         "steps": [
-          "Cada imagem tem 2.000.000 de pontos e ocupa inicialmente 2.000.000 × 3 = 6.000.000 bytes, ou 6 MB nas unidades decimais adotadas pelo enunciado.",
-          "A compressão de 95% deixa apenas 5% do tamanho inicial: 0,05 × 6 = 0,3 MB por foto. As 150 fotos ocupam 150 × 0,3 = 45 MB.",
-          "O dispositivo de 16 MB é insuficiente. Entre os que comportam 45 MB, o cartão de 64 MB tem a menor capacidade e deixa apenas 64 − 45 = 19 MB livres. A escolha é a alternativa E."
+          "Cada imagem tem 2.000.000 de pontos e ocupa inicialmente \\(2\\,000\\,000 \\times  3 = 6\\,000\\,000\\) bytes, ou 6 MB nas unidades decimais adotadas pelo enunciado.",
+          "A compressão de \\(95\\%\\) deixa apenas \\(5\\%\\) do tamanho inicial: \\(0{,}05 \\times  6 = 0{,}3\\) MB por foto. As 150 fotos ocupam \\(150 \\times  0{,}3 = 45\\) MB.",
+          "O dispositivo de 16 MB é insuficiente. Entre os que comportam 45 MB, o cartão de 64 MB tem a menor capacidade e deixa apenas \\(64 - 45 = 19\\) MB livres. A escolha é a alternativa E."
         ],
         "takeaway": "Depois de calcular o espaço necessário, escolha a menor capacidade que ainda acomode todos os arquivos."
       }
@@ -872,11 +872,11 @@
       "explanation": {
         "concept": "Para avaliar se um cronograma é possível, conte atividades e intervalos separadamente.",
         "steps": [
-          "São 3 × 6 = 18 séries. Como cada série dura 30 segundos, os exercícios ocupam 18 × 30 = 540 segundos, ou 9 minutos.",
+          "São \\(3 \\times  6 = 18\\) séries. Como cada série dura 30 segundos, os exercícios ocupam \\(18 \\times  30 = 540\\) segundos, ou 9 minutos.",
           "Entre as 18 séries existem 17 intervalos, incluindo as trocas de aparelho. Somando o minuto de descanso após o aquecimento, são 18 minutos de descanso. Não há descanso obrigatório depois da última série.",
-          "O programa inteiro exige 10 + 9 + 18 = 37 minutos. De 10h30 a 11h07 também decorrem 37 minutos: Joana poderia cumprir todos os exercícios e descansos, exatamente como afirma a alternativa B."
+          "O programa inteiro exige \\(10 + 9 + 18 = 37\\) minutos. De 10h30 a 11h07 também decorrem 37 minutos: Joana poderia cumprir todos os exercícios e descansos, exatamente como afirma a alternativa B."
         ],
-        "takeaway": "Entre n atividades consecutivas há n − 1 intervalos; acrescente apenas os descansos externos explicitamente pedidos."
+        "takeaway": "Entre \\(n\\) atividades consecutivas há \\(n - 1\\) intervalos; acrescente apenas os descansos externos explicitamente pedidos."
       }
     },
     {
@@ -887,9 +887,9 @@
       "explanation": {
         "concept": "Um orçamento com quantidades inteiras exige reservar os gastos obrigatórios antes de maximizar o restante.",
         "steps": [
-          "Cada folheto do segundo tipo usa R$ 0,65 + R$ 0,60 + R$ 0,20 = R$ 1,45 em selos. Os 500 envios obrigatórios custam 500 × 1,45 = R$ 725,00 e já utilizam 500 selos de R$ 0,65.",
-          "Restam 1.000 − 725 = R$ 275,00. Essa quantia compra 423 selos de R$ 0,65, pois 423 × 0,65 = R$ 274,95, enquanto 424 selos custariam R$ 275,60.",
-          "Somando os selos usados nos dois tipos de folheto, obtemos 500 + 423 = 923 selos de R$ 0,65, alternativa C."
+          "Cada folheto do segundo tipo usa \\(0{,}65+0{,}60+0{,}20=1{,}45\\) reais em selos. Os 500 envios obrigatórios custam \\(500 \\times  1{,}45 = \\text{R\\$}\\, 725{,}00\\) e já utilizam 500 selos de R$ 0,65.",
+          "Restam \\(1\\,000 - 725 = \\text{R\\$}\\, 275{,}00\\). Essa quantia compra 423 selos de R$ 0,65, pois \\(423 \\times  0{,}65 = \\text{R\\$}\\, 274{,}95\\), enquanto 424 selos custariam R$ 275,60.",
+          "Somando os selos usados nos dois tipos de folheto, obtemos \\(500 + 423 = 923\\) selos de R$ 0,65, alternativa C."
         ],
         "takeaway": "Ao maximizar uma quantidade de objetos, use o maior inteiro que cabe no orçamento e inclua os objetos já comprometidos."
       }
@@ -902,9 +902,9 @@
       "explanation": {
         "concept": "Permutações contam as ordens de visita, e a simetria permite agrupar trajetos de mesmo custo.",
         "steps": [
-          "A cidade A já está fixada como início e fim. As cinco cidades dos clientes podem ser visitadas em 5! = 5 × 4 × 3 × 2 × 1 = 120 ordens.",
-          "Cada ordem forma um par com sua ordem inversa. Como o custo é o mesmo nos dois sentidos, João examina uma sequência e descarta sua simétrica. São 120/2 = 60 exames.",
-          "Cada exame leva 1 minuto e 30 segundos, ou 1,5 minuto. O tempo necessário é 60 × 1,5 = 90 minutos, alternativa B."
+          "A cidade A já está fixada como início e fim. As cinco cidades dos clientes podem ser visitadas em \\(5! = 5 \\times  4 \\times  3 \\times  2 \\times  1 = 120\\) ordens.",
+          "Cada ordem forma um par com sua ordem inversa. Como o custo é o mesmo nos dois sentidos, João examina uma sequência e descarta sua simétrica. São \\(\\frac{120}{2}=60\\) exames.",
+          "Cada exame leva 1 minuto e 30 segundos, ou 1,5 minuto. O tempo necessário é \\(60 \\times  1{,}5 = 90\\) minutos, alternativa B."
         ],
         "takeaway": "Quando duas configurações sempre são equivalentes para a análise, conte os pares antes de multiplicar pelo tempo de trabalho."
       }
@@ -915,11 +915,11 @@
       "competency": 1,
       "skill": 2,
       "explanation": {
-        "concept": "A soma de uma sequência que cresce até n e depois decresce até 1 forma o quadrado de n.",
+        "concept": "A soma de uma sequência que cresce até \\(n\\) e depois decresce até 1 forma o quadrado de \\(n\\).",
         "steps": [
           "No desenho, as linhas são 1; 1, 2, 1; 1, 2, 3, 2, 1; e assim por diante. Suas somas são 1, 4 e 9, os primeiros quadrados perfeitos.",
-          "Na nona linha, a soma é (1 + 2 + ⋯ + 9) + (8 + 7 + ⋯ + 1). As duas parcelas valem 9×10/2 = 45 e 8×9/2 = 36.",
-          "Portanto, a soma pedida é 45 + 36 = 81 = 9², alternativa D. O valor central 9 aparece uma única vez."
+          "Na nona linha, a soma é \\((1 + 2 + \\cdots  + 9) + (8 + 7 + \\cdots  + 1)\\). As duas parcelas valem \\(\\frac{9\\times10}{2}=45\\) e \\(\\frac{8\\times9}{2}=36\\).",
+          "Portanto, a soma pedida é \\(45 + 36 = 81 = 9^{2}\\), alternativa D. O valor central 9 aparece uma única vez."
         ],
         "takeaway": "Confirme um padrão observado com uma regra de soma que valha para a linha solicitada."
       }
@@ -933,7 +933,7 @@
         "concept": "A leitura de um medidor combina o sentido dos ponteiros com o valor posicional dos algarismos.",
         "steps": [
           "É preciso seguir a seta de cada mostrador e registrar o último número ultrapassado. Os ponteiros indicam, respectivamente, 2 no milhar, 6 na centena, 1 na dezena e 4 na unidade.",
-          "O valor da leitura é 2×1.000 + 6×100 + 1×10 + 4×1 = 2.614 kWh, alternativa A. Não se arredonda para o próximo algarismo, mesmo que o ponteiro esteja próximo dele."
+          "O valor da leitura é \\[\\begin{aligned}N&=2\\times1\\,000+6\\times100\\\\&\\quad+1\\times10+4\\times1\\\\&=2\\,614\\end{aligned}\\] kWh, alternativa A. Não se arredonda para o próximo algarismo, mesmo que o ponteiro esteja próximo dele."
         ],
         "takeaway": "Leia cada mostrador no sentido indicado e recomponha o número respeitando a posição de cada dígito."
       }
@@ -946,9 +946,9 @@
       "explanation": {
         "concept": "A posição de uma permutação em ordem crescente pode ser obtida contando os números que vêm antes dela.",
         "steps": [
-          "Os cinco algarismos disponíveis são 1, 3, 5, 7 e 9. Antes de 75.913 vêm todos os números começados por 1, 3 ou 5: são 3 × 4! = 72 números.",
-          "Fixando o primeiro algarismo em 7, o segundo pode ser 1 ou 3 para o número ainda ser menor: 2 × 3! = 12. Fixando o prefixo 75, o terceiro pode ser 1 ou 3: 2 × 2! = 4.",
-          "Depois de fixar 759, a sequência 13 é a menor possível para as duas posições finais. Logo, existem 72 + 12 + 4 = 88 números anteriores. O candidato ocupa a posição 88 + 1 = 89, alternativa E."
+          "Os cinco algarismos disponíveis são 1, 3, 5, 7 e 9. Antes de 75.913 vêm todos os números começados por 1, 3 ou 5: são \\(3 \\times  4! = 72\\) números.",
+          "Fixando o primeiro algarismo em 7, o segundo pode ser 1 ou 3 para o número ainda ser menor: \\(2 \\times  3! = 12\\). Fixando o prefixo 75, o terceiro pode ser 1 ou 3: \\(2 \\times  2! = 4\\).",
+          "Depois de fixar 759, a sequência 13 é a menor possível para as duas posições finais. Logo, existem \\(72 + 12 + 4 = 88\\) números anteriores. O candidato ocupa a posição \\(88 + 1 = 89\\), alternativa E."
         ],
         "takeaway": "A posição de um elemento é a quantidade de anteriores mais um; não confunda essas duas contagens."
       }
@@ -961,8 +961,8 @@
       "explanation": {
         "concept": "O princípio multiplicativo conta todas as combinações possíveis de escolhas independentes.",
         "steps": [
-          "Uma resposta completa escolhe um objeto entre 5, um personagem entre 6 e um cômodo entre 9. Há 5 × 6 × 9 = 270 respostas distintas possíveis.",
-          "A escola tem 280 participantes, ou seja, 280 − 270 = 10 alunos a mais do que respostas distintas. Como as respostas não podem se repetir, a combinação correta será alcançada, no máximo, na 270ª tentativa. A justificativa é a alternativa A."
+          "Uma resposta completa escolhe um objeto entre 5, um personagem entre 6 e um cômodo entre 9. Há \\(5 \\times  6 \\times  9 = 270\\) respostas distintas possíveis.",
+          "A escola tem 280 participantes, ou seja, \\(280 - 270 = 10\\) alunos a mais do que respostas distintas. Como as respostas não podem se repetir, a combinação correta será alcançada, no máximo, na 270ª tentativa. A justificativa é a alternativa A."
         ],
         "takeaway": "Multiplique as opções de cada etapa para contar as respostas completas, e só depois compare com o número de participantes."
       }
@@ -975,8 +975,8 @@
       "explanation": {
         "concept": "O total restante é a diferença entre a quantidade inicial e a soma das partes já utilizadas.",
         "steps": [
-          "As sete colunas recebem 1 + 2 + 3 + 4 + 5 + 6 + 7 cartas. Agrupando 1+7, 2+6 e 3+5, temos 8 + 8 + 8 + 4 = 28 cartas nas colunas.",
-          "O baralho tem 52 cartas. Assim, o monte contém 52 − 28 = 24 cartas, alternativa B. O número 28 corresponde às cartas utilizadas, e não ao monte."
+          "As sete colunas recebem \\(1 + 2 + 3 + 4 + 5 + 6 + 7\\) cartas. Agrupando \\(1+7\\), \\(2+6\\) e \\(3+5\\), temos \\(8 + 8 + 8 + 4 = 28\\) cartas nas colunas.",
+          "O baralho tem 52 cartas. Assim, o monte contém \\(52 - 28 = 24\\) cartas, alternativa B. O número 28 corresponde às cartas utilizadas, e não ao monte."
         ],
         "takeaway": "Identifique se a pergunta pede a parte utilizada ou a parte que sobrou antes de finalizar a conta."
       }
@@ -990,7 +990,7 @@
         "concept": "No sistema decimal, cada posição à esquerda vale dez vezes a posição seguinte.",
         "steps": [
           "No protocolo 1 3 _ 9 8 2 0 7, conte a partir da direita: 7 ocupa as unidades, 0 as dezenas, 2 as centenas, 8 os milhares e 9 as dezenas de milhar.",
-          "O espaço vazio vem imediatamente depois e ocupa a sexta posição a partir da direita: a centena de milhar. Um algarismo d nessa posição contribui com d × 10⁵ = d × 100.000 para o número. Portanto, a alternativa correta é C."
+          "O espaço vazio vem imediatamente depois e ocupa a sexta posição a partir da direita: a centena de milhar. Um algarismo \\(d\\) nessa posição contribui com \\(d \\times  10^{5} = d \\times  100\\,000\\) para o número. Portanto, a alternativa correta é C."
         ],
         "takeaway": "A posição decimal depende da distância até a direita do número, mesmo quando o valor de um algarismo é desconhecido."
       }
@@ -1003,9 +1003,9 @@
       "explanation": {
         "concept": "Ciclos de duração fixa podem ser localizados usando quociente e resto da divisão.",
         "steps": [
-          "Entre o começo de 1755 e o começo de 2101 decorrem 2101 − 1755 = 346 anos. Dividindo pela duração de um ciclo, 346 = 31 × 11 + 5.",
+          "Entre o começo de 1755 e o começo de 2101 decorrem \\(2101 - 1755 = 346\\) anos. Dividindo pela duração de um ciclo, \\(346 = 31 \\times  11 + 5\\).",
           "Já se completaram 31 ciclos, e o ano solicitado está cinco anos após o início do ciclo seguinte. Como a contagem começa no ciclo 1, esse é o ciclo 32, alternativa A.",
-          "A conferência pelas datas confirma: o ciclo 32 começa em 1755 + 31×11 = 2096 e vai até o final de 2106, intervalo que inclui 2101."
+          "A conferência pelas datas confirma: o ciclo 32 começa em \\(1755 + 31\\times 11 = 2096\\) e vai até o final de 2106, intervalo que inclui 2101."
         ],
         "takeaway": "O quociente indica ciclos completos; acrescente um para identificar o ciclo em andamento."
       }
@@ -1019,7 +1019,7 @@
         "concept": "Uma porcentagem compara a parte solicitada com o total que a pergunta estabelece.",
         "steps": [
           "A área destinada à agricultura é 80 milhões de hectares. Os 280 milhões incluem agricultura e pastagens, por isso não devem ser usados como a parte agrícola.",
-          "O total de referência é o território brasileiro, com 853 milhões de hectares. A porcentagem é (80/853) × 100 ≈ 9,3787%, cuja aproximação nas alternativas é 9,4%, letra D."
+          "O total de referência é o território brasileiro, com 853 milhões de hectares. A porcentagem é \\(\\frac{80}{853}\\times100\\%\\approx9{,}3787\\%\\), cuja aproximação nas alternativas é \\(9{,}4\\%\\), letra D."
         ],
         "takeaway": "Escolha corretamente o numerador e o denominador: agricultura sobre território total, com as duas áreas na mesma unidade."
       }
@@ -1032,8 +1032,8 @@
       "explanation": {
         "concept": "Mantendo o volume total da mistura, a quantidade de biodiesel é diretamente proporcional ao percentual adicionado.",
         "steps": [
-          "No cenário do enunciado, 4% do volume final correspondem a 925 milhões de litros. O volume total da mistura é 925/0,04 = 23.125 milhões de litros.",
-          "Com a mesma mistura total e participação de 3%, o biodiesel seria 0,03 × 23.125 = 693,75 milhões de litros. Também podemos calcular 925 × 3/4 = 693,75. A resposta é a alternativa D."
+          "No cenário do enunciado, \\(4\\%\\) do volume final correspondem a 925 milhões de litros. O volume total da mistura é \\(\\frac{925}{0{,}04}=23\\,125\\) milhões de litros.",
+          "Com a mesma mistura total e participação de \\(3\\%\\), o biodiesel seria \\(0{,}03 \\times  23\\,125 = 693{,}75\\) milhões de litros. Também podemos calcular \\(925\\times\\frac{3}{4}=693{,}75\\). A resposta é a alternativa D."
         ],
         "takeaway": "Quando a base permanece constante, a razão entre as quantidades é a mesma razão entre suas porcentagens."
       }
@@ -1046,8 +1046,8 @@
       "explanation": {
         "concept": "A taxa média de variação relaciona a mudança da emissão com a mudança da produção.",
         "steps": [
-          "Na tabela, a produção passa de 1,1 para 2,0 toneladas, enquanto a emissão passa de 2,14 para 4,00 ppm. Assim, Δprodução = 0,9 tonelada e Δemissão = 1,86 ppm.",
-          "A taxa média é Δemissão/Δprodução = 1,86/0,9 ≈ 2,07 ppm por tonelada. Esse valor é superior a 1,50 e inferior a 2,80, como afirma a alternativa D.",
+          "Na tabela, a produção passa de 1,1 para 2,0 toneladas, enquanto a emissão passa de 2,14 para 4,00 ppm. Assim, \\(\\Delta\\text{produção}=0{,}9\\) tonelada e \\(\\Delta\\text{emissão}=1{,}86\\) ppm.",
+          "A taxa média é \\(\\frac{\\Delta\\text{emissão}}{\\Delta\\text{produção}}=\\frac{1{,}86}{0{,}9}\\approx2{,}07\\) ppm por tonelada. Esse valor é superior a 1,50 e inferior a 2,80, como afirma a alternativa D.",
           "Não basta calcular apenas o aumento em ppm: a taxa expressa quanto a emissão varia por unidade adicional de produção."
         ],
         "takeaway": "Taxa média é variação da grandeza dependente dividida pela variação da grandeza de referência."
@@ -1061,9 +1061,9 @@
       "explanation": {
         "concept": "Distância, consumo e massa do combustível se relacionam por duas proporções sucessivas.",
         "steps": [
-          "As 16 voltas de 7 km totalizam 16 × 7 = 112 km. Com consumo de 75 litros a cada 100 km, são necessários 112 × 75/100 = 84 litros.",
-          "A densidade de 750 g/L equivale a 0,750 kg/L. Portanto, a massa desse combustível é 84 × 0,750 = 63 kg.",
-          "Somando o combustível ao mínimo de 605 kg do carro vazio com piloto, obtemos 605 + 63 = 668 kg, alternativa B."
+          "As 16 voltas de 7 km totalizam \\(16 \\times  7 = 112\\) km. Com consumo de 75 litros a cada 100 km, são necessários \\(112\\times\\frac{75}{100}=84\\) litros.",
+          "A densidade de 750 g/L equivale a 0,750 kg/L. Portanto, a massa desse combustível é \\(84 \\times  0{,}750 = 63\\) kg.",
+          "Somando o combustível ao mínimo de 605 kg do carro vazio com piloto, obtemos \\(605 + 63 = 668\\) kg, alternativa B."
         ],
         "takeaway": "Encontre o volume a partir do percurso e depois use a densidade para convertê-lo em massa."
       }
@@ -1076,7 +1076,7 @@
       "explanation": {
         "concept": "A inclinação de um gráfico de altura por idade representa a rapidez do crescimento.",
         "steps": [
-          "O gráfico deve subir mais rapidamente entre 0 e 10 anos e continuar subindo com menor inclinação entre 10 e 17. Na alternativa A, as taxas médias desses trechos são (148 − 51)/10 = 9,7 cm/ano e (171 − 148)/7 ≈ 3,29 cm/ano.",
+          "O gráfico deve subir mais rapidamente entre 0 e 10 anos e continuar subindo com menor inclinação entre 10 e 17. Na alternativa A, as taxas médias desses trechos são \\(\\frac{148-51}{10}=9{,}7\\) cm/ano e \\(\\frac{171-148}{7}\\approx3{,}29\\) cm/ano.",
           "Depois dos 17 anos, a curva de A continua crescendo, mas sua inclinação diminui até ficar praticamente horizontal, perto de 180 cm. Isso corresponde à variação que se torna imperceptível.",
           "As demais figuras apresentam saltos de altura ou longos patamares seguidos de saltos. Esses comportamentos não representam a evolução descrita. Logo, a alternativa correta é A."
         ],
@@ -1091,8 +1091,8 @@
       "explanation": {
         "concept": "A classificação de um crescimento exige calcular a variação relativa usando o valor inicial como base.",
         "steps": [
-          "O lucro aumentou de R$ 132.000,00 para R$ 145.000,00, uma diferença de R$ 13.000,00. O crescimento percentual é (13.000/132.000) × 100 ≈ 9,8485%.",
-          "Essa taxa é maior ou igual a 5% e estritamente menor que 10%. Portanto, o desempenho se enquadra na categoria bom, alternativa C. Arredondar a taxa para 10% antes da classificação mudaria indevidamente a categoria."
+          "O lucro aumentou de R$ 132.000,00 para R$ 145.000,00, uma diferença de R$ 13.000,00. O crescimento percentual é \\(\\frac{13\\,000}{132\\,000}\\times100\\%\\approx9{,}8485\\%\\).",
+          "Essa taxa é maior ou igual a \\(5\\%\\) e estritamente menor que \\(10\\%\\). Portanto, o desempenho se enquadra na categoria bom, alternativa C. Arredondar a taxa para \\(10\\%\\) antes da classificação mudaria indevidamente a categoria."
         ],
         "takeaway": "Compare a taxa calculada com os limites exatos da classificação, preservando casas decimais suficientes."
       }
@@ -1105,9 +1105,9 @@
       "explanation": {
         "concept": "Uma compensação de produção deve ser convertida em crescimento percentual sobre a produção inicial de quem compensa.",
         "steps": [
-          "Dos 40 bilhões de litros de etanol, o Brasil produzia 0,43 × 40 = 17,2 bilhões e os Estados Unidos, 0,45 × 40 = 18 bilhões. Juntos, produziam 35,2 bilhões de litros.",
+          "Dos 40 bilhões de litros de etanol, o Brasil produzia \\(0{,}43 \\times  40 = 17{,}2\\) bilhões e os Estados Unidos, \\(0{,}45 \\times  40 = 18\\) bilhões. Juntos, produziam 35,2 bilhões de litros.",
           "Se a produção dos Estados Unidos cai à metade, passa a 9 bilhões, uma queda de 9 bilhões. Para manter o total conjunto, o Brasil precisa acrescentar esses 9 bilhões à sua produção, chegando a 26,2 bilhões.",
-          "O aumento relativo brasileiro é (9/17,2) × 100 ≈ 52,3%, alternativa C. Os 22,5% do total mundial que faltam não são a porcentagem de crescimento sobre a produção brasileira."
+          "O aumento relativo brasileiro é \\(\\frac{9}{17{,}2}\\times100\\%\\approx52{,}3\\%\\), alternativa C. Os \\(22{,}5\\%\\) do total mundial que faltam não são a porcentagem de crescimento sobre a produção brasileira."
         ],
         "takeaway": "Uma mesma variação absoluta pode representar porcentagens diferentes conforme a base de comparação."
       }
@@ -1120,8 +1120,8 @@
       "explanation": {
         "concept": "Uma relação diretamente proporcional permite ampliar a quantidade contaminada pelo mesmo fator do óleo descartado.",
         "steps": [
-          "No modelo do enunciado, cada 10 litros de óleo podem contaminar 10 milhões de litros de água, isto é, 10⁷ litros. O descarte semanal de 1.000 litros equivale a 1.000/10 = 100 grupos de 10 litros.",
-          "Multiplicamos a água contaminada por esse mesmo fator: 100 × 10⁷ = 10² × 10⁷ = 10⁹ litros por semana. A alternativa correta é E."
+          "No modelo do enunciado, cada 10 litros de óleo podem contaminar 10 milhões de litros de água, isto é, \\(10^{7}\\) litros. O descarte semanal de 1.000 litros equivale a \\(\\frac{1\\,000}{10}=100\\) grupos de 10 litros.",
+          "Multiplicamos a água contaminada por esse mesmo fator: \\(100 \\times  10^{7} = 10^{2} \\times  10^{7} = 10^{9}\\) litros por semana. A alternativa correta é E."
         ],
         "takeaway": "Em uma proporção direta, multiplicar uma quantidade por 100 também multiplica por 100 a quantidade correspondente."
       }
@@ -1134,11 +1134,11 @@
       "explanation": {
         "concept": "Porcentagens sucessivas precisam conservar a base de cálculo indicada para cada etapa.",
         "steps": [
-          "Se o investimento inicial é x, perder 30% deixa 0,70x. A recuperação é de 20% do que foi perdido, e não de 20% do investimento: 0,20 × 0,30x = 0,06x.",
-          "O montante final é 0,70x + 0,06x = 0,76x. Como ele vale R$ 3.800,00, temos x = 3.800/0,76 = R$ 5.000,00, alternativa C.",
-          "Conferindo: a perda foi R$ 1.500,00 e a recuperação foi R$ 300,00. Assim, 5.000 − 1.500 + 300 = R$ 3.800,00."
+          "Se o investimento inicial é \\(x\\), perder \\(30\\%\\) deixa \\(0{,}70x\\). A recuperação é de \\(20\\%\\) do que foi perdido, e não de \\(20\\%\\) do investimento: \\(0{,}20 \\times  0{,}30x = 0{,}06x\\).",
+          "O montante final é \\(0{,}70x + 0{,}06x = 0{,}76x\\). Como ele vale R$ 3.800,00, temos \\(x=\\frac{3\\,800}{0{,}76}=\\text{R\\$}\\,5\\,000{,}00\\), alternativa C.",
+          "Conferindo: a perda foi R$ 1.500,00 e a recuperação foi R$ 300,00. Assim, \\(5\\,000 - 1\\,500 + 300 = \\text{R\\$}\\, 3\\,800{,}00\\)."
         ],
-        "takeaway": "A expressão '20% do que perdeu' usa a perda como base, e não o saldo ou o valor inicial."
+        "takeaway": "A expressão '\\(20\\%\\) do que perdeu' usa a perda como base, e não o saldo ou o valor inicial."
       }
     },
     {
@@ -1149,8 +1149,8 @@
       "explanation": {
         "concept": "Aumentar na mesma proporção significa aplicar o mesmo fator multiplicativo a bases diferentes.",
         "steps": [
-          "Na hipótese apresentada, o acréscimo de mulheres é 8 mil sobre uma base de 32 mil. A taxa de aumento é 8/32 = 1/4 = 25%.",
-          "Aplicando 25% às 28 mil internações de homens, o acréscimo seria 0,25 × 28 = 7 mil. O novo total seria 28 + 7 = 35 mil, alternativa D."
+          "Na hipótese apresentada, o acréscimo de mulheres é 8 mil sobre uma base de 32 mil. A taxa de aumento é \\(\\frac{8}{32}=\\frac{1}{4}=25\\%\\).",
+          "Aplicando \\(25\\%\\) às 28 mil internações de homens, o acréscimo seria \\(0{,}25 \\times  28 = 7\\) mil. O novo total seria \\(28 + 7 = 35\\) mil, alternativa D."
         ],
         "takeaway": "A mesma proporção de aumento não implica o mesmo acréscimo absoluto quando os valores iniciais são diferentes."
       }
@@ -1163,9 +1163,9 @@
       "explanation": {
         "concept": "A energia consumida varia com o quadrado da corrente quando os demais fatores permanecem constantes.",
         "steps": [
-          "O enunciado informa P = R·i² e E diretamente proporcional a P. Para uma resistência fixa e a mesma duração de uso, podemos reunir as constantes em k > 0 e escrever E = k·i².",
-          "Se a corrente dobra, a energia é multiplicada por 2² = 4; se triplica, por 3² = 9. Portanto, a energia cresce cada vez mais rapidamente, e não em uma reta.",
-          "Para i = 0, também temos E = 0. O gráfico que parte da origem e cresce com concavidade para cima é o da alternativa D."
+          "O enunciado informa \\(P = R\\cdot i^{2}\\) e \\(E\\) diretamente proporcional a \\(P\\). Para uma resistência fixa e a mesma duração de uso, podemos reunir as constantes em \\(k > 0\\) e escrever \\(E = k\\cdot i^{2}\\).",
+          "Se a corrente dobra, a energia é multiplicada por \\(2^{2} = 4\\); se triplica, por \\(3^{2} = 9\\). Portanto, a energia cresce cada vez mais rapidamente, e não em uma reta.",
+          "Para \\(i = 0\\), também temos \\(E = 0\\). O gráfico que parte da origem e cresce com concavidade para cima é o da alternativa D."
         ],
         "takeaway": "Uma dependência quadrática produz um gráfico curvo: multiplicar a corrente por um fator multiplica a energia pelo quadrado desse fator."
       }
@@ -1178,9 +1178,9 @@
       "explanation": {
         "concept": "Para avaliar a economia de um equipamento, mantenha a frequência de uso e compare o consumo por utilização.",
         "steps": [
-          "O consumo diário de 60 litros na bacia antiga, que gasta 15 litros por descarga, corresponde a 60/15 = 4 descargas por dia.",
-          "Mantendo essas quatro descargas, a bacia ecológica gastará 4 × 6 = 24 litros por dia. A economia será 60 − 24 = 36 litros diários, alternativa B.",
-          "A redução equivale a 36/60 = 60% do consumo anterior. Os 24 litros representam o novo consumo, não a economia."
+          "O consumo diário de 60 litros na bacia antiga, que gasta 15 litros por descarga, corresponde a \\(\\frac{60}{15}=4\\) descargas por dia.",
+          "Mantendo essas quatro descargas, a bacia ecológica gastará \\(4 \\times  6 = 24\\) litros por dia. A economia será \\(60 - 24 = 36\\) litros diários, alternativa B.",
+          "A redução equivale a \\(\\frac{36}{60}=60\\%\\) do consumo anterior. Os 24 litros representam o novo consumo, não a economia."
         ],
         "takeaway": "Economia é a diferença entre consumo antigo e novo, calculados para a mesma quantidade de utilizações."
       }
@@ -1193,9 +1193,9 @@
       "explanation": {
         "concept": "Cargas de materiais diferentes podem ser comparadas pela fração da capacidade total que cada uma ocupa.",
         "steps": [
-          "Como 1.500 telhas completam a capacidade do caminhão, 900 telhas representam 900/1.500 = 0,60, ou 60% da carga máxima.",
-          "Restam 40% da capacidade. Como a carga máxima também equivale a 1.200 tijolos, podemos acrescentar 0,40 × 1.200 = 480 tijolos, alternativa D.",
-          "A conferência é 900/1.500 + 480/1.200 = 0,60 + 0,40 = 1. Qualquer tijolo adicional ultrapassaria a capacidade indicada."
+          "Como 1.500 telhas completam a capacidade do caminhão, 900 telhas representam \\(\\frac{900}{1\\,500}=0{,}60\\), ou \\(60\\%\\) da carga máxima.",
+          "Restam \\(40\\%\\) da capacidade. Como a carga máxima também equivale a 1.200 tijolos, podemos acrescentar \\(0{,}40 \\times  1\\,200 = 480\\) tijolos, alternativa D.",
+          "A conferência é \\(\\frac{900}{1\\,500}+\\frac{480}{1\\,200}=0{,}60+0{,}40=1\\). Qualquer tijolo adicional ultrapassaria a capacidade indicada."
         ],
         "takeaway": "Ao misturar materiais, some as frações da capacidade ocupadas por eles, em vez de somar apenas as quantidades de peças."
       }
@@ -1208,9 +1208,9 @@
       "explanation": {
         "concept": "Uma relação de proporcionalidade entre potências determina como uma grandeza depende da outra.",
         "steps": [
-          "Dizer que o cubo da área é proporcional ao quadrado da massa significa S³ = k·M², em que k > 0 é a constante de proporcionalidade.",
-          "Extraindo a raiz cúbica dos dois lados, S = (k·M²)^(1/3) = k^(1/3)·M^(2/3). Essa é exatamente a expressão mostrada na alternativa D.",
-          "A dependência pode ser conferida: se a massa for multiplicada por 8, a área será multiplicada por 8^(2/3) = 4. O expoente 2/3 resulta da combinação do quadrado da massa com o cubo da área."
+          "Dizer que o cubo da área é proporcional ao quadrado da massa significa \\(S^{3} = k\\cdot M^{2}\\), em que \\(k > 0\\) é a constante de proporcionalidade.",
+          "Extraindo a raiz cúbica dos dois lados, \\(S=\\sqrt[3]{kM^2}=k^{\\frac{1}{3}}M^{\\frac{2}{3}}\\). Essa é exatamente a expressão mostrada na alternativa D.",
+          "A dependência pode ser conferida: se a massa for multiplicada por 8, a área será multiplicada por \\(8^{\\frac{2}{3}}=4\\). O expoente \\(\\frac{2}{3}\\) resulta da combinação do quadrado da massa com o cubo da área."
         ],
         "takeaway": "Ao extrair uma raiz de um produto, aplique o expoente fracionário tanto à constante quanto à variável."
       }
@@ -1223,8 +1223,8 @@
       "explanation": {
         "concept": "Para cobrir uma área fixa, a quantidade de placas é inversamente proporcional à área de cada placa.",
         "steps": [
-          "Cada placa original tem área y². Uma caixa com N placas cobre S = N·y². Ao triplicar o lado, a nova placa passa a ter área (3y)² = 9y².",
-          "Para manter a área total, a nova quantidade X deve satisfazer X·9y² = N·y². Dividindo por 9y², obtemos X = N/9, alternativa A."
+          "Cada placa original tem área \\(y^{2}\\). Uma caixa com \\(N\\) placas cobre \\(S = N\\cdot y^{2}\\). Ao triplicar o lado, a nova placa passa a ter área \\((3y)^{2} = 9y^{2}\\).",
+          "Para manter a área total, a nova quantidade \\(X\\) deve satisfazer \\(X\\cdot 9y^{2} = N\\cdot y^{2}\\). Dividindo por \\(9y^{2}\\), obtemos \\(X=\\frac{N}{9}\\), alternativa A."
         ],
         "takeaway": "Triplicar uma medida linear multiplica a área por nove; por isso, a quantidade de peças para a mesma cobertura cai para um nono."
       }
@@ -1237,8 +1237,8 @@
       "explanation": {
         "concept": "Repetir uma variação percentual equivale a aplicar novamente o mesmo fator multiplicativo.",
         "steps": [
-          "A tabela mostra a taxa passando de 2,38 em 2000 para 1,90 em 2010. O fator dessa mudança é 1,90/2,38 ≈ 0,7983, correspondente a uma redução de aproximadamente 20,17%.",
-          "Na projeção pedida, repetimos esse fator sobre o valor de 2010: 1,90 × (1,90/2,38) = 3,61/2,38 ≈ 1,5168. O valor mais próximo é 1,52, alternativa C.",
+          "A tabela mostra a taxa passando de 2,38 em 2000 para 1,90 em 2010. O fator dessa mudança é \\(\\frac{1{,}90}{2{,}38}\\approx0{,}7983\\), correspondente a uma redução de aproximadamente \\(20{,}17\\%\\).",
+          "Na projeção pedida, repetimos esse fator sobre o valor de 2010: \\(1{,}90\\times\\frac{1{,}90}{2{,}38}=\\frac{3{,}61}{2{,}38}\\approx1{,}5168\\). O valor mais próximo é 1,52, alternativa C.",
           "Subtrair novamente 0,48 produziria 1,42, mas repetiria a redução absoluta. O enunciado pede a repetição da redução percentual."
         ],
         "takeaway": "Percentuais iguais em períodos sucessivos correspondem a fatores iguais, e não necessariamente a diferenças iguais."
@@ -1253,7 +1253,7 @@
         "concept": "Localização em uma malha de ruas e distância percorrida por quarteirões.",
         "steps": [
           "O percurso deve acompanhar as ruas da malha. Assim, somamos os deslocamentos horizontal e vertical, contando os intervalos entre ruas, em vez de usar a distância em linha reta.",
-          "No encontro da rua 4 com a rua D, até o trabalho da mãe, em 6/E, são 2 intervalos na horizontal e 1 na vertical: 3. Até o consultório do pai, em 2/E, também são 2 + 1 = 3 intervalos.",
+          "No encontro da rua 4 com a rua D, até o trabalho da mãe, em 6/E, são 2 intervalos na horizontal e 1 na vertical: 3. Até o consultório do pai, em 2/E, também são \\(2 + 1 = 3\\) intervalos.",
           "A escola fica em 4/A: partindo de 4/D, basta percorrer os 3 intervalos D–C–B–A. Os três percursos têm o mesmo comprimento, portanto a localização correta é 4/D, alternativa C."
         ],
         "takeaway": "Em um mapa de ruas ortogonais, conte o caminho permitido pelas ruas; uma diagonal pode não ser um percurso possível."
@@ -1267,9 +1267,9 @@
       "explanation": {
         "concept": "Projeção ortogonal de paralelos e meridianos de uma esfera sobre um plano horizontal.",
         "steps": [
-          "Na projeção ortogonal sobre α, cada ponto do globo é levado verticalmente ao plano. O trecho AB acompanha um paralelo: visto de cima, continua sendo um arco de circunferência, e não um segmento reto.",
-          "O trecho BC acompanha um meridiano em um plano vertical. Sua projeção fica sobre uma reta. Ao sair de B em direção ao Equador, a projeção se afasta do centro; depois do Equador, aproxima-se novamente dele, sobrepondo parte do percurso.",
-          "A figura que reúne o arco AB e o trecho retilíneo com esse pequeno avanço além de B é a alternativa E. B e C não se confundem, pois estão em latitudes com diferentes distâncias ao eixo do globo."
+          "Na projeção ortogonal sobre \\(\\alpha \\), cada ponto do globo é levado verticalmente ao plano. O trecho \\(AB\\) acompanha um paralelo: visto de cima, continua sendo um arco de circunferência, e não um segmento reto.",
+          "O trecho \\(BC\\) acompanha um meridiano em um plano vertical. Sua projeção fica sobre uma reta. Ao sair de \\(B\\) em direção ao Equador, a projeção se afasta do centro; depois do Equador, aproxima-se novamente dele, sobrepondo parte do percurso.",
+          "A figura que reúne o arco \\(AB\\) e o trecho retilíneo com esse pequeno avanço além de \\(B\\) é a alternativa E. \\(B\\) e \\(C\\) não se confundem, pois estão em latitudes com diferentes distâncias ao eixo do globo."
         ],
         "takeaway": "Para projetar um trajeto espacial, analise separadamente a imagem de cada trecho e as possíveis sobreposições."
       }
@@ -1284,7 +1284,7 @@
         "steps": [
           "As bordas superiores têm raio 5 cm. Para duas taças vizinhas não se sobreporem, a distância mínima entre seus centros é 10 cm. Quatro centros alinhados criam três intervalos, totalizando 30 cm.",
           "A bandeja precisa apoiar integralmente as bases, de raio 4 cm. Por isso, acrescentamos 4 cm antes do primeiro centro e 4 cm depois do último: comprimento mínimo de 38 cm. A largura mínima é o diâmetro da base, 8 cm.",
-          "A área mínima é 38 × 8 = 304 cm², alternativa C. As bordas superiores podem ultrapassar o contorno da bandeja, pois a exigência de apoio se refere às bases."
+          "A área mínima é \\(38 \\times  8 = 304\\) cm², alternativa C. As bordas superiores podem ultrapassar o contorno da bandeja, pois a exigência de apoio se refere às bases."
         ],
         "takeaway": "Use o raio da borda para separar as taças e o raio da base para calcular o apoio necessário."
       }
@@ -1298,8 +1298,8 @@
         "concept": "Escolha de uma embalagem pela compatibilidade das dimensões e pelo espaço livre.",
         "steps": [
           "O objeto é um cubo de aresta 80 cm. A caixa 2 tem uma dimensão de 75 cm e não comporta o cubo. As caixas 1, 3, 4 e 5 têm todas as dimensões iguais ou superiores a 80 cm e são candidatas.",
-          "Seus volumes são, respectivamente: 86³ = 636.056 cm³; 85 × 82 × 90 = 627.300 cm³; 82 × 95 × 82 = 638.780 cm³; e 80 × 95 × 85 = 646.000 cm³.",
-          "O volume do cubo, 80³ = 512.000 cm³, é o mesmo em qualquer opção. Logo, a menor caixa que o comporta também deixa a menor sobra: a caixa 3, com 115.300 cm³ livres, alternativa C."
+          "Seus volumes são, respectivamente: \\(86^{3} = 636\\,056\\) cm³; \\(85 \\times  82 \\times  90 = 627\\,300\\) cm³; \\(82 \\times  95 \\times  82 = 638\\,780\\) cm³; e \\(80 \\times  95 \\times  85 = 646\\,000\\) cm³.",
+          "O volume do cubo, \\(80^{3} = 512\\,000\\) cm³, é o mesmo em qualquer opção. Logo, a menor caixa que o comporta também deixa a menor sobra: a caixa 3, com \\(115\\,300\\,\\text{cm}^{3}\\) livres, alternativa C."
         ],
         "takeaway": "Antes de comparar volumes de embalagens, verifique se o objeto cabe em suas dimensões."
       }
@@ -1326,9 +1326,9 @@
       "explanation": {
         "concept": "Rotação de uma figura plana em torno de um ponto fixo.",
         "steps": [
-          "O ponto B permanece preso à parede e funciona como centro da rotação. Na posição caída, o vértice oposto a B está diretamente abaixo dele; na posição original, esse vértice estava acima e à esquerda de B.",
-          "Tomando a direção para a direita como 0° e contando no sentido anti-horário, a diagonal que parte de B deve passar de 270° para 135°. Isso corresponde a girar 135° no sentido horário.",
-          "O giro pelo outro sentido seria de 225°, maior que 135°. Assim, o menor giro que restaura a posição original é 135° no sentido horário, alternativa B."
+          "O ponto \\(B\\) permanece preso à parede e funciona como centro da rotação. Na posição caída, o vértice oposto a \\(B\\) está diretamente abaixo dele; na posição original, esse vértice estava acima e à esquerda de \\(B\\).",
+          "Tomando a direção para a direita como \\(0^{\\circ}\\) e contando no sentido anti-horário, a diagonal que parte de \\(B\\) deve passar de \\(270^{\\circ}\\) para \\(135^{\\circ}\\). Isso corresponde a girar \\(135^{\\circ}\\) no sentido horário.",
+          "O giro pelo outro sentido seria de \\(225^{\\circ}\\), maior que \\(135^{\\circ}\\). Assim, o menor giro que restaura a posição original é \\(135^{\\circ}\\) no sentido horário, alternativa \\(B\\)."
         ],
         "takeaway": "Acompanhe um vértice identificado da figura; a posição de uma única borda pode ocultar uma rotação adicional."
       }
@@ -1355,9 +1355,9 @@
       "explanation": {
         "concept": "Comparação de percursos formados por segmentos radiais e arcos de circunferência.",
         "steps": [
-          "A figura coloca B na circunferência de raio 4 e A na de raio 6. Suas semirretas estão separadas por quatro intervalos de π/6, isto é, 2π/3 radianos. Na circunferência de raio r, esse arco mede 2πr/3.",
-          "Para fazer a mudança de direção em um raio r entre 1 e 4, o percurso mede (4 − r) + (6 − r) + 2πr/3 = 10 + r(2π/3 − 2). Como π > 3, o coeficiente de r é positivo: o menor raio permitido produz o menor percurso. Passar pela origem é proibido, então usamos r = 1.",
-          "O objeto percorre 3 unidades de B até a circunferência de raio 1, um arco de comprimento 2π/3 e mais 5 unidades até A. O total é 8 + 2π/3, expressão da alternativa A. Usar arcos de raio maior só aumenta o custo da mudança de direção."
+          "A figura coloca B na circunferência de raio 4 e A na de raio 6. Suas semirretas estão separadas por quatro intervalos de \\(\\frac{\\pi}{6}\\), isto é, \\(\\frac{2\\pi}{3}\\) radianos. Na circunferência de raio \\(r\\), esse arco mede \\(\\frac{2\\pi r}{3}\\).",
+          "Para fazer a mudança de direção em um raio \\(r\\) entre 1 e 4, o percurso mede \\[\\begin{aligned}L(r)&=(4-r)+(6-r)+\\frac{2\\pi r}{3}\\\\&=10+r\\left(\\frac{2\\pi}{3}-2\\right)\\end{aligned}\\]. Como \\(\\pi  > 3\\), o coeficiente de \\(r\\) é positivo: o menor raio permitido produz o menor percurso. Passar pela origem é proibido, então usamos \\(r = 1\\).",
+          "O objeto percorre 3 unidades de B até a circunferência de raio 1, um arco de comprimento \\(\\frac{2\\pi}{3}\\) e mais 5 unidades até A. O total é \\(8+\\frac{2\\pi}{3}\\), expressão da alternativa A. Usar arcos de raio maior só aumenta o custo da mudança de direção."
         ],
         "takeaway": "Um arco fica mais curto quando seu raio diminui; compare essa economia com os segmentos necessários para alcançá-lo."
       }
@@ -1370,9 +1370,9 @@
       "explanation": {
         "concept": "Área de uma coroa circular obtida por tangência e teorema de Pitágoras.",
         "steps": [
-          "Chame de R o raio da praça e de r o raio do chafariz. O raio até o ponto de tangência é perpendicular ao segmento AB e o divide ao meio. Como AB = 16 m, cada metade mede 8 m.",
-          "Ligando o centro da praça a A, obtemos um triângulo retângulo com hipotenusa R e catetos r e 8. Pelo teorema de Pitágoras, R² = r² + 8², portanto R² − r² = 64.",
-          "A área do passeio é a diferença entre as áreas dos círculos: πR² − πr² = π(R² − r²) = 64π m², alternativa D. Não é necessário descobrir cada raio separadamente."
+          "Chame de \\(R\\) o raio da praça e de \\(r\\) o raio do chafariz. O raio até o ponto de tangência é perpendicular ao segmento \\(AB\\) e o divide ao meio. Como \\(AB = 16\\) m, cada metade mede 8 m.",
+          "Ligando o centro da praça a A, obtemos um triângulo retângulo com hipotenusa \\(R\\) e catetos \\(r\\) e 8. Pelo teorema de Pitágoras, \\(R^{2} = r^{2} + 8^{2}\\), portanto \\(R^{2} - r^{2} = 64\\).",
+          "A área do passeio é a diferença entre as áreas dos círculos: \\(\\pi R^{2} - \\pi r^{2} = \\pi (R^{2} - r^{2}) = 64\\pi \\) m², alternativa D. Não é necessário descobrir cada raio separadamente."
         ],
         "takeaway": "Uma medida de tangência pode fornecer diretamente a diferença entre os quadrados dos raios."
       }
@@ -1385,8 +1385,8 @@
       "explanation": {
         "concept": "Classificação simultânea de um triângulo por seus lados e por seus ângulos.",
         "steps": [
-          "Os dois remos têm o mesmo comprimento e correspondem aos segmentos AB e AC. Portanto AB = AC, o que caracteriza um triângulo isósceles.",
-          "O ângulo entre os remos mede 170°, maior que 90°; logo o triângulo é obtusângulo. Os dois ângulos restantes medem (180° − 170°)/2 = 5° cada. A classificação conjunta é obtusângulo isósceles, alternativa E."
+          "Os dois remos têm o mesmo comprimento e correspondem aos segmentos \\(AB\\) e \\(AC\\). Portanto \\(AB = AC\\), o que caracteriza um triângulo isósceles.",
+          "O ângulo entre os remos mede \\(170^{\\circ}\\), maior que \\(90^{\\circ}\\); logo o triângulo é obtusângulo. Os dois ângulos restantes medem \\(\\frac{180^{\\circ}-170^{\\circ}}{2}=5^{\\circ}\\) cada. A classificação conjunta é obtusângulo isósceles, alternativa E."
         ],
         "takeaway": "A igualdade de lados e a medida dos ângulos são critérios independentes para classificar o mesmo triângulo."
       }
@@ -1399,9 +1399,9 @@
       "explanation": {
         "concept": "Leitura de camadas de um sólido e identificação da peça complementar.",
         "steps": [
-          "Um cubo 4 × 4 × 4 possui quatro camadas de 16 cubinhos, totalizando 64. Na vista explodida, as duas camadas inferiores já estão completas; a terceira contém 14 cubinhos e a superior contém 7.",
+          "Um cubo \\(4 \\times  4 \\times  4\\) possui quatro camadas de 16 cubinhos, totalizando 64. Na vista explodida, as duas camadas inferiores já estão completas; a terceira contém 14 cubinhos e a superior contém 7.",
           "Faltam, portanto, 2 cubinhos na terceira camada e 9 na quarta, totalizando 11. Os dois vazios da terceira camada ficam alinhados no sentido da profundidade junto à lateral direita, e devem ser preenchidos por uma extensão abaixo da camada superior da peça.",
-          "A alternativa A reúne os 9 cubinhos superiores e os 2 inferiores nas posições necessárias. Ao encaixá-la, cada camada passa a ser um quadrado 4 × 4, sem sobrepor cubinhos já colocados."
+          "A alternativa A reúne os 9 cubinhos superiores e os 2 inferiores nas posições necessárias. Ao encaixá-la, cada camada passa a ser um quadrado \\(4 \\times  4\\), sem sobrepor cubinhos já colocados."
         ],
         "takeaway": "Para completar um sólido, verifique a posição dos vazios em cada camada; contar cubinhos, sozinho, não garante o encaixe."
       }
@@ -1414,9 +1414,9 @@
       "explanation": {
         "concept": "Lugar geométrico de pontos cuja razão entre duas distâncias é constante.",
         "steps": [
-          "Coloque o foco B em (0, 0) e o foco A em (30, 0). Para um bombeiro em P = (x, y), a condição PA = 2PB implica (x − 30)² + y² = 4(x² + y²), após elevar ambos os lados ao quadrado.",
-          "Desenvolvendo e rearranjando, obtemos x² + y² + 20x − 300 = 0, ou (x + 10)² + y² = 400. As posições permitidas formam uma circunferência de centro (−10, 0) e raio 20 m.",
-          "A maior distância entre dois pontos de uma circunferência é seu diâmetro: 2 × 20 = 40 m, alternativa B. Por exemplo, as posições (−30, 0) e (10, 0) estão separadas por 40 m e ambas satisfazem PA = 2PB."
+          "Coloque o foco B em \\((0, 0)\\) e o foco A em \\((30, 0)\\). Para um bombeiro em \\(P = (x, y)\\), a condição \\(PA = 2PB\\) implica \\((x - 30)^{2} + y^{2} = 4(x^{2} + y^{2})\\), após elevar ambos os lados ao quadrado.",
+          "Desenvolvendo e rearranjando, obtemos \\(x^{2} + y^{2} + 20x - 300 = 0\\), ou \\((x + 10)^{2} + y^{2} = 400\\). As posições permitidas formam uma circunferência de centro \\((-10, 0)\\) e raio 20 m.",
+          "A maior distância entre dois pontos de uma circunferência é seu diâmetro: \\(2 \\times  20 = 40\\) m, alternativa B. Por exemplo, as posições \\((-30, 0)\\) e \\((10, 0)\\) estão separadas por 40 m e ambas satisfazem \\(PA = 2PB\\)."
         ],
         "takeaway": "Uma razão fixa entre distâncias a dois pontos pode definir uma circunferência; sua maior separação interna é o diâmetro."
       }
@@ -1429,9 +1429,9 @@
       "explanation": {
         "concept": "Composição de rotações e escolha do menor deslocamento angular.",
         "steps": [
-          "Use leste como 0° e conte os ângulos positivos no sentido anti-horário. A direção oeste corresponde a 180°. As três mudanças levam a câmera a 180° + 135° − 60° + 45° = 300°.",
-          "O noroeste corresponde a 135°. Do ângulo de 300° até 135°, o giro horário mede 300° − 135° = 165°. Pelo sentido anti-horário, seriam 360° − 165° = 195°.",
-          "Como 165° é a menor amplitude, o controlador deve girar 165° no sentido horário, alternativa E."
+          "Use leste como \\(0^{\\circ}\\) e conte os ângulos positivos no sentido anti-horário. A direção oeste corresponde a \\(180^{\\circ}\\). As três mudanças levam a câmera a \\(180^{\\circ} + 135^{\\circ} - 60^{\\circ} + 45^{\\circ} = 300^{\\circ}\\).",
+          "O noroeste corresponde a \\(135^{\\circ}\\). Do ângulo de \\(300^{\\circ}\\) até \\(135^{\\circ}\\), o giro horário mede \\(300^{\\circ} - 135^{\\circ} = 165^{\\circ}\\). Pelo sentido anti-horário, seriam \\(360^{\\circ} - 165^{\\circ} = 195^{\\circ}\\).",
+          "Como \\(165^{\\circ}\\) é a menor amplitude, o controlador deve girar \\(165^{\\circ}\\) no sentido horário, alternativa E."
         ],
         "takeaway": "Some rotações com sinais opostos para os dois sentidos e depois compare os dois caminhos até a direção desejada."
       }
@@ -1444,8 +1444,8 @@
       "explanation": {
         "concept": "Planificação de uma hélice sobre um cilindro e razão trigonométrica.",
         "steps": [
-          "A circunferência da base mede 2πr = 2π × (6/π) = 12 cm. A figura mostra seis voltas completas da linha ao redor do cilindro; ao desenrolar a faixa, sua base mede 6 × 12 = 72 cm.",
-          "Na faixa plana, a diagonal faz 30° com a base. A altura h do cilindro é o cateto oposto a esse ângulo: tan 30° = h/72. Como tan 30° = √3/3, temos h = 72√3/3 = 24√3 cm, alternativa B."
+          "A circunferência da base mede \\(2\\pi r=2\\pi\\times\\frac{6}{\\pi}=12\\) cm. A figura mostra seis voltas completas da linha ao redor do cilindro; ao desenrolar a faixa, sua base mede \\(6 \\times  12 = 72\\) cm.",
+          "Na faixa plana, a diagonal faz \\(30^{\\circ}\\) com a base. A altura \\(h\\) do cilindro é o cateto oposto a esse ângulo: \\(\\tan30^{\\circ}=\\frac{h}{72}\\). Como \\(\\tan30^{\\circ}=\\frac{\\sqrt{3}}{3}\\), temos \\(h=\\frac{72\\sqrt{3}}{3}=24\\sqrt{3}\\) cm, alternativa B."
         ],
         "takeaway": "Desenrolar a superfície cilíndrica transforma cada volta da hélice em um avanço horizontal igual à circunferência da base."
       }
@@ -1473,8 +1473,8 @@
       "explanation": {
         "concept": "Volume de água, conversão de metros cúbicos em litros e dosagem proporcional.",
         "steps": [
-          "A água fica 50 cm, ou 0,50 m, abaixo da borda. Sua profundidade é 1,70 − 0,50 = 1,20 m. Com base de 3 m por 5 m, o volume é 3 × 5 × 1,20 = 18 m³.",
-          "Como 1 m³ = 1.000 L, há 18.000 L de água. A recomendação é 1,5 mL de produto para cada 1.000 L: 18 × 1,5 = 27 mL, alternativa B."
+          "A água fica 50 cm, ou 0,50 m, abaixo da borda. Sua profundidade é \\(1{,}70 - 0{,}50 = 1{,}20\\) m. Com base de 3 m por 5 m, o volume é \\(3 \\times  5 \\times  1{,}20 = 18\\) m³.",
+          "Como \\(1\\,\\text{m}^3=1\\,000\\,\\text{L}\\), há 18.000 L de água. A recomendação é 1,5 mL de produto para cada 1.000 L: \\(18 \\times  1{,}5 = 27\\) mL, alternativa B."
         ],
         "takeaway": "Calcule a altura efetiva da água antes de obter o volume e aplicar a proporção da dosagem."
       }
@@ -1487,9 +1487,9 @@
       "explanation": {
         "concept": "Altura de círculos empilhados e aplicação de uma margem de segurança.",
         "steps": [
-          "Os três canos têm raio 0,60 m e se tocam. Seus centros formam um triângulo equilátero de lado 1,20 m. A distância vertical entre o centro superior e a linha dos centros inferiores é 1,20√3/2 = 0,60√3 ≈ 1,02 m, usando √3 ≈ 1,7.",
-          "A pilha mede 0,60 + 1,02 + 0,60 = 2,22 m de altura: um raio abaixo dos centros inferiores, a altura entre centros e um raio acima do centro superior. Somando a carroceria, a carga chega a 2,22 + 1,30 = 3,52 m do solo.",
-          "O vão ainda precisa oferecer 0,50 m de folga. Assim, a altura mínima segura é 3,52 + 0,50 = 4,02 m, alternativa D."
+          "Os três canos têm raio 0,60 m e se tocam. Seus centros formam um triângulo equilátero de lado 1,20 m. A distância vertical entre o centro superior e a linha dos centros inferiores é \\(\\frac{1{,}20\\sqrt{3}}{2}=0{,}60\\sqrt{3}\\approx1{,}02\\) m, usando \\(\\sqrt{3}\\approx1{,}7\\).",
+          "A pilha mede \\(0{,}60 + 1{,}02 + 0{,}60 = 2{,}22\\) m de altura: um raio abaixo dos centros inferiores, a altura entre centros e um raio acima do centro superior. Somando a carroceria, a carga chega a \\(2{,}22 + 1{,}30 = 3{,}52\\) m do solo.",
+          "O vão ainda precisa oferecer 0,50 m de folga. Assim, a altura mínima segura é \\(3{,}52 + 0{,}50 = 4{,}02\\) m, alternativa D."
         ],
         "takeaway": "A dimensão exigida para uma passagem segura inclui a altura total do conjunto e a folga especificada."
       }
@@ -1502,9 +1502,9 @@
       "explanation": {
         "concept": "Determinação do raio de um desenho e comparação com intervalos de fabricação.",
         "steps": [
-          "O raio da tampa é a distância BC entre a ponta seca e o grafite. As hastes AB e AC medem 10 cm e formam 120°. Pela lei dos cossenos, BC² = 10² + 10² − 2 × 10 × 10 × cos 120°.",
-          "Como cos 120° = −1/2, resulta BC² = 300 e BC = 10√3. Com a aproximação √3 = 1,7 indicada na tabela, o raio vale aproximadamente 17 cm.",
-          "A tabela destina o material IV ao intervalo 15 < R ≤ 21 cm. Como 17 está nesse intervalo, deve-se utilizar o material IV, alternativa D. As coordenadas do centro não alteram o raio."
+          "O raio da tampa é a distância \\(BC\\) entre a ponta seca e o grafite. As hastes \\(AB\\) e \\(AC\\) medem 10 cm e formam \\(120^{\\circ}\\). Pela lei dos cossenos, \\[\\begin{aligned}BC^2&=10^2+10^2\\\\&\\quad-2\\times10\\times10\\cos120^{\\circ}\\end{aligned}\\].",
+          "Como \\(\\cos120^{\\circ}=-\\frac{1}{2}\\), resulta \\(BC^{2} = 300\\) e \\(BC=10\\sqrt{3}\\). Com a aproximação \\(\\sqrt{3}\\approx1{,}7\\) indicada na tabela, o raio vale aproximadamente 17 cm.",
+          "A tabela destina o material IV ao intervalo \\(15 < R \\le  21\\) cm. Como 17 está nesse intervalo, deve-se utilizar o material IV, alternativa D. As coordenadas do centro não alteram o raio."
         ],
         "takeaway": "Depois de calcular uma medida, confronte-a com os limites e as unidades do critério de seleção."
       }
@@ -1517,7 +1517,7 @@
       "explanation": {
         "concept": "Comparação de medidas pela diferença absoluta em relação a um valor de referência.",
         "steps": [
-          "O diâmetro original é 4 mm. As diferenças absolutas das cinco medidas disponíveis em relação a 4 são: |4,025 − 4| = 0,025; |4,100 − 4| = 0,100; |3,970 − 4| = 0,030; |4,080 − 4| = 0,080; e |3,099 − 4| = 0,901 mm.",
+          "O diâmetro original é 4 mm. As diferenças absolutas das cinco medidas disponíveis em relação a 4 são: \\(\\lvert4{,}025-4\\rvert=0{,}025\\); \\(\\lvert4{,}100-4\\rvert=0{,}100\\); \\(\\lvert3{,}970-4\\rvert=0{,}030\\); \\(\\lvert4{,}080-4\\rvert=0{,}080\\); e \\(\\lvert3{,}099-4\\rvert=0{,}901\\) mm.",
           "A menor diferença é 0,025 mm, correspondente à pérola de 4,025 mm, alternativa C. A pérola de 3,970 mm é ligeiramente menos próxima, pois sua diferença é 0,030 mm."
         ],
         "takeaway": "A medida mais próxima minimiza o valor absoluto da diferença, independentemente de ser maior ou menor que a referência."
@@ -1531,8 +1531,8 @@
       "explanation": {
         "concept": "Efeito de uma escala linear sobre volumes e conversão de unidades cúbicas.",
         "steps": [
-          "A escala 1:400 reduz cada comprimento por um fator de 400. Como o volume depende de três dimensões, o volume original é 400³ vezes o volume da lembrança.",
-          "Assim, V = 25 × 400³ = 25 × 64.000.000 = 1.600.000.000 cm³. Como 1 m³ = 1.000.000 cm³, dividimos por um milhão e obtemos 1.600 m³, alternativa C."
+          "A escala \\(1:400\\) reduz cada comprimento por um fator de 400. Como o volume depende de três dimensões, o volume original é \\(400^{3}\\) vezes o volume da lembrança.",
+          "Assim, \\[\\begin{aligned}V&=25\\times400^3\\\\&=25\\times64\\,000\\,000\\\\&=1\\,600\\,000\\,000\\end{aligned}\\] cm³. Como \\(1\\,\\text{m}^3=1\\,000\\,000\\,\\text{cm}^3\\), dividimos por um milhão e obtemos \\(1\\,600\\,\\text{m}^{3}\\), alternativa C."
         ],
         "takeaway": "Em objetos semelhantes, comprimentos variam com a escala, áreas com seu quadrado e volumes com seu cubo."
       }
@@ -1559,9 +1559,9 @@
       "explanation": {
         "concept": "Comprimento de trajetórias circulares e velocidade média para um período comum.",
         "steps": [
-          "As distâncias da base às torres T1, T2 e T3 são 50 m, 100 m e 150 m. Cada torre percorre uma circunferência com esse raio durante uma volta completa.",
-          "Usando π = 3, os comprimentos percorridos são 2 × 3 × 50 = 300 m, 2 × 3 × 100 = 600 m e 2 × 3 × 150 = 900 m.",
-          "Todas devem completar a volta em 25 horas. As velocidades são 300/25 = 12 m/h, 600/25 = 24 m/h e 900/25 = 36 m/h, respectivamente, alternativa A."
+          "As distâncias da base às torres \\(T_{1}\\), \\(T_{2}\\) e \\(T_{3}\\) são 50 m, 100 m e 150 m. Cada torre percorre uma circunferência com esse raio durante uma volta completa.",
+          "Usando \\(\\pi  = 3\\), os comprimentos percorridos são \\(2 \\times  3 \\times  50 = 300\\) m, \\(2 \\times  3 \\times  100 = 600\\) m e \\(2 \\times  3 \\times  150 = 900\\) m.",
+          "Todas devem completar a volta em 25 horas. As velocidades são \\(\\frac{300}{25}=12\\) m/h, \\(\\frac{600}{25}=24\\) m/h e \\(\\frac{900}{25}=36\\) m/h, respectivamente, alternativa A."
         ],
         "takeaway": "Para completar uma rotação no mesmo tempo, a torre mais distante do centro deve percorrer mais metros por hora."
       }
@@ -1574,9 +1574,9 @@
       "explanation": {
         "concept": "Relação entre massa, volume e densidade em um reabastecimento.",
         "steps": [
-          "O carro começou com 100 kg e consumiu quatro décimos dessa massa: 0,4 × 100 = 40 kg. Restaram 100 − 40 = 60 kg no tanque.",
-          "O reabastecimento corresponde a um terço do que restou, isto é, 60/3 = 20 kg. A densidade de 750 g/L equivale a 0,75 kg/L.",
-          "Como densidade = massa/volume, o volume acrescentado é V = 20/0,75 L, aproximadamente 26,67 L. Essa é a expressão apresentada na alternativa B."
+          "O carro começou com 100 kg e consumiu quatro décimos dessa massa: \\(0{,}4 \\times  100 = 40\\) kg. Restaram \\(100 - 40 = 60\\) kg no tanque.",
+          "O reabastecimento corresponde a um terço do que restou, isto é, \\(\\frac{60}{3}=20\\) kg. A densidade de 750 g/L equivale a 0,75 kg/L.",
+          "Como \\(\\text{densidade}=\\frac{\\text{massa}}{\\text{volume}}\\), o volume acrescentado é \\(V=\\frac{20}{0{,}75}\\) L, aproximadamente 26,67 L. Essa é a expressão apresentada na alternativa B."
         ],
         "takeaway": "Converta a densidade para a mesma unidade de massa usada no problema antes de calcular o volume."
       }
@@ -1589,8 +1589,8 @@
       "explanation": {
         "concept": "Inclinação percentual de uma rampa e ajuste de seu desnível.",
         "steps": [
-          "A rampa projetada vence um desnível de 2 m ao longo de 8 m medidos na horizontal. Sua inclinação é 100 × 2/8 = 25%, acima do limite de 20% informado no enunciado.",
-          "Mantendo a base de 8 m, o maior desnível permitido é 0,20 × 8 = 1,60 m. O desnível precisa diminuir em 2,00 − 1,60 = 0,40 m, ou 40 cm.",
+          "A rampa projetada vence um desnível de 2 m ao longo de 8 m medidos na horizontal. Sua inclinação é \\(\\frac{2}{8}\\times100\\%=25\\%\\), acima do limite de \\(20\\%\\) informado no enunciado.",
+          "Mantendo a base de 8 m, o maior desnível permitido é \\(0{,}20 \\times  8 = 1{,}60\\) m. O desnível precisa diminuir em \\(2{,}00 - 1{,}60 = 0{,}40\\) m, ou 40 cm.",
           "Como a garagem está abaixo da rua, diminuir o desnível significa elevar seu piso. Deve-se elevá-lo em 40 cm, alternativa A."
         ],
         "takeaway": "A inclinação percentual usa a projeção horizontal da rampa; reduzir o desnível diminui essa inclinação."
@@ -1604,8 +1604,8 @@
       "explanation": {
         "concept": "Conversão de uma distância representada em um mapa para a distância real.",
         "steps": [
-          "Na escala 1:58.000.000, cada centímetro do mapa representa 58.000.000 cm no espaço real. Portanto, o segmento de 7,6 cm representa 7,6 × 58.000.000 = 440.800.000 cm.",
-          "Um quilômetro contém 100.000 cm. Convertendo, a distância é 440.800.000/100.000 = 4.408 km, alternativa A."
+          "Na escala \\(1:58\\,000\\,000\\), cada centímetro do mapa representa 58.000.000 cm no espaço real. Portanto, o segmento de 7,6 cm representa \\(7{,}6 \\times  58\\,000\\,000 = 440\\,800\\,000\\) cm.",
+          "Um quilômetro contém 100.000 cm. Convertendo, a distância é \\(\\frac{440\\,800\\,000}{100\\,000}=4\\,408\\) km, alternativa A."
         ],
         "takeaway": "A escala relaciona comprimentos na mesma unidade; converta o resultado somente depois de aplicar a proporção."
       }
@@ -1618,9 +1618,9 @@
       "explanation": {
         "concept": "Determinação de uma escala que satisfaça simultaneamente restrições de tamanho.",
         "steps": [
-          "Converta as medidas reais: 15 m = 1.500 cm e 90 m = 9.000 cm. Na escala 1:X, o guindaste terá altura 1.500/X cm e a esteira terá comprimento 9.000/X cm.",
-          "A altura do guindaste deve estar entre 0,5 e 1 cm. Assim, 0,5 < 1.500/X < 1, o que, para X positivo, fornece 1.500 < X < 3.000.",
-          "A esteira precisa medir mais de 4 cm: 9.000/X > 4, portanto X < 2.250. Combinando as duas exigências, temos 1.500 < X < 2.250, alternativa C."
+          "Converta as medidas reais: \\(15\\,\\text{m}=1\\,500\\,\\text{cm}\\) e \\(90\\,\\text{m}=9\\,000\\,\\text{cm}\\). Na escala \\(1:X\\), o guindaste terá altura \\(\\frac{1\\,500}{X}\\) cm e a esteira terá comprimento \\(\\frac{9\\,000}{X}\\) cm.",
+          "A altura do guindaste deve estar entre 0,5 e 1 cm. Assim, \\(0{,}5<\\frac{1\\,500}{X}<1\\), o que, para \\(X\\) positivo, fornece \\(1\\,500 < X < 3\\,000\\).",
+          "A esteira precisa medir mais de 4 cm: \\(\\frac{9\\,000}{X}>4\\), portanto \\(X < 2\\,250\\). Combinando as duas exigências, temos \\(1\\,500 < X < 2\\,250\\), alternativa C."
         ],
         "takeaway": "Quando várias dimensões impõem limites à escala, a resposta é a interseção de todos esses limites."
       }
@@ -1634,8 +1634,8 @@
         "concept": "Avaliação da suficiência de material pela área de uma ampliação circular.",
         "steps": [
           "A região original tem diâmetro 6 m e raio 3 m. A ampliação aumenta o diâmetro em 8 m: o novo diâmetro é 14 m, portanto o novo raio é 7 m.",
-          "Só a faixa acrescentada precisa ser pavimentada. Sua área é π × 7² − π × 3² = π(49 − 9) = 40π. Usando π = 3, são necessários 120 m² de material.",
-          "O estoque cobre 100 m², então faltam 120 − 100 = 20 m². A quantidade disponível é insuficiente, como afirma a alternativa E."
+          "Só a faixa acrescentada precisa ser pavimentada. Sua área é \\(\\pi  \\times  7^{2} - \\pi  \\times  3^{2} = \\pi (49 - 9) = 40\\pi \\). Usando \\(\\pi  = 3\\), são necessários \\(120\\,\\text{m}^{2}\\) de material.",
+          "O estoque cobre \\(100\\,\\text{m}^{2}\\), então faltam \\(120 - 100 = 20\\) m². A quantidade disponível é insuficiente, como afirma a alternativa E."
         ],
         "takeaway": "Ao avaliar material para uma ampliação, calcule a diferença entre as áreas e distinga raio de diâmetro."
       }
@@ -1648,9 +1648,9 @@
       "explanation": {
         "concept": "Decomposição da área de uma placa em um retângulo e um semicírculo.",
         "steps": [
-          "O círculo tem diâmetro 40 cm e raio 20 cm. A parte arredondada acima do retângulo é um semicírculo de altura 20 cm. Como a placa inteira mede 60 cm de altura, o retângulo tem altura 60 − 20 = 40 cm e largura 40 cm.",
-          "A área de uma placa é 40 × 40 + π × 20²/2 = 1.600 + 200π. Com π = 3,14, resulta 1.600 + 628 = 2.228 cm².",
-          "Para as dez placas, a área total é 10 × 2.228 = 22.280 cm², alternativa B. A metade inferior do círculo já está contida no retângulo e não deve ser contada novamente."
+          "O círculo tem diâmetro 40 cm e raio 20 cm. A parte arredondada acima do retângulo é um semicírculo de altura 20 cm. Como a placa inteira mede 60 cm de altura, o retângulo tem altura \\(60 - 20 = 40\\) cm e largura 40 cm.",
+          "A área de uma placa é \\(40\\times40+\\frac{\\pi\\times20^2}{2}=1\\,600+200\\pi\\). Com \\(\\pi  = 3{,}14\\), resulta \\(1\\,600 + 628 = 2\\,228\\) cm².",
+          "Para as dez placas, a área total é \\(10 \\times  2\\,228 = 22\\,280\\) cm², alternativa B. A metade inferior do círculo já está contida no retângulo e não deve ser contada novamente."
         ],
         "takeaway": "Decomponha figuras compostas em regiões sem sobreposição para somar suas áreas."
       }
@@ -1662,8 +1662,8 @@
       "skill": 12,
       "explanation": {
         "steps": [
-          "A banheira comporta 0,3 m³, equivalentes a 300 L. Ela será preenchida até 80% da capacidade: 0,80 × 300 = 240 L de produto pronto.",
-          "Cada embalagem rende 2,7 L. A divisão 240/2,7 ≈ 88,89 indica que 88 embalagens não bastam. É preciso arredondar para o inteiro seguinte: 89 embalagens, alternativa C.",
+          "A banheira comporta \\(0{,}3\\,\\text{m}^{3}\\), equivalentes a 300 L. Ela será preenchida até \\(80\\%\\) da capacidade: \\(0{,}80 \\times  300 = 240\\) L de produto pronto.",
+          "Cada embalagem rende 2,7 L. A divisão \\(\\frac{240}{2{,}7}\\approx88{,}89\\) indica que 88 embalagens não bastam. É preciso arredondar para o inteiro seguinte: 89 embalagens, alternativa C.",
           "Conferindo: 88 embalagens rendem 237,6 L, abaixo do necessário, enquanto 89 rendem 240,3 L e permitem preencher os 240 L planejados."
         ],
         "concept": "Conversão de volume, percentual de preenchimento e arredondamento de uma compra mínima.",
@@ -1678,9 +1678,9 @@
       "explanation": {
         "concept": "Dimensionamento de uma entrega de concreto a partir da área da laje e de sua espessura.",
         "steps": [
-          "Divida a planta em três faixas horizontais. A faixa inferior mede 14 × 5 = 70 m²; a intermediária tem largura 14 − 3 = 11 m e altura 2 m, totalizando 22 m²; a superior mede 8 × 1 = 8 m². A área total é 70 + 22 + 8 = 100 m².",
-          "A espessura de 5 cm equivale a 0,05 m. O volume de concreto é área × espessura: 100 × 0,05 = 5 m³.",
-          "Um único caminhão com capacidade máxima de 5 m³ fornece exatamente esse volume. Portanto, a menor quantidade é um caminhão de 5 m³, alternativa C, atendendo também à exigência de utilizar sua capacidade máxima."
+          "Divida a planta em três faixas horizontais. A faixa inferior mede \\(14 \\times  5 = 70\\) m²; a intermediária tem largura \\(14 - 3 = 11\\) m e altura 2 m, totalizando \\(22\\,\\text{m}^{2}\\); a superior mede \\(8 \\times  1 = 8\\) m². A área total é \\(70 + 22 + 8 = 100\\) m².",
+          "A espessura de 5 cm equivale a 0,05 m. O volume de concreto é \\(\\text{área}\\times\\text{espessura}\\): \\(100 \\times  0{,}05 = 5\\) m³.",
+          "Um único caminhão com capacidade máxima de \\(5\\,\\text{m}^{3}\\) fornece exatamente esse volume. Portanto, a menor quantidade é um caminhão de \\(5\\,\\text{m}^{3}\\), alternativa C, atendendo também à exigência de utilizar sua capacidade máxima."
         ],
         "takeaway": "Para dimensionar concreto, use área em metros quadrados e espessura em metros; o produto será um volume em metros cúbicos."
       }
@@ -1693,8 +1693,8 @@
       "explanation": {
         "concept": "Consumo e rendimento são razões inversas.",
         "steps": [
-          "O computador A informa que X litros permitem percorrer 100 km. Para saber a distância percorrida com um litro, dividimos a distância total pela quantidade de combustível: 100 km ÷ X L.",
-          "Portanto, o computador B deve mostrar 100/X, em km/L, que é a alternativa C. X/100 representaria litros por quilômetro, a grandeza inversa da solicitada."
+          "O computador A informa que \\(X\\) litros permitem percorrer 100 km. Para saber a distância percorrida com um litro, dividimos a distância total pela quantidade de combustível: \\(\\frac{100\\,\\text{km}}{X\\,\\text{L}}\\).",
+          "Portanto, o computador B deve mostrar \\(\\frac{100}{X}\\), em km/L, que é a alternativa C. \\(\\frac{X}{100}\\) representaria litros por quilômetro, a grandeza inversa da solicitada."
         ],
         "takeaway": "Antes de dividir, confira a unidade pedida: km/L significa distância dividida por combustível."
       }
@@ -1707,8 +1707,8 @@
       "explanation": {
         "concept": "As propriedades dos logaritmos transformam uma lei de potência em uma relação linear.",
         "steps": [
-          "A lei apresentada é f = A/rᴮ. Aplicando logaritmo aos dois lados, log(f) = log(A) − log(rᴮ). Pela propriedade da potência, log(rᴮ) = B·log(r).",
-          "Como Y = log(f) e X = log(r), obtemos Y = log(A) − B·X. Essa é a expressão da alternativa A: uma reta de coeficiente angular −B e termo independente log(A)."
+          "A lei apresentada é \\(f=\\frac{A}{r^B}\\). Aplicando logaritmo aos dois lados, \\(\\log(f)=\\log(A)-\\log(r^B)\\). Pela propriedade da potência, \\(\\log(r^B)=B\\log(r)\\).",
+          "Como \\(Y = \\log (f)\\) e \\(X = \\log (r)\\), obtemos \\(Y = \\log (A) - B\\cdot X\\). Essa é a expressão da alternativa A: uma reta de coeficiente angular \\(-B\\) e termo independente \\(\\log (A)\\)."
         ],
         "takeaway": "No logaritmo, uma divisão vira subtração e o expoente passa a multiplicar."
       }
@@ -1721,10 +1721,10 @@
       "explanation": {
         "concept": "Uma construção recursiva pode ser representada por uma progressão geométrica.",
         "steps": [
-          "O primeiro quadrado tem lado 1. Como cada novo lado é metade do anterior, a sequência dos lados é 1, 1/2, 1/4, 1/8, ... . Seu termo geral é aₙ = 1·(1/2)ⁿ⁻¹.",
-          "Do primeiro ao centésimo quadrado ocorrem 99 reduções pela metade. Assim, a₁₀₀ = (1/2)⁹⁹, expressão da alternativa B. O expoente 100 corresponderia ao quadrado seguinte."
+          "O primeiro quadrado tem lado 1. Como cada novo lado é metade do anterior, a sequência dos lados é \\(1,\\;\\frac{1}{2},\\;\\frac{1}{4},\\;\\frac{1}{8},\\;\\ldots\\) . Seu termo geral é \\(a_n=1\\cdot\\left(\\frac{1}{2}\\right)^{n-1}\\).",
+          "Do primeiro ao centésimo quadrado ocorrem 99 reduções pela metade. Assim, \\(a_{100}=\\left(\\frac{1}{2}\\right)^{99}\\), expressão da alternativa B. O expoente 100 corresponderia ao quadrado seguinte."
         ],
-        "takeaway": "Em uma PG, o termo de posição n envolve n − 1 multiplicações pela razão."
+        "takeaway": "Em uma PG, o termo de posição \\(n\\) envolve \\(n - 1\\) multiplicações pela razão."
       }
     },
     {
@@ -1749,7 +1749,7 @@
       "explanation": {
         "concept": "O lucro é a diferença vertical entre as curvas de receita e custo.",
         "steps": [
-          "Nos pontos em que receita e custo se encontram, aproximadamente nas quantidades 5 e 15, o lucro é zero. Entre essas quantidades, a curva do custo fica acima da receita; portanto, Receita − Custo é negativo.",
+          "Nos pontos em que receita e custo se encontram, aproximadamente nas quantidades 5 e 15, o lucro é zero. Entre essas quantidades, a curva do custo fica acima da receita; portanto, \\(\\text{Receita}-\\text{Custo}\\) é negativo.",
           "Depois de 15 itens, a receita supera o custo e o lucro é positivo. Perto de 25 itens, a diferença é grande, em torno de R$ 40, e depois diminui. O gráfico A apresenta exatamente essa sequência: zero, valores negativos, novo zero e valores positivos."
         ],
         "takeaway": "Subtraia as ordenadas na mesma quantidade produzida e preserve o sinal da diferença."
@@ -1763,10 +1763,10 @@
       "explanation": {
         "concept": "Uma identidade algébrica permite reduzir potências sucessivas.",
         "steps": [
-          "O quadro fornece ρ⁶ = 8ρ + 5. Multiplicando por ρ, temos ρ⁷ = 8ρ² + 5ρ.",
-          "Substituímos ρ² por ρ + 1, conforme a equação dada: ρ⁷ = 8(ρ + 1) + 5ρ = 13ρ + 8. Logo, a alternativa correta é E."
+          "O quadro fornece \\(\\rho ^{6} = 8\\rho  + 5\\). Multiplicando por \\(\\rho \\), temos \\(\\rho ^{7} = 8\\rho ^{2} + 5\\rho \\).",
+          "Substituímos \\(\\rho ^{2}\\) por \\(\\rho  + 1\\), conforme a equação dada: \\(\\rho ^{7} = 8(\\rho  + 1) + 5\\rho  = 13\\rho  + 8\\). Logo, a alternativa correta é E."
         ],
-        "takeaway": "Use a relação ρ² = ρ + 1 para eliminar potências quadráticas e reunir termos semelhantes."
+        "takeaway": "Use a relação \\(\\rho ^{2} = \\rho  + 1\\) para eliminar potências quadráticas e reunir termos semelhantes."
       }
     },
     {
@@ -1777,8 +1777,8 @@
       "explanation": {
         "concept": "O preço total soma diárias, taxa fixa e taxa proporcional.",
         "steps": [
-          "Para n diárias de preço d, a hospedagem custa d·n. A limpeza acrescenta L uma única vez, independentemente do número de diárias.",
-          "A taxa de serviço incide sobre o total das diárias, então vale s·d·n, considerando s na forma decimal da porcentagem. Somando as três parcelas, P = d·n + L + d·n·s, expressão da alternativa A."
+          "Para \\(n\\) diárias de preço \\(d\\), a hospedagem custa \\(d\\cdot n\\). A limpeza acrescenta \\(L\\) uma única vez, independentemente do número de diárias.",
+          "A taxa de serviço incide sobre o total das diárias, então vale \\(s\\cdot d\\cdot n\\), considerando \\(s\\) na forma decimal da porcentagem. Somando as três parcelas, \\(P = d\\cdot n + L + d\\cdot n\\cdot s\\), expressão da alternativa A."
         ],
         "takeaway": "Uma taxa percentual deve multiplicar a base sobre a qual ela incide."
       }
@@ -1791,10 +1791,10 @@
       "explanation": {
         "concept": "Amplitude, período e posição inicial identificam uma função trigonométrica.",
         "steps": [
-          "O gráfico varia de −3 cm a 3 cm, logo sua amplitude é 3. A posição inicial é P(0) = −3, o que seleciona um cosseno com sinal negativo, pois cos(0) = 1 e sen(0) = 0.",
-          "Os mínimos se repetem em t = 0, π, 2π e 3π; portanto, o período é T = π. A frequência angular vale ω = 2π/T = 2. Assim, P(t) = −3 cos(2t), alternativa A."
+          "O gráfico varia de −3 cm a 3 cm, logo sua amplitude é 3. A posição inicial é \\(P(0) = -3\\), o que seleciona um cosseno com sinal negativo, pois \\(\\cos (0) = 1\\) e \\(\\sin (0) = 0\\).",
+          "Os mínimos se repetem em \\(t\\in\\{0,\\pi,2\\pi,3\\pi\\}\\); portanto, o período é \\(T = \\pi \\). A frequência angular vale \\(\\omega=\\frac{2\\pi}{T}=2\\). Assim, \\(P(t) = -3 \\cos (2t)\\), alternativa A."
         ],
-        "takeaway": "Leia primeiro a amplitude, depois a repetição horizontal e o valor em t = 0."
+        "takeaway": "Leia primeiro a amplitude, depois a repetição horizontal e o valor em \\(t = 0\\)."
       }
     },
     {
@@ -1805,8 +1805,8 @@
       "explanation": {
         "concept": "A receita resulta do produto entre preço e público, com descontos inteiros.",
         "steps": [
-          "Se x é o desconto em reais, o ingresso passa a custar 20 − x e o público previsto passa a ser 200 + 40x. A arrecadação é R(x) = (20 − x)(200 + 40x) = 4 000 + 600x − 40x².",
-          "Como o coeficiente de x² é negativo, a receita cresce inicialmente e depois diminui. Por exemplo, R(0) = 4 000, R(7) = R(8) = 6 240 e R(20) = 0.",
+          "Se \\(x\\) é o desconto em reais, o ingresso passa a custar \\(20 - x\\) e o público previsto passa a ser \\(200 + 40x\\). A arrecadação é \\[\\begin{aligned}R(x)&=(20-x)(200+40x)\\\\&=4\\,000+600x-40x^2\\end{aligned}\\].",
+          "Como o coeficiente de \\(x^{2}\\) é negativo, a receita cresce inicialmente e depois diminui. Por exemplo, \\(R(0) = 4\\,000\\), \\(R(7) = R(8) = 6\\,240\\) e \\(R(20) = 0\\).",
           "Os donos só aceitam preços inteiros; os descontos possíveis também são inteiros. Por isso, a representação deve conter pontos separados sobre uma parábola voltada para baixo. Essa combinação aparece na alternativa E."
         ],
         "takeaway": "O modelo da receita determina o formato; as restrições do preço determinam os pontos permitidos."
@@ -1820,9 +1820,9 @@
       "explanation": {
         "concept": "A comparação de duas combinações com a mesma massa revela uma substituição equivalente.",
         "steps": [
-          "Chame de c a massa de uma camiseta, p a de uma calça e s a de um sapato. Como a mala é a mesma e as duas viagens totalizam 10 kg, 12c + 4p + 3s = 18c + 3p + 2s. Subtraindo os termos, p + s = 6c.",
+          "Chame de \\(c\\) a massa de uma camiseta, \\(p\\) a de uma calça e \\(s\\) a de um sapato. Como a mala é a mesma e as duas viagens totalizam 10 kg, \\(12c + 4p + 3s = 18c + 3p + 2s\\). Subtraindo os termos, \\(p + s = 6c\\).",
           "A segunda viagem tinha 18 camisetas, 3 calças e 2 sapatos. Para passar a 2 calças e 1 sapato, retiramos exatamente uma calça e um sapato; podemos substituí-los por 6 camisetas sem mudar a massa.",
-          "Logo, a terceira combinação comporta 18 + 6 = 24 camisetas e mantém os 10 kg. A resposta é B."
+          "Logo, a terceira combinação comporta \\(18 + 6 = 24\\) camisetas e mantém os 10 kg. A resposta é B."
         ],
         "takeaway": "Em um sistema, subtrair equações pode revelar diretamente a troca necessária."
       }
@@ -1835,8 +1835,8 @@
       "explanation": {
         "concept": "Uma receita mínima impõe uma desigualdade para uma quantidade inteira.",
         "steps": [
-          "Para atingir R$ 300 com o menor número de lavagens, usamos o maior valor possível por lavagem, R$ 35. Mesmo oito lavagens completas arrecadam apenas 8·35 = R$ 280, insuficientes.",
-          "Nove lavagens completas arrecadam 9·35 = R$ 315 e já cobrem a meta. Assim, nenhuma quantidade inferior a nove pode funcionar, e nove é viável. A alternativa correta é C."
+          "Para atingir R$ 300 com o menor número de lavagens, usamos o maior valor possível por lavagem, R$ 35. Mesmo oito lavagens completas arrecadam apenas \\(8\\cdot 35 = \\text{R\\$}\\, 280\\), insuficientes.",
+          "Nove lavagens completas arrecadam \\(9\\cdot 35 = \\text{R\\$}\\, 315\\) e já cobrem a meta. Assim, nenhuma quantidade inferior a nove pode funcionar, e nove é viável. A alternativa correta é C."
         ],
         "takeaway": "Para minimizar a quantidade, teste o maior ganho unitário e arredonde o limite para cima."
       }
@@ -1849,9 +1849,9 @@
       "explanation": {
         "concept": "A comparação de projetos deve considerar o custo total por usuário.",
         "steps": [
-          "Em quatro anos, o laboratório A custa 180 + 4·60 = 420 mil reais. Dividindo pelos 100 usuários, obtemos 4,20 mil reais por usuário.",
-          "O laboratório B custa 120 + 4·16 = 184 mil reais no mesmo período. Como atende 80 usuários, seu custo é 184/80 = 2,30 mil reais por usuário.",
-          "A economia por usuário é 4,20 − 2,30 = 1,90 mil reais. Portanto, a escolha é a alternativa B."
+          "Em quatro anos, o laboratório A custa \\(180 + 4\\cdot 60 = 420\\) mil reais. Dividindo pelos 100 usuários, obtemos 4,20 mil reais por usuário.",
+          "O laboratório B custa \\(120 + 4\\cdot 16 = 184\\) mil reais no mesmo período. Como atende 80 usuários, seu custo é \\(\\frac{184}{80}=2{,}30\\) mil reais por usuário.",
+          "A economia por usuário é \\(4{,}20 - 2{,}30 = 1{,}90\\) mil reais. Portanto, a escolha é a alternativa B."
         ],
         "takeaway": "Some implantação e manutenção antes de dividir pela capacidade de cada projeto."
       }
@@ -1864,8 +1864,8 @@
       "explanation": {
         "concept": "O vértice de uma parábola permite localizar o máximo previsto pelo modelo.",
         "steps": [
-          "O modelo é p(t) = −t² + 10t + 24. Como o coeficiente de t² é negativo, a parábola tem um máximo. Sua abscissa é t = −10/[2·(−1)] = 5.",
-          "O pico previsto ocorre no mês 5, com p(5) = −25 + 50 + 24 = 49. Entre os períodos oferecidos, somente a proposta III, 5 ≤ t ≤ 6, engloba esse mês.",
+          "O modelo é \\(p(t) = -t^{2} + 10t + 24\\). Como o coeficiente de \\(t^{2}\\) é negativo, a parábola tem um máximo. Sua abscissa é \\(t=\\frac{-10}{2\\cdot(-1)}=5\\).",
+          "O pico previsto ocorre no mês 5, com \\(p(5) = -25 + 50 + 24 = 49\\). Entre os períodos oferecidos, somente a proposta III, \\(5 \\le  t \\le  6\\), engloba esse mês.",
           "Logo, a intensificação deve seguir a proposta III, correspondente à alternativa C."
         ],
         "takeaway": "Em uma função quadrática voltada para baixo, o vértice indica quando a grandeza é máxima."
@@ -1879,9 +1879,9 @@
       "explanation": {
         "concept": "O lucro deve descontar tanto os pagamentos fixos quanto a participação na receita.",
         "steps": [
-          "Com a ajudantes, para a ≥ 1, a pesca é 300 + 100(a − 1) = 100a + 200 kg. Vendendo a R$ 5 por quilograma, a receita é R = 500a + 1 000.",
-          "Os custos são R$ 900 fixos, R$ 250 por ajudante e 4% da receita para o conjunto dos ajudantes. Portanto, L = 0,96(500a + 1 000) − 900 − 250a = 230a + 60.",
-          "Para L ≥ 800, precisamos de 230a ≥ 740, isto é, a ≥ 3,22 aproximadamente. Como a é inteiro, são necessários quatro ajudantes: com três, o lucro é R$ 750; com quatro, R$ 980. A resposta é D."
+          "Com \\(a\\) ajudantes, para \\(a \\ge  1\\), a pesca é \\(300 + 100(a - 1) = 100a + 200\\) kg. Vendendo a R$ 5 por quilograma, a receita é \\(R = 500a + 1\\,000\\).",
+          "Os custos são R$ 900 fixos, R$ 250 por ajudante e \\(4\\%\\) da receita para o conjunto dos ajudantes. Portanto, \\[\\begin{aligned}L&=0{,}96(500a+1\\,000)\\\\&\\quad-900-250a\\\\&=230a+60\\end{aligned}\\].",
+          "Para \\(L \\ge  800\\), precisamos de \\(230a \\ge  740\\), isto é, \\(a \\ge  3{,}22\\) aproximadamente. Como \\(a\\) é inteiro, são necessários quatro ajudantes: com três, o lucro é R$ 750; com quatro, R$ 980. A resposta é D."
         ],
         "takeaway": "Uma porcentagem repartida entre os ajudantes é descontada uma vez da receita total."
       }
@@ -1894,8 +1894,8 @@
       "explanation": {
         "concept": "Uma cobrança fixa somada a uma tarifa por unidade forma uma função afim.",
         "steps": [
-          "A taxa de bombeamento é R$ 500 e não depende do volume utilizado. Já o concreto custa R$ 250 por metro cúbico; para x metros cúbicos, essa parte custa 250x.",
-          "Somando as parcelas, o preço total é y = 250x + 500. Essa é a alternativa D: 250 é o coeficiente do volume e 500 é o custo fixo."
+          "A taxa de bombeamento é R$ 500 e não depende do volume utilizado. Já o concreto custa R$ 250 por metro cúbico; para \\(x\\) metros cúbicos, essa parte custa \\(250x\\).",
+          "Somando as parcelas, o preço total é \\(y = 250x + 500\\). Essa é a alternativa D: 250 é o coeficiente do volume e 500 é o custo fixo."
         ],
         "takeaway": "O valor por unidade multiplica a quantidade; o custo fixo é somado ao resultado."
       }
@@ -1908,8 +1908,8 @@
       "explanation": {
         "concept": "Eficiência compara produção com tempo, e não apenas a produção absoluta.",
         "steps": [
-          "Dividindo as peças pelas horas em cada dia, obtemos: dia 1, 800/4 = 200; dia 2, 1 000/8 = 125; dia 3, 1 100/5 = 220 peças por hora.",
-          "Nos dias 4 e 5, as razões são 1 800/9 = 200 e 1 400/10 = 140 peças por hora. O maior resultado é 220, no dia 3. Por isso, a alternativa C identifica a metodologia mais eficiente."
+          "Dividindo as peças pelas horas em cada dia, obtemos: dia 1, \\(\\frac{800}{4}=200\\); dia 2, \\(\\frac{1\\,000}{8}=125\\); dia 3, \\(\\frac{1\\,100}{5}=220\\) peças por hora.",
+          "Nos dias 4 e 5, as razões são \\(\\frac{1\\,800}{9}=200\\) e \\(\\frac{1\\,400}{10}=140\\) peças por hora. O maior resultado é 220, no dia 3. Por isso, a alternativa C identifica a metodologia mais eficiente."
         ],
         "takeaway": "Cruze os dois gráficos e compare a mesma razão em todas as opções."
       }
@@ -1922,9 +1922,9 @@
       "explanation": {
         "concept": "Uma tendência regular na tabela permite projetar quando uma meta será atingida.",
         "steps": [
-          "A meta é 70% dos 16 anos necessários à formação: 0,70·16 = 11,2 anos de estudo. A tabela cresce de 5,2 para 5,8, 6,4 e 7,0, ou seja, 0,6 ano de estudo a cada quatro anos.",
-          "Partindo de 2007, faltam 11,2 − 7,0 = 4,2 anos de estudo. Isso corresponde a 4,2/0,6 = 7 períodos de quatro anos, totalizando 28 anos.",
-          "O ano projetado é 2007 + 28 = 2035, alternativa D."
+          "A meta é \\(70\\%\\) dos 16 anos necessários à formação: \\(0{,}70\\cdot 16 = 11{,}2\\) anos de estudo. A tabela cresce de 5,2 para 5,8, 6,4 e 7,0, ou seja, 0,6 ano de estudo a cada quatro anos.",
+          "Partindo de 2007, faltam \\(11{,}2 - 7{,}0 = 4{,}2\\) anos de estudo. Isso corresponde a \\(\\frac{4{,}2}{0{,}6}=7\\) períodos de quatro anos, totalizando 28 anos.",
+          "O ano projetado é \\(2007 + 28 = 2035\\), alternativa D."
         ],
         "takeaway": "Na projeção, diferencie o aumento da grandeza medida do tempo decorrido no calendário."
       }
@@ -1937,8 +1937,8 @@
       "explanation": {
         "concept": "Categorias distintas de um gráfico podem compor o mesmo grupo de interesse.",
         "steps": [
-          "Os jovens que trabalham incluem tanto os que somente trabalham, 45,2%, quanto os que trabalham e estudam, 13,6%. O percentual total é 45,2% + 13,6% = 58,8%.",
-          "Aplicando esse percentual aos 363 000 entrevistados: 0,588·363 000 = 213 444. Portanto, a alternativa correta é C."
+          "Os jovens que trabalham incluem tanto os que somente trabalham, \\(45{,}2\\%\\), quanto os que trabalham e estudam, \\(13{,}6\\%\\). O percentual total é \\(45{,}2\\% + 13{,}6\\% = 58{,}8\\%\\).",
+          "Aplicando esse percentual aos 363 000 entrevistados: \\(0{,}588\\cdot 363\\,000 = 213\\,444\\). Portanto, a alternativa correta é C."
         ],
         "takeaway": "Ao contar quem trabalha, inclua também quem acumula trabalho e estudo."
       }
@@ -1951,8 +1951,8 @@
       "explanation": {
         "concept": "O trajeto mais rápido depende da distância dividida pela velocidade.",
         "steps": [
-          "O tempo do ônibus é 2/vₒ e o da bicicleta é 3/vᵦ, em horas. A bicicleta vence quando 3/vᵦ < 2/vₒ, equivalente a vᵦ > 1,5vₒ.",
-          "Na segunda, 15 > 1,5·9 = 13,5; na quarta, 24 > 1,5·15 = 22,5; na sexta, 18 > 1,5·10 = 15. Nesses três dias, a bicicleta é mais rápida.",
+          "Denote por \\(v_{\\text{o}}\\) a velocidade do ônibus e por \\(v_{\\text{b}}\\) a da bicicleta, ambas em km/h. O tempo do ônibus é \\(\\frac{2}{v_{\\text{o}}}\\) e o da bicicleta é \\(\\frac{3}{v_{\\text{b}}}\\), em horas. A bicicleta vence quando \\(\\frac{3}{v_{\\text{b}}}<\\frac{2}{v_{\\text{o}}}\\), equivalente a \\(v_{\\text{b}}>1{,}5v_{\\text{o}}\\).",
+          "Na segunda, \\(15 > 1{,}5\\cdot 9 = 13{,}5\\); na quarta, \\(24 > 1{,}5\\cdot 15 = 22{,}5\\); na sexta, \\(18 > 1{,}5\\cdot 10 = 15\\). Nesses três dias, a bicicleta é mais rápida.",
           "Na terça, quinta e sábado, as velocidades da bicicleta ficam abaixo de 30, 18 e 45 km/h, respectivamente, limites necessários para superar o ônibus. Logo, a escolha é segunda, quarta e sexta, alternativa C."
         ],
         "takeaway": "Velocidade maior só garante menos tempo quando as distâncias também são consideradas."
@@ -1966,8 +1966,8 @@
       "explanation": {
         "concept": "A arrecadação combina o preço unitário com a quantidade vendida.",
         "steps": [
-          "Como os percentuais de quantidade compartilham a mesma base, basta comparar preço × percentual. Para os perfumes I, II e III, os produtos são 200·13 = 2 600, 170·10 = 1 700 e 150·16 = 2 400.",
-          "Para IV e V, obtemos 100·29 = 2 900 e 80·32 = 2 560. O maior índice de receita é o do perfume IV, mesmo que V tenha vendido uma parcela maior de unidades.",
+          "Como os percentuais de quantidade compartilham a mesma base, basta comparar \\(\\text{preço}\\times\\text{percentual}\\). Para os perfumes I, II e III, os produtos são \\(200\\cdot 13 = 2\\,600\\), \\(170\\cdot 10 = 1\\,700\\) e \\(150\\cdot 16 = 2\\,400\\).",
+          "Para IV e V, obtemos \\(100\\cdot 29 = 2\\,900\\) e \\(80\\cdot 32 = 2\\,560\\). O maior índice de receita é o do perfume IV, mesmo que V tenha vendido uma parcela maior de unidades.",
           "Assim, o perfume IV deve receber a maior reposição segundo o critério adotado. A resposta é D."
         ],
         "takeaway": "Para comparar receitas, una o gráfico de preços ao de quantidades."
@@ -1981,8 +1981,8 @@
       "explanation": {
         "concept": "O custo de compra inclui mercadoria e frete por distância.",
         "steps": [
-          "Para cada depósito, o total é 15 vezes o preço do saco mais o frete por quilômetro multiplicado pela distância. Em A: 15·23 + 1·10 = R$ 355; em B: 15·21,50 + 3·12 = R$ 358,50.",
-          "Em C: 15·22 + 1,50·14 = R$ 351; em D: 15·21 + 3,50·18 = R$ 378; em E: 15·24 + 2,50·2 = R$ 365.",
+          "Para cada depósito, o total é 15 vezes o preço do saco mais o frete por quilômetro multiplicado pela distância. Em A: \\(15\\cdot 23 + 1\\cdot 10 = \\text{R\\$}\\, 355\\); em B: \\(15\\cdot 21{,}50 + 3\\cdot 12 = \\text{R\\$}\\, 358{,}50\\).",
+          "Em C: \\(15\\cdot 22 + 1{,}50\\cdot 14 = \\text{R\\$}\\, 351\\); em D: \\(15\\cdot 21 + 3{,}50\\cdot 18 = \\text{R\\$}\\, 378\\); em E: \\(15\\cdot 24 + 2{,}50\\cdot 2 = \\text{R\\$}\\, 365\\).",
           "O menor total é R$ 351, do depósito C. Logo, a alternativa correta é C."
         ],
         "takeaway": "Um preço unitário menor pode ser superado pelo custo de entrega."
@@ -1997,7 +1997,7 @@
         "concept": "O tempo acima de um limite é a soma das durações dos intervalos do gráfico.",
         "steps": [
           "Comparando a curva com a linha horizontal de 55 decibéis, ela fica acima do limite nos intervalos de 2 a 5 h, 6 a 9 h, 11 a 14 h, 16 a 17 h e 19 a 22 h.",
-          "As durações são, respectivamente, 3, 3, 3, 1 e 3 horas. Somando, 3 + 3 + 3 + 1 + 3 = 13 horas, alternativa E. Os instantes isolados em que a curva toca o limite não alteram essa duração."
+          "As durações são, respectivamente, 3, 3, 3, 1 e 3 horas. Somando, \\(3 + 3 + 3 + 1 + 3 = 13\\) horas, alternativa E. Os instantes isolados em que a curva toca o limite não alteram essa duração."
         ],
         "takeaway": "Conte a extensão horizontal de cada intervalo, e não a quantidade de picos."
       }
@@ -2010,8 +2010,8 @@
       "explanation": {
         "concept": "A compensação de aumentos exige comparar valores monetários antes dos percentuais.",
         "steps": [
-          "O aumento da internet é 20% de R$ 120, ou R$ 24. O aumento da mensalidade é 10% de R$ 700, ou R$ 70. Para manter a despesa total, a mesada deve diminuir R$ 24 + R$ 70 = R$ 94.",
-          "A mesada original era R$ 400. A redução percentual é 94/400·100 = 23,5%. Assim, a alternativa correta é B."
+          "O aumento da internet é \\(20\\%\\) de R$ 120, ou R$ 24. O aumento da mensalidade é \\(10\\%\\) de R$ 700, ou R$ 70. Para manter a despesa total, a mesada deve diminuir \\(\\text{R\\$}\\, 24 + \\text{R\\$}\\, 70 = \\text{R\\$}\\, 94\\).",
+          "A mesada original era R$ 400. A redução percentual é \\(\\frac{94}{400}\\times100\\%=23{,}5\\%\\). Assim, a alternativa correta é B."
         ],
         "takeaway": "A porcentagem da redução usa como base a própria mesada, e não a despesa total."
       }
@@ -2024,8 +2024,8 @@
       "explanation": {
         "concept": "O volume armazenado é o produto da capacidade pela taxa de ocupação.",
         "steps": [
-          "Para os reservatórios I, II e III, os volumes são 105·0,20 = 21, 100·0,30 = 30 e 20·0,50 = 10 bilhões de litros.",
-          "Para IV e V, os volumes são 80·0,40 = 32 e 40·0,60 = 24 bilhões de litros. O maior é 32 bilhões, no reservatório IV, alternativa D.",
+          "Para os reservatórios I, II e III, os volumes são \\(105\\cdot 0{,}20 = 21\\), \\(100\\cdot 0{,}30 = 30\\) e \\(20\\cdot 0{,}50 = 10\\) bilhões de litros.",
+          "Para IV e V, os volumes são \\(80\\cdot 0{,}40 = 32\\) e \\(40\\cdot 0{,}60 = 24\\) bilhões de litros. O maior é 32 bilhões, no reservatório IV, alternativa D.",
           "O reservatório V tem o maior percentual de ocupação, mas sua capacidade é menor. Por isso, ele não contém o maior volume."
         ],
         "takeaway": "Percentuais de recipientes com capacidades diferentes não podem ser comparados como volumes."
@@ -2039,8 +2039,8 @@
       "explanation": {
         "concept": "Rentabilidade é uma razão entre aluguel e valor do imóvel.",
         "steps": [
-          "Convertendo os preços dos imóveis de milhares de reais para reais, as rentabilidades são: 2005, 630/90 000 = 0,7%; 2007, 960/120 000 = 0,8%; 2009, 1 350/270 000 = 0,5%.",
-          "Em 2011, a razão é 1 800/450 000 = 0,4%; em 2013, 3 240/540 000 = 0,6%. A maior rentabilidade é 0,8%, em 2007. Portanto, a alternativa correta é B."
+          "Convertendo os preços dos imóveis de milhares de reais para reais, as rentabilidades são: 2005, \\(\\frac{630}{90\\,000}=0{,}7\\%\\); 2007, \\(\\frac{960}{120\\,000}=0{,}8\\%\\); 2009, \\(\\frac{1\\,350}{270\\,000}=0{,}5\\%\\).",
+          "Em 2011, a razão é \\(\\frac{1\\,800}{450\\,000}=0{,}4\\%\\); em 2013, \\(\\frac{3\\,240}{540\\,000}=0{,}6\\%\\). A maior rentabilidade é \\(0{,}8\\%\\), em 2007. Portanto, a alternativa correta é B."
         ],
         "takeaway": "Um aluguel maior não implica rendimento percentual maior se o imóvel também valorizou."
       }
@@ -2053,8 +2053,8 @@
       "explanation": {
         "concept": "O número de inscritos por curso é a quantidade de vagas multiplicada pela concorrência.",
         "steps": [
-          "Administração tem 30·6 = 180 inscritos; Ciências Contábeis, 40·6 = 240; Engenharia Elétrica, 50·7 = 350.",
-          "História tem 30·8 = 240; Letras, 25·4 = 100; Pedagogia, 25·5 = 125. Somando os seis cursos, 180 + 240 + 350 + 240 + 100 + 125 = 1 235.",
+          "Administração tem \\(30\\cdot 6 = 180\\) inscritos; Ciências Contábeis, \\(40\\cdot 6 = 240\\); Engenharia Elétrica, \\(50\\cdot 7 = 350\\).",
+          "História tem \\(30\\cdot 8 = 240\\); Letras, \\(25\\cdot 4 = 100\\); Pedagogia, \\(25\\cdot 5 = 125\\). Somando os seis cursos, \\[\\begin{aligned}N&=180+240+350\\\\&\\quad+240+100+125\\\\&=1\\,235\\end{aligned}\\].",
           "Logo, o total de candidatos é 1 235, alternativa D."
         ],
         "takeaway": "Candidatos por vaga é uma razão; multiplique pelas vagas antes de somar os cursos."
@@ -2068,8 +2068,8 @@
       "explanation": {
         "concept": "A proposta mais barata depende do custo total, não apenas do preço por hora.",
         "steps": [
-          "O operário I cobra 120·8 = R$ 960 pelo serviço e não cobra transporte. Já II cobra 180·6 = R$ 1 080, e V cobra 110·10 = R$ 1 100, também sem transporte.",
-          "Mesmo antes de somar o transporte, III cobra 170·6 = R$ 1 020 e IV cobra 110·9 = R$ 990. Ambos já superam os R$ 960 de I; os gastos de transporte apenas aumentam a diferença.",
+          "O operário I cobra \\(120\\cdot 8 = \\text{R\\$}\\, 960\\) pelo serviço e não cobra transporte. Já II cobra \\(180\\cdot 6 = \\text{R\\$}\\, 1\\,080\\), e V cobra \\(110\\cdot 10 = \\text{R\\$}\\, 1\\,100\\), também sem transporte.",
+          "Mesmo antes de somar o transporte, III cobra \\(170\\cdot 6 = \\text{R\\$}\\, 1\\,020\\) e IV cobra \\(110\\cdot 9 = \\text{R\\$}\\, 990\\). Ambos já superam os R$ 960 de I; os gastos de transporte apenas aumentam a diferença.",
           "Portanto, o menor custo é o do operário I, alternativa A."
         ],
         "takeaway": "Multiplique o valor por hora pela duração e inclua os custos adicionais."
@@ -2083,8 +2083,8 @@
       "explanation": {
         "concept": "A condição de média entre anos consecutivos determina o valor seguinte.",
         "steps": [
-          "O gráfico informa 73,95 anos para 2012 e 74,23 anos para 2013. Se 2013 é a média de 2012 e 2014, temos 74,23 = (73,95 + x)/2.",
-          "Multiplicando por 2 e isolando x: x = 148,46 − 73,95 = 74,51 anos. A alternativa correta é B. Isso mantém o acréscimo de 0,28 ano entre 2012, 2013 e 2014."
+          "O gráfico informa 73,95 anos para 2012 e 74,23 anos para 2013. Se 2013 é a média de 2012 e 2014, temos \\(74{,}23=\\frac{73{,}95+x}{2}\\).",
+          "Multiplicando por 2 e isolando \\(x\\): \\(x = 148{,}46 - 73{,}95 = 74{,}51\\) anos. A alternativa correta é B. Isso mantém o acréscimo de 0,28 ano entre 2012, 2013 e 2014."
         ],
         "takeaway": "Se o termo central é a média dos vizinhos, as diferenças consecutivas são iguais."
       }
@@ -2099,9 +2099,9 @@
         "steps": [
           "O eixo horizontal representa A e o vertical representa B, ambos em milhares de reais. A está mais valorizada quando a coordenada horizontal do ponto é maior que a vertical.",
           "Isso ocorre às 9 h, 12 h, 13 h e 14 h. Às 10 h e 11 h, os valores são iguais; às 15 h, 16 h e 17 h, B é maior.",
-          "São quatro instantes com A > B, correspondentes à alternativa B."
+          "São quatro instantes com \\(A > B\\), correspondentes à alternativa B."
         ],
-        "takeaway": "Compare x com y em cada horário; igualdade não conta como valorização maior."
+        "takeaway": "Compare \\(x\\) com \\(y\\) em cada horário; igualdade não conta como valorização maior."
       }
     },
     {
@@ -2112,9 +2112,9 @@
       "explanation": {
         "concept": "Recortar o eixo vertical altera a proporção visual entre as alturas das barras.",
         "steps": [
-          "No Gráfico 1, o eixo vertical começa em zero. A barra de A tem altura proporcional a 70 e a de B, a 30; por isso, a razão entre as alturas de B e A é 30/70 = 3/7.",
-          "No Gráfico 2, o eixo foi recortado em 20. As alturas visíveis passam a ser proporcionais a 70 − 20 = 50 para A e 30 − 20 = 10 para B. A razão entre essas alturas é 10/50 = 1/5.",
-          "A diferença entre as razões é 3/7 − 1/5 = 15/35 − 7/35 = 8/35, correspondente à alternativa E. O recorte faz a barra de B parecer proporcionalmente menor, embora os percentuais escritos continuem iguais."
+          "No Gráfico 1, o eixo vertical começa em zero. A barra de A tem altura proporcional a 70 e a de B, a 30; por isso, a razão entre as alturas de B e A é \\(\\frac{30}{70}=\\frac{3}{7}\\).",
+          "No Gráfico 2, o eixo foi recortado em 20. As alturas visíveis passam a ser proporcionais a \\(70 - 20 = 50\\) para A e \\(30 - 20 = 10\\) para B. A razão entre essas alturas é \\(\\frac{10}{50}=\\frac{1}{5}\\).",
+          "A diferença entre as razões é \\(\\frac{3}{7}-\\frac{1}{5}=\\frac{15}{35}-\\frac{7}{35}=\\frac{8}{35}\\), correspondente à alternativa E. O recorte faz a barra de B parecer proporcionalmente menor, embora os percentuais escritos continuem iguais."
         ],
         "takeaway": "Em gráficos de barras, confira onde o eixo começa: comparar alturas exige descontar o valor da linha de base, e uma escala recortada pode distorcer a impressão visual."
       }
@@ -2129,7 +2129,7 @@
         "steps": [
           "Há seis pessoas com mais de 75 anos: Orlando, Gustavo, Luana, Teresa, Márcia e Roberto. Assim, as posições de 1 a 6 serão ocupadas por elas.",
           "As posições de 7 a 10 pertencem aos quatro idosos de 75 anos: Heloísa, Marisa, Pedro e João. Como o desempate é por sorteio, João tem uma chance em quatro de ocupar a primeira posição desse grupo, a sétima no total.",
-          "A probabilidade é 1/4, alternativa E."
+          "A probabilidade é \\(\\frac{1}{4}\\), alternativa E."
         ],
         "takeaway": "Antes de contar possibilidades, aplique os critérios que já fixam parte da ordem."
       }
@@ -2142,9 +2142,9 @@
       "explanation": {
         "concept": "Uma meta de média pode ser convertida em uma meta para a soma das alturas.",
         "steps": [
-          "A soma atual das alturas é 15·1,93 = 28,95 m. Os quatro jogadores substituídos somam 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m; os 11 que permanecem somam 21,65 m.",
-          "Para a nova média ser pelo menos 1,99 m, o total deve atingir 15·1,99 = 29,85 m. Após incluir o jogador de 2,02 m, os três restantes precisam somar pelo menos 29,85 − 21,65 − 2,02 = 6,18 m.",
-          "A média mínima desse trio é 6,18/3 = 2,06 m, alternativa D."
+          "A soma atual das alturas é \\(15\\cdot 1{,}93 = 28{,}95\\) m. Os quatro jogadores substituídos somam \\(1{,}78 + 1{,}82 + 1{,}84 + 1{,}86 = 7{,}30\\) m; os 11 que permanecem somam 21,65 m.",
+          "Para a nova média ser pelo menos 1,99 m, o total deve atingir \\(15\\cdot 1{,}99 = 29{,}85\\) m. Após incluir o jogador de 2,02 m, os três restantes precisam somar pelo menos \\(29{,}85 - 21{,}65 - 2{,}02 = 6{,}18\\) m.",
+          "A média mínima desse trio é \\(\\frac{6{,}18}{3}=2{,}06\\) m, alternativa D."
         ],
         "takeaway": "Ao substituir integrantes, retire suas contribuições da soma antes de calcular a nova média."
       }
@@ -2157,8 +2157,8 @@
       "explanation": {
         "concept": "O valor esperado pondera cada desempenho pela probabilidade do cenário.",
         "steps": [
-          "A chance de chuva é 0,70; a de ausência de chuva é 0,30. Para I, CRC = 6·0,70 + 3·0,30 = 5,1. Para II, CRC = 7·0,70 − 4·0,30 = 3,7.",
-          "Para III, CRC = −2·0,70 + 10·0,30 = 1,6; para IV, 2·0,70 + 8·0,30 = 3,8; para V, −6·0,70 + 7·0,30 = −2,1.",
+          "A chance de chuva é 0,70; a de ausência de chuva é 0,30. Para I, \\(\\mathrm{CRC}=6\\cdot0{,}70+3\\cdot0{,}30=5{,}1\\). Para II, \\(\\mathrm{CRC}=7\\cdot0{,}70-4\\cdot0{,}30=3{,}7\\).",
+          "Para III, \\(\\mathrm{CRC}=-2\\cdot0{,}70+10\\cdot0{,}30=1{,}6\\); para IV, \\(2\\cdot 0{,}70 + 8\\cdot 0{,}30 = 3{,}8\\); para V, \\(-6\\cdot 0{,}70 + 7\\cdot 0{,}30 = -2{,}1\\).",
           "O maior coeficiente é 5,1, do pneu I. Ele deve ser selecionado, conforme a alternativa A."
         ],
         "takeaway": "Na decisão sob incerteza, avalie todos os cenários com seus pesos e preserve os sinais negativos."
@@ -2172,8 +2172,8 @@
       "explanation": {
         "concept": "A média ponderada incorpora a importância diferente de cada critério.",
         "steps": [
-          "Os pesos são 3 para rapidez, 5 para clareza e 2 para cortesia, totalizando 10. As somas ponderadas são: X, 3·5 + 5·1 + 2·2 = 24; Y, 3·1 + 5·4 + 2·2 = 27; Z, 3·4 + 5·3 + 2·2 = 31.",
-          "Para W, a soma é 3·3 + 5·3 + 2·3 = 30; para T, 3·4 + 5·2 + 2·4 = 30. Dividindo por 10, as médias são 2,4; 2,7; 3,1; 3,0 e 3,0.",
+          "Os pesos são 3 para rapidez, 5 para clareza e 2 para cortesia, totalizando 10. As somas ponderadas são: X, \\(3\\cdot 5 + 5\\cdot 1 + 2\\cdot 2 = 24\\); Y, \\(3\\cdot 1 + 5\\cdot 4 + 2\\cdot 2 = 27\\); Z, \\(3\\cdot 4 + 5\\cdot 3 + 2\\cdot 2 = 31\\).",
+          "Para W, a soma é \\(3\\cdot 3 + 5\\cdot 3 + 2\\cdot 3 = 30\\); para T, \\(3\\cdot 4 + 5\\cdot 2 + 2\\cdot 4 = 30\\). Dividindo por 10, as médias são 2,4; 2,7; 3,1; 3,0 e 3,0.",
           "A maior média é 3,1, da empresa Z. A alternativa correta é C."
         ],
         "takeaway": "Compare as notas com os pesos definidos, pois uma média simples mudaria o critério de contratação."
@@ -2187,8 +2187,8 @@
       "explanation": {
         "concept": "A probabilidade de pelo menos um acerto é o complemento de errar todos os lançamentos.",
         "steps": [
-          "No modelo da questão, cada lançamento tem probabilidade 1/2 de erro. Considerando lançamentos independentes, com n dardos a probabilidade de errar todos é (1/2)ⁿ; a de pontuar é 1 − (1/2)ⁿ.",
-          "Com três dardos, a chance é 1 − 1/8 = 7/8 = 87,5%, abaixo dos 90% desejados. Com quatro, ela é 1 − 1/16 = 15/16 = 93,75%.",
+          "No modelo da questão, cada lançamento tem probabilidade \\(\\frac{1}{2}\\) de erro. Considerando lançamentos independentes, com \\(n\\) dardos a probabilidade de errar todos é \\(\\left(\\frac{1}{2}\\right)^n\\); a de pontuar é \\(1-\\left(\\frac{1}{2}\\right)^n\\).",
+          "Com três dardos, a chance é \\(1-\\frac{1}{8}=\\frac{7}{8}=87{,}5\\%\\), abaixo dos \\(90\\%\\) desejados. Com quatro, ela é \\(1-\\frac{1}{16}=\\frac{15}{16}=93{,}75\\%\\).",
           "Como a chance aumenta com o número de dardos e três ainda não bastam, quatro é a quantidade mínima. A resposta é B."
         ],
         "takeaway": "Para eventos do tipo 'pelo menos um', calcular o evento complementar costuma simplificar a decisão."
@@ -2202,8 +2202,8 @@
       "explanation": {
         "concept": "A média de dados em um gráfico de frequências deve ponderar cada idade pela sua frequência.",
         "steps": [
-          "O gráfico mostra seis alunos de 9 anos, doze de 18 anos e nove de 27 anos. São 6 + 12 + 9 = 27 alunos.",
-          "A soma das idades é 6·9 + 12·18 + 9·27 = 54 + 216 + 243 = 513. A média é 513/27 = 19 anos, alternativa D."
+          "O gráfico mostra seis alunos de 9 anos, doze de 18 anos e nove de 27 anos. São \\(6 + 12 + 9 = 27\\) alunos.",
+          "A soma das idades é \\[\\begin{aligned}S&=6\\cdot9+12\\cdot18+9\\cdot27\\\\&=54+216+243=513\\end{aligned}\\]. A média é \\(\\frac{513}{27}=19\\) anos, alternativa D."
         ],
         "takeaway": "As barras indicam quantas vezes cada idade participa da média."
       }
@@ -2216,8 +2216,8 @@
       "explanation": {
         "concept": "O coeficiente de variação compara o desvio padrão com o tamanho da média.",
         "steps": [
-          "Com a ração atual, CV = 1/10 = 0,10. Na amostra alimentada com a nova ração, o desvio padrão é 1,5 kg; se a média é x, então CV = 1,5/x.",
-          "A troca exige um coeficiente menor: 1,5/x < 0,10. Como x é positivo, isso equivale a 1,5 < 0,10x, ou x > 15 kg.",
+          "Com a ração atual, \\(\\mathrm{CV}=\\frac{1}{10}=0{,}10\\). Na amostra alimentada com a nova ração, o desvio padrão é 1,5 kg; se a média é \\(x\\), então \\(\\mathrm{CV}=\\frac{1{,}5}{x}\\).",
+          "A troca exige um coeficiente menor: \\(\\frac{1{,}5}{x}<0{,}10\\). Como \\(x\\) é positivo, isso equivale a \\(1{,}5 < 0{,}10x\\), ou \\(x > 15\\) kg.",
           "Logo, a média precisa ser superior a 15,0 kg, alternativa E. Se fosse exatamente 15 kg, os coeficientes seriam iguais e o critério não seria atendido."
         ],
         "takeaway": "Um desvio padrão maior pode representar menor dispersão relativa se a média aumentar suficientemente."
@@ -2232,7 +2232,7 @@
         "concept": "A mediana de uma quantidade par de observações é a média dos dois valores centrais.",
         "steps": [
           "Ordenando as 12 contagens anuais da tabela, temos 11, 11, 12, 13, 15, 15, 16, 16, 17, 18, 20 e 24.",
-          "Os valores centrais são o 6º e o 7º: 15 e 16. A mediana é (15 + 16)/2 = 15,5, que corresponde à alternativa C."
+          "Os valores centrais são o 6º e o 7º: 15 e 16. A mediana é \\(\\frac{15+16}{2}=15{,}5\\), que corresponde à alternativa C."
         ],
         "takeaway": "Ordene os valores medidos, não os anos, para localizar a mediana."
       }
@@ -2245,9 +2245,9 @@
       "explanation": {
         "concept": "A probabilidade em um sorteio por etapas depende das opções disponíveis em cada etapa.",
         "steps": [
-          "Para obter 50, primeiro deve sair a unidade 0, com probabilidade 1/10. Nesse caso, as dezenas possíveis são 1, 2, 3, 4 e 5, formando 10, 20, 30, 40 e 50. A chance de sair a dezena 5 é 1/5, então P(50) = (1/10)·(1/5) = 1/50.",
-          "Para obter 02, primeiro deve sair a unidade 2, também com probabilidade 1/10. Agora são permitidas seis dezenas: 0, 1, 2, 3, 4 e 5, formando 02, 12, 22, 32, 42 e 52. Logo, P(02) = (1/10)·(1/6) = 1/60.",
-          "As probabilidades são, respectivamente, 1/50 e 1/60, alternativa A. Elas são diferentes porque a segunda urna muda conforme a unidade sorteada."
+          "Para obter 50, primeiro deve sair a unidade 0, com probabilidade \\(\\frac{1}{10}\\). Nesse caso, as dezenas possíveis são 1, 2, 3, 4 e 5, formando 10, 20, 30, 40 e 50. A chance de sair a dezena 5 é \\(\\frac{1}{5}\\), então \\(P(50)=\\frac{1}{10}\\cdot\\frac{1}{5}=\\frac{1}{50}\\).",
+          "Para obter 02, primeiro deve sair a unidade 2, também com probabilidade \\(\\frac{1}{10}\\). Agora são permitidas seis dezenas: 0, 1, 2, 3, 4 e 5, formando 02, 12, 22, 32, 42 e 52. Logo, \\(P(02)=\\frac{1}{10}\\cdot\\frac{1}{6}=\\frac{1}{60}\\).",
+          "As probabilidades são, respectivamente, \\(\\frac{1}{50}\\) e \\(\\frac{1}{60}\\), alternativa A. Elas são diferentes porque a segunda urna muda conforme a unidade sorteada."
         ],
         "takeaway": "Multiplique as probabilidades condicionais das etapas; o número total de candidatos não garante chances iguais."
       }
@@ -2260,9 +2260,9 @@
       "explanation": {
         "concept": "A mediana em uma tabela de frequências depende das posições acumuladas.",
         "steps": [
-          "O total de famílias é 100 + 400 + 200 + 150 + 100 + 50 = 1 000. A mediana é a média dos valores nas posições 500 e 501.",
+          "O total de famílias é \\[\\begin{aligned}N&=100+400+200\\\\&\\quad+150+100+50\\\\&=1\\,000\\end{aligned}\\]. A mediana é a média dos valores nas posições 500 e 501.",
           "As primeiras 100 famílias têm zero criança; da posição 101 até a 500, há uma criança. Da posição 501 até a 700, há duas crianças. Logo, os valores centrais são 1 e 2.",
-          "A mediana é (1 + 2)/2 = 1,5 criança por família, alternativa B."
+          "A mediana é \\(\\frac{1+2}{2}=1{,}5\\) criança por família, alternativa B."
         ],
         "takeaway": "Uma mediana pode ser fracionária mesmo quando todos os dados individuais são inteiros."
       }
@@ -2275,9 +2275,9 @@
       "explanation": {
         "concept": "Uma restrição à média salarial limita a soma total dos salários.",
         "steps": [
-          "Com 100 professores e média máxima de R$ 12 240, a folha mensal não pode ultrapassar R$ 1 224 000. Os 60 mestres receberão 8 000·1,25 = R$ 10 000 cada, totalizando R$ 600 000.",
-          "Restam no máximo 1 224 000 − 600 000 = R$ 624 000 para os 40 doutores. O salário máximo de cada um é 624 000/40 = R$ 15 600.",
-          "O aumento sobre os R$ 12 000 atuais é (15 600 − 12 000)/12 000 = 0,30 = 30%. A alternativa correta é D."
+          "Com 100 professores e média máxima de R$ 12 240, a folha mensal não pode ultrapassar R$ 1 224 000. Os 60 mestres receberão \\(8\\,000\\cdot 1{,}25 = \\text{R\\$}\\, 10\\,000\\) cada, totalizando R$ 600 000.",
+          "Restam no máximo \\(1\\,224\\,000 - 600\\,000 = \\text{R\\$}\\, 624\\,000\\) para os 40 doutores. O salário máximo de cada um é \\(\\frac{624\\,000}{40}=\\text{R\\$}\\,15\\,600\\).",
+          "O aumento sobre os R$ 12 000 atuais é \\(\\frac{15\\,600-12\\,000}{12\\,000}=0{,}30=30\\%\\). A alternativa correta é D."
         ],
         "takeaway": "Em uma média ponderada, o número de pessoas de cada grupo determina sua contribuição para o orçamento."
       }
@@ -2290,8 +2290,8 @@
       "explanation": {
         "concept": "Para atingir uma média fixa, compare quanto falta para a soma desejada.",
         "steps": [
-          "Uma média de 18 pontos em cinco jogos exige 5·18 = 90 pontos. Nos quatro primeiros jogos, as somas são I: 12 + 25 + 20 + 20 = 77; II: 12 + 12 + 27 + 20 = 71; III: 14 + 14 + 17 + 26 = 71.",
-          "IV soma 15 + 18 + 21 + 21 = 75, e V soma 22 + 15 + 23 + 15 = 75. Para chegar a 90, eles precisam, respectivamente, de 13, 19, 19, 15 e 15 pontos.",
+          "Uma média de 18 pontos em cinco jogos exige \\(5\\cdot 18 = 90\\) pontos. Nos quatro primeiros jogos, as somas são I: \\(12 + 25 + 20 + 20 = 77\\); II: \\(12 + 12 + 27 + 20 = 71\\); III: \\(14 + 14 + 17 + 26 = 71\\).",
+          "IV soma \\(15 + 18 + 21 + 21 = 75\\), e V soma \\(22 + 15 + 23 + 15 = 75\\). Para chegar a 90, eles precisam, respectivamente, de 13, 19, 19, 15 e 15 pontos.",
           "O jogador I precisa da menor quantidade, 13 pontos. Logo, a alternativa correta é A."
         ],
         "takeaway": "Com a mesma meta e o mesmo número de jogos, quem já acumulou mais precisa de menos pontos adicionais."
@@ -2305,8 +2305,8 @@
       "explanation": {
         "concept": "A média salarial deve ser ponderada pelo número de funcionários em cada setor.",
         "steps": [
-          "A Produção soma 75·2 000 = R$ 150 000 em salários. A Administração soma 25·7 000 = R$ 175 000.",
-          "A folha total é R$ 325 000 para 100 funcionários. Assim, a média é 325 000/100 = R$ 3 250, alternativa C. Fazer a média simples de 2 000 e 7 000 ignoraria a diferença entre os tamanhos dos setores."
+          "A Produção soma \\(75\\cdot 2\\,000 = \\text{R\\$}\\, 150\\,000\\) em salários. A Administração soma \\(25\\cdot 7\\,000 = \\text{R\\$}\\, 175\\,000\\).",
+          "A folha total é R$ 325 000 para 100 funcionários. Assim, a média é \\(\\frac{325\\,000}{100}=\\text{R\\$}\\,3\\,250\\), alternativa C. Fazer a média simples de 2 000 e 7 000 ignoraria a diferença entre os tamanhos dos setores."
         ],
         "takeaway": "Cada funcionário deve ter o mesmo peso; por isso, salários de grupos maiores aparecem mais vezes na soma."
       }
@@ -2320,8 +2320,8 @@
         "concept": "Moda, mediana e média descrevem aspectos diferentes da distribuição.",
         "steps": [
           "A quantidade mais frequente é 3 viagens, realizada por 55 motoristas; logo, a moda é 3. Dos 160 motoristas, 10 fizeram uma viagem, 10 fizeram duas e 55 fizeram três, totalizando 75. As posições 80 e 81 estão no grupo de 4 viagens; a mediana é 4.",
-          "A soma das viagens é 1·10 + 2·10 + 3·55 + 4·25 + 6·50 + 7·10 = 665. A média é 665/160 = 4,15625.",
-          "Portanto, moda = 3 < mediana = 4 < média = 4,15625. Essa ordem corresponde à alternativa E."
+          "A soma das viagens é \\[\\begin{aligned}S={}&1\\cdot10+2\\cdot10+3\\cdot55\\\\&+4\\cdot25+6\\cdot50+7\\cdot10\\\\={}&665\\end{aligned}\\]. A média é \\(\\frac{665}{160}=4{,}15625\\).",
+          "Portanto, \\(3<4<4{,}15625\\): a moda é menor que a mediana, que é menor que a média. Essa ordem corresponde à alternativa E."
         ],
         "takeaway": "Determine cada medida pela sua definição; a categoria mais frequente não precisa coincidir com a média."
       }
@@ -2334,9 +2334,9 @@
       "explanation": {
         "concept": "A probabilidade de dois sorteios favoráveis permite planejar a alteração de uma promoção.",
         "steps": [
-          "A urna B tem quatro bolinhas pretas, que representam 25% do total. Portanto, ela contém inicialmente 4/0,25 = 16 bolinhas, das quais 12 são brancas.",
-          "Se forem adicionadas x bolinhas brancas, a chance de retirar uma preta em B será 4/(16 + x). A chance de ganhar, retirando pretas em A e B, será 0,20·4/(16 + x). Para que esse produto seja no máximo 0,01, precisamos de 0,8 ≤ 0,01(16 + x), ou 16 + x ≥ 80.",
-          "Logo, x ≥ 64. Adicionar 64 bolinhas brancas leva a urna B a 80 bolinhas e produz uma chance de vitória de 0,20·(4/80) = 1%. Esse é o mínimo pedido, alternativa C."
+          "A urna B tem quatro bolinhas pretas, que representam \\(25\\%\\) do total. Portanto, ela contém inicialmente \\(\\frac{4}{0{,}25}=16\\) bolinhas, das quais 12 são brancas.",
+          "Se forem adicionadas \\(x\\) bolinhas brancas, a chance de retirar uma preta em B será \\(\\frac{4}{16+x}\\). A chance de ganhar, retirando pretas em A e B, será \\(0{,}20\\cdot\\frac{4}{16+x}\\). Para que esse produto seja no máximo 0,01, precisamos de \\(0{,}8 \\le  0{,}01(16 + x)\\), ou \\(16 + x \\ge  80\\).",
+          "Logo, \\(x \\ge  64\\). Adicionar 64 bolinhas brancas leva a urna B a 80 bolinhas e produz uma chance de vitória de \\(0{,}20\\cdot\\frac{4}{80}=1\\%\\). Esse é o mínimo pedido, alternativa C."
         ],
         "takeaway": "Diferencie o total final de bolinhas da quantidade que precisa ser adicionada."
       }

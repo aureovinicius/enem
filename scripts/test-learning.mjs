@@ -2,6 +2,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import vm from "node:vm";
+import { createRequire } from "node:module";
+const katex = createRequire(import.meta.url)("../dist/vendor/katex/katex.min.js");
 
 const data = JSON.parse(readFileSync("dist/data/physics-questions.json", "utf8"));
 const catalog = JSON.parse(readFileSync("dist/data/courses.json", "utf8"));
@@ -14,7 +16,7 @@ function appHarness(saved) {
   const context = vm.createContext({
     document: { querySelector(selector) { if (!nodes.has(selector)) nodes.set(selector, node()); return nodes.get(selector); }, querySelectorAll() { return []; }, addEventListener() {}, body: { style: {} }, activeElement: node() },
     localStorage: { getItem: (key) => storage.get(key) || null, setItem: (key, value) => storage.set(key, value) },
-    location: { hash: "" }, window: { addEventListener() {}, scrollTo() {} }, history: { replaceState() {} },
+    location: { hash: "" }, window: { katex, addEventListener() {}, scrollTo() {} }, history: { replaceState() {} },
     Intl, Date, setTimeout() {}, structuredClone,
   });
   vm.runInContext(source, context);
@@ -84,7 +86,7 @@ for (const correct of [true, false]) {
     app.run("checkAnswer()");
     const rendered = app.nodes.get("#lesson-modal").innerHTML;
     assert.ok(rendered.includes(`Por que a alternativa ${data.questions[0].correctAlternative}`));
-    assert.ok(rendered.includes(app.run("escapeHtml(quiz.questions[0].explanation.steps[0])")));
+    assert.ok(rendered.includes(app.run("renderMathText(quiz.questions[0].explanation.steps[0])")));
     assert.equal(app.run("state.answered.length"), 1);
     app.run("checkAnswer()");
     assert.equal(app.run("state.answered.length"), 1);

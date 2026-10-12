@@ -276,6 +276,15 @@ button:focus-visible, a:focus-visible {
 .intro-content p, .intro-content li, .explanation p, .explanation li { line-height: 1.7; overflow-wrap: anywhere; }
 .concept-section p { margin: 0 0 12px; }
 .formula { padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); font-weight: 700; line-height: 1.8; overflow-wrap: anywhere; }
+.concept-section > div, .question-wrap, .answers > button, .answer-text { min-width: 0; }
+.katex { font-size: 1.08em; }
+.math-inline { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; padding: 2px 3px; scrollbar-width: none; }
+.math-inline::-webkit-scrollbar { height: 0; }
+.math-display { display: block; max-width: 100%; overflow-x: auto; padding: 6px 2px; }
+.math-display .katex-display { margin: .3em 0; }
+.math-display .katex-display > .katex { text-align: left; }
+.formula .math-display + .math-display { margin-top: 8px; }
+.math-fallback { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .95em; }
 .concept-section .notation { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
 .worked-example { padding: 24px; background: var(--green-soft); border-radius: 18px; }
 .worked-example ol, .explanation ol { margin: 16px 0; padding-left: 24px; }

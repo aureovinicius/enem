@@ -10,9 +10,12 @@ async function fixture(t) {
   const root = await mkdtemp(path.join(tmpdir(), "fisio-pages-test-"));
   t.after(() => rm(root, { recursive: true, force: true }));
   const source = {
-    "index.html": '<link rel="icon" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link href="/styles.css?v=2"><script src="/app.js?v=2"></script><script type="module" src="/pwa.js?v=2"></script><a href="#praticar">Praticar</a>',
+    "index.html": '<script src="/vendor/katex/katex.min.js"></script><link href="/vendor/katex/katex.min.css"><link rel="icon" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link href="/styles.css?v=2"><script src="/app.js?v=2"></script><script type="module" src="/pwa.js?v=2"></script><a href="#praticar">Praticar</a>',
     "app.js": 'const DATA_URL = "/data/courses.json?v=2"; const allowed = url => url.startsWith("/assets/questions/"); const download = `<a href="/data/matrix.pdf">Download</a>`;',
     "styles.css": "body { color: #123; }",
+    "vendor/katex/katex.min.js": "/* math renderer */",
+    "vendor/katex/katex.min.css": '@font-face{src:url("fonts/Math.woff2")}',
+    "vendor/katex/fonts/Math.woff2": "font fixture",
     "favicon.svg": "<svg></svg>",
     "pwa.js": 'navigator.serviceWorker.register(new URL("./sw.js", import.meta.url)); const fallback = "/sw.js";',
     "sw.js": 'const root = self.registration.scope; const shell = ["./", "./app.js?v=2", "./styles.css?v=2"];',
@@ -42,6 +45,9 @@ for (const basePath of ["/", "/enem", "/nested/enem/"]) {
     const base = normalizeBasePath(basePath);
     const html = await readFile(path.join(built.output, "index.html"), "utf8");
     assert.ok(html.includes(`src="${base}/app.js?v=2"`));
+    assert.ok(html.includes(`src="${base}/vendor/katex/katex.min.js"`));
+    assert.ok(html.includes(`href="${base}/vendor/katex/katex.min.css"`));
+    assert.equal(await readFile(path.join(built.output, "vendor/katex/katex.min.css"), "utf8"), source["vendor/katex/katex.min.css"]);
     assert.ok(html.includes(`href="${base}/manifest.webmanifest"`));
     assert.ok(html.includes(`href="${base}/apple-touch-icon.png"`));
     assert.ok(html.includes(`src="${base}/pwa.js?v=2"`));

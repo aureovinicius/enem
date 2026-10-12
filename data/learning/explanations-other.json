@@ -14,26 +14,26 @@
   "2015-79": {
     "concept": "Calor específico e arrefecimento",
     "steps": [
-      "O fluido recebe energia do motor ao circular por ele. Sem mudança de estado, a quantidade de calor absorvida é Q = m·c·ΔT, em que c é o calor específico.",
-      "Para a mesma massa de fluido e uma mesma quantidade de calor retirada do motor, ΔT = Q/(m·c). Um calor específico alto permite absorver bastante energia sem aquecer excessivamente, favorecendo o transporte dessa energia até o radiador. Por isso a alternativa A é correta."
+      "O fluido recebe energia do motor ao circular por ele. Sem mudança de estado, a quantidade de calor absorvida é \\(Q=mc\\Delta T\\), em que \\(c\\) é o calor específico.",
+      "Para a mesma massa de fluido e uma mesma quantidade de calor retirada do motor, \\(\\Delta T=\\frac{Q}{mc}\\). Um calor específico alto permite absorver bastante energia sem aquecer excessivamente, favorecendo o transporte dessa energia até o radiador. Por isso a alternativa A é correta."
     ],
     "takeaway": "Quanto maior o calor específico, mais energia uma substância absorve para a mesma elevação de temperatura."
   },
   "2022-115": {
     "concept": "Capacidade térmica por unidade de volume",
     "steps": [
-      "Para volumes iguais que recebem a mesma energia, usamos Q = ρ·V·c·ΔT. Assim, a variação de temperatura é inversamente proporcional ao produto densidade × calor específico, e não apenas ao calor específico.",
-      "A razão pedida é ΔT_concreto/ΔT_água = (ρ_água·c_água)/(ρ_concreto·c_concreto). Como as densidades e os calores específicos aparecem nas mesmas unidades em cada coluna da tabela, seus fatores de conversão se cancelam na razão.",
-      "Substituindo: (1 000 × 4,2)/(2 500 × 0,8) = 4 200/2 000 = 2,1. A área concretada sofre uma variação 2,1 vezes maior, correspondente à alternativa B."
+      "Para volumes iguais que recebem a mesma energia, usamos \\(Q=\\rho Vc\\Delta T\\). Assim, a variação de temperatura é inversamente proporcional ao produto densidade × calor específico, e não apenas ao calor específico.",
+      "A razão pedida é \\(\\frac{\\Delta T_{\\text{concreto}}}{\\Delta T_{\\text{água}}}=\\frac{\\rho_{\\text{água}}c_{\\text{água}}}{\\rho_{\\text{concreto}}c_{\\text{concreto}}}\\). Como as densidades e os calores específicos aparecem nas mesmas unidades em cada coluna da tabela, seus fatores de conversão se cancelam na razão.",
+      "Substituindo: \\(\\frac{1\\,000\\times4{,}2}{2\\,500\\times0{,}8}=\\frac{4\\,200}{2\\,000}=2{,}1\\). A área concretada sofre uma variação 2,1 vezes maior, correspondente à alternativa B."
     ],
-    "takeaway": "Em comparações com o mesmo volume, a capacidade de armazenar calor depende de ρ·c."
+    "takeaway": "Em comparações com o mesmo volume, a capacidade de armazenar calor depende de \\(\\rho c\\)."
   },
   "2022-116": {
     "concept": "Potência térmica e corrente elétrica",
     "steps": [
-      "O disjuntor precisa suportar a maior corrente, que ocorre no modo superquente. Pela tabela, uma vazão de 3 L/min nesse modo aumenta a temperatura em 30 °C. A vazão de massa é 3 000 g/min = 50 g/s.",
-      "A potência transferida à água é P = (m/t)·c·ΔT = 50 × 4,2 × 30 = 6 300 W. Com toda a energia elétrica convertida em calor, essa é também a potência elétrica da ducha.",
-      "De P = U·i, obtemos i = 6 300/220 ≈ 28,6 A. O múltiplo de 5 A imediatamente superior é 30 A: alternativa B."
+      "O disjuntor precisa suportar a maior corrente, que ocorre no modo superquente. Pela tabela, uma vazão de \\(3\\,\\mathrm{L/min}\\) nesse modo aumenta a temperatura em \\(30\\,\\mathrm{{}^\\circ C}\\). A vazão de massa é \\(3\\,000\\,\\mathrm{g/min}=50\\,\\mathrm{g/s}\\).",
+      "A potência transferida à água é \\(P=\\frac mt c\\Delta T=50\\times4{,}2\\times30=6\\,300\\,\\mathrm{W}\\). Com toda a energia elétrica convertida em calor, essa é também a potência elétrica da ducha.",
+      "De \\(P=Ui\\), obtemos \\(i=\\frac{6\\,300}{220}\\approx28{,}6\\,\\mathrm{A}\\). O múltiplo de \\(5\\,\\mathrm{A}\\) imediatamente superior é \\(30\\,\\mathrm{A}\\): alternativa B."
     ],
     "takeaway": "Converta a vazão para massa por segundo antes de calcular a potência do chuveiro e a corrente máxima."
   },
@@ -53,69 +53,69 @@
     "concept": "Indução eletromagnética e efeito Joule",
     "steps": [
       "A bobina do fogão produz um campo magnético que varia no tempo. Essa variação altera o fluxo magnético que atravessa o fundo metálico da panela.",
-      "Pela lei de Faraday, uma variação do fluxo magnético induz uma força eletromotriz: ε = −ΔΦ/Δt. No metal surgem correntes induzidas, e sua passagem pela resistência do material produz calor por efeito Joule. Portanto, o mecanismo indicado é o campo magnético variável, alternativa D."
+      "Pela lei de Faraday, uma variação do fluxo magnético induz uma força eletromotriz: \\(\\varepsilon=-\\frac{\\Delta\\Phi}{\\Delta t}\\). No metal surgem correntes induzidas, e sua passagem pela resistência do material produz calor por efeito Joule. Portanto, o mecanismo indicado é o campo magnético variável, alternativa D."
     ],
     "takeaway": "Variação do fluxo magnético pode produzir corrente elétrica; a resistência do metal transforma a energia dessa corrente em calor."
   },
   "2021-115": {
     "concept": "Resistência térmica de camadas",
     "steps": [
-      "Com a mesma área A, espessura total d e diferença de temperatura, a taxa de condução é maior quando a resistência térmica é menor. Para uma camada, essa resistência é d/(k·A). Alumínio e ferro têm condutividades 20 e 8 W/(m·K), respectivamente.",
-      "Na panela composta, metade da espessura é cobre e metade é aço. As resistências térmicas das camadas se somam: R_t = d/(2·40·A) + d/(2·5·A) = 0,1125·d/A. Isso equivale a uma condutividade k_eq = 1/0,1125 ≈ 8,89 W/(m·K).",
-      "Logo, 20 > 8,89 > 8: a panela de alumínio conduz mais calor, seguida pela de cobre-aço e pela de ferro. Pelo critério de economia do enunciado, essa é a ordem da mais econômica para a menos econômica, alternativa B."
+      "Com a mesma área \\(A\\), espessura total \\(d\\) e diferença de temperatura, a taxa de condução é maior quando a resistência térmica é menor. Para uma camada, essa resistência é \\(\\frac{d}{kA}\\). Alumínio e ferro têm condutividades 20 e \\(8\\,\\mathrm{W/(m\\cdot K)}\\), respectivamente.",
+      "Na panela composta, metade da espessura é cobre e metade é aço. As resistências térmicas das camadas se somam: \\(R_t=\\frac{d}{2\\cdot40\\cdot A}+\\frac{d}{2\\cdot5\\cdot A}=0{,}1125\\frac dA\\). Isso equivale a uma condutividade \\(k_{\\text{eq}}=\\frac1{0{,}1125}\\approx8{,}89\\,\\mathrm{W/(m\\cdot K)}\\).",
+      "Logo, \\(20>8{,}89>8\\): a panela de alumínio conduz mais calor, seguida pela de cobre-aço e pela de ferro. Pelo critério de economia do enunciado, essa é a ordem da mais econômica para a menos econômica, alternativa B."
     ],
     "takeaway": "Em camadas sucessivas, somam-se as resistências térmicas; a condutividade equivalente não é a média aritmética."
   },
   "2020-128": {
     "concept": "Resfriamento e balanço de energia",
     "steps": [
-      "Quando a temperatura do aquário está estável, o aquecedor de 50 W repõe a energia que a água perde para o ambiente. Ao desligá-lo, a água continua perdendo aproximadamente 50 J a cada segundo.",
-      "Em uma hora, a energia perdida é Q = P·t = 50 × 3 600 = 180 000 J. Os 50 L de água têm massa de 50 kg, e o calor específico é 4 000 J/(kg·K).",
-      "A redução de temperatura é ΔT = Q/(m·c) = 180 000/(50 × 4 000) = 0,9 K. Uma diferença de 0,9 K corresponde a 0,9 °C, portanto a alternativa C é correta."
+      "Quando a temperatura do aquário está estável, o aquecedor de \\(50\\,\\mathrm{W}\\) repõe a energia que a água perde para o ambiente. Ao desligá-lo, a água continua perdendo aproximadamente \\(50\\,\\mathrm{J}\\) a cada segundo.",
+      "Em uma hora, a energia perdida é \\(Q=Pt=50\\times3\\,600=180\\,000\\,\\mathrm{J}\\). Os \\(50\\,\\mathrm{L}\\) de água têm massa de \\(50\\,\\mathrm{kg}\\), e o calor específico é \\(4\\,000\\,\\mathrm{J/(kg\\cdot K)}\\).",
+      "A redução de temperatura é \\(\\Delta T=\\frac Q{mc}=\\frac{180\\,000}{50\\times4\\,000}=0{,}9\\,\\mathrm{K}\\). Uma diferença de \\(0{,}9\\,\\mathrm{K}\\) corresponde a \\(0{,}9\\,\\mathrm{{}^\\circ C}\\), portanto a alternativa C é correta."
     ],
     "takeaway": "Em equilíbrio térmico estacionário, a potência do aquecedor compensa a taxa de perda de energia."
   },
   "2019-102": {
     "concept": "Condução e calor latente de fusão",
     "steps": [
-      "Enquanto ainda há gelo, sua fusão consome calor sem elevar sua temperatura. Como os blocos são do mesmo material, derreter o dobro da massa exige o dobro da energia: Q_B/Q_A = 2.",
-      "No mesmo intervalo de tempo e com iguais espessuras e diferenças de temperatura, o calor transmitido é proporcional a k·A. As áreas totais das seis faces são A_A = 6 × 40 × 40 = 9 600 cm² e A_B = 2 × (60 × 40 + 60 × 40 + 40 × 40) = 12 800 cm².",
-      "De 2 = (k_B·12 800)/(k_A·9 600), resulta k_A/k_B = 12 800/(2 × 9 600) = 2/3 ≈ 0,67. A alternativa B é a correta."
+      "Enquanto ainda há gelo, sua fusão consome calor sem elevar sua temperatura. Como os blocos são do mesmo material, derreter o dobro da massa exige o dobro da energia: \\(\\frac{Q_B}{Q_A}=2\\).",
+      "No mesmo intervalo de tempo e com iguais espessuras e diferenças de temperatura, o calor transmitido é proporcional a \\(kA\\). As áreas totais das seis faces são \\(A_A=6\\times40\\times40=9\\,600\\,\\mathrm{cm^2}\\) e \\(A_B=2\\times(60\\times40+60\\times40+40\\times40)=12\\,800\\,\\mathrm{cm^2}\\).",
+      "De \\(2=\\frac{k_B\\cdot12\\,800}{k_A\\cdot9\\,600}\\), resulta \\(\\frac{k_A}{k_B}=\\frac{12\\,800}{2\\times9\\,600}=\\frac23\\approx0{,}67\\). A alternativa B é a correta."
     ],
     "takeaway": "Ao comparar isolamento térmico, considere a área total das faces por onde o calor atravessa o recipiente."
   },
   "2019-117": {
     "concept": "Calorimetria e rendimento",
     "steps": [
-      "A tabela informa 70 kcal por 10 g de castanha. A queima de 2,5 g disponibiliza (2,5/10) × 70 = 17,5 kcal.",
-      "Somente 50% dessa energia aquece a água: Q = 0,50 × 17,5 = 8,75 kcal = 8 750 cal. Assim, ΔT = Q/(m·c) = 8 750/(350 × 1) = 25 °C.",
-      "A pergunta pede a temperatura final, e não sua variação: T_final = 20 + 25 = 45 °C. Portanto, a alternativa C é correta."
+      "A tabela informa \\(70\\,\\mathrm{kcal}\\) por \\(10\\,\\mathrm{g}\\) de castanha. A queima de \\(2{,}5\\,\\mathrm{g}\\) disponibiliza \\(\\frac{2{,}5}{10}\\times70=17{,}5\\,\\mathrm{kcal}\\).",
+      "Somente 50% dessa energia aquece a água: \\(Q=0{,}50\\times17{,}5=8{,}75\\,\\mathrm{kcal}=8\\,750\\,\\mathrm{cal}\\). Assim, \\(\\Delta T=\\frac Q{mc}=\\frac{8\\,750}{350\\times1}=25\\,\\mathrm{{}^\\circ C}\\).",
+      "A pergunta pede a temperatura final, e não sua variação: \\(T_{\\text{final}}=20+25=45\\,\\mathrm{{}^\\circ C}\\). Portanto, a alternativa C é correta."
     ],
     "takeaway": "Aplique o rendimento à energia disponível e some a variação calculada à temperatura inicial."
   },
   "2017-93": {
     "concept": "Lei de Ohm e sensor resistivo",
     "steps": [
-      "No gráfico sem amônia, por exemplo, uma tensão de 1,0 V produz corrente de 2,0 × 10⁻⁶ A. A unidade do eixo da corrente é essencial para o cálculo.",
-      "A resistência nominal é R = U/i = 1,0/(2,0 × 10⁻⁶) = 5,0 × 10⁵ Ω. Em alta concentração de amônia esse valor quadruplica: R_amônia = 4 × 5,0 × 10⁵ = 2,0 × 10⁶ Ω. Esse valor corresponde à alternativa E."
+      "No gráfico sem amônia, por exemplo, uma tensão de \\(1{,}0\\,\\mathrm{V}\\) produz corrente de \\(2{,}0\\times10^{-6}\\,\\mathrm{A}\\). A unidade do eixo da corrente é essencial para o cálculo.",
+      "A resistência nominal é \\(R=\\frac Ui=\\frac{1{,}0}{2{,}0\\times10^{-6}}=5{,}0\\times10^5\\,\\Omega\\). Em alta concentração de amônia esse valor quadruplica: \\(R_{\\text{amônia}}=4\\times5{,}0\\times10^5=2{,}0\\times10^6\\,\\Omega\\). Esse valor corresponde à alternativa E."
     ],
-    "takeaway": "Em um gráfico corrente × tensão, calcule R = U/i e confira a potência de dez indicada no eixo."
+    "takeaway": "Em um gráfico corrente × tensão, calcule \\(R=\\frac Ui\\) e confira a potência de dez indicada no eixo."
   },
   "2017-127": {
     "concept": "Vazão e potência de aquecimento",
     "steps": [
-      "A potência que aquece a água é P = ρ·vazão·c·ΔT. Como a água é a mesma, a razão entre as potências pode ser obtida comparando as vazões para uma mesma elevação de temperatura.",
-      "Para uma mesma elevação de temperatura próxima de 12 °C, as curvas indicam vazões próximas de 3 L/min no modo morno e 8 L/min no superquente. Logo, P_morno/P_superquente ≈ 3/8, alternativa D.",
-      "Isso equivale a cerca de (3/8) × 6 500 ≈ 2 440 W no modo morno. Comparar pontos de mesma temperatura evita misturar, na razão, mudanças de vazão e de ΔT."
+      "A potência que aquece a água é \\(P=\\rho\\cdot\\text{vazão}\\cdot c\\Delta T\\). Como a água é a mesma, a razão entre as potências pode ser obtida comparando as vazões para uma mesma elevação de temperatura.",
+      "Para uma mesma elevação de temperatura próxima de \\(12\\,\\mathrm{{}^\\circ C}\\), as curvas indicam vazões próximas de \\(3\\,\\mathrm{L/min}\\) no modo morno e \\(8\\,\\mathrm{L/min}\\) no superquente. Logo, \\(\\frac{P_{\\text{morno}}}{P_{\\text{superquente}}}\\approx\\frac38\\), alternativa D.",
+      "Isso equivale a cerca de \\(\\frac38\\times6\\,500\\approx2\\,440\\,\\mathrm{W}\\) no modo morno. Comparar pontos de mesma temperatura evita misturar, na razão, mudanças de vazão e de \\(\\Delta T\\)."
     ],
     "takeaway": "Para a mesma elevação de temperatura, a potência do chuveiro é proporcional à vazão de água."
   },
   "2016-59": {
     "concept": "Associações em série e em paralelo",
     "steps": [
-      "Entre A e B existem três caminhos: o arco de 5 kΩ, o traço de 20 kΩ e o caminho A–C–B, com 10 + 10 = 20 kΩ. Eles estão em paralelo: 1/R_AB = 1/5 + 1/20 + 1/20 = 3/10, portanto R_AB = 10/3 kΩ.",
-      "Entre B e C há um caminho direto de 10 kΩ. O outro passa por A: os resistores de 5 e 20 kΩ entre B e A equivalem a 4 kΩ, que ficam em série com os 10 kΩ entre A e C. Esse caminho totaliza 14 kΩ.",
-      "Assim, R_BC = (10 × 14)/(10 + 14) = 35/6 kΩ. A razão é (10/3)/(35/6) = 4/7, alternativa B."
+      "Entre A e B existem três caminhos: o arco de \\(5\\,\\mathrm{k}\\Omega\\), o traço de \\(20\\,\\mathrm{k}\\Omega\\) e o caminho A–C–B, com \\(10+10=20\\,\\mathrm{k}\\Omega\\). Eles estão em paralelo: \\(\\frac1{R_{AB}}=\\frac15+\\frac1{20}+\\frac1{20}=\\frac3{10}\\), portanto \\(R_{AB}=\\frac{10}{3}\\,\\mathrm{k}\\Omega\\).",
+      "Entre B e C há um caminho direto de \\(10\\,\\mathrm{k}\\Omega\\). O outro passa por A: os resistores de 5 e \\(20\\,\\mathrm{k}\\Omega\\) entre B e A equivalem a \\(4\\,\\mathrm{k}\\Omega\\), que ficam em série com os \\(10\\,\\mathrm{k}\\Omega\\) entre A e C. Esse caminho totaliza \\(14\\,\\mathrm{k}\\Omega\\).",
+      "Assim, \\(R_{BC}=\\frac{10\\times14}{10+14}=\\frac{35}{6}\\,\\mathrm{k}\\Omega\\). A razão é \\(\\frac{10/3}{35/6}=\\frac47\\), alternativa B."
     ],
     "takeaway": "A resistência equivalente depende dos terminais de medição; redesenhe os caminhos entre eles antes de associar resistores."
   },
@@ -134,27 +134,27 @@
   "2009-35": {
     "concept": "Energia solar e calorimetria",
     "steps": [
-      "A massa de água é 1 000 kg, e sua temperatura deve subir 100 − 20 = 80 °C. A energia necessária é Q = m·c·ΔT = 1 000 × 4 200 × 80 = 336 000 000 J.",
-      "Em uma hora, ou 3 600 s, a potência recebida deve ser P = Q/t ≈ 93 333 W. Com 800 W por metro quadrado, a área de captação precisa ser A = 93 333/800 ≈ 116,7 m².",
-      "A abertura do refletor tem largura de 6 m, então A = 6·L e L ≈ 116,7/6 ≈ 19,4 m. Esse comprimento está entre 15 e 21 m, intervalo da alternativa A."
+      "A massa de água é \\(1\\,000\\,\\mathrm{kg}\\), e sua temperatura deve subir \\(100-20=80\\,\\mathrm{{}^\\circ C}\\). A energia necessária é \\(Q=mc\\Delta T=1\\,000\\times4\\,200\\times80=336\\,000\\,000\\,\\mathrm{J}\\).",
+      "Em uma hora, ou \\(3\\,600\\,\\mathrm{s}\\), a potência recebida deve ser \\(P=\\frac Qt\\approx93\\,333\\,\\mathrm{W}\\). Com \\(800\\,\\mathrm{W}\\) por metro quadrado, a área de captação precisa ser \\(A=\\frac{93\\,333}{800}\\approx116{,}7\\,\\mathrm{m^2}\\).",
+      "A abertura do refletor tem largura de \\(6\\,\\mathrm{m}\\), então \\(A=6L\\) e \\(L\\approx\\frac{116{,}7}{6}\\approx19{,}4\\,\\mathrm{m}\\). Esse comprimento está entre 15 e \\(21\\,\\mathrm{m}\\), intervalo da alternativa A."
     ],
-    "takeaway": "Para dimensionar um coletor solar ideal, calcule primeiro Q, depois a potência Q/t e, por fim, a área de captação."
+    "takeaway": "Para dimensionar um coletor solar ideal, calcule primeiro \\(Q\\), depois a potência \\(\\frac Qt\\) e, por fim, a área de captação."
   },
   "2023-120": {
     "concept": "Associação mista e brilho de lâmpadas",
     "steps": [
-      "Antes da queima, cada trecho da associação em série contém uma lâmpada em paralelo com um resistor R. Sua resistência equivalente é menor que R, pois existem dois caminhos para a corrente.",
-      "Quando L2 queima, seu ramo fica aberto e o trecho central passa a ter apenas o resistor R. A resistência total do circuito aumenta, reduzindo a corrente fornecida pela mesma fonte de tensão.",
-      "Os dois conjuntos restantes continuam iguais entre si, mas recebem menor tensão porque a corrente da associação em série diminuiu. Cada lâmpada dissipa menos potência e brilha menos. Isso vale tanto para L1 quanto para L3: alternativa C."
+      "Antes da queima, cada trecho da associação em série contém uma lâmpada em paralelo com um resistor \\(R\\). Sua resistência equivalente é menor que \\(R\\), pois existem dois caminhos para a corrente.",
+      "Quando \\(L_2\\) queima, seu ramo fica aberto e o trecho central passa a ter apenas o resistor \\(R\\). A resistência total do circuito aumenta, reduzindo a corrente fornecida pela mesma fonte de tensão.",
+      "Os dois conjuntos restantes continuam iguais entre si, mas recebem menor tensão porque a corrente da associação em série diminuiu. Cada lâmpada dissipa menos potência e brilha menos. Isso vale tanto para \\(L_1\\) quanto para \\(L_3\\): alternativa C."
     ],
     "takeaway": "Abrir um ramo paralelo pode aumentar a resistência total e reduzir a potência dos demais componentes em série."
   },
   "2022-96": {
     "concept": "Baterias em série e lei de Ohm",
     "steps": [
-      "O enunciado adota resistência de 1 kΩ para a pele molhada. Pela lei de Ohm, uma bateria de 12 V produziria i = 12/1 000 = 0,012 A = 12 mA, valor abaixo da faixa de parada respiratória indicada na tabela.",
-      "Na alternativa A, o polo negativo de uma bateria se liga ao positivo da outra: as tensões se somam. Entre A e B há 12 + 12 = 24 V e a corrente calculada é 24/1 000 = 0,024 A = 24 mA.",
-      "No modelo apresentado pela questão, 24 mA pertence à faixa de 20 a 100 mA associada à parada respiratória. Por isso a associação em série mostrada em A é a resposta."
+      "O enunciado adota resistência de \\(1\\,\\mathrm{k}\\Omega\\) para a pele molhada. Pela lei de Ohm, uma bateria de \\(12\\,\\mathrm{V}\\) produziria \\(i=\\frac{12}{1\\,000}=0{,}012\\,\\mathrm{A}=12\\,\\mathrm{mA}\\), valor abaixo da faixa de parada respiratória indicada na tabela.",
+      "Na alternativa A, o polo negativo de uma bateria se liga ao positivo da outra: as tensões se somam. Entre A e B há \\(12+12=24\\,\\mathrm{V}\\) e a corrente calculada é \\(\\frac{24}{1\\,000}=0{,}024\\,\\mathrm{A}=24\\,\\mathrm{mA}\\).",
+      "No modelo apresentado pela questão, \\(24\\,\\mathrm{mA}\\) pertence à faixa de 20 a \\(100\\,\\mathrm{mA}\\) associada à parada respiratória. Por isso a associação em série mostrada em A é a resposta."
     ],
     "takeaway": "Baterias em série no mesmo sentido somam tensões; a corrente pelo corpo é determinada pela tensão total e pela resistência adotada."
   },
@@ -169,9 +169,9 @@
   "2021-134": {
     "concept": "Dilatação, densidade e empuxo",
     "steps": [
-      "O alcoolômetro flutua em uma posição determinada pelo empuxo, que depende da densidade do líquido: E = ρ·g·V_deslocado. Sua escala foi calibrada para as densidades da mistura a 20 °C.",
+      "O alcoolômetro flutua em uma posição determinada pelo empuxo, que depende da densidade do líquido: \\(E=\\rho gV_{\\text{deslocado}}\\). Sua escala foi calibrada para as densidades da mistura a \\(20\\,\\mathrm{{}^\\circ C}\\).",
       "Ao aumentar a temperatura, ocorre dilatação: o volume dos materiais muda. Para a mesma massa de líquido, aumentar o volume reduz a densidade, modificando a profundidade de imersão e a leitura do instrumento.",
-      "É necessário corrigir essa alteração física para comparar a medida à calibração de 20 °C. A causa é a mudança de volume por dilatação, alternativa C."
+      "É necessário corrigir essa alteração física para comparar a medida à calibração de \\(20\\,\\mathrm{{}^\\circ C}\\). A causa é a mudança de volume por dilatação, alternativa C."
     ],
     "takeaway": "Uma medida baseada na densidade precisa considerar a temperatura, pois a dilatação altera o volume."
   },
@@ -201,9 +201,9 @@
     "moduleId": "termologia",
     "concept": "Energia de combustão por volume",
     "steps": [
-      "Para comparar volumes de combustíveis, é preciso combinar densidade e energia por massa. A gasolina fornece, em módulo, 0,7 × 10 = 7 kcal por mL; o etanol fornece 0,8 × 6 = 4,8 kcal por mL.",
-      "Como a energia consumida é a mesma nos dois percursos, V_etanol × 4,8 = 40 × 7, usando litros para ambos os volumes e cancelando o fator de conversão comum.",
-      "Logo, V_etanol = 280/4,8 ≈ 58,3 L, aproximadamente 58 L. A alternativa D é correta. O sinal negativo do calor de combustão indica liberação de energia; na comparação utilizamos seu módulo."
+      "Para comparar volumes de combustíveis, é preciso combinar densidade e energia por massa. A gasolina fornece, em módulo, \\(0{,}7\\times10=7\\,\\mathrm{kcal}\\) por mL; o etanol fornece \\(0{,}8\\times6=4{,}8\\,\\mathrm{kcal}\\) por mL.",
+      "Como a energia consumida é a mesma nos dois percursos, \\(V_{\\text{etanol}}\\times4{,}8=40\\times7\\), usando litros para ambos os volumes e cancelando o fator de conversão comum.",
+      "Logo, \\(V_{\\text{etanol}}=\\frac{280}{4{,}8}\\approx58{,}3\\,\\mathrm{L}\\), aproximadamente \\(58\\,\\mathrm{L}\\). A alternativa D é correta. O sinal negativo do calor de combustão indica liberação de energia; na comparação utilizamos seu módulo."
     ],
     "takeaway": "Energia por litro é o produto da energia por massa pela densidade do combustível."
   },
@@ -215,8 +215,8 @@
     "concept": "Circuito fechado e resistência equivalente",
     "steps": [
       "O toque em A conecta os pontos intermediários das duas colunas. O contato em B continua aberto, de modo que o resistor inferior da coluna direita termina em um ramo sem caminho de retorno e não conduz corrente.",
-      "Os dois resistores superiores de 4 kΩ ficam ligados entre os mesmos dois nós e, portanto, em paralelo: R_superior = (4 × 4)/(4 + 4) = 2 kΩ.",
-      "Esse equivalente fica em série com o resistor inferior esquerdo de 4 kΩ. Assim, R_eq = 2 + 4 = 6 kΩ, valor mostrado na alternativa C."
+      "Os dois resistores superiores de \\(4\\,\\mathrm{k}\\Omega\\) ficam ligados entre os mesmos dois nós e, portanto, em paralelo: \\(R_{\\text{superior}}=\\frac{4\\times4}{4+4}=2\\,\\mathrm{k}\\Omega\\).",
+      "Esse equivalente fica em série com o resistor inferior esquerdo de \\(4\\,\\mathrm{k}\\Omega\\). Assim, \\(R_{\\text{eq}}=2+4=6\\,\\mathrm{k}\\Omega\\), valor mostrado na alternativa C."
     ],
     "takeaway": "Um resistor ligado a um ramo aberto não participa da corrente; identifique os nós efetivamente conectados pelo toque."
   },
@@ -224,17 +224,17 @@
     "moduleId": "eletromagnetismo",
     "concept": "Gerador e lei de Faraday",
     "steps": [
-      "Para uma bobina girando em campo uniforme, a tensão máxima induzida é V = N·B·A·2πf. Portanto, dobrar N, B, A ou f pode dobrar V, mas ainda precisamos manter a corrente de curto-circuito.",
-      "A corrente de curto é limitada pela resistência do fio da bobina: i = V/R. Se V dobra, R também precisa dobrar para que i permaneça igual.",
-      "Dobrar o número de espiras de mesma área dobra o comprimento de fio. Com material e diâmetro inalterados, R = ρ·L/S também dobra. Assim, V e R aumentam pelo mesmo fator, preservando i. A alternativa A satisfaz as duas condições."
+      "Para uma bobina girando em campo uniforme, a tensão máxima induzida é \\(V=NBA\\,2\\pi f\\). Portanto, dobrar \\(N\\), \\(B\\), \\(A\\) ou \\(f\\) pode dobrar \\(V\\), mas ainda precisamos manter a corrente de curto-circuito.",
+      "A corrente de curto é limitada pela resistência do fio da bobina: \\(i=\\frac VR\\). Se \\(V\\) dobra, \\(R\\) também precisa dobrar para que \\(i\\) permaneça igual.",
+      "Dobrar o número de espiras de mesma área dobra o comprimento de fio. Com material e diâmetro inalterados, \\(R=\\frac{\\rho L}{S}\\) também dobra. Assim, \\(V\\) e \\(R\\) aumentam pelo mesmo fator, preservando \\(i\\). A alternativa A satisfaz as duas condições."
     ],
     "takeaway": "Ao modificar um gerador, acompanhe tanto a tensão induzida quanto a resistência do fio que limita a corrente."
   },
   "2015-65": {
     "concept": "Equilíbrio térmico e variação percentual",
     "steps": [
-      "Ao misturar porções de água de mesmo calor específico, a temperatura inicial da mistura é a média ponderada pelas massas. Como há um terço de água fria e dois terços de quente, T_i = (1/3)·10 + (2/3)·40 = 30 °C.",
-      "Após seis horas, a temperatura cai para 16 °C, uma redução de 30 − 16 = 14 °C. Pelo critério de classificação da tabela, a redução percentual é (14/30) × 100 ≈ 46,7%.",
+      "Ao misturar porções de água de mesmo calor específico, a temperatura inicial da mistura é a média ponderada pelas massas. Como há um terço de água fria e dois terços de quente, \\(T_i=\\frac13\\cdot10+\\frac23\\cdot40=30\\,\\mathrm{{}^\\circ C}\\).",
+      "Após seis horas, a temperatura cai para \\(16\\,\\mathrm{{}^\\circ C}\\), uma redução de \\(30-16=14\\,\\mathrm{{}^\\circ C}\\). Pelo critério de classificação da tabela, a redução percentual é \\(\\frac{14}{30}\\times100\\approx46{,}7\\%\\).",
       "Esse resultado está no intervalo de 40% a 55%, correspondente ao selo D. Portanto, deve ser marcada a alternativa D."
     ],
     "takeaway": "Calcule a temperatura da mistura antes de comparar sua queda com o intervalo percentual da classificação."
@@ -251,8 +251,8 @@
     "moduleId": "eletricidade",
     "concept": "Potência elétrica e geometria do resistor",
     "steps": [
-      "Para o resistor do chuveiro, P = U²/R. Ao dobrar a tensão de 110 V para 220 V mantendo a potência, a resistência deve aumentar por um fator 2² = 4.",
-      "A resistência de um fio é R = ρ·L/S, em que S é a área da seção transversal. Mantendo material e comprimento, reduzir a área para um quarto multiplica a resistência por quatro.",
+      "Para o resistor do chuveiro, \\(P=\\frac{U^2}{R}\\). Ao dobrar a tensão de \\(110\\,\\mathrm{V}\\) para \\(220\\,\\mathrm{V}\\) mantendo a potência, a resistência deve aumentar por um fator \\(2^2=4\\).",
+      "A resistência de um fio é \\(R=\\frac{\\rho L}{S}\\), em que \\(S\\) é a área da seção transversal. Mantendo material e comprimento, reduzir a área para um quarto multiplica a resistência por quatro.",
       "Portanto, a troca por um fio com a quarta parte da área da seção reta produz a adaptação pedida. Essa é a alternativa E."
     ],
     "takeaway": "Dobrar a tensão mantendo a potência exige quadruplicar a resistência."
@@ -274,7 +274,7 @@
     "concept": "Calor latente e temperatura",
     "steps": [
       "Calor é energia transferida devido a uma diferença de temperatura; temperatura não mede uma quantidade de calor armazenada. Por isso receber calor nem sempre significa aumentar a temperatura.",
-      "Durante a ebulição da água a pressão constante, a energia recebida é usada na transformação de líquido em vapor: Q = m·L. Enquanto ocorre essa mudança de estado, a temperatura pode permanecer constante mesmo com fornecimento contínuo de calor.",
+      "Durante a ebulição da água a pressão constante, a energia recebida é usada na transformação de líquido em vapor: \\(Q=mL\\). Enquanto ocorre essa mudança de estado, a temperatura pode permanecer constante mesmo com fornecimento contínuo de calor.",
       "Essa situação contradiz diretamente a ideia cotidiana de que temperatura mede a quantidade de calor e é apresentada na alternativa A."
     ],
     "takeaway": "Na mudança de estado, um corpo pode receber calor sem sofrer aumento de temperatura."
@@ -290,7 +290,7 @@
   "2009-18": {
     "concept": "Potência de refrigeração e dimensionamento elétrico",
     "steps": [
-      "Manter a temperatura do auditório constante exige retirar calor à mesma taxa com que ele é produzido. A capacidade de refrigeração, expressa na tabela em kW ou BTU/h, informa a taxa de remoção de calor de cada aparelho e permite escolher a quantidade necessária.",
+      "Manter a temperatura do auditório constante exige retirar calor à mesma taxa com que ele é produzido. A capacidade de refrigeração, expressa na tabela em \\(\\mathrm{kW}\\) ou \\(\\mathrm{BTU/h}\\), informa a taxa de remoção de calor de cada aparelho e permite escolher a quantidade necessária.",
       "Já a fiação precisa suportar a corrente elétrica dos aparelhos ligados. Por isso a grandeza relevante para dimensionar sua espessura é a corrente elétrica no ciclo frio, somada de acordo com a ligação dos equipamentos.",
       "O par que atende às duas decisões é capacidade de refrigeração e corrente elétrica no ciclo frio, alternativa E. A potência elétrica consumida não é igual à capacidade de retirar calor."
     ],
@@ -303,18 +303,18 @@
   "2009-30": {
     "concept": "Aquecimento por efeito Joule e consumo de combustível",
     "steps": [
-      "Os 200 L de água correspondem a aproximadamente 200 000 g, e a variação de temperatura é 55 − 20 = 35 °C. Logo, Q = m·c·ΔT = 200 000 × 4,19 × 35 = 29 330 000 J.",
-      "O resistor recebe 110 V e tem resistência de 11 Ω. Sua potência é P = U²/R = 110²/11 = 1 100 W. O tempo necessário é t = Q/P ≈ 26 664 s ≈ 7,4 h.",
-      "Como o gerador consome 1 L de gasolina por hora, ele gasta aproximadamente 7,4 L, contra 1 L no aquecimento por combustão direta. O consumo é cerca de sete vezes maior, alternativa D."
+      "Os \\(200\\,\\mathrm{L}\\) de água correspondem a aproximadamente \\(200\\,000\\,\\mathrm{g}\\), e a variação de temperatura é \\(55-20=35\\,\\mathrm{{}^\\circ C}\\). Logo, \\(Q=mc\\Delta T=200\\,000\\times4{,}19\\times35=29\\,330\\,000\\,\\mathrm{J}\\).",
+      "O resistor recebe \\(110\\,\\mathrm{V}\\) e tem resistência de \\(11\\,\\Omega\\). Sua potência é \\(P=\\frac{U^2}{R}=\\frac{110^2}{11}=1\\,100\\,\\mathrm{W}\\). O tempo necessário é \\(t=\\frac QP\\approx26\\,664\\,\\mathrm{s}\\approx7{,}4\\,\\mathrm{h}\\).",
+      "Como o gerador consome \\(1\\,\\mathrm{L}\\) de gasolina por hora, ele gasta aproximadamente \\(7{,}4\\,\\mathrm{L}\\), contra \\(1\\,\\mathrm{L}\\) no aquecimento por combustão direta. O consumo é cerca de sete vezes maior, alternativa D."
     ],
     "takeaway": "Para comparar consumo de combustível, calcule a energia requerida, a potência útil e o tempo de funcionamento."
   },
   "2009-38": {
     "concept": "Dilatação volumétrica",
     "steps": [
-      "O álcool é aquecido de 5 °C para 35 °C, portanto ΔT = 30 °C. O volume adicional por dia é ΔV = V₀·β·ΔT = 20 000 × 10⁻³ × 30 = 600 L.",
-      "Esses 600 L aparentes a mais são vendidos por R$ 1,60/L, gerando uma receita adicional diária de 600 × 1,60 = R$ 960,00. O custo da compra original é o mesmo com ou sem aquecimento, e o enunciado manda desprezar o gasto de energia.",
-      "Em sete dias, o ganho causado especificamente pela dilatação é 7 × 960 = R$ 6.720,00. Esse valor está entre R$ 6.000,00 e R$ 6.900,00, intervalo da alternativa D."
+      "O álcool é aquecido de \\(5\\,\\mathrm{{}^\\circ C}\\) para \\(35\\,\\mathrm{{}^\\circ C}\\), portanto \\(\\Delta T=30\\,\\mathrm{{}^\\circ C}\\). O volume adicional por dia é \\(\\Delta V=V_0\\beta\\Delta T=20\\,000\\times10^{-3}\\times30=600\\,\\mathrm{L}\\).",
+      "Esses \\(600\\,\\mathrm{L}\\) aparentes a mais são vendidos por R$ 1,60/L, gerando uma receita adicional diária de \\(600\\times1{,}60=\\text{R\\$ }960{,}00\\). O custo da compra original é o mesmo com ou sem aquecimento, e o enunciado manda desprezar o gasto de energia.",
+      "Em sete dias, o ganho causado especificamente pela dilatação é \\(7\\times960=\\text{R\\$ }6\\,720{,}00\\). Esse valor está entre R$ 6.000,00 e R$ 6.900,00, intervalo da alternativa D."
     ],
     "takeaway": "A dilatação aumenta o volume sem aumentar a quantidade de matéria; calcule o ganho apenas sobre o volume adicional vendido."
   }
