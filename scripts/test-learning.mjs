@@ -224,3 +224,44 @@ test("all courses show explanations after correct or wrong answers and persist s
   }
   assert.equal(app.run("state.completed.length"), 5);
 });
+
+test("the expanded math course keeps the seven previously completed lessons intact", () => {
+  // Published before expansion: these questions and lesson IDs must remain stable.
+  const previousLessons = {
+    "mat-c1-1": ["2009-178", "2013-163", "2016-168", "2022-142", "2022-140"],
+    "mat-c2-1": ["2009-154", "2009-177", "2019-157", "2019-166", "2023-172"],
+    "mat-c3-1": ["2013-170", "2019-158", "2019-162", "2022-139", "2023-171"],
+    "mat-c4-1": ["2009-160", "2009-162", "2013-159", "2019-153", "2023-167"],
+    "mat-c5-1": ["2009-151", "2009-155", "2019-168", "2022-146", "2023-175"],
+    "mat-c6-1": ["2009-143", "2019-172", "2019-178", "2023-139", "2023-166"],
+    "mat-c7-1": ["2009-145", "2013-150", "2019-160", "2019-173", "2023-180"],
+  };
+  const completed = Object.keys(previousLessons);
+  const app = appHarness({ activeCourse: "matematica", completed, xp: 490, introductionsRead: ["mat-c1"], missed: ["2013-163"] });
+  for (const [id, ids] of Object.entries(previousLessons)) {
+    const actual = JSON.parse(app.run(`JSON.stringify(lessons.find(l => l.id === ${JSON.stringify(id)}).questions.map(q => q.id))`));
+    assert.deepEqual(actual, ids, id);
+  }
+  assert.equal(app.run("completedLessons()"), 7);
+  assert.equal(app.run("state.xp"), 490);
+  assert.equal(app.run("nextLesson().id"), "mat-c1-2");
+  assert.equal(app.run("lessons.filter(l => l.index === 1 && isUnlocked(l)).length"), 7);
+  assert.equal(app.run("lessons.some(l => l.index > 1 && isUnlocked(l))"), false);
+  const saved = JSON.parse(app.storage.get("fisio-progress-v1"));
+  assert.deepEqual(saved.completed, completed);
+  assert.deepEqual(saved.introductionsRead, ["mat-c1"]);
+  assert.deepEqual(saved.missed, ["2013-163"]);
+  const reloaded = appHarness(saved);
+  assert.equal(reloaded.run("nextLesson().id"), "mat-c1-2");
+});
+
+test("math expansion provides four complete lessons in each competence", () => {
+  const app = appHarness({ activeCourse: "matematica" });
+  assert.equal(app.run("data.total"), 140);
+  assert.equal(app.run("lessons.length"), 28);
+  for (let competence = 1; competence <= 7; competence++) {
+    const sizes = JSON.parse(app.run(`JSON.stringify(lessons.filter(l => l.module.competency === ${competence}).map(l => l.questions.length))`));
+    assert.deepEqual(sizes, [5, 5, 5, 5]);
+  }
+  assert.equal(app.run("data.questions.every(q => q.alternatives.length === 5)"), true);
+});

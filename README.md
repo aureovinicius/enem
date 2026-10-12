@@ -7,10 +7,12 @@ App web gamificado para estudar para o ENEM com questões reais da API [enem.dev
 | Física | 5 por tema | 120 |
 | Química | 5 por tema | 40 |
 | Biologia | 5 por tema | 40 |
-| Matemática | 7 por competência | 35 |
+| Matemática | 7 por competência | 140 |
 | Ciências da Natureza | 8 por competência | 200 |
 
-Natureza é a união exata de Física, Química e Biologia. O catálogo tem **235 questões únicas**, sem duplicar registros para a trilha integrada. Todas as 30 unidades têm introdução; todas as questões ativas têm justificativa específica.
+Natureza é a união exata de Física, Química e Biologia. O catálogo tem **340 questões únicas**, sem duplicar registros para a trilha integrada. Todas as 30 unidades têm introdução; todas as questões ativas têm justificativa específica.
+
+Matemática tem 20 questões por competência, distribuídas em quatro lições de cinco questões (28 lições). A ampliação acrescentou 105 itens comentados aos 35 anteriores, preservando suas posições e os IDs das lições já concluídas. O acervo bruto local contém 642 registros de Matemática; somente os itens selecionados e revisados entram na prática.
 
 ## Dados locais
 
