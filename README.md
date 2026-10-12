@@ -96,6 +96,8 @@ Depois, abra `http://localhost:4173`.
 
 Repositório: [aureovinicius/enem](https://github.com/aureovinicius/enem). A branch de publicação é `main`. O histórico do projeto, o snapshot completo de 2.757 questões, as fontes de TRI e as imagens usadas nas 440 questões selecionadas estão versionados. A cópia integral do repositório externo `data/enem-source/` pode ser baixada pelo script de sincronização e não é duplicada neste Git.
 
+Site publicado: **[aureovinicius.com.br/enem](https://aureovinicius.com.br/enem/)**, com HTTPS obrigatório. O repositório é público para compatibilidade com o plano atual da conta. GitHub Pages usa GitHub Actions, e `PAGES_ENABLED=true` já está configurado: novos pushes em `main` publicam automaticamente após os testes passarem. O endereço usa o domínio do GitHub Pages já existente na conta.
+
 O workflow `.github/workflows/pages.yml` executa os testes e prepara um artefato estático em cada push ou pull request para `main`, e também pode ser executado manualmente. As ações oficiais são fixadas por commit; o deploy usa o token temporário do próprio GitHub Actions, sem exigir token pessoal salvo como segredo.
 
 Para testar o mesmo pacote localmente:
