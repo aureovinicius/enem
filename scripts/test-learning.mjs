@@ -152,20 +152,20 @@ test("Natureza is exactly the union of Physics, Chemistry and Biology without du
 test("Humanas combines both subjects and complementary Philosophy and Sociology without duplicate records", () => {
   const humanities = catalog.courses.find(c => c.id === "ciencias-humanas");
   assert.equal(humanities.modules.length, 6);
-  assert.equal(humanities.total, 100);
+  assert.equal(humanities.total, 200);
   const expected = new Set();
   for (const id of ["geografia", "historia"]) {
     const course = catalog.courses.find(c => c.id === id);
-    assert.equal(course.total, 40);
+    assert.equal(course.total, 80);
     for (const questionId of course.questionIds) expected.add(questionId);
   }
   const complementary = catalog.questions.filter(q => ["filosofia", "sociologia"].includes(q.subjectId));
-  assert.equal(complementary.length, 20);
+  assert.equal(complementary.length, 40);
   assert.deepEqual(new Set(complementary.map(q => q.subjectTitle)), new Set(["Filosofia", "Sociologia"]));
   for (const q of complementary) expected.add(q.id);
   assert.deepEqual(new Set(humanities.questionIds), expected);
   assert.ok(humanities.questionIds.every(id => catalog.questions.find(q => q.id === id).areaId === "ciencias-humanas"));
-  assert.equal(catalog.total, 540);
+  assert.equal(catalog.total, 640);
 });
 
 test("Humanas practice uses its competency topics and displays CH references and explanations", () => {

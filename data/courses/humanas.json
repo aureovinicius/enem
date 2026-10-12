@@ -591,6 +591,326 @@
         ],
         "takeaway": "A crítica à indústria cultural questiona a autonomia de escolhas moldadas por produtos padronizados e pela lógica econômica."
       }
+    },
+    {
+      "id": "2011-2",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Autonomia e normas morais",
+        "steps": [
+          "A pesquisa distingue reconhecer uma conduta correta de agir efetivamente conforme ela.",
+          "A alternativa D é correta porque as normas são elaboradas pelos seres humanos, que podem reconhecê-las como dever e ainda assim descumpri-las."
+        ],
+        "takeaway": "Conhecer uma obrigação moral não determina automaticamente a conduta de uma pessoa."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2011-18",
+      "competency": 2,
+      "skill": 10,
+      "explanation": {
+        "concept": "Movimentos sociais e democracia",
+        "steps": [
+          "O texto valoriza diálogo, conflito e participação de sujeitos coletivos na relação com o poder público.",
+          "A alternativa C é correta porque a pressão sobre o Estado leva demandas sociais à esfera política e contribui para construir práticas democráticas."
+        ],
+        "takeaway": "A democracia também se constrói pela organização coletiva e pela reivindicação de direitos."
+      },
+      "moduleId": "hum-c2",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2011-20",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Normas e efetivação de direitos",
+        "steps": [
+          "O contraste apresentado está entre a existência da lei contra a tortura e a persistência das práticas denunciadas.",
+          "A alternativa B é correta porque a criação de uma norma não garante sua aplicação efetiva, que depende de fiscalização, responsabilização e atuação institucional."
+        ],
+        "takeaway": "Diferencie reconhecimento formal de um direito e sua proteção efetiva na vida social."
+      },
+      "moduleId": "hum-c3",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2011-23",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Tecnologia e responsabilidade coletiva",
+        "steps": [
+          "A referência ao desastre de Chernobyl evidencia que decisões técnicas têm efeitos que ultrapassam indivíduos e fronteiras.",
+          "A alternativa A é correta porque a avaliação das tecnologias deve considerar interesses coletivos e consequências sociais, em vez de se limitar a ganhos particulares."
+        ],
+        "takeaway": "Decisões tecnológicas exigem responsabilidade pelos efeitos sobre a coletividade."
+      },
+      "moduleId": "hum-c4",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2011-32",
+      "competency": 5,
+      "skill": 25,
+      "explanation": {
+        "concept": "Pluralidade cultural no currículo",
+        "steps": [
+          "O ensino da história e da cultura afro-brasileira amplia a presença de grupos historicamente silenciados na formação escolar.",
+          "A alternativa E é correta porque a medida reconhece a pluralidade étnica e cultural do país; não corresponde, por si, a garantir acesso material à escola."
+        ],
+        "takeaway": "Reconhecimento cultural e acesso à educação são dimensões relacionadas, mas distintas, da inclusão."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2012-7",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Montesquieu e liberdade política",
+        "steps": [
+          "A liberdade apresentada não consiste em fazer qualquer coisa, mas em agir sob regras que também limitam os demais.",
+          "A alternativa B é correta porque os limites legais organizam a convivência e impedem que a vontade de um indivíduo suprima a liberdade alheia."
+        ],
+        "takeaway": "No argumento de Montesquieu, liberdade política depende de limites legais compartilhados."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2012-9",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Habermas e convivência democrática",
+        "steps": [
+          "A pluralidade cultural exige procedimentos que permitam discutir diferenças sem impor assimilação a todos.",
+          "A alternativa C é correta porque o debate público democrático cria condições para a convivência entre tradições e perspectivas distintas."
+        ],
+        "takeaway": "A esfera pública democrática permite negociar diferenças preservando a participação dos envolvidos."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2012-23",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Corpo e julgamento moral",
+        "steps": [
+          "O discurso analisado transforma características corporais em sinais de disciplina ou fracasso individual.",
+          "A alternativa D é correta porque a culpabilização moral responsabiliza o indivíduo pelo corpo considerado inadequado, ocultando fatores sociais e contextuais; a questão analisa esse discurso, não o endossa."
+        ],
+        "takeaway": "Padrões corporais podem funcionar como instrumentos sociais de julgamento e controle."
+      },
+      "moduleId": "hum-c3",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2012-25",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Platão: conhecimento e opinião",
+        "steps": [
+          "O texto distingue a apreensão racional da verdade das impressões recebidas pelos sentidos.",
+          "A alternativa D é correta porque a razão permite buscar o conhecimento estável, enquanto a experiência sensível, nessa perspectiva, permanece ligada à opinião."
+        ],
+        "takeaway": "Na teoria platônica, conhecer exige ultrapassar a aparência sensível pela investigação racional."
+      },
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2020-89",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Hume e a experiência",
+        "steps": [
+          "A aparência da água e do fogo não permite deduzir sozinha todos os efeitos que eles podem produzir.",
+          "A alternativa D é correta porque o conhecimento dos fatos depende da vivência dos fenômenos; a razão isolada não revela relações causais sem experiência."
+        ],
+        "takeaway": "Para Hume, o conhecimento factual tem sua origem na experiência do mundo."
+      },
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-47",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Arendt e a linguagem política",
+        "steps": [
+          "A reflexão associa a vida política à capacidade de falar e deliberar com outras pessoas.",
+          "A alternativa E é correta porque a linguagem viabiliza a sociabilidade política ao permitir a expressão e o confronto de perspectivas no espaço comum."
+        ],
+        "takeaway": "A participação política envolve palavra, interação e construção de um mundo compartilhado."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-57",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Foucault e poder disciplinar",
+        "steps": [
+          "O texto contrapõe a exclusão dos leprosos à vigilância minuciosa organizada diante da peste.",
+          "A alternativa A é correta porque o controle dos corpos, dos espaços e das condutas caracteriza mecanismos disciplinares, distintos da simples expulsão dos indivíduos."
+        ],
+        "takeaway": "O poder disciplinar opera por vigilância, classificação e organização detalhada da conduta."
+      },
+      "moduleId": "hum-c3",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-60",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Tecnologia e reciprocidade social",
+        "steps": [
+          "O sistema descrito mobiliza amigos e recompensas para influenciar comportamentos.",
+          "A alternativa B é correta porque os vínculos de reciprocidade social fazem com que os participantes respondam também às relações e incentivos do grupo."
+        ],
+        "takeaway": "Tecnologias de incentivo podem atuar sobre relações sociais, e não apenas sobre escolhas isoladas."
+      },
+      "moduleId": "hum-c4",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2022-71",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Estado de direito e democracia",
+        "steps": [
+          "O argumento mostra que a existência formal de regras não basta quando se elimina a escolha dos governantes.",
+          "A alternativa A é correta porque abolir eleições impede a participação e a alternância que sustentam a democracia, mesmo sob aparência de legalidade."
+        ],
+        "takeaway": "A ordem democrática requer instituições e procedimentos que preservem a participação política."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "sociologia",
+      "subjectTitle": "Sociologia"
+    },
+    {
+      "id": "2022-80",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Sofistas e retórica na pólis",
+        "steps": [
+          "A vida pública grega exigia que cidadãos apresentassem e defendessem argumentos diante dos demais.",
+          "A alternativa C é correta porque o ensino da retórica se relacionava à participação cívica, pois a persuasão tinha papel nas decisões da pólis."
+        ],
+        "takeaway": "A importância política da palavra ajuda a explicar a atuação dos sofistas."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-84",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Arte, percepção e conhecimento",
+        "steps": [
+          "Os textos atribuem à experiência artística uma capacidade de transformar a maneira de perceber.",
+          "A alternativa C é correta porque a arte amplia formas de conhecer e experimentar o mundo, em vez de atuar apenas como reprodução passiva do visível."
+        ],
+        "takeaway": "A experiência estética pode produzir novas maneiras de perceber e compreender a realidade."
+      },
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-86",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Empédocles e a explicação da natureza",
+        "steps": [
+          "A diversidade do mundo é explicada pela combinação de elementos sob forças de união e separação.",
+          "A alternativa C é correta porque Amor e Ódio designam princípios cosmológicos que articulam os elementos, não sentimentos psicológicos usados para explicar comportamentos individuais."
+        ],
+        "takeaway": "Interprete conceitos filosóficos segundo sua função no sistema do autor."
+      },
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2022-88",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Sêneca e a ética estoica",
+        "steps": [
+          "A reflexão sobre a morte busca orientar a atitude humana diante do que não pode ser evitado.",
+          "A alternativa E é correta porque a moderação das paixões e a serenidade permitem enfrentar o inevitável, sem depender do controle sobre acontecimentos externos."
+        ],
+        "takeaway": "A ética estoica valoriza o governo de si diante do que escapa à nossa vontade."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2023-54",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Corpo e consciência",
+        "steps": [
+          "A comparação opõe a separação cartesiana entre corpo e pensamento à experiência encarnada em Merleau-Ponty.",
+          "A alternativa A é correta porque o contraste está no papel do corpo na existência e na percepção: para Merleau-Ponty, ele participa da relação com o mundo."
+        ],
+        "takeaway": "Compare autores identificando a função atribuída a um mesmo conceito em cada perspectiva."
+      },
+      "moduleId": "hum-c1",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
+    },
+    {
+      "id": "2023-57",
+      "competency": 5,
+      "skill": 23,
+      "explanation": {
+        "concept": "Ricoeur e a possibilidade de perdoar",
+        "steps": [
+          "Pedir perdão não cria uma obrigação automática de que a outra pessoa o conceda.",
+          "A alternativa E é correta porque o destinatário conserva a possibilidade de recusar, condição que mantém o perdão como ato livre."
+        ],
+        "takeaway": "O perdão pressupõe a liberdade de quem o concede, incluindo a possibilidade de recusa."
+      },
+      "moduleId": "hum-c5",
+      "subjectId": "filosofia",
+      "subjectTitle": "Filosofia"
     }
   ]
 }

@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-5";
+const DATA_URL = "/data/courses.json?v=pwa-6";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;

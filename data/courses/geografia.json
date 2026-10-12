@@ -730,6 +730,566 @@
         ],
         "takeaway": "Um recurso renovável pode se esgotar localmente quando sua exploração é mais rápida que sua capacidade de reposição."
       }
+    },
+    {
+      "id": "2011-1",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Redes e mobilização política",
+        "steps": [
+          "A metáfora do contágio descreve a circulação de protestos entre países durante a Primavera Árabe.",
+          "A alternativa E é correta porque as redes de comunicação facilitam a divulgação de ideias e a articulação de manifestações; não se trata de um vírus de computador."
+        ],
+        "takeaway": "A circulação de informação pode conectar mobilizações em territórios diferentes."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2011-39",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Investimentos e soberania",
+        "steps": [
+          "O texto questiona as consequências políticas da expansão econômica chinesa na África.",
+          "A alternativa D é correta porque a dependência de investimentos externos pode limitar a autonomia de decisões dos países receptores, risco apontado pelo autor."
+        ],
+        "takeaway": "Na análise do texto, diferencie oportunidades econômicas e riscos à soberania."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2011-45",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Migrações internacionais",
+        "steps": [
+          "A busca por trabalho ajuda a explicar a saída de pessoas de seus países de origem.",
+          "A alternativa A é correta porque as oportunidades econômicas atraem migrantes, enquanto restrições de entrada nos países de destino dificultam esses deslocamentos."
+        ],
+        "takeaway": "Fluxos migratórios resultam tanto de fatores econômicos como de políticas de fronteira."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2020-57",
+      "competency": 2,
+      "skill": 9,
+      "explanation": {
+        "concept": "Conflitos e organizações em rede",
+        "steps": [
+          "O inimigo descrito não corresponde a um Estado com território e exército convencional.",
+          "A alternativa B é correta porque a organização em rede permite ações dispersas e conexões transnacionais, tornando o adversário difuso."
+        ],
+        "takeaway": "Nem todo conflito internacional opõe dois Estados territorialmente delimitados."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2020-61",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Divisão internacional do trabalho",
+        "steps": [
+          "Galeano relaciona a exploração de recursos latino-americanos aos interesses de centros de poder externos.",
+          "A alternativa C é correta porque a inserção subordinada desses territórios na divisão internacional do trabalho expressa a dominação imperialista criticada no texto."
+        ],
+        "takeaway": "Observe quem controla os recursos e quem se apropria dos resultados de sua exploração."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2020-75",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Cartografia e poder colonial",
+        "steps": [
+          "O relato contrapõe a representação europeia do espaço aos conhecimentos dos povos indígenas.",
+          "A alternativa C é correta porque a imposição de uma visão cartográfica desconsidera outros saberes e participa da dominação colonial do território."
+        ],
+        "takeaway": "Mapas também expressam interesses políticos e escolhas sobre quais conhecimentos reconhecer."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2022-62",
+      "competency": 2,
+      "skill": 9,
+      "explanation": {
+        "concept": "Integração econômica regional",
+        "steps": [
+          "A tarifa externa comum indica um tratamento compartilhado das importações vindas de países de fora do bloco.",
+          "A alternativa C é correta porque esse mecanismo caracteriza uma união aduaneira, etapa que não exige moeda única nem livre circulação plena de pessoas."
+        ],
+        "takeaway": "Tarifa externa comum é a característica central da união aduaneira."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2022-69",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Nacionalidade e reivindicação territorial",
+        "steps": [
+          "O discurso de 2014 associa idioma e pertencimento nacional à reivindicação sobre um território.",
+          "A alternativa A é correta porque o argumento procura reunir populações consideradas da mesma nação sob uma autoridade estatal comum; identificá-lo não equivale a legitimá-lo."
+        ],
+        "takeaway": "Distinga a justificativa apresentada por um ator político da avaliação de sua legitimidade."
+      },
+      "moduleId": "geo-territorios"
+    },
+    {
+      "id": "2011-9",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Ilhas de calor urbanas",
+        "steps": [
+          "A urbanização substitui vegetação e superfícies permeáveis por materiais construídos.",
+          "A alternativa D é correta porque a impermeabilização reduz a disponibilidade de água para evaporação e acompanha superfícies que acumulam calor, contribuindo para ilhas de calor."
+        ],
+        "takeaway": "O aquecimento urbano local depende da cobertura do solo e da presença de vegetação."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2011-10",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Poluição atmosférica e população",
+        "steps": [
+          "O enunciado relaciona a exposição urbana a poluentes com danos à saúde.",
+          "A alternativa B é correta porque esses danos podem reduzir a expectativa de vida da população exposta; isso não significa prever o tempo de vida de uma pessoa específica."
+        ],
+        "takeaway": "Indicadores populacionais expressam tendências coletivas, não destinos individuais."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2011-28",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Ocupação urbana e riscos ambientais",
+        "steps": [
+          "A ocupação de encostas e áreas sujeitas a cheias aumenta a exposição a processos naturais perigosos.",
+          "A alternativa D é correta porque enchentes e deslizamentos podem atingir essas áreas, sobretudo quando faltam infraestrutura e planejamento urbano."
+        ],
+        "takeaway": "O risco resulta da combinação entre processos ambientais e vulnerabilidade social."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2020-50",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Expansão das metrópoles",
+        "steps": [
+          "A expansão territorial da cidade incorpora novas áreas ao espaço urbano contínuo.",
+          "A alternativa B é correta porque o crescimento das periferias acompanha esse espraiamento, ampliando a área ocupada da metrópole."
+        ],
+        "takeaway": "A expansão metropolitana transforma áreas periféricas em partes do tecido urbano."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2020-53",
+      "competency": 2,
+      "skill": 6,
+      "explanation": {
+        "concept": "Coordenadas geográficas",
+        "steps": [
+          "Alice usa termos de localização horizontal para tentar descrever sua queda em profundidade.",
+          "A alternativa D é correta porque latitude e longitude situam pontos na superfície terrestre, enquanto a profundidade se refere a outra dimensão espacial."
+        ],
+        "takeaway": "Latitude e longitude não medem a profundidade de um lugar."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2020-58",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Planejamento urbano e interesses econômicos",
+        "steps": [
+          "O texto apresenta a cidade como espaço de geração de riqueza e de expansão de atividades econômicas.",
+          "A alternativa E é correta porque a participação empresarial no planejamento corresponde a essa orientação para o crescimento dos negócios urbanos."
+        ],
+        "takeaway": "Analise quais atores participam do planejamento e quais objetivos orientam suas decisões."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2021-61",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Requalificação urbana e competitividade",
+        "steps": [
+          "O projeto portuário apresentado amplia atividades comerciais e de serviços ligadas à economia urbana.",
+          "A alternativa A é correta porque a transformação busca posicionar a cidade na competição global por investimentos e atividades; não assegura, por si, acesso popular à moradia."
+        ],
+        "takeaway": "Requalificar uma área pode atender à estratégia de competitividade econômica da cidade."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2022-72",
+      "competency": 2,
+      "skill": 8,
+      "explanation": {
+        "concept": "Mobilidade pendular",
+        "steps": [
+          "O deslocamento descrito acontece entre o local de residência e o de trabalho ou estudo, com retorno habitual.",
+          "A alternativa D é correta porque essa ida e volta caracteriza a mobilidade pendular, sem transferência permanente de residência."
+        ],
+        "takeaway": "Na mobilidade pendular, a pessoa se desloca regularmente e retorna ao lugar onde mora."
+      },
+      "moduleId": "geo-cidades"
+    },
+    {
+      "id": "2011-4",
+      "competency": 6,
+      "skill": 29,
+      "explanation": {
+        "concept": "Fronteira agrícola e desmatamento",
+        "steps": [
+          "A expansão de cultivos comerciais demanda novas áreas e modifica a cobertura vegetal.",
+          "A alternativa B é correta porque a monocultura mecanizada de soja pode avançar sobre áreas antes florestadas e contribuir para o desmatamento amazônico."
+        ],
+        "takeaway": "A expansão agrícola deve ser relacionada às mudanças de uso e cobertura do solo."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2011-5",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Ocupação econômica do Cerrado",
+        "steps": [
+          "A integração produtiva do Centro-Oeste amplia áreas agrícolas e redes de infraestrutura.",
+          "A alternativa C é correta porque o avanço da fronteira agrícola está associado à transformação e à degradação do Cerrado, e não à ausência prévia de habitantes."
+        ],
+        "takeaway": "A incorporação de uma região à produção comercial não significa que ela fosse desocupada."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2011-7",
+      "competency": 6,
+      "skill": 26,
+      "explanation": {
+        "concept": "Adaptação de cultivos energéticos",
+        "steps": [
+          "A pesquisa com sementes busca adequar o pinhão-manso a diferentes condições ambientais.",
+          "A alternativa A é correta porque a adaptação a climas distintos permite ampliar as regiões produtoras da matéria-prima, em vez de restringir seu cultivo a uma única área."
+        ],
+        "takeaway": "A tecnologia agrícola pode ampliar a distribuição espacial de um cultivo."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2011-37",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Mecanização da colheita da cana",
+        "steps": [
+          "A restrição às queimadas incentiva a colheita mecanizada, alterando a organização da produção.",
+          "A alternativa B é correta porque o uso de máquinas exige adequações no plantio e favorece maior produtividade na colheita; não implica aumento automático do emprego."
+        ],
+        "takeaway": "Modernização agrícola combina mudanças técnicas, efeitos produtivos e impactos sobre o trabalho."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2012-20",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Concentração fundiária colonial",
+        "steps": [
+          "O texto mostra que a independência não eliminou a desigualdade racial no acesso à terra.",
+          "A alternativa E é correta porque a concentração das áreas cultiváveis na agroexportação empurra populações pobres para terras agrícolas marginais."
+        ],
+        "takeaway": "A permanência da concentração fundiária pode reproduzir desigualdades herdadas do colonialismo."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2012-27",
+      "competency": 2,
+      "skill": 10,
+      "explanation": {
+        "concept": "Quebradeiras de coco e acesso à terra",
+        "steps": [
+          "A identidade coletiva das trabalhadoras se fortalece na luta pelo uso dos babaçuais.",
+          "A alternativa E é correta porque as barreiras impostas por proprietários e posseiros ao acesso aos recursos explicam a organização do movimento."
+        ],
+        "takeaway": "Movimentos rurais podem defender o acesso coletivo a recursos essenciais à sua subsistência."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2020-47",
+      "competency": 4,
+      "skill": 19,
+      "explanation": {
+        "concept": "Diversidade do espaço rural",
+        "steps": [
+          "O texto registra moradores do campo que trabalham fora da agricultura ou recebem aposentadorias.",
+          "A alternativa A é correta porque essas diferentes fontes de renda revelam a heterogeneidade da vida rural, rompendo a equivalência entre morar no campo e trabalhar na lavoura."
+        ],
+        "takeaway": "Rural é uma condição espacial; agrícola é um tipo de atividade econômica."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2020-49",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Função social da propriedade",
+        "steps": [
+          "O texto subordina o uso da propriedade a obrigações diante da coletividade.",
+          "A alternativa C é correta porque a reivindicação de desapropriação de espaços improdutivos se apoia na função social da terra, sem equivaler à proibição de toda agroindústria."
+        ],
+        "takeaway": "A função social relaciona o exercício da propriedade ao atendimento de interesses coletivos."
+      },
+      "moduleId": "geo-campo"
+    },
+    {
+      "id": "2012-14",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Infraestrutura e escoamento da produção",
+        "steps": [
+          "A espera acumulada dos navios revela um gargalo na capacidade de circulação pelo porto.",
+          "A alternativa C é correta porque a dificuldade de escoamento limita exportações agrícolas, pois amplia custos e atrasos até os mercados consumidores."
+        ],
+        "takeaway": "Produzir mais não basta quando a infraestrutura de transporte limita a circulação."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2012-33",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Divisão territorial do trabalho",
+        "steps": [
+          "A empresa distribui suas funções por lugares que oferecem vantagens distintas de custos e rentabilidade.",
+          "A alternativa B é correta porque essa redistribuição desloca oportunidades de trabalho e amplia a mobilidade ocupacional, em vez de restringir a atuação ao mercado regional."
+        ],
+        "takeaway": "Estratégias globais das empresas alteram a localização e a mobilidade do trabalho."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2012-36",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Desconcentração industrial",
+        "steps": [
+          "A indústria pode instalar unidades longe dos centros tradicionais mantendo a coordenação das operações.",
+          "A alternativa E é correta porque os meios de comunicação conectam unidades dispersas, favorecendo a desconcentração territorial da produção."
+        ],
+        "takeaway": "Comunicações eficientes permitem coordenar atividades industriais em diferentes regiões."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2020-46",
+      "competency": 6,
+      "skill": 26,
+      "explanation": {
+        "concept": "Pesquisa e valor agregado",
+        "steps": [
+          "A assimetria descrita contrapõe exportação brasileira de produtos básicos e importação de manufaturados.",
+          "A alternativa D é correta porque o fortalecimento da pesquisa científica pode gerar inovação e produtos de maior valor agregado, diversificando a pauta exportadora."
+        ],
+        "takeaway": "Inovação ajuda a modificar o tipo de produto exportado e a posição na divisão do trabalho."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2020-78",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Produção flexível e toyotismo",
+        "steps": [
+          "O toyotismo procura ajustar o ritmo e o volume de fabricação às necessidades do mercado.",
+          "A alternativa C é correta porque a adequação da produção à demanda reduz a formação de grandes estoques, característica distinta da produção rígida em massa."
+        ],
+        "takeaway": "No toyotismo, a demanda orienta a produção e a gestão de estoques."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2021-79",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Enclaves industriais",
+        "steps": [
+          "O texto caracteriza unidades conectadas à economia externa, mas pouco articuladas ao entorno.",
+          "A alternativa E é correta porque buscar mão de obra qualificada fora da região exemplifica a fraca integração com a população e o mercado de trabalho locais."
+        ],
+        "takeaway": "Um enclave pode exercer grande poder econômico mantendo vínculos locais reduzidos."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2022-51",
+      "competency": 4,
+      "skill": 17,
+      "explanation": {
+        "concept": "Economia informacional em rede",
+        "steps": [
+          "Conhecimento e comunicação permitem conectar etapas empresariais em escala mundial.",
+          "A alternativa E é correta porque a desterritorialização dispersa a produção por diferentes lugares interligados; não significa que produzir deixe de exigir espaços físicos."
+        ],
+        "takeaway": "Redes globais permitem separar territorialmente etapas de um mesmo processo produtivo."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2022-61",
+      "competency": 4,
+      "skill": 20,
+      "explanation": {
+        "concept": "Automação e desemprego estrutural",
+        "steps": [
+          "A tecnologia apresentada pode executar tarefas antes realizadas por dubladores e atores.",
+          "A alternativa E é correta porque a substituição tecnológica altera a demanda por certas ocupações e pode ampliar o desemprego estrutural, além de oscilações conjunturais."
+        ],
+        "takeaway": "Desemprego estrutural pode decorrer de mudanças duradouras na organização e na tecnologia do trabalho."
+      },
+      "moduleId": "geo-redes"
+    },
+    {
+      "id": "2011-8",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Vegetação e conservação dos solos",
+        "steps": [
+          "A cobertura vegetal protege o solo contra o impacto da chuva e ajuda a conter o transporte de sedimentos.",
+          "A alternativa E é correta porque o desmatamento retira essa proteção e favorece processos erosivos nas encostas, contrariando a conservação pretendida."
+        ],
+        "takeaway": "Preservar a cobertura vegetal ajuda a reduzir a erosão e a instabilidade das encostas."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2011-13",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Consumo e descarte de resíduos",
+        "steps": [
+          "A substituição acelerada dos equipamentos aumenta a quantidade de lixo e a demanda por matérias-primas.",
+          "A alternativa A é correta porque o descarte inadequado pode liberar contaminantes que atingem o solo e as águas subterrâneas; decompositores não eliminam todos esses poluentes."
+        ],
+        "takeaway": "O ciclo de consumo precisa incluir destinação segura dos resíduos e redução do desperdício."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2011-15",
+      "competency": 6,
+      "skill": 27,
+      "explanation": {
+        "concept": "Consequências da chuva ácida",
+        "steps": [
+          "A questão pede efeitos da maior acidez da precipitação sobre materiais e ecossistemas.",
+          "A alternativa A é correta porque a chuva ácida pode corroer monumentos e metais, afetar vegetação e acidificar lagos; enchentes e assoreamento envolvem outros processos."
+        ],
+        "takeaway": "Relacione a chuva ácida à corrosão de materiais e à alteração química dos ecossistemas."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2012-29",
+      "competency": 6,
+      "skill": 26,
+      "explanation": {
+        "concept": "Terremotos e tensão tectônica",
+        "steps": [
+          "Movimentos das placas podem acumular tensões nas rochas até ocorrer uma ruptura.",
+          "A alternativa A é correta porque a liberação dessa tensão geológica produz ondas sísmicas que causam o abalo sentido pela população."
+        ],
+        "takeaway": "Terremotos resultam da liberação de energia acumulada no interior da Terra."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2012-37",
+      "competency": 6,
+      "skill": 28,
+      "explanation": {
+        "concept": "Escudos cristalinos e mineração",
+        "steps": [
+          "Os crátons descritos incluem terrenos antigos com rochas cristalinas e história geológica complexa.",
+          "A alternativa A é correta porque a presença de intrusões graníticas e jazidas minerais se relaciona a essas estruturas antigas; petróleo e gás são associados sobretudo a bacias sedimentares."
+        ],
+        "takeaway": "Diferencie os minérios dos escudos cristalinos dos combustíveis fósseis das bacias sedimentares."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2012-42",
+      "competency": 6,
+      "skill": 30,
+      "explanation": {
+        "concept": "Reutilização da água",
+        "steps": [
+          "O consumo cresce mais rapidamente que a população, indicando aumento da demanda por pessoa e por atividade.",
+          "A alternativa A é correta porque reutilizar água reduz a necessidade de novas captações para usos compatíveis, atuando diretamente sobre a lógica de consumo."
+        ],
+        "takeaway": "O reúso permite atender parte da demanda sem captar novamente o mesmo volume de água."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2020-59",
+      "competency": 6,
+      "skill": 28,
+      "explanation": {
+        "concept": "Recursos dos maciços cristalinos",
+        "steps": [
+          "O enunciado destaca estruturas antigas compostas por rochas magmáticas e metamórficas.",
+          "A alternativa C é correta porque esses terrenos concentram importantes jazidas de minerais metálicos, enquanto reservas de petróleo se associam principalmente a bacias sedimentares."
+        ],
+        "takeaway": "A estrutura geológica ajuda a explicar a localização dos recursos minerais."
+      },
+      "moduleId": "geo-ambiente"
+    },
+    {
+      "id": "2020-84",
+      "competency": 6,
+      "skill": 26,
+      "explanation": {
+        "concept": "Convergência de placas e relevo",
+        "steps": [
+          "A placa oceânica mergulha sob a continental, produzindo compressão, magmatismo e deformações.",
+          "A alternativa E é correta porque esses processos formam cadeias montanhosas de dobramentos modernos, como no contexto andino, em vez de planícies abissais."
+        ],
+        "takeaway": "A convergência com subducção pode gerar montanhas e atividade vulcânica nas bordas continentais."
+      },
+      "moduleId": "geo-ambiente"
     }
   ]
 }

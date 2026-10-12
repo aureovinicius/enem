@@ -735,6 +735,566 @@
         ],
         "takeaway": "Compare quais atores e reivindicações cada interpretação coloca em primeiro plano para perceber diferenças historiográficas."
       }
+    },
+    {
+      "id": "2009-47",
+      "competency": 1,
+      "skill": 5,
+      "explanation": {
+        "concept": "Versalhes e a sociedade de corte",
+        "steps": [
+          "O texto trata da residência dos reis franceses e de sua função política no Antigo Regime.",
+          "A alternativa A é correta porque Versalhes reuniu a corte e expressou o poder monárquico, tornando-se também patrimônio artístico e cultural."
+        ],
+        "takeaway": "Edifícios históricos podem exercer funções políticas antes de se tornarem patrimônio cultural."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2009-48",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Sepultamento e hierarquia social",
+        "steps": [
+          "Práticas funerárias podem revelar distinções de posição social, prestígio e poder.",
+          "A alternativa C é correta porque na sociedade colonial brasileira, a localização dos sepultamentos nas igrejas obedecia a hierarquias sociais, refletindo desigualdades entre os vivos."
+        ],
+        "takeaway": "Rituais funerários são fontes para estudar a organização social e suas desigualdades."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2009-49",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "Usos políticos da memória medieval",
+        "steps": [
+          "O enunciado destaca que cada época reconstrói o passado de acordo com seus interesses.",
+          "A alternativa A é correta porque a associação nazista entre o Terceiro Reich e o Sacro Império apropria-se de uma memória medieval para legitimar um projeto contemporâneo."
+        ],
+        "takeaway": "A evocação do passado pode servir à legitimação de projetos políticos posteriores."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2009-69",
+      "competency": 1,
+      "skill": 1,
+      "explanation": {
+        "concept": "Literatura como representação histórica",
+        "steps": [
+          "Os móveis antigos, a poeira e o esplendor perdido associam a casa à decadência da família rural.",
+          "A alternativa E é correta porque a ruína dos objetos representa a desagregação de um mundo social; a permanência de algum conforto não elimina a imagem de declínio."
+        ],
+        "takeaway": "Uma descrição literária pode simbolizar transformações históricas por meio do espaço e dos objetos."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2010-18",
+      "competency": 1,
+      "skill": 3,
+      "explanation": {
+        "concept": "Tradições tupi-guarani",
+        "steps": [
+          "A questão relaciona a distribuição dos povos a práticas culturais e formas de organização social.",
+          "A alternativa B é correta porque a guerra ritualizada e a mobilidade periódica das aldeias caracterizavam tradições tupi-guarani, sem pressupor um império territorial unificado."
+        ],
+        "takeaway": "Evite projetar modelos europeus de Estado sobre a diversidade das sociedades indígenas."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2010-19",
+      "competency": 1,
+      "skill": 3,
+      "explanation": {
+        "concept": "Tropeirismo e cultura alimentar",
+        "steps": [
+          "O texto associa o preparo do prato aos deslocamentos de tropas que abasteciam diferentes regiões.",
+          "A alternativa C é correta porque o transporte mercantil de gado e mercadorias explica a alimentação dos tropeiros, que não eram definidos pelo trabalho direto nas minas."
+        ],
+        "takeaway": "Hábitos alimentares podem revelar relações entre trabalho, circulação e formação cultural."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2010-20",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "Trabalhadores e memória histórica",
+        "steps": [
+          "Brecht contrapõe os nomes de governantes registrados nos livros ao trabalho necessário para construir os monumentos.",
+          "A alternativa C é correta porque a memória celebra os dirigentes e apaga os trabalhadores que materialmente realizaram as obras."
+        ],
+        "takeaway": "Pergunte quais sujeitos são lembrados e quais são silenciados nas narrativas históricas."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2010-26",
+      "competency": 1,
+      "skill": 2,
+      "explanation": {
+        "concept": "Tiradentes e a legitimação republicana",
+        "steps": [
+          "A construção de um herói cívico-religioso buscava integrar grupos distintos em torno da República.",
+          "A alternativa C é correta porque o novo regime, implantado com participação popular limitada, precisava de símbolos que ampliassem sua legitimidade social."
+        ],
+        "takeaway": "Símbolos nacionais são construções históricas ligadas à legitimação de regimes políticos."
+      },
+      "moduleId": "his-culturas"
+    },
+    {
+      "id": "2009-74",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Autonomia política das cidades",
+        "steps": [
+          "O texto aproxima cidades gregas de assentamentos do Xingu, apesar da distância temporal e espacial.",
+          "A alternativa C é correta porque a autonomia das cidades é a semelhança apresentada; não há evidência de que os povos do Xingu adotassem a democracia grega."
+        ],
+        "takeaway": "Comparações históricas exigem identificar a semelhança sustentada pelo texto, sem igualar as sociedades."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2010-16",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Estratificação social inca",
+        "steps": [
+          "A descrição enumera grupos com posições desiguais e uma elite dirigente distinta do restante da população.",
+          "A alternativa E é correta porque a aristocracia hereditária e a rigidez das posições sociais correspondem à organização apresentada, em contraste com igualdade ou ascensão por mérito."
+        ],
+        "takeaway": "Em sociedades fortemente estratificadas, a origem familiar pode determinar a posição social."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2011-35",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Cidades e comércio no final da Idade Média",
+        "steps": [
+          "As muralhas deixam de atuar apenas como barreiras e seus portões tornam-se locais de circulação.",
+          "A alternativa A é correta porque o crescimento das trocas comerciais e das atividades urbanas aumenta a importância desses pontos de passagem."
+        ],
+        "takeaway": "As funções das estruturas urbanas mudam conforme as atividades econômicas e sociais."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2011-38",
+      "competency": 4,
+      "skill": 16,
+      "explanation": {
+        "concept": "Ciência e arte renascentistas",
+        "steps": [
+          "Os interesses por espaço, luz, movimento e forma aparecem tanto na investigação científica como na criação artística.",
+          "A alternativa B é correta porque a relação entre ciência e arte caracteriza essa busca de compreender e representar a natureza no Renascimento."
+        ],
+        "takeaway": "No Renascimento, estudos da natureza e técnicas de representação artística dialogavam entre si."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2011-40",
+      "competency": 1,
+      "skill": 4,
+      "explanation": {
+        "concept": "Circulação cultural e preconceito religioso",
+        "steps": [
+          "O café chega à Europa associado a circuitos comerciais da Península Árabe e do mundo muçulmano.",
+          "A alternativa D é correta porque essa associação ao islamismo explica a desconfiança religiosa dos clérigos e o gesto simbólico de cristianização narrado."
+        ],
+        "takeaway": "A recepção de um produto pode ser influenciada pela identidade cultural atribuída à sua origem."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2012-11",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Limitação do poder monárquico",
+        "steps": [
+          "O documento de 1689 impede o rei de suspender leis e cobrar tributos sem participação parlamentar.",
+          "A alternativa B é correta porque essas restrições limitam o soberano inglês, enquanto o absolutismo predominava em importantes monarquias continentais."
+        ],
+        "takeaway": "Reconheça a limitação do poder real pela exigência de consentimento do Parlamento."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2020-52",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Imprensa, Reforma e interpretação religiosa",
+        "steps": [
+          "Os livros ampliam o repertório de Menocchio, e a Reforma encoraja o questionamento da autoridade religiosa.",
+          "A alternativa D é correta porque a possibilidade de interpretar autonomamente os textos bíblicos ajuda a explicar a revisão da visão católica do mundo."
+        ],
+        "takeaway": "Novos meios de circulação de textos podem ampliar o questionamento de autoridades estabelecidas."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2020-62",
+      "competency": 3,
+      "skill": 12,
+      "explanation": {
+        "concept": "Codificação de condutas e punições",
+        "steps": [
+          "A pergunta busca a função das normas na organização da sociedade babilônica.",
+          "A alternativa B é correta porque tipificar atos puníveis estabelece quais comportamentos recebem sanções; isso não equivale à garantia moderna de direitos iguais para todos."
+        ],
+        "takeaway": "Códigos antigos organizavam punições segundo as relações sociais de seu contexto histórico."
+      },
+      "moduleId": "his-poder"
+    },
+    {
+      "id": "2009-63",
+      "competency": 3,
+      "skill": 11,
+      "explanation": {
+        "concept": "Inquisição e controle religioso",
+        "steps": [
+          "A denúncia descreve práticas condenadas pela autoridade religiosa para preservar um casamento.",
+          "A alternativa E é correta porque a Igreja pretendia monopolizar a orientação dos fiéis, exigindo recurso aos seus ensinamentos, e não a práticas consideradas diabólicas."
+        ],
+        "takeaway": "Analise acusações inquisitoriais a partir do projeto de controle religioso da vida cotidiana."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2009-65",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Haiti e expectativas de transformação",
+        "steps": [
+          "As trovas populares do Recife evocam uma revolta de escravizados e expressam antagonismos raciais.",
+          "A alternativa A é correta porque as notícias do Haiti alimentavam desejos de mudança entre escravizados e mestiços pobres durante a independência."
+        ],
+        "takeaway": "Ideias e notícias revolucionárias atravessam fronteiras e ganham sentidos nos conflitos locais."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2010-23",
+      "competency": 5,
+      "skill": 22,
+      "explanation": {
+        "concept": "Luiz Gama e a luta abolicionista",
+        "steps": [
+          "A trajetória apresenta um homem negro que enfrentou a escravização ilegal por meio da leitura e da argumentação jurídica.",
+          "A alternativa B é correta porque o uso do Direito abriu uma frente de luta pela liberdade em uma sociedade que dificultava a projeção dos intelectuais negros."
+        ],
+        "takeaway": "A abolição resultou também da atuação jurídica e política de pessoas negras."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2010-24",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Manufaturas e dependência comercial",
+        "steps": [
+          "A revogação da proibição às indústrias não eliminava obstáculos econômicos à produção local.",
+          "A alternativa B é correta porque a dependência de Portugal em relação à Inglaterra e a força dos manufaturados ingleses dificultavam a industrialização pretendida."
+        ],
+        "takeaway": "Permissão legal para produzir não elimina a concorrência e as relações de dependência econômica."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2010-31",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Crises regenciais e economia cafeeira",
+        "steps": [
+          "O período combina disputas políticas e reivindicações populares com o crescimento do café.",
+          "A alternativa E é correta porque as novas atividades econômicas reforçavam interesses na manutenção de estruturas antigas, especialmente a escravidão, em meio à instabilidade política."
+        ],
+        "takeaway": "Mudanças econômicas podem conviver com a preservação de hierarquias e relações sociais anteriores."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2011-19",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Voto censitário no Império",
+        "steps": [
+          "O trecho da Constituição de 1824 exige uma renda mínima para a participação eleitoral.",
+          "A alternativa D é correta porque a exigência econômica restringe o acesso político e favorece proprietários e comerciantes, em vez de democratizar amplamente o voto."
+        ],
+        "takeaway": "Voto censitário condiciona a participação política à renda ou à propriedade."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2011-33",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Açúcar e exploração colonial",
+        "steps": [
+          "A raridade e o alto preço do açúcar na Europa indicam a possibilidade de ganhos comerciais elevados.",
+          "A alternativa A é correta porque a lucratividade esperada explica a escolha portuguesa pelo produto no empreendimento colonial."
+        ],
+        "takeaway": "A escolha de produtos coloniais relaciona-se às demandas e aos lucros dos mercados externos."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2011-34",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Independência e interesses das elites",
+        "steps": [
+          "O exemplo haitiano e a Conjuração Baiana associavam emancipação política a transformações sociais temidas pelas elites.",
+          "A alternativa D é correta porque parte das elites procurou conter um sentido popular e libertário que ameaçasse seus interesses e a ordem social."
+        ],
+        "takeaway": "Independência política e igualdade social podiam corresponder a projetos distintos e conflitantes."
+      },
+      "moduleId": "his-colonia"
+    },
+    {
+      "id": "2009-60",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Direito ao voto e gênero",
+        "steps": [
+          "A comparação pede atenção específica ao gênero dos eleitores, não apenas à idade mínima.",
+          "A alternativa E é correta porque a Constituição de 1891 operava com a exclusão feminina do eleitorado, enquanto o texto de 1934 explicita brasileiros de ambos os sexos."
+        ],
+        "takeaway": "Ao comparar documentos, mantenha o foco no critério solicitado pelo enunciado."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2009-61",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Justificação autoritária do Estado Novo",
+        "steps": [
+          "Francisco Campos desqualifica partidos e eleitores e atribui virtudes excepcionais a Vargas.",
+          "A alternativa E é correta porque o autor apresenta Vargas como dirigente capaz de governar corretamente, justificando a concentração de poder no Executivo."
+        ],
+        "takeaway": "Identificar um argumento autoritário não significa concordar com a imagem que ele constrói do governante."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2009-62",
+      "competency": 5,
+      "skill": 21,
+      "explanation": {
+        "concept": "Rádio e propaganda trabalhista",
+        "steps": [
+          "O programa estatal divulga a proteção ao trabalho vinculando-a à ação do governo Vargas.",
+          "A alternativa D é correta porque a comunicação fortalece a imagem de governante protetor das massas, sem valorizar a autonomia das organizações dos trabalhadores."
+        ],
+        "takeaway": "A divulgação de direitos pode servir à construção de uma imagem paternalista do poder."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2010-27",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Criminalização da capoeira",
+        "steps": [
+          "O código de 1890 pune uma prática cultural associada à população negra logo após a abolição.",
+          "A alternativa D é correta porque a repressão reproduz valores e hierarquias do passado escravista, embora o regime jurídico da escravidão já estivesse abolido."
+        ],
+        "takeaway": "O fim legal da escravidão não eliminou a discriminação contra práticas culturais negras."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2010-32",
+      "competency": 5,
+      "skill": 22,
+      "explanation": {
+        "concept": "Direitos trabalhistas e lutas sociais",
+        "steps": [
+          "O documento governamental chama as leis de dádiva, mas a pergunta destaca o papel histórico das reivindicações.",
+          "A alternativa D é correta porque a legislação incorporou demandas operárias e assegurou proteções, mesmo sob controle estatal sobre os sindicatos."
+        ],
+        "takeaway": "Direitos trabalhistas devem ser relacionados às lutas sociais, além da propaganda governamental."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2010-33",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Desenvolvimentismo e tensões sociais",
+        "steps": [
+          "O texto vincula inflação, perda salarial e menor oferta de empregos às mobilizações dos anos 1960.",
+          "A alternativa B é correta porque esses conflitos expressam contradições do modelo desenvolvimentista, e não uma simples manipulação política dos trabalhadores."
+        ],
+        "takeaway": "Crescimento econômico pode produzir desequilíbrios que ampliam as tensões distributivas."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2011-17",
+      "competency": 3,
+      "skill": 15,
+      "explanation": {
+        "concept": "Coronelismo e concentração fundiária",
+        "steps": [
+          "A dependência do trabalhador em relação ao patrão rural sustenta o controle político descrito.",
+          "A alternativa E é correta porque a concentração de terras e de poder local favorecia o voto de cabresto e limitava a autonomia eleitoral."
+        ],
+        "takeaway": "O coronelismo articulava dependência econômica e controle político no meio rural."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2011-22",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Limites da expressão café com leite",
+        "steps": [
+          "O texto reconhece a aliança paulista-mineira, mas ressalta disputas, desequilíbrios e rompimentos.",
+          "A alternativa C é correta porque esses conflitos contradizem uma leitura de alternância estável e harmoniosa entre as duas oligarquias."
+        ],
+        "takeaway": "Expressões de síntese histórica não devem apagar conflitos internos e mudanças nas alianças."
+      },
+      "moduleId": "his-republica"
+    },
+    {
+      "id": "2009-50",
+      "competency": 2,
+      "skill": 7,
+      "explanation": {
+        "concept": "Conflitos da primeira metade do século XX",
+        "steps": [
+          "A questão exige fatores compatíveis com o período das guerras mundiais e da ascensão de regimes autoritários.",
+          "A alternativa A é correta porque crise colonial, nacionalismos e totalitarismos ajudam a explicar esses conflitos; alternativas com eventos posteriores deslocam o recorte temporal."
+        ],
+        "takeaway": "Ao explicar um período histórico, verifique a cronologia dos fatores apresentados."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2009-51",
+      "competency": 3,
+      "skill": 14,
+      "explanation": {
+        "concept": "Mobilização juvenil nos regimes totalitários",
+        "steps": [
+          "O culto ao líder e a obediência exclusiva excluem o reconhecimento legítimo de opositores.",
+          "A alternativa A é correta porque o sectarismo e o confronto violento com adversários sustentavam esses movimentos, em contraste com diálogo e pluralismo."
+        ],
+        "takeaway": "A mobilização política pode servir ao autoritarismo quando combate a diversidade e exige obediência absoluta."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2009-53",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Mobilizações sociais de 1968",
+        "steps": [
+          "O texto defende autonomia, debate e partilha do poder, questionando hierarquias tradicionais.",
+          "A alternativa E é correta porque essas mobilizações inspiraram movimentos posteriores por paz, ambiente, igualdade de gênero e direitos de minorias."
+        ],
+        "takeaway": "As transformações de 1968 influenciaram pautas e formas de organização de movimentos posteriores."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2009-64",
+      "competency": 2,
+      "skill": 9,
+      "explanation": {
+        "concept": "Colonização e formação dos Estados",
+        "steps": [
+          "O texto mostra diferentes impactos das instituições europeias sobre sociedades colonizadas.",
+          "A alternativa B é correta porque a distinção entre colonizadores e colonizados organiza a comparação, sem eliminar as diferenças entre América, África e Ásia."
+        ],
+        "takeaway": "A formação estatal depende tanto das relações coloniais quanto das organizações locais preexistentes."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2010-28",
+      "competency": 3,
+      "skill": 13,
+      "explanation": {
+        "concept": "Jacobinos e participação popular",
+        "steps": [
+          "Robespierre defende virtude cívica e oposição aos privilégios no contexto revolucionário de 1794.",
+          "A alternativa E é correta porque essa orientação se vincula aos setores da pequena e média burguesia e às camadas populares que reivindicavam justiça social e direitos políticos."
+        ],
+        "takeaway": "Identifique a base social e as reivindicações dos grupos, além do nome de seus dirigentes."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2012-6",
+      "competency": 5,
+      "skill": 22,
+      "explanation": {
+        "concept": "Movimento pelos direitos civis",
+        "steps": [
+          "A promessa de liberdade e justiça contrasta com a segregação vivida pela população negra dos Estados Unidos.",
+          "A alternativa A é correta porque a mobilização liderada por Martin Luther King buscava a conquista e a efetivação de direitos civis, para além da inserção no trabalho."
+        ],
+        "takeaway": "Direitos civis dizem respeito à igualdade de tratamento e ao combate à discriminação institucional."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2012-21",
+      "competency": 4,
+      "skill": 18,
+      "explanation": {
+        "concept": "Crises de 1929 e de 2008",
+        "steps": [
+          "O enunciado compara a Grande Depressão à crise financeira discutida nos textos de 2011.",
+          "A alternativa B é correta porque a alternativa diferencia a superprodução industrial de 1929 da especulação e da expansão do crédito na crise recente, sem esgotar todas as causas."
+        ],
+        "takeaway": "Comparar crises exige distinguir seus mecanismos, mesmo quando ambas têm efeitos econômicos amplos."
+      },
+      "moduleId": "his-revolucoes"
+    },
+    {
+      "id": "2020-86",
+      "competency": 5,
+      "skill": 24,
+      "explanation": {
+        "concept": "Igualdade jurídica na Revolução Francesa",
+        "steps": [
+          "A declaração afirma direitos naturais e universais, questionando privilégios de nascimento do Antigo Regime.",
+          "A alternativa D é correta porque a paridade de tratamento jurídico traduz a igualdade perante a lei, embora sua aplicação histórica tenha enfrentado exclusões."
+        ],
+        "takeaway": "Igualdade jurídica é um princípio que deve ser distinguido de sua efetivação social."
+      },
+      "moduleId": "his-revolucoes"
     }
   ]
 }
