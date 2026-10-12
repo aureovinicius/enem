@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+site-package.tar.gz
+data/enem-source/
+
