@@ -506,7 +506,7 @@ button:focus-visible, a:focus-visible {
 .lesson-rule { width: min(900px, calc(100% - 36px)); margin: 0 auto; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .question-wrap { width: min(720px, calc(100% - 36px)); margin: 24px auto 160px; }
 .question-meta { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 16px; color: var(--muted); font-size: 12px; font-weight: 800; }
-.question-wrap h1 { margin: 0 0 18px; font: 800 clamp(23px, 4vw, 31px)/1.25 "Manrope", sans-serif; }
+.question-wrap h1 { margin: 0 0 18px; font: 800 14px/1.65 "Manrope", sans-serif; }
 .question-context {
   margin-bottom: 20px;
   padding: 21px;
