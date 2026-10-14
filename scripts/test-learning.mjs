@@ -95,6 +95,16 @@ for (const correct of [true, false]) {
   });
 }
 
+test("question context is displayed before its bold prompt", () => {
+  const app = appHarness();
+  app.run("startLesson(null, [data.questions.find(question => question.context)])");
+  const rendered = app.nodes.get("#lesson-modal").innerHTML;
+  const contextIndex = rendered.indexOf('class="question-context"');
+  const promptIndex = rendered.indexOf('<h1 tabindex="-1">');
+  assert.ok(contextIndex >= 0);
+  assert.ok(promptIndex > contextIndex);
+});
+
 test("practice can target pending errors without adding unrelated questions", () => {
   const missed = data.questions.slice(0, 2).map(q => q.id);
   const app = appHarness({ missed, practiceFilters: { fisica: { status: "wrong" } } });

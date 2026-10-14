@@ -1,4 +1,4 @@
-const DATA_URL = "/data/courses.json?v=pwa-9";
+const DATA_URL = "/data/courses.json?v=pwa-10";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -717,7 +717,7 @@ function startLesson(lessonId, customQuestions) {
   resetQuestionTimer();
   openModal(data.studyGuide && !customQuestions ? `${lesson.module.title} · Lição ${lesson.index + 1} de ${lessons.filter(l => l.module.id === lesson.module.id).length}` : lesson.title);
   renderQuestion();
-  modal.querySelector("h1").focus();
+  modal.querySelector("h1").focus({ preventScroll: true });
 }
 
 function restartLesson() {
@@ -738,7 +738,7 @@ function startPractice() {
   resetQuestionTimer();
   openModal("Prática contínua");
   renderQuestion();
-  modal.querySelector("h1").focus();
+  modal.querySelector("h1").focus({ preventScroll: true });
 }
 
 function renderQuestion() {
@@ -754,8 +754,8 @@ function renderQuestion() {
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
         <div class="question-tools">${triMarkup(question)}<button class="text-button favorite-button" data-action="favorite" aria-pressed="${state.favorites.includes(question.id)}">${state.favorites.includes(question.id) ? "★ Favorita" : "☆ Favoritar"}</button></div>
         ${question.skill ? `<div class="question-skill"><strong>${({matematica: "MT", "ciencias-natureza": "CN", "ciencias-humanas": "CH", linguagens: "LC"})[question.areaId]} · C${question.competency} · H${question.skill}</strong><span>${escapeHtml(catalog.matrix.areas[question.areaId].competencies.find(c => c.number === question.competency).skills.find(s => s.number === question.skill).description)}</span><small>Associação editorial à matriz do INEP</small></div>` : ""}
-        <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         ${question.context ? `<div class="question-context" lang="${question.language === "ingles" ? "en" : question.language === "espanhol" ? "es" : "pt-BR"}">${renderMarkdown(question.context, question.areaId === "linguagens")}</div>` : ""}
+        <h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1>
         <div class="answers">
           ${question.alternatives.map((alternative) => {
             let status = quiz.selected === alternative.letter ? "selected" : "";
