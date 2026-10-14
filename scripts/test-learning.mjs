@@ -2,12 +2,13 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import vm from "node:vm";
+import { buildPracticeReport } from "../dist/practice-session.js";
 import { createRequire } from "node:module";
 const katex = createRequire(import.meta.url)("../dist/vendor/katex/katex.min.js");
 
 const data = JSON.parse(readFileSync("dist/data/physics-questions.json", "utf8"));
 const catalog = JSON.parse(readFileSync("dist/data/courses.json", "utf8"));
-const source = readFileSync("dist/app.js", "utf8").replace(/\ninit\(\);\s*$/, "");
+const source = readFileSync("dist/app.js", "utf8").replace(/^import .*practice-session.*\n/m, "").replace(/\ninit\(\);\s*$/, "");
 
 function appHarness(saved) {
   const nodes = new Map();
@@ -17,7 +18,7 @@ function appHarness(saved) {
     document: { querySelector(selector) { if (!nodes.has(selector)) nodes.set(selector, node()); return nodes.get(selector); }, querySelectorAll() { return []; }, addEventListener() {}, body: { style: {} }, activeElement: node() },
     localStorage: { getItem: (key) => storage.get(key) || null, setItem: (key, value) => storage.set(key, value) },
     location: { hash: "" }, window: { katex, addEventListener() {}, scrollTo() {} }, history: { replaceState() {} },
-    Intl, Date, setTimeout() {}, structuredClone,
+    Intl, Date, setTimeout() {}, setInterval() { return 1; }, clearInterval() {}, structuredClone, buildPracticeReport,
   });
   vm.runInContext(source, context);
   context.inputCatalog = catalog;

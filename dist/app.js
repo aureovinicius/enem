@@ -1,4 +1,6 @@
-const DATA_URL = "/data/courses.json?v=pwa-11";
+import { buildPracticeReport } from "./practice-session.js?v=pwa-12";
+
+const DATA_URL = "/data/courses.json?v=pwa-12";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -27,6 +29,9 @@ let quiz = null;
 let statsPeriod = "30";
 let statsMode = "all";
 let storageWarning = false;
+let practiceTick = null;
+let sessionReport = null;
+let sessionBreakdown = "topic";
 
 function localDay() {
   return new Intl.DateTimeFormat("en-CA", {
@@ -55,6 +60,8 @@ function loadState() {
     studyUnits: {},
     statsSince: new Date().toISOString(),
     legacyAnsweredCount: 0,
+    practiceSessions: [],
+    pendingPractice: null,
   };
   try {
     const saved = { ...fallback, ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
@@ -64,6 +71,8 @@ function loadState() {
     }
     if (!saved.studyUnits || typeof saved.studyUnits !== "object" || Array.isArray(saved.studyUnits)) saved.studyUnits = {};
     saved.attempts = Array.isArray(saved.attempts) ? saved.attempts.filter(a => a && typeof a.questionId === "string" && typeof a.correct === "boolean" && Number.isFinite(Date.parse(a.at))) : [];
+    saved.practiceSessions = Array.isArray(saved.practiceSessions) ? saved.practiceSessions.filter(validPracticeSession).slice(-20) : [];
+    if (!saved.pendingPractice || !validPracticeSession(saved.pendingPractice.session)) saved.pendingPractice = null;
     if (!saved.attempts.length && !saved.legacyAnsweredCount) saved.legacyAnsweredCount = saved.answered.length;
     if (!saved.practiceFilters || typeof saved.practiceFilters !== "object" || Array.isArray(saved.practiceFilters)) saved.practiceFilters = {};
     if (saved.dailyDay !== localDay()) {
@@ -395,7 +404,7 @@ const moduleDescriptions = {
 };
 
 function defaultPracticeFilters() {
-  return { module: "", year: "", competency: "", difficulty: "", status: "all", query: "" };
+  return { module: "", subject: "", topic: "", year: "", competency: "", difficulty: "", status: "all", query: "" };
 }
 
 function practiceFilters() {
@@ -408,6 +417,11 @@ function difficultyScore(question) {
 
 function questionMatches(question, filters) {
   if (filters.module && question.moduleId !== filters.module) return false;
+  if (filters.subject && question.subjectId !== filters.subject) return false;
+  if (filters.topic) {
+    const original = catalog.questions.find(q => q.id === question.id);
+    if (!original || `${original.subjectId}:${original.moduleId}` !== filters.topic) return false;
+  }
   if (filters.year && String(question.year) !== String(filters.year)) return false;
   if (filters.competency && String(question.competency) !== String(filters.competency)) return false;
   const score = difficultyScore(question);
@@ -442,14 +456,19 @@ function renderPractice() {
   const withTri = pool.filter(q => difficultyScore(q) !== null).length;
   const years = [...new Set(data.questions.map(q => q.year))].sort((a, b) => b - a);
   const competencies = [...new Set(data.questions.map(q => q.competency))].sort((a, b) => a - b);
+  const subjects = [...new Map(data.questions.map(q => [q.subjectId, q.subjectTitle])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
+  const ids = new Set(data.questionIds);
+  const topics = [...new Map(catalog.questions.filter(q => ids.has(q.id)).map(q => [`${q.subjectId}:${q.moduleId}`, `${q.subjectTitle} · ${q.moduleTitle}`])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
   const metrics = performanceMetrics(courseAttempts());
   app.innerHTML = `
-    ${pageHeader("Banco de questões", "Seu treino, seu ritmo.", "Escolha os filtros e resolva questões aleatórias, uma de cada vez. Veja a resolução após responder e continue pelo tempo que quiser.")}
+    ${pageHeader("Sessões de prática", "Seu treino, seu ritmo.", "Escolha os filtros, inicie o cronômetro e resolva questões no seu ritmo. Ao encerrar, receba um relatório com seus resultados e próximos passos.")}
+    ${state.pendingPractice ? `<section class="practice-launch"><p class="page-kicker">Sessão salva</p><h2>Continue de onde parou</h2><p>${escapeHtml(state.pendingPractice.session.courseTitle)} · ${counted(state.pendingPractice.session.records.filter(r => r.outcome === "answered").length, "resposta")} · ${formatDuration(state.pendingPractice.session.activeMs)} de estudo ativo. Os filtros desta sessão serão preservados.</p><button class="button" data-action="resume-saved-practice">Retomar sessão</button></section>` : ""}
     <div class="practice-overview"><span><strong>${metrics.total}</strong> respostas registradas</span><span><strong>${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}</strong> de acerto</span><a href="#desempenho" data-view="desempenho">Ver desempenho ↗</a></div>
     <form id="practice-filters" class="filter-card">
       <div class="section-heading"><div><p class="page-kicker">Monte sua seleção</p><h2>Filtros de questões</h2></div><button type="button" class="text-button" data-action="reset-filters">Limpar filtros</button></div>
       <div class="filter-grid">
-        <label>Assunto<select name="module">${filterOptions(data.modules.map(m => [m.id, m.title]), filters.module, "Todos os assuntos")}</select></label>
+        <label>${data.integrated ? "Unidade da trilha" : "Assunto"}<select name="module">${filterOptions(data.modules.map(m => [m.id, m.title]), filters.module, "Todos os assuntos")}</select></label>
+        ${data.integrated ? `<label>Disciplina<select name="subject">${filterOptions(subjects, filters.subject, "Todas as disciplinas")}</select></label><label>Assunto da disciplina<select name="topic">${filterOptions(topics, filters.topic, "Todos os assuntos originais")}</select></label>` : ""}
         <label>Ano<select name="year">${filterOptions(years.map(y => [y, y]), filters.year, "Todos os anos")}</select></label>
         <label>Competência<select name="competency">${filterOptions(competencies.map(c => [c, `Competência ${c}`]), filters.competency, "Todas as competências")}</select></label>
         <label>Dificuldade TRI<select name="difficulty">${filterOptions([["known", "Com dificuldade oficial"], ["low", "Até 500"], ["medium", "Acima de 500 até 650"], ["high", "Acima de 650"], ["unknown", "Sem parâmetro disponível"]], filters.difficulty, "Todas as dificuldades")}</select></label>
@@ -459,8 +478,9 @@ function renderPractice() {
       <button class="button secondary" type="submit">Aplicar filtros</button>
       <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Enem, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
     </form>
-    <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length ? "" : "disabled"}>Iniciar prática contínua <span aria-hidden="true">→</span></button></section>
-    <div class="notice">As respostas são salvas a cada correção. Você pode errar sem limite, pular uma questão ou encerrar quando quiser.</div>
+    <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length && !state.pendingPractice ? "" : "disabled"}>Iniciar sessão de prática <span aria-hidden="true">→</span></button>${state.pendingPractice ? '<p>Retome e encerre a sessão salva antes de iniciar outra.</p>' : ""}</section>
+    <div class="notice">Sem limite de erros ou de questões. O cronômetro pausa ao ocultar esta aba ou ao pausar a sessão. As respostas são salvas a cada correção; o andamento, a cada cinco segundos.</div>
+    ${practiceHistoryMarkup()}
   `;
 }
 
@@ -524,6 +544,229 @@ function markStudyDay() {
   state.lastStudyDay = today;
 }
 
+function validPracticeSession(session) {
+  return session && typeof session.id === "string" && typeof session.courseId === "string"
+    && typeof session.courseTitle === "string" && Number.isFinite(Date.parse(session.startedAt))
+    && Number.isFinite(session.activeMs) && session.activeMs >= 0 && Array.isArray(session.records)
+    && session.records.every(r => r && typeof r.questionId === "string" && ["answered", "skipped", "unfinished"].includes(r.outcome)
+      && Number.isFinite(r.durationMs) && r.durationMs >= 0 && (r.outcome !== "answered" || typeof r.correct === "boolean"));
+}
+
+function formatPercent(value) {
+  return `${value.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%`;
+}
+
+function formatClock(ms) {
+  const seconds = Math.max(0, Math.floor(ms / 1000));
+  return [Math.floor(seconds / 3600), Math.floor(seconds / 60) % 60, seconds % 60].map(n => String(n).padStart(2, "0")).join(":");
+}
+
+function sessionElapsed() {
+  return quiz.session.activeMs + (quiz.sessionTimerStartedAt === null ? 0 : Math.max(0, Date.now() - quiz.sessionTimerStartedAt));
+}
+
+function questionElapsed() {
+  return quiz.elapsedMs + (quiz.timerStartedAt === null ? 0 : Math.max(0, Date.now() - quiz.timerStartedAt));
+}
+
+function updatePracticeClocks() {
+  if (!quiz?.practice || quiz.ended) return;
+  const sessionClock = modal.querySelector("[data-session-clock]");
+  const questionClock = modal.querySelector("[data-question-clock]");
+  if (sessionClock) sessionClock.textContent = formatClock(sessionElapsed());
+  if (questionClock) questionClock.textContent = formatClock(questionElapsed());
+}
+
+function startSessionTimer() {
+  if (!quiz?.practice || quiz.ended || quiz.paused || document.hidden) return;
+  if (quiz.sessionTimerStartedAt === null) quiz.sessionTimerStartedAt = Date.now();
+  if (practiceTick === null) practiceTick = setInterval(() => {
+    updatePracticeClocks();
+    if (quiz?.practice && Date.now() - quiz.lastCheckpointAt >= 5000) checkpointPractice();
+  }, 1000);
+}
+
+function stopSessionTimer() {
+  if (quiz?.practice && quiz.sessionTimerStartedAt !== null) {
+    quiz.session.activeMs = sessionElapsed();
+    quiz.sessionTimerStartedAt = null;
+  }
+  if (practiceTick !== null) { clearInterval(practiceTick); practiceTick = null; }
+}
+
+function checkpointPractice() {
+  if (!quiz?.practice || quiz.ended) return;
+  stopQuestionTimer();
+  stopSessionTimer();
+  state.pendingPractice = {
+    session: structuredClone(quiz.session), queue: [...quiz.queue], questionIds: quiz.questions.map(q => q.id),
+    index: quiz.index, selected: quiz.selected, checked: quiz.checked, elapsedMs: quiz.elapsedMs,
+    cycle: quiz.cycle, questionRecorded: quiz.questionRecorded,
+  };
+  quiz.lastCheckpointAt = Date.now();
+  saveState();
+  startQuestionTimer();
+  startSessionTimer();
+}
+
+function practiceTimerMarkup() {
+  return `<div class="practice-session-bar"><div class="session-clock"><small>Sessão · tempo ativo</small><strong data-session-clock aria-live="off">${formatClock(sessionElapsed())}</strong></div><div class="session-clock"><small>${quiz.checked ? "Tempo desta resposta" : "Nesta questão"}</small><strong data-question-clock aria-live="off">${formatClock(questionElapsed())}</strong></div><button class="button secondary" data-action="pause-practice">Pausar sessão</button><p class="session-timer-note">O tempo da resposta para na correção. O tempo da sessão inclui a leitura das justificativas.</p></div>`;
+}
+
+function pausePractice() {
+  if (!quiz?.practice || quiz.ended) return;
+  quiz.paused = true;
+  checkpointPractice();
+  renderQuestion();
+  modal.querySelector("h1").focus({ preventScroll: true });
+  modal.scrollTo({ top: 0, behavior: "instant" });
+}
+
+function resumePractice() {
+  if (!quiz?.practice || quiz.ended) return;
+  quiz.paused = false;
+  startQuestionTimer();
+  startSessionTimer();
+  renderQuestion();
+  modal.querySelector("h1").focus({ preventScroll: true });
+  modal.scrollTo({ top: 0, behavior: "instant" });
+}
+
+function resumeSavedPractice() {
+  const saved = state.pendingPractice;
+  if (!saved) return;
+  const course = catalog.courses.find(c => c.id === saved.session.courseId);
+  const ids = new Set(course?.questionIds || []);
+  if (!course || !Array.isArray(saved.questionIds) || !saved.questionIds.length || !saved.questionIds.every(id => ids.has(id))
+    || !Array.isArray(saved.queue) || !saved.queue.every(id => ids.has(id)) || saved.index !== saved.questionIds.length - 1
+    || !Number.isFinite(saved.elapsedMs) || saved.elapsedMs < 0 || !Number.isInteger(saved.cycle) || saved.cycle < 1) {
+    state.pendingPractice = null; saveState(); renderPractice();
+    showToast("A seleção salva mudou. Suas respostas anteriores continuam no desempenho; inicie uma nova sessão.");
+    return;
+  }
+  stopQuestionTimer(); stopSessionTimer();
+  setCourse(course.id);
+  const byId = new Map(data.questions.map(q => [q.id, q]));
+  const answered = saved.session.records.filter(r => r.outcome === "answered");
+  quiz = {
+    practice: true, session: structuredClone(saved.session), filters: { ...defaultPracticeFilters(), ...saved.session.filters },
+    queue: [...saved.queue], questions: saved.questionIds.map(id => byId.get(id)), index: saved.index,
+    selected: saved.selected, checked: saved.checked === true, questionRecorded: saved.questionRecorded === true,
+    elapsedMs: saved.elapsedMs, timerStartedAt: null, sessionTimerStartedAt: null, paused: true,
+    cycle: saved.cycle, answeredCount: answered.length, correct: answered.filter(r => r.correct).length,
+    skipped: saved.session.records.filter(r => r.outcome === "skipped").length,
+    totalDurationMs: answered.reduce((n, r) => n + r.durationMs, 0), lastCheckpointAt: Date.now(),
+    lesson: { title: "Sessão de prática", module: { title: data.title } },
+  };
+  sessionReport = null;
+  activeView = "praticar";
+  history.replaceState(null, "", "#praticar");
+  openModal("Sessão de prática");
+  renderQuestion();
+  modal.querySelector("h1").focus({ preventScroll: true });
+}
+
+function appendSessionRecord(outcome, correct = null) {
+  if (!quiz?.practice || quiz.questionRecorded) return;
+  quiz.session.records.push({ questionId: quiz.questions[quiz.index].id, answer: outcome === "answered" ? quiz.selected : null,
+    correct, outcome, durationMs: Math.round(quiz.elapsedMs), at: new Date().toISOString() });
+  quiz.questionRecorded = true;
+}
+
+function sessionDate(session) {
+  return new Date(session.startedAt).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+}
+
+function practiceHistoryMarkup() {
+  const sessions = state.practiceSessions.filter(s => s.courseId === data.id).slice().reverse();
+  return `<section class="practice-session-history"><div class="section-heading"><h2>Sessões recentes</h2><span class="tiny">Salvas neste navegador</span></div>${sessions.length ? sessions.map(s => {
+    const report = buildPracticeReport(s, catalog);
+    return `<button class="session-history-item" data-session-report="${escapeHtml(s.id)}"><span><strong>${escapeHtml(sessionDate(s))}</strong><small>${counted(report.total, "resposta")} · ${report.accuracy === null ? "Sem respostas" : `${formatPercent(report.accuracy)} de acerto`}</small></span><span>${formatDuration(report.activeMs)} <span aria-hidden="true">↗</span></span></button>`;
+  }).join("") : '<p class="session-empty">Ao encerrar sua primeira sessão, o relatório ficará disponível aqui.</p>'}<p class="tiny">Guardamos as últimas 20 sessões entre todas as matérias. O histórico geral de respostas permanece em Desempenho.</p></section>`;
+}
+
+function sessionFiltersLabel(session) {
+  const f = session.filters || {};
+  const course = catalog.courses.find(c => c.id === session.courseId);
+  const labels = [session.courseTitle];
+  if (f.module) labels.push(course?.modules.find(m => m.id === f.module)?.title || f.module);
+  if (f.subject) labels.push(catalog.questions.find(q => q.subjectId === f.subject)?.subjectTitle || f.subject);
+  if (f.topic) labels.push(catalog.questions.find(q => `${q.subjectId}:${q.moduleId}` === f.topic)?.moduleTitle || f.topic);
+  if (f.year) labels.push(`ENEM ${f.year}`);
+  if (f.competency) labels.push(`Competência ${f.competency}`);
+  if (f.difficulty) labels.push(({known:"Com TRI",unknown:"Sem TRI",low:"TRI até 500",medium:"TRI de 500 a 650",high:"TRI acima de 650"})[f.difficulty] || f.difficulty);
+  if (f.status && f.status !== "all") labels.push(({unanswered:"Não respondidas",answered:"Já respondidas",wrong:"Erros para revisar",favorites:"Favoritas"})[f.status] || f.status);
+  if (f.query) labels.push(`Busca: ${f.query}`);
+  return labels.join(" · ");
+}
+
+function renderSessionReport(session, dimension = "topic") {
+  sessionReport = session;
+  sessionBreakdown = ["area", "subject", "topic", "competency"].includes(dimension) ? dimension : "topic";
+  const report = buildPracticeReport(session, catalog);
+  const dimensions = [["area", "Área"], ["subject", "Disciplina"], ["topic", "Assunto"], ["competency", "Competência"]];
+  const rows = report.groups[sessionBreakdown];
+  modal.setAttribute("aria-label", "Relatório da sessão de prática");
+  modal.innerHTML = `<div class="session-dashboard">
+    <header class="session-report-header"><p class="page-kicker">Seu treino em perspectiva · ${escapeHtml(sessionDate(session))}</p><h1 tabindex="-1">${session.exhausted ? "Seleção concluída!" : "Sessão concluída"}</h1><p>${escapeHtml(sessionFiltersLabel(session))}</p><div class="session-report-actions"><button class="button" data-action="finish">Voltar aos filtros</button><button class="button secondary" data-action="view-performance">Ver desempenho geral</button></div></header>
+    ${storageWarning ? '<p class="notice">Não foi possível salvar no navegador. Este relatório está disponível enquanto a página permanecer aberta.</p>' : ""}
+    <div class="session-summary-grid">${[
+      [formatDuration(report.activeMs), "Tempo de estudo", "Tempo ativo, incluindo as justificativas"],
+      [report.total ? formatDuration(report.averageMs) : "—", "Média por resposta", "Da abertura da questão até a correção"],
+      [report.accuracy === null ? "—" : formatPercent(report.accuracy), "Aproveitamento", `${counted(report.correct, "acerto")} · ${counted(report.wrong, "erro")}`],
+      [report.total, "Respostas verificadas", `${counted(report.unique, "questão distinta", "questões distintas")} · ${counted(report.skipped, "pulada")}`],
+    ].map(([value,label,detail]) => `<article class="session-metric"><small>${label}</small><strong>${value}</strong><p>${detail}</p></article>`).join("")}</div>
+    ${!report.total ? '<div class="session-empty"><h2>Esta sessão terminou sem respostas verificadas.</h2><p>O tempo foi registrado. Responda e verifique questões na próxima sessão para comparar seu desempenho.</p></div>' : ""}
+    <div class="session-report-grid">
+      <section class="session-report-card session-report-wide"><h2>Desempenho nesta sessão</h2><p>Acertos sobre respostas verificadas. Questões puladas ou não concluídas não contam como erros. Cada tentativa conta, inclusive repetições.</p>
+        <div class="session-breakdown-tabs" role="group" aria-label="Agrupar desempenho">${dimensions.map(([key,title]) => `<button data-session-dimension="${key}" aria-pressed="${sessionBreakdown === key}">${title}</button>`).join("")}</div>
+        ${rows.length ? `<div class="session-table-scroll" tabindex="0" role="region" aria-label="Tabela de desempenho por ${dimensions.find(d => d[0] === sessionBreakdown)[1].toLowerCase()}"><table class="session-breakdown-table"><thead><tr><th scope="col">${dimensions.find(d => d[0] === sessionBreakdown)[1]}</th><th scope="col">Respostas</th><th scope="col">Acertos</th><th scope="col">Erros</th><th scope="col">Aproveitamento</th><th scope="col">Tempo médio</th></tr></thead><tbody>${rows.map(row => `<tr><th scope="row">${escapeHtml(row.title)}</th><td>${row.total}</td><td>${row.correct}</td><td>${row.wrong}</td><td><strong>${formatPercent(row.accuracy)}</strong><div class="session-accuracy-track" aria-hidden="true"><span style="width:${row.accuracy}%"></span></div></td><td>${formatDuration(row.averageMs)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="session-empty">Ainda não há respostas para comparar.</p>'}
+      </section>
+      <section class="session-report-card"><h2>Análise e próximos passos</h2>${report.total ? `<p><strong>${counted(report.correct, "acerto")} em ${counted(report.total, "resposta")}</strong>, com ${counted(report.unique, "questão distinta", "questões distintas")} e média de ${formatDuration(report.averageMs)} por resposta.</p>` : ""}<p>Sugestões baseadas apenas nesta sessão. Amostras pequenas indicam pontos a explorar, sem estimar sua nota no ENEM.</p><ol class="session-recommendations">${report.recommendations.map((item,index) => `<li><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.body)}</p>${item.subjectId || item.areaId ? `<button class="text-button" data-session-focus="${index}">Preparar próximo treino →</button>` : ""}</li>`).join("")}</ol></section>
+      <section class="session-report-card"><h2>As 5 questões mais demoradas</h2><p>${report.slowest.length < 5 ? `Você respondeu ${report.unique} ${report.unique === 1 ? "questão distinta" : "questões distintas"}; todas aparecem abaixo. ` : ""}Tempo até a correção, somado se a questão foi repetida.</p>${report.slowest.length ? `<ol class="session-slowest-list">${report.slowest.map(item => `<li><div><strong class="session-question-title">${escapeHtml(item.title)}</strong><p class="session-question-meta">${escapeHtml(item.subjectTitle)} · ${escapeHtml(item.moduleTitle)}<br>${counted(item.attempts, "tentativa")} · ${counted(item.correct, "acerto")} · ${counted(item.wrong, "erro")}</p><button class="text-button" data-session-question="${escapeHtml(item.questionId)}">Revisar questão</button></div><strong class="session-question-time">${formatDuration(item.durationMs)}</strong></li>`).join("")}</ol>` : '<p class="session-empty">A lista aparece depois de verificar respostas.</p>'}</section>
+      <section class="session-report-card session-report-wide"><h2>Como seu tempo foi distribuído</h2><p><strong>${formatDuration(report.answerMs)}</strong> respondendo · <strong>${formatDuration(report.reviewMs)}</strong> em justificativas e navegação · <strong>${formatDuration(report.skippedMs)}</strong> em ${counted(report.skipped, "questão pulada", "questões puladas")} · <strong>${formatDuration(report.unfinishedMs)}</strong> em ${counted(report.unfinished, "questão não concluída", "questões não concluídas")}.</p><p>O cronômetro conta somente o tempo com a aba visível e a sessão ativa. Pausas e tempo com o app fechado ficam de fora. Os recortes refletem apenas as questões praticadas com estes filtros; assunto e disciplina vêm da classificação original da questão.</p></section>
+    </div></div>`;
+}
+
+function openSessionReport(id) {
+  const session = state.practiceSessions.find(s => s.id === id);
+  if (!session) return;
+  openModal("Relatório da sessão de prática");
+  renderSessionReport(session);
+  modal.querySelector("h1").focus({ preventScroll: true });
+}
+
+function reviewSessionQuestion(id) {
+  if (!sessionReport?.records.some(r => r.questionId === id && r.outcome === "answered")) return;
+  const question = catalog.questions.find(q => q.id === id);
+  if (!question) return;
+  modal.setAttribute("aria-label", "Revisão da sessão");
+  modal.innerHTML = `<div class="quiz-shell"><div class="quiz-topbar"><button class="text-button" data-action="back-session-report">← Voltar ao relatório</button></div><div class="question-wrap"><p class="page-kicker">ENEM ${question.year} · Questão ${question.index} · ${escapeHtml(question.subjectTitle)}</p>${question.context ? `<div class="question-context">${renderMarkdown(question.context, question.areaId === "linguagens")}</div>` : ""}<h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1><div class="answers">${question.alternatives.map(a => `<div class="answer ${a.letter === question.correctAlternative ? "correct" : ""}"><span class="answer-letter">${a.letter}</span><span class="answer-text">${a.file ? `<img src="${escapeHtml(a.file)}" alt="Alternativa ${a.letter}" style="max-width:100%;max-height:180px">` : renderMathText(a.text || "")}</span></div>`).join("")}</div>${renderExplanation(question)}</div></div>`;
+  modal.scrollTo({ top: 0, behavior: "instant" });
+  modal.querySelector("h1").focus({ preventScroll: true });
+}
+
+function focusSessionRecommendation(index) {
+  if (!sessionReport) return;
+  const recommendation = buildPracticeReport(sessionReport, catalog).recommendations[index];
+  if (!recommendation) return;
+  const course = catalog.courses.find(c => c.id === recommendation.subjectId) || catalog.courses.find(c => c.id === recommendation.areaId);
+  if (!course) return;
+  closeQuiz();
+  setCourse(course.id);
+  state.practiceFilters[course.id] = { ...defaultPracticeFilters(),
+    module: !course.integrated && course.modules.some(m => m.id === recommendation.moduleId) ? recommendation.moduleId : "",
+    subject: course.integrated ? recommendation.subjectId || "" : "",
+    topic: course.integrated && recommendation.moduleId && recommendation.subjectId ? `${recommendation.subjectId}:${recommendation.moduleId}` : "",
+    competency: recommendation.competency ? String(recommendation.competency) : "",
+  };
+  saveState();
+  activeView = "praticar";
+  history.replaceState(null, "", "#praticar");
+  renderPage();
+  app.querySelector("h1").focus({ preventScroll: true });
+}
+
 function stopQuestionTimer() {
   if (!quiz || quiz.checked || quiz.timerStartedAt === null) return;
   quiz.elapsedMs += Math.max(0, Date.now() - quiz.timerStartedAt);
@@ -531,7 +774,7 @@ function stopQuestionTimer() {
 }
 
 function startQuestionTimer() {
-  if (quiz && !quiz.checked && !quiz.ended && !document.hidden && quiz.timerStartedAt === null) quiz.timerStartedAt = Date.now();
+  if (quiz && !quiz.checked && !quiz.ended && !quiz.paused && !document.hidden && quiz.timerStartedAt === null) quiz.timerStartedAt = Date.now();
 }
 
 function resetQuestionTimer() {
@@ -563,17 +806,25 @@ function drawPracticeQuestion() {
 }
 
 function endPractice(exhausted = false) {
-  if (!quiz?.practice) return;
+  if (!quiz?.practice || quiz.ended) return;
   stopQuestionTimer();
-  const answered = quiz.answeredCount;
-  const accuracy = answered ? Math.round(quiz.correct / answered * 100) : null;
+  stopSessionTimer();
+  if (!quiz.checked) appendSessionRecord("unfinished");
   quiz.ended = true;
-  modal.innerHTML = `<div class="quiz-shell"><div class="finish-card"><div class="finish-burst">${exhausted ? "✓" : "↗"}</div><h1 tabindex="-1">${exhausted ? "Seleção concluída!" : "Prática encerrada"}</h1><p>${exhausted ? "Não restam questões que atendam aos filtros atuais. Ajuste sua seleção para continuar." : "Cada resposta corrigida já está salva no seu desempenho."}</p><div class="finish-stats"><div class="finish-stat"><strong>${answered}</strong><span>Respondidas</span></div><div class="finish-stat"><strong>${accuracy === null ? "—" : `${accuracy}%`}</strong><span>Acerto</span></div><div class="finish-stat"><strong>${quiz.skipped}</strong><span>Puladas</span></div></div><p>${counted(quiz.correct, "acerto")} · ${counted(answered - quiz.correct, "erro")} · ${formatDuration(quiz.totalDurationMs)} respondendo</p><div class="finish-actions"><button class="button" data-action="finish">Voltar aos filtros</button><button class="button secondary" data-action="view-performance">Ver desempenho</button></div></div></div>`;
-  modal.querySelector("h1").focus();
+  quiz.session.endedAt = new Date().toISOString();
+  quiz.session.exhausted = exhausted;
+  state.practiceSessions = [...state.practiceSessions.filter(s => s.id !== quiz.session.id), structuredClone(quiz.session)].slice(-20);
+  state.pendingPractice = null;
+  saveState();
+  renderSessionReport(quiz.session);
+  modal.querySelector("h1").focus({ preventScroll: true });
+  modal.scrollTo({ top: 0, behavior: "instant" });
 }
 
 function skipPracticeQuestion() {
-  if (!quiz?.practice || quiz.checked || quiz.ended) return;
+  if (!quiz?.practice || quiz.checked || quiz.ended || quiz.paused) return;
+  stopQuestionTimer();
+  appendSessionRecord("skipped");
   quiz.skipped += 1;
   advancePractice();
 }
@@ -585,7 +836,9 @@ function advancePractice() {
   quiz.index += 1;
   quiz.selected = null;
   quiz.checked = false;
+  quiz.questionRecorded = false;
   resetQuestionTimer();
+  checkpointPractice();
   renderQuestion();
   modal.querySelector("h1").focus({ preventScroll: true });
   modal.scrollTo({ top: 0, behavior: "smooth" });
@@ -726,6 +979,7 @@ function restartLesson() {
 }
 
 function startPractice() {
+  if (state.pendingPractice) { resumeSavedPractice(); return; }
   const filters = practiceFilters();
   const pool = shuffle(filteredPracticeQuestions(filters));
   if (!pool.length) { showToast("Nenhuma questão corresponde aos filtros. Ajuste sua seleção."); return; }
@@ -734,21 +988,32 @@ function startPractice() {
     lesson: { title: "Prática contínua", module: { title: data.title } },
     questions: [pool[0]], index: 0, selected: null, checked: false, correct: 0,
     answeredCount: 0, skipped: 0, totalDurationMs: 0,
+    paused: false, questionRecorded: false, sessionTimerStartedAt: null, lastCheckpointAt: Date.now(),
+    session: { id: `session-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`, courseId: data.id, courseTitle: data.title,
+      startedAt: new Date().toISOString(), endedAt: null, activeMs: 0, filters: { ...filters }, records: [] },
   };
+  sessionReport = null;
   resetQuestionTimer();
-  openModal("Prática contínua");
+  startSessionTimer();
+  checkpointPractice();
+  openModal("Sessão de prática");
   renderQuestion();
   modal.querySelector("h1").focus({ preventScroll: true });
 }
 
 function renderQuestion() {
+  if (quiz.practice && quiz.paused) {
+    modal.innerHTML = `<div class="quiz-shell"><section class="practice-pause-card"><p class="page-kicker">Seu tempo está preservado</p><h1 tabindex="-1">Sessão pausada</h1><p>${escapeHtml(quiz.session.courseTitle)} · ${counted(quiz.answeredCount, "resposta verificada", "respostas verificadas")}</p><div class="session-clock"><small>Tempo ativo</small><strong>${formatClock(sessionElapsed())}</strong></div><p>A questão e suas respostas estão salvas. O cronômetro só continua quando você retomar.</p><div class="session-report-actions"><button class="button" data-action="resume-practice">Continuar sessão</button><button class="button secondary" data-action="save-practice-exit">Salvar e sair</button><button class="text-button" data-action="end-practice">Encerrar e ver relatório</button></div></section></div>`;
+    return;
+  }
   const question = quiz.questions[quiz.index];
   const progress = ((quiz.index + (quiz.checked ? 1 : 0)) / quiz.questions.length) * 100;
   modal.innerHTML = `
     <div class="quiz-shell">
       <div class="quiz-topbar">
-        ${quiz.practice ? `<button class="text-button" data-action="end-practice">Encerrar prática</button><span class="session-counter">${counted(quiz.answeredCount, "respondida")} · ${counted(quiz.correct, "acerto")}</span><span class="session-round">Rodada ${quiz.cycle}</span>` : `<button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button><div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div><div class="quiz-errors" role="status" aria-label="${counted(quiz.errors, "erro")} nesta tentativa; limite de ${MAX_LESSON_ERRORS}">Erros ${quiz.errors}/${MAX_LESSON_ERRORS}</div>`}
+        ${quiz.practice ? `<button class="text-button" data-action="end-practice">Encerrar sessão</button><span class="session-counter">${counted(quiz.answeredCount, "respondida")} · ${counted(quiz.correct, "acerto")}</span><span class="session-round">Rodada ${quiz.cycle}</span>` : `<button class="icon-button" data-action="close-quiz" aria-label="Fechar lição">×</button><div class="quiz-progress" aria-label="Progresso da lição"><span style="width:${progress}%"></span></div><div class="quiz-errors" role="status" aria-label="${counted(quiz.errors, "erro")} nesta tentativa; limite de ${MAX_LESSON_ERRORS}">Erros ${quiz.errors}/${MAX_LESSON_ERRORS}</div>`}
       </div>
+      ${quiz.practice ? practiceTimerMarkup() : ""}
       ${quiz.practice ? "" : `<p class="lesson-rule">Até ${MAX_LESSON_ERRORS} erros para concluir. Ao reiniciar a lição, a contagem volta a zero.</p>`}
       <div class="question-wrap">
         <div class="question-meta"><span>${escapeHtml(question.subjectTitle || data.title)} · ${escapeHtml(question.moduleTitle || quiz.lesson.module.title)}</span><span>ENEM ${question.year} · Questão ${question.index}</span></div>
@@ -802,17 +1067,19 @@ function renderQuizFooter(question) {
 }
 
 function selectAnswer(letter) {
-  if (!quiz || quiz.checked || quiz.ended) return;
+  if (!quiz || quiz.checked || quiz.ended || quiz.paused) return;
   quiz.selected = letter;
+  if (quiz.practice) checkpointPractice();
   renderQuestion();
 }
 
 function checkAnswer() {
-  if (!quiz?.selected || quiz.checked || quiz.ended) return;
+  if (!quiz?.selected || quiz.checked || quiz.ended || quiz.paused) return;
   const question = quiz.questions[quiz.index];
   const correct = quiz.selected === question.correctAlternative;
   stopQuestionTimer();
   recordAttempt(question, correct);
+  if (quiz.practice) appendSessionRecord("answered", correct);
   quiz.checked = true;
   if (quiz.practice) { quiz.answeredCount += 1; quiz.totalDurationMs += quiz.elapsedMs; }
   state.answered.push(question.id);
@@ -826,6 +1093,7 @@ function checkAnswer() {
     if (!state.missed.includes(question.id)) state.missed.push(question.id);
   }
   saveState();
+  if (quiz.practice) checkpointPractice();
   renderQuestion();
   const explanation = modal.querySelector(".explanation");
   explanation.focus({ preventScroll: true });
@@ -833,7 +1101,7 @@ function checkAnswer() {
 }
 
 function nextQuestion() {
-  if (!quiz?.checked || quiz.ended) return;
+  if (!quiz?.checked || quiz.ended || quiz.paused) return;
   if (quiz.practice) { advancePractice(); return; }
   if (quiz.errors > MAX_LESSON_ERRORS) { finishLesson(); return; }
   if (quiz.index < quiz.questions.length - 1) {
@@ -889,12 +1157,19 @@ function finishLesson() {
   modal.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-function closeQuiz() {
+function closeQuiz(preservePractice = false) {
+  if (quiz?.practice && !quiz.ended) {
+    if (preservePractice) { quiz.paused = true; checkpointPractice(); }
+    else endPractice();
+  }
+  stopQuestionTimer();
+  stopSessionTimer();
   modal.hidden = true;
   modal.innerHTML = "";
   document.body.style.overflow = "";
   shell.inert = false;
   quiz = null;
+  sessionReport = null;
   introModuleId = null;
   const introId = returnFocus?.dataset?.intro;
   renderPage(!introId && !data.studyGuide);
@@ -909,6 +1184,18 @@ function showToast(message) {
 }
 
 document.addEventListener("click", (event) => {
+  const reportLink = event.target.closest("[data-session-report]");
+  if (reportLink) { openSessionReport(reportLink.dataset.sessionReport); return; }
+  const dimensionButton = event.target.closest("[data-session-dimension]");
+  if (dimensionButton && sessionReport) {
+    renderSessionReport(sessionReport, dimensionButton.dataset.sessionDimension);
+    modal.querySelector(`[data-session-dimension="${sessionBreakdown}"]`).focus({ preventScroll: true });
+    return;
+  }
+  const reviewButton = event.target.closest("[data-session-question]");
+  if (reviewButton) { reviewSessionQuestion(reviewButton.dataset.sessionQuestion); return; }
+  const focusButton = event.target.closest("[data-session-focus]");
+  if (focusButton) { focusSessionRecommendation(Number(focusButton.dataset.sessionFocus)); return; }
   const view = event.target.closest("[data-view]");
   if (view) {
     event.preventDefault();
@@ -936,6 +1223,11 @@ document.addEventListener("click", (event) => {
     } else startLesson(nextLesson().id);
   }
   if (action === "practice") startPractice();
+  if (action === "pause-practice") pausePractice();
+  if (action === "resume-practice") resumePractice();
+  if (action === "resume-saved-practice") resumeSavedPractice();
+  if (action === "save-practice-exit") closeQuiz(true);
+  if (action === "back-session-report" && sessionReport) { renderSessionReport(sessionReport, sessionBreakdown); modal.scrollTo({ top: 0, behavior: "instant" }); modal.querySelector("h1").focus({ preventScroll: true }); }
   if (action === "reset-filters") { state.practiceFilters[data.id] = defaultPracticeFilters(); saveState(); renderPractice(); }
   if (action === "end-practice") endPractice();
   if (action === "skip-question") skipPracticeQuestion();
@@ -997,7 +1289,16 @@ document.addEventListener("submit", (event) => {
 });
 
 document.addEventListener("visibilitychange", () => {
-  if (document.hidden) stopQuestionTimer(); else startQuestionTimer();
+  if (document.hidden) { stopQuestionTimer(); stopSessionTimer(); checkpointPractice(); }
+  else { startQuestionTimer(); startSessionTimer(); updatePracticeClocks(); }
+});
+
+window.addEventListener("pagehide", () => {
+  if (quiz?.practice && !quiz.ended) { quiz.paused = true; checkpointPractice(); }
+  else stopQuestionTimer();
+});
+window.addEventListener("pageshow", () => {
+  if (quiz?.practice && quiz.paused && !quiz.ended && !modal.hidden) renderQuestion();
 });
 
 window.addEventListener("hashchange", () => {

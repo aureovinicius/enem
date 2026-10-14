@@ -12,6 +12,7 @@ async function fixture(t) {
   const source = {
     "index.html": '<script src="/vendor/katex/katex.min.js"></script><link href="/vendor/katex/katex.min.css"><link rel="icon" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link href="/styles.css?v=2"><script src="/app.js?v=2"></script><script type="module" src="/pwa.js?v=2"></script><a href="#praticar">Praticar</a>',
     "app.js": 'const DATA_URL = "/data/courses.json?v=2"; const allowed = url => url.startsWith("/assets/questions/"); const download = `<a href="/data/matrix.pdf">Download</a>`;',
+    "practice-session.js": "export const buildPracticeReport = () => ({});",
     "styles.css": "body { color: #123; }",
     "vendor/katex/katex.min.js": "/* math renderer */",
     "vendor/katex/katex.min.css": '@font-face{src:url("fonts/Math.woff2")}',
