@@ -270,10 +270,11 @@ test("report controls change the grouping and review a question without recordin
 });
 
 test("a recommendation prepares the original subject and topic without starting or scoring a new session", () => {
-  const app = appHarness({ activeCourse: "ciencias-natureza" });
+  const original = catalog.questions.find(question => question.subjectId === "fisica");
+  const app = appHarness({ activeCourse: "ciencias-natureza", practiceFilters: { "ciencias-natureza": { query: original.id } } });
   app.run("startPractice()");
   const questionId = app.run("quiz.questions[quiz.index].id");
-  const original = catalog.questions.find(question => question.id === questionId);
+  assert.equal(questionId, original.id);
   app.tick(1000);
   app.run("selectAnswer(quiz.questions[quiz.index].alternatives.find(answer => answer.letter !== quiz.questions[quiz.index].correctAlternative).letter); checkAnswer(); endPractice()");
   const focusIndex = app.nodes.get("#lesson-modal").innerHTML.match(/data-session-focus="(\d+)"/)?.[1];
