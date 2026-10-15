@@ -1,0 +1,27 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { sha256, sourceQuestionId } from "./enem-explanations.mjs";
+
+/** Preserve the API snapshot and restore only text verified in the official booklet. */
+export async function correctedSnapshot(root, snapshot) {
+  let corrections;
+  try { corrections = JSON.parse(await readFile(path.join(root, "data/enem/content-corrections.json"), "utf8")); }
+  catch (error) { if (error.code === "ENOENT") return snapshot; throw error; }
+  const available = new Map(snapshot.questions.map(q => [sourceQuestionId(q), q]));
+  for (const [id, correction] of Object.entries(corrections)) {
+    const question = available.get(id);
+    if (!question || sha256(JSON.stringify(question)) !== correction.originalSha256) throw new Error(`Correction source changed: ${id}`);
+    if (!/^https:\/\/download\.inep\.gov\.br\/enem\/provas_e_gabaritos\/[^/]+\.pdf$/.test(correction.sourceUrl)
+      || !Number.isInteger(correction.sourcePage) || correction.sourcePage < 1
+      || !correction.reason?.trim() || !Number.isFinite(Date.parse(correction.reviewedAt))) throw new Error(`Unverified correction: ${id}`);
+    const fields = correction.fields;
+    if (!fields || !Object.keys(fields).length || Object.keys(fields).some(key => !["context", "alternativesIntroduction"].includes(key))
+      || Object.values(fields).some(value => typeof value !== "string" || !value.trim())) throw new Error(`Invalid text correction: ${id}`);
+  }
+  return { ...snapshot, questions: snapshot.questions.map(question => {
+    const correction = corrections[sourceQuestionId(question)];
+    if (!correction) return question;
+    const { fields, ...sourceCorrection } = correction;
+    return { ...question, ...fields, sourceCorrection };
+  }) };
+}

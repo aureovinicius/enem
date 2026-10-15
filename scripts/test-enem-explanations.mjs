@@ -37,6 +37,7 @@ test("only reviewed manifests enable comments; unlisted drafts remain inactive",
   assert.equal(f.questions[0].explanationReview.kind, "editorial");
   assert.equal(f.questions[0].correctAlternative, "A");
   assert.deepEqual(explanationCoverage(f.questions), { total: 1, explained: 1, pending: 0, years: [{ year: 2023, total: 1, explained: 1, pending: 0 }] });
+  assert.equal(explanationCoverage([{ year: 2023, explanation: { concept: "Existing lesson", steps: ["First", "Second"] } }]).explained, 1, "Existing two-step curated comments also count");
 });
 
 test("edited content, changed source and incorrect answers require a fresh review", async t => {

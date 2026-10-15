@@ -1,0 +1,30 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { correctedSnapshot } from "./enem-content-corrections.mjs";
+import { sha256 } from "./enem-explanations.mjs";
+
+test("official text corrections preserve raw data and answers; changed sources and unreviewed fields fail closed", async t => {
+  const root = await mkdtemp(path.join(tmpdir(), "enem-corrections-"));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await mkdir(path.join(root, "data/enem"), { recursive: true });
+  const original = { year: 2023, index: 99, context: null, alternativesIntroduction: "Incomplete", correctAlternative: "D" };
+  const snapshot = { questions: [original] };
+  const correction = { originalSha256: sha256(JSON.stringify(original)), fields: { context: "Restored context", alternativesIntroduction: "Restored prompt" }, sourceUrl: "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf", sourcePage: 3, reviewedAt: "2026-10-15", reason: "Missing prompt restored from official booklet" };
+  const save = () => writeFile(path.join(root, "data/enem/content-corrections.json"), JSON.stringify({ "2023-99": correction }));
+  await save();
+  const updated = await correctedSnapshot(root, snapshot);
+  assert.equal(updated.questions[0].context, "Restored context");
+  assert.equal(updated.questions[0].correctAlternative, "D");
+  assert.equal(updated.questions[0].sourceCorrection.sourcePage, 3);
+  assert.equal(original.context, null);
+  correction.fields.correctAlternative = "A";
+  await save();
+  await assert.rejects(() => correctedSnapshot(root, snapshot), /Invalid text correction/);
+  delete correction.fields.correctAlternative;
+  correction.originalSha256 = "changed";
+  await save();
+  await assert.rejects(() => correctedSnapshot(root, snapshot), /Correction source changed/);
+});

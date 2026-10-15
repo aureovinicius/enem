@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 import { applyExplanationBatches, explanationCoverage } from "./enem-explanations.mjs";
+import { correctedSnapshot } from "./enem-content-corrections.mjs";
 
 const read = path => JSON.parse(readFileSync(path, "utf8"));
 const catalog = read("dist/data/courses.json");
@@ -53,7 +54,8 @@ function enabledYear(year) { return progress.batches.some(b => b.year === year);
 test("published comments exactly match reviewed batches and their source snapshots", async () => {
   const expected = catalog.practiceQuestions.map(q => ({ ...q, explanation: null }));
   for (const q of expected) delete q.explanationReview;
-  await applyExplanationBatches({ root: process.cwd(), questions: expected, sourceQuestions: raw.questions });
+  const source = await correctedSnapshot(process.cwd(), raw);
+  await applyExplanationBatches({ root: process.cwd(), questions: expected, sourceQuestions: source.questions });
   assert.deepEqual(expected, catalog.practiceQuestions);
   assert.deepEqual(catalog.explanationCoverage, explanationCoverage([...catalog.questions, ...expected]));
 });

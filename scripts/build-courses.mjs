@@ -4,6 +4,7 @@ import path from "node:path";
 import assert from "node:assert/strict";
 import { buildYearBank } from "./enem-year-bank.mjs";
 import { applyExplanationBatches, explanationCoverage } from "./enem-explanations.mjs";
+import { correctedSnapshot } from "./enem-content-corrections.mjs";
 
 const root = process.cwd();
 const sourcePublic = process.env.ENEM_SOURCE_PUBLIC || path.join(root, "data/enem-source/public");
@@ -182,9 +183,10 @@ for (const asset of assetPaths) {
   await cp(source, destination);
 }
 const importProgress = await read("data/enem/import-progress.json");
-const bank = await buildYearBank({ root, sourcePublic, snapshot, curatedQuestions: questions, courses, tri,
+const practiceSnapshot = await correctedSnapshot(root, snapshot);
+const bank = await buildYearBank({ root, sourcePublic, snapshot: practiceSnapshot, curatedQuestions: questions, courses, tri,
   years: importProgress.batches.map(batch => batch.year) });
-await applyExplanationBatches({ root, questions: bank.practiceQuestions, sourceQuestions: snapshot.questions });
+await applyExplanationBatches({ root, questions: bank.practiceQuestions, sourceQuestions: practiceSnapshot.questions });
 const payload = {
   schemaVersion: 2, source: snapshot.source, sourceRepository: snapshot.sourceRepository,
   rawTotal: snapshot.total, years: snapshot.years, generatedAt: new Date().toISOString(),

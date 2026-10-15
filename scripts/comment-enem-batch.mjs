@@ -4,6 +4,7 @@ import { existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { explanationProgressPath, sha256, sourceDigest, validateExplanation, explanationCoverage } from "./enem-explanations.mjs";
+import { correctedSnapshot } from "./enem-content-corrections.mjs";
 
 const read = async file => JSON.parse(await readFile(file, "utf8"));
 const save = progress => writeFile(explanationProgressPath, JSON.stringify(progress, null, 2) + "\n");
@@ -28,8 +29,9 @@ if (action === "--status") {
     validateExplanation(id, explanations[id], questions.get(id));
   }
   const snapshot = await read("data/enem/all-questions.json");
+  const practiceSnapshot = await correctedSnapshot(process.cwd(), snapshot);
   const batch = { id: batchId, file, status: "prepared", reviewedAt: new Date().toISOString(), reviewNote: argument,
-    questionIds: ids, contentSha256: sha256(content), sourceSha256: sourceDigest(ids, snapshot.questions) };
+    questionIds: ids, contentSha256: sha256(content), sourceSha256: sourceDigest(ids, practiceSnapshot.questions) };
   const before = structuredClone(progress);
   progress.batches.push(batch);
   await save(progress);

@@ -8,7 +8,7 @@
     {
       "id": "2023-linguagens",
       "file": "data/enem/explanations/2023-linguagens.json",
-      "status": "prepared",
+      "status": "published",
       "reviewedAt": "2026-10-15T14:05:25.424Z",
       "reviewNote": "Revisão independente das 11 questões, dos cinco distratores e do vínculo com o gabarito; imagens 2023-1-ingles e 2023-33 inspecionadas. Explicações apoiadas no texto da prova, inclusive regra histórica da questão 40.",
       "questionIds": [
@@ -25,7 +25,44 @@
         "2023-42"
       ],
       "contentSha256": "a385e51b22eb191cf0f2f536f7996d278afa618a9d818b1003bfc459e5c59fd7",
-      "sourceSha256": "a97e318aa6a9a603f870644e3120a27654e030a600eaa686cbb07d4580b5fbbf"
+      "sourceSha256": "a97e318aa6a9a603f870644e3120a27654e030a600eaa686cbb07d4580b5fbbf",
+      "deployment": {
+        "commit": "128f91ed01f520b9a35ab71f0877c5a916ee258f",
+        "runId": "38748523414",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38748523414",
+        "confirmedAt": "2026-10-15T14:10:22.485Z"
+      }
+    },
+    {
+      "id": "2023-humanas-01",
+      "file": "data/enem/explanations/2023-humanas-01.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:10:26.966Z",
+      "reviewNote": "Revisão independente dos 20 enunciados, alternativas e comentários; imagem da questão 46 inspecionada. Conferidos conceitos de geografia, história, filosofia e sociologia sem reproduzir imprecisões periféricas da fonte.",
+      "questionIds": [
+        "2023-46",
+        "2023-47",
+        "2023-48",
+        "2023-49",
+        "2023-50",
+        "2023-51",
+        "2023-52",
+        "2023-53",
+        "2023-55",
+        "2023-58",
+        "2023-59",
+        "2023-60",
+        "2023-61",
+        "2023-62",
+        "2023-63",
+        "2023-64",
+        "2023-66",
+        "2023-67",
+        "2023-68",
+        "2023-69"
+      ],
+      "contentSha256": "5c59a79091abfa8baebdcf9d65aa222f33f763a23899fe8238f7c116435be809",
+      "sourceSha256": "a0c1271b4b47dbcb8e5b09923188d23fc0905b24c17336a47446220d0ac2c032"
     }
   ]
 }
