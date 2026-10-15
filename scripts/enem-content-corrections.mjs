@@ -15,13 +15,18 @@ export async function correctedSnapshot(root, snapshot) {
       || !Number.isInteger(correction.sourcePage) || correction.sourcePage < 1
       || !correction.reason?.trim() || !Number.isFinite(Date.parse(correction.reviewedAt))) throw new Error(`Unverified correction: ${id}`);
     const fields = correction.fields;
-    if (!fields || !Object.keys(fields).length || Object.keys(fields).some(key => !["context", "alternativesIntroduction"].includes(key))
-      || Object.values(fields).some(value => typeof value !== "string" || !value.trim())) throw new Error(`Invalid text correction: ${id}`);
+    if (!fields || !Object.keys(fields).length || Object.keys(fields).some(key => !["context", "alternativesIntroduction", "alternativeTexts"].includes(key))
+      || Object.entries(fields).some(([key, value]) => key !== "alternativeTexts" && (typeof value !== "string" || !value.trim()))) throw new Error(`Invalid text correction: ${id}`);
+    if ("alternativeTexts" in fields && (!fields.alternativeTexts || typeof fields.alternativeTexts !== "object" || Array.isArray(fields.alternativeTexts)
+      || !Object.keys(fields.alternativeTexts).length || Object.entries(fields.alternativeTexts).some(([letter, value]) =>
+        !question.alternatives?.some(a => a.letter === letter) || typeof value !== "string" || !value.trim()))) throw new Error(`Invalid alternative text correction: ${id}`);
   }
   return { ...snapshot, questions: snapshot.questions.map(question => {
     const correction = corrections[sourceQuestionId(question)];
     if (!correction) return question;
     const { fields, ...sourceCorrection } = correction;
-    return { ...question, ...fields, sourceCorrection };
+    const { alternativeTexts, ...textFields } = fields;
+    return { ...question, ...textFields,
+      ...(alternativeTexts ? { alternatives: question.alternatives.map(a => ({ ...a, text: alternativeTexts[a.letter] ?? a.text })) } : {}), sourceCorrection };
   }) };
 }

@@ -163,7 +163,7 @@ O relatório `imports` em `dist/data/courses.json` contém contagens por ano e I
 
 `explanationCoverage` no catálogo contém os totais e pendências por ano. Questões já comentadas não são duplicadas. Mudanças no texto revisado ou na questão invalidam o hash e exigem nova conferência.
 
-Quando a API omite um trecho, `data/enem/content-corrections.json` registra somente restaurações verificadas no PDF oficial, com URL, página, motivo e hash do registro original. O snapshot bruto permanece intacto. As correções são aplicadas antes dos comentários e não podem alterar o gabarito.
+Quando a API omite um trecho, `data/enem/content-corrections.json` registra restaurações de contexto, comando e texto das alternativas verificadas no PDF oficial, com URL, página, motivo e hash do registro original. O snapshot bruto permanece intacto. As correções são aplicadas antes dos comentários e não podem alterar o gabarito.
 
 O projeto é estático. Sirva a pasta `dist` com qualquer servidor HTTP local:
 

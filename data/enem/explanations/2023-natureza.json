@@ -1,0 +1,177 @@
+{
+  "2023-92": {
+    "correctAlternative": "B",
+    "concept": "Ferro, hemoglobina e anemia por deficiência de ferro",
+    "steps": [
+      "O ferro participa da estrutura do grupo heme da hemoglobina, proteína das hemácias responsável pelo transporte de oxigênio no sangue.",
+      "A deficiência desse elemento pode comprometer a produção de hemoglobina e causar anemia ferropriva. A palidez mencionada no enunciado é o indício usado para estabelecer essa relação.",
+      "As práticas descritas tinham a intenção de aumentar a ingestão de ferro e, portanto, prevenir a anemia, como indica B. Identificar essa intenção não significa que qualquer prática caseira mencionada seja uma forma adequada de suplementação."
+    ],
+    "takeaway": "Relacione ferro à hemoglobina e ao transporte de oxigênio. A falta de ferro pode causar um tipo específico de anemia, mas nem toda anemia tem essa origem."
+  },
+  "2023-93": {
+    "correctAlternative": "E",
+    "concept": "Fissão nuclear e produção de energia térmica",
+    "steps": [
+      "Em uma usina nuclear de fissão, a divisão de núcleos pesados libera energia, que aquece o sistema responsável pela produção de vapor.",
+      "O vapor pode movimentar turbinas acopladas a geradores. Assim, a etapa de geração de calor decorre de uma transformação nuclear, sem exigir a combustão de carvão, petróleo ou gás natural.",
+      "Essa característica corresponde a E. Os rejeitos radioativos exigem tratamento e armazenamento específicos, de modo que não se pode classificá-los genericamente como facilmente recicláveis; já as alternativas ligadas a desmatamento e poluição por combustão não descrevem a vantagem solicitada."
+    ],
+    "takeaway": "Uma usina nuclear produz calor pela fissão, e não pela queima de combustível fóssil. Isso não elimina os desafios relacionados aos rejeitos radioativos."
+  },
+  "2023-94": {
+    "correctAlternative": "A",
+    "concept": "Dureza da água e formação de incrustações",
+    "steps": [
+      "A dureza da água está associada principalmente à presença de íons cálcio e magnésio. Esses íons podem participar da formação de sais pouco solúveis que se depositam nas tubulações.",
+      "O problema destaca a precipitação de carbonatos e sulfatos. Acompanhando o cálcio dissolvido, é possível controlar um dos componentes que favorecem essas incrustações.",
+      "Na tabela, o cálcio é o parâmetro do teste 1, correspondente à alternativa A. Turbidez e sólidos sedimentáveis indicam materiais em suspensão ou que se depositam, mas não identificam diretamente a dureza causada por íons dissolvidos; coliformes avaliam outra dimensão da qualidade da água."
+    ],
+    "takeaway": "Água dura contém quantidades relevantes de cálcio e magnésio dissolvidos. O controle desses íons ajuda a prevenir incrustações de sais em equipamentos."
+  },
+  "2023-96": {
+    "correctAlternative": "D",
+    "concept": "Hidratação de sais e variação percentual de massa",
+    "steps": [
+      "O nome di-hidratado informa que cada unidade de cloreto de cálcio incorpora duas moléculas de água. A transformação é representada por \\(\\mathrm{CaCl_2}+2\\mathrm{H_2O}\\rightarrow\\mathrm{CaCl_2}\\cdot2\\mathrm{H_2O}\\).",
+      "Para cada mol do sal inicialmente anidro, a massa absorvida de água é \\(2\\times18=36\\,\\mathrm{g}\\). A massa passa de \\(111\\,\\mathrm{g}\\) para \\(147\\,\\mathrm{g}\\).",
+      "O ganho percentual é calculado em relação à massa inicial: \\(\\dfrac{36}{111}\\times100\\%\\approx32{,}4\\%\\). O valor mais próximo é 32%, alternativa D; dividir por 147 g calcularia a fração de água no produto final, e não o aumento pedido."
+    ],
+    "takeaway": "Em um aumento percentual de massa, divida a massa acrescentada pela massa inicial. Em hidratos, o prefixo indica quantas moléculas de água foram incorporadas."
+  },
+  "2023-97": {
+    "correctAlternative": "A",
+    "concept": "Etileno e amadurecimento dos frutos",
+    "steps": [
+      "O abacate produz etileno, um hormônio vegetal gasoso que participa da regulação do amadurecimento, favorecendo mudanças como amolecimento e transformação de componentes do fruto.",
+      "Na fruteira aberta, o etileno pode se dispersar no ambiente. No recipiente fechado, sua dispersão é menor, de modo que o gás se acumula próximo aos frutos.",
+      "A maior exposição ao etileno acelera o amadurecimento observado, justificando A. O fechamento do recipiente não retira imediatamente todo o oxigênio, e o fenômeno descrito não deve ser atribuído simplesmente à menor luminosidade ou ao aumento de dióxido de carbono."
+    ],
+    "takeaway": "O etileno é um sinal químico gasoso: seu acúmulo ao redor de frutos como o abacate pode acelerar o amadurecimento."
+  },
+  "2023-98": {
+    "correctAlternative": "B",
+    "concept": "Cloroplastos e produção de matéria orgânica pela fotossíntese",
+    "steps": [
+      "Os cloroplastos são as estruturas responsáveis pela fotossíntese. Como permanecem funcionais nas células da lesma, continuam permitindo o aproveitamento de energia luminosa para produzir matéria orgânica.",
+      "A fixação de carbono nesse processo gera compostos que dão origem a açúcares. Portanto, a vantagem alimentar primária descrita é a obtenção de carboidratos.",
+      "A alternativa B corresponde a esses produtos. Proteínas, ácidos nucleicos e lipídios podem ser produzidos por outras vias metabólicas a partir de precursores, mas não são a categoria que identifica o produto orgânico primário enfatizado pela fotossíntese."
+    ],
+    "takeaway": "Cloroplastos funcionais permitem converter energia luminosa em energia química de compostos orgânicos, com destaque para a produção de carboidratos."
+  },
+  "2023-99": {
+    "correctAlternative": "D",
+    "concept": "Transmissão vetorial da leishmaniose e hábito hematófago",
+    "steps": [
+      "O enunciado informa que a transmissão é indireta, mediada por um vetor. Na leishmaniose, esse papel é desempenhado por fêmeas de flebotomíneos, insetos que se alimentam de sangue.",
+      "Ao se alimentar em um cão infectado, o inseto pode ingerir o protozoário. Após o desenvolvimento do parasita no vetor, uma nova picada pode transmitir a infecção a outro hospedeiro.",
+      "Entre os materiais listados, o sangue é o que corresponde a essa via de aquisição pelo vetor, justificando D. Os sintomas em olhos, intestino ou rins não tornam secreção ocular, fezes ou urina a via de transmissão vetorial solicitada."
+    ],
+    "takeaway": "Para identificar a via de transmissão, considere como o vetor se alimenta. Os tecidos afetados e os sintomas da doença não determinam, por si só, a forma de propagação."
+  },
+  "2023-109": {
+    "correctAlternative": "D",
+    "concept": "Equilíbrio de forças em polias fixas e móveis",
+    "steps": [
+      "Como as cargas sobem com velocidade constante, a aceleração é nula. Nas cordas ideais, a tração tem o mesmo módulo ao longo de cada corda e corresponde à força aplicada pelo usuário, \\(T=F\\).",
+      "No aparelho do tipo 1, as polias são fixas e apenas redirecionam a corda. Um único trecho sustenta a carga, de modo que \\(F=M_1g\\).",
+      "No tipo 2, a polia ligada à carga é móvel. Ela é sustentada por dois trechos da corda, cada um com tração \\(F\\), resultando em \\(2F=M_2g\\).",
+      "Dividindo as relações, \\(\\dfrac{M_2}{M_1}=2\\), alternativa D. Para manter a mesma força de exercício, a massa no aparelho com polia móvel deve ser o dobro."
+    ],
+    "takeaway": "Conte os trechos de corda que sustentam o conjunto móvel. Polias fixas mudam a direção da força; uma polia móvel sustentada por dois trechos duplica a carga equilibrada pela mesma tração."
+  },
+  "2023-110": {
+    "correctAlternative": "B",
+    "concept": "Reagente limitante e massa máxima de precipitado",
+    "steps": [
+      "Cada frasco contém \\(n=\\dfrac{5{,}25}{525}=0{,}010\\,\\mathrm{mol}\\) de nitrato de mercúrio(I). Pela equação mostrada, cada mol desse reagente consome dois mols de NaCl e forma um mol de \\(\\mathrm{Hg_2Cl_2}\\).",
+      "Para consumir todo o nitrato de um frasco, são necessários \\(0{,}020\\,\\mathrm{mol}\\) de NaCl, cuja massa é \\(0{,}020\\times58=1{,}16\\,\\mathrm{g}\\). Até esse limite, o aumento da massa de NaCl aumenta proporcionalmente a massa de precipitado.",
+      "A quantidade máxima de precipitado é \\(0{,}010\\,\\mathrm{mol}\\), ou \\(0{,}010\\times472=4{,}72\\,\\mathrm{g}\\). Depois de consumir o nitrato, adicionar mais NaCl não produz mais precipitado: o gráfico deve alcançar um patamar.",
+      "O gráfico B cresce a partir da origem e se estabiliza perto de 4,7 g quando a massa de NaCl chega a aproximadamente 1,2 g. A alternativa A atinge o patamar cedo demais; C não apresenta o limite, e D e E indicam precipitado mesmo sem adicionar NaCl."
+    ],
+    "takeaway": "Em um gráfico de produto formado versus reagente adicionado, o patamar indica o esgotamento do outro reagente. A proporção estequiométrica determina tanto o início do patamar quanto sua altura."
+  },
+  "2023-113": {
+    "correctAlternative": "A",
+    "concept": "Intensidade de uma onda emitida por fonte puntiforme",
+    "steps": [
+      "No modelo de emissão esférica, a potência se distribui pela área \\(A=4\\pi r^2\\). A intensidade diminui com a distância, portanto o valor mínimo detectável corresponde ao alcance máximo de 10 m.",
+      "Converta a potência para watts: \\(2{,}4\\,\\mathrm{mW}=2{,}4\\times10^{-3}\\,\\mathrm{W}\\). Com \\(\\pi\\approx3\\), a área da esfera a 10 m vale \\(4\\times3\\times10^2=1200\\,\\mathrm{m^2}\\).",
+      "Logo, \\(I=\\dfrac{P}{A}=\\dfrac{2{,}4\\times10^{-3}}{1{,}2\\times10^3}=2{,}0\\times10^{-6}\\,\\mathrm{W/m^2}\\). Esse é o valor apresentado na imagem da alternativa A."
+    ],
+    "takeaway": "Para uma fonte puntiforme com emissão esférica, use \\(I=P/(4\\pi r^2)\\). Converta miliwatts para watts antes de calcular."
+  },
+  "2023-119": {
+    "correctAlternative": "C",
+    "concept": "Equação dos gases ideais e conversão de unidades",
+    "steps": [
+      "Use a equação \\(PV=nRT\\). A constante fornecida, \\(R=0{,}082\\,\\mathrm{L\\cdot atm/(mol\\cdot K)}\\), exige volume em litros e temperatura absoluta em kelvin.",
+      "Converta os dados: \\(100\\,\\mathrm{mL}=0{,}100\\,\\mathrm{L}\\) e \\(650\\,{}^\\circ\\mathrm{C}\\approx923\\,\\mathrm{K}\\). A quantidade de gás é \\(0{,}1\\,\\mathrm{mol}\\).",
+      "Assim, \\(P=\\dfrac{0{,}1\\times0{,}082\\times923}{0{,}100}\\approx75{,}7\\,\\mathrm{atm}\\). A pressão mais próxima é 76 atm, alternativa C.",
+      "Usar diretamente 650 na fórmula trataria graus Celsius como kelvin e produziria cerca de 53 atm, o distrator D. A conversão de temperatura é indispensável."
+    ],
+    "takeaway": "Em \\(PV=nRT\\), a temperatura sempre deve ser absoluta. Escolha as unidades de pressão e volume de acordo com a constante dos gases fornecida."
+  },
+  "2023-122": {
+    "correctAlternative": "D",
+    "concept": "Calor sensível, condensação e transferência de energia",
+    "steps": [
+      "O vapor que entra na parede do tacho está a 120 °C e o estado final indicado é água líquida a 100 °C. Portanto, há tanto redução de temperatura quanto mudança de estado físico.",
+      "Ao resfriar de 120 °C para 100 °C, o vapor libera calor sensível. Ao passar do estado gasoso para o líquido, libera também calor latente de condensação.",
+      "Essa energia atravessa a parede e é recebida pelo produto no interior do tacho. A vaporização da água do doce consome energia; ela é o efeito do aquecimento, e não a origem do calor fornecido pela corrente externa.",
+      "A fonte de energia para concentrar o produto combina, assim, calor sensível e calor latente de condensação, conforme a alternativa D."
+    ],
+    "takeaway": "Identifique qual material fornece energia e qual a recebe. Resfriamento e condensação liberam calor; a evaporação do produto utiliza esse calor."
+  },
+  "2023-124": {
+    "correctAlternative": "B",
+    "concept": "Tempo de percurso e inclusão das paradas",
+    "steps": [
+      "Para o caminhão, que utiliza cobrança automática, o tempo no modelo descrito é \\(t_c=480/80=6\\,\\mathrm{h}=360\\,\\mathrm{min}\\).",
+      "O carro percorre a rodovia a 100 km/h, gastando \\(t_a=480/100=4{,}8\\,\\mathrm{h}=288\\,\\mathrm{min}\\) em movimento.",
+      "Como o carro passa pelas dez cabines de pagamento, deve-se acrescentar \\(10\\times3=30\\,\\mathrm{min}\\). Seu tempo total é \\(288+30=318\\,\\mathrm{min}\\).",
+      "A diferença é \\(360-318=42\\,\\mathrm{min}\\), alternativa B. O valor de 72 min consideraria somente o movimento e ignoraria o tempo perdido nos pedágios."
+    ],
+    "takeaway": "O tempo total de viagem é o tempo de movimento somado às paradas. Calcule os percursos de cada veículo separadamente antes de comparar."
+  },
+  "2023-125": {
+    "correctAlternative": "E",
+    "concept": "Combinação de gametas e número de cromossomos no zigoto",
+    "steps": [
+      "O problema considera indivíduos com três cópias do cromossomo 21. No modelo simplificado de segregação usado na questão, cada um pode produzir gametas com uma ou com duas cópias desse cromossomo.",
+      "Na fecundação, as cópias presentes nos dois gametas se somam. A combinação \\(1+1=2\\) produz um zigoto com duas cópias; \\(1+2=3\\) ou \\(2+1=3\\) produz trissomia; e \\(2+2=4\\) produz tetrassomia.",
+      "Portanto, os números possíveis no modelo são dois, três e quatro cromossomos 21, correspondendo à alternativa E. A pergunta trata de zigotos formados: essas possibilidades não estabelecem, por si só, a viabilidade gestacional nem a frequência de nascimentos de cada condição."
+    ],
+    "takeaway": "Determine primeiro quais gametas o modelo admite e depois some suas cópias cromossômicas. Possibilidade de formação de um zigoto não é sinônimo de nascimento viável."
+  },
+  "2023-128": {
+    "correctAlternative": "C",
+    "concept": "Sintonia de rádio e frequência das ondas eletromagnéticas",
+    "steps": [
+      "Um receptor de rádio seleciona os sinais correspondentes à frequência em que está sintonizado. No modelo simplificado da questão, um sinal indesejado pode comprometer a comunicação ao atingir essa mesma frequência de recepção.",
+      "Assim, a coincidência de frequências é a característica relevante para que o rádio receba o sinal interferente junto ao sinal desejado, como indica C. Não é necessário que as duas fontes tenham a mesma potência ou produzam a mesma intensidade.",
+      "As ondas de rádio são eletromagnéticas e não são sons audíveis; a transformação em som ocorre no aparelho receptor. A interferência discutida também não depende de as ondas se propagarem com velocidades diferentes."
+    ],
+    "takeaway": "A sintonia seleciona uma frequência de comunicação. No modelo idealizado do item, a interferência ocorre quando um sinal indesejado compartilha a frequência recebida."
+  },
+  "2023-130": {
+    "correctAlternative": "D",
+    "concept": "Condutividade térmica e redução de resíduos por reutilização",
+    "steps": [
+      "O exterior do copo não aquece facilmente apesar do café quente. Isso indica dificuldade de transferência de calor através do material, isto é, baixa condutividade térmica.",
+      "O sistema retornável permite lavar e utilizar o copo novamente. Ao substituir sucessivos copos descartáveis, ele reduz a quantidade de resíduos de plástico não biodegradável descartados.",
+      "As duas vantagens aparecem juntas em D. A presença de casca de café não torna todo o material biodegradável, pois metade da composição é explicitamente um plástico não biodegradável."
+    ],
+    "takeaway": "Baixa condutividade dificulta a passagem de calor. Reutilizar um objeto pode reduzir o descarte sem que o material precise ser totalmente biodegradável."
+  },
+  "2023-131": {
+    "correctAlternative": "A",
+    "concept": "Densidade de soluções e quantidade de soluto",
+    "steps": [
+      "A comparação mantém os demais componentes equivalentes e destaca a diferença entre uma grande massa de açúcar no refrigerante comum e uma massa muito pequena de adoçantes no diet.",
+      "Para volumes iguais de bebida, o açúcar dissolvido torna maior a massa da versão comum. Pela relação \\(\\rho=m/V\\), maior massa por unidade de volume significa maior densidade.",
+      "Por isso, a alternativa A é correta. O texto não atribui à versão comum mais gás dissolvido, e afirmar que ela contém menor massa de solutos contrariaria a informação sobre a grande quantidade de açúcar."
+    ],
+    "takeaway": "Compare densidades por volumes iguais: a solução que contém mais massa nesse volume apresenta maior densidade, segundo \\(\\rho=m/V\\)."
+  }
+}

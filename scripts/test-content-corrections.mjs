@@ -10,7 +10,7 @@ test("official text corrections preserve raw data and answers; changed sources a
   const root = await mkdtemp(path.join(tmpdir(), "enem-corrections-"));
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(path.join(root, "data/enem"), { recursive: true });
-  const original = { year: 2023, index: 99, context: null, alternativesIntroduction: "Incomplete", correctAlternative: "D" };
+  const original = { year: 2023, index: 99, context: null, alternativesIntroduction: "Incomplete", correctAlternative: "D", alternatives: [{ letter: "C", text: "12", isCorrect: false }, { letter: "D", text: "Correct", isCorrect: true }] };
   const snapshot = { questions: [original] };
   const correction = { originalSha256: sha256(JSON.stringify(original)), fields: { context: "Restored context", alternativesIntroduction: "Restored prompt" }, sourceUrl: "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf", sourcePage: 3, reviewedAt: "2026-10-15", reason: "Missing prompt restored from official booklet" };
   const save = () => writeFile(path.join(root, "data/enem/content-corrections.json"), JSON.stringify({ "2023-99": correction }));
@@ -20,6 +20,15 @@ test("official text corrections preserve raw data and answers; changed sources a
   assert.equal(updated.questions[0].correctAlternative, "D");
   assert.equal(updated.questions[0].sourceCorrection.sourcePage, 3);
   assert.equal(original.context, null);
+  correction.fields.alternativeTexts = { C: "13" };
+  await save();
+  const repaired = await correctedSnapshot(root, snapshot);
+  assert.deepEqual(repaired.questions[0].alternatives, [{ letter: "C", text: "13", isCorrect: false }, { letter: "D", text: "Correct", isCorrect: true }]);
+  assert.equal(original.alternatives[0].text, "12");
+  correction.fields.alternativeTexts = { Z: "unlisted" };
+  await save();
+  await assert.rejects(() => correctedSnapshot(root, snapshot), /Invalid alternative text/);
+  delete correction.fields.alternativeTexts;
   correction.fields.correctAlternative = "A";
   await save();
   await assert.rejects(() => correctedSnapshot(root, snapshot), /Invalid text correction/);

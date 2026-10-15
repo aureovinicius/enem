@@ -73,7 +73,7 @@
     {
       "id": "2023-humanas-02",
       "file": "data/enem/explanations/2023-humanas-02.json",
-      "status": "prepared",
+      "status": "published",
       "reviewedAt": "2026-10-15T14:14:01.203Z",
       "reviewNote": "Revisão independente das 20 questões por outro agente: textos, alternativas, gabaritos e imagens das questões 72, 76 e 89 conferidos. Parecer por ID sem erros de interpretação; resoluções não reproduzem imprecisões periféricas do texto da questão 72.",
       "questionIds": [
@@ -99,7 +99,41 @@
         "2023-90"
       ],
       "contentSha256": "f3ad766e4a5dc9e171d9ce7d67f736bd64f7f09ebebea89b8b1f403293b3a78b",
-      "sourceSha256": "20a70e33cabd48c4e0c78b5ea96434b955dd59f6457920c3b3684a8ba8fadc80"
+      "sourceSha256": "20a70e33cabd48c4e0c78b5ea96434b955dd59f6457920c3b3684a8ba8fadc80",
+      "deployment": {
+        "commit": "62786e8c915e7a8c9dbd26b3fcbb2103d757ef3f",
+        "runId": "38749646736",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38749646736",
+        "confirmedAt": "2026-10-15T14:16:04.469Z"
+      }
+    },
+    {
+      "id": "2023-natureza",
+      "file": "data/enem/explanations/2023-natureza.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:17:21.135Z",
+      "reviewNote": "Revisão independente dos 17 itens e das 15 imagens relevantes; cálculos de forças, estequiometria, ondas, gases e tempo refeitos. Questão 99 recuperada e conferida visualmente na página 3 do caderno oficial. Questão 125 delimitada ao modelo cromossômico sem endossar generalização sobre fertilidade.",
+      "questionIds": [
+        "2023-92",
+        "2023-93",
+        "2023-94",
+        "2023-96",
+        "2023-97",
+        "2023-98",
+        "2023-99",
+        "2023-109",
+        "2023-110",
+        "2023-113",
+        "2023-119",
+        "2023-122",
+        "2023-124",
+        "2023-125",
+        "2023-128",
+        "2023-130",
+        "2023-131"
+      ],
+      "contentSha256": "3df4aac92545ff69b25e4beefc67ed43f64356260c2968e28f67c4d29fc628de",
+      "sourceSha256": "525e036bee0bc0527f0a5483f16fae3fad35b730a50e12bc77888f355510f1f0"
     }
   ]
 }

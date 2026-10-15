@@ -49,5 +49,17 @@
     "fields": {
       "context": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.\n\nUm cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00.\n\nUtilize 5,29 como aproximação para \\(\\sqrt{28}\\)."
     }
+  },
+  "2023-143": {
+    "originalSha256": "3bb97154788177c58203910859b8d8c19197740c215f89c78494991195c6bb20",
+    "reason": "A alternativa C é 13 no caderno oficial; a API havia transcrito 12. O gabarito B permanece inalterado.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-15T14:16:23.347Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "13"
+      }
+    }
   }
 }
