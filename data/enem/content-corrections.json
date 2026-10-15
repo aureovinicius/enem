@@ -61,5 +61,99 @@
         "C": "13"
       }
     }
+  },
+  "2022-4-espanhol": {
+    "originalSha256": "71bd651245734d763f3780442d440d4306ecf02b772100c971cad95a8ab29267",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "A API transcreveu 'Descanso' na alternativa A. O caderno oficial apresenta 'descaso', confirmado na extração textual e na imagem da página 4. A correção restaura o sentido original da alternativa sem alterar a letra ou o gabarito.",
+    "reviewedAt": "2026-10-15T14:27:31.426Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "descaso diante da problemática de crianças em situação de rua."
+      }
+    }
+  },
+  "2022-66": {
+    "originalSha256": "39c50f1ca34d90580656461f4f58b83f78db4fdb7e69db7370fafd0496b1938c",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Os dois colchetes são inserções editoriais em prosa, confirmadas visualmente na página26 do caderno oficial. Foram removidos os escapes que seriam interpretados como delimitadores de matemática, e restaurada a palavra conforme transcrita como confome pela API.",
+    "reviewedAt": "2026-10-15T14:27:31.427Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nA primeira grande lei educacional do Brasil, de 1827, determinava que, nas “escolas de primeiras letras” do Império, meninos e meninas estudassem separados e tivessem currículos diferentes. No Senado, o Visconde de Cayru foi um dos defensores de que o currículo de matemática das garotas fosse o mais enxuto possível. Nas palavras dele, o “belo sexo” não tinha capacidade intelectual para ir muito longe: – Sobre as contas, são bastantes [para as meninas] as quatro espécies, que não estão fora do seu alcance e lhes podem ser de constante uso na vida.\n\n**TEXTO II**\n\nNo Senado, o único a defender publicamente que as meninas tivessem, em matemática, um currículo idêntico ao dos meninos foi o Marquês de Santo Amaro (RJ). Ele argumentou: – Não me parece conforme, às luzes do tempo em que vivemos, deixarmos de facilitar às brasileiras a aquisição desses conhecimentos [mais aprofundados de matemática]. A oposição que se manifesta não pode nascer senão do arraigado e péssimo costume em que estavam os antigos, os quais nem queriam que suas filhas aprendessem a ler.\n\nWESTIN, R. Senado Notícias. Disponível em: www12.senado.leg.br. Acesso em: 20 out. 2021 (adaptado)."
+    }
+  },
+  "2022-81": {
+    "originalSha256": "a1e2d561c1e0064973351f1918dfba2ed1284153f04ff5024f621138c4ab3e61",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "O cabeçalho na API contém mês impossível17; a página29 do caderno oficial mostra27/12/1937. A proposta restaura somente a transcrição do mês, preservando o restante do cabeçalho tal como aparece na prova.",
+    "reviewedAt": "2026-10-15T14:27:31.427Z",
+    "fields": {
+      "context": "**Decreto-Lei n. 1 949, de 27/12/1937**\n\nArt. 1.o Fica criado o Departamento de Imprensa e Propaganda (DIP), diretamente  subordinado ao presidente da República.  \nArt. 2.o O DIP tem por fim:  \n**h)** coordenar e incentivar as relações da imprensa com os poderes públicos no sentido de maior aproximação da mesma com os fatos que se ligam aos interesses nacionais;\n\n**n)** autorizar mensalmente a devolução dos depósitos efetuados pelas empresas jornalísticas para importação de papel para imprensa , uma vez demonstrada, a seu juízo, a eficiência e a utilidade pública dos jornais ou periódicos por elas administrados ou dirigidos.\n\n**BRASIL apud CARONE, E. A Terceira República. (1937-1945). São Paulo: Difel, 1982. (Adaptado).**"
+    }
+  },
+  "2022-138": {
+    "originalSha256": "8a45b74fe05a9a4845e83320562b7867593cc53dfa8b19968aa3c6783a892281",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 17,
+    "reason": "A imagem do snapshot não exibe a barra de despesas de janeiro. O gráfico oficial foi conferido visualmente e todos os rótulos, valores e unidades foram transcritos no lugar da figura incompleta.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "context": "O gráfico apresenta os totais de receitas e despesas de uma empresa, expressos em milhão de reais, no  \ndecorrer dos meses de um determinado ano. A empresa obtém lucro quando a diferença entre receita e despesa é positiva e tem prejuízo quando essa diferença é negativa.\n\nDados do gráfico oficial, em milhão de reais:\n\n- Janeiro: receita 6; despesa 3.\n- Fevereiro: receita 4; despesa 5.\n- Março: receita 3; despesa 2.\n- Abril: receita 5; despesa 6.\n- Maio: receita 6; despesa 1.\n- Junho: receita 5; despesa 2.\n- Julho: receita 6; despesa 4.\n- Agosto: receita 2; despesa 4.\n- Setembro: receita 7; despesa 3.\n- Outubro: receita 2; despesa 4.\n- Novembro: receita 8; despesa 7.\n- Dezembro: receita 6; despesa 2."
+    }
+  },
+  "2022-152": {
+    "originalSha256": "7b34d7e5a2b4827c32ade71448bb00506efbdc322480b1f2a002d9f47300c486",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "O snapshot omitiu o parágrafo que informa a largura de 12 m da tela e repetiu a referência bibliográfica em seu lugar. O parágrafo foi restaurado após conferência visual na prova oficial.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "context": "Em uma sala de cinema, para garantir que os espectadores vejam toda a imagem projetada na tela, a disposição das poltronas deve obedecer à norma técnica da Associação Brasileira de Normas Técnicas (ABNT), que faz as seguintes indicações:  \n• Distância mínima (Dmín) entre a tela de projeção e o encosto da poltrona da primeira fileira deve ser de, pelo menos, 60% da largura (L) da tela.  \n• Distância máxima (Dmáx) entre a tela de projeção e o encosto da poltrona da última fileira deve ser o dobro da largura (L) da tela, sendo aceitável uma distância de até 2,9 vezes a largura (L) da tela.  \nPara o espaçamento entre as fileiras de poltronas, é considerada a distância de 1 metro entre os encostos de poltronas em duas fileiras consecutivas.\n\nDisponível em: www.ctav.gov.br. Acesso em: 14 nov. 2013.\n\nUma sala de cinema, cuja largura da tela mede 12 m, está montada em conformidade com as normas da ABNT e tem suas dimensões especificadas na figura.\n\n![](/assets/questions/2022/152/f182fb95-a05f-4d8d-bd7d-bbf7adf3d95b.png)\n\nPretende-se ampliar essa sala, mantendo-se na mesma posição a tela e todas as poltronas já instaladas,  \nampliando-se ao máximo a sala para os fundos (área de instalação de novas poltronas), respeitando-se o limite aceitável da norma da ABNT. A intenção é aumentar, ao máximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais às já instaladas."
+    }
+  },
+  "2022-156": {
+    "originalSha256": "2cc58fa3dd84abbde12e895228f9e55402c8e91f5c493cd7445319371d9b3461",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "O snapshot omitiu a letra M antes da identificação do ponto médio do lado do quadrado. A identificação foi restaurada conforme a prova oficial, conferida visualmente.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "context": "O professor de artes orientou seus estudantes a realizarem a seguinte sequência de atividades:  \n• Dobrar uma folha de papel em formato quadrado duas vezes, em sequência, ao longo das linhas tracejadas, conforme ilustrado nas figuras 1 e 2, para obter o papel dobrado, conforme Figura 3.\n\n![](/assets/questions/2022/156/2b1f4d30-ed72-40af-824d-6d394c9d948d.png)\n\n• Em seguida, no papel dobrado da Figura 3, considerar o ponto _R_, sobre o segmento _OM_, sendo M o ponto médio do lado do quadrado original, de modo que ![](/assets/questions/2022/156/2a89a0e4-1a8b-4b3f-a678-97fa60066bcc.png), traçar um arco de circunferência de raio medindo ![](/assets/questions/2022/156/1665e780-8437-449e-b389-8d9729b2980c.png) com centro no ponto _R_, obtendo a Figura 4. Por último, recortar o papel ao longo do arco de circunferência e excluir a parte que contém o setor circular, obtendo o papel dobrado, conforme Figura 5.\n\n![](/assets/questions/2022/156/bf9a172b-bd1e-4e83-9d95-6bc3fd29eadc.png)"
+    }
+  },
+  "2022-159": {
+    "originalSha256": "b65e4b5e10e589586da04b32258e0072f2026a853910a49f8087f99433807699",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Removido texto estranho de uma ferramenta de OCR, ausente do original oficial. O enunciado, a sequência de treinos e as alternativas foram conferidos visualmente na prova.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "context": "Um atleta iniciou seu treinamento visando as competições de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino ![](/assets/questions/2022/159/1de0b45e-d38b-4536-8661-c1c388ecd03d.png),  treino ![](/assets/questions/2022/159/0ab1a35f-7889-478e-a862-0edb86d335e6.png), treino  ![](/assets/questions/2022/159/8b00bc00-9af3-465a-89f2-3345b604b54b.png), treino ![](/assets/questions/2022/159/14be4d1d-8e19-41a5-bb02-cec32e90d007.png) e treino ![](/assets/questions/2022/159/136e1c72-59e2-41e7-95d7-b55e4ae92da3.png). A sequência dos treinamentos deve seguir esta ordem:\n\n![](/assets/questions/2022/159/1c8945f7-b377-4bf6-9eb8-2a44c3c69e2a.png)\n\nA letra R significa repouso. Após completar a sequência de treinamentos, o atleta começa novamente a sequência a partir do treino ![](/assets/questions/2022/159/660fa349-2c52-41aa-adae-bcd4adaad92e.png), e segue a ordem descrita. Após 24 semanas completas de treinamento, se dará o inicio das competições."
+    }
+  },
+  "2022-176": {
+    "originalSha256": "ac2b5b56d71145d23683c73a51b289b9efe7e382048282397f362366130dbdc1",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "O snapshot continha apenas a figura, omitindo as condições do projeto. O parágrafo introdutório foi transcrito e conferido visualmente no caderno oficial.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "context": "O governo de um estado pretende realizar uma obra de infraestrutura para auxiliar na integração e no processo de escoamento da produção agrícola de duas cidades. O projeto consiste na interligação direta das cidades A e B com a Rodovia 003, pela construção das Rodovias 001 e 002. As duas rodovias serão construídas em linha reta e deverão se conectar à Rodovia 003 em um mesmo ponto, conforme esboço apresentado na figura, na qual estão também indicadas as posições das cidades A e B, considerando o eixo x posicionado sobre a Rodovia 003, e cinco localizações sugeridas para o ponto de conexão entre as três rodovias.\n\n![](/assets/questions/2022/176/eebeabf5-0dec-4070-abd5-f803bb370dd9.png)"
+    }
+  },
+  "2022-129": {
+    "originalSha256": "5c292243e5a4fdb55be4f1ca7bbacf3206201f262b36bf03c90f13d684fe7c04",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 14,
+    "reason": "O caderno oficial do INEP apresenta carga negativa no nitrato da alternativa E; a API omitiu o sinal. Confirmado por extração e leitura visual da página 14, sem alteração da letra correta C.",
+    "reviewedAt": "2026-10-15T14:27:31.428Z",
+    "fields": {
+      "alternativeTexts": {
+        "E": "\\(\\mathrm{NO_3^-}\\)"
+      }
+    }
   }
 }

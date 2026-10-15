@@ -1,0 +1,9 @@
+{
+  "2022-145": {
+    "reason": "O enunciado leva a 10.000 gemas e, pela proporção de 50 moedas por gema, a 500.000 moedas no pacote especial. Esse total não aparece nas alternativas. O gabarito oficial E (400.000) somente corresponde ao acréscimo às 100.000 moedas de um pacote básico, referência não explicitada no comando. Item suspenso da prática pontuada por ambiguidade, sem alterar o gabarito original.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reviewedAt": "2026-10-15",
+    "originalSha256": "d5b7998e8fffa5cb7fc9c9eac558ae3efa974c6b0a83536df91e2aa7aaf9aa4d"
+  }
+}

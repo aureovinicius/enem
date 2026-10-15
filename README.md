@@ -142,7 +142,7 @@ Após uma interrupção, `--next` repete o lote preparado, sem duplicar questõe
 
 Se os arquivos da fonte local estiverem indisponíveis, uma extração da mesma revisão em `.preview/enem-source-materialized/enem-api-COMMIT/public` é reconhecida automaticamente pelo importador. Também é possível indicar uma cópia local verificada por `ENEM_SOURCE_PUBLIC`. Os JSON anuais são conferidos contra o snapshot e sua revisão antes de habilitar o lote.
 
-Resultado da importação de todos os 15 anos: **2.757 registros preservados, 2.704 questões praticáveis, 1.564 adições à seleção original de 1.140 e 53 registros em quarentena**. Cada ano teve uma implantação própria validada pelo GitHub Actions. As imagens foram incorporadas ao pacote local.
+Resultado inicial da importação de todos os 15 anos: **2.757 registros preservados, 2.704 questões praticáveis, 1.564 adições à seleção original de 1.140 e 53 registros em quarentena**. Cada ano teve uma implantação própria validada pelo GitHub Actions. As imagens foram incorporadas ao pacote local. A revisão dos comentários pode identificar outros itens inadequados para prática pontuada; os totais atuais ficam em `imports` e `explanationCoverage` no catálogo.
 
 `catalog.questions` mantém a seleção comentada; `catalog.practiceQuestions` contém apenas novos IDs. Cada curso tem `practiceQuestionIds`, separados dos IDs das lições. O acervo ampliado fica em **Praticar → Matemática, Ciências da Natureza, Ciências Humanas ou Linguagens**; Inglês e Espanhol também recebem os itens com idioma informado. A API não fornece assunto, competência ou comentário, e esses campos não são inventados. Parâmetros TRI são vinculados apenas quando compatíveis com os arquivos oficiais já baixados. Quando há evidência oficial da área, ela prevalece sobre erros de classificação da API, com procedência registrada.
 
@@ -164,6 +164,8 @@ O relatório `imports` em `dist/data/courses.json` contém contagens por ano e I
 `explanationCoverage` no catálogo contém os totais e pendências por ano. Questões já comentadas não são duplicadas. Mudanças no texto revisado ou na questão invalidam o hash e exigem nova conferência.
 
 Quando a API omite um trecho, `data/enem/content-corrections.json` registra restaurações de contexto, comando e texto das alternativas verificadas no PDF oficial, com URL, página, motivo e hash do registro original. O snapshot bruto permanece intacto. As correções são aplicadas antes dos comentários e não podem alterar o gabarito.
+
+Problemas que persistem no próprio caderno oficial são registrados em `data/enem/content-issues.json`, com a evidência e o motivo da suspensão da prática pontuada. Não se cria uma justificativa para forçar um gabarito incompatível com o enunciado; o registro original continua preservado. A questão 2022-145 foi suspensa porque o total de moedas calculado não aparece nas alternativas e a resposta oficial depende de uma referência não explicitada no comando.
 
 O projeto é estático. Sirva a pasta `dist` com qualquer servidor HTTP local:
 
