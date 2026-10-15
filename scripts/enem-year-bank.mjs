@@ -85,9 +85,21 @@ function officialMetadata(question, tri) {
     && (!question.language || unavailable.area === "LC");
   const officialParameterSource = /^https:\/\/download\.inep\.gov\.br\//.test(parameters?.sourceUrl || "") && hasText(parameters?.matchMethod);
   const matched = identityMatches(parameters) && officialParameterSource ? parameters : unavailableMatches ? unavailable : null;
-  const officialArea = matched ? AREA_BY_CODE[matched.area] : null;
+  const yearReport = (tri?.years || []).find(item => item.year === question.year);
+  // An ambiguous foreign-language variant prevents a TRI join, but its area can
+  // still be established from the verified booklet's printed number convention.
+  const areaOrder = question.year === 2009 ? ["CN", "CH", "LC", "MT"]
+    : question.year <= 2016 ? ["CH", "CN", "LC", "MT"] : ["LC", "CH", "CN", "MT"];
+  const numberedArea = Number.isInteger(question.index) && question.index >= 1 && question.index <= 180
+    ? areaOrder[Math.floor((question.index - 1) / 45)] : null;
+  const booklet = yearReport?.areas?.[numberedArea];
+  const verifiedNumberedArea = unavailable?.year === question.year && unavailable.reason === "ambiguous_or_missing_official_item"
+    && unavailable.area === numberedArea && booklet?.sequenceValidated === true
+    && booklet.color === "AZUL" && booklet.application === "regular" && booklet.comparableAnswers >= 30
+    && /^https:\/\/download\.inep\.gov\.br\//.test(yearReport.sourceUrl || "");
+  const officialArea = matched ? AREA_BY_CODE[matched.area] : verifiedNumberedArea ? AREA_BY_CODE[numberedArea] : null;
   const areaId = officialArea || question.discipline;
-  const sourceUrl = matched?.sourceUrl || (tri?.years || []).find(item => item.year === question.year)?.sourceUrl || tri?.sourceIndexUrl || null;
+  const sourceUrl = matched?.sourceUrl || yearReport?.sourceUrl || tri?.sourceIndexUrl || null;
   const validParameters = identityMatches(parameters)
     && [parameters.a, parameters.b, parameters.c, parameters.difficultyScore].every(Number.isFinite)
     && Math.abs(parameters.difficultyScore - (500 + 100 * parameters.b)) < 0.000001

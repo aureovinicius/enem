@@ -100,6 +100,21 @@ test("TRI parameters must match year, number, answer and language and retain off
   assert.ok(result.practiceQuestions.filter(item => ["2023-1-ingles", "2023-2-ingles", "2023-3-ingles", "2023-4-ingles", "2023-8-ingles"].includes(item.id)).every(item => item.areaClassificationSource === "API enem.dev"));
 });
 
+test("a verified booklet fixes the area of an ambiguous language item without inventing its language or TRI", async t => {
+  const f = await fixture(t);
+  f.snapshot.questions = [question(5, { year: 2020, discipline: "ciencias-humanas" })];
+  const tri = { unavailable: { "2020-5": { year: 2020, area: "LC", reason: "ambiguous_or_missing_official_item" } },
+    years: [{ year: 2020, sourceUrl: "https://download.inep.gov.br/microdados/microdados_enem_2020.zip",
+      areas: { LC: { sequenceValidated: true, color: "AZUL", application: "regular", comparableAnswers: 49 } } }] };
+  const result = await f.run({ years: [2020], tri });
+  assert.equal(result.practiceQuestions[0].areaId, "linguagens");
+  assert.equal(result.practiceQuestions[0].sourceAreaId, "ciencias-humanas");
+  assert.equal(result.practiceQuestions[0].language, null);
+  assert.equal(result.practiceQuestions[0].tri, null);
+  tri.years[0].areas.LC.sequenceValidated = false;
+  assert.equal((await f.run({ years: [2020], tri })).practiceQuestions[0].areaClassificationSource, "API enem.dev");
+});
+
 test("official cancellation and wrong keys are excluded, while nonconvergent TRI remains usable", async t => {
   const f = await fixture(t);
   f.snapshot.questions = [question(1), question(2), question(3), question(4)];
