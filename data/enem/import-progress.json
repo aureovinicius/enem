@@ -85,7 +85,7 @@
     },
     {
       "year": 2020,
-      "status": "prepared",
+      "status": "published",
       "preparedAt": "2026-10-15T13:14:51.809Z",
       "sourceSha256": "d2ee49240c2a1da4bf75b0e3ebd046ed425c17c2f6c8472fd3666aae3f2eb3c0",
       "rawTotal": 182,
@@ -94,6 +94,26 @@
         "total": 182,
         "existing": 101,
         "added": 79,
+        "excluded": 2
+      },
+      "deployment": {
+        "commit": "54a52872e2f0f10cf8c1e60db0d15fff2cb58a1d",
+        "runId": "38741096745",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38741096745",
+        "confirmedAt": "2026-10-15T13:16:24.141Z"
+      }
+    },
+    {
+      "year": 2019,
+      "status": "prepared",
+      "preparedAt": "2026-10-15T13:16:26.652Z",
+      "sourceSha256": "db9d287cca4a4f3df75de539519716c69c5b8f870518703ae11275dd6bfa630d",
+      "rawTotal": 181,
+      "result": {
+        "year": 2019,
+        "total": 181,
+        "existing": 85,
+        "added": 94,
         "excluded": 2
       }
     }
