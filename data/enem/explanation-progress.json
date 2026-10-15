@@ -144,7 +144,7 @@
     {
       "id": "2023-matematica-01",
       "file": "data/enem/explanations/2023-matematica-01.json",
-      "status": "prepared",
+      "status": "published",
       "reviewedAt": "2026-10-15T14:19:46.861Z",
       "reviewNote": "Revisão independente das 15 resoluções, imagens e cálculos; textos recuperados das questões 141, 142 e 146 conferidos nas páginas 18 e 19 do caderno oficial. Verificados semelhança, volumes, probabilidade ponderada, PA, escalas, porcentagens, trigonometria e logaritmos. Fórmulas validadas pelo KaTeX.",
       "questionIds": [
@@ -165,7 +165,38 @@
         "2023-155"
       ],
       "contentSha256": "146a2566855b06f3c66af2b9d90352727a64cf60eda0ccf06b36a18be2bd35e3",
-      "sourceSha256": "07acfe0651511f13e16c354bde62b8aaad78037699bb2777d3a65d5ba95d7e1b"
+      "sourceSha256": "07acfe0651511f13e16c354bde62b8aaad78037699bb2777d3a65d5ba95d7e1b",
+      "deployment": {
+        "commit": "5f25957d253ed5806eed25ab53d61457dcc199cf",
+        "runId": "38750426183",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38750426183",
+        "confirmedAt": "2026-10-15T14:21:42.162Z"
+      }
+    },
+    {
+      "id": "2023-matematica-02",
+      "file": "data/enem/explanations/2023-matematica-02.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:22:06.614Z",
+      "reviewNote": "Revisão independente das 14 resoluções, imagens e cálculos de geometria, estatística, combinatória, financiamento, logaritmos e sequências. A aproximação da raiz de 28 da questão 161 foi conferida na página 24 do caderno oficial. Nenhum erro nas resoluções; fórmulas validadas por KaTeX.",
+      "questionIds": [
+        "2023-156",
+        "2023-157",
+        "2023-159",
+        "2023-160",
+        "2023-161",
+        "2023-163",
+        "2023-165",
+        "2023-169",
+        "2023-170",
+        "2023-173",
+        "2023-176",
+        "2023-177",
+        "2023-178",
+        "2023-179"
+      ],
+      "contentSha256": "cfbc63ea311a269068b5b5bbb73bf10243273888d48a45a71dd605712b438cbb",
+      "sourceSha256": "112369fe05c79a644c24768e9725d617cdef82153abd2a912e606341b6fc7662"
     }
   ]
 }

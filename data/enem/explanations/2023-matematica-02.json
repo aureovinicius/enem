@@ -1,0 +1,149 @@
+{
+  "2023-156": {
+    "correctAlternative": "A",
+    "concept": "A ausência de sinal corresponde aos intervalos em que a intensidade permanece igual a zero.",
+    "steps": [
+      "No gráfico, a linha coincide com o eixo do tempo entre 10 e 12 minutos. Esse primeiro intervalo sem sinal dura \\(12-10=2\\) minutos.",
+      "O segundo intervalo com intensidade zero vai de 16 a 20 minutos. Sua duração é \\(20-16=4\\) minutos.",
+      "Somando os dois intervalos, o tempo total sem internet é \\(2+4=6\\) minutos, alternativa A. Nos demais trechos, mesmo quando o sinal é fraco ou diminui, sua intensidade é positiva."
+    ],
+    "takeaway": "Para obter uma duração no gráfico, subtraia os tempos das extremidades de cada intervalo e some as durações relevantes."
+  },
+  "2023-157": {
+    "correctAlternative": "B",
+    "concept": "É necessário contar os pontos que satisfazem simultaneamente as duas condições e dividir pelo total de estudantes.",
+    "steps": [
+      "A massa está no eixo horizontal e a altura no vertical. As condições pedem pontos à esquerda de \\(80\\,\\text{kg}\\) e acima de \\(1{,}65\\,\\text{m}\\).",
+      "Entre os dez pontos, apenas dois estão nessa região: os que têm alturas próximas de \\(1{,}68\\,\\text{m}\\) e \\(1{,}70\\,\\text{m}\\), ambos com massa inferior a 80 kg. Os pontos exatamente em 1,65 m não satisfazem a condição de altura maior que a média.",
+      "A porcentagem procurada é \\((2/10)\\cdot100\\%=20\\%\\), correspondente à alternativa B."
+    ],
+    "takeaway": "Em gráficos de dispersão, delimite a região que atende às duas condições e respeite a diferença entre maior que e maior ou igual."
+  },
+  "2023-159": {
+    "correctAlternative": "D",
+    "concept": "A população de larvas cresce por um fator constante a cada intervalo de três dias.",
+    "steps": [
+      "Cada litro do produto atende a 200 000 larvas. Para usar exatamente os 5 litros, a população na lavoura deve chegar a \\(5\\cdot200000=1000000\\) larvas.",
+      "Partindo de 100 larvas, a sequência a cada três dias é \\(100\\), \\(1000\\), \\(10000\\), \\(100000\\) e \\(1000000\\). São necessárias quatro multiplicações por 10.",
+      "Cada multiplicação corresponde a três dias. Portanto, o tempo até a população desejada é \\(4\\cdot3=12\\) dias, alternativa D."
+    ],
+    "takeaway": "Identifique quantos fatores de crescimento são necessários para atingir a população-alvo e multiplique pela duração de cada período."
+  },
+  "2023-160": {
+    "correctAlternative": "A",
+    "concept": "Quanto maior o número de senhas possíveis dentro de uma estrutura, menor a probabilidade de acertar uma delas em uma tentativa ao acaso.",
+    "steps": [
+      "Há \\(10+26+26+6=68\\) caracteres permitidos, incluindo 52 letras. Como os caracteres de cada senha são distintos e sua ordem importa, conte as escolhas disponíveis em cada posição.",
+      "No tipo I, há quatro posições sem restrição de categoria: \\(N_1=68\\cdot67\\cdot66\\cdot65=19545240\\) senhas.",
+      "No tipo II, as três primeiras posições são letras distintas, seguidas de um algarismo e um caractere especial: \\(N_2=52\\cdot51\\cdot50\\cdot10\\cdot6=7956000\\).",
+      "No tipo III, há duas letras, dois algarismos e dois caracteres especiais, distintos em suas categorias: \\(N_3=52\\cdot51\\cdot10\\cdot9\\cdot6\\cdot5=7160400\\).",
+      "Como \\(N_1>N_2>N_3\\) e \\(p_i=1/N_i\\), temos \\(p_1<p_2<p_3\\). A senha do tipo I tem a menor probabilidade de descoberta, alternativa A."
+    ],
+    "takeaway": "Compare o número total de possibilidades, considerando as restrições de posição e a proibição de repetir caracteres; o comprimento sozinho não decide."
+  },
+  "2023-161": {
+    "correctAlternative": "D",
+    "concept": "A taxa de juros compostos deve tornar o valor atual das parcelas igual ao preço à vista, respeitando as datas de pagamento.",
+    "steps": [
+      "O preço parcelado é \\(1500\\cdot1{,}20=1800\\) reais, dividido em três parcelas de \\(1800/3=600\\) reais. A primeira é paga no ato, restando \\(1500-600=900\\) reais efetivamente financiados.",
+      "Se i é a taxa mensal, as parcelas de 30 e 60 dias têm valores atuais \\(600/(1+i)\\) e \\(600/(1+i)^2\\). Logo, \\(900=600/(1+i)+600/(1+i)^2\\).",
+      "Definindo \\(x=1+i\\) e multiplicando a igualdade por \\(x^2\\), obtemos \\(900x^2=600x+600\\), ou \\(3x^2-2x-2=0\\).",
+      "A raiz positiva é \\(x=(2+\\sqrt{28})/6\\). Com a aproximação fornecida, \\(x\\approx(2+5{,}29)/6=1{,}215\\).",
+      "Assim, \\(i=x-1=0{,}215=21{,}5\\%\\) ao mês, alternativa D. O acréscimo de 20% sobre o preço à vista não é a taxa mensal desse fluxo de parcelas."
+    ],
+    "takeaway": "Coloque todos os pagamentos na mesma data: a parcela paga no ato reduz o valor financiado, e cada parcela futura tem seu próprio período de desconto."
+  },
+  "2023-163": {
+    "correctAlternative": "A",
+    "concept": "O gráfico mostra a distância até a base, não a distância total percorrida. Uma distância constante até a base pode ocorrer durante um movimento circular.",
+    "steps": [
+      "Nos primeiros 10 minutos, a distância à base aumenta de 0 para 3 km. A representação deve começar na base e seguir um segmento que se afasta dela, com variação de \\(3/10=0{,}3\\,\\text{km/min}\\).",
+      "De 10 a 20 minutos, a distância à base permanece em 3 km. Como o vigilante continua se movendo, esse trecho é um arco de circunferência com centro na base e raio de 3 km.",
+      "De 20 a 30 minutos, a distância cai de 3 km para zero. O último trecho deve voltar à base. A alternativa A reúne os dois segmentos radiais e o arco intermediário.",
+      "A alternativa E também contém um arco, mas ele é uma semicircunferência: seu comprimento seria \\(3\\pi\\,\\text{km}\\), maior que os 3 km de cada trecho radial. Com velocidade constante, ele não poderia durar os mesmos 10 minutos. Portanto, a representação compatível é A."
+    ],
+    "takeaway": "Uma linha horizontal no gráfico de distância até um ponto significa manter a distância desse ponto; para decidir o trajeto, considere também o movimento e os tempos."
+  },
+  "2023-165": {
+    "correctAlternative": "E",
+    "concept": "A área revestida é a soma das áreas dos três pisos, dos três espelhos e das duas faces laterais em forma de escada.",
+    "steps": [
+      "Cada piso mede \\(1{,}0\\,\\text{m}\\) por \\(0{,}25\\,\\text{m}\\). Os três pisos somam \\(A_p=3\\cdot1{,}0\\cdot0{,}25=0{,}75\\,\\text{m}^2\\).",
+      "Cada espelho mede \\(1{,}0\\,\\text{m}\\) por \\(0{,}20\\,\\text{m}\\). Os três espelhos somam \\(A_e=3\\cdot1{,}0\\cdot0{,}20=0{,}60\\,\\text{m}^2\\).",
+      "Divida uma lateral em três faixas de largura 0,25 m, com alturas 0,20 m, 0,40 m e 0,60 m. Sua área é \\(0{,}25(0{,}20+0{,}40+0{,}60)=0{,}30\\,\\text{m}^2\\). As duas laterais somam \\(0{,}60\\,\\text{m}^2\\).",
+      "A área total pedida é \\(0{,}75+0{,}60+0{,}60=1{,}95\\,\\text{m}^2\\), alternativa E. A base apoiada no chão e a face junto à parede não fazem parte das superfícies indicadas para revestimento."
+    ],
+    "takeaway": "Separe as faces que serão revestidas e decomponha cada lateral em retângulos, usando as alturas acumuladas dos degraus."
+  },
+  "2023-169": {
+    "correctAlternative": "D",
+    "concept": "A intensidade luminosa forma uma progressão geométrica em relação aos metros de profundidade.",
+    "steps": [
+      "O esquema apresenta \\(L_0\\) na superfície, \\((2/3)L_0\\) a 1 m, \\((4/9)L_0\\) a 2 m e \\((8/27)L_0\\) a 3 m. Cada novo metro multiplica a intensidade por \\(2/3\\).",
+      "A profundidade de 6 m corresponde a seis multiplicações a partir da superfície. Logo, \\(L(6)=L_0(2/3)^6\\).",
+      "Calculando as potências, \\(2^6=64\\) e \\(3^6=729\\). Portanto, \\(L(6)=(64/729)L_0\\), expressão da alternativa D."
+    ],
+    "takeaway": "Quando a quantidade mantém a mesma razão a cada etapa, use uma potência do fator de variação; a superfície corresponde ao expoente zero."
+  },
+  "2023-170": {
+    "correctAlternative": "D",
+    "concept": "O menor valor de uma função quadrática com coeficiente positivo no termo quadrático ocorre no vértice, se ele estiver no intervalo considerado.",
+    "steps": [
+      "A receita diária é \\(V(x)=x^2/4-10x+105\\), em milhares de reais, com \\(1\\leq x\\leq30\\). Completando o quadrado, \\(V(x)=(x-20)^2/4+5\\).",
+      "O termo \\((x-20)^2/4\\) é sempre não negativo e vale zero quando \\(x=20\\). Esse dia pertence ao intervalo do mês, então a menor receita é \\(V_0=V(20)=5\\) milhares de reais.",
+      "Na tabela, a categoria Ruim corresponde a \\(4\\leq V_0<10\\). Como \\(4\\leq5<10\\), o desempenho é classificado como Ruim, alternativa D."
+    ],
+    "takeaway": "Encontre o mínimo da função dentro do domínio e compare seu valor com os intervalos da tabela na mesma unidade."
+  },
+  "2023-173": {
+    "correctAlternative": "B",
+    "concept": "A unidade de uma razão é obtida dividindo a unidade do numerador pela unidade do denominador.",
+    "steps": [
+      "O consumo de oxigênio é dado em mililitros por minuto, portanto sua unidade é \\(\\text{mL}/\\text{min}\\).",
+      "A economia de corrida divide esse consumo pela massa do atleta, medida em quilogramas: \\([EC]=(\\text{mL}/\\text{min})/\\text{kg}\\).",
+      "Dividir novamente por kg equivale a colocá-lo no denominador junto com o minuto: \\([EC]=\\text{mL}/(\\text{min}\\cdot\\text{kg})\\). Essa é a unidade mostrada na alternativa B."
+    ],
+    "takeaway": "Em uma divisão sucessiva, as unidades pelas quais se divide ficam multiplicadas no denominador."
+  },
+  "2023-176": {
+    "correctAlternative": "E",
+    "concept": "As quantidades acrescentadas entre números pentagonais consecutivos crescem de três em três.",
+    "steps": [
+      "A figura fornece os seis primeiros números: \\(1,5,12,22,35,51\\). As diferenças consecutivas são \\(4,7,10,13,16\\).",
+      "Esses acréscimos formam uma progressão aritmética de razão 3. Os dois próximos acréscimos são \\(16+3=19\\) e \\(19+3=22\\).",
+      "O sétimo número é \\(51+19=70\\), e o oitavo é \\(70+22=92\\). Portanto, a alternativa correta é E."
+    ],
+    "takeaway": "Quando a sequência não cresce por uma diferença fixa, examine a sequência das diferenças e identifique seu padrão."
+  },
+  "2023-177": {
+    "correctAlternative": "A",
+    "concept": "A altura em um movimento circular uniforme varia de forma senoidal, repetindo-se a cada volta.",
+    "steps": [
+      "A cadeira começa no ponto mais alto. Se H é a altura do centro da roda e R seu raio, a altura inicial é \\(h(0)=H+R\\), o valor máximo.",
+      "Com velocidade angular constante \\(\\omega\\), a altura pode ser escrita como \\(h(t)=H+R\\cos(\\omega t)\\). Ela diminui suavemente até \\(H-R\\) após meia volta e volta ao máximo ao completar uma volta.",
+      "O gráfico deve ser periódico, começar no máximo e ter topos e vales arredondados, sem trechos retos nem mudanças bruscas de direção. A alternativa A tem essas características; as demais apresentam segmentos retos ou pontas."
+    ],
+    "takeaway": "A projeção vertical de um movimento circular uniforme é uma curva senoidal; use a posição inicial para escolher a fase correta."
+  },
+  "2023-178": {
+    "correctAlternative": "B",
+    "concept": "O volume acumulado cresce enquanto a torneira fornece água e permanece constante enquanto ela está fechada.",
+    "steps": [
+      "Se q é a vazão constante em litros por segundo, entre 0 e 3 segundos o volume é \\(V(t)=qt\\). O gráfico sobe em linha reta e chega a \\(V(3)=3q\\).",
+      "A torneira permanece fechada por cinco segundos, de \\(t=3\\) a \\(t=8\\). Nenhuma água nova é acrescentada, mas a já liberada continua no total: \\(V(t)=3q\\) nesse intervalo.",
+      "De 8 a 11 segundos, a torneira volta a fornecer água com a mesma vazão. Assim, \\(V(t)=3q+q(t-8)\\), e o volume final é \\(V(11)=6q\\).",
+      "O gráfico correto tem dois segmentos crescentes com a mesma inclinação, separados por um patamar horizontal de 3 a 8 segundos, sem queda de volume. Essa é a alternativa B."
+    ],
+    "takeaway": "Não confunda vazão com volume acumulado: ao fechar a torneira, a vazão zera, mas o volume acumulado fica constante."
+  },
+  "2023-179": {
+    "correctAlternative": "C",
+    "concept": "O padrão de contagem combina grupos de dois com uma unidade adicional quando o número é ímpar.",
+    "steps": [
+      "O quadrinho associa urapum a 1 e okosa a 2. Os exemplos \\(3=2+1\\), \\(4=2+2\\) e \\(6=2+2+2\\) mostram que a representação prioriza pares, acrescentando urapum ao final quando sobra uma unidade.",
+      "Como \\(5=2+2+1\\), a representação de cinco é okosa okosa urapum.",
+      "Como \\(7=2+2+2+1\\), a representação de sete é okosa okosa okosa urapum. O par de representações aparece na alternativa C."
+    ],
+    "takeaway": "Use todos os exemplos para reconhecer a regra de escrita; uma soma equivalente não basta se ela não segue o padrão apresentado."
+  }
+}

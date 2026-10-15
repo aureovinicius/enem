@@ -4,6 +4,7 @@ import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { buildYearBank } from "./enem-year-bank.mjs";
+import { sha256 } from "./enem-explanations.mjs";
 
 function question(index, extra = {}) {
   return {
@@ -18,6 +19,21 @@ function parameters(index, extra = {}) {
   return { year: 2023, questionNumber: index, officialAnswer: "A", language: null, area: "CN", a: 1.2, b: 0.4, c: 0.2, difficultyScore: 540,
     sourceUrl: "https://download.inep.gov.br/microdados/microdados_enem_2023.zip", matchMethod: "verified_fixture", ...extra };
 }
+
+test("a reviewed ambiguity excludes an item without changing the preserved source or answer", async t => {
+  const f = await fixture(t);
+  const original = question(145);
+  f.snapshot.questions = [original];
+  const before = JSON.stringify(original);
+  const issue = { originalSha256: sha256(before), reason: "Question has two incompatible interpretations", sourceUrl: "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf", sourcePage: 20, reviewedAt: "2026-10-15" };
+  await f.write("data/enem/content-issues.json", { "2023-145": issue });
+  const result = await f.run();
+  assert.equal(result.practiceQuestions.length, 0);
+  assert.equal(result.imports.excluded[0].id, "2023-145");
+  assert.equal(JSON.stringify(original), before);
+  original.context = "A different item";
+  await assert.rejects(f.run, /content issue source changed/);
+});
 
 async function fixture(t) {
   const root = await mkdtemp(path.join(tmpdir(), "enem-year-bank-"));

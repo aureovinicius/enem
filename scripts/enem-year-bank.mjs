@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, realpath, stat } from "node:fs/promises";
 import path from "node:path";
+import { sha256 } from "./enem-explanations.mjs";
 
 const AREAS = {
   "ciencias-natureza": { code: "CN", title: "Ciências da Natureza" },
@@ -29,7 +30,7 @@ function contentExclusion(id, reason) {
   return /(?:enunciado|contexto|texto|dado|imagem|figura|equacao|alternativa|gabarito|conteudo).*(?:omit|falta|ausen|inconsisten|identic|incomplet|invalid|corrompid)|(?:falta|ausen|omit).*(?:enunciado|contexto|texto|dado|imagem|figura|equacao|alternativa)|nao contem o contexto|apenas quatro alternativas/.test(text);
 }
 
-async function editorialExclusions(root) {
+async function editorialExclusions(root, snapshot) {
   const exclusions = new Map();
   const add = (id, reason) => {
     if (contentExclusion(id, reason)) exclusions.set(id, [...new Set([...(exclusions.get(id) || []), reason])]);
@@ -42,6 +43,14 @@ async function editorialExclusions(root) {
   for (const file of files.filter(name => /^explanations-.*\.json$/.test(name))) {
     const explanations = await optionalJSON(path.join(root, "data/learning", file));
     for (const [id, explanation] of Object.entries(explanations || {})) add(id, explanation?.excludeReason || explanation?.exclReason);
+  }
+  const issues = await optionalJSON(path.join(root, "data/enem/content-issues.json"));
+  for (const [id, issue] of Object.entries(issues || {})) {
+    const original = snapshot.questions.find(q => questionId(q) === id);
+    if (!original || issue.originalSha256 !== sha256(JSON.stringify(original))) throw new Error(`Reviewed content issue source changed: ${id}`);
+    if (!hasText(issue.reason) || !Number.isFinite(Date.parse(issue.reviewedAt)) || !Number.isInteger(issue.sourcePage) || issue.sourcePage < 1
+      || !/^https:\/\/download\.inep\.gov\.br\/enem\/provas_e_gabaritos\/[^/]+\.pdf$/.test(issue.sourceUrl || "")) throw new Error(`Unverified content issue: ${id}`);
+    exclusions.set(id, [...(exclusions.get(id) || []), issue.reason]);
   }
   return exclusions;
 }
@@ -193,7 +202,7 @@ export async function buildYearBank({ root, snapshot, curatedQuestions, courses,
   const enabledYears = [...new Set(years)].sort((a, b) => a - b);
   const enabled = new Set(enabledYears);
   const existingIds = new Set(curatedQuestions.map(question => question.id));
-  const editorial = await editorialExclusions(root);
+  const editorial = await editorialExclusions(root, snapshot);
   const grouped = new Map();
   for (const question of snapshot.questions) {
     if (!question || !enabled.has(question.year)) continue;
