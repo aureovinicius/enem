@@ -3,6 +3,7 @@ import { readFile, writeFile, mkdir, cp, access } from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { buildYearBank } from "./enem-year-bank.mjs";
+import { applyExplanationBatches, explanationCoverage } from "./enem-explanations.mjs";
 
 const root = process.cwd();
 const sourcePublic = process.env.ENEM_SOURCE_PUBLIC || path.join(root, "data/enem-source/public");
@@ -183,6 +184,7 @@ for (const asset of assetPaths) {
 const importProgress = await read("data/enem/import-progress.json");
 const bank = await buildYearBank({ root, sourcePublic, snapshot, curatedQuestions: questions, courses, tri,
   years: importProgress.batches.map(batch => batch.year) });
+await applyExplanationBatches({ root, questions: bank.practiceQuestions, sourceQuestions: snapshot.questions });
 const payload = {
   schemaVersion: 2, source: snapshot.source, sourceRepository: snapshot.sourceRepository,
   rawTotal: snapshot.total, years: snapshot.years, generatedAt: new Date().toISOString(),
@@ -191,6 +193,7 @@ const payload = {
     sourceIndexUrl: tri.sourceIndexUrl || null, years: (tri.years || []).map(({ year, sourceUrl, matched, unavailable }) => ({ year, sourceUrl, matched, unavailable })) },
   method: "Seleção editorial de questões íntegras com resoluções próprias. A associação a competência e habilidade é editorial; os enunciados de referência são do INEP.",
   courses, questions, practiceQuestions: bank.practiceQuestions, imports: bank.imports,
+  explanationCoverage: explanationCoverage([...questions, ...bank.practiceQuestions]),
 };
 await mkdir(path.join(root, "dist/data"), { recursive: true });
 await writeFile(path.join(root, "dist/data/courses.json"), JSON.stringify(payload) + "\n");

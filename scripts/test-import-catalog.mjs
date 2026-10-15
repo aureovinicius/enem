@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
+import { applyExplanationBatches, explanationCoverage } from "./enem-explanations.mjs";
 
 const read = path => JSON.parse(readFileSync(path, "utf8"));
 const catalog = read("dist/data/courses.json");
@@ -30,7 +31,10 @@ test("all newly imported questions retain source answers, local media and honest
     const source = original.get(q.id);
     assert.ok(source, q.id);
     assert.equal(q.correctAlternative, source.correctAlternative, q.id);
-    assert.equal(q.explanation, null, q.id);
+    if (q.explanation) {
+      assert.equal(q.explanationReview?.kind, "editorial", q.id);
+      assert.ok(q.explanation.concept && q.explanation.takeaway && q.explanation.steps.length >= 3, q.id);
+    } else assert.equal(q.explanation, null, q.id);
     assert.equal(q.competency, null, q.id);
     assert.equal(q.skill, null, q.id);
     assert.ok(q.imported && enabledYear(q.year), q.id);
@@ -45,3 +49,11 @@ test("all newly imported questions retain source answers, local media and honest
   }
 });
 function enabledYear(year) { return progress.batches.some(b => b.year === year); }
+
+test("published comments exactly match reviewed batches and their source snapshots", async () => {
+  const expected = catalog.practiceQuestions.map(q => ({ ...q, explanation: null }));
+  for (const q of expected) delete q.explanationReview;
+  await applyExplanationBatches({ root: process.cwd(), questions: expected, sourceQuestions: raw.questions });
+  assert.deepEqual(expected, catalog.practiceQuestions);
+  assert.deepEqual(catalog.explanationCoverage, explanationCoverage([...catalog.questions, ...expected]));
+});

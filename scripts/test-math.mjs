@@ -75,7 +75,7 @@ test("all editorial expressions parse with local KaTeX and balanced explicit del
     }
   }
   for (const course of catalog.courses) for (const module of course.modules) visit(module.introduction, module.id);
-  for (const question of catalog.questions) visit(question.explanation, question.id);
+  for (const question of [...catalog.questions, ...catalog.practiceQuestions]) visit(question.explanation, question.id);
   assert.ok(count > 100, "The catalog must contain reviewed mathematical notation, not only a renderer");
 });
 

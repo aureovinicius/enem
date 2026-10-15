@@ -29,8 +29,8 @@ function harness(scope = "https://example.test/enem/") {
   const calls = [];
   const failures = { open: false, put: false };
   const prefix = `enem:${encodeURIComponent(scope)}:`;
-  const core = `${prefix}pwa-14-enem-complete:core`;
-  const resources = `${prefix}pwa-14-enem-complete:resources`;
+  const core = `${prefix}pwa-15-comments-01:core`;
+  const resources = `${prefix}pwa-15-comments-01:resources`;
   let network = request => contentFor(new URL(typeof request === "string" ? request : request.url));
   let claims = 0;
   let skips = 0;
@@ -92,7 +92,7 @@ for (const scope of ["https://example.test/", "https://example.test/enem/"]) {
     app.network(() => { throw new TypeError("Offline"); });
     assert.equal(await (await app.fetch("./", { mode: "navigate" })).text(), APP_HTML);
     assert.equal(await (await app.fetch("index.html", { mode: "navigate" })).text(), APP_HTML);
-    for (const path of ["practice-session.js?v=pwa-14-enem-complete", "app.js?v=pwa-14-enem-complete", "styles.css?v=pwa-14-enem-complete", "pwa.js?v=pwa-14-enem-complete", "data/courses.json?v=pwa-14-enem-complete", "vendor/katex/katex.min.js", "vendor/katex/katex.min.css", ...FONT_FILES.map(name => `vendor/katex/fonts/${name}`)]) {
+    for (const path of ["practice-session.js?v=pwa-15-comments-01", "app.js?v=pwa-15-comments-01", "styles.css?v=pwa-15-comments-01", "pwa.js?v=pwa-15-comments-01", "data/courses.json?v=pwa-15-comments-01", "vendor/katex/katex.min.js", "vendor/katex/katex.min.css", ...FONT_FILES.map(name => `vendor/katex/fonts/${name}`)]) {
       assert.equal((await app.fetch(path)).status, 200);
     }
   });
@@ -122,7 +122,7 @@ test("failed precache never replaces an existing version with authentication HTM
     response("Forbidden", "text/html", { status: 403 }),
   ]) {
     const app = harness();
-    const old = app.core.replace("pwa-14-enem-complete", "pwa-0");
+    const old = app.core.replace("pwa-15-comments-01", "pwa-0");
     app.buckets.set(old, new Map([[app.scope, response(APP_HTML, "text/html")]]));
     app.network(request => request.url === app.scope ? result : contentFor(new URL(request.url)));
     await assert.rejects(app.dispatch("install"), /shell unavailable/);
@@ -130,7 +130,7 @@ test("failed precache never replaces an existing version with authentication HTM
     assert.ok(!app.buckets.has(app.core));
   }
   const app = harness();
-  const old = app.core.replace("pwa-14-enem-complete", "pwa-0");
+  const old = app.core.replace("pwa-15-comments-01", "pwa-0");
   app.buckets.set(old, new Map());
   app.failures.put = true;
   await assert.rejects(app.dispatch("install"), /Quota exceeded/);
@@ -194,7 +194,7 @@ test("storage read and write failures do not block available network resources",
 
 test("activation removes only old caches for this exact scope and leaves other applications untouched", async () => {
   const app = harness();
-  const old = app.core.replace("pwa-14-enem-complete", "pwa-0");
+  const old = app.core.replace("pwa-15-comments-01", "pwa-0");
   const root = harness("https://example.test/").core;
   const sibling = harness("https://example.test/enem-other/").core;
   for (const name of [old, app.core, app.resources, root, sibling, "unrelated-cache"]) app.buckets.set(name, new Map());

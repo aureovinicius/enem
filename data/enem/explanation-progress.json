@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-15",
+  "initialExplained": 1140,
+  "initialPending": 1564,
+  "method": "Resoluções didáticas próprias, conferidas contra enunciado, imagens e alternativas antes de habilitar cada lote. Não são comentários oficiais do INEP.",
+  "batches": [
+    {
+      "id": "2023-linguagens",
+      "file": "data/enem/explanations/2023-linguagens.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:05:25.424Z",
+      "reviewNote": "Revisão independente das 11 questões, dos cinco distratores e do vínculo com o gabarito; imagens 2023-1-ingles e 2023-33 inspecionadas. Explicações apoiadas no texto da prova, inclusive regra histórica da questão 40.",
+      "questionIds": [
+        "2023-1-ingles",
+        "2023-2-espanhol",
+        "2023-6",
+        "2023-30",
+        "2023-32",
+        "2023-33",
+        "2023-35",
+        "2023-37",
+        "2023-40",
+        "2023-41",
+        "2023-42"
+      ],
+      "contentSha256": "a385e51b22eb191cf0f2f536f7996d278afa618a9d818b1003bfc459e5c59fd7",
+      "sourceSha256": "a97e318aa6a9a603f870644e3120a27654e030a600eaa686cbb07d4580b5fbbf"
+    }
+  ]
+}
