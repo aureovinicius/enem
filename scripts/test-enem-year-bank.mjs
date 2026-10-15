@@ -207,6 +207,17 @@ test("missing images, broken placeholders, remote-only images and traversal path
   assert.ok(result.imports.excluded.every(item => item.reasons.some(reason => /imagem|Imagem/.test(reason))));
 });
 
+test("bibliographic image URLs remain text while actual displayed images are copied locally", async t => {
+  const f = await fixture(t);
+  await f.write("data/enem-source/public/2023/questions/1/figure.png", "local figure");
+  const context = "![](https://enem.dev/2023/questions/1/figure.png)\nFigura 1 — http://reference.example/photograph.jpg";
+  f.snapshot.questions = [question(1, { context })];
+  const result = await f.run();
+  assert.equal(result.imports.excluded.length, 0);
+  assert.match(result.practiceQuestions[0].context, /\/assets\/questions\/2023\/1\/figure.png/);
+  assert.match(result.practiceQuestions[0].context, /http:\/\/reference.example\/photograph.jpg/);
+});
+
 test("conflicting duplicate IDs are excluded while curated IDs and source identity stay unchanged", async t => {
   const f = await fixture(t);
   const one = question(1);

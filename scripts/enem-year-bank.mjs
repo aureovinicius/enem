@@ -134,7 +134,7 @@ function imageReferences(question) {
     if (typeof text !== "string") continue;
     for (const match of text.matchAll(/!\[[^\]]*\]\(\s*<?([^\s)>]+)>?(?:\s+["'][^"']*["'])?\s*\)/g)) references.add(match[1]);
     for (const match of text.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi)) references.add(match[1]);
-    for (const match of text.matchAll(/(?:https?:\/\/|\/assets\/questions\/)[^\s"'<>\\)]+\.(?:png|jpe?g|webp|gif|svg|avif)(?:[?#][^\s"'<>\\)]+)?/gi)) references.add(match[0]);
+    // Plain URLs in bibliographic citations are text, not required image assets.
   }
   return { references, reasons };
 }

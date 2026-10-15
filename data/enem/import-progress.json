@@ -313,9 +313,17 @@
         "year": 2009,
         "total": 179,
         "existing": 86,
-        "added": 90,
-        "excluded": 3
-      }
+        "added": 91,
+        "excluded": 2
+      },
+      "previousDeployments": [
+        {
+          "commit": "9c39d64ff4b5b7af5d8f63303ff8ecacff0f7e1c",
+          "runId": "38743405451",
+          "url": "https://github.com/aureovinicius/enem/actions/runs/38743405451",
+          "confirmedAt": "2026-10-15T13:32:40.513Z"
+        }
+      ]
     }
   ]
 }

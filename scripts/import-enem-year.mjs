@@ -23,7 +23,8 @@ if (arg === "--status") {
   if (run.headBranch !== "main" || run.status !== "completed" || run.conclusion !== "success" || !run.jobs.some(job => job.name === "Publicar no GitHub Pages" && job.conclusion === "success")) throw new Error("This run did not successfully deploy main to Pages.");
   const deployedManifest = JSON.parse(execFileSync("gh", ["api", `repos/aureovinicius/enem/contents/${progressPath}?ref=${run.headSha}`, "-H", "Accept: application/vnd.github.raw+json"], { encoding: "utf8" }));
   const deployedBatch = deployedManifest.batches.find(b => b.year === year);
-  if (!deployedBatch || deployedBatch.sourceSha256 !== batch.sourceSha256) throw new Error("The deployment does not contain this annual batch.");
+  if (!deployedBatch || deployedBatch.sourceSha256 !== batch.sourceSha256
+    || JSON.stringify(deployedBatch.result) !== JSON.stringify(batch.result)) throw new Error("The deployment does not contain this annual batch and its validated counts.");
   batch.status = "published";
   batch.deployment = { commit: run.headSha, runId, url: run.url, confirmedAt: new Date().toISOString() };
   await save(progress);
