@@ -110,7 +110,7 @@
     {
       "id": "2023-natureza",
       "file": "data/enem/explanations/2023-natureza.json",
-      "status": "prepared",
+      "status": "published",
       "reviewedAt": "2026-10-15T14:17:21.135Z",
       "reviewNote": "Revisão independente dos 17 itens e das 15 imagens relevantes; cálculos de forças, estequiometria, ondas, gases e tempo refeitos. Questão 99 recuperada e conferida visualmente na página 3 do caderno oficial. Questão 125 delimitada ao modelo cromossômico sem endossar generalização sobre fertilidade.",
       "questionIds": [
@@ -133,7 +133,39 @@
         "2023-131"
       ],
       "contentSha256": "3df4aac92545ff69b25e4beefc67ed43f64356260c2968e28f67c4d29fc628de",
-      "sourceSha256": "525e036bee0bc0527f0a5483f16fae3fad35b730a50e12bc77888f355510f1f0"
+      "sourceSha256": "525e036bee0bc0527f0a5483f16fae3fad35b730a50e12bc77888f355510f1f0",
+      "deployment": {
+        "commit": "9dd5e56fe195e07c719312e0a520df18cb290945",
+        "runId": "38750073414",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38750073414",
+        "confirmedAt": "2026-10-15T14:18:25.100Z"
+      }
+    },
+    {
+      "id": "2023-matematica-01",
+      "file": "data/enem/explanations/2023-matematica-01.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:19:46.861Z",
+      "reviewNote": "Revisão independente das 15 resoluções, imagens e cálculos; textos recuperados das questões 141, 142 e 146 conferidos nas páginas 18 e 19 do caderno oficial. Verificados semelhança, volumes, probabilidade ponderada, PA, escalas, porcentagens, trigonometria e logaritmos. Fórmulas validadas pelo KaTeX.",
+      "questionIds": [
+        "2023-136",
+        "2023-141",
+        "2023-142",
+        "2023-143",
+        "2023-144",
+        "2023-145",
+        "2023-146",
+        "2023-147",
+        "2023-148",
+        "2023-149",
+        "2023-150",
+        "2023-152",
+        "2023-153",
+        "2023-154",
+        "2023-155"
+      ],
+      "contentSha256": "146a2566855b06f3c66af2b9d90352727a64cf60eda0ccf06b36a18be2bd35e3",
+      "sourceSha256": "07acfe0651511f13e16c354bde62b8aaad78037699bb2777d3a65d5ba95d7e1b"
     }
   ]
 }

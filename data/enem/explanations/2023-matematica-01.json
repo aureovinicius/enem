@@ -1,0 +1,161 @@
+{
+  "2023-136": {
+    "correctAlternative": "B",
+    "concept": "A massa da escultura resulta do volume de madeira que sobra após retirar dois sólidos.",
+    "steps": [
+      "Os raios das bases são \\(R=9\\,\\text{cm}\\) e \\(r=3\\,\\text{cm}\\). Os cones são semelhantes, portanto a altura do cone pequeno satisfaz \\(h/36=3/9\\), dando \\(h=12\\,\\text{cm}\\). A altura do tronco é \\(36-12=24\\,\\text{cm}\\).",
+      "Usando \\(\\pi=3\\), o cone original tem volume \\(V_1=\\frac{1}{3}\\cdot3\\cdot9^2\\cdot36=2916\\,\\text{cm}^3\\). O cone retirado tem volume \\(V_2=\\frac{1}{3}\\cdot3\\cdot3^2\\cdot12=108\\,\\text{cm}^3\\).",
+      "A perfuração tem raio \\(3\\,\\text{cm}\\) e atravessa os \\(24\\,\\text{cm}\\) do tronco. Seu volume é \\(V_3=3\\cdot3^2\\cdot24=648\\,\\text{cm}^3\\).",
+      "O volume restante é \\(2916-108-648=2160\\,\\text{cm}^3\\). Multiplicando pela massa por unidade de volume, obtemos \\(m=0{,}6\\cdot2160=1296\\,\\text{g}\\), valor da alternativa B."
+    ],
+    "takeaway": "Antes de subtrair volumes, obtenha as alturas corretas por semelhança; a perfuração atravessa o tronco, não a altura inteira do cone original."
+  },
+  "2023-141": {
+    "correctAlternative": "E",
+    "concept": "Os resultados igualmente prováveis são os cartões sorteados; estudantes de anos diferentes recebem quantidades diferentes de cartões.",
+    "steps": [
+      "Os 200 estudantes de primeiro ano recebem um cartão cada, totalizando \\(200\\cdot1=200\\) cartões. Os 150 de segundo ano recebem dois cada, totalizando \\(150\\cdot2=300\\) cartões.",
+      "Os 100 estudantes de terceiro ano recebem três cartões cada. Há, portanto, \\(100\\cdot3=300\\) cartões favoráveis ao evento pedido.",
+      "A urna contém \\(200+300+300=800\\) cartões, todos com a mesma chance de serem sorteados.",
+      "A probabilidade é \\(P=300/800=3/8\\), alternativa E. Usar \\(100/450\\) seria incorreto porque os estudantes não têm todos a mesma quantidade de cartões."
+    ],
+    "takeaway": "Conte os resultados que têm probabilidades iguais. Em sorteios ponderados, isso pode significar contar cartões, e não pessoas."
+  },
+  "2023-142": {
+    "correctAlternative": "A",
+    "concept": "O volume restante deve ser dividido pelos moradores e pelos dias de racionamento para determinar o consumo diário permitido.",
+    "steps": [
+      "O reservatório tem raio \\(5\\,\\text{m}\\) e a água restante tem altura \\(1{,}5\\,\\text{m}\\). Com \\(\\pi\\approx3\\), seu volume é \\(V=\\pi r^2h=3\\cdot5^2\\cdot1{,}5=112{,}5\\,\\text{m}^3\\).",
+      "Convertendo para litros, \\(112{,}5\\cdot1000=112500\\,\\text{L}\\). Esse é o volume disponível para os 75 moradores durante os próximos 10 dias.",
+      "O limite médio de consumo por pessoa e por dia é \\(112500/(75\\cdot10)=150\\,\\text{L}\\).",
+      "Cada morador consumia 200 litros por dia. A economia mínima necessária é \\(200-150=50\\,\\text{L}\\) por dia, alternativa A."
+    ],
+    "takeaway": "Calcule o volume disponível e distribua-o entre pessoas e dias; a economia é a diferença entre o consumo habitual e o permitido."
+  },
+  "2023-143": {
+    "correctAlternative": "B",
+    "concept": "A redução desejada da lista de espera determina a quantidade de novas vagas.",
+    "steps": [
+      "A lista passou de 400 nomes para \\(400\\cdot1{,}10=440\\) nomes neste ano. A pesquisa prevê esses mesmos 440 nomes para o próximo ano, caso nenhuma sala seja acrescentada.",
+      "A redução pretendida é de \\(25\\%\\) da lista atual: \\(0{,}25\\cdot440=110\\) crianças. Portanto, são necessárias 110 novas vagas; a lista restante terá \\(440-110=330\\) nomes.",
+      "Cada sala nova atende 10 crianças. Assim, é preciso construir \\(110/10=11\\) salas, conforme a alternativa B. As dez salas existentes já estão consideradas na situação inicial."
+    ],
+    "takeaway": "Calcule a porcentagem sobre a lista de espera atual e converta a redução desejada em novas vagas."
+  },
+  "2023-144": {
+    "correctAlternative": "C",
+    "concept": "Em um reservatório cilíndrico, a vazão é a área da base multiplicada pela taxa de aumento do nível.",
+    "steps": [
+      "Pelo quadro, entre 6 h e 8 h, a altura da água passa de \\(0{,}5\\,\\text{m}\\) para \\(1{,}1\\,\\text{m}\\). O aumento é \\(1{,}1-0{,}5=0{,}6\\,\\text{m}\\) em duas horas.",
+      "Como a vazão é constante, a taxa de subida do nível é \\(0{,}6/2=0{,}3\\,\\text{m/h}\\). O trecho de 8 h a 12 h confirma essa taxa: \\((2{,}3-1{,}1)/4=0{,}3\\,\\text{m/h}\\).",
+      "O volume de água acrescentado por hora é \\(Q=A_{\\text{base}}\\cdot\\frac{\\Delta h}{\\Delta t}=3\\cdot0{,}3=0{,}9\\,\\text{m}^3/\\text{h}\\). A alternativa correta é C."
+    ],
+    "takeaway": "O aumento de altura por hora não é a vazão volumétrica: multiplique-o pela área da base."
+  },
+  "2023-145": {
+    "correctAlternative": "B",
+    "concept": "Ângulos inscritos que enxergam a mesma corda a partir do mesmo arco têm medidas iguais.",
+    "steps": [
+      "Os pontos A e B são fixos. Para um ponto Q sobre uma circunferência que passa por A e B, o ângulo inscrito \\(\\angle AQB\\) mede a metade do arco AB que não contém Q.",
+      "Na figura, identifique a circunferência tracejada que passa por A, B e \\(Q_1\\). O ponto \\(Q_3\\) também está nessa mesma circunferência e no mesmo lado da corda AB que \\(Q_1\\).",
+      "Assim, \\(\\angle AQ_3B=\\angle AQ_1B\\), pois os dois ângulos interceptam o mesmo arco AB. O jogador que receberá a bola é \\(Q_3\\), representado na alternativa B."
+    ],
+    "takeaway": "Para comparar ângulos de visão de um segmento, procure pontos no mesmo arco capaz, e não apenas à mesma distância de um dos extremos."
+  },
+  "2023-146": {
+    "correctAlternative": "E",
+    "concept": "Ao somar os três lados do triângulo mágico, cada vértice é contado duas vezes e cada posição intermediária, uma vez.",
+    "steps": [
+      "Com números de 1 a 6, os únicos três termos de uma progressão aritmética de razão 2 que podem ocupar os vértices são \\((1,3,5)\\) ou \\((2,4,6)\\). Suas somas são 9 e 12, respectivamente.",
+      "A soma dos seis números é \\(1+2+3+4+5+6=21\\). Se cada lado soma S, então \\(3S=21+V\\), sendo V a soma dos vértices, pois eles aparecem em dois lados.",
+      "No primeiro caso, \\(S=(21+9)/3=10\\). Ele é realizável: coloque 6 entre os vértices 1 e 3, 2 entre 3 e 5, e 4 entre 5 e 1. Assim, \\(1+6+3=3+2+5=5+4+1=10\\).",
+      "No segundo caso, \\(S=(21+12)/3=11\\). Coloque 5 entre 2 e 4, 1 entre 4 e 6, e 3 entre 6 e 2: \\(2+5+4=4+1+6=6+3+2=11\\).",
+      "Os dois valores possíveis para a soma de cada lado são 10 e 11, e ambos têm distribuições válidas. A alternativa correta é E."
+    ],
+    "takeaway": "Use a contagem de quantas vezes cada posição aparece na soma dos lados e depois confira que os valores obtidos podem ser construídos."
+  },
+  "2023-147": {
+    "correctAlternative": "D",
+    "concept": "O número de pacotes deve cobrir o consumo das duas pessoas durante todos os dias.",
+    "steps": [
+      "Cada pessoa caminhará 30 minutos e consumirá \\(30\\cdot1=30\\,\\text{g}\\) de carboidratos por dia, de acordo com a regra apresentada no enunciado.",
+      "Uma fatia fornece \\(15\\,\\text{g}\\). Logo, cada pessoa precisa de \\(30/15=2\\) fatias, e o casal precisa de \\(2\\cdot2=4\\) fatias por dia.",
+      "Em 30 dias, o consumo total será \\(4\\cdot30=120\\) fatias. Como cada pacote contém 18 fatias, \\(120/18=6{,}66\\ldots\\) pacotes.",
+      "É necessário comprar pacotes inteiros: seis fornecem apenas \\(6\\cdot18=108\\) fatias, enquanto sete fornecem 126. A quantidade mínima é 7 pacotes, alternativa D."
+    ],
+    "takeaway": "Em problemas de suprimento, considere todas as pessoas e todos os dias; se o resultado não for inteiro, arredonde a compra para cima."
+  },
+  "2023-148": {
+    "correctAlternative": "C",
+    "concept": "O cabo é a hipotenusa de um triângulo retângulo, e a altura do ponto de fixação é o cateto oposto ao ângulo com o chão.",
+    "steps": [
+      "Para um cabo de comprimento \\(L\\), a figura fornece \\(\\sin\\alpha=h/L\\). Portanto, \\(L=h/\\sin\\alpha\\). O comprimento deve ser calculado para cada par de altura e ângulo.",
+      "Na opção I, \\(L_1=11/\\sin30^\\circ=11/(1/2)=22\\,\\text{m}\\).",
+      "Na opção II, \\(L_2=12/\\sin45^\\circ=12/(\\sqrt2/2)=12\\sqrt2\\,\\text{m}\\). Na opção III, \\(L_3=18/\\sin60^\\circ=18/(\\sqrt3/2)=12\\sqrt3\\,\\text{m}\\).",
+      "Comparando os valores positivos pelos quadrados, temos \\(L_2^2=288<L_3^2=432<L_1^2=484\\). O menor comprimento é \\(12\\sqrt2\\,\\text{m}\\), mostrado na alternativa C."
+    ],
+    "takeaway": "A menor altura não garante o menor cabo: compare o quociente entre a altura e o seno do ângulo."
+  },
+  "2023-149": {
+    "correctAlternative": "E",
+    "concept": "A escala compara uma medida no desenho com a medida real, expressas na mesma unidade.",
+    "steps": [
+      "No gráfico, a altitude máxima está a um quadradinho acima do eixo horizontal. Como o lado de cada quadradinho mede \\(1\\,\\text{cm}\\), a altitude máxima é representada por \\(1\\,\\text{cm}\\) na tela.",
+      "A altitude máxima real é \\(5\\,\\text{km}\\). Convertendo para centímetros: \\(5\\,\\text{km}=5000\\,\\text{m}=500000\\,\\text{cm}\\).",
+      "A razão entre desenho e realidade é \\(1\\,\\text{cm}/500000\\,\\text{cm}=1/500000\\). Portanto, a escala é \\(1:500000\\), alternativa E."
+    ],
+    "takeaway": "Use a altura efetivamente desenhada no gráfico e iguale as unidades antes de escrever a escala."
+  },
+  "2023-150": {
+    "correctAlternative": "A",
+    "concept": "Uma porcentagem de uma quantidade é representada por multiplicação.",
+    "steps": [
+      "O enunciado define que, ao final da primeira hora, a concentração C corresponde a \\(90\\%\\) da quantidade q ingerida, dentro do modelo matemático apresentado.",
+      "Transformando a porcentagem em número decimal, \\(90\\%=90/100=0{,}9\\). Aplicar essa porcentagem a q significa calcular \\(0{,}9\\cdot q\\).",
+      "Logo, a expressão solicitada é \\(C=0{,}9q\\), alternativa A. O fator \\(0{,}1\\) corresponderia aos \\(10\\%\\) restantes, e não aos \\(90\\%\\) pedidos."
+    ],
+    "takeaway": "Para representar p por cento de uma quantidade q, escreva \\((p/100)q\\)."
+  },
+  "2023-152": {
+    "correctAlternative": "B",
+    "concept": "As propriedades dos logaritmos permitem calcular o nível sonoro a partir da razão entre intensidades.",
+    "steps": [
+      "A fórmula da figura é \\(N=\\log_{10}(I^{10})-\\log_{10}(I_0^{10})\\). Pela propriedade da potência e pela diferença de logaritmos, ela equivale a \\(N=10\\log_{10}(I/I_0)\\).",
+      "As imagens informam \\(I=8\\cdot10^{-8}\\,\\text{W/m}^2\\) e \\(I_0=10^{-12}\\,\\text{W/m}^2\\). Assim, \\(I/I_0=8\\cdot10^4\\).",
+      "Como \\(8=2^3\\) e \\(\\log_{10}2\\approx0{,}3\\), temos \\(\\log_{10}8=3\\log_{10}2\\approx0{,}9\\). Portanto, \\(\\log_{10}(8\\cdot10^4)\\approx0{,}9+4=4{,}9\\).",
+      "O nível é \\(N\\approx10\\cdot4{,}9=49\\,\\text{dB}\\). Esse valor está entre 48 dB e 55 dB, faixa moderada associada à medida preventiva II. A alternativa correta é B."
+    ],
+    "takeaway": "Divida as intensidades antes de calcular o logaritmo e compare o nível obtido com os intervalos da tabela."
+  },
+  "2023-153": {
+    "correctAlternative": "E",
+    "concept": "O tempo de espera depende tanto do número de pessoas à frente quanto da duração de cada atendimento.",
+    "steps": [
+      "Para comparar as filas, multiplique o número de pessoas à frente pelo tempo médio de atendimento de cada caixa: \\(T=n\\cdot t\\).",
+      "Nos caixas I e II, os tempos de espera são \\(T_1=5\\cdot12=60\\,\\text{min}\\) e \\(T_2=9\\cdot6=54\\,\\text{min}\\).",
+      "Nos demais caixas, \\(T_3=6\\cdot5=30\\,\\text{min}\\), \\(T_4=2\\cdot15=30\\,\\text{min}\\) e \\(T_5=3\\cdot9=27\\,\\text{min}\\).",
+      "O menor tempo é 27 minutos, no caixa V. Como o objetivo é minimizar a espera para ser atendido, a escolha é a alternativa E."
+    ],
+    "takeaway": "A fila com menos pessoas pode demorar mais: compare o produto entre quantidade de clientes e tempo por atendimento."
+  },
+  "2023-154": {
+    "correctAlternative": "B",
+    "concept": "Um setor circular é a região limitada por dois raios e pelo arco compreendido entre eles.",
+    "steps": [
+      "O vértice superior do telhado coincide com o centro do círculo que representa a lua. Assim, as duas bordas inclinadas do telhado partem do centro da lua.",
+      "Cada borda encontra a circunferência, delimitando dois raios e um arco. Como o telhado é um triângulo equilátero, o ângulo entre essas bordas é \\(60^\\circ\\).",
+      "A parte encoberta é, portanto, um setor circular de \\(60^\\circ\\), alternativa B. Não é apenas um arco, que seria uma linha, nem um segmento circular, que seria delimitado por uma corda e um arco."
+    ],
+    "takeaway": "Observe os limites da região: dois raios e um arco definem setor circular; uma corda e um arco definem segmento circular."
+  },
+  "2023-155": {
+    "correctAlternative": "D",
+    "concept": "A área da calçada é a diferença entre a área do quadrado externo e a área da piscina.",
+    "steps": [
+      "A piscina é quadrada e tem área \\(400\\,\\text{m}^2\\). Seu lado mede \\(\\sqrt{400}=20\\,\\text{m}\\).",
+      "A calçada tem 5 m de largura em cada lado da piscina. Por isso, o lado do quadrado externo mede \\(20+5+5=30\\,\\text{m}\\), e sua área é \\(30^2=900\\,\\text{m}^2\\).",
+      "Retirando a área ocupada pela piscina, obtemos \\(A_{\\text{calçada}}=900-400=500\\,\\text{m}^2\\). Esse valor corresponde à alternativa D."
+    ],
+    "takeaway": "Uma borda ao redor de um quadrado aumenta cada dimensão em duas vezes sua largura; depois, subtraia a área interna."
+  }
+}
