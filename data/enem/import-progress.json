@@ -225,7 +225,7 @@
     },
     {
       "year": 2013,
-      "status": "prepared",
+      "status": "published",
       "preparedAt": "2026-10-15T13:24:46.800Z",
       "sourceSha256": "a2f970341357c09d417c68316bb0a14808cd66bf360b44a48757ca8731bc497f",
       "rawTotal": 185,
@@ -235,6 +235,26 @@
         "existing": 61,
         "added": 121,
         "excluded": 3
+      },
+      "deployment": {
+        "commit": "4b9a01016cc30639b5c58a0caeb8445ecce9f232",
+        "runId": "38742554324",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38742554324",
+        "confirmedAt": "2026-10-15T13:26:27.194Z"
+      }
+    },
+    {
+      "year": 2012,
+      "status": "prepared",
+      "preparedAt": "2026-10-15T13:26:28.863Z",
+      "sourceSha256": "262cf234b20baeb7ec47fba58545197227a9ec923bf1eea60b02d35e2140976b",
+      "rawTotal": 185,
+      "result": {
+        "year": 2012,
+        "total": 185,
+        "existing": 71,
+        "added": 113,
+        "excluded": 1
       }
     }
   ]
