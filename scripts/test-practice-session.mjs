@@ -21,6 +21,18 @@ const catalog = {
 };
 const answered = (questionId, correct, durationMs = 1000) => ({ questionId, answer: correct ? "A" : "B", outcome: "answered", correct, durationMs });
 
+test("unclassified imported questions guide review by known area without inventing topics", () => {
+  const report = buildPracticeReport({ records: [answered("raw", false)] }, {
+    ...catalog, questions: [{ id: "raw", areaId: "ciencias-natureza", subjectId: "ciencias-natureza-sem-classificacao", moduleId: "acervo-api", moduleTitle: "Assunto não classificado", competency: null }],
+  });
+  assert.equal(report.groups.competency[0].competency, null);
+  const focus = report.recommendations.find(r => r.areaId);
+  assert.equal(focus.areaId, "ciencias-natureza");
+  assert.equal(focus.moduleId, undefined);
+  assert.equal(focus.subjectId, undefined);
+  assert.match(focus.body, /ainda não têm assunto ou competência classificados/);
+});
+
 test("session metrics exclude skipped and unfinished items from accuracy and average answer time", () => {
   const report = buildPracticeReport({ activeMs: 20000, records: [
     answered("f1", true, 4000), answered("q1", false, 6000),

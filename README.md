@@ -26,7 +26,7 @@ Linguagens reúne 500 questões: Português (300), Literatura (100), Inglês (30
 
 As lições antigas de Linguagens foram repartidas por competência, preservando seus grupos de questões em lições curtas. A conclusão anterior é transferida aos grupos correspondentes, sem conceder XP novamente. As novas questões formam lições de até cinco itens. O histórico de respostas permanece intacto; introduções novas precisam ser lidas. Filtros salvos que apontavam para unidades removidas voltam a “Todos os assuntos”, preservando os demais critérios. Os IDs estrangeiros incluem o idioma (`2023-3-ingles` e `2023-3-espanhol`), usado também no vínculo TRI.
 
-Matemática tem 20 questões por competência, distribuídas em quatro lições de cinco questões (28 lições). A ampliação acrescentou 105 itens comentados aos 35 anteriores, preservando suas posições e os IDs das lições já concluídas. O acervo bruto local contém 642 registros de Matemática; somente os itens selecionados e revisados entram na prática.
+Matemática tem 20 questões por competência na trilha, distribuídas em quatro lições de cinco questões (28 lições). As posições e os IDs das lições já concluídas são preservados. O modo Praticar também recebe itens do acervo integral, em lotes anuais descritos abaixo.
 
 Química e Biologia receberam mais 50 questões cada (10 por unidade), com resoluções específicas. A composição das lições anteriores, inclusive as lições parciais de três questões, é preservada em `data/courses/lesson-layout.json`. Cada matéria agora tem 20 lições. A questão anulada 2023-164 foi substituída por 2017-165 na mesma posição de Matemática (C6/H26), mantendo o ID e a conclusão da lição; o motivo e as fontes estão em `data/courses/math-replacement.json`.
 
@@ -101,7 +101,7 @@ Os títulos resumidos das unidades são didáticos. O texto integral da competê
 
 Cada unidade tem uma introdução conceitual com relações e fórmulas, notação, exemplo resolvido e um alerta sobre erros comuns. A leitura pode ser marcada como concluída. A primeira lição de cada unidade fica disponível; as seguintes são liberadas conforme o estudo. O seletor “Explorar unidades” permite ir diretamente a um tema ou competência.
 
-Após verificar uma resposta, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros, inclusive na prática personalizada. Esse conteúdo é elaborado para o Enem; não é uma resolução oficial fornecida pelo INEP ou pela API.
+Após verificar uma resposta das trilhas, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros. Esse conteúdo é elaborado para o Enem; não é uma resolução oficial fornecida pelo INEP ou pela API. Os novos itens importados para prática mostram o gabarito e identificam explicitamente a ausência de resolução revisada.
 
 - `data/learning/introductions.json`: introduções das cinco unidades de Física.
 - `data/learning/explanations-*.json`: resoluções por ID de questão, com conceito, passos e ideia-chave. `moduleId` permite corrigir a classificação da questão; `excludeReason` documenta itens incompletos ou fora do escopo.
@@ -114,13 +114,37 @@ Após verificar uma resposta, o app apresenta a alternativa correta e uma resolu
 
 O progresso permanece no navegador usando `fisio-progress-v1`. Os IDs antigos das lições de Física são preservados. Conclusão e leitura são independentes por trilha; XP, sequência e revisão de erros são compartilhados. Um acerto em Natureza remove o erro pendente da mesma questão na matéria de origem. A prática filtra os erros pela matéria selecionada.
 
-O gerador só publica questões com resolução revisada, evitando que futuras sincronizações introduzam perguntas sem justificativa. Valide o conteúdo e os fluxos com:
+O gerador mantém nas trilhas somente questões com resolução revisada. O acervo de prática é separado, para preservar as lições e o progresso. Valide o conteúdo e os fluxos com:
 
 ```bash
 node scripts/build-physics-index.mjs
 node scripts/build-courses.mjs
 node --test scripts/test-learning.mjs
 ```
+
+## Importação integral, um ano por publicação
+
+O catálogo da API e a revisão do repositório de origem foram conferidos em 15/10/2026: 2009–2023, 2.757 registros. O clone local corresponde à revisão `938c56fbd3b391e03d93316c920a90c3e54842e5`. A própria documentação recomenda o repositório para obter todos os dados; ler os arquivos também preserva ambos os idiomas sem os limites e as fronteiras sobrepostas da paginação HTTP.
+
+`data/enem/import-progress.json` é o ponto de retomada. Cada lote habilita um único ano; o próximo só pode ser preparado depois da confirmação do job **Publicar no GitHub Pages** do anterior. As confirmações registram commit e URL do Actions. O último registro pode estar localmente atualizado antes do commit seguinte; confira-o junto ao histórico do Actions ao retomar.
+
+```bash
+node scripts/import-enem-year.mjs --status
+node scripts/import-enem-year.mjs --next
+node --test scripts/test-*.mjs
+# Revisar e versionar somente arquivos do app, scripts e dados deste lote.
+# Atualizar a versão do cache PWA em app.js, index.html, sw.js e seu teste.
+# Enviar o commit para main e aguardar o job de implantação terminar.
+node scripts/import-enem-year.mjs --confirm 2023 ID_DA_EXECUCAO_ACTIONS
+```
+
+Após uma interrupção, `--next` repete o lote preparado, sem duplicar questões. Se a implantação já terminou, confirme-a antes de continuar. Não habilite vários anos manualmente: a publicação anual é intencional para permitir retomada.
+
+Se os arquivos da fonte local estiverem indisponíveis, uma extração da mesma revisão em `.preview/enem-source-materialized/enem-api-COMMIT/public` é reconhecida automaticamente pelo importador. Também é possível indicar uma cópia local verificada por `ENEM_SOURCE_PUBLIC`. Os JSON anuais são conferidos contra o snapshot e sua revisão antes de habilitar o lote.
+
+`catalog.questions` mantém a seleção comentada; `catalog.practiceQuestions` contém apenas novos IDs. Cada curso tem `practiceQuestionIds`, separados dos IDs das lições. O acervo ampliado fica em **Praticar → Matemática, Ciências da Natureza, Ciências Humanas ou Linguagens**; Inglês e Espanhol também recebem os itens com idioma informado. A API não fornece assunto, competência ou comentário, e esses campos não são inventados. Parâmetros TRI são vinculados apenas quando compatíveis com os arquivos oficiais já baixados. Quando há evidência oficial da área, ela prevalece sobre erros de classificação da API, com procedência registrada.
+
+O relatório `imports` em `dist/data/courses.json` contém contagens por ano e IDs com motivos de quarentena. Itens incompletos, anulados, com alternativas duplicadas ou gabarito divergente continuam no snapshot bruto e ficam fora da prática pontuada. Falta de parâmetro TRI, por si só, não impede a prática. Imagens necessárias são copiadas para `dist/assets/questions/` e verificadas antes do deploy.
 
 ## Desenvolvimento
 
@@ -166,5 +190,5 @@ GitHub Pages em conta pessoal publica um site acessível pela internet. Reposit�
 
 - Questões e gabaritos: [enem.dev](https://enem.dev/), obtidos de provas públicas do ENEM.
 - Código da API de origem: [yunger7/enem-api](https://github.com/yunger7/enem-api), GPL-2.0.
-- A seleção comentada não ativa automaticamente toda a base: itens sem revisão, com dados faltantes ou gabarito inconsistente permanecem no acervo bruto. As novas resoluções de Química, Biologia e Matemática passaram por revisão independente, inclusive das imagens e dos cálculos necessários.
+- A seleção comentada preserva a revisão editorial. A importação anual amplia a prática com gabarito e identificação dos itens sem comentário; problemas conhecidos de integridade são registrados e ficam fora da prática pontuada.
 - O Enem não é afiliado ao INEP, MEC ou Duolingo. A interface usa identidade visual própria.

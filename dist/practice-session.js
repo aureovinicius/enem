@@ -72,6 +72,14 @@ function recommendationsFor(report) {
   const priorities = report.groups.topic.filter(group => group.wrong > 0).sort((a, b) =>
     b.wrong - a.wrong || a.accuracy - b.accuracy || b.unique - a.unique || collator.compare(a.title, b.title));
   for (const topic of priorities.slice(0, 3)) {
+    if (topic.moduleId === "acervo-api") {
+      recommendations.push({
+        title: `Revisar questões de ${AREA_LABELS[topic.areaId] || "esta área"}`,
+        body: `Você teve ${topic.wrong} ${topic.wrong === 1 ? "erro" : "erros"} em ${topic.total} ${topic.total === 1 ? "resposta" : "respostas"} do acervo importado. Esses itens ainda não têm assunto ou competência classificados. Revise os enunciados e o gabarito; o resultado permite orientar a revisão da área, mas não identificar um assunto específico.`,
+        areaId: topic.areaId,
+      });
+      continue;
+    }
     const smallSample = topic.unique < 3;
     recommendations.push({
       title: `${smallSample ? "Revisitar" : "Priorizar a revisão de"} ${topic.title}`,

@@ -1,6 +1,6 @@
-import { buildPracticeReport } from "./practice-session.js?v=pwa-12";
+import { buildPracticeReport } from "./practice-session.js?v=pwa-13-enem-2023";
 
-const DATA_URL = "/data/courses.json?v=pwa-12";
+const DATA_URL = "/data/courses.json?v=pwa-13-enem-2023";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -171,6 +171,21 @@ function isUnlocked(lesson) {
   return state.completed.includes(lesson.id) || lesson.index === 0 || state.completed.includes(lessons[lesson.globalIndex - 1]?.id);
 }
 
+function allCatalogQuestions() {
+  return [...catalog.questions, ...(catalog.practiceQuestions || [])];
+}
+
+function practiceQuestions(course = data) {
+  const originals = new Map(allCatalogQuestions().map(question => [question.id, question]));
+  const trail = new Map((course.questions || []).map(question => [question.id, question]));
+  return (course.practiceQuestionIds || course.questionIds).map(id => {
+    const original = originals.get(id);
+    if (!original) return null;
+    // Keep the trail's unit filter and the original subject/topic filter distinct.
+    return { ...(trail.get(id) || original), originalModuleId: original.moduleId };
+  }).filter(Boolean);
+}
+
 function setCourse(courseId) {
   const course = catalog.courses.find((c) => c.id === courseId) || catalog.courses[0];
   const byId = new Map(catalog.questions.map((q) => [q.id, q]));
@@ -189,7 +204,7 @@ function setCourse(courseId) {
     if (lessonCredits(lesson).length === lesson.questions.length && !state.completed.includes(lesson.id)) state.completed.push(lesson.id);
   }
   const filters = state.practiceFilters[course.id];
-  if (filters?.module && !course.modules.some(m => m.id === filters.module)) filters.module = "";
+  if (filters?.module && !course.modules.some(m => m.id === filters.module) && !practiceQuestions().some(q => q.moduleId === filters.module)) filters.module = "";
   saveState();
 }
 
@@ -198,7 +213,7 @@ function completedLessons() {
 }
 
 function courseSwitcher() {
-  return `<div class="course-switcher"><label for="course-select">Matéria</label><select id="course-select" aria-label="Matéria">${[...catalog.courses].sort((a, b) => a.title.localeCompare(b.title, "pt-BR", { sensitivity: "base" })).map((course) => `<option value="${course.id}" ${course.id === data.id ? "selected" : ""}>${course.emoji} ${escapeHtml(course.title)}</option>`).join("")}</select><span>${data.total} questões comentadas</span></div>`;
+  return `<div class="course-switcher"><label for="course-select">Matéria</label><select id="course-select" aria-label="Matéria">${[...catalog.courses].sort((a, b) => a.title.localeCompare(b.title, "pt-BR", { sensitivity: "base" })).map((course) => `<option value="${course.id}" ${course.id === data.id ? "selected" : ""}>${course.emoji} ${escapeHtml(course.title)}</option>`).join("")}</select><span>${data.total} questões comentadas na trilha · ${practiceQuestions().length} na prática</span></div>`;
 }
 
 function referenceMarkup(module) {
@@ -243,7 +258,7 @@ function renderRail() {
     </section>
     <section class="rail-card">
       <h3>Questões reais</h3>
-      <p class="tiny">${data.total} questões de ${escapeHtml(data.title)} com resolução comentada. Acervo ENEM de 2009 a 2023.</p>
+      <p class="tiny">${data.total} questões comentadas na trilha de ${escapeHtml(data.title)}. ${practiceQuestions().length} questões disponíveis para prática; itens importados podem ter somente o gabarito.</p>
       <p class="tiny" style="margin-top:9px"><a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">Fonte: enem.dev ↗</a></p>
     </section>
   `;
@@ -419,11 +434,10 @@ function questionMatches(question, filters) {
   if (filters.module && question.moduleId !== filters.module) return false;
   if (filters.subject && question.subjectId !== filters.subject) return false;
   if (filters.topic) {
-    const original = catalog.questions.find(q => q.id === question.id);
-    if (!original || `${original.subjectId}:${original.moduleId}` !== filters.topic) return false;
+    if (`${question.subjectId}:${question.originalModuleId || question.moduleId}` !== filters.topic) return false;
   }
   if (filters.year && String(question.year) !== String(filters.year)) return false;
-  if (filters.competency && String(question.competency) !== String(filters.competency)) return false;
+  if (filters.competency === "unknown" ? question.competency != null : filters.competency && String(question.competency) !== String(filters.competency)) return false;
   const score = difficultyScore(question);
   if (filters.difficulty === "known" && score === null) return false;
   if (filters.difficulty === "unknown" && score !== null) return false;
@@ -443,7 +457,7 @@ function questionMatches(question, filters) {
 }
 
 function filteredPracticeQuestions(filters = practiceFilters()) {
-  return data.questions.filter(q => questionMatches(q, filters));
+  return practiceQuestions().filter(q => questionMatches(q, filters));
 }
 
 function filterOptions(values, selected, allLabel) {
@@ -452,31 +466,37 @@ function filterOptions(values, selected, allLabel) {
 
 function renderPractice() {
   const filters = practiceFilters();
+  const questions = practiceQuestions();
   const pool = filteredPracticeQuestions(filters);
   const withTri = pool.filter(q => difficultyScore(q) !== null).length;
-  const years = [...new Set(data.questions.map(q => q.year))].sort((a, b) => b - a);
-  const competencies = [...new Set(data.questions.map(q => q.competency))].sort((a, b) => a - b);
-  const subjects = [...new Map(data.questions.map(q => [q.subjectId, q.subjectTitle])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
-  const ids = new Set(data.questionIds);
-  const topics = [...new Map(catalog.questions.filter(q => ids.has(q.id)).map(q => [`${q.subjectId}:${q.moduleId}`, `${q.subjectTitle} · ${q.moduleTitle}`])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
+  const years = [...new Set(questions.map(q => q.year))].sort((a, b) => b - a);
+  const competencies = [...new Set(questions.map(q => q.competency).filter(Number.isInteger))].sort((a, b) => a - b).map(c => [c, `Competência ${c}`]);
+  if (questions.some(q => q.competency == null)) competencies.push(["unknown", "Competência não classificada"]);
+  const subjects = [...new Map(questions.map(q => [q.subjectId, q.subjectTitle])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
+  const ids = new Set(questions.map(q => q.id));
+  const topics = [...new Map(allCatalogQuestions().filter(q => ids.has(q.id)).map(q => [`${q.subjectId}:${q.moduleId}`, `${q.subjectTitle} · ${q.moduleTitle}`])).entries()].sort((a,b) => a[1].localeCompare(b[1], "pt-BR"));
+  const modules = data.modules.map(m => [m.id, m.title]);
+  if (questions.some(q => q.moduleId === "acervo-api")) modules.push(["acervo-api", "Assunto não classificado"]);
+  const areaCourses = catalog.courses.filter(c => ["matematica", "ciencias-natureza", "ciencias-humanas", "linguagens"].includes(c.id));
   const metrics = performanceMetrics(courseAttempts());
   app.innerHTML = `
     ${pageHeader("Sessões de prática", "Seu treino, seu ritmo.", "Escolha os filtros, inicie o cronômetro e resolva questões no seu ritmo. Ao encerrar, receba um relatório com seus resultados e próximos passos.")}
+    ${catalog.practiceQuestions?.length ? `<section class="notice"><strong>Acervo de provas por ano</strong><p>Acesse as questões importadas pelas grandes áreas e use o filtro de ano. As trilhas mantêm a seleção comentada. Novos itens têm enunciado, alternativas e gabarito; resolução, disciplina específica, assunto e competência só aparecem quando há classificação disponível.</p><div class="study-actions">${areaCourses.map(course => `<button class="button secondary" data-practice-area="${course.id}" aria-pressed="${data.id === course.id}">${escapeHtml(course.title)}</button>`).join("")}</div></section>` : ""}
     ${state.pendingPractice ? `<section class="practice-launch"><p class="page-kicker">Sessão salva</p><h2>Continue de onde parou</h2><p>${escapeHtml(state.pendingPractice.session.courseTitle)} · ${counted(state.pendingPractice.session.records.filter(r => r.outcome === "answered").length, "resposta")} · ${formatDuration(state.pendingPractice.session.activeMs)} de estudo ativo. Os filtros desta sessão serão preservados.</p><button class="button" data-action="resume-saved-practice">Retomar sessão</button></section>` : ""}
     <div class="practice-overview"><span><strong>${metrics.total}</strong> respostas registradas</span><span><strong>${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}</strong> de acerto</span><a href="#desempenho" data-view="desempenho">Ver desempenho ↗</a></div>
     <form id="practice-filters" class="filter-card">
       <div class="section-heading"><div><p class="page-kicker">Monte sua seleção</p><h2>Filtros de questões</h2></div><button type="button" class="text-button" data-action="reset-filters">Limpar filtros</button></div>
       <div class="filter-grid">
-        <label>${data.integrated ? "Unidade da trilha" : "Assunto"}<select name="module">${filterOptions(data.modules.map(m => [m.id, m.title]), filters.module, "Todos os assuntos")}</select></label>
+        <label>${data.integrated ? "Unidade da trilha" : "Assunto"}<select name="module">${filterOptions(modules, filters.module, "Todos os assuntos")}</select></label>
         ${data.integrated ? `<label>Disciplina<select name="subject">${filterOptions(subjects, filters.subject, "Todas as disciplinas")}</select></label><label>Assunto da disciplina<select name="topic">${filterOptions(topics, filters.topic, "Todos os assuntos originais")}</select></label>` : ""}
         <label>Ano<select name="year">${filterOptions(years.map(y => [y, y]), filters.year, "Todos os anos")}</select></label>
-        <label>Competência<select name="competency">${filterOptions(competencies.map(c => [c, `Competência ${c}`]), filters.competency, "Todas as competências")}</select></label>
+        <label>Competência<select name="competency">${filterOptions(competencies, filters.competency, "Todas as competências")}</select></label>
         <label>Dificuldade TRI<select name="difficulty">${filterOptions([["known", "Com dificuldade oficial"], ["low", "Até 500"], ["medium", "Acima de 500 até 650"], ["high", "Acima de 650"], ["unknown", "Sem parâmetro disponível"]], filters.difficulty, "Todas as dificuldades")}</select></label>
         <label>Minha resolução<select name="status">${[["all", "Todas as questões"], ["unanswered", "Ainda não respondi"], ["wrong", "Erros para revisar"], ["answered", "Já respondi"], ["favorites", "Favoritas"]].map(([value, label]) => `<option value="${value}" ${value === filters.status ? "selected" : ""}>${label}</option>`).join("")}</select></label>
         <label>Palavra-chave ou código<input name="query" type="search" maxlength="120" value="${escapeHtml(filters.query)}" placeholder="Ex.: energia, célula, 2022-142"></label>
       </div>
       <button class="button secondary" type="submit">Aplicar filtros</button>
-      <p class="filter-help">A matéria é escolhida no seletor acima. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Enem, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
+      <p class="filter-help">A matéria é escolhida no seletor acima. Ao filtrar disciplina, assunto ou competência, os itens sem essa classificação ficam de fora. Quanto maior a dificuldade TRI, mais difícil o item. Os intervalos numéricos são filtros do Enem, sem classificação oficial em fácil, médio ou difícil. A ausência de parâmetro não significa dificuldade baixa.</p>
     </form>
     <section class="practice-launch" aria-live="polite"><div><p class="page-kicker">Seleção atual</p><h2>${pool.length} ${pool.length === 1 ? "questão encontrada" : "questões encontradas"}</h2><p>${pool.length ? `${withTri} com dificuldade oficial vinculada. Sorteio sem repetição até percorrer a seleção.` : "Nenhuma questão corresponde a estes filtros. Amplie o ano, o assunto ou a situação de resolução."}</p></div><button class="button" data-action="practice" ${pool.length && !state.pendingPractice ? "" : "disabled"}>Iniciar sessão de prática <span aria-hidden="true">→</span></button>${state.pendingPractice ? '<p>Retome e encerre a sessão salva antes de iniciar outra.</p>' : ""}</section>
     <div class="notice">Sem limite de erros ou de questões. O cronômetro pausa ao ocultar esta aba ou ao pausar a sessão. As respostas são salvas a cada correção; o andamento, a cada cinco segundos.</div>
@@ -485,7 +505,7 @@ function renderPractice() {
 }
 
 function courseAttempts(period = "all", mode = "all") {
-  const ids = new Set(data.questionIds);
+  const ids = new Set(practiceQuestions().map(q => q.id));
   const earliest = period === "all" ? "" : new Date(new Date(`${localDay()}T12:00:00Z`).getTime() - (Number(period) - 1) * 86400000).toISOString().slice(0, 10);
   return state.attempts.filter(a => ids.has(a.questionId) && (mode === "all" || a.mode === mode) && (!earliest || a.day >= earliest));
 }
@@ -510,8 +530,11 @@ function counted(value, singular, plural = `${singular}s`) {
 function renderPerformance() {
   const attempts = courseAttempts(statsPeriod, statsMode);
   const metrics = performanceMetrics(attempts);
-  const questionById = new Map(data.questions.map(q => [q.id, q]));
-  const rows = data.modules.map(module => ({ module, ...performanceMetrics(attempts.filter(a => questionById.get(a.questionId)?.moduleId === module.id)) }));
+  const questions = practiceQuestions();
+  const questionById = new Map(questions.map(q => [q.id, q]));
+  const modules = [...data.modules];
+  if (questions.some(q => q.moduleId === "acervo-api")) modules.push({ id: "acervo-api", title: "Assunto não classificado" });
+  const rows = modules.map(module => ({ module, ...performanceMetrics(attempts.filter(a => questionById.get(a.questionId)?.moduleId === module.id)) }));
   const days = Array.from({ length: 7 }, (_, index) => new Date(new Date(`${localDay()}T12:00:00Z`).getTime() - (6 - index) * 86400000).toISOString().slice(0, 10));
   const daily = days.map(day => ({ day, ...performanceMetrics(attempts.filter(a => a.day === day)) }));
   const max = Math.max(1, ...daily.map(d => d.total));
@@ -520,7 +543,7 @@ function renderPerformance() {
     <div class="stats-controls"><label>Período<select id="stats-period">${[["7", "Últimos 7 dias"], ["30", "Últimos 30 dias"], ["all", "Todo o histórico"]].map(([v, l]) => `<option value="${v}" ${statsPeriod === v ? "selected" : ""}>${l}</option>`).join("")}</select></label><label>Modo<select id="stats-mode">${[["all", "Todos os modos"], ["practice", "Prática"], ["lesson", "Lições"]].map(([v, l]) => `<option value="${v}" ${statsMode === v ? "selected" : ""}>${l}</option>`).join("")}</select></label></div>
     ${storageWarning ? '<div class="notice">O navegador não conseguiu salvar o histórico. Os dados desta sessão estão apenas na memória; libere espaço para preservá-los.</div>' : ""}
     <div class="metric-grid">
-      ${[[metrics.total, "Respostas", `${metrics.unique} ${metrics.unique === 1 ? "questão distinta" : "questões distintas"}`], [`${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}`, "Taxa de acerto", `${counted(metrics.correct, "acerto")} · ${counted(metrics.wrong, "erro")}`], [formatDuration(metrics.duration), "Tempo respondendo", `${formatDuration(metrics.average)} por resposta`], [data.questions.filter(q => state.missed.includes(q.id)).length, "Erros para revisar", "Situação atual da matéria"]].map(([n, title, detail]) => `<article class="metric-card"><strong>${n}</strong><h2>${title}</h2><p>${detail}</p></article>`).join("")}
+      ${[[metrics.total, "Respostas", `${metrics.unique} ${metrics.unique === 1 ? "questão distinta" : "questões distintas"}`], [`${metrics.accuracy === null ? "—" : `${metrics.accuracy}%`}`, "Taxa de acerto", `${counted(metrics.correct, "acerto")} · ${counted(metrics.wrong, "erro")}`], [formatDuration(metrics.duration), "Tempo respondendo", `${formatDuration(metrics.average)} por resposta`], [questions.filter(q => state.missed.includes(q.id)).length, "Erros para revisar", "Situação atual da matéria"]].map(([n, title, detail]) => `<article class="metric-card"><strong>${n}</strong><h2>${title}</h2><p>${detail}</p></article>`).join("")}
     </div>
     ${!metrics.total ? '<div class="empty-state"><span aria-hidden="true">↗</span><h2>Seu próximo treino começa este gráfico.</h2><p>Responda uma questão na prática ou nas lições. O resultado aparece aqui assim que você verifica a resposta.</p><a class="button" href="#praticar" data-view="praticar">Escolher questões</a></div>' : ""}
     <section class="stats-card"><div class="section-heading"><h2>Ritmo nos últimos 7 dias</h2><span class="chart-legend"><i></i> Acertos <i class="wrong"></i> Erros</span></div><div class="activity-chart">${daily.map(d => `<div class="day-column"><span>${d.total}</span><div class="day-track" role="img" aria-label="${d.day}: ${counted(d.correct, "acerto")} e ${counted(d.wrong, "erro")}"><div class="day-wrong" style="height:${d.wrong / max * 100}%"></div><div class="day-correct" style="height:${d.correct / max * 100}%"></div></div><small>${d.day.slice(8)}/${d.day.slice(5, 7)}</small></div>`).join("")}</div></section>
@@ -636,7 +659,7 @@ function resumeSavedPractice() {
   const saved = state.pendingPractice;
   if (!saved) return;
   const course = catalog.courses.find(c => c.id === saved.session.courseId);
-  const ids = new Set(course?.questionIds || []);
+  const ids = new Set(course?.practiceQuestionIds || course?.questionIds || []);
   if (!course || !Array.isArray(saved.questionIds) || !saved.questionIds.length || !saved.questionIds.every(id => ids.has(id))
     || !Array.isArray(saved.queue) || !saved.queue.every(id => ids.has(id)) || saved.index !== saved.questionIds.length - 1
     || !Number.isFinite(saved.elapsedMs) || saved.elapsedMs < 0 || !Number.isInteger(saved.cycle) || saved.cycle < 1) {
@@ -646,7 +669,7 @@ function resumeSavedPractice() {
   }
   stopQuestionTimer(); stopSessionTimer();
   setCourse(course.id);
-  const byId = new Map(data.questions.map(q => [q.id, q]));
+  const byId = new Map(practiceQuestions().map(q => [q.id, q]));
   const answered = saved.session.records.filter(r => r.outcome === "answered");
   quiz = {
     practice: true, session: structuredClone(saved.session), filters: { ...defaultPracticeFilters(), ...saved.session.filters },
@@ -680,7 +703,7 @@ function sessionDate(session) {
 function practiceHistoryMarkup() {
   const sessions = state.practiceSessions.filter(s => s.courseId === data.id).slice().reverse();
   return `<section class="practice-session-history"><div class="section-heading"><h2>Sessões recentes</h2><span class="tiny">Salvas neste navegador</span></div>${sessions.length ? sessions.map(s => {
-    const report = buildPracticeReport(s, catalog);
+    const report = buildPracticeReport(s, { ...catalog, questions: allCatalogQuestions() });
     return `<button class="session-history-item" data-session-report="${escapeHtml(s.id)}"><span><strong>${escapeHtml(sessionDate(s))}</strong><small>${counted(report.total, "resposta")} · ${report.accuracy === null ? "Sem respostas" : `${formatPercent(report.accuracy)} de acerto`}</small></span><span>${formatDuration(report.activeMs)} <span aria-hidden="true">↗</span></span></button>`;
   }).join("") : '<p class="session-empty">Ao encerrar sua primeira sessão, o relatório ficará disponível aqui.</p>'}<p class="tiny">Guardamos as últimas 20 sessões entre todas as matérias. O histórico geral de respostas permanece em Desempenho.</p></section>`;
 }
@@ -689,11 +712,11 @@ function sessionFiltersLabel(session) {
   const f = session.filters || {};
   const course = catalog.courses.find(c => c.id === session.courseId);
   const labels = [session.courseTitle];
-  if (f.module) labels.push(course?.modules.find(m => m.id === f.module)?.title || f.module);
-  if (f.subject) labels.push(catalog.questions.find(q => q.subjectId === f.subject)?.subjectTitle || f.subject);
-  if (f.topic) labels.push(catalog.questions.find(q => `${q.subjectId}:${q.moduleId}` === f.topic)?.moduleTitle || f.topic);
+  if (f.module) labels.push(course?.modules.find(m => m.id === f.module)?.title || (f.module === "acervo-api" ? "Assunto não classificado" : f.module));
+  if (f.subject) labels.push(allCatalogQuestions().find(q => q.subjectId === f.subject)?.subjectTitle || f.subject);
+  if (f.topic) labels.push(allCatalogQuestions().find(q => `${q.subjectId}:${q.moduleId}` === f.topic)?.moduleTitle || f.topic);
   if (f.year) labels.push(`ENEM ${f.year}`);
-  if (f.competency) labels.push(`Competência ${f.competency}`);
+  if (f.competency) labels.push(f.competency === "unknown" ? "Competência não classificada" : `Competência ${f.competency}`);
   if (f.difficulty) labels.push(({known:"Com TRI",unknown:"Sem TRI",low:"TRI até 500",medium:"TRI de 500 a 650",high:"TRI acima de 650"})[f.difficulty] || f.difficulty);
   if (f.status && f.status !== "all") labels.push(({unanswered:"Não respondidas",answered:"Já respondidas",wrong:"Erros para revisar",favorites:"Favoritas"})[f.status] || f.status);
   if (f.query) labels.push(`Busca: ${f.query}`);
@@ -703,7 +726,7 @@ function sessionFiltersLabel(session) {
 function renderSessionReport(session, dimension = "topic") {
   sessionReport = session;
   sessionBreakdown = ["area", "subject", "topic", "competency"].includes(dimension) ? dimension : "topic";
-  const report = buildPracticeReport(session, catalog);
+  const report = buildPracticeReport(session, { ...catalog, questions: allCatalogQuestions() });
   const dimensions = [["area", "Área"], ["subject", "Disciplina"], ["topic", "Assunto"], ["competency", "Competência"]];
   const rows = report.groups[sessionBreakdown];
   modal.setAttribute("aria-label", "Relatório da sessão de prática");
@@ -724,7 +747,7 @@ function renderSessionReport(session, dimension = "topic") {
       </section>
       <section class="session-report-card"><h2>Análise e próximos passos</h2>${report.total ? `<p><strong>${counted(report.correct, "acerto")} em ${counted(report.total, "resposta")}</strong>, com ${counted(report.unique, "questão distinta", "questões distintas")} e média de ${formatDuration(report.averageMs)} por resposta.</p>` : ""}<p>Sugestões baseadas apenas nesta sessão. Amostras pequenas indicam pontos a explorar, sem estimar sua nota no ENEM.</p><ol class="session-recommendations">${report.recommendations.map((item,index) => `<li><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.body)}</p>${item.subjectId || item.areaId ? `<button class="text-button" data-session-focus="${index}">Preparar próximo treino →</button>` : ""}</li>`).join("")}</ol></section>
       <section class="session-report-card"><h2>As 5 questões mais demoradas</h2><p>${report.slowest.length < 5 ? `Você respondeu ${report.unique} ${report.unique === 1 ? "questão distinta" : "questões distintas"}; todas aparecem abaixo. ` : ""}Tempo até a correção, somado se a questão foi repetida.</p>${report.slowest.length ? `<ol class="session-slowest-list">${report.slowest.map(item => `<li><div><strong class="session-question-title">${escapeHtml(item.title)}</strong><p class="session-question-meta">${escapeHtml(item.subjectTitle)} · ${escapeHtml(item.moduleTitle)}<br>${counted(item.attempts, "tentativa")} · ${counted(item.correct, "acerto")} · ${counted(item.wrong, "erro")}</p><button class="text-button" data-session-question="${escapeHtml(item.questionId)}">Revisar questão</button></div><strong class="session-question-time">${formatDuration(item.durationMs)}</strong></li>`).join("")}</ol>` : '<p class="session-empty">A lista aparece depois de verificar respostas.</p>'}</section>
-      <section class="session-report-card session-report-wide"><h2>Como seu tempo foi distribuído</h2><p><strong>${formatDuration(report.answerMs)}</strong> respondendo · <strong>${formatDuration(report.reviewMs)}</strong> em justificativas e navegação · <strong>${formatDuration(report.skippedMs)}</strong> em ${counted(report.skipped, "questão pulada", "questões puladas")} · <strong>${formatDuration(report.unfinishedMs)}</strong> em ${counted(report.unfinished, "questão não concluída", "questões não concluídas")}.</p><p>O cronômetro conta somente o tempo com a aba visível e a sessão ativa. Pausas e tempo com o app fechado ficam de fora. Os recortes refletem apenas as questões praticadas com estes filtros; assunto e disciplina vêm da classificação original da questão.</p></section>
+      <section class="session-report-card session-report-wide"><h2>Como seu tempo foi distribuído</h2><p><strong>${formatDuration(report.answerMs)}</strong> respondendo · <strong>${formatDuration(report.reviewMs)}</strong> em gabaritos, justificativas e navegação · <strong>${formatDuration(report.skippedMs)}</strong> em ${counted(report.skipped, "questão pulada", "questões puladas")} · <strong>${formatDuration(report.unfinishedMs)}</strong> em ${counted(report.unfinished, "questão não concluída", "questões não concluídas")}.</p><p>O cronômetro conta somente o tempo com a aba visível e a sessão ativa. Pausas e tempo com o app fechado ficam de fora. Os recortes refletem apenas as questões praticadas com estes filtros. Disciplina específica, assunto e competência não classificados são identificados como indisponíveis; não são inferidos a partir do resultado.</p></section>
     </div></div>`;
 }
 
@@ -738,7 +761,7 @@ function openSessionReport(id) {
 
 function reviewSessionQuestion(id) {
   if (!sessionReport?.records.some(r => r.questionId === id && r.outcome === "answered")) return;
-  const question = catalog.questions.find(q => q.id === id);
+  const question = allCatalogQuestions().find(q => q.id === id);
   if (!question) return;
   modal.setAttribute("aria-label", "Revisão da sessão");
   modal.innerHTML = `<div class="quiz-shell"><div class="quiz-topbar"><button class="text-button" data-action="back-session-report">← Voltar ao relatório</button></div><div class="question-wrap"><p class="page-kicker">ENEM ${question.year} · Questão ${question.index} · ${escapeHtml(question.subjectTitle)}</p>${question.context ? `<div class="question-context">${renderMarkdown(question.context, question.areaId === "linguagens")}</div>` : ""}<h1 tabindex="-1">${renderMathText(question.alternativesIntroduction || "Qual é a alternativa correta?")}</h1><div class="answers">${question.alternatives.map(a => `<div class="answer ${a.letter === question.correctAlternative ? "correct" : ""}"><span class="answer-letter">${a.letter}</span><span class="answer-text">${a.file ? `<img src="${escapeHtml(a.file)}" alt="Alternativa ${a.letter}" style="max-width:100%;max-height:180px">` : renderMathText(a.text || "")}</span></div>`).join("")}</div>${renderExplanation(question)}</div></div>`;
@@ -748,7 +771,7 @@ function reviewSessionQuestion(id) {
 
 function focusSessionRecommendation(index) {
   if (!sessionReport) return;
-  const recommendation = buildPracticeReport(sessionReport, catalog).recommendations[index];
+  const recommendation = buildPracticeReport(sessionReport, { ...catalog, questions: allCatalogQuestions() }).recommendations[index];
   if (!recommendation) return;
   const course = catalog.courses.find(c => c.id === recommendation.subjectId) || catalog.courses.find(c => c.id === recommendation.areaId);
   if (!course) return;
@@ -790,7 +813,7 @@ function recordAttempt(question, correct) {
 }
 
 function drawPracticeQuestion() {
-  const byId = new Map(data.questions.map(q => [q.id, q]));
+  const byId = new Map(practiceQuestions().map(q => [q.id, q]));
   const previous = quiz.questions[quiz.index]?.id;
   while (quiz.queue.length) {
     const question = byId.get(quiz.queue.shift());
@@ -867,17 +890,18 @@ function renderAchievements() {
 }
 
 function renderAbout() {
+  const years = [...new Set(allCatalogQuestions().map(q => q.year))].sort((a, b) => a - b);
   app.innerHTML = `
     ${pageHeader("Projeto aberto", "Sobre o Enem", "Uma experiência gamificada, com identidade própria, para transformar provas anteriores em prática diária.")}
     <div class="about-grid">
-      <article class="info-card"><div class="big-number">2.757</div><h3>questões locais</h3><p>O snapshot completo das edições de 2009 a 2023 está incluído no ambiente do projeto.</p></article>
+      <article class="info-card"><div class="big-number">${allCatalogQuestions().length.toLocaleString("pt-BR")}</div><h3>questões disponíveis</h3><p>Seleção comentada e acervo importado, sem duplicar questões. Edições de ${years[0]} a ${years.at(-1)} disponíveis na prática por área e ano.</p></article>
       <article class="info-card"><div class="big-number">${catalog.total}</div><h3>questões comentadas únicas</h3><p>Seleção revisada com resoluções próprias. As trilhas integradas de Natureza e Humanas compartilham questões com suas disciplinas; cada questão é contada uma única vez neste total.</p></article>
-      <article class="info-card"><div class="big-number">15</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito original.</p></article>
+      <article class="info-card"><div class="big-number">${years.length}</div><h3>anos de prova</h3><p>As questões mantêm o ano, o número, o enunciado, as alternativas e o gabarito da fonte.</p></article>
       <article class="info-card"><div class="big-number">100%</div><h3>progresso local</h3><p>XP, sequência, respostas e lições concluídas ficam salvos apenas neste navegador.</p></article>
     </div>
     <div class="notice"><strong>Instalar o Enem:</strong> abra este site no Chrome ou Edge e escolha a opção de instalar aplicativo no menu do navegador. No iPhone ou iPad, use Compartilhar → Adicionar à Tela de Início. Depois, o Enem abre em uma janela própria. Em navegadores compatíveis, as questões e os comentários são guardados após o primeiro carregamento; imagens ainda não carregadas precisam de conexão. O progresso continua salvo neste dispositivo.</div>
     <div class="notice"><strong>Áreas e competências:</strong> Matemática, Ciências da Natureza e Ciências Humanas seguem a organização da <a class="source-link" href="${catalog.matrix.source}" target="_blank" rel="noreferrer">matriz de referência do INEP</a>. Os títulos didáticos, introduções e vínculos entre questões e habilidades são editoriais. A seleção atual não contém exercícios de todas as habilidades. <a class="source-link" href="/data/enem-matriz-de-referencia.pdf" download>Baixar matriz local (PDF)</a>.</div>
-    <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática utiliza somente itens selecionados e comentados; itens incompletos ou inconsistentes ficam fora dela.</div>
+    <div class="notice"><strong>Acervo integral preservado:</strong> os ${catalog.rawTotal.toLocaleString("pt-BR")} registros da API permanecem disponíveis no <a class="source-link" href="/data/all-questions.json" download>snapshot completo em JSON</a>. A prática reúne a seleção comentada e questões importadas com alternativas e gabarito válidos. Itens sem resolução revisada são identificados na correção; questões incompletas, anuladas ou inconsistentes não são usadas para avaliar respostas. Os novos itens ficam na prática, sem alterar as trilhas.</div>
     <div class="notice"><strong>Dificuldade TRI oficial:</strong> ${catalog.tri.matched} das ${catalog.total} questões comentadas têm parâmetros vinculados aos <a class="source-link" href="${escapeHtml(catalog.tri.sourceIndexUrl)}" target="_blank" rel="noreferrer">arquivos de itens do INEP, de 2009 a 2023</a>. A API de questões não fornece esses parâmetros. O vínculo confere ano, caderno, numeração e gabarito. Itens sem parâmetro válido são identificados como indisponíveis. A dificuldade exibida usa ${renderMathText(String.raw`\(500 + 100b\)`)}; não é uma previsão da nota do aluno.</div>
     <div class="notice"><strong>Fonte:</strong> <a class="source-link" href="https://enem.dev" target="_blank" rel="noreferrer">enem.dev</a>, projeto comunitário sem vínculo com INEP ou MEC. O código da API de origem é GPL-2.0. As introduções e resoluções são conteúdo didático próprio do Enem, não comentários oficiais do INEP. O Enem não é afiliado ao Duolingo.</div>
   `;
@@ -1042,6 +1066,15 @@ function renderQuestion() {
 function renderExplanation(question) {
   const explanation = question.explanation;
   const correctAnswer = question.alternatives.find((alternative) => alternative.letter === question.correctAlternative);
+  if (!explanation?.concept || !Array.isArray(explanation.steps) || !explanation.steps.length) {
+    return `<section class="explanation" aria-labelledby="explanation-title" tabindex="-1">
+      <p class="page-kicker">Gabarito da questão</p>
+      <h2 id="explanation-title">Alternativa correta: ${escapeHtml(question.correctAlternative)}</h2>
+      <div class="correct-answer"><strong>Alternativa ${escapeHtml(question.correctAlternative)}</strong>${correctAnswer?.text ? `<p>${renderMathText(correctAnswer.text)}</p>` : ""}${correctAnswer?.file ? `<img src="${escapeHtml(correctAnswer.file)}" alt="Resposta correta, alternativa ${escapeHtml(question.correctAlternative)}">` : ""}</div>
+      <p>Esta questão foi importada do acervo enem.dev e ainda não possui resolução comentada revisada no app. O gabarito informa a alternativa correta; a justificativa será exibida quando estiver disponível.</p>
+      ${/^https:\/\/(?:api\.)?enem\.dev(?:\/|$)/.test(question.sourceUrl || "") ? `<a class="source-link" href="${escapeHtml(question.sourceUrl)}" target="_blank" rel="noreferrer">Consultar questão na fonte ↗</a>` : ""}
+    </section>`;
+  }
   return `<section class="explanation" aria-labelledby="explanation-title" tabindex="-1">
     <p class="page-kicker">${renderMathText(explanation.concept)}</p>
     <h2 id="explanation-title">Por que a alternativa ${escapeHtml(question.correctAlternative)} está correta?</h2>
@@ -1059,7 +1092,7 @@ function renderQuizFooter(question) {
   return `
     <footer class="quiz-footer ${correct ? "success" : "error"}">
       <div class="quiz-footer-inner">
-        <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>${!quiz.practice && quiz.errors > MAX_LESSON_ERRORS ? "Limite de erros excedido. Leia a resolução antes de reiniciar." : "Confira a resolução comentada antes de continuar."}</span></div>
+        <div class="feedback-copy" role="status"><strong>${correct ? "Mandou bem! +10 XP" : `Resposta correta: ${question.correctAlternative}`}</strong><span>${!quiz.practice && quiz.errors > MAX_LESSON_ERRORS ? "Limite de erros excedido. Leia a resolução antes de reiniciar." : question.explanation?.steps?.length ? "Confira a resolução comentada antes de continuar." : "Gabarito disponível; resolução comentada ainda não revisada."}</span></div>
         <button class="button ${correct ? "" : "danger"}" data-action="next-question">${quiz.practice ? "Próxima questão" : quiz.errors > MAX_LESSON_ERRORS ? "Ver resultado" : quiz.index === quiz.questions.length - 1 ? "Finalizar" : "Continuar"}</button>
       </div>
     </footer>
@@ -1184,6 +1217,15 @@ function showToast(message) {
 }
 
 document.addEventListener("click", (event) => {
+  const practiceArea = event.target.closest("[data-practice-area]");
+  if (practiceArea && ["matematica", "ciencias-natureza", "ciencias-humanas", "linguagens"].includes(practiceArea.dataset.practiceArea)) {
+    setCourse(practiceArea.dataset.practiceArea);
+    activeView = "praticar";
+    history.replaceState(null, "", "#praticar");
+    renderPage();
+    app.querySelector("#course-select").focus({ preventScroll: true });
+    return;
+  }
   const reportLink = event.target.closest("[data-session-report]");
   if (reportLink) { openSessionReport(reportLink.dataset.sessionReport); return; }
   const dimensionButton = event.target.closest("[data-session-dimension]");
@@ -1312,7 +1354,8 @@ async function init() {
     const response = await fetch(DATA_URL, { cache: "no-cache" });
     if (!response.ok) throw new Error("Não foi possível carregar as matérias.");
     catalog = await response.json();
-    state.missed = state.missed.filter((id) => catalog.questions.some((question) => question.id === id));
+    const available = new Set(allCatalogQuestions().map(question => question.id));
+    state.missed = state.missed.filter(id => available.has(id));
     setCourse(state.activeCourse);
     renderPage();
   } catch (error) {

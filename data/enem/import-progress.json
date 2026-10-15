@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "source": "https://api.enem.dev/v1/exams",
+  "sourceRepository": "https://github.com/yunger7/enem-api",
+  "sourceCommit": "938c56fbd3b391e03d93316c920a90c3e54842e5",
+  "sourceVerifiedOn": "2026-10-15",
+  "strategy": "Newest first; validate and deploy one year before enabling the next. Raw snapshots remain complete; incomplete or inconsistent items are quarantined from scored practice.",
+  "availableYears": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011,
+    2010,
+    2009
+  ],
+  "batches": [
+    {
+      "year": 2023,
+      "status": "prepared",
+      "preparedAt": "2026-10-15T13:08:25.367Z",
+      "sourceSha256": "7ebb027af1ccc504f187f217fe8b666a579a47d48137ce57ebc5c99996af3420",
+      "rawTotal": 183,
+      "result": {
+        "year": 2023,
+        "total": 183,
+        "existing": 77,
+        "added": 97,
+        "excluded": 9
+      }
+    }
+  ]
+}

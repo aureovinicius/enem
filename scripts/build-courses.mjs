@@ -2,8 +2,10 @@
 import { readFile, writeFile, mkdir, cp, access } from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
+import { buildYearBank } from "./enem-year-bank.mjs";
 
 const root = process.cwd();
+const sourcePublic = process.env.ENEM_SOURCE_PUBLIC || path.join(root, "data/enem-source/public");
 const read = async (file) => JSON.parse(await readFile(path.join(root, file), "utf8"));
 const [snapshot, physics, matrix, mapping, nature, humanities] = await Promise.all([
   read("data/enem/all-questions.json"), read("dist/data/physics-questions.json"),
@@ -172,12 +174,15 @@ await writeFile(path.join(root, "data/courses/lesson-layout.json"), JSON.stringi
 const assetPaths = new Set(questions.flatMap((q) => JSON.stringify(q).match(/\/assets\/questions\/\d+\/\d+(?:-(?:ingles|espanhol))?\/[^\s"\\)]+\.(?:png|jpg|jpeg|webp|gif)/gi) || []));
 for (const asset of assetPaths) {
   const [, year, index, file] = asset.match(/^\/assets\/questions\/(\d+)\/(\d+(?:-(?:ingles|espanhol))?)\/(.+)$/);
-  const source = path.join(root, "data/enem-source/public", year, "questions", index, file);
+  const source = path.join(sourcePublic, year, "questions", index, file);
   await access(source);
   const destination = path.join(root, "dist", asset);
   await mkdir(path.dirname(destination), { recursive: true });
   await cp(source, destination);
 }
+const importProgress = await read("data/enem/import-progress.json");
+const bank = await buildYearBank({ root, sourcePublic, snapshot, curatedQuestions: questions, courses, tri,
+  years: importProgress.batches.map(batch => batch.year) });
 const payload = {
   schemaVersion: 2, source: snapshot.source, sourceRepository: snapshot.sourceRepository,
   rawTotal: snapshot.total, years: snapshot.years, generatedAt: new Date().toISOString(),
@@ -185,7 +190,7 @@ const payload = {
   tri: { coverage: tri.coverage || {}, matched: questions.filter(q => q.tri).length, scale: tri.scale || null,
     sourceIndexUrl: tri.sourceIndexUrl || null, years: (tri.years || []).map(({ year, sourceUrl, matched, unavailable }) => ({ year, sourceUrl, matched, unavailable })) },
   method: "Seleção editorial de questões íntegras com resoluções próprias. A associação a competência e habilidade é editorial; os enunciados de referência são do INEP.",
-  courses, questions,
+  courses, questions, practiceQuestions: bank.practiceQuestions, imports: bank.imports,
 };
 await mkdir(path.join(root, "dist/data"), { recursive: true });
 await writeFile(path.join(root, "dist/data/courses.json"), JSON.stringify(payload) + "\n");
