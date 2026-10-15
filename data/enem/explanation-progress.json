@@ -36,7 +36,7 @@
     {
       "id": "2023-humanas-01",
       "file": "data/enem/explanations/2023-humanas-01.json",
-      "status": "prepared",
+      "status": "published",
       "reviewedAt": "2026-10-15T14:10:26.966Z",
       "reviewNote": "Revisão independente dos 20 enunciados, alternativas e comentários; imagem da questão 46 inspecionada. Conferidos conceitos de geografia, história, filosofia e sociologia sem reproduzir imprecisões periféricas da fonte.",
       "questionIds": [
@@ -62,7 +62,44 @@
         "2023-69"
       ],
       "contentSha256": "5c59a79091abfa8baebdcf9d65aa222f33f763a23899fe8238f7c116435be809",
-      "sourceSha256": "a0c1271b4b47dbcb8e5b09923188d23fc0905b24c17336a47446220d0ac2c032"
+      "sourceSha256": "a0c1271b4b47dbcb8e5b09923188d23fc0905b24c17336a47446220d0ac2c032",
+      "deployment": {
+        "commit": "a998d3c4860220ed2f9af5bd28ea27374dd578bf",
+        "runId": "38749121149",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38749121149",
+        "confirmedAt": "2026-10-15T14:12:35.607Z"
+      }
+    },
+    {
+      "id": "2023-humanas-02",
+      "file": "data/enem/explanations/2023-humanas-02.json",
+      "status": "prepared",
+      "reviewedAt": "2026-10-15T14:14:01.203Z",
+      "reviewNote": "Revisão independente das 20 questões por outro agente: textos, alternativas, gabaritos e imagens das questões 72, 76 e 89 conferidos. Parecer por ID sem erros de interpretação; resoluções não reproduzem imprecisões periféricas do texto da questão 72.",
+      "questionIds": [
+        "2023-71",
+        "2023-72",
+        "2023-73",
+        "2023-74",
+        "2023-75",
+        "2023-76",
+        "2023-77",
+        "2023-78",
+        "2023-79",
+        "2023-80",
+        "2023-81",
+        "2023-82",
+        "2023-83",
+        "2023-84",
+        "2023-85",
+        "2023-86",
+        "2023-87",
+        "2023-88",
+        "2023-89",
+        "2023-90"
+      ],
+      "contentSha256": "f3ad766e4a5dc9e171d9ce7d67f736bd64f7f09ebebea89b8b1f403293b3a78b",
+      "sourceSha256": "20a70e33cabd48c4e0c78b5ea96434b955dd59f6457920c3b3684a8ba8fadc80"
     }
   ]
 }

@@ -101,7 +101,7 @@ Os títulos resumidos das unidades são didáticos. O texto integral da competê
 
 Cada unidade tem uma introdução conceitual com relações e fórmulas, notação, exemplo resolvido e um alerta sobre erros comuns. A leitura pode ser marcada como concluída. A primeira lição de cada unidade fica disponível; as seguintes são liberadas conforme o estudo. O seletor “Explorar unidades” permite ir diretamente a um tema ou competência.
 
-Após verificar uma resposta das trilhas, o app apresenta a alternativa correta e uma resolução específica, tanto nos acertos quanto nos erros. Esse conteúdo é elaborado para o Enem; não é uma resolução oficial fornecida pelo INEP ou pela API. Os novos itens importados para prática mostram o gabarito e identificam explicitamente a ausência de resolução revisada.
+Após verificar uma resposta, o app apresenta a alternativa correta e sua resolução específica, tanto nos acertos quanto nos erros. Esse conteúdo é elaborado para o Enem; não é uma resolução oficial fornecida pelo INEP ou pela API. Os comentários dos itens importados são acrescentados em lotes revisados. Enquanto um item não recebe comentário, a correção identifica explicitamente essa ausência.
 
 - `data/learning/introductions.json`: introduções das cinco unidades de Física.
 - `data/learning/explanations-*.json`: resoluções por ID de questão, com conceito, passos e ideia-chave. `moduleId` permite corrigir a classificação da questão; `excludeReason` documenta itens incompletos ou fora do escopo.
@@ -149,6 +149,21 @@ Resultado da importação de todos os 15 anos: **2.757 registros preservados, 2.
 O relatório `imports` em `dist/data/courses.json` contém contagens por ano e IDs com motivos de quarentena. Itens incompletos, anulados, com alternativas duplicadas ou gabarito divergente continuam no snapshot bruto e ficam fora da prática pontuada. Falta de parâmetro TRI, por si só, não impede a prática. Imagens necessárias são copiadas para `dist/assets/questions/` e verificadas antes do deploy.
 
 ## Desenvolvimento
+
+### Comentários em lotes e retomada
+
+`data/enem/explanation-progress.json` registra os lotes de comentários, IDs, hashes do conteúdo e da questão conferida, revisão e implantação. Arquivos em `data/enem/explanations/` só entram no app após inclusão explícita nesse registro. A seleção das trilhas, os IDs, os gabaritos e o progresso dos alunos são preservados.
+
+1. Consulte `node scripts/comment-enem-batch.mjs --status` para ver os anos pendentes.
+2. Escreva um JSON por lote, com IDs como chaves e `correctAlternative`, `concept`, pelo menos três `steps` específicos e `takeaway` por questão. Resolva pelo enunciado completo e inspecione imagens; não derive a justificativa apenas da letra correta.
+3. Faça revisão independente do raciocínio, cálculos, alternativas e figuras. Fórmulas usam delimitadores explícitos de KaTeX. Não habilite textos genéricos nem itens cuja informação seja insuficiente.
+4. Prepare com `node scripts/comment-enem-batch.mjs --prepare ID_DO_LOTE 'Evidências da revisão'`. O comando gera o catálogo e impede iniciar outro lote enquanto há publicação pendente.
+5. Atualize a versão do cache PWA, execute `node --test scripts/test-*.mjs`, adicione apenas os arquivos do lote ao Git e valide o pacote com `scripts/build-github-pages.mjs`. Publique em `main`.
+6. Após sucesso do job **Publicar no GitHub Pages**, execute `node scripts/comment-enem-batch.mjs --confirm ID_DO_LOTE ID_DA_EXECUCAO_ACTIONS`. Versione a confirmação no próximo commit. Se houve interrupção após o push, consulte o Actions e confirme a execução existente antes de preparar outro lote.
+
+`explanationCoverage` no catálogo contém os totais e pendências por ano. Questões já comentadas não são duplicadas. Mudanças no texto revisado ou na questão invalidam o hash e exigem nova conferência.
+
+Quando a API omite um trecho, `data/enem/content-corrections.json` registra somente restaurações verificadas no PDF oficial, com URL, página, motivo e hash do registro original. O snapshot bruto permanece intacto. As correções são aplicadas antes dos comentários e não podem alterar o gabarito.
 
 O projeto é estático. Sirva a pasta `dist` com qualquer servidor HTTP local:
 

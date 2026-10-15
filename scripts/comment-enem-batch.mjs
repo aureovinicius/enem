@@ -20,6 +20,7 @@ if (action === "--status") {
   const file = `data/enem/explanations/${batchId}.json`;
   const content = await readFile(file, "utf8");
   const explanations = JSON.parse(content);
+  const catalogBefore = await readFile("dist/data/courses.json");
   const catalog = await read("dist/data/courses.json");
   const questions = new Map(catalog.practiceQuestions.map(q => [q.id, q]));
   const ids = Object.keys(explanations);
@@ -40,7 +41,11 @@ if (action === "--status") {
     const sourcePublic = process.env.ENEM_SOURCE_PUBLIC || (existsSync(materialized) ? materialized : path.resolve("data/enem-source/public"));
     execFileSync(process.execPath, ["scripts/build-courses.mjs"], { stdio: "inherit", env: { ...process.env, ENEM_SOURCE_PUBLIC: sourcePublic } });
     console.log(`${batchId}: ${ids.length} comentários preparados. Execute testes e publique antes de --confirm.`);
-  } catch (error) { await save(before); throw error; }
+  } catch (error) {
+    await save(before);
+    await writeFile("dist/data/courses.json", catalogBefore);
+    throw error;
+  }
 } else if (action === "--confirm") {
   if (!/^\d+$/.test(argument || "")) throw new Error("Usage: --confirm BATCH_ID ACTIONS_RUN_ID");
   const batch = progress.batches.find(b => b.id === batchId);

@@ -198,6 +198,6 @@ const payload = {
   explanationCoverage: explanationCoverage([...questions, ...bank.practiceQuestions]),
 };
 await mkdir(path.join(root, "dist/data"), { recursive: true });
-await writeFile(path.join(root, "dist/data/courses.json"), JSON.stringify(payload) + "\n");
 await cp(path.join(root, "data/reference/enem-matriz-de-referencia.pdf"), path.join(root, "dist/data/enem-matriz-de-referencia.pdf"));
+await writeFile(path.join(root, "dist/data/courses.json"), JSON.stringify(payload) + "\n");
 console.log(JSON.stringify({ total: questions.length, assets: assetPaths.size, courses: courses.map((c) => ({ id: c.id, units: c.modules.length, questions: c.total })) }, null, 2));

@@ -1,0 +1,53 @@
+{
+  "2023-99": {
+    "originalSha256": "fc08394efd0dee2d7d4e010309e42e0d78597b182235792bc66b5fb6132a04eb",
+    "reason": "A API omitiu o comando da questão e colocou todo o contexto em alternativesIntroduction. Contexto e comando separados conforme a prova oficial do INEP, página 3.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reviewedAt": "2026-10-15T14:14:00.966Z",
+    "fields": {
+      "context": "A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecidos. Ela é transmitida ao homem de forma indireta, por vetores do ambiente doméstico. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença.",
+      "alternativesIntroduction": "Em qual material biológico dos cães a presença desse protozoário representa risco de transmissão dessa zoonose?"
+    }
+  },
+  "2023-141": {
+    "originalSha256": "f50e88e0a8dd159b8db851f6c6616029ede4e9cdc68aa4a524ac1d08924e9c6d",
+    "reason": "O snapshot apresentava context:null. O enunciado completo foi transcrito e conferido visualmente no caderno oficial, preservando as alternativas já disponíveis.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-15T14:14:00.967Z",
+    "fields": {
+      "context": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados."
+    }
+  },
+  "2023-142": {
+    "originalSha256": "e003f5a1cec9becdccfc5645532c81f65e7f86dcfe4e42574017b30930b43cee",
+    "reason": "O snapshot apresentava context:null. Foram recuperados e conferidos visualmente no original os dados do reservatório, da população e do consumo.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-15T14:14:00.967Z",
+    "fields": {
+      "context": "A água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto cujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador desse vilarejo consome, em média, 200 litros de água por dia.\n\nNo mês de junho de um determinado ano, o vilarejo festejou o dia do seu padroeiro e houve um gasto extra de água nos primeiros 20 dias. Passado esse período, as pessoas verificaram a quantidade de água presente no reservatório e constataram que o nível da coluna de água estava em 1,5 metro. Decidiram, então, fazer um racionamento de água durante os 10 dias seguintes. Considere 3 como aproximação para \\(\\pi\\)."
+    }
+  },
+  "2023-146": {
+    "originalSha256": "b273392f4c0e2c90a6cde3e0b1e0f2b14c70ed95491cda357cff0041f546f166",
+    "reason": "O snapshot preservava somente a figura e omitia as regras do triângulo mágico. O parágrafo introdutório foi transcrito e conferido visualmente no original; a figura e o comando existentes foram preservados.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reviewedAt": "2026-10-15T14:14:00.967Z",
+    "fields": {
+      "context": "O triângulo da figura é denominado triângulo mágico. Nos círculos, escrevem-se os números de 1 a 6, sem repetição, com um número em cada círculo. O objetivo é distribuir os números de forma que as somas dos números em cada lado do triângulo sejam iguais.\n\n![](/assets/questions/2023/146/74e0c851-b2af-410d-9f19-3348dd8f883a.jpg)"
+    }
+  },
+  "2023-161": {
+    "originalSha256": "a1d17e9e229c9e659c342c420bd902560065ca65d407b7e25d722f6b1bd902a8",
+    "reason": "O snapshot perdeu o sinal de raiz quadrada na aproximação fornecida. A página oficial mostra √28, confirmado visualmente.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reviewedAt": "2026-10-15T14:14:00.967Z",
+    "fields": {
+      "context": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.\n\nUm cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00.\n\nUtilize 5,29 como aproximação para \\(\\sqrt{28}\\)."
+    }
+  }
+}
