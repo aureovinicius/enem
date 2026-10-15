@@ -25,7 +25,7 @@
   "batches": [
     {
       "year": 2023,
-      "status": "prepared",
+      "status": "published",
       "preparedAt": "2026-10-15T13:08:25.367Z",
       "sourceSha256": "7ebb027af1ccc504f187f217fe8b666a579a47d48137ce57ebc5c99996af3420",
       "rawTotal": 183,
@@ -35,6 +35,26 @@
         "existing": 77,
         "added": 97,
         "excluded": 9
+      },
+      "deployment": {
+        "commit": "85defba747e6ba403607abc5a18abd6bd3adbaaf",
+        "runId": "38740492068",
+        "url": "https://github.com/aureovinicius/enem/actions/runs/38740492068",
+        "confirmedAt": "2026-10-15T13:11:59.616Z"
+      }
+    },
+    {
+      "year": 2022,
+      "status": "prepared",
+      "preparedAt": "2026-10-15T13:12:03.273Z",
+      "sourceSha256": "bcd32e6f9b5dc555ceab608194a47e8deb415c6c5aa43136a55ef75a31f7ce2f",
+      "rawTotal": 185,
+      "result": {
+        "year": 2022,
+        "total": 185,
+        "existing": 97,
+        "added": 84,
+        "excluded": 4
       }
     }
   ]
