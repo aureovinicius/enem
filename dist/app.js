@@ -1,6 +1,6 @@
-import { buildPracticeReport } from "./practice-session.js?v=pwa-13-enem-2022";
+import { buildPracticeReport } from "./practice-session.js?v=pwa-13-enem-2021";
 
-const DATA_URL = "/data/courses.json?v=pwa-13-enem-2022";
+const DATA_URL = "/data/courses.json?v=pwa-13-enem-2021";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
@@ -127,7 +127,7 @@ function renderMathText(value = "", formatPlain = escapeHtml) {
 
 function renderPlainMarkdown(value) {
   const escaped = escapeHtml(value).replace(/\\([\[\]])/g, "$1");
-  const withImages = escaped.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, url) => {
+  const withImages = escaped.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+(?:&quot;[\s\S]*?&quot;|&#039;[\s\S]*?&#039;))?\)/g, (_, alt, url) => {
     const safeUrl = url.startsWith("/assets/questions/") || url.startsWith("https://enem.dev/")
       ? url
       : "";

@@ -50,6 +50,14 @@ test("escaped quotation omissions stay prose while actual display equations rend
   assert.ok(html.includes("<msup>"));
 });
 
+test("source images with quoted Markdown titles preserve a valid image URL", () => {
+  const html = renderMarkdown('![imagem (Foto: Reprodução/Enem)](/assets/questions/2010/168/figure.png "imagem (Foto: Reprodução/Enem)")');
+  assert.ok(html.includes('<img src="/assets/questions/2010/168/figure.png"'));
+  assert.ok(html.includes('alt="imagem (Foto: Reprodução/Enem)"'));
+  assert.ok(!html.includes('&quot;imagem'));
+  assert.ok(!renderMarkdown('![x](javascript:alert "title (test)")').includes('<img'));
+});
+
 test("all editorial expressions parse with local KaTeX and balanced explicit delimiters", () => {
   const catalog = JSON.parse(readFileSync("dist/data/courses.json", "utf8"));
   let count = 0;
