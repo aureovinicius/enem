@@ -1,5 +1,5 @@
 /* Change VERSION with every release of the application shell. */
-const VERSION = "pwa-13-enem-2010";
+const VERSION = "pwa-13-enem-2009";
 const SCOPE = new URL(self.registration.scope);
 const PREFIX = `enem:${encodeURIComponent(SCOPE.href)}:`;
 const CORE_CACHE = `${PREFIX}${VERSION}:core`;
@@ -8,8 +8,8 @@ const MATH_FONTS = ["KaTeX_AMS-Regular.woff2", "KaTeX_Caligraphic-Bold.woff2", "
 const CORE_PATHS = [
   "vendor/katex/katex.min.js", "vendor/katex/katex.min.css",
   ...MATH_FONTS.map(name => `vendor/katex/fonts/${name}`),
-  "./", "practice-session.js?v=pwa-13-enem-2010", "app.js?v=pwa-13-enem-2010", "styles.css?v=pwa-13-enem-2010", "pwa.js?v=pwa-13-enem-2010",
-  "data/courses.json?v=pwa-13-enem-2010", "manifest.webmanifest", "icons/icon-192.png",
+  "./", "practice-session.js?v=pwa-13-enem-2009", "app.js?v=pwa-13-enem-2009", "styles.css?v=pwa-13-enem-2009", "pwa.js?v=pwa-13-enem-2009",
+  "data/courses.json?v=pwa-13-enem-2009", "manifest.webmanifest", "icons/icon-192.png",
   "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png", "favicon.svg",
 ];
 const CORE_URLS = new Set(CORE_PATHS.map(path => new URL(path, SCOPE).href));
