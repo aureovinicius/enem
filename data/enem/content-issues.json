@@ -57,5 +57,25 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC10066022/",
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC8109835/"
     ]
+  },
+  "2019-146": {
+    "originalSha256": "6e1b6f47be1fb34f8d1d1dda1248fede903abfd43df144314b9e9e0d3c57be15",
+    "reason": "O gráfico oficial mostra no dia 12 temperatura exatamente 40 °C e umidade de 20%. O alerta laranja é definido para temperatura «entre 35 °C e 40 °C» e umidade abaixo de 30%, sem explicitar se os extremos pertencem ao intervalo. Se a faixa inclui 40 °C, os alertas dos dias 1 e 12 estão corretos (alternativa C). Se a faixa é aberta em 40 °C, apenas o dia 1 está correto (gabarito A). O dia 13 tem umidade de 40%, não inferior a 25%, e falha em ambas as leituras. A API omitiu o gráfico, mas restaurá-lo não resolve essa ambiguidade do original. Suspensão editorial da prática pontuada para não penalizar a interpretação inclusiva plausível; não constitui declaração de anulação pelo INEP e preserva o gabarito original.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reviewedAt": "2026-10-18",
+    "evidence": {
+      "officialAnswer": "A",
+      "inclusiveInterpretationAnswer": "C",
+      "day12": {
+        "temperatureCelsius": 40,
+        "relativeHumidityPercent": 20
+      },
+      "day13": {
+        "relativeHumidityPercent": 40
+      },
+      "visualSourceVerified": true,
+      "localGraph": ".preview/enem-2019-q146-grafico-oficial.png"
+    }
   }
 }

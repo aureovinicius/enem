@@ -558,5 +558,329 @@
         "E": "\\(1{,}0\\times10^{-7}\\)"
       }
     }
+  },
+  "2019-18": {
+    "originalSha256": "99a5bc4caa0368acf5e181251eab6ce7c3090d9c2716726fa367a177acef2f3e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 10,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "O que é software livre\nSoftware livre é qualquer programa de computador construído de forma colaborativa, via internet, por uma comunidade internacional de desenvolvedores independentes. São centenas de milhares de hackers, que negam sua associação com os “violadores de segurança”. Esses desenvolvedores de software se recusam a reconhecer o significado pejorativo do termo e continuam usando a palavra hacker para indicar “alguém que ama programar e que gosta de ser hábil e engenhoso”. Além disso, esses programas são entregues à comunidade com o código fonte aberto e disponível, permitindo que a ideia original possa ser aperfeiçoada e devolvida novamente à comunidade. Nos programas convencionais, o código de programação é secreto e de propriedade da empresa que o desenvolveu, sendo quase impossível decifrar a programação.\nO que está em jogo é o controle da inovação tecnológica. Software livre é uma questão de liberdade de expressão e não apenas uma relação econômica. Hoje existem milhares de programas alternativos construídos dessa forma e uma comunidade de usuários com milhões de membros no mundo.\nBRANCO, M. Software livre e desenvolvimento social e econômico. In: CASTELLS, M.; CARDOSO, G. (Org). A sociedade em rede: do conhecimento à ação política. Lisboa: Imprensa Nacional, 2005 (adaptado).",
+      "alternativesIntroduction": "A criação de softwares livres contribui para a produção do conhecimento na sociedade porque"
+    }
+  },
+  "2019-19": {
+    "originalSha256": "a1869d966a4b19b2880b57c453f32fe9658adb998c5640cb9162d68d846440c6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "Expostos na web desde a gravidez\nMais da metade das mães e um terço dos pais ouvidos em uma pesquisa sobre compartilhamento paterno em mídias sociais discutem nas redes sociais sobre a educação dos filhos. Muitos são pais e mães de primeira viagem, frutos da geração Y (que nasceu junto com a internet) e usam esses canais para saberem que não estão sozinhos na empreitada de educar uma criança. Há, contudo, um risco no modo como as pessoas estão compartilhando essas experiências. É a chamada exposição parental exagerada, alertam os pesquisadores.\nDe acordo com os especialistas no assunto, se você compartilha uma foto ou video do seu filho pequeno fazendo algo ridículo, por achar engraçadinho, quando a criança tiver seus 11, 12 anos, pode se sentir constrangida. A autoconsciência vem com a idade.\nA exibição da privacidade dos filhos começa a assumir uma característica de linha do tempo e eles não participaram da aprovação ou recusa quanto à veiculação desses conteúdos. Assim, quando a criança cresce, sua privacidade pode já estar violada.\nOTONI, A. C. O Globo, 31 mar. 2015 (adaptado).",
+      "alternativesIntroduction": "Sobre o compartilhamento parental excessivo em mídias sociais, o texto destaca como impacto o(a)",
+      "alternativeTexts": {
+        "C": "Distanciamento na relação entre pais e filhos provocado pelo uso das redes sociais."
+      }
+    }
+  },
+  "2019-21": {
+    "originalSha256": "8975849e32045aa6abad271eda8ba1ba80e9a1712cbbdb5dd93e5a9eceeae32a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "Menina\nA máquina de costura avançava decidida sobre o pano. Que bonita que a mãe era, com os alfinetes na boca. Gostava de olhá-la calada, estudando seus gestos, enquanto recortava retalhos de pano com a tesoura. Interrompia às vezes seu trabalho, era quando a mãe precisava da tesoura. Admirava o jeito decidido da mãe ao cortar pano, não hesitava nunca, nem errava. A mãe sabia tanto! Tita chamava-a de ( ) como quem diz ( ). Tentava não pensar as palavras, mas sabia que na mesma hora da tentativa tinha-as pensado. Oh, tudo era tão difícil. A mãe saberia o que ela queria perguntar-lhe intensamente agora quase com fome depressa depressa antes de morrer, tanto que não se conteve e — Mamãe, o que é desquitada? — atirou rápida com uma voz sem timbre. Tudo ficou suspenso, se alguém gritasse o mundo acabava ou Deus aparecia — sentia Ana Lúcia. Era muito forte aquele instante, forte demais para uma menina, a mãe parada com a tesoura no ar, tudo sem solução podendo desabar a qualquer pensamento, a máquina avançando desgovernada sobre o vestido de seda brilhante espalhando luz luz luz.\nÂNGELO. I. Menina. In: A face horrível. São Paulo: Lazuli, 2017.",
+      "alternativesIntroduction": "Escrita na década de 1960, a narrativa põe em evidência uma dramaticidade centrada na"
+    }
+  },
+  "2019-27": {
+    "originalSha256": "099dae693af76e988049f41d9fcd591ed6d295d65d07f0c8a2b104919c8e615e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "Educação para a saúde mediante programas de educação física escolar\nA educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio homem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de ser saudável não é algo estático. Pelo contrário, torna-se necessário adquiri-lo e construí-lo de forma individualizada constantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser tratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto didático-pedagógico.\nGUEDES, D. P. Motriz, n. 1, 1999.",
+      "alternativesIntroduction": "A educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à",
+      "alternativeTexts": {
+        "A": "Adesão a programas de lazer."
+      }
+    }
+  },
+  "2019-35": {
+    "originalSha256": "449d5f3da755ef779ce84c3b13e13dd9f6a9c4fecdc3e7ca066ec3a6ae1a003a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "No Brasil, a disseminação de uma expectativa de corpo com base na estética da magreza é bastante grande e apresenta uma enorme repercussão, especialmente, se considerada do ponto de vista da realização pessoal. Em pesquisa feita na cidade de São Paulo, aparecem os percentuais de 90% entre as mulheres pesquisadas que se dizem preocupadas com seu peso corporal, sendo que 95% se sentem insatisfeitas com “seu próprio corpo”.\nSILVA, A. M. Corpo, ciência e mercado: reflexões acerca da\ngestação de um novo arquétipo da felicidade. Campinas: Autores\nAssociados; Florianópolis: UFSC, 2001",
+      "alternativesIntroduction": "A preocupação excessiva com o “peso” corporal pode provocar o desenvolvimento de distúrbios associados diretamente à imagem do corpo, tais como"
+    }
+  },
+  "2019-37": {
+    "originalSha256": "b1a1c10a6d405dedcb66f8f18a222faf18f6852716d7e78267b06bf6e50b9c53",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 17,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "Na semana passada, os alunos do colégio do meu filho se mobilizaram, através do Twitter, para não comprarem na cantina da escola naquele dia, pois acharam o preço do pão de queijo abusivo. São adolescentes. Quase senhores das novas tecnologias, transitam nas redes sociais, varrem o mundo através dos teclados dos celulares, iPads e se organizam para fazer um movimento pacífico de não comprar lanches por um dia. Foi parar na TV e em muitas páginas da internet.\n \nGOMES, A. A revolução silenciosa e o Impacto na sociedade das\nredes sociais. Disponível em: www.hsm.com.br.\nAcesso em: 31 jul. 2012",
+      "alternativesIntroduction": "O texto aborda a temática das tecnologias da informação e comunicação, especificamente o uso de redes sociais. Muito se debate acerca dos benefícios e malefícios do uso desses recursos e, nesse sentido, o texto",
+      "alternativeTexts": {
+        "C": "Expõe a possibilidade de as redes sociais favorecerem comportamentos e manifestações violentos dos adolescentes que nelas se relacionam."
+      }
+    }
+  },
+  "2019-38": {
+    "originalSha256": "ec63525cc1d6acf6f11768cadc7fa06c81c2edf5f25079b4323be999a4d269d8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 17,
+    "reason": "Texto de apoio e comando separados conforme conferência visual da página oficial; restauradas quebras de palavra e transcrições pontuais. Gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:04:44.966Z",
+    "fields": {
+      "context": "“O computador, dando prioridade à busca pela própria felicidade, parou de trabalhar para os humanos”. É assim que termina o conto O dia em que um computador escreveu um conto, escrito por uma inteligência artificial com a ajuda de cientistas humanos.\nOs cientistas selecionaram palavras e frases que seriam usadas na narrativa, e definiram um roteiro geral da história, que serviria como guia para a inteligência artificial. A partir daí, o computador criou o texto combinando as frases e seguindo as diretrizes que os cientistas impuseram. Os juízes não sabem quais textos são escritos por humanos e quais são feitos por computadores, o que mostra que o conto estava bem escrito. O dia só não passou para as próximas etapas porque, de acordo com os juízes, os personagens não foram muito bem descritos, embora o texto estivesse estruturalmente impecável.\nA ideia dos cientistas é continuar desenvolvendo a criatividade da IA para que ela se pareça cada vez mais com a humana. Simular esse tipo de resposta é difícil, porque o computador precisa ter, primeiro, um banco de dados vasto vinculado a uma programação específica para cada tipo de projeto – escrita, pintura, música, desenho e por aí vai.\nDANGELO, H. Disponível em: https://super.abril.com.br. Acesso em: 5 dez. 2018",
+      "alternativesIntroduction": "O êxito e as limitações da tecnologia utilizada na composição do conto evidenciam a"
+    }
+  },
+  "2019-5-espanhol": {
+    "originalSha256": "9d0306e6bfd4e7058d2cc571cb1e9a4c75d2c1243c67c41ccb2ad0f7b232d0d0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Retirada letra D duplicada no texto da alternativa, após conferência visual do original.",
+    "reviewedAt": "2026-10-18T07:04:44.967Z",
+    "fields": {
+      "alternativeTexts": {
+        "D": "Problematizar o descarte inconsequente de equipamentos."
+      }
+    }
+  },
+  "2019-46": {
+    "originalSha256": "02c1d65791aa060f60acfbdcaaf592a6727841944d251c534bcc806b04d481bf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "A API transcreveu transformá-lo como transformá-to. Grafia restaurada após conferência visual da página21 do caderno oficial.",
+    "reviewedAt": "2026-10-18T06:52:42.416963+00:00",
+    "fields": {
+      "context": "A pegada ecológica gigante que estamos a deixar no planeta está a transformá-lo de tal forma que os especialistas consideram que já entramos numa nova época geológica, o Antropoceno. E muitos defendem que, se não travarmos a crise ambiental, mais rapidamente transformaremos a Terra em Vênus do que iremos a Marte. A expressão “Antropoceno” é atribuída ao químico e prêmio Nobel Paul Crutzen, que a propôs durante uma conferência em 2000, ao mesmo tempo que anunciou o fim do Holoceno – a época geológica em que os seres humanos se encontram há cerca de 12 mil anos, segundo a União Internacional das Ciências Geológicas (UICG), a entidade que define as unidades de tempo geológicas.\n\nSILVA, R. D. **Antropoceno: e se formos os últimos seres vivos a alterar a Terra?** Disponível em: www.publico.pt. Acesso em: 5 dez. 2017 (adaptado)."
+    }
+  },
+  "2019-50": {
+    "originalSha256": "1dd11d7ab7b2724076a806488c3dbb16469703ac4c55261484d2fe65a84bb9b1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "A API deixou context nulo e reuniu o texto de apoio e o comando em alternativesIntroduction. Separação restaurada conforme o caderno oficial, página22.",
+    "reviewedAt": "2026-10-18T06:52:42.417060+00:00",
+    "fields": {
+      "context": "A hospitalidade pura consiste em acolher aquele que chega antes de lhe impor condições, antes de saber e indagar o que quer que seja, ainda que seja um nome ou um “documento” de identidade. Mas ela também supõe que se dirija a ele, de maneira singular, chamando-o portanto e reconhecendo-lhe um nome próprio: “Como você se chama?” A hospitalidade consiste em fazer tudo para se dirigir ao outro, em lhe conceder, até mesmo perguntar seu nome, evitando que essa pergunta se torne uma “condição”, um inquérito policial, um fichamento ou um simples controle das fronteiras. Uma arte e uma poética, mas também toda uma política dependem disso, toda uma ética se decide aí.\nDERRIDA, J. Papel-máquina. São Paulo: Estação Liberdade, 2004 (adaptado).",
+      "alternativesIntroduction": "Associado ao contexto migratório contemporâneo, o conceito de hospitalidade proposto pelo autor impõe a necessidade de"
+    }
+  },
+  "2019-51": {
+    "originalSha256": "af0ce7ceefd3dbb9cb76c7198509a9e98704d20bef8873cad0e06c4b8debf5fc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "A API deixou context nulo e reuniu o texto de apoio e o comando em alternativesIntroduction. Separação restaurada conforme o caderno oficial, página22. A transcrição normais também foi corrigida para normas.",
+    "reviewedAt": "2026-10-18T06:52:42.417068+00:00",
+    "fields": {
+      "context": "Em sentido geral e fundamental, Direito é a técnica da coexistência humana, isto é, a técnica voltada a tornar possível a coexistência dos homens. Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse caso, são leis ou normas); e tais regras têm por objeto o comportamento intersubjetivo, isto é, o comportamento recíproco dos homens entre si.\nABBAGNANO, N. Dicionário de Filosofia. São Paulo: Martins Fontes, 2007.",
+      "alternativesIntroduction": "O sentido geral e fundamental do Direito, conforme foi destacado, refere-se à"
+    }
+  },
+  "2019-52": {
+    "originalSha256": "82b9710837ad00d098d3ff1f0d826c3d4ca0bb674d27552c15c9eaea6e2fdbbb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "A API deixou context nulo e reuniu o texto de apoio e o comando em alternativesIntroduction. Separação restaurada conforme o caderno oficial, página22. Expressões produção de farinha e lugar-comum restauradas conforme o impresso.",
+    "reviewedAt": "2026-10-18T06:52:42.417076+00:00",
+    "fields": {
+      "context": "O processamento da mandioca era uma atividade já realizada pelos nativos que viviam no Brasil antes da chegada de portugueses e africanos. Entretanto, ao longo do processo de colonização portuguesa, a produção de farinha foi aperfeiçoada e ampliada, tornando-se lugar-comum em todo o território da colônia portuguesa na América. Com a consolidação do comércio atlântico em suas diferentes conexões, a farinha atravessou os mares e chegou aos mercados africanos.\nBEZERRA, N. R. Escravidão, farinha e tráfico atlântico: um novo olhar sobre as relações entre o Rio de Janeiro e Benguela (1790-1830). Disponível em: www.bn.br. Acesso em: 20 ago. 2014 (adaptado)",
+      "alternativesIntroduction": "Considerando a formação do espaço atlântico, esse produto exemplifica historicamente a"
+    }
+  },
+  "2019-53": {
+    "originalSha256": "cb3930c64f9e6f7e1807146c1c91bd5e70988e77d98422e2d4128ad7899c992d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "A API deixou context nulo e reuniu o texto de apoio e o comando em alternativesIntroduction. Separação restaurada conforme o caderno oficial, página22.",
+    "reviewedAt": "2026-10-18T06:52:42.417080+00:00",
+    "fields": {
+      "context": "Brasil, Alemanha, Japão e Índia pedem reforma do Conselho de Segurança\n     Os representantes do G4 (Brasil, Alemanha, Índia e Japão) reiteraram, em setembro de 2018, a defesa pela ampliação do Conselho de Segurança da Organização das Nações Unidas (ONU) durante reunião em Nova York (Estados Unidos). Em declaração conjunta, de dez itens, os chanceleres destacaram que o órgão, no formato em que está, com apenas cinco membros permanentes e dez rotativos, não reflete o século 21. “A reforma do Conselho de Segurança é essencial para enfrentar os desafios complexos de hoje. Como aspirantes a novos membros permanentes de um conselho reformado, os ministros reiteraram seu compromisso de trabalhar para fortalecer o funcionamento da ONU e da ordem multilateral global, bem como seu apoio às respectivas candidaturas”, afirma a declaração conjunta.\nDisponível em: http://agenciabrasil.ebc.com.br. Acesso em: 7 dez. 2018 (adaptado).",
+      "alternativesIntroduction": "Os países mencionados no texto justificam sua pretensão com base na seguinte característica comum:"
+    }
+  },
+  "2019-82": {
+    "originalSha256": "1f7cdf135912a004ccf1af4d26841cd71d8f0bc2114d955ad3fb6fe834ef499b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 30,
+    "reason": "O trecho na API acrescentava palavras no início e trocava o encerramento Brasília por Brasil. Texto de apoio conferido visualmente e restaurado segundo a página30 oficial.",
+    "reviewedAt": "2026-10-18T06:52:42.417082+00:00",
+    "fields": {
+      "context": "Tratava-se agora de construir um ritmo novo. Para tanto, era necessário convocar todas as forças vivas da Nação, todos os homens que, com vontade de trabalhar e confiança no futuro, pudessem erguer, num tempo novo, um novo Tempo. E, à grande convocação que conclamava o povo para a gigantesca tarefa, começaram a chegar de todos os cantos da imensa pátria os trabalhadores: os homens simples e quietos, com pés de raiz, rostos de couro e mãos de pedra, e no calcanho, em carro de boi, em lombo de burro, em paus-de-arara, por todas as formas possíveis e imagináveis, em sua mudez cheia de esperança, muitas vezes deixando para trás mulheres e filhos a aguardar suas promessas de melhores dias; foram chegando de tantos povoados, tantas cidades cujos nomes pareciam cantar saudades aos seus ouvidos, dentro dos antigos ritmos da imensa pátria... Terra de sol, Terra de luz... Brasil! Brasil! Brasília!\n\nMORAES, V.; JOBIM, A. C. **Brasília, sinfonia da alvorada. III — A chegada dos candangos.** Disponível em: www.viniciusdemoraes.com.br. Acesso em: 14 ago. 2012 (adaptado)."
+    }
+  },
+  "2019-83": {
+    "originalSha256": "fc0cd2c950a0e16e8b3264316358534a48e502e0e0220db10d1f7a8ce250496f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 30,
+    "reason": "A API alterou a data do encontro de 09/07/2015 para 09/07/2018 e deslocou a abertura da citação. Texto de apoio restaurado pela página30 do caderno oficial.",
+    "reviewedAt": "2026-10-18T06:52:42.417084+00:00",
+    "fields": {
+      "context": "Saudado por centenas de militantes de movimentos sociais de quarenta países, o papa Francisco encerrou no dia 09/07/2015 o 2º Encontro Mundial dos Movimentos Populares, em Santa Cruz de La Sierra, na Bolívia. Segundo ele, a “globalização da esperança, que nasce dos povos e cresce entre os pobres, deve substituir esta globalização da exclusão e da indiferença”.\n\nDisponível em: http://cartamaior.com.br. Acesso em: 15 jul. 2015 (adaptado)."
+    }
+  },
+  "2019-99": {
+    "originalSha256": "9fff8f49981d77640f7ece6187ace6e9ed898bb8abcfef1ac4d07627c97bbc5c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 4,
+    "reason": "Retirada a letra D duplicada no início do texto da alternativa D; conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18T06:55:01.838Z",
+    "fields": {
+      "alternativeTexts": {
+        "D": "Eleva o pH do solo em função da degradação dos componentes do resíduo."
+      }
+    }
+  },
+  "2019-118": {
+    "originalSha256": "ab67637ef45df1ffcfd97ebe911658b595c0b5d7a216bbf4aec5a195011e483e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 10,
+    "reason": "Restaurados índices e cargas das fórmulas químicas nas alternativas, conforme a figura e a página oficial. O íon tetrahidroxozincato deve ter carga2− sobrescrita, não como número isolado após a fórmula.",
+    "reviewedAt": "2026-10-18T06:55:01.839Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{H_2}\\) (g).",
+        "B": "\\(\\mathrm{O_2}\\) (g).",
+        "C": "\\(\\mathrm{H_2O}\\) (l).",
+        "D": "\\(\\mathrm{OH^-}\\) (aq).",
+        "E": "\\(\\mathrm{Zn(OH)_4^{2-}}\\) (aq)."
+      }
+    }
+  },
+  "2019-119": {
+    "originalSha256": "4e2afd08254729b7b0f28c0f0d7fa4c1618f026e5dcb5c8412e8dc8f7cc1684e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 11,
+    "reason": "Restaurados os índices das pressões e massas e a letra minúscula p nas alternativas, conforme a notação oficial.",
+    "reviewedAt": "2026-10-18T06:55:01.839Z",
+    "fields": {
+      "context": "Dois amigos se encontram em um posto de gasolina para calibrar os pneus de suas bicicletas. Uma das bicicletas é de corrida (bicicleta **A**) e a outra, de passeio (bicicleta **B**). Os pneus de ambas as bicicletas têm as mesmas características, exceto que a largura dos pneus de **A** é menor que a largura dos pneus de **B**. Ao calibrarem os pneus das bicicletas **A** e **B**, respectivamente com pressões de calibração \\(p_A\\) e \\(p_B\\), os amigos observam que o pneu da bicicleta **A** deforma, sob mesmos esforços, muito menos que o pneu da bicicleta **B**. Pode-se considerar que as massas de ar comprimido no pneu da bicicleta **A**, \\(m_A\\), e no pneu da bicicleta **B**, \\(m_B\\), são diretamente proporcionais aos seus volumes.",
+      "alternativeTexts": {
+        "A": "\\(p_A<p_B\\) e \\(m_A<m_B\\).",
+        "B": "\\(p_A>p_B\\) e \\(m_A<m_B\\).",
+        "C": "\\(p_A>p_B\\) e \\(m_A=m_B\\).",
+        "D": "\\(p_A<p_B\\) e \\(m_A=m_B\\).",
+        "E": "\\(p_A>p_B\\) e \\(m_A>m_B\\)."
+      }
+    }
+  },
+  "2019-126": {
+    "originalSha256": "84ccc211486e7d849a02a7c90fc3e5986b88fe027b55fbc050af9011afe42697",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 14,
+    "reason": "Restauradas as unidades ohm dos valores10,200 e50 no enunciado, que estavam ausentes na API e aparecem na figura e no caderno oficial.",
+    "reviewedAt": "2026-10-18T06:55:01.839Z",
+    "fields": {
+      "context": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a \\(10\\ \\Omega\\), que a conecta à rede elétrica de 120V. Nessa casa, cinco lâmpadas, de resistência igual a \\(200\\ \\Omega\\), estão conectadas ao mesmo circuito que uma televisão de resistência igual a \\(50\\ \\Omega\\), conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90V e 130V.\n\n![](/assets/questions/2019/126/cd4b4ead-40f5-4d46-9f98-a30a4849cd5e.png)"
+    }
+  },
+  "2019-137": {
+    "originalSha256": "7a3ff0735ee6e1db89f65fc49a8b72f7740997b717bcc76ee273cbadd3ccedb5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 17,
+    "reason": "A API duplicou e achatou as potências das alternativas e perdeu a base do logaritmo na fórmula. Restauradas a notação e a grafia científica do original, conferidas visualmente.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "context": "A _Hydrangea macrophylla_ é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7) a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a _Hydrangea_ cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8.\n\nSabe-se que \\(pH=-\\log_{10}x\\), em que x é a concentração de íon hidrogênio (H⁺).",
+      "alternativeTexts": {
+        "A": "Qualquer valor acima de \\(10^{-8}\\).",
+        "B": "Qualquer valor positivo inferior a \\(10^{-7}\\).",
+        "E": "Valores maiores que \\(10^{-8}\\) e menores que \\(10^{-7}\\)."
+      }
+    }
+  },
+  "2019-139": {
+    "originalSha256": "8fa598b3400e0d157dddda04553004f11bd5fe191c96a795d2ba69f66855b69d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reason": "Os volumes de 6 m³ e 15 m³ foram transcritos pela API como áreas em m². A prova oficial usa metro cúbico em todas as faixas; expoentes conferidos visualmente.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "context": "Uma empresa presta serviço de abastecimento de água em uma cidade. O valor mensal a pagar por esse serviço é determinado pela aplicação de tarifas, por faixas de consumo de água, sendo obtido pela adição dos valores correspondentes a cada faixa.\n\n**•** Faixa 1: para consumo de até 6 m³, valor fixo de R$12,00;\n\n**•** Faixa 2: para consumo superior a 6 m³ e até 10 m³, tarifa de R$ 3,00 por metro cúbico ao que exceder a 6m³;\n\n**•** Faixa 3: para consumo superior a 10 m³, tarifa de R$ 6,00 por metro cúbico ao que exceder a 10 m³. Sabe-se que nessa cidade o consumo máximo de água por residência é de 15 m³ por mês."
+    }
+  },
+  "2019-140": {
+    "originalSha256": "d84f1d9f8f642b50c7e888550c386a428d3353cb0ef9ce757fec802844f44294",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurados os expoentes negativos das cinco alternativas, achatados pela API. Notação científica conferida na prova oficial.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(1{,}1\\times10^{-1}\\)",
+        "B": "\\(1{,}1\\times10^{-2}\\)",
+        "C": "\\(1{,}1\\times10^{-3}\\)",
+        "D": "\\(1{,}1\\times10^{-4}\\)",
+        "E": "\\(1{,}1\\times10^{-5}\\)"
+      }
+    }
+  },
+  "2019-141": {
+    "originalSha256": "5619486e62dd0257dc5b071ac3d7e6acc75ec416daf45fb8d3908ec94b645e6d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Removida a repetição espúria «ao confronto», ausente no original oficial.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "context": "Em um jogo on-line, cada jogador procura subir de nível e aumentar sua experiência, que são dois parâmetros importantes no jogo, dos quais dependem as forças de defesa e de ataque do participante. A força de defesa de cada jogador é diretamente proporcional ao seu nível e ao quadrado de sua experiência, enquanto sua força de ataque é diretamente proporcional à sua experiência e ao quadrado do seu nível. Nenhum jogador sabe o nível ou a experiência dos demais. Os jogadores iniciam o jogo no nível 1 com experiência 1 e possuem força de ataque 2 e de defesa 1. Nesse jogo, cada participante se movimenta em uma cidade em busca de tesouros para aumentar sua experiência. Quando dois deles se encontram, um deles pode desafiar o outro para um confronto, sendo o desafiante considerado o atacante. Compara-se então a força de ataque do desafiante com a força de defesa do desafiado e vence o confronto aquele cuja força for maior. O vencedor do desafio aumenta seu nível em uma unidade. Caso haja empate no confronto, ambos os jogadores aumentam seus níveis em uma unidade.\n\nDurante um jogo, o jogador J1 de nível 4 e experiência 5, irá atacar o jogador J2, de nível 2 e experiência 6."
+    }
+  },
+  "2019-151": {
+    "originalSha256": "e92b1efdf42afc88bfdcff00c656714f6f70e7cfce6653b18b8952f1f594fcd2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "A palavra «três» no comando foi transcrita como «més» na API. Comando restaurado conforme conferência visual da prova.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "alternativesIntroduction": "Quais os valores mais próximos, em porcentagens, correspondentes às parcelas financeiras que cada um dos três sócios iniciais e o quarto sócio, respectivamente, receberam?"
+    }
+  },
+  "2019-169": {
+    "originalSha256": "4d35b8901a814e320888f1a632d84fc2df71b2de1e21ea3749aff50466f30271",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "O comando original pede contato com Q, R e S. A API trocou Q por R, repetindo R. Corrigida a identificação conforme conferência visual.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "alternativesIntroduction": "Com base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?"
+    }
+  },
+  "2019-171": {
+    "originalSha256": "1eaf2ab8663e30dc1fa67627c8b5302f30877820f80f42ee1262d95fb2f7521c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "A API perdeu a posição dos índices de combinação e transcreveu incorretamente multiplicação e índices na alternativa D. Restauradas integralmente as cinco fórmulas conforme leitura visual da prova oficial.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(C_{12}^{4}\\times C_{12}^{3}\\times C_{12}^{3}\\times C_{12}^{2}\\)",
+        "B": "\\(C_{12}^{4}+C_8^3+C_5^3+C_2^2\\)",
+        "C": "\\(C_{12}^{4}\\times2\\times C_8^3\\times C_5^2\\)",
+        "D": "\\(C_{12}^{4}+2\\times C_{12}^{3}+C_{12}^{2}\\)",
+        "E": "\\(C_{12}^{4}\\times C_8^3\\times C_5^3\\times C_2^2\\)"
+      }
+    }
+  },
+  "2019-177": {
+    "originalSha256": "36180e2f8197d773d18c3bde9eeb65329a03b07837f1b698126d9e9b2dde1cfa",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "A imagem contém a figura e o início da frase com a fórmula, mas a API a colocou após os parágrafos seguintes. Restaurada a posição entre a apresentação do motor e a continuação «descreve», seguindo a ordem da fonte oficial.",
+    "reviewedAt": "2026-10-18T07:04:44.971Z",
+    "fields": {
+      "context": "Um grupo de engenheiros está projetando um motor cujo esquema de deslocamento vertical do pistão dentro da câmara de combustão está representado na figura.\n\n![](/assets/questions/2019/177/000e6ab5-5267-4411-a21d-3c05d89f2832.png)\n\ndescreve como varia a altura h, medida em centímetro, da parte superior do pistão dentro da câmara de combustão, em função do tempo t, medido em segundo. Nas figuras estão indicadas as alturas do pistão em dois instantes distintos.\n\nO valor do parâmetro β, que é dado por um número inteiro positivo, está relacionado com a velocidade de deslocamento do pistão. Para que o motor tenha uma boa potência, é necessário e suficiente que, em menos de 4 segundos após o início do funcionamento (instante t = 0), a altura da base do pistão alcance por três vezes o valor de 6 cm.\n\nPara os cálculos, utilize 3 como aproximação para π."
+    }
   }
 }
