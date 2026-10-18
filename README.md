@@ -165,6 +165,8 @@ O relatório `imports` em `dist/data/courses.json` contém contagens por ano e I
 
 Quando a API omite um trecho, `data/enem/content-corrections.json` registra restaurações de contexto, comando e texto das alternativas verificadas no PDF oficial, com URL, página, motivo e hash do registro original. O snapshot bruto permanece intacto. As correções são aplicadas antes dos comentários e não podem alterar o gabarito.
 
+Figuras ausentes recuperadas do caderno oficial ficam em `data/enem/restored-assets/ANO/QUESTAO/`. A correção declara o nome do arquivo e seu hash em `assets`; o build verifica esses bytes e incorpora a imagem ao pacote do app. Arquivos alterados ou referências inválidas impedem a publicação do conteúdo correspondente.
+
 Problemas que persistem no próprio caderno oficial são registrados em `data/enem/content-issues.json`, com a evidência e o motivo da suspensão da prática pontuada. Não se cria uma justificativa para forçar um gabarito incompatível com o enunciado; o registro original continua preservado. A questão 2022-145 foi suspensa porque o total de moedas calculado não aparece nas alternativas e a resposta oficial depende de uma referência não explicitada no comando.
 
 O projeto é estático. Sirva a pasta `dist` com qualquer servidor HTTP local:

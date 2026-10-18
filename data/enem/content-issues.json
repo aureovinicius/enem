@@ -5,5 +5,57 @@
     "sourcePage": 20,
     "reviewedAt": "2026-10-15",
     "originalSha256": "d5b7998e8fffa5cb7fc9c9eac558ae3efa974c6b0a83536df91e2aa7aaf9aa4d"
+  },
+  "2021-151": {
+    "originalSha256": "bfb35d42fd237edfa6834a65c08e7c2be7ceceaa5d8fb0912e77cd0a26fe5145",
+    "reason": "Ambiguidade presente no original oficial: o histograma agrupa os preços em intervalos abertos à esquerda e fechados à direita. Há 35 apartamentos de preço até 700 mil reais e 55 de preço até 800 mil reais, mas o comando exige preço inferior a p, isto é, estritamente menor. Os 20 apartamentos da classe (700, 800] podem custar exatamente 800 mil reais; nesse caso, apenas 35 dos 105 apartamentos têm preço inferior a 800 mil, abaixo de 50%. Além disso, o menor preço exato que ultrapassa a metade não pode ser determinado pelos dados agrupados. O gabarito C (800 mil) corresponde ao limite superior da classe que contém a mediana, mas exige interpretar inferior como até ou acrescentar uma hipótese sobre os valores nos limites. Não foi escrita resolução que apresente essa hipótese como garantia do enunciado.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reviewedAt": "2026-10-15T14:36:48.966Z",
+    "evidence": {
+      "histogramIntervals": "(300,400], (400,500], (500,600], (600,700], (700,800], (800,900], (900,1000], (1000,1100], (1100,1200], (1200,1300]",
+      "priceUnit": "mil reais",
+      "frequencies": [
+        5,
+        10,
+        5,
+        15,
+        20,
+        15,
+        15,
+        10,
+        5,
+        5
+      ],
+      "totalApartments": 105,
+      "medianPosition": 53,
+      "cumulativeAt700": 35,
+      "cumulativeAt800": 55,
+      "officialAnswer": "C",
+      "officialAnswerPrice": 800,
+      "visualSourceVerified": true
+    }
+  },
+  "2021-98": {
+    "originalSha256": "f93b82c9a41e5552e51f47f887340570ba0f508ec210a0f07925c886029e1d5c",
+    "reason": "O original e a API atribuem à circulação fetal uma semelhança com a circulação simples dos peixes, de passagem única pelo coração. A circulação fetal real tem ventrículos funcionando em paralelo, fluxo pulmonar existente e desvios pelo forame oval e pelo ducto arterioso. A oxigenação placentária e esses desvios explicam a adaptação fetal; não justificam equiparar o sistema ao circuito simples dos peixes. Produzir uma explicação afirmativa exigiria ensinar uma generalização imprecisa.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reviewedAt": "2026-10-15T14:36:48.967Z",
+    "scientificReferences": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6761775/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12663834/"
+    ]
+  },
+  "2021-121": {
+    "originalSha256": "d9881f231643aa3a727962e7a370e870583a0373d0e2d84ccedc79ba9230c1d6",
+    "reason": "O original infere que dengue infecta seres humanos há mais tempo pela menor letalidade, tratada como sinal de coevolução mais longa. A letalidade isoladamente não permite ordenar a antiguidade das relações entre vírus e hospedeiros; a evolução da virulência pode aumentar, diminuir ou manter o dano conforme as relações entre transmissão, reprodução e condições ecológicas. Não há dados no item que sustentem a inferência temporal sem assumir a regra geral inadequada.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 12,
+    "reviewedAt": "2026-10-15T14:36:48.967Z",
+    "scientificReferences": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10066022/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8109835/"
+    ]
   }
 }

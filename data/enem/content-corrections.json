@@ -155,5 +155,224 @@
         "E": "\\(\\mathrm{NO_3^-}\\)"
       }
     }
+  },
+  "2021-17": {
+    "originalSha256": "fe6c81628c6d4de90a580fcb7fad60cc47cb52e8a9a06d1be12d0d6f1453fa5a",
+    "reason": "Na API, todo o texto-base estava no comando e context era nulo. Separação do texto-base e do comando conferida visualmente na página 11; restaurados também três erros de transcrição (a a; do brancos; constituiu).",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reviewedAt": "2026-10-15T14:36:02.719Z",
+    "fields": {
+      "context": "A história do futebol brasileiro contém, ao longo de um século, registros de episódios racistas. Eis o paradoxo: se, de um lado, a atividade futebolística era depreciada aos olhos da “boa sociedade” como profissão destinada aos pobres, negros e marginais, de outro, achava-se investida do poder de representar e projetar a nação em escala mundial. A Copa do Mundo no Brasil, em 1950, viria a se constituir, nesse sentido, em uma rara oportunidade. Contudo, na decisão contra o Uruguai sobreveio o inesperado revés. As crônicas esportivas elegiam o goleiro Barbosa e o defensor Bigode como bodes expiatórios, “descarregando nas costas” dos jogadores os “prejuízos” da derrota. Uma chibata moral, eis a sentença proferida no tribunal dos brancos. Nos anos 1970, por não atender às expectativas normativas suscitadas pelo estereótipo do “bom negro”, Paulo César Lima foi classificado como “jogador – problema”. Ele esboçava a revolta da chibata no futebol brasileiro. Enquanto Barbosa e Bigode, sem alternativa suportaram o linchamento moral na derrota 1950, Paulo César contra-atacava os que pretendiam condená-lo pelo insucesso de 1974. O jogador assumia as cores e as causas defendidas pela esquadra dos pretos em todas as esferas da vida social. “Sinto na pele esse racismo subjacente” revelou a imprensa francesa: “Isto é, ninguém ousa pronunciar a palavra ‘racismo’. Mas posso garantir que ele existe, mesmo na seleção Brasileira”. Sua ousadia consistiu em pronunciar a palavra interdita no espaço simbólico do discurso oficial para reafirmar o mito da democracia racial.\nDisponível em: https://observatorioracialfutebol.com.br. Acesso em: 22 jun. 2019 (adaptado)",
+      "alternativesIntroduction": "O texto atribui o enfraquecimento do mito da democracia racial no futebol à"
+    }
+  },
+  "2021-19": {
+    "originalSha256": "d3844315921853e52d3404a36488348d7f1b0cc9ae3d6a31c9f9233ce22fd74d",
+    "reason": "O texto da alternativa D na API traz menor ativa; a página oficial 11 apresenta menos ativa. Texto restaurado sem mudança do gabarito.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "alternativeTexts": {
+        "D": "promoveram uma vivência corporal menos ativa."
+      }
+    }
+  },
+  "2021-37": {
+    "originalSha256": "3d77c972727b1271e73b01e23278c72b84c2e838293102fd947eb331d379f447",
+    "reason": "Conferência visual da página 18 confirma tem melhorado e deixam dizer nos versos, e infere-se no comando. Corrigidas transcrições que alteravam o sentido.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "context": "**Comportamento geral**  \nVocê deve estampar sempre um ar de alegria  \nE dizer: tudo tem melhorado  \nVocê deve rezar pelo bem do patrão  \nE esquecer que está desempregado\n\nVocê merece  \nVocê merece  \nTudo vai bem, tudo legal  \nCerveja, samba, e amanhã, seu Zé  \nSe acabarem com teu carnaval\n\nVocê deve aprender a baixar a cabeça  \nE dizer sempre: muito obrigado  \nSão palavras que ainda te deixam dizer  \nPor ser homem bem disciplinado\n\nDeve pois só fazer pelo bem da nação  \nTudo aquilo que for ordenado  \nPra ganhar um fuscão no juízo final  \nE diploma de bem-comportado\n\nGONZAGUINHA, **Luiz Gonzaga Jr**. Rio de Janeiro: Odeon, 1973 (fragmento).",
+      "alternativesIntroduction": "Pela análise do tema e dos procedimentos argumentativos utilizados na letra da canção composta por Gonzaguinha na década de 1970, infere-se o objetivo de"
+    }
+  },
+  "2021-46": {
+    "originalSha256": "ee408078d81eeae860104ec8c1a43fe4760ae04da0cccf4533495d2de27eb15d",
+    "reason": "Restaura as palavras nas e etapas, omitidas parcialmente na transcrição da API; conferência visual na página oficial.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "alternativesIntroduction": "O texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a",
+      "alternativeTexts": {
+        "C": "elevação de etapas burocráticas."
+      }
+    }
+  },
+  "2021-49": {
+    "originalSha256": "13ce3e6f03ccf17cdd776680a9196d33dd3495ec84ab69f64dc9d49340172c13",
+    "reason": "Restaura as preposições em e ao do comando, conforme o caderno oficial.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "alternativesIntroduction": "Escritos em temporalidade histórica aproximada, os textos se distanciam ao apresentarem pontos de vista diferentes sobre a(s)"
+    }
+  },
+  "2021-55": {
+    "originalSha256": "507cbe83db2e937bdf7c0d0376f27f9070f0f82826aa84297b310b4b939624d9",
+    "reason": "Recupera o trecho comunidade de origem e suas pontuações, além de palavras parcialmente omitidas; texto conferido visualmente na página 24 do caderno oficial.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "context": "A categoria de refugiado carrega em si as noções de transitoriedade, provisoriedade e temporalidade. Os refugiados situam-se entre o país de origem e o país de destino. Ao transitarem entre os dois universos, ocupam posição marginal, tanto em termos identitários — assentada na falta de pertencimento pleno enquanto membros da comunidade receptora e nos vínculos introjetados por códigos partilhados com a comunidade de origem — quanto em termos jurídicos, ao deixarem de exercitar, ao menos em caráter temporário, o status de cidadãos no país de origem e portar o status de refugiados no país receptor.\n\nMOREIRA, J. B. Refugiados no Brasil: reflexões acerca do processo de integração local. REMHU, n. 43, jul.-dez. 2014 (adaptado).",
+      "alternativeTexts": {
+        "A": "ascensão social e burocracia estatal."
+      }
+    }
+  },
+  "2021-56": {
+    "originalSha256": "24e5e66d59a30706f1a55c8c9e423b721986bd0deb1ff1d466603802582a1532",
+    "reason": "Restaura a preposição na em figuraram na corrida, presente na imagem oficial.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "context": "Mulheres naturalistas raramente figuraram na corrida por conhecer terras exóticas. No século XIX, mulheres como Lady Charlotte Canning eventualmente coletavam espécimes botânicos, mas quase sempre no papel de esposas coloniais, viajando para locais onde seus maridos as levavam e não em busca de seus próprios projetos científicos.\n\nSOMBRIO, M. M. O. Em busca pelo campo – Mulheres em expedições cientificas  \nno Brasil em meados do século XX. Cadernos Pagu, n. 48, 2016."
+    }
+  },
+  "2021-59": {
+    "originalSha256": "d9e8aaeb253816de612f8dac5b6a27ec0275173e4560e73e331024cb78fc9e0f",
+    "reason": "Restaura ao longo dos tempos e a referência ao ensino fundamental II, conforme a página oficial.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "context": "No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando  \ncomo referência a posição dos astros, constelação e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando a primeira lua cheia de janeiro “sair vermelha, por detrás de uma barra de nuvens”, mas “se surgir prateada, é sinal de seca”\n\nMAIA, D.; MAIA, A. C. A utilização dos ditos populares e da observação do tempo para a climatologia escolar no ensino fundamental II. GeoTextos, n. 1, jul. 2010 (adaptado)."
+    }
+  },
+  "2021-69": {
+    "originalSha256": "4fca84825f7dfab866219984e5667f39ee47e48502fc79eae0b7010528eb73af",
+    "reason": "A API truncou a alternativa correta C após diversidades. A página 26 do caderno oficial confirma diversidades regionais.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "obter conhecimento científico das diversidades regionais."
+      }
+    }
+  },
+  "2021-90": {
+    "originalSha256": "51584370367ac8c6865eb4b7a5c0bbff55b7b85d235f984cff02da0638c3d8e8",
+    "reason": "Recupera o Texto I ausente da API, com imagem extraída diretamente do PDF oficial e conferida visualmente, e restaura o sobrenome Karasch da referência do Texto II. Arquivo preservado em data/enem/restored-assets/2021/90/texto-i-oficial.jpg.",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reviewedAt": "2026-10-15T14:36:02.720Z",
+    "fields": {
+      "context": "**TEXTO I**\n\n![](/assets/questions/2021/90/texto-i-oficial.jpg)\n\nEIGENHEER, E. M. **Lixo:** a limpeza urbana através dos tempos. Porto Alegre: Gráfica Palloti, 2009.\n\n**TEXTO II**\n\nA repugnante tarefa de carregar lixo e os dejetos da casa para as praças e praias era geralmente destinada ao único escravo da família ou ao de menor status ou valor. Todas as noites, depois das dez horas, os escravos conhecidos popularmente como “tigres” levavam tubos ou barris de excremento e lixo sobre a cabeça pelas ruas do Rio.\n\nKARASCH, M. C. **A vida dos escravos no Rio de Janeiro, 1808-1850.** Rio de Janeiro: Cia. das Letras, 2000."
+    },
+    "assets": {
+      "texto-i-oficial.jpg": "04eab10bf06b06ffdc8d1abd306b4d8eec8d3e73158c128a27fa821c0c6d9097"
+    }
+  },
+  "2021-158": {
+    "originalSha256": "1b03251baba1b261c1c9bb3ed9b4a2e348112fcda125f88844971a6622edc915",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Removida repetição indevida do segmento 'em relação à do modelo de aeronave B', ausente no comando oficial conferido visualmente.",
+    "reviewedAt": "2026-10-18T06:50:27.814Z",
+    "fields": {
+      "alternativesIntroduction": "A quantidade de combustível consumida pelo modelo de aeronave B, em relação à do modelo de aeronave A, em um voo lotado entre as duas cidades, é"
+    }
+  },
+  "2021-165": {
+    "originalSha256": "d60c381610e45a683c4ef49b03599a5231d28ce33537ca3902521133dedeb95a",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Erro numérico material na API: o original oficial informa economia de 0,1 L a cada 20 km, não a cada 10 km. Correção confirmada visualmente na página 28.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos."
+    }
+  },
+  "2021-169": {
+    "originalSha256": "5e90fb4623c90e393f9c42c54289a47879756fea68fae79560171719adba1eaf",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "O comando estava repetido no final do contexto e no campo próprio. Conferido o original e mantido o comando somente em alternativesIntroduction. Também restauradas as formas oficiais «de percussão» e «um triângulo».",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "O instrumento de percussão conhecido como triângulo é composto por uma barra fina de aço, dobrada em um formato que se assemelha a um triângulo, com uma abertura e uma haste, conforme ilustra a Figura 1.\n\n![](/assets/questions/2021/169/d9c2223e-0155-480d-bfd2-0d0fd39cb200.png)\n\nUma empresa de brindes promocionais contrata uma fundição para a produção de miniaturas de instrumentos desse tipo. A fundição produz, inicialmente, peças com o formato de um triângulo equilátero de altura h, conforme ilustra a Figura 2. Após esse processo, cada peça é aquecida, deformando os cantos, e cortada em um dos vértices, dando origem à miniatura. Assuma que não ocorram perdas de material no processo de produção, de forma que o comprimento da barra utilizada seja igual ao perímetro do triângulo equilátero representado na Figura 2.\n\nConsidere 1,7 como valor aproximado para √3."
+    }
+  },
+  "2021-170": {
+    "originalSha256": "08581aefc46cdac27f1ddc405fa045aa4870b31e84f7cbd8779e56e719a54482",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurada a unidade 'mililitro' do comando oficial; a API a transcreveu incorretamente como 'milimitro'. Conferência visual na prova.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "alternativesIntroduction": "Qual é a capacidade volumétrica, em mililitro, dessa caneca?"
+    }
+  },
+  "2021-172": {
+    "originalSha256": "f833d506d5ccc07398aedceae812966d4dd9c1778d550a5162e587ff06f83997",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "A fórmula oficial usa idade no singular. Restaurada a expressão e aplicada notação matemática explícita após conferência visual.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:\n\n![](/assets/questions/2021/172/604532ed-546c-43dc-a7eb-3b0b3bfca440.png)\n\nSabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx), que, por sua vez, é determinada pela fórmula:\n\n\\(Fc_{\\text{máx.}}=220-\\text{idade}\\),\n\nem que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto)."
+    }
+  },
+  "2021-174": {
+    "originalSha256": "42a2c91ed96b443619dcd0e79b86f929814cb90fbdca538d86111333cc6e6a29",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurada a expressão 'minimizar sua despesa', transcrita incorretamente pela API. Conferência visual no original.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "Após a consulta médica, um paciente deve seguir um tratamento composto por três medicamentos: X, Y e Z. O paciente, para adquirir os três medicamentos, faz um orçamento em três farmácias diferentes, conforme o quadro.\n\n![](/assets/questions/2021/174/a9b99537-f174-43b1-9ee0-90b5bdfe57ad.png)\n\nDessas farmácias, algumas oferecem descontos:\n\n*   na compra dos medicamentos X e Y na Farmácia 2, recebe-se um desconto de 20% em ambos os produtos, independentemente da compra do medicamento Z, e não há desconto para o medicamento Z;\n*   na compra dos 3 medicamentos na Farmácia 3, recebe-se 20% de desconto no valor total da compra.\n\nO paciente deseja efetuar a compra de modo a minimizar sua despesa com os medicamentos."
+    }
+  },
+  "2021-177": {
+    "originalSha256": "1fd91d062709b160331463d3fa17ae4942a8e9528bc794edf73c3c9f4d589a4d",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "A API omitiu o quadro com as quatro regras de adição binária. As entradas e resultados foram transcritos em texto matemático após conferência visual na página oficial, preservando o exemplo já existente. Restaurado também o singular «base binária», presente no original.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "Uma das bases mais utilizadas para representar um número é a base decimal. Entretanto, os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Por exemplo, as representações dos números 9 e 12, na base binária, são 1001 e 1100, respectivamente. A operação de adição, na base binária, segue um algoritmo similar ao utilizado na base decimal, como detalhado no quadro:\n\nRegras do quadro para a soma de dois algarismos na base binária: \\(0+0=0\\), \\(0+1=1\\), \\(1+0=1\\) e \\(1+1=10\\).\n\nPor exemplo, na base binária, a soma dos números 10 e 10 é 100, como apresentado:\n\n![](/assets/questions/2021/177/e82478b8-f2bb-43db-88d0-49359625343c.png)"
+    }
+  },
+  "2021-94": {
+    "originalSha256": "2dba82370c7268a7e2bbf4c0b0cc6fed4894edcc59bfae9a7138aa7692c62a26",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reason": "Restauração visual da página 3: símbolos de velocidade, ângulo e gravidade, expressão forças dissipativas e separação do comando repetido no contexto. Os dados da figura original foram preservados.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "A figura foi extraída de um antigo jogo para computadores, chamado _Bang! Bang!_\n\n![](/assets/questions/2021/94/5a37495e-68a2-43fb-ac41-13a2fcc55e79.png)\n\nNo jogo, dois competidores controlam os canhões **A** e **B**, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo de velocidade inicial de disparo (\\(|\\vec{v}_0|\\)) e para o ângulo de disparo (\\(\\theta\\)).\n\nEm determinado momento de uma partida, o competidor **B** deve disparar; ele sabe que a bala disparada anteriormente, \\(\\theta=53^\\circ\\), passou tangenciando o ponto **P**.\n\nNo jogo, \\(|\\vec{g}|\\) é igual a \\(10\\ \\mathrm{m/s^2}\\). Considere \\(\\operatorname{sen}53^\\circ=0{,}8\\), \\(\\cos53^\\circ=0{,}6\\) e desprezível a ação de forças dissipativas.\n\nDisponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).",
+      "alternativesIntroduction": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de \\(|\\vec{v}_0|\\) que permitiria ao disparo efetuado pelo canhão **B** atingir o canhão **A**?"
+    }
+  },
+  "2021-108": {
+    "originalSha256": "59038e28308f94091d542ca6851936feb6930dee09b80f8626c1e336533e561c",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 8,
+    "reason": "A tabela do Texto II não estava presente no snapshot. Os 11 conjuntos de valores, unidades e classificação foram transcritos em lista após inspeção visual da página 8 do caderno oficial.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nNo cordel intitulado Senhor dos Anéis, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:\n\nA distância em relação  \nAo nosso planeta amado  \nPouco menos que a do Sol  \nEle está distanciado  \nE menos denso que a água  \nQuando no normal estado\n\nMEDEIROS, A.; AGRA, J. T. M., A astronomia na literatura de cordel,\n\n**Física na Escola,** n. 1, abr. 2010 (fragmento)\n\n**TEXTO II**\n\nDistâncias médias dos planetas ao Sol e suas densidades médias\n\nDados da tabela original — distância média ao Sol (u.a.); densidade relativa média:\n\n- Mercúrio: 0,39; 5,6.\n- Vênus: 0,72; 5,2.\n- Terra: 1,0; 5,5.\n- Marte: 1,5; 4,0.\n- Ceres: 2,8; 2,1.\n- Júpiter: 5,2; 1,3.\n- Saturno: 9,6; 0,7.\n- Urano: 19; 1,2.\n- Netuno: 30; 1,7.\n- Plutão: 40; 2,0.\n- Éris: 68; 2,5.\n\nu.a. = 149 600 000 km, é a unidade astronômica. Na classificação da tabela, Ceres, Plutão e Éris são planetas-anões; os demais são planetas clássicos.\n\n**Características dos planetas.** Disponível em: www.astronoo.com.\n\nAcesso em: 8 de nov. 2019 (adaptado)"
+    }
+  },
+  "2021-111": {
+    "originalSha256": "c222f8b1938cbc69d79ff5e50a91f656b892dceda037a97534bd36f223c94245",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 9,
+    "reason": "Página 9 confirma Firmar parceria (API: Filmar) e no jornal impresso (API: no local impresso). Restauração dos textos sem alteração de gabarito.",
+    "reviewedAt": "2026-10-18T06:50:27.816Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada.",
+        "D": "Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva."
+      }
+    }
   }
 }

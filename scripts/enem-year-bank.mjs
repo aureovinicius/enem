@@ -174,10 +174,14 @@ async function normalizeImages(question, root, sourcePublic) {
   for (const reference of references) {
     const asset = assetLocation(reference, root, sourcePublic);
     if (!asset) { reasons.push(`Imagem sem arquivo local verificável: ${reference}`); continue; }
+    const restoredDigest = question.sourceCorrection?.assets?.[path.basename(asset.publicPath)];
+    const allowedRoot = restoredDigest ? path.resolve(root, "data/enem/restored-assets") : sourceRoot;
+    if (restoredDigest) asset.source = path.join(allowedRoot, asset.publicPath.slice("/assets/questions/".length));
     try {
       const resolved = await realpath(asset.source);
       const info = await stat(resolved);
-      if (!resolved.startsWith(`${sourceRoot}${path.sep}`) || !info.isFile() || info.size === 0) throw Object.assign(new Error("Invalid asset"), { code: "INVALID_ASSET" });
+      if (!resolved.startsWith(`${allowedRoot}${path.sep}`) || !info.isFile() || info.size === 0
+        || (restoredDigest && sha256(await readFile(resolved)) !== restoredDigest)) throw Object.assign(new Error("Invalid asset"), { code: "INVALID_ASSET" });
       assets.push(asset);
       replacements.set(reference, asset.publicPath);
     } catch (error) {

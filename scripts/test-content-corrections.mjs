@@ -1,10 +1,36 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { correctedSnapshot } from "./enem-content-corrections.mjs";
 import { sha256 } from "./enem-explanations.mjs";
+import { buildYearBank } from "./enem-year-bank.mjs";
+
+test("a restored official figure is validated, copied into the app and rejects altered bytes", async t => {
+  const root = await mkdtemp(path.join(tmpdir(), "enem-restored-"));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const folder = path.join(root, "data/enem/restored-assets/2021/90");
+  await mkdir(folder, { recursive: true });
+  const bytes = Buffer.from("official-figure-test-fixture");
+  await writeFile(path.join(folder, "official.jpg"), bytes);
+  const original = { year: 2021, index: 90, discipline: "ciencias-humanas", context: "Incomplete", alternativesIntroduction: "Which choice?", files: [], correctAlternative: "A",
+    alternatives: ["A", "B", "C", "D", "E"].map(letter => ({ letter, text: `Choice ${letter}`, file: null, isCorrect: letter === "A" })) };
+  const correction = { originalSha256: sha256(JSON.stringify(original)), fields: { context: "![Official figure](/assets/questions/2021/90/official.jpg)" },
+    assets: { "official.jpg": sha256(bytes) }, sourceUrl: "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf", sourcePage: 31, reviewedAt: "2026-10-15", reason: "Missing figure restored from official booklet" };
+  const save = () => writeFile(path.join(root, "data/enem/content-corrections.json"), JSON.stringify({ "2021-90": correction }));
+  await save();
+  const snapshot = await correctedSnapshot(root, { questions: [original] });
+  const bank = await buildYearBank({ root, snapshot, curatedQuestions: [], courses: [], years: [2021] });
+  assert.equal(bank.practiceQuestions.length, 1);
+  assert.equal(original.context, "Incomplete");
+  assert.equal(sha256(await readFile(path.join(root, "dist/assets/questions/2021/90/official.jpg"))), sha256(bytes));
+  await writeFile(path.join(folder, "official.jpg"), "changed");
+  await assert.rejects(() => correctedSnapshot(root, { questions: [original] }), /Restored asset changed/);
+  correction.assets = { "../../elsewhere.jpg": sha256(bytes) };
+  await save();
+  await assert.rejects(() => correctedSnapshot(root, { questions: [original] }), /Invalid restored asset/);
+});
 
 test("official text corrections preserve raw data and answers; changed sources and unreviewed fields fail closed", async t => {
   const root = await mkdtemp(path.join(tmpdir(), "enem-corrections-"));
