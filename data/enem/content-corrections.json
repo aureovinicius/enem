@@ -1123,5 +1123,335 @@
     "fields": {
       "context": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.\n\n![](/assets/questions/2018/179/f90ac045-3059-4503-a9c5-2275ede0c308.png)\n\nUma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm."
     }
+  },
+  "2017-3-espanhol": {
+    "originalSha256": "e48a12d5b0020fee99e94c5cb3fae73e25d8ce898e531ffa358429639a03a099",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 4,
+    "reason": "Restaurada a marca editorial de supressão, importada com delimitadores que seriam interpretados como fórmula matemática.",
+    "reviewedAt": "2026-10-18T07:17:44.961Z",
+    "fields": {
+      "context": "Aquí estoy establecido,  \nEn los Estados Unidos,  \nDiez años pasaron ya,  \nEn que crucé de mojado,  \nPapeles no he arreglado,  \nSigo siendo un ilegal.  \nTengo mi esposa y mis hijos,  \nQue me los traje muy chicos,  \nY se han olvidado ya,  \nDe mi México querido,  \nDel que yo nunca me olvido,  \nY no puedo regresar.  \n[...]  \nMis hijos no hablan conmigo,  \nOtro idioma han aprendido,  \nY olvidado el español,  \nPiensan como americanos,  \nNiegan que son mexicanos,  \nAunque tengan mi color.\n\nLOS TIGRES DEL NORTE. **Jaula de oro**. Woodland Hills, Califórnia: Fonovisa, 1986 (fragmento)."
+    }
+  },
+  "2017-10": {
+    "originalSha256": "34131a91a4b86eb21a864585dcc3dd60841b31b9ad069c1d199dbb41c7d34a4f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 6,
+    "reason": "Restaurada a palavra gabos e removido espaço espúrio antes da vírgula, conforme página 6 do caderno oficial.",
+    "reviewedAt": "2026-10-18T07:17:44.961Z",
+    "fields": {
+      "context": "Essas moças tinham o vezo de afirmar o contrário do que desejavam. Notei a singularidade quando principiaram a elogiar o meu paletó cor de macaco. Examinavam-no sérias, achavam o pano e os aviamentos de qualidade superior, o feitio admirável. Envaideci-me: nunca havia reparado em tais vantagens. Mas os gabos se prolongaram, trouxeram-me desconfiança. Percebi afinal que elas zombavam e não me susceptibilizei. Longe disso: achei curiosa aquela maneira de falar pelo avesso, diferente das grosserias a que me habituara. Em geral me diziam com franqueza que a roupa não me assentava no corpo, sobrava nos sovacos.\n\nRAMOS, G. **Infância**. Rio de Janeiro: Record, 1994."
+    }
+  },
+  "2017-19": {
+    "originalSha256": "5fb769698dbf9e244f4e2294fb1bed18f52fedbfd06061637a78afd59d15d3bc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 9,
+    "reason": "Restauradas palavras e capitalização corrompidas pelo OCR, além da pontuação da referência bibliográfica, conforme página 9 oficial.",
+    "reviewedAt": "2026-10-18T07:17:44.961Z",
+    "fields": {
+      "context": "A ascensão social por meio do esporte mexe com o imaginário das pessoas, pois em poucos anos um adolescente pode se tornar milionário caso tenha um bom desempenho esportivo. Muitos meninos de famílias pobres jogam com o objetivo de conseguir dinheiro para oferecer uma boa qualidade de vida à família. Isso aproximou mais ainda o futebol das camadas mais pobres da sociedade, tornando-o cada vez mais popular.\n\nAcontece que esses jovens sonham com fama e dinheiro, enxergando no futebol o único caminho possível para o sucesso. No entanto, eles não sabem da grande dificuldade que existe no início dessa jornada em que a minoria alcança a carreira profissional. Esses garotos abandonam a escola pela ilusão de vencer no futebol, à qual a maioria sucumbe.\n\nO caminho até o profissionalismo acontece por meio de um longo processo seletivo que os jovens têm de percorrer. Caso não seja selecionado, esse atleta poderá ter que abandonar a carreira involuntariamente por falta de uma equipe que o acolha. Alguns podem acabar em subempregos, à margem da sociedade, ou até mesmo em vícios decorrentes desse fracasso e dessa desilusão. Isso acontece porque no auge da sua formação escolar e na condição juvenil de desenvolvimento, eles não se preparam e não são devidamente orientados para buscar alternativas de experiências mais amplas de ocupação fora e além do futebol.\n\nBALZANO, O. N.; MORAIS, J. S. A formação do jogador de futebol e sua relação com a escola. **EFDeportes**, n. 172, set. 2012 (adaptado).",
+      "alternativeTexts": {
+        "E": "Despreocupação dos sujeitos com uma formação paralela à esportiva, para habilitá-los a atuar em outros setores da vida."
+      }
+    }
+  },
+  "2017-42": {
+    "originalSha256": "0c55e27daec4f3829ba350726c80faa4169cba9b91edb79f62b55d239fe89dd9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 17,
+    "reason": "Restauradas as marcas editoriais de supressão, importadas com delimitadores que seriam interpretados como fórmulas matemáticas.",
+    "reviewedAt": "2026-10-18T07:17:44.961Z",
+    "fields": {
+      "context": "**Fim de semana no parque**  \nOlha o meu povo nas favelas e vai perceber  \nDaqui eu vejo uma caranga do ano  \nToda equipada e o tiozinho guiando  \nCom seus filhos ao lado estão indo ao parque  \nEufóricos brinquedos eletrônicos  \nAutomaticamente eu imagino  \nA molecada lá da área como é que tá  \nProvavelmente correndo pra lá e pra cá  \nJogando bola descalços nas ruas de terra  \nÉ, brincam do jeito que dá  \n[...]  \nOlha só aquele clube, que da hora  \nOlha aquela quadra, olha aquele campo, olha  \nOlha quanta gente  \nTem sorveteria, cinema, piscina quente\n\n[...]  \nAqui não vejo nenhum clube poliesportivo  \nPra molecada frequentar nenhum incentivo  \nO investimento no lazer é muito escasso  \nO centro comunitário é um fracasso\n\nRACIONAIS MCs. **Racionais MCs**. São Paulo: Zimbabwue, 1994 (fragmento)"
+    }
+  },
+  "2017-48": {
+    "originalSha256": "092f930d1c7b49d25869b8f6ef37a8f48b5bcf25375218f6fd989bd76a64f9cf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar o espaço ausente em da filosofia na referência, conforme página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.728Z",
+    "fields": {
+      "context": "A moralidade, Bentham exortava, não é uma questão de agradar a Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa de criar a maior quantidade de felicidade possível neste mundo. Ao decidir o que fazer, deveríamos, portanto, perguntar qual curso de conduta promoveria a maior quantidade de felicidade para todos aqueles que serão afetados.\n\nRACHELS, J. Os elementos da filosofia moral. Barueri-SP: Manole, 2006."
+    }
+  },
+  "2017-51": {
+    "originalSha256": "609f174689778602007a7faa75b01736fbf11bb48f47a91310404c1515c26669",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 21,
+    "reason": "Separar expressar a no comando, conforme página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.733Z",
+    "fields": {
+      "alternativesIntroduction": "A fotografia, datada de 1860, é um indício da cultura escravista no Brasil, ao expressar a"
+    }
+  },
+  "2017-64": {
+    "originalSha256": "d8c50246bb6290a597825a231dc68c3f158a0d37ba887c979a710fe95eaa872b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar conduta como, bem ordenada e condição selvagem; conferir referência na página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.733Z",
+    "fields": {
+      "context": "Uma sociedade é uma associação mais ou menos autossuficiente de pessoas que em suas relações mútuas reconhecem certas regras de conduta como obrigatórias e que, na maioria das vezes, agem de acordo com elas. Uma sociedade é bem ordenada não apenas quando está planejada para promover o bem de seus membros, mas quando é também efetivamente regulada por uma concepção pública de justiça. Isto é, trata-se de uma sociedade na qual todos aceitam, e sabem que os outros aceitam, o mesmo princípio de justiça.\n\nRAWLS, J. **Uma teoria da justiça**. São Paulo: Martins Fontes, 1997 (adaptado).",
+      "alternativeTexts": {
+        "E": "A contraposição entre bondade e condição selvagem do Naturalismo."
+      }
+    }
+  },
+  "2017-65": {
+    "originalSha256": "9a091c3df151047edb7c88d3d824d9f4e59772a7f46ddb343b30dff58fa120cb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar a inicial F. e o espaçamento da referência de Hegel conforme o PDF; a redação filosófica original foi preservada e sua ambiguidade é discutida no comentário.",
+    "reviewedAt": "2026-10-18T07:16:19.733Z",
+    "fields": {
+      "context": "A representação de Demócrito é semelhante à de Anaxágoras, na medida em que um infinitamente múltiplo é a origem; mas nele a determinação dos princípios fundamentais aparece de maneira tal que contém aquilo que para o que foi formado não é, absolutamente, o aspecto simples para si. Por exemplo, partículas de carne e de ouro seriam princípios que, através de sua concentração, formam aquilo que aparece como figura.\n\nHEGEL, G. W. F. Crítica moderna. In: SOUZA, J. C. (Org.). **Os pré-socráticos: vida e obra**. São Paulo: Nova Cultural, 2000 (adaptado)."
+    }
+  },
+  "2017-66": {
+    "originalSha256": "f068a78cea8e5d23d500a10d8a8b3093ea2b6064542b96cdf6f777fec6c95213",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar influência e espaçamento da referência conforme o PDF oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.733Z",
+    "fields": {
+      "context": "Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; leva a refletir sobre si mesmo, a imprimir à atenção uma direção incomum: os temperamentais, como Alcibíades, sabem que encontrarão junto dele todo o bem de que são capazes, mas fogem porque receiam essa influência poderosa, que os leva a se censurarem. É sobretudo a esses jovens, muitos quase crianças, que ele tenta imprimir sua orientação.\n\nBRÉHIER, E. **História da filosofia**. São Paulo: Mestre Jou, 1977."
+    }
+  },
+  "2017-68": {
+    "originalSha256": "a628cf519a947de820a1607937b3e9b14f1825196f521fd21e37f800820b3314",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar uma área no comando, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.733Z",
+    "fields": {
+      "alternativesIntroduction": "O processo descrito ocorre em uma área biogeográfica com predomínio de vegetação"
+    }
+  },
+  "2017-69": {
+    "originalSha256": "df198ca3e0dee2781c1ee5e429eb2a618b3f357ffc2706ec6b3916a1666c5306",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar autoria, título e editora da referência corrompida e a pontuação final das alternativas B, D e E, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.735Z",
+    "fields": {
+      "context": "A instalação de uma refinaria obedece a diversos fatores técnicos. Um dos mais importantes é a localização, que deve ser próxima tanto dos centros de consumo como das áreas de produção. A Petrobras possui refinarias estrategicamente distribuídas pelo país. Elas são responsáveis pelo processamento de milhões de barris de petróleo por dia, suprindo o mercado com derivados que podem ser obtidos a partir de petróleo nacional ou importado.\n\nMURTA, A. L. S. **Energia: o vício da civilização; crise energética e alternativas sustentáveis**. Rio de Janeiro: Garamond, 2011.",
+      "alternativeTexts": {
+        "B": "Zonas de importação de derivados.",
+        "D": "Áreas de aglomerações de mão de obra.",
+        "E": "Espaços com infraestrutura de circulação."
+      }
+    }
+  },
+  "2017-72": {
+    "originalSha256": "fcbafe336b7ec1dd1f1f6c46bce3105dfb2391d04160e5bf6c67563b6620e738",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar o artigo omitido em que a pressão, completar a referência bibliográfica e o comando truncados, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.735Z",
+    "fields": {
+      "context": "Trata-se da perda progressiva da produtividade de biomas inteiros, afetando parcelas muito expressivas dos domínios subúmidos e semiáridos em todas as regiões quentes do mundo. É nessas áreas, ecologicamente transicionais, que a pressão sobre a biomassa se faz sentir com muita força, devido à retirada da cobertura florestal, ao superpastoreio e às atividades mineradoras não controladas, desencadeando um quadro agudo de degradação ambiental, refletido pela incapacidade de suporte para o desenvolvimento de espécies vegetais, seja uma floresta natural ou plantações agrícolas.\n\nCONTI, J. B. A geografia física e as relações sociedade-natureza no mundo tropical. In: CARLOS, A. F. A. (Org.). **Novos caminhos da geografia**. São Paulo: Contexto, 1999 (adaptado).",
+      "alternativesIntroduction": "O texto enfatiza uma consequência da relação conflituosa entre a sociedade humana e o ambiente, que diz respeito ao processo de"
+    }
+  },
+  "2017-73": {
+    "originalSha256": "cc06903d5ad08caae55e18eaead48e23028837d0ab1091cbf64760cc6dcde8e0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o coautor omitido da referência e a redação da alternativa E conforme o PDF oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.735Z",
+    "fields": {
+      "context": "O fenômeno da mobilidade populacional vem, desde as últimas décadas do século XX, apresentando transformações significativas no seu comportamento, não só no Brasil como também em outras partes do mundo. Esses novos processos se materializam, entre outros aspectos, na dimensão interna, pelo redirecionamento dos fluxos migratórios para as cidades médias, em detrimento dos grandes centros urbanos; pelos deslocamentos de curta duração e a distâncias menores; pelos movimentos pendulares, que passam a assumir maior relevância nas estratégias de sobrevivência, não mais restritos aos grandes aglomerados urbanos.\n\nOLIVEIRA, L. A. P.; OLIVEIRA, A. T. R. **Reflexões sobre os deslocamentos populacionais no Brasil**. Rio de Janeiro: IBGE, 2011 (adaptado).",
+      "alternativeTexts": {
+        "E": "Saturação da empregabilidade no setor terciário."
+      }
+    }
+  },
+  "2017-74": {
+    "originalSha256": "1f0cb19f4a8a567d8ed48a02d8422980543611859447dd4feecb16f4bc40a2df",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar cada um, a inicial da autora F. e a redação das alternativas A, B e D conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.735Z",
+    "fields": {
+      "context": "A participação da mulher no processo de decisão política ainda é extremamente limitada em praticamente todos os países, independentemente do regime econômico e social e da estrutura institucional vigente em cada um deles. É fato público e notório, além de empiricamente comprovado, que as mulheres estão em geral sub-representadas nos órgãos do poder, pois a proporção não corresponde jamais ao peso relativo dessa parte da população.\n\nTABAK, F. **Mulheres públicas**: participação política e poder. Rio de Janeiro: Letra Capital, 2002.",
+      "alternativeTexts": {
+        "A": "Leis de combate à violência doméstica.",
+        "B": "Cotas de gênero nas candidaturas partidárias.",
+        "D": "Propagandas de incentivo ao voto consciente."
+      }
+    }
+  },
+  "2017-88": {
+    "originalSha256": "1834c2061c330d78299ffe2a56cf7be7e9154d622a9daaa34d627891b8189627",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar São Paulo na referência, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:16:19.735Z",
+    "fields": {
+      "context": "Se, pois, para as coisas que fazemos existe um fim que desejamos por ele mesmo e tudo o mais é desejado no interesse desse fim; evidentemente tal fim será o bem, ou antes, o sumo bem. Mas não terá o conhecimento, porventura, grande influência sobre essa vida? Se assim é, esforcemo-nos por determinar, ainda que em linhas gerais apenas, o que seja ele e de qual das ciências ou faculdades constitui o objeto. Ninguém duvidará de que o seu estudo pertença à arte mais prestigiosa e que mais verdadeiramente se pode chamar a arte mestra. Ora, a política mostra ser dessa natureza, pois é ela que determina quais as ciências que devem ser estudadas num Estado, quais são as que cada cidadão deve aprender, e até que ponto; e vemos que até as faculdades tidas em maior apreço, como a estratégia, a economia e a retórica, estão sujeitas a ela. Ora, como a política utiliza as demais ciências e, por outro lado, legisla sobre o que devemos e o que não devemos fazer, a finalidade dessa ciência deve abranger as das outras, de modo que essa finalidade será o bem humano.\n\nARISTÓTELES. Ética a Nicômaco. In: **Pensadores**. São Paulo: Nova Cultural, 1991 (adaptado)."
+    }
+  },
+  "2017-143": {
+    "originalSha256": "e7f5eb6cb21b1154794f05cf655c9ae3ab4d34d6c83d5d5b1437a881b2c5c33b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurados os expoentes nas alternativas D e E, achatados para 64 e 46 na API; recomposta a notação das cinco alternativas conforme o caderno oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(C_{6,4}\\)",
+        "B": "\\(C_{9,3}\\)",
+        "C": "\\(C_{10,4}\\)",
+        "D": "\\(6^4\\)",
+        "E": "\\(4^6\\)"
+      }
+    }
+  },
+  "2017-163": {
+    "originalSha256": "770fdd02ca712fe00f6eef6f33f68d76782fcce5982f8187783cedae9ebfb0bc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em um parque há dois mirantes de alturas distintas que são acessados por elevador panorâmico. O topo do mirante 1 é acessado pelo elevador 1, enquanto que o topo do mirante 2 é acessado pelo elevador 2. Eles encontram-se a uma distância possível de ser percorrida a pé, e entre os mirantes há um teleférico que os liga que pode ou não ser utilizado pelo visitante.\n\n![](/assets/questions/2017/163/b4c6dcfc-5f86-46af-9f78-dd94358a2301.png)\n\nO acesso aos elevadores tem os seguintes custos:  \n• Subir pelo elevador 1: R$ 0,15;  \n• Subir pelo elevador 2: R$ 1,80;  \n• Descer pelo elevador 1: R$ 0,10;  \n• Descer pelo elevador 2: R$ 2,30.\n\nO custo da passagem do teleférico partindo do topo do mirante 1 para o topo do mirante 2 é de R$ 2,00, e do topo do mirante 2 para o topo do mirante 1 é de R$ 2,50."
+    }
+  },
+  "2017-166": {
+    "originalSha256": "06a91f19492559990a3e5d4e0448d908c4b77de1607b777e026eb39bb9b67343",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um cientista, em seus estudos para modelar a pressão arterial de uma pessoa, utiliza uma função do tipo \\(P(t)=A+B\\cos(kt)\\) em que A, B e K são constantes reais positivas e t representa a variável tempo, medida em segundo. Considere que um batimento cardíaco representa o intervalo de tempo entre duas sucessivas pressões máximas.\n\nAo analisar um caso específico, o cientista obteve os dados:\n\n![](/assets/questions/2017/166/41a14ec3-8c43-4dc3-b116-be74098827c0.png)",
+      "alternativeTexts": {
+        "A": "\\(P(t)=99+21\\cos(3\\pi t)\\)",
+        "B": "\\(P(t)=78+42\\cos(3\\pi t)\\)",
+        "C": "\\(P(t)=99+21\\cos(2\\pi t)\\)",
+        "D": "\\(P(t)=99+21\\cos(t)\\)",
+        "E": "\\(P(t)=78+42\\cos(t)\\)"
+      }
+    }
+  },
+  "2017-167": {
+    "originalSha256": "5fe640443cca3917fa36a210a4b0ff3379169a09b5555fde0947270432d03a20",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Para decorar uma mesa de festa infantil, um chefe de cozinha usará um melão esférico com diâmetro medindo 10 cm, o qual servirá de suporte para espetar diversos doces. Ele irá retirar uma calota esférica do melão, conforme ilustra a figura, e, para garantir a estabilidade deste suporte, dificultando que o melão role sobre a mesa, o chefe fará o corte de modo que o raio r da seção circular de corte seja de pelo menos 3 cm. Por outro lado, o chefe desejará dispor da maior área possível da região em que serão afixados os doces.\n\n![](/assets/questions/2017/167/7bf9f382-d44e-49aa-b785-8f24191c1fb5.png)",
+      "alternativeTexts": {
+        "A": "\\(5-\\frac{\\sqrt{91}}2\\)",
+        "B": "\\(10-\\sqrt{91}\\)",
+        "C": "1",
+        "D": "4",
+        "E": "5"
+      }
+    }
+  },
+  "2017-168": {
+    "originalSha256": "67129124f703383ddf45503290c9d23d3164c9a4dd2f9959dfa2d452dc00e026",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A Figura 2 fornece uma vista frontal desta abóbada, com medidas hipotéticas para simplificar os cálculos.\n\n![](/assets/questions/2017/168/24aef861-9c64-4357-ab76-d58d4bf20931.png)"
+    }
+  },
+  "2017-169": {
+    "originalSha256": "df5e07e97ddc2bbd9ebee77f085e24075472639ddaf6e80613331128e672db0b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Quanto tempo você fica conectado à internet? Para responder a essa pergunta foi criado um miniaplicativo de computador que roda na área de trabalho, para gerar automaticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado, nos cinco sites mais acessados. A seguir, temos os dados do miniaplicativo para esses dias.\n\n![](/assets/questions/2017/169/2a8f5ab3-e6e4-4457-8cb4-1fefac4ab935.png)"
+    }
+  },
+  "2017-172": {
+    "originalSha256": "09a7ebb860d3b06ab3e32b7dddf834e08ff9189e47338ab858383b2f0e2b4e20",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Dois reservatórios A e B são alimentados por bombas distintas por um período de 20 horas. A quantidade de água contida em cada reservatório nesse período pode ser visualizada na figura.\n\n![](/assets/questions/2017/172/3cab013f-abdc-4a51-8c74-6c0771ab0c6e.png)"
+    }
+  },
+  "2017-174": {
+    "originalSha256": "96fafe82452cbca10223ccf509e79c49e3fc5b5f5a13488b37effbfda295b592",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre.\n\n![](/assets/questions/2017/174/8da9e00a-e25a-4467-8f2f-53488edb0a1f.png)\n\nIBGE. Pesquisa mensal de emprego. Disponível em: www.ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado)."
+    }
+  },
+  "2017-175": {
+    "originalSha256": "3d3c98f7398828c0faeed47feeea207f2ba24e29ed6b2b15639ea274edfbc4b3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o enunciado completo, ausente na API, com a independência dos semáforos e as probabilidades necessárias ao cálculo.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Numa avenida existem 10 semáforos. Por causa de uma pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acusar a cor verde é de \\(\\frac23\\) e a de acusar a cor vermelha é de \\(\\frac13\\). Uma pessoa percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáforos."
+    }
+  },
+  "2017-176": {
+    "originalSha256": "56346281f74fc4d5e9cebe41ab2cf41e4a6b656e734b349e8a937d3118fa009b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o expoente da unidade de área m², achatado para m2 na API, conforme o texto oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A energia solar vai abastecer parte da demanda de energia do _campus_ de uma universidade brasileira. A instalação de painéis solares na área dos estacionamentos e na cobertura do hospital pediátrico será aproveitada nas instalações universitárias e também ligada na rede da companhia elétrica distribuidora de energia.  \nO projeto inclui 100 m² de painéis solares que ficarão instalados nos estacionamentos, produzindo energia elétrica e proporcionando sombra para os carros. Sobre o hospital pediátrico serão colocados aproximadamente 300 m² de painéis, sendo 100 m² para gerar energia elétrica utilizada no _campus_, e 200 m² para geração de energia térmica, produzindo aquecimento de água utilizada nas caldeiras do hospital.  \nSuponha que cada metro quadrado de painel solar para energia elétrica gere uma economia de 1 kWh por dia e cada metro quadrado produzindo energia térmica permita economizar 0,7 kWh por dia para a universidade. Em uma segunda fase do projeto, será aumentada em 75% a área coberta pelos painéis solares que geram energia elétrica. Nessa fase também deverá ser ampliada a área de cobertura com painéis para geração de energia térmica.\n\nDisponível em: http://agenciabrasil.ebc.com.br. Acesso em: 30 out. 2013 (adaptado)."
+    }
+  },
+  "2017-177": {
+    "originalSha256": "2211de3f64e65b6756e14b432fe26ed5b4f112ff001b1747ec37fe3ab0dad7b4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Uma empresa construirá sua página na internet e espera atrair um público de aproximadamente um milhão de clientes. Para acessar essa página, será necessária uma senha com formato a ser definido pela empresa. Existem cinco opções de formato oferecidas pelo programador, descritas no quadro, em que “L” e “D” representam, respectivamente, letra maiúscula e dígito.\n\n![](/assets/questions/2017/177/56a01150-592b-4611-8550-81876ca345ec.png)\n\nAs letras do alfabeto, entre as 26 possíveis, bem como os dígitos, entre os 10 possíveis, podem se repetir em qualquer das opções.  \nA empresa quer escolher uma opção de formato cujo número de senhas distintas possíveis seja superior ao número esperado de clientes, mas que esse número não seja superior ao dobro do número esperado de clientes."
+    }
+  },
+  "2017-178": {
+    "originalSha256": "060ae89c17542ca5ff3b3d84a3b8795b2e497ce41ae11ba1c3213cbefb8be2ae",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual do caderno oficial. Mantidos a imagem e os demais dados originais.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Como não são adeptos da prática de esportes, um grupo de amigos resolveu fazer um torneio de futebol utilizando videogame. Decidiram que cada jogador joga uma única vez com cada um dos outros jogadores. O campeão será aquele que conseguir o maior número de pontos. Observaram que o número de partidas jogadas depende do número de jogadores, como mostra o quadro:\n\n![](/assets/questions/2017/178/9f831180-9696-4e04-9744-29b02d88f8e8.png)"
+    }
+  },
+  "2017-179": {
+    "originalSha256": "502d4518955e3f95aa4689e18ea4de6215856d043a35a054c0217ca2b90a32b5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o enunciado completo, ausente na API, com as probabilidades condicionais de atraso e a probabilidade de chuva.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um morador de uma região metropolitana tem 50% de probabilidade de atrasar-se para o trabalho quando chove na região; caso não chova, sua probabilidade de atraso é de 25%. Para um determinado dia, o serviço de meteorologia estima em 30% a probabilidade da ocorrência de chuva nessa região."
+    }
+  },
+  "2017-180": {
+    "originalSha256": "7cea284a435688363f98c1c5f061cc7b6b72b9bd45b5ab84847c0fad96e55ba3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o enunciado completo, ausente na API, com horários, níveis e hipóteses de chuva e vazão constantes indispensáveis ao cálculo.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Às 17 h 15 min começa uma forte chuva, que cai com intensidade constante. Uma piscina em forma de um paralelepípedo retângulo, que se encontrava inicialmente vazia, começa a acumular a água da chuva e, às 18 horas, o nível da água em seu interior alcança 20 cm de altura. Nesse instante, é aberto o registro que libera o escoamento da água por um ralo localizado no fundo dessa piscina, cuja vazão é constante. Às 18 h 40 min a chuva cessa e, nesse exato instante, o nível da água na piscina baixou para 15 cm."
+    }
   }
 }

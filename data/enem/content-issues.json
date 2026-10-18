@@ -77,5 +77,26 @@
       "visualSourceVerified": true,
       "localGraph": ".preview/enem-2019-q146-grafico-oficial.png"
     }
+  },
+  "2017-137": {
+    "originalSha256": "43dc33b32fbbc37b61743042a069127ba13ef22df74cbaa15d2f999dbc417665",
+    "reason": "O modelo financeiro original, com taxa mensal de 1,3% e prestação de até R$ 400, admite 14 parcelas (alternativa B): a desigualdade exata exige n ≥ 13,729554 e P(14) ≈ R$ 392,94. O gabarito D (16) decorre das aproximações de logaritmos fornecidas: (2,602 − 2,525)/0,005 = 15,4, arredondado para 16. A prova introduz essas aproximações com «Se necessário», sem impor seu uso, e o arredondamento altera a alternativa, não apenas um valor intermediário. Suspensão editorial da prática pontuada para não penalizar o cálculo válido com maior precisão; não constitui declaração de anulação pelo INEP e preserva o gabarito original.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 16,
+    "reviewedAt": "2026-10-18",
+    "evidence": {
+      "officialAnswer": "D",
+      "exactCalculationAnswer": "B",
+      "principal": 5000,
+      "monthlyRate": 0.013,
+      "maxPayment": 400,
+      "exactLowerBoundN": 13.729554233017351,
+      "providedLogsLowerBoundN": 15.399999999999991,
+      "payment13": 420.5190933022066,
+      "payment14": 392.93823541872507,
+      "payment16": 348.14548753395866,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2017-math-original-16.png"
+    }
   }
 }

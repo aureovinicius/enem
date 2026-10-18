@@ -11,6 +11,10 @@ import { isOfficialBookletURL } from "./enem-official-sources.mjs";
 test("official booklet sources accept historical INEP paths and reject mismatches or other hosts", () => {
   assert.equal(isOfficialBookletURL("https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf"), true);
   assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf"), true);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf"), true);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2015_DIA_2_07_AZUL.pdf"), false);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf"), true);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2016/cad_1_prova_azul_5112017.pdf"), false);
   for (const value of [undefined, "https://example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br.example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2018_PV_impresso_D1_CD1.pdf", "https://download.inep.gov.br/enem/provas_e_gabaritos/../exam.pdf"]) {
     assert.equal(isOfficialBookletURL(value), false);
   }
