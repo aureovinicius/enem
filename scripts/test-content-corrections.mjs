@@ -6,6 +6,15 @@ import path from "node:path";
 import { correctedSnapshot } from "./enem-content-corrections.mjs";
 import { sha256 } from "./enem-explanations.mjs";
 import { buildYearBank } from "./enem-year-bank.mjs";
+import { isOfficialBookletURL } from "./enem-official-sources.mjs";
+
+test("official booklet sources accept historical INEP paths and reject mismatches or other hosts", () => {
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D1_CD1.pdf"), true);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf"), true);
+  for (const value of [undefined, "https://example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br.example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2018_PV_impresso_D1_CD1.pdf", "https://download.inep.gov.br/enem/provas_e_gabaritos/../exam.pdf"]) {
+    assert.equal(isOfficialBookletURL(value), false);
+  }
+});
 
 test("a restored official figure is validated, copied into the app and rejects altered bytes", async t => {
   const root = await mkdtemp(path.join(tmpdir(), "enem-restored-"));

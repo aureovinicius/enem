@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, realpath, stat } from "node:fs/promises";
 import path from "node:path";
 import { sha256 } from "./enem-explanations.mjs";
+import { isOfficialBookletURL } from "./enem-official-sources.mjs";
 
 const AREAS = {
   "ciencias-natureza": { code: "CN", title: "Ciências da Natureza" },
@@ -49,7 +50,7 @@ async function editorialExclusions(root, snapshot) {
     const original = snapshot.questions.find(q => questionId(q) === id);
     if (!original || issue.originalSha256 !== sha256(JSON.stringify(original))) throw new Error(`Reviewed content issue source changed: ${id}`);
     if (!hasText(issue.reason) || !Number.isFinite(Date.parse(issue.reviewedAt)) || !Number.isInteger(issue.sourcePage) || issue.sourcePage < 1
-      || !/^https:\/\/download\.inep\.gov\.br\/enem\/provas_e_gabaritos\/[^/]+\.pdf$/.test(issue.sourceUrl || "")) throw new Error(`Unverified content issue: ${id}`);
+      || !isOfficialBookletURL(issue.sourceUrl)) throw new Error(`Unverified content issue: ${id}`);
     exclusions.set(id, [...(exclusions.get(id) || []), issue.reason]);
   }
   return exclusions;

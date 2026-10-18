@@ -374,5 +374,189 @@
         "D": "Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva."
       }
     }
+  },
+  "2020-12": {
+    "originalSha256": "f63d5f19d5aa1644e68f7630f1ea72e251b7cbc589c29958c20d398926841db8",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Colchetes de omissão editorial foram indevidamente escapados como delimitadores matemáticos na API. Conferidos visualmente no caderno oficial.",
+    "reviewedAt": "2026-10-18T07:00:11.782Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nÉ pau, é pedra, é o fim do caminho  \nÉ um resto de toco, é um pouco sozinho  \nÉ um caco de vidro, é a vida, é o sol  \nÉ a noite, é a morte, é o laço, é o anzol  \nÉ peroba-do-campo, é o nó da madeira  \nCaingá, candeia, é o matita-pereira\n\nTOM JOBIM. Águas de março. O **Tom de Jobim e o tal de João Bosco** (disco de bolso). Salvador: Zen Produtora, 1972 (fragmento).\n\n**TEXTO II**  \nA inspiração súbita e certeira do compositor serve ainda de exemplo do lema antigo: nada vem do nada. Para ninguém, nem mesmo para Tom Jobim. Duas fontes são razoavelmente conhecidas. A primeira é o poema O caçador de esmeraldas, do mestre parnasiano Olavo Bilac: “Foi em março, ao findar da chuva, quase à entrada/ do outono, quando a terra em sede requeimada/  \nbebera longamente as águas da estação [...]”. E a outra é um ponto de macumba, gravado com sucesso por J. B. Carvalho, do Conjunto Tupi: “É pau, é pedra, é seixo miúdo, roda a baiana por cima de tudo”. Combinar Olavo  \nBilac e macumba já seria bom; mas o que se vê em Águas de março vai muito além: tudo se transforma numa outra coisa e numa outra música, que recompõem o mundo para nós.  \nNESTROVSKI, A, O samba mais bonito do mundo. In: **Três** **canções de Tom Jobim**. São Paulo: Cosac Naify, 2004"
+    }
+  },
+  "2020-25": {
+    "originalSha256": "fef913c45da7c4911016d576acc4c9cca717d296b9884e1f106a8961b662ff64",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 12,
+    "reason": "O comando foi copiado também para o contexto na API. Removida a duplicação e restaurada a figura da prova oficial, extraída diretamente do PDF: a API apresentava outra montagem da obra, com verbete em inglês. A figura oficial com verbete em português foi conferida visualmente na página 12 e no arquivo extraído .preview/enem-2020-linguagens-q25-oficial.jpg.",
+    "reviewedAt": "2026-10-18T07:00:11.790Z",
+    "fields": {
+      "context": "![](/assets/questions/2020/25/texto-oficial.jpg)\n\nKOSUTH, J. One and Three Chairs. Museu Reina Sofia, Espanha, 1965. Disponível em: www.museoreinasofia.es. Acesso em: 4 jun. 2018 (adaptado)."
+    },
+    "assets": {
+      "texto-oficial.jpg": "9831860faac4be5046e39f6d6addf20d81968c3ca353e95f0b2c94ae910e8e89"
+    }
+  },
+  "2020-28": {
+    "originalSha256": "0d56770d5cdb4d198ceebe7e8c5030056f89fa86f42d66d2cbe5fa3bdbf623c2",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Removido comentário externo que a API anexou à alternativa E (dizia a questão); corrigidos nome de Bach, músico, Partita, data de acesso e marcador editorial conforme leitura visual da página oficial. Gabarito E preservado. A pontuação da fala citada foi conferida e restaurada: ponto antes da fala, aspas simples na citação interna e fechamento da citação externa.",
+    "reviewedAt": "2026-10-18T07:00:11.790Z",
+    "fields": {
+      "context": "Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música _Bum bum tam tam_, que gerou, em nove meses, 480 milhões de visualizações no Youtube. É o funk brasileiro mais ouvido na história do site.\n\nA partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho: compôs, cantou e produziu em uma noite só. “Comecei a pesquisar alguns tipos de flauta, coisas antigas. E nisso eu achei a ‘flautinha do Sebastian Bach’”, conta. A descoberta foi por acaso: Fioti não sabia quem era o músico alemão e não sabe tocar o instrumento.\n\nA “flauta envolvente” da música é um trecho da Partita em lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723.\n\nDisponível em: https//g1.globo.com. Acesso em: 6 jun. 2018. (adaptado)",
+      "alternativeTexts": {
+        "E": "Inter-relação de elementos culturais vindos de realidades distintas na construção de uma nova proposta musical."
+      }
+    }
+  },
+  "2020-15": {
+    "originalSha256": "e56b56ca4568967caf2017063736e12df058357e7de52601d3c3f4f33af1798f",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 9,
+    "reason": "Comando (modalidade) e alternativa E (expoentes femininas) restaurados após conferência visual independente da página oficial.",
+    "reviewedAt": "2026-10-18T07:00:11.790Z",
+    "fields": {
+      "alternativesIntroduction": "O esporte é uma manifestação cultural na qual se estabelecem relações sociais. Considerando o texto, o futebol é uma modalidade que",
+      "alternativeTexts": {
+        "E": "possui jogadores e jogadoras com a mesma visibilidade, apesar de haver expoentes femininas de destaque, como Marta."
+      }
+    }
+  },
+  "2020-55": {
+    "originalSha256": "ad3b3b5b123fd401ad09427ccf0abbf0e2458ba3a14813c9ef7293cf98880414",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura lhe no contexto, uma na alternativa B e objetos na alternativa D. A API transcreveu objetivos, alterando o significado filosófico. Confirmado por extração e leitura visual da página 22.",
+    "reviewedAt": "2026-10-18T07:00:18.498Z",
+    "fields": {
+      "context": "Será que as coisas lhe pareceriam diferentes se, de fato, todas elas existissem apenas na sua mente — se tudo o que você julgasse ser o mundo externo real fosse apenas um sonho ou alucinação gigante, de que você jamais fosse despertar? Se assim fosse, então é claro que você nunca poderia despertar, como faz quando sonha, pois significaria que não há mundo “real” no qual despertar. Logo, não seria exatamente igual a um sonho ou alucinação normal.\n\nNAGEL, T. **Uma breve introdução à filosofia**. São Paulo: Martins Fontes, 2011.",
+      "alternativeTexts": {
+        "B": "Falsificacionismo, que estabelece ciclos de problemas para refutar uma conjectura.",
+        "D": "Idealismo, que nega a existência de objetos independentemente do trabalho cognoscente."
+      }
+    }
+  },
+  "2020-76": {
+    "originalSha256": "9468e4cf812ddb387e2a39e1dd92f1be7f4deac9a650986db58892062da88a60",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o nome da editora Itatiaia na referência bibliográfica, conforme conferência visual da página 28.",
+    "reviewedAt": "2026-10-18T07:00:18.498Z",
+    "fields": {
+      "context": "“A principal característica da situação social dos angloamericanos é seu caráter eminentemente democrático. Afirmei anteriormente que reinava uma igualdade muito grande entre os emigrantes que foram se estabelecer na Nova Inglaterra. Para isso contribuiu a influência das leis de sucessão. Estabelecidas de uma maneira, as leis de sucessão reúnem, concentram e agrupam em um só a propriedade e o poder. Estabelecidas por outros princípios, produzem o oposto: dividem, partilham e disseminam os bens e o poder.”\n\n(**TOCQUEVILLE, A. A democracia na América.**  \nBelo Horizonte: Itatiaia; São Paulo: Edusp 1977. Adaptado.)"
+    }
+  },
+  "2020-79": {
+    "originalSha256": "77b8a7d9d544f917b8d6314fc4410683b7662ecfb5747071f4d0229ade877185",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura contrato no título da referência bibliográfica, conforme conferência visual da página 28.",
+    "reviewedAt": "2026-10-18T07:00:18.498Z",
+    "fields": {
+      "context": "“O fenômeno histórico conhecido como “tráfico de coolies” esteve associado diretamente ao período que vai do final da década de 1840 até o ano de 1874, quando milhares de chineses foram encaminhados principalmente para Cuba e Peru e muitos abusos no recrutamento de mão de obra foram identificados. O tráfico de coolies ou, em outros termos, o transporte por meios coativos de mão de obra de um lugar para outro, foi comparado ao tráfico africano de escravos por muitos periodistas e analistas do século XIX.”\n\n(SANTOS, M. A. Migrações e trabalho sob contrato no século XIX.  \nHistória. n. 12, 2017.)"
+    }
+  },
+  "2020-107": {
+    "originalSha256": "974dc91372ab808989e77dbcd0f3e8b15007333fc05c87449876d42114b33b33",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 7,
+    "reason": "Os expoentes das cinco alternativas foram perdidos na API (100, 101, 102, 104 e106). Restauradas as potências e a notação dos índices das grandezas conforme o caderno oficial, sem alterar o gabarito.",
+    "reviewedAt": "2026-10-18T06:51:47.634Z",
+    "fields": {
+      "context": "A Torre Eiffel, com seus 324 metros de altura, feita com treliças de ferro, pesava 7 300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala 1:100, usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real).  Considere que a torre real tenha uma massa \\(M_{\\mathrm{torre}}\\) e exerça na fundação sobre a qual foi erguida uma pressão \\(P_{\\mathrm{torre}}\\). O modelo construído pelo arquiteto terá uma massa \\(M_{\\mathrm{modelo}}\\) e exercerá uma pressão \\(P_{\\mathrm{modelo}}\\) .\n\n![](/assets/questions/2020/107/c7f2aee2-29a9-4890-a8ac-7e5b0a2c774d.png)",
+      "alternativesIntroduction": "Como a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões \\(P_{\\mathrm{torre}}/P_{\\mathrm{modelo}}\\)?",
+      "alternativeTexts": {
+        "A": "\\(10^0\\)",
+        "B": "\\(10^1\\)",
+        "C": "\\(10^2\\)",
+        "D": "\\(10^4\\)",
+        "E": "\\(10^6\\)"
+      }
+    }
+  },
+  "2020-116": {
+    "originalSha256": "a6612673afcb9491e0c269f10add13c1594f5e0d46d221dc942a9e4e45a9c6c7",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 10,
+    "reason": "Restaurada a unidade ohm após a resistência100, ausente no texto da API e presente na figura e no caderno oficial.",
+    "reviewedAt": "2026-10-18T06:51:47.636Z",
+    "fields": {
+      "context": "Um estudante tem uma fonte de tensão com corrente contínua que opera em tensão fixa de 12 V. Como precisa alimentar equipamentos que operam em tensões menores, ele emprega quatro resistores de \\(100\\ \\Omega\\) para construir um divisor de tensão. Obtém-se este divisor associando os resistores, como exibido na figura. Os aparelhos podem ser ligados entre os pontos A, B, C, D e E, dependendo da tensão especificada.\n\n![](/assets/questions/2020/116/179bf71d-7af2-4a58-856b-2504c192636d.png)\n\nEle tem um equipamento que opera em 9,0 V com uma resistência interna de 10 kΩ."
+    }
+  },
+  "2020-124": {
+    "originalSha256": "c4752ca901bc058d5ae37c133ef68821d057aff6b00024853865a78eff00bdcd",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 12,
+    "reason": "Separados o contexto e o comando que estavam reunidos no campo de pergunta, conforme o caderno; removida a hifenização espúria de contaminando na alternativa E.",
+    "reviewedAt": "2026-10-18T06:51:47.636Z",
+    "fields": {
+      "context": "Em 2011, uma falha no processo de perfuração realizado por uma empresa petrolífera ocasionou derramamento de petróleo na bacia hidrográfica de Campos, no Rio de Janeiro.",
+      "alternativesIntroduction": "Os impactos decorrentes desse derramamento ocorrem porque os componentes do petróleo",
+      "alternativeTexts": {
+        "E": "Têm cadeia pequena e elevada volatilidade, contaminando a atmosfera local e regional em função dos ventos nas orlas marítimas."
+      }
+    }
+  },
+  "2020-129": {
+    "originalSha256": "65ab9fe76bdc588ff6d585798df94ec2bcbe375462bee1c9b0b73b628fa1da50",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 13,
+    "reason": "Restaurada a expressão para tratamento ausente no comando da API e o parêntese de abertura na identificação das colunas escuras, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T06:51:47.636Z",
+    "fields": {
+      "context": "Em uma pesquisa estão sendo testados cinco quimioterápicos quanto à sua capacidade antitumoral. No entanto, para o tratamento de pacientes, sabe-se que é necessário verificar também o quanto cada composto agride células normais. Para o experimento, partiu-se de cultivos de células tumorais (colunas escuras na figura) e células normais (colunas claras) com o mesmo número de células iniciais. Dois grupos-controle não receberam quimioterápicos: controle de células  tumorais (CT) e de células normais (CN). As colunas I, II, III, IV e V correspondem aos grupos tratados com os cinco compostos. O número de células viáveis após os tratamentos está representado pelas colunas.\n\n![](/assets/questions/2020/129/084d2bf5-6e94-4744-961a-7ed4b515338f.png)",
+      "alternativesIntroduction": "Qual quimioterápico deve ser escolhido para tratamento desse tipo de tumor?"
+    }
+  },
+  "2020-138": {
+    "originalSha256": "8098c362a06ad795b03b60c31f8815ca931b5bb67707a331c959b790e865b780",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 17,
+    "reason": "A API perdeu o expoente da unidade de volume. Restabelecida a notação de decímetro cúbico conforme a página oficial conferida visualmente.",
+    "reviewedAt": "2026-10-18T07:00:18.503Z",
+    "fields": {
+      "context": "A caixa-d’água de um edifício terá a forma de um paralelepípedo retângulo reto com volume igual a 28 080 litros. Em uma maquete que representa o edifício, a caixa d’água tem dimensões 2 cm x 3,51 cm x 4 cm.\n\nDado: \\(1\\,\\text{dm}^3=1\\,\\text{L}\\)."
+    }
+  },
+  "2020-140": {
+    "originalSha256": "96b1543c7c3832dbc3f4537491a005a1621a26b203c0aa7a4b14cbd8abfe8fc7",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 17,
+    "reason": "A alternativa C foi transcrita na API como 3 caixas A e 1 caixa B, combinação insuficiente para a sala. A prova oficial apresenta 3 caixas A e 2 caixas B, totalizando as 18 peças necessárias. Correção conferida visualmente; gabarito preservado.",
+    "reviewedAt": "2026-10-18T07:00:18.503Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "3 caixas do tipo A e 2 caixas do tipo B."
+      }
+    }
+  },
+  "2020-146": {
+    "originalSha256": "b782ac7be20aa35b80b3b83f487a355bb3f606efbc1bf6921aa28a6734183de4",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "A API substituiu as barras de valor absoluto por caracteres de controle. Restaurada a desigualdade modular da regra dos degraus, após leitura visual da página oficial.",
+    "reviewedAt": "2026-10-18T07:00:18.503Z",
+    "fields": {
+      "context": "Uma casa de dois andares está sendo projetada. É necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras:\n\n\\(\\lvert2h+b-63{,}5\\rvert\\leq1{,}5\\) e \\(16\\leq h\\leq19\\),\n\nnas quais _h_ é a altura do degrau (denominada espelho) e _b_ é a profundidade da pisada, como mostra a figura. Por conveniência, escolheu-se a altura do degrau como sendo _h_ = 16. As unidades de _h_ e _b_ estão em centímetro.\n\n![](/assets/questions/2020/146/7b775aa4-0afa-4e70-b6d0-3a49cf66c41f.png)"
+    }
+  },
+  "2020-154": {
+    "originalSha256": "3f297872d0589e8147368ca3abbe054d7376a1da85e4ee38846037739119073d",
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Os expoentes negativos das cinco alternativas foram achatados na transcrição da API, podendo parecer subtrações. Restabelecida a notação científica de cada opção conforme a página oficial conferida visualmente.",
+    "reviewedAt": "2026-10-18T07:00:18.503Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(1{,}0\\times10^{-1}\\)",
+        "B": "\\(1{,}0\\times10^{-3}\\)",
+        "C": "\\(1{,}0\\times10^{-4}\\)",
+        "D": "\\(1{,}0\\times10^{-6}\\)",
+        "E": "\\(1{,}0\\times10^{-7}\\)"
+      }
+    }
   }
 }

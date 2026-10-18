@@ -1,6 +1,7 @@
 import { readFile, realpath } from "node:fs/promises";
 import path from "node:path";
 import { sha256, sourceQuestionId } from "./enem-explanations.mjs";
+import { isOfficialBookletURL } from "./enem-official-sources.mjs";
 
 /** Preserve the API snapshot and restore only text verified in the official booklet. */
 export async function correctedSnapshot(root, snapshot) {
@@ -12,7 +13,7 @@ export async function correctedSnapshot(root, snapshot) {
   for (const [id, correction] of Object.entries(corrections)) {
     const question = available.get(id);
     if (!question || sha256(JSON.stringify(question)) !== correction.originalSha256) throw new Error(`Correction source changed: ${id}`);
-    if (!/^https:\/\/download\.inep\.gov\.br\/enem\/provas_e_gabaritos\/[^/]+\.pdf$/.test(correction.sourceUrl)
+    if (!isOfficialBookletURL(correction.sourceUrl)
       || !Number.isInteger(correction.sourcePage) || correction.sourcePage < 1
       || !correction.reason?.trim() || !Number.isFinite(Date.parse(correction.reviewedAt))) throw new Error(`Unverified correction: ${id}`);
     const fields = correction.fields;
