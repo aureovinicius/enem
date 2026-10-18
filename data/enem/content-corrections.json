@@ -882,5 +882,246 @@
     "fields": {
       "context": "Um grupo de engenheiros está projetando um motor cujo esquema de deslocamento vertical do pistão dentro da câmara de combustão está representado na figura.\n\n![](/assets/questions/2019/177/000e6ab5-5267-4411-a21d-3c05d89f2832.png)\n\ndescreve como varia a altura h, medida em centímetro, da parte superior do pistão dentro da câmara de combustão, em função do tempo t, medido em segundo. Nas figuras estão indicadas as alturas do pistão em dois instantes distintos.\n\nO valor do parâmetro β, que é dado por um número inteiro positivo, está relacionado com a velocidade de deslocamento do pistão. Para que o motor tenha uma boa potência, é necessário e suficiente que, em menos de 4 segundos após o início do funcionamento (instante t = 0), a altura da base do pistão alcance por três vezes o valor de 6 cm.\n\nPara os cálculos, utilize 3 como aproximação para π."
     }
+  },
+  "2018-29": {
+    "originalSha256": "2f7cad10548cf3e28691efa9fa21ad860388ee44b0722937a22b46bbfb597b30",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Restaurados fotografia (importada como fotografa), marca de supressão textual e crédito da obra, conforme conferência visual da página 13 do caderno oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727795+00:00",
+    "fields": {
+      "context": "**TEXTO I**\n\nTambém chamados impressões ou imagens fotogramáticas [...], os fotogramas são, numa definição genérica, imagens realizadas sem a utilização da câmera fotográfica, por contato direto de um objeto ou material com uma superfície fotossensível exposta a uma fonte de luz. Essa técnica, que nasceu junto com a fotografia e serviu de modelo a muitas discussões sobre a ontologia da imagem fotográfica, foi profundamente transformada pelos artistas da vanguarda, nas primeiras décadas do século XX. Representou mesmo, ao lado das colagens, fotomontagens e outros procedimentos técnicos, a incorporação definitiva da fotografia à arte moderna e seu distanciamento da representação figurativa.\n\nCOLUCCI, M. B. Impressões fotogramáticas e vanguardas: as experiências de Man Ray. **Studium**, n. 2, 2000.\n\n**TEXTO II**\n\n![](/assets/questions/2018/29/1490a98f-8f1e-4e70-a23d-71f3773930b8.png)\n\nRAY, M. **Rayograph**, 1922. 23,9 x 29,9 cm. MOMA, Nova York.\n\nDisponível em: www.moma.org. Acesso em: 18 abr. 2018 (adaptado)"
+    }
+  },
+  "2018-31": {
+    "originalSha256": "284664a00a0f9a59c61cd5975a173609d51014540d8d5a418594e35e8dd16cfc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Restaurados o acento de à alegria e as marcas de supressão textual conforme a página 13 do PDF oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727887+00:00",
+    "fields": {
+      "context": "A história do futebol é uma triste viagem do prazer ao dever. [...] O jogo se transformou em espetáculo, com poucos protagonistas e muitos espectadores, futebol para olhar, e o espetáculo se transformou num dos negócios mais lucrativos do mundo, que não é organizado para ser jogado, mas para impedir que se jogue. A tecnocracia do esporte profissional foi impondo um futebol de pura velocidade e muita força, que renuncia à alegria, atrofia a fantasia e proíbe a ousadia. Por sorte ainda aparece nos campos, [...] algum atrevido que sai do roteiro e comete o disparate de driblar o time adversário inteirinho, além do juiz e do público das arquibancadas, pelo puro prazer do corpo que se lança na proibida aventura da liberdade.\n\nGALEANO, E. **Futebol ao sol e à sombra**. Porto Alegre: L&PM Pockets, 1995 (adaptado)."
+    }
+  },
+  "2018-43": {
+    "originalSha256": "726dc6053f4ec0743bfc8684ebce1d0c3f9cab8b101c6040f4de84095fbad177",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurados dois acentos graves transcritos como agudos na API, conforme página 18 do caderno oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727894+00:00",
+    "fields": {
+      "context": "Encontrando base em argumentos supostamente científicos, o mito do sexo frágil contribuiu historicamente para controlar as práticas corporais desempenhadas pelas mulheres. Na história do Brasil, exatamente na transição entre os séculos XIX e XX, destacam-se os esforços para impedir a participação  da mulher no campo das práticas esportivas. As desconfianças em relação à presença da mulher no esporte estiveram culturalmente associadas ao medo de masculinizar o corpo feminino pelo esforço físico intenso. Em relação ao futebol feminino, o mito do sexo frágil atuou como obstáculo ao consolidar a crença de que o esforço físico seria  inapropriado para proteger a feminilidade da mulher “normal”. Tal mito sustentou um forte movimento contrário à aceitação do futebol como prática esportiva feminina. Leis e propagandas buscaram desacreditar o futebol, considerando-o inadequado à delicadeza. Na verdade, as mulheres eram consideradas incapazes de se adequar às múltiplas dificuldades do “esporte-rei”.\n\nTEIXEIRA, F L. S.; CAMINHA, I. O. Preconceito no futebol feminino: uma revisão sistemática. **Movimento**, Porto Alegre, n. 1,2013 (adaptado)."
+    }
+  },
+  "2018-44": {
+    "originalSha256": "fb5600c6aaa420d8bf732f6166978d3676581b17b33a5ec5ed7f1d299720f2d4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Separados título e parágrafos fundidos na importação, preservando o texto da página 18 oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727900+00:00",
+    "fields": {
+      "context": "**Farejador de Plágio: uma ferramenta contra a cópia ilegal**\n\nNo mundo acadêmico ou nos veículos de comunicação, as cópias ilegais podem surgir de diversas maneiras, sendo integrais, parciais ou paráfrases. Para ajudar a combater esse crime, o professor Maximiliano Zambonatto Pezzin, engenheiro de computação, desenvolveu junto com os seus alunos o programa Farejador de Plágio.\n\nO programa é capaz de detectar: trechos contínuos e fragmentados, frases soltas, partes de textos reorganizadas, frases reescritas, mudanças na ordem dos períodos e erros fonéticos e sintáticos.\n\nMas como o programa realmente funciona? Considerando o texto como uma sequência de palavras, a ferramenta analisa e busca trecho por trecho nos sites de busca, assim como um professor desconfiado de um aluno faria. A diferença é que o programa permite que se pesquise em vários buscadores, gerando assim muito mais resultados.\n\nDisponível em: http://reporterunesp.jor.br. Acesso em: 19 mar. 2018"
+    }
+  },
+  "2018-32": {
+    "originalSha256": "5db0dfb7781db366c0ae2b5683cc8de0d2018097bc3fffd932a94e0afdef2096",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaurado o domínio da referência fotográfica, corrompido pelo OCR (fiickr → flickr), conforme conferência visual independente da página 14 oficial.",
+    "reviewedAt": "2026-10-18T07:07:23.884Z",
+    "fields": {
+      "context": "![](/assets/questions/2018/32/b0d35f71-1f3d-48f2-a2d1-cafb796ce307.png)\n\nFotografia: LUCAS HALLEL. Disponível em: www.flickr.com. Acesso em: 16 abr. 2018 (adaptado)"
+    }
+  },
+  "2018-49": {
+    "originalSha256": "c1a16e86d1e4ec4c91681b522eca984cdc2b53add36d0a71ad75025e6239ed84",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar os erros de OCR sô → só no contexto e fllósofo → filósofo no comando, conferidos na página oficial.",
+    "reviewedAt": "2026-10-18T07:02:57.570Z",
+    "fields": {
+      "context": "O filósofo reconhece-se pela posse inseparável do gosto da evidência e do sentido da ambiguidade. Quando se limita a suportar a ambiguidade, esta se chama equívoco. Sempre aconteceu que, mesmo aqueles que pretenderam construir uma filosofia absolutamente positiva, só conseguiram ser filósofos na medida em que,  \nsimultaneamente, se recusaram o direito de se instalar no saber absoluto. O que caracteriza o filósofo é o movimento que leva incessantemente do saber à ignorância, da ignorância ao saber, e um certo repouso neste movimento.\n\nMERLEAU-PONTY, M. **Elogio da filosofia**. Lisboa: Guimarães, 1998 (adaptado).",
+      "alternativesIntroduction": "O texto apresenta um entendimento acerca dos elementos constitutivos da atividade do filósofo, que se caracteriza por"
+    }
+  },
+  "2018-56": {
+    "originalSha256": "267107c65684296106bee9df9e555d0f20f96a7429b380607fa382df37ce2ff9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurar o nome da editora Lidel, transcrito como Lidei na API, e o ponto final da referência conforme PDF oficial.",
+    "reviewedAt": "2026-10-18T07:02:57.572Z",
+    "fields": {
+      "context": "Anamorfose é a transformação cartográfica espacial em que a forma dos objetos é distorcida, de forma a realçar o tema. A área das unidades espaciais às quais o tema se refere é alterada de forma proporcional ao respectivo valor.\n\nGASPAR, A. J. **Dicionário de ciências cartográficas.** Lisboa: Lidel, 2004."
+    }
+  },
+  "2018-83": {
+    "originalSha256": "5942d3c2a54f99da63fdad92cde2d8cda02a1d490802c1dd4f7fd90858f9dabc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar Abril Cultural, transcrito como Abril Cuitural pela API, conforme referência no PDF oficial.",
+    "reviewedAt": "2026-10-18T07:02:57.572Z",
+    "fields": {
+      "context": "Não é verdade que estão ainda cheios de velhice espiritual aqueles que nos dizem: “Que fazia Deus antes de criar o céu e a terra? Se estava ocioso e nada realizava”, dizem eles, “por que não ficou sempre assim no decurso dos séculos, abstendo-se, como antes, de toda ação? Se existiu em Deus um novo movimento, uma vontade nova para dar o ser a criaturas que nunca antes criara, como pode haver verdadeira eternidade, se n’Ele aparece uma vontade que antes não existia?”\n\nAGOSTINHO. **Confissões**. São Paulo: Abril Cultural, 1984."
+    }
+  },
+  "2018-89": {
+    "originalSha256": "b4f0dcc1faa3d29b512862ba0490589e0b3170ccd3f4c614ebcf34c4b3271059",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar científica no comando, transcrita como científlca pela API; eliminar quebra de linha interna sem alteração do conteúdo.",
+    "reviewedAt": "2026-10-18T07:02:57.572Z",
+    "fields": {
+      "alternativesIntroduction": "No contexto da produção científica, a necessidade de reconstrução desse modelo, conforme exposto no texto, foi determinada pelo confronto com um(a)"
+    }
+  },
+  "2018-90": {
+    "originalSha256": "36dbd3264de67d26fa60aeda9dcc995cdfd1ae0942fcdcd656b012062214587a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar o fechamento da citação após altar e a editora Elsevier, corrompidos pelo OCR, e o ponto final da referência conforme PDF oficial.",
+    "reviewedAt": "2026-10-18T07:02:57.572Z",
+    "fields": {
+      "context": "Um dos teóricos da democracia moderna, Hans Kelsen, considera elemento essencial da democracia real (não da democracia ideal, que não existe em lugar algum) o método da seleção dos líderes, ou seja, a eleição. Exemplar, neste sentido, é a afirmação de um juiz da Corte Suprema dos Estados Unidos, por ocasião de uma eleição de 1902: “A cabine eleitoral é o templo das instituições americanas, onde cada um de nós é um sacerdote, ao qual é confiada a guarda da arca da aliança e cada um oficia do seu próprio altar”.\n\nBOBBIO, N. **Teoria geral da política**. Rio de Janeiro: Elsevier, 2000 (adaptado)."
+    }
+  },
+  "2018-93": {
+    "originalSha256": "4c1d2aa579dcd79ce172830e9c5c4f9e18bf3f822d35ab17d97104aa96a888c4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reason": "Restaurados nome do arqueólogo, íons, potenciais de redução, sinal e valor numérico corrompidos na API; fórmulas conferidas visualmente na página 3 oficial e convertidas para notação matemática.",
+    "reviewedAt": "2026-10-18T07:03:47.727902+00:00",
+    "fields": {
+      "context": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: \\(E^\\circ(\\mathrm{Fe}^{2+}|\\mathrm{Fe})=-0{,}44\\,\\mathrm{V}\\); \\(E^\\circ(\\mathrm{H}^{+}|\\mathrm{H}_2)=0{,}00\\,\\mathrm{V}\\); e \\(E^\\circ(\\mathrm{Cu}^{2+}|\\mathrm{Cu})=+0{,}34\\,\\mathrm{V}\\).\n\n![](/assets/questions/2018/93/2d6cb023-415e-4783-9191-d152fd1ea94b.png)\n\nAs pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br. Acesso em: 14 dez. 2014 (adaptado)."
+    }
+  },
+  "2018-95": {
+    "originalSha256": "2ac9bddf4352d935e7e793fe9d9803f3d8d4f6e78b2fdcd4d79ac1297e8e8c8d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reason": "Restaurados os íons Na+ e Cl− que desapareceram na importação e a notação da escala; texto de apoio transferido do comando para o contexto conforme página 3 oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727904+00:00",
+    "fields": {
+      "context": "Usando um densímetro cuja menor divisão da escala, isto é, a diferença entre duas marcações consecutivas, é de \\(5{,}0\\times10^{-2}\\,\\mathrm{g\\,cm}^{-3}\\), um estudante realizou um teste de densidade: colocou este instrumento na água pura e observou que ele atingiu o repouso na posição mostrada.\n\n![](/assets/questions/2018/95/5dd87fcf-3266-487c-99d9-b8a06b4c39ad.png)\n\nEm dois outros recipientes A e B contendo 2 litros de água pura, em cada um, ele adicionou 100 g e 200 g de NaCl, respectivamente.\n\nQuando o cloreto de sódio é adicionado à água pura ocorre sua dissociação formando os íons \\(\\mathrm{Na}^{+}\\) e \\(\\mathrm{Cl}^{-}\\). Considere que esses íons ocupam os espaços intermoleculares na solução.",
+      "alternativesIntroduction": "Nestes recipientes, a posição de equilíbrio do densímetro está representada em:"
+    }
+  },
+  "2018-116": {
+    "originalSha256": "3576860395f8422403f30cc96d462f642b6866b92b35d7118ad13a28460ddb03",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 9,
+    "reason": "Fórmulas que estavam em imagens isoladas foram restauradas como notação matemática contínua; mantida figura das reações e restaurada referência, conforme página 9 oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727905+00:00",
+    "fields": {
+      "context": "Células solares à base de \\(\\mathrm{TiO}_2\\) sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o \\(\\mathrm{TiO}_2\\) é responsável por absorver a energia luminosa \\((h\\nu)\\), e o corante excitado \\((S^*)\\) é capaz de transferir elétrons para o \\(\\mathrm{TiO}_2\\). Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\n\n![](/assets/questions/2018/116/53bc5276-aff8-461d-9dfc-57f3d1fe0731.png)\n\nLONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. **Journal of the Brazilian Chemical Society**, n. 6, 2003 (adaptado)."
+    }
+  },
+  "2018-126": {
+    "originalSha256": "f5e188462478bc302fc7407dd084477b03c61a5fbe43dd09e1d93f02d0539491",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 12,
+    "reason": "Restaurados cadeia (importada como cadela em duas ocorrências), meio (melo), acentuação e pontuação, após conferência visual da página 12 oficial.",
+    "reviewedAt": "2026-10-18T07:03:47.727913+00:00",
+    "fields": {
+      "context": "Tensoativos são compostos orgânicos que possuem comportamento anfifílico, isto é, possuem duas regiões,  \numa hidrofóbica e outra hidrofílica. O principal tensoativo aniônico sintético surgiu na década de 1940 e teve grande  \naceitação no mercado de detergentes em razão do melhor desempenho comparado ao do sabão. No entanto, o uso desse produto provocou grandes problemas ambientais, dentre eles a resistência à degradação biológica, por causa dos diversos carbonos terciários na cadeia que compõe a porção hidrofóbica desse tensoativo aniônico. As ramificações na cadeia dificultam sua degradação, levando à persistência no meio ambiente por longos períodos. Isso levou a sua substituição na maioria dos países por tensoativos biodegradáveis, ou seja, com cadeias alquílicas lineares.\n\nPENTEADO, J. C. P.; EL SEOUD, O. A.; CARVALHO, L. R. F. [...]: uma abordagem ambiental e analítica. **Química Nova**, n. 5, 2006 (adaptado)."
+    }
+  },
+  "2018-104": {
+    "originalSha256": "b5339a0b0c944606e08e6534bf93c5f76a7601f8670eedb8501803a0357b1dab",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 5,
+    "reason": "Restaurado espaço entre A e figura, fundido na importação, conforme conferência visual independente da página 5 oficial.",
+    "reviewedAt": "2026-10-18T07:07:23.885Z",
+    "fields": {
+      "context": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.\n\n![](/assets/questions/2018/104/8ce5728c-b0b2-4dc8-b70a-e1342e906abc.png)"
+    }
+  },
+  "2018-137": {
+    "originalSha256": "718923cd78cf8beb0b8de80ab08868c9dd33918bf4707fc267a36590d201df56",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurado o símbolo ln (logaritmo natural), transcrito como In na API, e recomposta a notação das duas aproximações após conferência visual da página 16 do caderno oficial.",
+    "reviewedAt": "2026-10-18T07:08:06.433Z",
+    "fields": {
+      "context": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente _P_ submetido a juros compostos com taxa _i_, por um período de tempo _n_, produz um valor futuro _V_ determinado pela fórmula:\n\n![](/assets/questions/2018/137/477c2dff-f10a-4655-bf0c-8a3babc99e12.png)\n\nEm um contrato de empréstimo com sessenta parcelas fixas mensais, de R$820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela.\n\nUtilize 0,2877 como aproximação para \\(\\ln\\left(\\frac43\\right)\\) e 0,0131 como aproximação para \\(\\ln(1{,}0132)\\)."
+    }
+  },
+  "2018-138": {
+    "originalSha256": "9e6efe635472276fb886c28bafc9465fe717e1f3c31702f640f1ef113ea85fa1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurada a letra B, transcrita como o algarismo 6 no nome do ponto; fórmulas das cinco alternativas recompostas em notação matemática, conforme a página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto. Em uma situação de jogo, ainda restam os  seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0; 2).\n\n![](/assets/questions/2018/138/da8a254c-332c-4417-b998-1bde73398c79.png)",
+      "alternativeTexts": {
+        "A": "\\(x=0\\)",
+        "B": "\\(y=0\\)",
+        "C": "\\(x^2+y^2=16\\)",
+        "D": "\\(x^2+(y-2)^2=4\\)",
+        "E": "\\((x-2)^2+(y-2)^2=8\\)"
+      }
+    }
+  },
+  "2018-152": {
+    "originalSha256": "4f872fa00a1dec5560fa5a1bedc06c26d22c5f02e7cc2c484fa434e25c8316a5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o domínio dos pares ordenados, omitido na API e necessário para identificar que o conjunto contém pontos de coordenadas naturais, não uma região contínua.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "alternativesIntroduction": "Esse conjunto é dado pelos pares ordenados \\((x;y)\\in\\mathbb{N}\\times\\mathbb{N}\\), tais que"
+    }
+  },
+  "2018-170": {
+    "originalSha256": "93db193169c437620097e02fa3526e74962debae703ded68d45bda6ff0755747",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o gráfico de altura omitido na API, extraído diretamente da página oficial por renderização de região do PDF. Preservados os rótulos de alturas, ângulos e unidades. Fórmulas das alternativas recompostas para retirar espaços indevidos e manter a notação original.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a _High Roller_, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto A representa uma de suas cadeiras:\n\n![](/assets/questions/2018/170/b84e9f23-d18e-4f36-9917-643beaf719e3.png)\n\nA partir da posição indicada, em que o segmento _OA_ se encontra paralelo ao plano do solo, rotaciona-se a _High Roller_ no sentido anti-horário, em torno do ponto _O_. Sejam _t_ o ângulo determinado pelo segmento _OA_ em relação à sua posição inicial, e _f_ a função que descreve a altura do ponto _A_, em relação ao solo, em função de _t_. Após duas voltas completas, _f_ tem o seguinte gráfico:\n\n![Gráfico da altura f, em metros, em função do ângulo t, em radianos, ao longo de duas voltas.](/assets/questions/2018/170/grafico-oficial.png)",
+      "alternativeTexts": {
+        "A": "\\(f(t)=80\\sin(t)+88\\)",
+        "B": "\\(f(t)=80\\cos(t)+88\\)",
+        "C": "\\(f(t)=88\\cos(t)+168\\)",
+        "D": "\\(f(t)=168\\sin(t)+88\\cos(t)\\)",
+        "E": "\\(f(t)=88\\sin(t)+168\\cos(t)\\)"
+      }
+    },
+    "assets": {
+      "grafico-oficial.png": "fd8caba854f8775ce069d278a20dca71a072a91afb73b46a360852514be22787"
+    }
+  },
+  "2018-173": {
+    "originalSha256": "3c8adc0b3a8feb6a6570ee5fabe9967ea88a76b4fdffa42de0d9ccc1bbea0483",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o intervalo de tempo no comando, cujo fragmento havia sido deslocado para o fim do enunciado na API; o instante final passa a usar notação matemática no trecho correspondente da fonte.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Os guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um  guindaste iça uma viga de aço que se encontra inicialmente no solo.\n\n![](/assets/questions/2018/173/ace966fb-7b1a-431d-9b54-2c57b1e78d0d.png)\n\nNa figura, o ponto O representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo t = 0 (estágio 1) e finaliza no tempo \\(t_f\\) (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto O, enquanto que a outra extremidade desliza sobre o solo em direção ao ponto O. Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto M representa o ponto médio do segmento que representa a viga.",
+      "alternativesIntroduction": "O gráfico que descreve a distância do ponto M ao ponto O, em função do tempo, entre \\(t=0\\) e \\(t_f\\), é"
+    }
+  },
+  "2018-174": {
+    "originalSha256": "414b4bb477fa0afd6bb9beb38595a159032afb8173c771b0e2e8ec5b90dd5e9e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurada a expressão log₁₀2 após a aproximação 0,30; o trecho estava ausente na API. A informação fornecida foi colocada antes do comando, como aparece na página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.  \nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em 0,25 cm² de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).\n\nDisponível em: www.pocket-lint.com. Acesso em: 1 dez. 2017 (adaptado).\n\nConsidere 0,30 como aproximação para \\(\\log_{10}2\\).",
+      "alternativesIntroduction": "Em que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?"
+    }
+  },
+  "2018-179": {
+    "originalSha256": "dfb86b9da75f0fa4d58e76d30c3c6a35765b7147ca89f8a408d56632894c679d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Removidas do enunciado três imagens duplicadas das alternativas C, D e E. Elas não aparecem nessa posição na página oficial; as cinco alternativas originais foram preservadas.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.\n\n![](/assets/questions/2018/179/f90ac045-3059-4503-a9c5-2275ede0c308.png)\n\nUma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm."
+    }
   }
 }
