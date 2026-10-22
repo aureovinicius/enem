@@ -2408,5 +2408,879 @@
       },
       "alternativesIntroduction": "Qual a relação entre \\(E_1\\) e \\(E_2\\)?"
     }
+  },
+  "2015-92-espanhol": {
+    "originalSha256": "64cd0528242a5cae22471ca7c60e9bd1a12448d22e46f489d079f821ff95222a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura nuestro e o artigo un antes de teléfono, conforme o original.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "**En el día del amor, ¡no a la violencia contra la mujer!**\n\nHoy es el día de la amistad y del amor. Pero, parece que este día es puro floro, porque en nuestro país aún existen muchos casos de maltrato entre las parejas, sobre todo hacia las mujeres. Por eso, el Ministerio de la Mujer y Poblaciones Vulnerables (MIMP) lanza la segunda etapa de la campaña “Si te quieren, que te quieran bien”.\n\nEsta campaña busca detener de una vez el maltrato contra la mujer y para eso, concientizar sobre la importancia de denunciar estos casos. Y es que las cifras son preocupantes. Cada hora se denuncian 17 casos de violencia contra la mujer y en total los Centros de Emergencia de la Mujer (CEM) y el MIMP atendieron en un año a más de 36 mil denuncias de las cuales 7 mil eran de niñas y adolescentes menores de 17 años. Un abuso.\n\nSi eres testigo o víctima de algún tipo de violencia ya sea física, psicológica o sexual debes llamar gratuitamente a la línea 100 desde un teléfono fijo o celular.\n\nDisponível em: http://napa.com.pe. Acesso em: 14 fev. 2012 (adaptado)."
+    }
+  },
+  "2015-94-ingles": {
+    "originalSha256": "aa4538d4379f43cc079cbbfb8331e250aab157d6018964126a6ddbc4a4891a56",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 3,
+    "reason": "Remove with inserido indevidamente no primeiro parágrafo e restaura hot-air conforme o caderno oficial.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "**How fake images change our memory and behaviour**\n\nFor decades, researchers have been exploring just how unreliable our own memories are. Not only is memory fickle when we access it, but it’s also quite easily subverted and rewritten. Combine this susceptibility with modern image-editing software at our fingertips like Photoshop, and it’s a recipe for disaster. In a world where we can witness news and world events as they unfold, fake images surround us, and our minds accept these pictures as real, and remember them later. These fake memories don’t just distort how we see our past, they affect our current and future behaviour too – from what we eat, to how we protest and vote. The problem is there’s virtually nothing we can do to stop it.\n\nOld memories seem to be the easiest to manipulate. In one study, subjects were showed images from their childhood. Along with real images, researchers snuck in manipulated photographs of the subject taking a hot-air balloon ride with his or her family. After seeing those images, 50% of subjects recalled some part of that hot-air balloon ride – though the event was entirely made up.\n\nEVELETH, R. Disponível em: www.bbc.com. Acesso em: 16 jan. 2013 (adaptado)."
+    }
+  },
+  "2015-94-espanhol": {
+    "originalSha256": "3251a8aec71a4a1dab4bfb823ee3b153c46ffd1d8219269cf9cdfd9e58998d29",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura sosiego, transcrito com um s extra na API; preserva etnías do texto oficial.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "**Atitlán**\n\nEl lago Atitlán está situado en el centro de América, en Guatemala. Su belleza es extraordinaria y tiene un gran interés social. En sus márgenes conviven tres culturas: la indígena, la española y la mestiza. Presididos por tres majestuosos volcanes (el Atitlán, el Tolimán y el San Pedro), trece pueblos bordean el lago. Los habitantes del lago son en su mayoría indígenas, aunque crece el porcentaje de ladinos (mestizos). Un buen número de extranjeros – misioneros o investigadores – comparte en los pueblitos la forma de vida de los nativos. A partir de los años setenta, numerosas colonias de hippies se asientan en Atitlán. Jóvenes de todo el mundo, atraídos por el paisaje, el clima semitropical y la sencillez de la vida de los indios, acampan cerca del lago. Además, muchos comerciantes guatemaltecos y extranjeros se han instalado en el pueblo de Panajachel para establecer diversos negocios hoteleros, deportivos y artesanales. A cada día el lago Atitlán atrae a sus costas a más turistas y científicos. Unos llegan buscando sosiego ante el espejismo del lago; otros van a mezclarse con los orgullosos y apacibles indígenas en iglesias y mercados; muchos atraviesan el lago para recorrer los diferentes pueblos y para recrearse en la variada indumentaria de sus habitantes; otros estudian las diferentes lenguas y dialectos que se hablan en la zona y muchos investigan con pasión la rica fauna del lago y de las tierras volcánicas. Realmente, es impresionante la convivencia de tantas etnías y culturas. En el corazón de América hay un lago y unos volcanes que son símbolo y reflejo de lo que es Hispanoamérica: un mosaico de culturas y un ejemplo de convivencia.\n\nSUÁREZ, M.; PICO DE COAÑA, M. **Sobre iberoamérica**. Madrid: Ediciones SM, 1998."
+    }
+  },
+  "2015-110": {
+    "originalSha256": "7bd18c5c3b6cec917e974f423697c3141d758cbf7e1a25215b30b4422306ff52",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura Mali na legenda da máscara, corrompido como Mati na API.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "![](https://enem.dev/2015/questions/110/6af2efde-090f-48a8-9837-8c09cf6f3a49.png)\n\n**Máscara senufo**, Mali. Madeira e fibra vegetal. Acervo do MAE/USP.\n\nAs formas plásticas nas produções africanas conduziram artistas modernos do início do século XX, como Pablo Picasso, a algumas proposições artísticas denominadas vanguardas."
+    }
+  },
+  "2015-126": {
+    "originalSha256": "48f860068abbe439c15f283ec810e5562dfd502add53bb36d2428ca0f7dcad2c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 16,
+    "reason": "Restaura a posição do acento em cláudio conforme a reprodução do poema, preservando as quebras internas de palavras.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "**Casa dos Contos**\n\n& em cada conto te cont  \no & em cada enquanto me enca  \nnto & em cada arco te a  \nbarco & em cada porta m  \ne perco & em cada lanço t  \ne alcanço & em cada escad  \na me escapo & em cada pe  \ndra te prendo & em cada g  \nrade me escravo & em ca  \nda sótão te sonho & em cada  \nesconso me affonso & em  \ncada cláudio te canto & e  \nm cada fosso me enforco &\n\nÁVILA, A. **Discurso da difamação do poeta**. São Paulo: Summus, 1978."
+    }
+  },
+  "2015-133": {
+    "originalSha256": "e2f9e8150a027e3dfa0e914aa750e280a03886e27a80f58b3dbe310e3feadff0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 18,
+    "reason": "Restaura a oração sobre as crianças romanas, omitida entre treinamento militar e imitações reduzidas na API.",
+    "reviewedAt": "2026-10-18T07:16:52.910Z",
+    "fields": {
+      "context": "Riscar o chão para sair pulando é uma brincadeira que vem dos tempos do Império Romano. A amarelinha original tinha mais de cem metros e era usada como treinamento militar. As crianças romanas, então, fizeram imitações reduzidas do campo utilizado pelos soldados e acrescentaram numeração nos quadrados que deveriam ser pulados. Hoje as amarelinhas variam nos formatos geométricos e na quantidade de casas. As palavras “céu” e “inferno” podem ser escritas no começo e no final do desenho, que é marcado no chão com giz, tinta ou graveto.\n\nDisponível em: www.biblioteca.ajes.edu.br. Acesso em: 20 maio 2015 (adaptado)."
+    }
+  },
+  "2015-5": {
+    "originalSha256": "811a8821e800200b5b36ec9a2f17e7a751c43d4df14a09ca96a6fa624a3854c3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura camponesas na alternativa A e pontuação da referência, conforme caderno oficial.",
+    "reviewedAt": "2026-10-22T00:51:33.214Z",
+    "fields": {
+      "context": "A casa de Deus, que acreditam una, está, portanto, dividida em três: uns oram, outros combatem, outros, enfim, trabalham. Essas três partes que coexistem não suportam ser separadas; os serviços prestados por uma são a condição das obras das outras duas; cada uma por sua vez encarrega-se de aliviar o conjunto… Assim a lei pode triunfar e o mundo gozar da paz.\n\nALDALBERON DE LAON. In: SPINOSA, F. **Antologia de textos históricos medievais**. Lisboa: Sá da Costa, 1981.",
+      "alternativeTexts": {
+        "A": "Justificar a dominação estamental / revoltas camponesas."
+      }
+    }
+  },
+  "2015-6": {
+    "originalSha256": "394e474a8d2d486b1f8fb7a84e58316aab15d6cfbd9a01098583c3470ceac5bf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura o nome GÂNDAVO e as iniciais/pontuação da referência bibliográfica.",
+    "reviewedAt": "2026-10-22T00:51:33.219Z",
+    "fields": {
+      "context": "A língua de que usam, por toda a costa, carece de três letras; convém a saber, não se acha nela F, nem L, nem R, coisa digna de espanto, porque assim não têm Fé, nem Lei, nem Rei, e dessa maneira vivem desordenadamente, sem terem além disto conta, nem peso, nem medida.\n\nGÂNDAVO, P. M. **A primeira história do Brasil**: história da província de Santa Cruz a que vulgarmente chamamos Brasil. Rio de Janeiro: Zahar, 2004 (adaptado)."
+    }
+  },
+  "2015-9": {
+    "originalSha256": "bd62ce483ecb7419860233d00baa8c2415b5e5b643199a087eb69434fa11d7bf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura acentuação de magnífico e caixa de áfricas no poema, preservando blue e Rumo como impressos.",
+    "reviewedAt": "2026-10-22T00:51:33.219Z",
+    "fields": {
+      "context": "**Voz do sangue**\n\nPalpitam-me  \nos sons do batuque  \ne os ritmos melancólicos do blue.\n\nÓ negro esfarrapado  \ndo Harlem  \nó dançarino de Chicago  \nó negro servidor do South\n\nÓ negro da África  \nnegros de todo o mundo\n\nEu junto  \nao vosso magnífico canto  \na minha pobre voz  \nos meus humildes ritmos.\n\nEu vos acompanho  \npelas emaranhadas áfricas  \ndo nosso Rumo.\n\nEu vos sinto  \nnegros de todo o mundo  \neu vivo a nossa história  \nmeus irmãos.\n\nDisponível em: www.agostinhoneto.org. Acesso em: 30 jun. 2015."
+    }
+  },
+  "2015-10": {
+    "originalSha256": "0a90a2a460529f258de5725412871f9a9c04ca8fc82ceaad82914d7c98fabea8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura iniciais, grafia europeia e abreviação fev. da referência. Mantém Revista do LEB, que consta no próprio caderno oficial.",
+    "reviewedAt": "2026-10-22T00:51:33.219Z",
+    "fields": {
+      "context": "Iniciou-se em 1903 a introdução de obras de arte com representações de bandeirantes no acervo do Museu Paulista, mediante a aquisição de uma tela que homenageava o sertanista que comandara a destruição do Quilombo de Palmares. Essa aquisição, viabilizada por verba estadual, foi simultânea à emergência de uma interpretação histórica que apontava o fenômeno do sertanismo paulista como o elo decisivo entre a trajetória territorial do Brasil e de São Paulo, concepção essa que se consolidaria entre os historiadores ligados ao Instituto Histórico e Geográfico de São Paulo ao longo das três primeiras décadas do século XX.\n\nMARINS, P. C. G. Nas matas com pose de reis: a representação de bandeirantes e a tradição da retratística monárquica europeia. **Revista do LEB**, n. 44, fev. 2007."
+    }
+  },
+  "2015-14": {
+    "originalSha256": "ce46ff243de84da80bdcad66555112db704d7dfe8c7d573bc6d4d58cbd2f42ff",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura a vírgula após sido e a pontuação da editora na referência oficial.",
+    "reviewedAt": "2026-10-22T00:51:33.219Z",
+    "fields": {
+      "context": "Em sociedade de origens tão nitidamente personalistas como a nossa, é compreensível que os simples vínculos de pessoa a pessoa, independentes e até exclusivos de qualquer tendência para a cooperação autêntica entre os indivíduos, tenham sido quase sempre os mais decisivos. As agregações e relações pessoais, embora por vezes precárias, e, de outro lado, as lutas entre facções, entre famílias, entre regionalismos, faziam dela um todo incoerente e amorfo. O peculiar da vida brasileira parece ter sido, por essa época, uma acentuação singularmente enérgica do afetivo, do irracional, do passional e uma estagnação ou antes uma atrofia correspondente das qualidades ordenadoras, disciplinadoras, racionalizadoras.\n\nHOLANDA, S. B. **Raízes do Brasil**. São Paulo: Cia. das Letras, 1995."
+    }
+  },
+  "2015-16": {
+    "originalSha256": "8a4023203b3a31700ad017dc5da5ff91a2a67f559a917642e5ec564429e26bd3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura sentimentos no plural conforme texto oficial de Hume.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "context": "Todo o poder criativo da mente se reduz a nada mais do que a faculdade de compor, transpor, aumentar ou diminuir os materiais que nos fornecem os sentidos e a experiência. Quando pensamos em uma montanha de ouro, não fazemos mais do que juntar duas ideias consistentes, ouro e montanha, que já conhecíamos. Podemos conceber um cavalo virtuoso, porque somos capazes de conceber a virtude a partir de nossos próprios sentimentos, e podemos unir a isso a figura e a forma de um cavalo, animal que nos é familiar.\n\nHUME, D. **Investigação sobre o entendimento humano**. São Paulo: Abril Cultural, 1995."
+    }
+  },
+  "2015-20": {
+    "originalSha256": "d46d59274def7ba30af000466778af2ec39a8c65e31629be01b0ae674d3971e2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura o acento de socioeconômicas na alternativa A.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Supressão das diferenças socioeconômicas entre as regiões do Brasil, priorizando as regiões estaduais carentes."
+      }
+    }
+  },
+  "2015-35": {
+    "originalSha256": "015283f26038713cc1b36e60f0fcda50b1e38b09d8af077d170d3ed61f19015f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 12,
+    "reason": "Restaura cultural no comando, que havia sido importado como cultual.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "alternativesIntroduction": "A situação imaginária proposta pelo autor explicita o desafio cultural do(a)"
+    }
+  },
+  "2015-36": {
+    "originalSha256": "4a373545a50a6dbb9a111fa8b2d18ce3fd20f046e0439ea4e79fc1cc4eea2ae2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura imaturo na alternativa A, evitando a inversão causada pela perda do prefixo. Ajusta pontuação da referência conforme original.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "context": "![](https://enem.dev/2015/questions/36/c58775d8-65ba-4443-90d1-f95cc163488b.jpg)\n\nSCHWARCZ, L. M. **As barbas do imperador**: D. Pedro II, um monarca nos trópicos. São Paulo: Cia. das Letras, 1998 (adaptado).",
+      "alternativeTexts": {
+        "A": "Jovem imaturo que agiria de forma irresponsável."
+      }
+    }
+  },
+  "2015-37": {
+    "originalSha256": "659c1c4d81dce36e9d7db0d6b124172b280757bf71383d99f2cefa4bd1c49a09",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura a expressão divisão do trabalho na alternativa B.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Relação entre desenvolvimento urbano e divisão do trabalho."
+      }
+    }
+  },
+  "2015-42": {
+    "originalSha256": "e5124b0f2d61c3695a47b804e8446f1531371c181500496be1fc82181ea6436e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura públicos na alternativa correta e casamentos no plural na D, além do ponto final da referência.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "context": "Ninguém nasce mulher: torna-se mulher. Nenhum destino biológico, psíquico, econômico define a forma que a fêmea humana assume no seio da sociedade; é o conjunto da civilização que elabora esse produto intermediário entre o macho e o castrado que qualificam o feminino.\n\nBEAUVOIR, S. **O segundo sexo**. Rio de Janeiro: Nova Fronteira, 1980.",
+      "alternativeTexts": {
+        "C": "Organização de protestos públicos para garantir a igualdade de gênero.",
+        "D": "Oposição de grupos religiosos para impedir os casamentos homoafetivos."
+      }
+    }
+  },
+  "2015-43": {
+    "originalSha256": "bd6991095d20b136c6f60cf1a0d5acb25f81f65094e1b215e9de631e22757d07",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura crase em à sua disposição e pontuação da referência bibliográfica.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "context": "Só num sentido muito restrito, o indivíduo cria com seus próprios recursos o modo de falar e de pensar que lhe são atribuídos. Fala o idioma de seu grupo; pensa à maneira de seu grupo. Encontra à sua disposição apenas determinadas palavras e significados. Estas não só determinam, em grau considerável, as vias de acesso mental ao mundo circundante, mas também mostram, ao mesmo tempo, sob que ângulo e em que contexto de atividade os objetos foram até agora perceptíveis ao grupo ou ao indivíduo.\n\nMANNHEIM, K. **Ideologia e utopia**. Porto Alegre: Globo, 1950 (adaptado)."
+    }
+  },
+  "2015-44": {
+    "originalSha256": "cbdf9015b53479535969d80b11e69729edf7fe1c720e6b551520a37c1590683f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura acentuação de Disponível conforme caderno oficial.",
+    "reviewedAt": "2026-10-22T00:51:33.220Z",
+    "fields": {
+      "context": "A Unesco condenou a destruição da antiga capital assíria de Nimrod, no Iraque, pelo Estado Islâmico, com a agência da ONU considerando o ato como um crime de guerra. O grupo iniciou um processo de demolição em vários sítios arqueológicos em uma área reconhecida como um dos berços da civilização.\n\n**Unesco e especialistas condenam destruição de cidade assíria pelo Estado Islâmico**. Disponível em: http://oglobo.globo.com. Acesso em: 30 mar. 2015 (adaptado)."
+    }
+  },
+  "2015-46": {
+    "originalSha256": "94e04e8b8b400422f480f9ad5b281b6908f0ce4496dafcdbf6f9fc9ec7b9a5c9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar os índices de O₂ e HbO₂ do caderno oficial em notação matemática, preservando a figura e a referência.",
+    "reviewedAt": "2026-10-22T00:52:39.420Z",
+    "fields": {
+      "context": "Hipoxia ou mal das alturas consiste na diminuição de oxigênio (\\(\\mathrm{O_2}\\)) no sangue arterial do organismo. Por essa razão, muitos atletas apresentam mal-estar (dores de cabeça, tontura, falta de ar etc.) ao praticarem atividade física em altitudes elevadas. Nessas condições, ocorrerá uma diminuição na concentração de hemoglobina oxigenada (\\(\\mathrm{HbO_2}\\)) em equilíbrio no sangue, conforme a relação:\n\n![](https://enem.dev/2015/questions/46/be0a7ac3-da20-4e80-afe9-52a7f0062bcc.png)\n\n**Mal da montanha**. Disponível em: www.feng.pucrs.br. Acesso em: 11 fev. 2015 (adaptado)."
+    }
+  },
+  "2015-47": {
+    "originalSha256": "eb20b2199d3563a2e95878ccc00ec65480a073ddbcc8f0ec6f9bbfb65529b30b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar o enunciado integral ausente sobre o uso de corantes na indústria têxtil.",
+    "reviewedAt": "2026-10-22T00:52:39.429Z",
+    "fields": {
+      "context": "A indústria têxtil utiliza grande quantidade de corantes no processo de tingimento dos tecidos. O escurecimento das águas dos rios causado pelo despejo desses corantes pode desencadear uma série de problemas no ecossistema aquático."
+    }
+  },
+  "2015-50": {
+    "originalSha256": "9fedaca695efa73e56e623d49a72dbbf8be68d3b40fdd5bfb29499cdbf3df7cc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurar o parágrafo inicial e os expoentes da velocidade da luz e da conversão nanômetro–metro, mantendo os dois gráficos.",
+    "reviewedAt": "2026-10-22T00:52:39.429Z",
+    "fields": {
+      "context": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.\n\n![](https://enem.dev/2015/questions/50/8fe7b2bf-2b9e-45ce-b602-02f97af15325.png)\n\nPara selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares:\n\n![](https://enem.dev/2015/questions/50/e0f1ee0e-3b76-4274-b048-49cd8c8fc7ca.png)\n\nConsidere: velocidade da luz = \\(3{,}0\\times10^8\\,\\mathrm{m/s}\\) e \\(1\\,\\mathrm{nm}=1{,}0\\times10^{-9}\\,\\mathrm{m}\\)."
+    }
+  },
+  "2015-52": {
+    "originalSha256": "b804433d78d07ca0850de414971e1ccd74dfb5e13f8c57742421bb2221564da9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurar o contexto ausente que descreve a composição e a deliquescência da soda cáustica.",
+    "reviewedAt": "2026-10-22T00:52:39.430Z",
+    "fields": {
+      "context": "A soda cáustica pode ser usada no desentupimento de encanamentos domésticos e tem, em sua composição, o hidróxido de sódio como principal componente, além de algumas impurezas. A soda normalmente é comercializada na forma sólida, mas que apresenta aspecto “derretido” quando exposta ao ar por certo período."
+    }
+  },
+  "2015-55": {
+    "originalSha256": "21f543ebde92dc4ffa710e25cbd189e6a3bc1bf96405ce852d216e52b4d8176c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar o enunciado e todos os dados de concentração, volume e massas molares ausentes, com índices e carga do nitrato legíveis.",
+    "reviewedAt": "2026-10-22T00:52:39.430Z",
+    "fields": {
+      "context": "A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais. Suponha que um produtor de rúcula hidropônica precise ajustar a concentração do íon nitrato (\\(\\mathrm{NO_3^-}\\)) para \\(0{,}009\\,\\mathrm{mol/L}\\) em um tanque de 5 000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio \\(90\\,\\mathrm{g/L}\\). As massas molares dos elementos N, O e Ca são iguais a \\(14\\,\\mathrm{g/mol}\\), \\(16\\,\\mathrm{g/mol}\\) e \\(40\\,\\mathrm{g/mol}\\), respectivamente."
+    }
+  },
+  "2015-56": {
+    "originalSha256": "72cf587054ed8fa2f159895f0f1a9745ad682bc4b3561f67ba51fbcce725d2d6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Corrigir a acentuação de geográfico conforme a alternativa C do caderno oficial.",
+    "reviewedAt": "2026-10-22T00:52:39.431Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "Isolamento geográfico entre as raças."
+      }
+    }
+  },
+  "2015-59": {
+    "originalSha256": "fce41e4e0b2085ba3e98f692e097946bf78da2e0b97e0123d5141c66a52376ca",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar o parágrafo introdutório ausente que distingue os feromônios de trilha e alarme e identifica os compostos A e B.",
+    "reviewedAt": "2026-10-22T00:52:39.431Z",
+    "fields": {
+      "context": "Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie Apis mellifera, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.\n\n![](https://enem.dev/2015/questions/59/8782c1ff-fc00-4401-a984-cac653c6c3a2.png)"
+    }
+  },
+  "2015-60": {
+    "originalSha256": "2e7c3b1efc9cce099f36ba8865d198c469b929e3149b15954f32d5151e35010c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar o parágrafo ausente que define o oxidante, o alceno e a formação de ácidos carboxílicos; restaurar o índice do permanganato.",
+    "reviewedAt": "2026-10-22T00:52:39.431Z",
+    "fields": {
+      "context": "O permanganato de potássio (\\(\\mathrm{KMnO_4}\\)) é um agente oxidante forte muito empregado tanto em nível laboratorial quanto industrial. Na oxidação de alcenos de cadeia normal, como o 1-fenil-1-propeno, ilustrado na figura, o \\(\\mathrm{KMnO_4}\\) é utilizado para a produção de ácidos carboxílicos.\n\n![](https://enem.dev/2015/questions/60/93af8634-f0ad-42f2-950c-77604c549440.png)",
+      "alternativesIntroduction": "Os produtos obtidos na oxidação do alceno representado, em solução aquosa de \\(\\mathrm{KMnO_4}\\), são:"
+    }
+  },
+  "2015-61": {
+    "originalSha256": "db08c099ecd5d87dfe33140bad6b90b835ebe7538de4f73a179bf88309ccd192",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar o índice molecular do nitrogênio nas duas ocorrências do enunciado.",
+    "reviewedAt": "2026-10-22T00:52:39.431Z",
+    "fields": {
+      "context": "O nitrogênio é essencial para a vida e o maior reservatório global desse elemento, na forma de \\(\\mathrm{N_2}\\), é a atmosfera. Os principais responsáveis por sua incorporação na matéria orgânica são microrganismos fixadores de \\(\\mathrm{N_2}\\), que ocorrem de forma livre ou simbiontes com plantas.\n\nADUAN, R. E. et al. **Os grandes ciclos biogeoquímicos do planeta**. Planaltina: Embrapa, 2004 (adaptado)."
+    }
+  },
+  "2015-68": {
+    "originalSha256": "8385ef2f7570f239a7db86daa846d295af2fec32df2c838c2051741e3f6a93c6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar o contexto inicial ausente com os três aparelhos, as duas tomadas e o interruptor; preservar símbolos e esquemas.",
+    "reviewedAt": "2026-10-22T00:52:39.434Z",
+    "fields": {
+      "context": "Um estudante, precisando instalar um computador, um monitor e uma lâmpada em seu quarto, verificou que precisaria fazer a instalação de duas tomadas e um interruptor na rede elétrica. Decidiu esboçar com antecedência o esquema elétrico.\n\n“O circuito deve ser tal que as tomadas e a lâmpada devem estar submetidas à tensão nominal da rede elétrica e a lâmpada deve poder ser ligada ou desligada por um interruptor sem afetar os outros dispositivos” – pensou.\n\nSímbolos adotados:\n\n![](https://enem.dev/2015/questions/68/4f4ca8f0-ec3a-4332-9567-1633095f1fe6.png)"
+    }
+  },
+  "2015-69": {
+    "originalSha256": "a8b06e0323bdbdc2f24c689f835e3f38ea3fbcd90e76a2921ebfa3aebe8194aa",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar o parágrafo inicial ausente com os rendimentos teóricos de ATP usados na comparação; preservar o gráfico.",
+    "reviewedAt": "2026-10-22T00:52:39.434Z",
+    "fields": {
+      "context": "Normalmente, as células do organismo humano realizam a respiração aeróbica, na qual o consumo de uma molécula de glicose gera 38 moléculas de ATP. Contudo, em condições anaeróbicas, o consumo de uma molécula de glicose pelas células é capaz de gerar apenas duas moléculas de ATP.\n\n![](https://enem.dev/2015/questions/69/7e6fd44a-5d31-4cbb-a8be-7be6ac68fa7c.png)"
+    }
+  },
+  "2015-70": {
+    "originalSha256": "a2cf652d835236404c4f560c02b03b172cdacc586f7e8670bcdb1d710fe3c52a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar índices e símbolos das constantes elásticas e dos alcances, mantendo as condições físicas e valores do original.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Um garoto foi à loja comprar um estilingue e encontrou dois modelos: um com borracha mais “dura” e outro com borracha mais “mole”. O garoto concluiu que o mais adequado seria o que proporcionasse maior alcance horizontal, \\(D\\), para as mesmas condições de arremesso, quando submetidos à mesma força aplicada. Sabe-se que a constante elástica \\(k_d\\) (do estilingue mais “duro”) é o dobro da constante elástica \\(k_m\\) (do estilingue mais “mole”).",
+      "alternativesIntroduction": "A razão entre os alcances \\(D_d/D_m\\), referentes aos estilingues com borrachas “dura” e “mole”, respectivamente, é igual a"
+    }
+  },
+  "2015-71": {
+    "originalSha256": "528df45cc2411510928bb4e4e880b6235b11c1be746ad9b0359498ca6c087cf4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar o parágrafo inicial ausente e os expoentes das cinco alternativas; em B, o PDF oficial traz 5,0×10⁻⁵, enquanto a API perdeu o sinal negativo e o expoente.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d’água, como rios e lagos, podendo afetar o equilíbrio ambiental. Para neutralizar a acidez, o sal carbonato de cálcio pode ser adicionado ao efluente, em quantidades apropriadas, pois produz bicarbonato, que neutraliza a água. As equações envolvidas no processo são apresentadas:\n\n![](https://enem.dev/2015/questions/71/92259437-a0d4-4aef-89fb-239bfdf8d060.png)",
+      "alternativesIntroduction": "Com base nos valores das constantes de equilíbrio das reações II, III e IV a 25 °C, qual é o valor numérico da constante de equilíbrio da reação I?",
+      "alternativeTexts": {
+        "A": "\\(4{,}5\\times10^{-26}\\)",
+        "B": "\\(5{,}0\\times10^{-5}\\)",
+        "C": "\\(0{,}8\\times10^{-9}\\)",
+        "D": "\\(0{,}2\\times10^5\\)",
+        "E": "\\(2{,}2\\times10^{26}\\)"
+      }
+    }
+  },
+  "2015-73": {
+    "originalSha256": "d1fd5012258370c18c309c7d3b74a4a572e1602bc799b63655411c0c8dbb351a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar os números de massa dos isótopos nas cinco alternativas, sem alterar o poema original nem o conteúdo das opções.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Fissão do \\(^{235}\\mathrm{U}\\) ocorre liberação de grande quantidade de calor, que dá continuidade à reação.",
+        "B": "Fissão do \\(^{235}\\mathrm{U}\\) ocorre liberação de energia, que vai desintegrando o isótopo \\(^{238}\\mathrm{U}\\), enriquecendo-o em mais \\(^{235}\\mathrm{U}\\).",
+        "C": "Fissão do \\(^{235}\\mathrm{U}\\) ocorre uma liberação de nêutrons, que bombardearão outros núcleos.",
+        "D": "Fusão do \\(^{235}\\mathrm{U}\\) com \\(^{238}\\mathrm{U}\\) ocorre formação de neutrino, que bombardeará outros núcleos radioativos.",
+        "E": "Fusão do \\(^{235}\\mathrm{U}\\) com \\(^{238}\\mathrm{U}\\) ocorre formação de outros elementos radioativos mais pesados, que desencadeiam novos processos de fusão."
+      }
+    }
+  },
+  "2015-76": {
+    "originalSha256": "df2069d4cdabaa927034c21c6775c81c2bbdf5a1026dbb1e5aaca7339b26e8d7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar o parágrafo inicial, a pureza de 75%, o rendimento global de 80% e as duas reações omitidas; preservar os valores de massas molares.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização. Um metal bastante utilizado nesse processo é o zinco, que pode ser obtido a partir de um minério denominado esfalerita (\\(\\mathrm{ZnS}\\)), de pureza 75%. Considere que a conversão do minério em zinco metálico tem rendimento de 80% nesta sequência de equações químicas:\n\n\\[2\\mathrm{ZnS}+3\\mathrm{O_2}\\rightarrow2\\mathrm{ZnO}+2\\mathrm{SO_2}\\]\n\n\\[\\mathrm{ZnO}+\\mathrm{CO}\\rightarrow\\mathrm{Zn}+\\mathrm{CO_2}\\]\n\nConsidere as massas molares: \\(\\mathrm{ZnS}\\) (97 g/mol); \\(\\mathrm{O_2}\\) (32 g/mol); \\(\\mathrm{ZnO}\\) (81 g/mol); \\(\\mathrm{SO_2}\\) (64 g/mol); \\(\\mathrm{CO}\\) (28 g/mol); \\(\\mathrm{CO_2}\\) (44 g/mol); e \\(\\mathrm{Zn}\\) (65 g/mol)."
+    }
+  },
+  "2015-77": {
+    "originalSha256": "cb7f8b91246a13768e015d2422f70a082b03d5ade5af51983ecc96033d7928da",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o parágrafo introdutório ausente sobre a eletrossíntese de Kolbe, preservando o esquema original.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Hidrocarbonetos podem ser obtidos em laboratório por descarboxilação oxidativa anódica, processo conhecido como eletrossíntese de Kolbe. Essa reação é utilizada na síntese de hidrocarbonetos diversos, a partir de óleos vegetais, os quais podem ser empregados como fontes alternativas de energia, em substituição aos hidrocarbonetos fósseis. O esquema ilustra simplificadamente esse processo.\n\n![](https://enem.dev/2015/questions/77/2fec988d-d23e-404a-bcb4-f887791f9436.png)"
+    }
+  },
+  "2015-81": {
+    "originalSha256": "ff39651d57703ec1900af6bd07a0032a3d7c6937733f2b7ca069f5976fb84b2e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar o contexto ausente sobre a calda bordalesa e o teste da faca; restaurar cargas, estados físicos e setas das cinco alternativas sem modificar suas reações.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas. Sua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), \\(\\mathrm{CuSO_4}\\), com óxido de cálcio, \\(\\mathrm{CaO}\\), e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (\\(E^\\circ\\)) para algumas semirreações de redução.\n\n![](https://enem.dev/2015/questions/81/e6f057d4-c517-4cda-b491-a55987d5a8e8.png)",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{Ca^{2+}(aq)}+2\\mathrm{Cu^+(aq)}\\rightarrow\\mathrm{Ca(s)}+2\\mathrm{Cu^{2+}(aq)}\\).",
+        "B": "\\(\\mathrm{Ca^{2+}(aq)}+2\\mathrm{Fe^{2+}(aq)}\\rightarrow\\mathrm{Ca(s)}+2\\mathrm{Fe^{3+}(aq)}\\).",
+        "C": "\\(\\mathrm{Cu^{2+}(aq)}+2\\mathrm{Fe^{2+}(aq)}\\rightarrow\\mathrm{Cu(s)}+2\\mathrm{Fe^{3+}(aq)}\\).",
+        "D": "\\(3\\mathrm{Ca^{2+}(aq)}+2\\mathrm{Fe(s)}\\rightarrow3\\mathrm{Ca(s)}+2\\mathrm{Fe^{3+}(aq)}\\).",
+        "E": "\\(3\\mathrm{Cu^{2+}(aq)}+2\\mathrm{Fe(s)}\\rightarrow3\\mathrm{Cu(s)}+2\\mathrm{Fe^{3+}(aq)}\\)."
+      }
+    }
+  },
+  "2015-82": {
+    "originalSha256": "127ae2a05fca68c5a452dfe1f54ac62715120c87eb8dc99d8e9492fb28a450da",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar o contexto ausente que informa barra homogênea dividida em oito partes e a montagem do experimento.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Em um experimento, um professor levou para a sala de aula um saco de arroz, um pedaço de madeira triangular e uma barra de ferro cilíndrica e homogênea. Ele propôs que fizessem a medição da massa da barra utilizando esses objetos. Para isso, os alunos fizeram marcações na barra, dividindo-a em oito partes iguais, e em seguida apoiaram-na sobre a base triangular, com o saco de arroz pendurado em uma de suas extremidades, até atingir a situação de equilíbrio.\n\n![](https://enem.dev/2015/questions/82/2770dcce-7280-4fcb-8da9-0ef2e43f53b7.png)"
+    }
+  },
+  "2015-85": {
+    "originalSha256": "6870a1b4c38693fcc57baa746a648ec38d1ace6425f7ad0be1819914b1fb8b67",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar o parágrafo ausente sobre Alhazen, a câmara escura e o tecido usado como anteparo; preservar a ilustração.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Entre os anos de 1028 e 1038, Alhazen (Ibn al-Haytham; 965-1040 d.C.) escreveu sua principal obra, o Livro da Óptica, que, com base em experimentos, explicava o funcionamento da visão e outros aspectos da ótica, por exemplo, o funcionamento da câmara escura. O livro foi traduzido e incorporado aos conhecimentos científicos ocidentais pelos europeus. Na figura, retirada dessa obra, é representada a imagem invertida de edificações em um tecido utilizado como anteparo.\n\n![](https://enem.dev/2015/questions/85/13f729c5-e019-4d2e-84aa-3d1e97532799.png)"
+    }
+  },
+  "2015-88": {
+    "originalSha256": "caf276ff4e113393ca1a3ca5039bda44f0e03cb0b8cffddb433bbb80aea86c33",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurar a pontuação final do parágrafo e remover a duplicação de do no comando, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "Para obter a posição de um telefone celular, a polícia baseia-se em informações do tempo de resposta do aparelho em relação às torres de celular da região de onde se originou a ligação. Em uma região, um aparelho está na área de cobertura de cinco torres, conforme o esquema.\n\n![](https://enem.dev/2015/questions/88/41de70f3-3c43-42f4-970f-c323104c18f5.png)",
+      "alternativesIntroduction": "Considerando que as torres e o celular são puntiformes e que estão sobre um mesmo plano, qual o número mínimo de torres necessárias para se localizar a posição do telefone celular que originou a ligação?"
+    }
+  },
+  "2015-90": {
+    "originalSha256": "1c21855f687e9ef7b486a5c72730a4bb48866867884a7253f0535eb3259ed1fe",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar o parágrafo inicial omitido que define as duas rotas para obtenção de ácido adípico, preservando o esquema.",
+    "reviewedAt": "2026-10-22T00:52:39.435Z",
+    "fields": {
+      "context": "A química verde permite o desenvolvimento tecnológico com danos reduzidos ao meio ambiente, e encontrar rotas limpas tem sido um grande desafio. Considere duas rotas diferentes utilizadas para a obtenção de ácido adípico, um insumo muito importante para a indústria têxtil e de plastificantes.\n\n![](https://enem.dev/2015/questions/90/b6d74701-5284-49ba-b450-a9600fdc18d9.png)"
+    }
+  },
+  "2015-136": {
+    "originalSha256": "aa4de9f7d6f0ddd96520fb8119bedd082d425160ad41c7005d09c9e0363a0d24",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um investidor inicia um dia com \\(x\\) ações de uma empresa. No decorrer desse dia, ele efetua apenas dois tipos de operações, comprar ou vender ações. Para realizar essas operações, ele segue estes critérios:\n\nI. vende metade das ações que possui, assim que seu valor fica acima do valor ideal (\\(V_i\\));\n\nII. compra a mesma quantidade de ações que possui, assim que seu valor fica abaixo do valor mínimo (\\(V_m\\));\n\nIII. vende todas as ações que possui, quando seu valor fica acima do valor ótimo (\\(V_o\\)).\n\nO gráfico apresenta o período de operações e a variação do valor de cada ação, em reais, no decorrer daquele dia e a indicação dos valores ideal, mínimo e ótimo.\n\n![](/assets/questions/2015/136/84935bca-6121-4afe-b517-3d0bce9ed500.png)"
+    }
+  },
+  "2015-137": {
+    "originalSha256": "d9529ccfe1cfb98ef7371bc7cebb87ddc80d43822eee54fe404753c450dc92dd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O tampo de vidro de uma mesa quebrou-se e deverá ser substituído por outro que tenha a forma de círculo. O suporte de apoio da mesa tem o formato de um prisma reto, de base em forma de triângulo equilátero com lados medindo 30 cm.\n\nUma loja comercializa cinco tipos de tampos de vidro circulares com cortes já padronizados, cujos raios medem 18 cm, 26 cm, 30 cm, 35 cm e 60 cm. O proprietário da mesa deseja adquirir nessa loja o tampo de menor diâmetro que seja suficiente para cobrir a base superior do suporte da mesa.\n\nConsidere 1,7 como aproximação para √3."
+    }
+  },
+  "2015-138": {
+    "originalSha256": "a7234c4d79840b876d9751a417496112a2ba1f63cb080ef84e3cafdea000bfb4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Atualmente existem diversas locadoras de veículos, permitindo uma concorrência saudável para o mercado, fazendo com que os preços se tornem acessíveis.\n\nNas locadoras P e Q, o valor da diária de seus carros depende da distância percorrida, conforme o gráfico.\n\n![](/assets/questions/2015/138/386a223a-c3a3-4465-9197-ec9ac1d2fc9d.png)\n\nDisponível em: www.sempretops.com. Acesso em: 7 ago. 2012."
+    }
+  },
+  "2015-139": {
+    "originalSha256": "e7d0e1d23cf76a1baa5bd0074c6868a5641f5cf8e1a85ed6c91183cab06bae2a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "No contexto da matemática recreativa, utilizando diversos materiais didáticos para motivar seus alunos, uma professora organizou um jogo com um tipo de baralho modificado. No início do jogo, vira-se uma carta do baralho na mesa e cada jogador recebe em mãos nove cartas. Deseja-se formar pares de cartas, sendo a primeira carta a da mesa e a segunda, uma carta na mão do jogador, que tenha um valor equivalente àquele descrito na carta da mesa. O objetivo do jogo é verificar qual jogador consegue o maior número de pares. Iniciado o jogo, a carta virada na mesa e as cartas da mão de um jogador são como no esquema:\n\n![](/assets/questions/2015/139/84f82cb3-3bd8-4fa1-8795-652c0c91fa30.png)"
+    }
+  },
+  "2015-140": {
+    "originalSha256": "04bbe76801dcc219f500c9352cc2aa5679e4aa52a7acc83ba9983524b56a17b0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma pesquisa de mercado foi realizada entre os consumidores das classes sociais A, B, C e D que costumam participar de promoções tipo sorteio ou concurso. Os dados comparativos, expressos no gráfico, revelam a participação desses consumidores em cinco categorias: via Correios (juntando embalagens ou recortando códigos de barra), via internet (cadastrando-se no site da empresa/marca promotora), via mídias sociais (redes sociais), via SMS (mensagem por celular) ou via rádio/TV.\n\n![](/assets/questions/2015/140/b83a0d54-9959-4218-96b9-3b44ec7d745e.png)\n\nUma empresa vai lançar uma promoção utilizando apenas uma categoria nas classes A e B (A/B) e uma categoria nas classes C e D (C/D)."
+    }
+  },
+  "2015-141": {
+    "originalSha256": "f12e85ff418177eaa040b9cca92bedb2b5c0c90cc65b2628aa4abb2169c10664",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma fábrica de sorvetes utiliza embalagens plásticas no formato de paralelepípedo retangular reto. Internamente, a embalagem tem 10 cm de altura e base de 20 cm por 10 cm. No processo de confecção do sorvete, uma mistura é colocada na embalagem no estado líquido e, quando levada ao congelador, tem seu volume aumentado em 25%, ficando com consistência cremosa.\n\nInicialmente é colocada na embalagem uma mistura sabor chocolate com volume de \\(1\\,000\\text{ cm}^3\\) e, após essa mistura ficar cremosa, será adicionada uma mistura sabor morango, de modo que, ao final do processo de congelamento, a embalagem fique completamente preenchida com sorvete, sem transbordar."
+    }
+  },
+  "2015-142": {
+    "originalSha256": "516b6cd0c74d99d311458d414018db4565c93c137504638bb1b8d859948a72a6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em uma central de atendimento, cem pessoas receberam senhas numeradas de 1 até 100. Uma das senhas é sorteada ao acaso."
+    }
+  },
+  "2015-143": {
+    "originalSha256": "baee9313509902b4b47ba9879270c7285d17e9090d924e1a482c45b566a739af",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em uma seletiva para a final dos 100 metros livres de natação, numa olimpíada, os atletas, em suas respectivas raias, obtiveram os seguintes tempos:\n\n![](/assets/questions/2015/143/782cd653-e43f-4da4-9a86-bce130429805.png)"
+    }
+  },
+  "2015-144": {
+    "originalSha256": "80963e7837cac664006916d7a76477a1e50da02338b161491054a61c646ddbbb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas. Corrigida a grafia de executadas no comando.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O Esquema I mostra a configuração de uma quadra de basquete. Os trapézios em cinza, chamados de garrafões, correspondem a áreas restritivas.\n\n![](/assets/questions/2015/144/4b656609-56fc-45a4-8e34-a4c7e0bb8513.png)\n\nVisando atender as orientações do Comitê Central da Federação Internacional de Basquete (Fiba) em 2010, que unificou as marcações das diversas ligas, foi prevista uma modificação nos garrafões das quadras, que passariam a ser retângulos, como mostra o Esquema II.\n\n![](/assets/questions/2015/144/c4aff79b-17b7-4a0e-86ce-a00808954ddc.png)",
+      "alternativesIntroduction": "Após executadas as modificações previstas, houve uma alteração na área ocupada por cada garrafão, que corresponde a um(a)"
+    }
+  },
+  "2015-146": {
+    "originalSha256": "16a5c259443b6be86ccfce9fcf9b6ceb18474461bd5b3c85e058c502e4447c40",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para resolver o problema de abastecimento de água foi decidida, numa reunião do condomínio, a construção de uma nova cisterna. A cisterna atual tem formato cilíndrico, com 3 m de altura e 2 m de diâmetro, e estimou-se que a nova cisterna deverá comportar \\(81\\text{ m}^3\\) de água, mantendo o formato cilíndrico e a altura da atual. Após a inauguração da nova cisterna a antiga será desativada. Utilize 3,0 como aproximação para \\(\\pi\\)."
+    }
+  },
+  "2015-147": {
+    "originalSha256": "b26043dc97e98027238194fc7224e9532259a09a224143f6e54a00df8704d419",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Numa cidade, cinco escolas de samba (I, II, III, IV e V) participaram do desfile de Carnaval. Quatro quesitos são julgados, cada um por dois jurados, que podem atribuir somente uma dentre as notas 6, 7, 8, 9 ou 10. A campeã será a escola que obtiver maior pontuação na soma de todas as notas emitidas. Em caso de empate, a campeã será a que alcançar a maior soma das notas atribuídas pelos jurados no quesito Enredo e Harmonia. A tabela mostra as notas do desfile desse ano no momento em que faltava somente a divulgação das notas do jurado B no quesito Bateria.\n\n![](/assets/questions/2015/147/09fe1110-3444-4a3d-b60c-d86c6f3d705a.png)"
+    }
+  },
+  "2015-148": {
+    "originalSha256": "8891d3890ff09a5a822c8fe31fccdd96ff13f1207ce3d8f42f5d7582e945e5ec",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma carga de 100 contêineres, idênticos ao modelo apresentado na Figura 1, deverá ser descarregada no porto de uma cidade. Para isso, uma área retangular de 10 m por 32 m foi cedida para o empilhamento desses contêineres (Figura 2).\n\n![](/assets/questions/2015/148/971eb9cd-abf9-48be-994d-d1e0f2bdcc60.png)\n\nDe acordo com as normas desse porto, os contêineres deverão ser empilhados de forma a não sobrarem espaços nem ultrapassarem a área delimitada"
+    }
+  },
+  "2015-149": {
+    "originalSha256": "984b06592a3a19f68acdf201f0d0dc5e977857568282b0eb2725a2cee01e6f5a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para o modelo de um troféu foi escolhido um poliedro \\(P\\), obtido a partir de cortes nos vértices de um cubo. Com um corte plano em cada um dos cantos do cubo, retira-se o canto, que é um tetraedro de arestas menores do que metade da aresta do cubo. Cada face do poliedro \\(P\\), então, é pintada usando uma cor distinta das demais faces."
+    }
+  },
+  "2015-150": {
+    "originalSha256": "22b13f23ec97a37b24457a9a43ec710b92c8ef2110ebd354082897f25ae512bf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma padaria vende, em média, 100 pães especiais por dia e arrecada com essas vendas, em média, R$ 300,00. Constatou-se que a quantidade de pães especiais vendidos diariamente aumenta, caso o preço seja reduzido, de acordo com a equação\n\n\\(q=400-100p\\),\n\nna qual _q_ representa a quantidade de pães especiais vendidos diariamente e _p_, o seu preço em reais.\n\nA fim de aumentar o fluxo de clientes, o gerente da padaria decidiu fazer uma promoção. Para tanto, modificará o preço do pão especial de modo que a quantidade a ser vendida diariamente seja a maior possível, sem diminuir a média de arrecadação diária na venda desse produto."
+    }
+  },
+  "2015-151": {
+    "originalSha256": "6efce2c759f67c9aa36619ec19d580ea1568f1839006415b334d861accaac81e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O HPV é uma doença sexualmente transmissível. Uma vacina com eficácia de 98% foi criada com o objetivo de prevenir a infecção por HPV e, dessa forma, reduzir o número de pessoas que venham a desenvolver câncer de colo de útero. Uma campanha de vacinação foi lançada em 2014 pelo SUS, para um público-alvo de meninas de 11 a 13 anos de idade. Considera-se que, em uma população não vacinada, o HPV acomete 50% desse público ao longo de suas vidas. Em certo município, a equipe coordenadora da campanha decidiu vacinar meninas entre 11 e 13 anos de idade em quantidade suficiente para que a probabilidade de uma menina nessa faixa etária, escolhida ao acaso, vir a desenvolver essa doença seja, no máximo, de 5,9%. Houve cinco propostas de cobertura, de modo a atingir essa meta:\n\nProposta I: vacinação de 90% do público-alvo.\n\nProposta II: vacinação de 55,8% do público-alvo.\n\nProposta III: vacinação de 88,2% do público-alvo.\n\nProposta IV: vacinação de 49% do público-alvo.\n\nProposta V: vacinação de 95,9% do público-alvo.\n\nPara diminuir os custos, a proposta escolhida deveria ser também aquela que vacinasse a menor quantidade possível de pessoas.\n\nDisponível em: www.virushpv.com.br. Acesso em: 30 ago. 2014 (adaptado)."
+    }
+  },
+  "2015-152": {
+    "originalSha256": "38e528760695607f3907b462325b6bf520b52afc89122ffa29ad81196dad9133",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas. Restaurados também os expoentes das cinco alternativas conforme a impressão original.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O acréscimo de tecnologias no sistema produtivo industrial tem por objetivo reduzir custos e aumentar a produtividade. No primeiro ano de funcionamento, uma indústria fabricou 8 000 unidades de um determinado produto. No ano seguinte, investiu em tecnologia adquirindo novas máquinas e aumentou a produção em 50%. Estima-se que esse aumento percentual se repita nos próximos anos, garantindo um crescimento anual de 50%. Considere \\(P\\) a quantidade anual de produtos fabricados no ano \\(t\\) de funcionamento da indústria.",
+      "alternativeTexts": {
+        "A": "\\(P(t)=0{,}5\\cdot t^{-1}+8\\,000\\)",
+        "B": "\\(P(t)=50\\cdot t^{-1}+8\\,000\\)",
+        "C": "\\(P(t)=4\\,000\\cdot t^{-1}+8\\,000\\)",
+        "D": "\\(P(t)=8\\,000\\cdot(0{,}5)^{t-1}\\)",
+        "E": "\\(P(t)=8\\,000\\cdot(1{,}5)^{t-1}\\)"
+      }
+    }
+  },
+  "2015-153": {
+    "originalSha256": "5f2cb8f6ce51cec5e1e320a69e16220de568fcabbe686d6150df408b0444ef7c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para uma alimentação saudável, recomenda-se ingerir, em relação ao total de calorias diárias, 60% de carboidratos, 10% de proteínas e 30% de gorduras. Uma nutricionista, para melhorar a visualização dessas porcentagens, quer dispor esses dados em um polígono. Ela pode fazer isso em um triângulo equilátero, um losango, um pentágono regular, um hexágono regular ou um octógono regular, desde que o polígono seja dividido em regiões cujas áreas sejam proporcionais às porcentagens mencionadas. Ela desenhou as seguintes figuras:\n\n![](/assets/questions/2015/153/867b7f6a-c261-459f-b335-19447fabfce0.png)"
+    }
+  },
+  "2015-154": {
+    "originalSha256": "e6a252b22b1e1d88e4d1822c5e7fcd1c42b335f47c1cf2c29ad276e9dcd5c7a3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação \\(y=\\log(x)\\), conforme a figura.\n\n![](/assets/questions/2015/154/65c7dd7a-2e17-4352-a584-ed42ea5b0559.png)\n\nA forma do vidro foi concebida de modo que o eixo _x_ sempre divida ao meio a altura _h_ do vidro e a base do vidro seja paralela ao eixo _x_. Obedecendo a essas condições, o engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida _n_ de sua base, em metros."
+    }
+  },
+  "2015-155": {
+    "originalSha256": "4770a072f5c901d619df2367152feaeedefb19e64a7145a8849994690eb42cac",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma empresa de telefonia celular possui duas antenas que serão substituídas por uma nova, mais potente. As áreas de cobertura das antenas que serão substituídas são círculos de raio 2 km, cujas circunferências se tangenciam no ponto O, como mostra a figura.\n\n![](/assets/questions/2015/155/b5b18afc-ec22-42af-9b29-474d822405e7.png)\n\nO ponto _O_ indica a posição da nova antena, e sua região de cobertura será um círculo cuja circunferência tangenciará externamente as circunferências das áreas de cobertura menores."
+    }
+  },
+  "2015-156": {
+    "originalSha256": "6315b04ffa4e0158363416bd421a466624a799c39bef5820a1afd44bbb073d29",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um casal realiza um financiamento imobiliário de R$ 180 000,00, a ser pago em 360 prestações mensais, com taxa de juros efetiva de 1% ao mês. A primeira prestação é paga um mês após a liberação dos recursos e o valor da prestação mensal é de R$ 500,00 mais juro de 1% sobre o saldo devedor (valor devido antes do pagamento). Observe que, a cada pagamento, o saldo devedor se reduz em R$ 500,00 e considere que não há prestação em atraso."
+    }
+  },
+  "2015-157": {
+    "originalSha256": "dd5c93208c587179108465b0796acaa90141c3ee629b320cabead27957adf8a2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurados os expoentes das potências de dez nas cinco alternativas; a importação achatou a notação científica. Valores conferidos no caderno oficial.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(4{,}129\\times10^{3}\\)",
+        "B": "\\(4{,}129\\times10^{6}\\)",
+        "C": "\\(4{,}129\\times10^{9}\\)",
+        "D": "\\(4{,}129\\times10^{12}\\)",
+        "E": "\\(4{,}129\\times10^{15}\\)"
+      }
+    }
+  },
+  "2015-158": {
+    "originalSha256": "662a847e95bae520084b2a0be7e02033ae3f742ee5682158b3f8a784d2f516f8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A expressão “Fórmula de Young” é utilizada para calcular a dose infantil de um medicamento, dada a dose do adulto:\n\n![](/assets/questions/2015/158/502bd419-a7b2-413c-92e6-01c5fee8ad38.png)\n\nUma enfermeira deve administrar um medicamento X a uma criança inconsciente, cuja dosagem de adulto é de 60 mg. A enfermeira não consegue descobrir onde está registrada a idade da criança no prontuário, mas identifica que, algumas horas antes, foi administrada a ela uma dose de 14 mg de um medicamento Y, cuja dosagem de adulto é 42 mg. Sabe-se que a dose da medicação Y administrada à criança estava correta."
+    }
+  },
+  "2015-160": {
+    "originalSha256": "a6b174a6f20b043fc7bc412081fe44ac05c85960fba639545e7a50ed958db7b0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um pesquisador, ao explorar uma floresta, fotografou uma caneta de 16,8 cm de comprimento ao lado de uma pegada. O comprimento da caneta (\\(c\\)), a largura (\\(L\\)) e o comprimento (\\(C\\)) da pegada, na fotografia, estão indicados no esquema.\n\n![](/assets/questions/2015/160/1efe6cb5-d767-4175-b0c3-39e98266f7cd.png)"
+    }
+  },
+  "2015-161": {
+    "originalSha256": "448e23d392ec9e74c79fb56a5406c882a47c0115be413745ffa8d8c5ecc56a09",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma indústria produz malhas de proteção solar para serem aplicadas em vidros, de modo a diminuir a passagem de luz, a partir de fitas plásticas entrelaçadas perpendicularmente. Nas direções vertical e horizontal, são aplicadas fitas de 1 milímetro de largura, tal que a distância entre elas é de \\((d-1)\\) milímetros, conforme a figura. O material utilizado não permite a passagem da luz, ou seja, somente o raio de luz que atingir as lacunas deixadas pelo entrelaçamento consegue transpor essa proteção.\n\nA taxa de cobertura do vidro é o percentual da área da região coberta pelas fitas da malha, que são colocadas paralelamente às bordas do vidro.\n\n![](/assets/questions/2015/161/f840c071-3522-4f1a-986f-6456acba44c9.png)\n\nEssa indústria recebeu a encomenda de uma malha de proteção solar para ser aplicada em um vidro retangular de 5 m de largura por 9 m de comprimento."
+    }
+  },
+  "2015-162": {
+    "originalSha256": "a7adb268f78ab692a66e06d59aead4e3cc12f3c4524f31013dd6879f6d21ec2f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um arquiteto está reformando uma casa. De modo a contribuir com o meio ambiente, decide reaproveitar tábuas de madeira retiradas da casa. Ele dispõe de 40 tábuas de 540 cm, 30 de 810 cm e 10 de 1 080 cm, todas de mesma largura e espessura. Ele pediu a um carpinteiro que cortasse as tábuas em pedaços de mesmo comprimento, sem deixar sobras, e de modo que as novas peças ficassem com o maior tamanho possível, mas de comprimento menor que 2 m."
+    }
+  },
+  "2015-163": {
+    "originalSha256": "ce8b5aeed0ea5946546e9280ffb440a012f3d13c05468ec48bcef78da8069b7a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A insulina é utilizada no tratamento de pacientes com diabetes para o controle glicêmico. Para facilitar sua aplicação, foi desenvolvida uma “caneta” na qual pode ser inserido um refil contendo 3 mL de insulina, como mostra a imagem.\n\n![](/assets/questions/2015/163/eb67eda1-2354-45e8-a0a6-d6834a7bcf73.png)\n\nPara controle das aplicações, definiu-se a unidade de insulina como 0,01 mL. Antes de cada aplicação, é necessário descartar 2 unidades de insulina, de forma a retirar possíveis bolhas de ar.\n\nA um paciente foram prescritas duas aplicações diárias: 10 unidades de insulina pela manhã e 10 à noite."
+    }
+  },
+  "2015-164": {
+    "originalSha256": "066fb9b9e4f440dd02381fc8ec9bd12383899e79e9ad6b5b56a00e556f46ac0b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma família composta por sete pessoas adultas, após decidir o itinerário de sua viagem, consultou o site de uma empresa aérea e constatou que o voo para a data escolhida estava quase lotado. Na figura, disponibilizada pelo site, as poltronas ocupadas estão marcadas com X e as únicas poltronas disponíveis são as mostradas em branco.\n\n![](/assets/questions/2015/164/143503ba-442f-4e6e-b47f-56b581a76e04.png)\n\nDisponível em: www.gebh.net. Acesso em: 30 out. 2013 (adaptado)."
+    }
+  },
+  "2015-165": {
+    "originalSha256": "27ad3f99e3e9b1cf9f54fdbcc977658d4fe19db9e8ba45aa5eb5ea865c4b8aa3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O proprietário de um parque aquático deseja construir uma piscina em suas dependências. A figura representa a vista superior dessa piscina, que é formada por três setores circulares idênticos, com ângulo central igual a 60°. O raio \\(R\\) deve ser um número natural.\n\n![](/assets/questions/2015/165/0cf3eb67-f1f6-4a40-89fc-106ba00c5769.png)\n\nO parque aquático já conta com uma piscina em formato retangular com dimensões 50 m x 24 m.\n\nO proprietário quer que a área ocupada pela nova piscina seja menor que a ocupada pela piscina já existente.\n\nConsidere 3,0 como aproximação para π."
+    }
+  },
+  "2015-166": {
+    "originalSha256": "9da4b592adffa4d83bc12b71e3164ad3b334ec23dfdc77a4023afa38d5ada4bf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Alguns exames médicos requerem uma ingestão de água maior do que a habitual. Por recomendação médica, antes do horário do exame, uma paciente deveria ingerir 1 copo de água de 150 mililitros a cada meia hora, durante as 10 horas que antecederiam um exame. A paciente foi a um supermercado comprar água e verificou que havia garrafas dos seguintes tipos:\n\n• Garrafa I: 0,15 litro\n\n• Garrafa II: 0,30 litro\n\n• Garrafa III: 0,75 litro\n\n• Garrafa IV: 1,50 litro\n\n• Garrafa V: 3,00 litros\n\nA paciente decidiu comprar duas garrafas do mesmo tipo, procurando atender à recomendação médica e, ainda, de modo a consumir todo o líquido das duas garrafas antes do exame."
+    }
+  },
+  "2015-167": {
+    "originalSha256": "728cf1891c4ae29a5bc6f9ad25cf5810d4b421e19540514a81b9944065597abe",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma família fez uma festa de aniversário e enfeitou o local da festa com bandeirinhas de papel. Essas bandeirinhas foram feitas da seguinte maneira: inicialmente, recortaram as folhas de papel em forma de quadrado, como mostra a Figura 1. Em seguida, dobraram as folhas quadradas ao meio sobrepondo os lados BC e AD, de modo que C e D coincidam, e o mesmo ocorra com A e B, conforme ilustrado na Figura 2. Marcaram os pontos médios O e N, dos lados FG e AF, respectivamente, e o ponto M do lado AD, de modo que AM seja igual a um quarto de AD. A seguir, fizeram cortes sobre as linhas pontilhadas ao longo da folha dobrada.\n\n![](/assets/questions/2015/167/2268b8ec-e5a5-4ef4-a721-38486fd4acf2.png)\n\nApós os cortes, a folha é aberta e a bandeirinha está pronta."
+    }
+  },
+  "2015-168": {
+    "originalSha256": "9c0949bb59051fe11017adb625e40b7f674434fe0955580292001b7a0dc5fe23",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em uma escola, a probabilidade de um aluno compreender e falar inglês é de 30%. Três alunos dessa escola, que estão em fase final de seleção de intercâmbio, aguardam, em uma sala, serem chamados para uma entrevista. Mas, ao invés de chamá-los um a um, o entrevistador entra na sala e faz, oralmente, uma pergunta em inglês que pode ser respondida por qualquer um dos alunos."
+    }
+  },
+  "2015-169": {
+    "originalSha256": "7684e641d6df22050550961203287b857096a5c8095a805dee955bd4ac4ccf35",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O polímero de PET (Politereftalato de Etileno) é um dos plásticos mais reciclados em todo o mundo devido à sua extensa gama de aplicações, entre elas, fibras têxteis, tapetes, embalagens, filmes e cordas. Os gráficos mostram o destino do PET reciclado no Brasil, sendo que, no ano de 2010, o total de PET reciclado foi de 282 kton (quilotoneladas).\n\n![](/assets/questions/2015/169/fed74b1c-7354-40bc-8c64-834a528c49d7.png)"
+    }
+  },
+  "2015-170": {
+    "originalSha256": "5f19a648084708f4dc9fad6f90cae079df8737d7cae38438cc93afc0b8a7cb9c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um concurso é composto por cinco etapas. Cada etapa vale 100 pontos. A pontuação final de cada candidato é a média de suas notas nas cinco etapas. A classificação obedece à ordem decrescente das pontuações finais. O critério de desempate baseia-se na maior pontuação na quinta etapa.\n\n![](/assets/questions/2015/170/8e79e15b-e750-434f-9cba-7ae74d55e746.png)"
+    }
+  },
+  "2015-172": {
+    "originalSha256": "6db1fbe691c133554274c653009380cb26111334d216b242eca4b8452517fca6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Devido ao aumento do fluxo de passageiros, uma empresa de transporte coletivo urbano está fazendo estudos para a implantação de um novo ponto de parada em uma determinada rota. A figura mostra o percurso, indicado pelas setas, realizado por um ônibus nessa rota e a localização de dois de seus atuais pontos de parada, representados por P e Q.\n\n![](/assets/questions/2015/172/d163cf5f-97a0-47e9-a6ab-c11c84e0e5c9.png)\n\nOs estudos indicam que o novo ponto _T_ deverá ser instalado, nesse percurso, entre as paradas já existentes _P_ e _Q_, de modo que as distâncias percorridas pelo ônibus entre os pontos _P_ e _T_ e entre os pontos _T_ e _Q_ sejam iguais."
+    }
+  },
+  "2015-173": {
+    "originalSha256": "0291c259868e5c7c049ec644356f702843e3a1c117464bf105ef369740986c9f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Deseja-se comprar lentes para óculos. As lentes devem ter espessuras mais próximas possíveis da medida 3 mm. No estoque de uma loja, há lentes de espessuras: 3,10 mm; 3,021 mm; 2,96 mm; 2,099 mm e 3,07 mm."
+    }
+  },
+  "2015-174": {
+    "originalSha256": "50364c2a3f891221f831d3e98b5e03347e2d8c2b0fe221a1ef316068b10952da",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um estudante está pesquisando o desenvolvimento de certo tipo de bactéria. Para essa pesquisa, ele utiliza uma estufa para armazenar as bactérias. A temperatura no interior dessa estufa, em graus Celsius, é dada pela expressão \\(T(h)=-h^2+22h-85\\), em que \\(h\\) representa as horas do dia. Sabe-se que o número de bactérias é o maior possível quando a estufa atinge sua temperatura máxima e, nesse momento, ele deve retirá-las da estufa. A tabela associa intervalos de temperatura, em graus Celsius, com as classificações: muito baixa, baixa, média, alta e muito alta.\n\n![](/assets/questions/2015/174/9ac3cd8a-2315-450e-96c0-25cb9cd65cdd.png)"
+    }
+  },
+  "2015-175": {
+    "originalSha256": "bae9334d7c57dcfbb961eeca17bffabbc6103422120dba71656bd7dd9d1fef7c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A figura representa a vista superior de uma bola de futebol americano, cuja forma é um elipsoide obtido pela rotação de uma elipse em torno do eixo das abscissas. Os valores \\(a\\) e \\(b\\) são, respectivamente, a metade do seu comprimento horizontal e a metade do seu comprimento vertical. Para essa bola, a diferença entre os comprimentos horizontal e vertical é igual à metade do comprimento vertical.\n\n![](/assets/questions/2015/175/6b6ae3c5-95b1-4a21-94b8-59bf5c0c470d.png)\n\nConsidere que o volume aproximado dessa bola é dado por \\(V=4ab^2\\)."
+    }
+  },
+  "2015-176": {
+    "originalSha256": "5ef7e009df84e3ecf5203a381e412844c5c31d9130be648915b1ffdd414e4228",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Após realizar uma pesquisa de mercado, uma operadora de telefonia celular ofereceu aos clientes que utilizavam até 500 ligações ao mês o seguinte plano mensal: um valor fixo de R$ 12,00 para os clientes que fazem até 100 ligações ao mês. Caso o cliente faça mais de 100 ligações, será cobrado um valor adicional de R$ 0,10 por ligação, a partir da 101ª até a 300ª; e caso realize entre 300 e 500 ligações, será cobrado um valor fixo mensal de R$ 32,00."
+    }
+  },
+  "2015-177": {
+    "originalSha256": "bfd82db11dac4658b58ddadf77ebfa8375e7d379b15a5cd648a41aa41e95dbbc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Alguns medicamentos para felinos são administrados com base na superfície corporal do animal. Foi receitado a um felino pesando 3,0 kg um medicamento na dosagem diária de 250 mg por metro quadrado de superfície corporal.\n\nO quadro apresenta a relação entre a massa do felino, em quilogramas, e a área de sua superfície corporal, em metros quadrados.\n\n![](/assets/questions/2015/177/b816c051-5903-47d1-9b6d-4a005c997bb1.png)"
+    }
+  },
+  "2015-178": {
+    "originalSha256": "d3a0af9a651da0aab0e00d87fbac0635a2e6a1017410663294325270bd08c6e3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para economizar em suas contas mensais de água, uma família de 10 pessoas deseja construir um reservatório para armazenar a água captada das chuvas, que tenha capacidade suficiente para abastecer a família por 20 dias. Cada pessoa da família consome, diariamente, \\(0{,}08\\text{ m}^3\\) de água."
+    }
+  },
+  "2015-179": {
+    "originalSha256": "22357a12abb6f0770afb04dedce08b2bdeedea2258f14f963ed70546ffdf0a07",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma competição esportiva envolveu 20 equipes com 10 atletas cada. Uma denúncia à organização dizia que um dos atletas havia utilizado substância proibida. Os organizadores, então, decidiram fazer um exame antidoping. Foram propostos três modos diferentes para escolher os atletas que irão realizá-lo:\n\nModo I: sortear três atletas dentre todos os participantes;\n\nModo II: sortear primeiro uma das equipes e, desta, sortear três atletas;\n\nModo III: sortear primeiro três equipes e, então, sortear um atleta de cada uma dessas três equipes.\n\nConsidere que todos os atletas têm igual probabilidade de serem sorteados e que \\(P(I)\\), \\(P(II)\\) e \\(P(III)\\) sejam as probabilidades de o atleta que utilizou a substância proibida seja um dos escolhidos para o exame no caso do sorteio ser feito pelo modo I, II ou III."
+    }
+  },
+  "2015-180": {
+    "originalSha256": "c525757b796c1e0773c186faac28d9a5e191d86f50171e4fe93f95eaaaa70a97",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado ausente na API, conferido no caderno oficial do INEP; imagens existentes preservadas.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), produtos sazonais são aqueles que apresentam ciclos bem definidos de produção, consumo e preço. Resumidamente, existem épocas do ano em que a sua disponibilidade nos mercados varejistas ora é escassa, com preços elevados, ora é abundante, com preços mais baixos, o que ocorre no mês de produção máxima da safra.\n\nA partir de uma série histórica, observou-se que o preço \\(P\\), em reais, do quilograma de um certo produto sazonal pode ser descrito pela função\n\n![](/assets/questions/2015/180/0718a550-0f5e-4d3b-bdf2-13c39ca515af.png)\n\nonde _x_ representa o mês do ano, sendo _x_ = 1 associado ao mês de janeiro, _x_ = 2 ao mês de fevereiro, e assim sucessivamente, até _x_ = 12 associado ao mês de dezembro.\n\nDisponível em: www.ibge.gov.br. Acesso em: 2 ago. 2012 (adaptado)."
+    }
   }
 }

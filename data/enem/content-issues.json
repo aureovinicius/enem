@@ -98,5 +98,46 @@
       "visualSourceVerified": true,
       "localPage": ".preview/enem-2017-math-original-16.png"
     }
+  },
+  "2015-84": {
+    "originalSha256": "cfc8cd6a6106e6dc13d5793d300bf62830f8b765803fcc5c722207812e82e00e",
+    "reason": "O original informa ΔH1 por grama de bio-óleo e ΔH2 por grama de água, mas não informa a composição do combustível nem a quantidade de água produzida. Para queimar 5 g de bio-óleo e formar água gasosa, o resultado é ΔH = −94 + 2,4 m_água (kJ), com m_água em gramas. A resposta C, −82 kJ, depende de supor 5 g de água produzida, relação ausente no texto e no gráfico. Suspensão editorial da prática pontuada por insuficiência de dados, sem afirmar anulação pelo INEP. Dados brutos e gabarito C preservados.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reviewedAt": "2026-10-22T00:55:09.509Z",
+    "evidence": {
+      "officialAnswer": "C",
+      "officialAnswerValueKJ": -82,
+      "oilMassG": 5,
+      "combustionKJPerGramOil": -18.8,
+      "condensationKJPerGramWater": -2.4,
+      "missingQuantity": "massa de água produzida na queima do bio-óleo",
+      "visualSourceVerified": true,
+      "sourcePdfSha256": "4acf8c8dd0b24da5871b335b93c6cf3053d0a5f78e6cbaae28ed406bd51f3701"
+    }
+  },
+  "2015-171": {
+    "originalSha256": "a92a9c2306be290750b2875183af8f00deb39ea47217c603705e922cef558744",
+    "reason": "O enunciado oficial informa chuva acumulada diretamente em uma lata cilíndrica de altura 1 200 mm, preenchida até um terço da capacidade. A lâmina precipitada é 1 200/3 = 400 mm, independentemente do raio. Com π = 3, o volume de 108 litros foi coletado pela área de 0,27 m² da boca da lata; dividir esse volume por 1 m² produziria os 108 mm da alternativa D, mas a prova não informa funil coletor de 1 m² nem transferência do volume coletado nessa área. Não há alternativa correspondente a 400 mm. Propõe-se suspensão editorial da prática pontuada para não penalizar a interpretação física consistente; não constitui afirmação de anulação pelo INEP. Raw e gabarito original D preservados.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "officialAnswer": "D",
+      "officialAnswerValueMm": 108,
+      "cylinderRadiusMm": 300,
+      "cylinderHeightMm": 1200,
+      "filledFraction": "1/3",
+      "piApproximation": 3,
+      "collectedAreaM2": 0.27,
+      "collectedVolumeLitres": 108,
+      "correctRainDepthMm": 400,
+      "unjustifiedOneSquareMetreRedistributionMm": 108,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2015-math-original-29.png",
+      "localPageSha256": "afd9bc022b3917055e59f37f1ad514a622c781655d36ac9b1573fc6318dee7bc",
+      "sourcePdfSha256": "354ea210a950ae6713015dcee2fefb2e4676c8e506c62c597570fd48d84e2fd9",
+      "sourceText": "Em uma região, após um forte temporal, verificou-se que a quantidade de chuva acumulada em uma lata de formato cilíndrico, com raio 300 mm e altura 1 200 mm, era de um terço da sua capacidade."
+    }
   }
 }
