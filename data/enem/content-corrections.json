@@ -3282,5 +3282,917 @@
     "fields": {
       "context": "Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), produtos sazonais são aqueles que apresentam ciclos bem definidos de produção, consumo e preço. Resumidamente, existem épocas do ano em que a sua disponibilidade nos mercados varejistas ora é escassa, com preços elevados, ora é abundante, com preços mais baixos, o que ocorre no mês de produção máxima da safra.\n\nA partir de uma série histórica, observou-se que o preço \\(P\\), em reais, do quilograma de um certo produto sazonal pode ser descrito pela função\n\n![](/assets/questions/2015/180/0718a550-0f5e-4d3b-bdf2-13c39ca515af.png)\n\nonde _x_ representa o mês do ano, sendo _x_ = 1 associado ao mês de janeiro, _x_ = 2 ao mês de fevereiro, e assim sucessivamente, até _x_ = 12 associado ao mês de dezembro.\n\nDisponível em: www.ibge.gov.br. Acesso em: 2 ago. 2012 (adaptado)."
     }
+  },
+  "2014-93-espanhol": {
+    "originalSha256": "79739456670f684c1b60c3745f94115c34661a8c13bd7e58ad043dffdd0b3b9a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura Lo que he visto no comando conforme o PDF; preserva innundaciones, que também consta no caderno oficial.",
+    "reviewedAt": "2026-10-18T07:21:43.584Z",
+    "fields": {
+      "alternativesIntroduction": "O fragmento do texto Lo que he visto revela um pouco da percepção do escritor sobre a realidade paraguaia, marcada, em essência, pelo(a)"
+    }
+  },
+  "2014-116": {
+    "originalSha256": "887129e3274987444a216d15048c02e316e28f3529bc09b0444a3fa2de72169b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura final do na referência ao século XIX, trecho omitido na transcrição da API.",
+    "reviewedAt": "2026-10-18T07:21:43.584Z",
+    "fields": {
+      "context": "**Linotipos**\n\nO Museu da Imprensa exibe duas linotipos. Trata-se de um tipo de máquina de composição de tipos de chumbo, inventada em 1884 em Baltimore, nos Estados Unidos, pelo alemão Ottmar Mergenthaler. O invento foi de grande importância por ter significado um novo e fundamental avanço na história das artes gráficas. A linotipia provocou, na verdade, uma revolução porque venceu a lentidão da composição dos textos executada na tipografia tradicional, em que o texto era composto à mão, juntando tipos móveis um por um. Constituía-se, assim, no principal meio de composição tipográfica até 1950. A linotipo, a partir do final do século XIX, passou a produzir impressos a baixo custo, o que levou informação às massas, democratizou a informação. Promoveu uma revolução na educação. Antes da linotipo, os jornais e revistas eram escassos, com poucas páginas e caros. Os livros didáticos eram também caros, pouco acessíveis.\n\nDisponível em: http://portal.in.gov.br. Acesso em: 23 fev. 2013 (adaptado).\n\nO texto apresenta um histórico da linotipo, uma máquina tipográfica inventada no século XIX e responsável pela dinamização da imprensa."
+    }
+  },
+  "2014-2": {
+    "originalSha256": "20606fd3f121fe528deace8ad8ff5e4e30c06b6641b43e2c19decc223a2ae6ac",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 2,
+    "reason": "Restaura a disposição dos versos e remove corrupção na alternativa D, conferidas no caderno oficial.",
+    "reviewedAt": "2026-10-22T00:59:08.856Z",
+    "fields": {
+      "context": "Sou uma pobre e velha mulher,  \nMuito ignorante, que nem sabe ler.  \nMostraram-me na igreja da minha terra  \nUm Paraíso com harpas pintado  \nE o Inferno onde fervem almas danadas,  \nUm enche-me de júbilo, o outro me aterra.\n\nVILLON, F. In: GOMBRICH, E. **História da arte**. Lisboa: LTC, 1999.",
+      "alternativeTexts": {
+        "D": "Divulgar a genialidade dos artistas católicos."
+      }
+    }
+  },
+  "2014-8": {
+    "originalSha256": "35aaa55e9af5057f43dc31cf540fdcfa83db5205097fab17e659cd9c975a9bff",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura pontuação da referência bibliográfica conforme o original.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "O cidadão norte-americano desperta num leito construído segundo padrão originário do Oriente Próximo, mas modificado na Europa Setentrional antes de ser transmitido à América. Sai debaixo de cobertas feitas de algodão cuja planta se tornou doméstica na Índia. No restaurante, toda uma série de elementos tomada de empréstimo o espera. O prato é feito de uma espécie de cerâmica inventada na China. A faca é de aço, liga feita pela primeira vez na Índia do Sul; o garfo é inventado na Itália medieval; a colher vem de um original romano. Lê notícias do dia impressas em caracteres inventados pelos antigos semitas, em material inventado na China e por um processo inventado na Alemanha.\n\nLINTON, R. **O homem: uma introdução à antropologia**. São Paulo: Martins, 1959 (adaptado)."
+    }
+  },
+  "2014-9": {
+    "originalSha256": "69b6a27c0f0d2f0c56ce8a920d432de1a20ae53083a1b84575921971c8877680",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura o rótulo Texto I e o plural de créditos na transcrição do Texto II, conforme o PDF.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "**TEXTO I**\n\n![](https://enem.dev/2014/questions/9/de4e7360-b8c8-4652-a4a9-b54cfd9a7683.jpg)\n\n**TEXTO II**\n\nA Índia deu um passo alto no setor de teleatendimento para países mais desenvolvidos, como os Estados Unidos e as nações europeias. Atualmente mais de 245 mil indianos realizam ligações para todas as partes do mundo a fim de oferecer cartões de créditos ou telefones celulares ou cobrar contas em atraso.\n\nDisponível em: www.conectacallcenter.com.br. Acesso em: 12 nov. 2013 (adaptado)."
+    }
+  },
+  "2014-14": {
+    "originalSha256": "86af43930da2fb8da88612613b0ff25eab55a3ff19e80ce9545d444cdf34af9e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 5,
+    "reason": "Corrige a transcrição do verbo da alternativa D: aumenta, e não aumento.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "alternativeTexts": {
+        "D": "Técnica científica, que aumenta o poder do homem."
+      }
+    }
+  },
+  "2014-18": {
+    "originalSha256": "924987e1e755c7b625023f06f244b073c5d657ba459e9c246d0188231027da04",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 7,
+    "reason": "Restaura hífen entre os anos no título da obra citada.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "Todo homem de bom juízo, depois que tiver realizado sua viagem, reconhecerá que é um milagre manifesto ter podido **escapar de todos os perigos que se apresentam em sua peregrinação**; tanto mais que há tantos outros acidentes que diariamente podem aí ocorrer que seria coisa pavorosa àqueles que aí navegam querer pô-los todos diante dos olhos quando querem empreender suas viagens.\n\nJ. P. T. Histoire de plusieurs voyages aventureux. 1600. In: DELUMEAU, J. História do medo no Ocidente: 1300-1800. São Paulo: Cia. das Letras, 2009 (adaptado)."
+    }
+  },
+  "2014-21": {
+    "originalSha256": "527fc0362b0f5abbb82b7ff3be5298aa24517b7eedb98ec0fc34a695c0af507c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura o ordinal do artigo e a abreviação nov. na referência original.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "**Estatuto da Frente Negra Brasileira (FNB)**\n\nArt. 1º – Fica fundada nesta cidade de São Paulo, para se irradiar por todo o Brasil, a Frente Negra Brasileira, união política e social da Gente Negra Nacional, para a afirmação dos direitos históricos da mesma, em virtude da sua atividade material e moral no passado e para reivindicação de seus direitos sociais e políticos, atuais, na Comunhão Brasileira.\n\n**Diário Oficial do Estado de São Paulo**, 4 nov. 1931."
+    }
+  },
+  "2014-22": {
+    "originalSha256": "b1762c2539be5cc9d6415cb9e7ca86792148047eace9c5f4ee321a4120541ee0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Recupera socioespacial no comando, conforme o PDF, em lugar da transcrição incompleta espacial.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "alternativesIntroduction": "Uma consequência geográfica do processo socioespacial descrito no texto é a"
+    }
+  },
+  "2014-23": {
+    "originalSha256": "ddf1d9be15899b753a76dc44c6827ad5d83df2351d25d3b1ce6cbd523e4bf72c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura pontuação do nome da autora na referência oficial.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "Três décadas – de 1884 a 1914 – separam o século XIX – que terminou com a corrida dos países europeus para a África e com o surgimento dos movimentos de unificação nacional na Europa – do século XX, que começou com a Primeira Guerra Mundial. É o período do Imperialismo, da quietude estagnante na Europa e dos acontecimentos empolgantes na Ásia e na África.\n\nARENDT, H. **As origens do totalitarismo**. São Paulo: Cia. das Letras, 2012."
+    }
+  },
+  "2014-25": {
+    "originalSha256": "8720896dd65b056b21f3151069ccebddd226034132834eb8bd10d53445370bcf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura a referência da imagem omitida na importação.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "![](https://enem.dev/2014/questions/25/1428c6bc-bcd0-452d-8bd6-6600b3f7bd77.png)\n\nSANZIO, R. Detalhe do afresco **A Escola de Atenas**. Disponível em: http://fil.cfh.ufsc.br. Acesso em: 20 mar. 2013."
+    }
+  },
+  "2014-28": {
+    "originalSha256": "692d8b3f8746063ae9a4d73b92bc7600839605240b298d9bdba50b7c69e618f1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 10,
+    "reason": "Separa a URL e a expressão Acesso em corrompidas na transcrição.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "A Comissão Nacional da Verdade (CNV) reuniu representantes de comissões estaduais e de várias instituições para apresentar um balanço dos trabalhos feitos e assinar termos de cooperação com quatro organizações. O coordenador da CNV estima que, até o momento, a comissão examinou, “por baixo”, cerca de 30 milhões de páginas de documentos e fez centenas de entrevistas.\n\nDisponível em: www.jb.com.br. Acesso em: 2 mar. 2013 (adaptado)."
+    }
+  },
+  "2014-30": {
+    "originalSha256": "541b908d4f219977c329f11b3970a6840bbe94c253e2f265b2247a2690677233",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura a indicação ordinal e a divisão dos dois parágrafos presentes no caderno.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "Parecer CNE/CP nº 3/2004, que instituiu as Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana.\n\nProcura-se oferecer uma resposta, entre outras, na área da educação, à demanda da população afrodescendente, no sentido de políticas de ações afirmativas. Propõe a divulgação e a produção de conhecimentos, a formação de atitudes, posturas que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial — descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos — para interagirem na construção de uma nação democrática, em que todos igualmente tenham seus direitos garantidos.\n\n_BRASIL. Conselho Nacional de Educação. Disponível em: www.semesp.org.br. Acesso em: 21 nov. 2013 (adaptado)._"
+    }
+  },
+  "2014-31": {
+    "originalSha256": "59eaae51a0240491dd87fda4ec509024b0e90bc8928c772d7f4091436a447543",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura o numeral romano III e a acentuação da referência; mantém o conteúdo histórico tal como impresso no caderno.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "A Praça da Concórdia, antiga Praça Luís XV, é a maior praça pública de Paris. Inaugurada em 1763, tinha em seu centro uma estátua do rei. Situada ao longo do Sena, ela é a intersecção de dois eixos monumentais. Bem nesse cruzamento está o Obelisco de Luxor, decorado com hieróglifos que contam os reinados dos faraós Ramsés II e Ramsés III. Em 1829, foi oferecido pelo vice-rei do Egito ao povo francês e, em 1836, instalado na praça diante de mais de 200 mil espectadores e da família real.\n\nNOBLAT, R. Disponível em: www.oglobo.com. Acesso em: 12 dez. 2012."
+    }
+  },
+  "2014-32": {
+    "originalSha256": "5c5f0971820882fdc52f9ca7e901a9f16c777792d4fbe1de01cd520ace69d06b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura o ponto entre frases e a abreviação abr. presentes no PDF.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "Em 1879, cerca de cinco mil pessoas reuniram-se para solicitar a D. Pedro II a revogação de uma taxa de 20 réis, um vintém, sobre o transporte urbano. O vintém era a moeda de menor valor da época. A polícia não permitiu que a multidão se aproximasse do palácio. Ao grito de “Fora o vintém!”, os manifestantes espancaram condutores, esfaquearam mulas, viraram bondes e arrancaram trilhos. Um oficial ordenou fogo contra a multidão. As estatísticas de mortos e feridos são imprecisas. Muitos interesses se fundiram nessa revolta, de grandes e de políticos, de gente miúda e de simples cidadãos. Desmoralizado, o ministério caiu. Uma grande explosão social, detonada por um pobre vintém.\n\nDisponível em: www.revistadehistoria.com.br. Acesso em: 4 abr. 2014 (adaptado)."
+    }
+  },
+  "2014-39": {
+    "originalSha256": "06dcf58b814c0714ab0f3193533483c4cd9a0921c276c53c279f2f923a8f0a4e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura o nome da editora e a pontuação do autor da referência.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "O problema central a ser resolvido pelo Novo Regime era a organização de outro pacto de poder que pudesse substituir o arranjo imperial com grau suficiente de estabilidade. O próprio presidente Campos Sales resumiu claramente seu objetivo: _“É de lá, dos estados, que se governa a República, por cima das multidões que tumultuam agitadas nas ruas da capital da União. A política dos estados é a política nacional”._\n\nCARVALHO, J. M. **Os Bestializados:** o Rio de Janeiro e a República que não foi. São Paulo: Companhia das Letras, 1987 (adaptado)."
+    }
+  },
+  "2014-40": {
+    "originalSha256": "d524f5a7a67da89f98f5f79f08bcc84212d27fee03fc068e4450b9b079bd4fa9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Remove o artigo adicional inserido na alternativa A, que já está no comando.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Articulação de polos produtores para exportação."
+      }
+    }
+  },
+  "2014-41": {
+    "originalSha256": "b0ef2658ca3c07b8df27d664fa0d293fa1c8078f4538e5e5e6448791d6d2bf5f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura militares em lugar da palavra corrompida multares na alternativa C.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "Insubordinação das tropas militares."
+      }
+    }
+  },
+  "2014-42": {
+    "originalSha256": "0fa3fd57f68b50b8cb2f4ebc5a29e7676f89098fc1ce49a77522f93d40efb6b0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura acentos, abreviação e separação da referência conforme o original.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nO presidente do jornal de maior circulação do país destacava também os avanços econômicos obtidos naqueles vinte anos, mas, ao justificar sua adesão aos militares em 1964, deixava clara sua crença de que a intervenção fora imprescindível para a manutenção da democracia.\n\nDisponível em: **http://oglobo.globo.com**. Acesso em: 1 set. 2013 (adaptado).\n\n**TEXTO II**\n\nNada pode ser colocado em compensação à perda das liberdades individuais. Não existe nada de bom quando se aceita uma solução autoritária.\n\nFICO, C. **A educação e o golpe de 1964**. Disponível em: www.brasilrecente.com. Acesso em: 4 abr. 2014 (adaptado)."
+    }
+  },
+  "2014-43": {
+    "originalSha256": "69f0c22d6bb2fc3922411c68ea386f48315ccf62b0e50f8d22a370923cf25861",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura a referência bibliográfica e remove o a que foi acrescentado ao final do comando na importação.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "A transferência da corte trouxe para a América portuguesa a família real e o governo da Metrópole. Trouxe também, e sobretudo, boa parte do aparato administrativo português. Personalidades diversas e funcionários régios continuaram embarcando para o Brasil atrás da corte, dos seus empregos e dos seus parentes após o ano de 1808.\n\nNOVAIS, F. A.; ALENCASTRO, L. F. (Org.). **História da vida privada no Brasil**. São Paulo: Cia. das Letras, 1997.",
+      "alternativesIntroduction": "Os fatos apresentados se relacionam ao processo de independência da América portuguesa por terem"
+    }
+  },
+  "2014-44": {
+    "originalSha256": "e5624ff45a7089ce93f4c47ce67f827d83a2285eb6e6e6136563417e677a5d70",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura pontuação do nome da editora na referência oficial.",
+    "reviewedAt": "2026-10-22T00:59:08.857Z",
+    "fields": {
+      "context": "Respeitar a diversidade de circunstâncias entre as pequenas sociedades locais que constituem uma mesma nacionalidade, tal deve ser a regra suprema das leis internas de cada Estado. As leis municipais seriam as cartas de cada povoação doadas pela assembleia provincial, alargadas conforme o seu desenvolvimento, alteradas segundo os conselhos da experiência. Então, administrar-se-ia de perto, governar-se-ia de longe, alvo a que jamais se atingirá de outra sorte.\n\nBASTOS, T. **A província** (1870). São Paulo: Cia. Editora Nacional, 1937 (adaptado)."
+    }
+  },
+  "2014-47": {
+    "originalSha256": "4a82ee2f4e69ca924adfc5ac91d67775557b44831f4d6dcf4f701dee379a4552",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar produtores no comando, que foi transcrito como produtos na API.",
+    "reviewedAt": "2026-10-22T00:59:00.909Z",
+    "fields": {
+      "alternativesIntroduction": "Para suprir o déficit nutricional a que os produtores rurais se submeteram durante o período da promessa, foi importante eles terem consumido alimentos ricos em"
+    }
+  },
+  "2014-48": {
+    "originalSha256": "cea37da1a8fc97a751bcc9132a6b6ca09d638e260b97316c4443db036da88b3c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar o parágrafo inicial ausente que explica a relação entre CFCs, ozônio estratosférico e radiação ultravioleta.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (\\(\\mathrm{O_3}\\)) na estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.\n\n![](https://enem.dev/2014/questions/48/4b2624ac-087f-43e1-8654-e47e9593c1e0.png)"
+    }
+  },
+  "2014-50": {
+    "originalSha256": "7eb65de79c8e6f6ad4e53adc157c4b0c53d05dba5db73ba732313855c4f38f80",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurar concordância, acentuação e pontuação do parágrafo e da referência conforme o texto oficial.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "É comum aos fotógrafos tirar fotos coloridas em ambientes iluminados por lâmpadas fluorescentes, que contêm uma forte composição de luz verde. A consequência desse fato na fotografia é que todos os objetos claros, principalmente os brancos, aparecerão esverdeados. Para equilibrar as cores, deve-se usar um filtro adequado para diminuir a intensidade da luz verde que chega aos sensores da câmera fotográfica. Na escolha desse filtro, utiliza-se o conhecimento da composição das cores-luz primárias: vermelho, verde e azul; e das cores-luz secundárias: amarelo = vermelho + verde, ciano = verde + azul e magenta = vermelho + azul.\n\nDisponível em: http://nautilus.fis.uc.pt. Acesso em: 20 maio 2014 (adaptado)."
+    }
+  },
+  "2014-54": {
+    "originalSha256": "681d8197844c45f31e63d23531bdbaf0c9643b5e4e7eec41bf3459bd023d1917",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurar o parágrafo ausente que define o biodiesel como mistura de ésteres e relaciona saturação à resistência oxidativa, mantendo a tabela.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "O biodiesel não é classificado como uma substância pura, mas como uma mistura de ésteres derivados dos ácidos graxos presentes em sua matéria-prima. As propriedades do biodiesel variam com a composição do óleo vegetal ou gordura animal que lhe deu origem, por exemplo, o teor de ésteres saturados é responsável pela maior estabilidade do biodiesel frente à oxidação, o que resulta em aumento da vida útil do biocombustível. O quadro ilustra o teor médio de ácidos graxos de algumas fontes oleaginosas.\n\n![](https://enem.dev/2014/questions/54/3da2f565-bc79-400a-89b0-b96ba4968f7e.png)"
+    }
+  },
+  "2014-55": {
+    "originalSha256": "dedd374df24a841d0597cf891cbc480861ab5329789d3709ef588665f2eed405",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurar observa no primeiro parágrafo conforme o caderno, preservando todos os dados e o gráfico.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "Uma pessoa, lendo o manual de uma ducha que acabou de adquirir para a sua casa, observa o gráfico, que relaciona a vazão na ducha com a pressão, medida em metros de coluna de água (mca).\n\n![](https://enem.dev/2014/questions/55/e18f6b82-0ea7-4110-974b-632768f2c555.png)\n\nNessa casa residem quatro pessoas. Cada uma delas toma um banho por dia, com duração média de 8 minutos, permanecendo o registro aberto com vazão máxima durante esse tempo. A ducha é instalada em um ponto seis metros abaixo do nível da lâmina de água, que se mantém constante dentro do reservatório."
+    }
+  },
+  "2014-56": {
+    "originalSha256": "1a78f78d575db15f7fc2be40c3ced22c32248958af29949b6b1efc152eec44fa",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurar o índice molecular de SO₃ no comando.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "alternativesIntroduction": "A substituição do diesel usado nos anos 1980 por aquele difundido em 2012 permitiu uma redução percentual de emissão de \\(\\mathrm{SO_3}\\) de"
+    }
+  },
+  "2014-57": {
+    "originalSha256": "67cae6f9c0a6291104f8d869400b3bb63e580038f6cf92033e63921c3c1849ba",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar o contexto ausente que informa lâmpadas iguais, gerador de tensão constante e duas posições da chave.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "Um sistema de iluminação foi construído com um circuito de três lâmpadas iguais conectadas a um gerador (G) de tensão constante. Esse gerador possui uma chave que pode ser ligada nas posições A ou B.\n\n![](https://enem.dev/2014/questions/57/98797c3b-9330-4122-b07a-008ab7156638.png)"
+    }
+  },
+  "2014-58": {
+    "originalSha256": "912106fd0fd237b0164076eec4f372a8c9dc81d6575f9fbc9f03bb4e24118d27",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar os índices das fórmulas químicas nas cinco alternativas conforme o caderno.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{C_{18}H_{36}}\\).",
+        "B": "\\(\\mathrm{C_{17}H_{33}COONa}\\).",
+        "C": "\\(\\mathrm{CH_3CH_2COONa}\\).",
+        "D": "\\(\\mathrm{CH_3CH_2CH_2COOH}\\).",
+        "E": "\\(\\mathrm{CH_3CH_2CH_2CH_2OCH_2CH_2CH_2CH_3}\\)."
+      }
+    }
+  },
+  "2014-59": {
+    "originalSha256": "0928092871b855a80dd8f35cfc09cecb075b1ad5e47a9b2caffcdf21b7aeaa1b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar o contexto ausente de recuperação da prata do processamento radiográfico, incluindo a carga do complexo, e a notação das espécies das alternativas.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "A revelação das chapas de raios X gera uma solução que contém íons prata na forma de \\(\\mathrm{Ag(S_2O_3)_2^{3-}}\\). Para evitar a descarga desse metal no ambiente, a recuperação de prata metálica pode ser feita tratando eletroquimicamente essa solução com uma espécie adequada. O quadro apresenta semirreações de redução de alguns íons metálicos.\n\n![](https://enem.dev/2014/questions/59/4e02f04e-124a-4a16-9557-80aeeb59f293.png)",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{Cu(s)}\\).",
+        "B": "\\(\\mathrm{Pt(s)}\\).",
+        "C": "\\(\\mathrm{Al^{3+}(aq)}\\).",
+        "D": "\\(\\mathrm{Sn(s)}\\).",
+        "E": "\\(\\mathrm{Zn^{2+}(aq)}\\)."
+      }
+    }
+  },
+  "2014-60": {
+    "originalSha256": "4a6b472d1afb467f9962ff4cb8ba35c9db946c5ee1c7db92ac8decc0386a488b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar o verbo produzem, omitido na transcrição do mecanismo de ação das auxinas.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "Existem bactérias que inibem o crescimento de um fungo causador de doenças no tomateiro, por consumirem o ferro disponível no meio. As bactérias também fazem fixação de nitrogênio, disponibilizam cálcio e produzem auxinas, substâncias que estimulam diretamente o crescimento do tomateiro.\n\n_PELZER, G. Q. et al. Mecanismos de controle da murcha-de-esclerócio e promoção de crescimento em tomateiro mediados por rizobactérias. Tropical Plant Pathology, v. 36, n. 2, mar.-abr. 2011 (adaptado)._"
+    }
+  },
+  "2014-62": {
+    "originalSha256": "9098f3afaa2c0e029f9a6b2962a378b490c235086f30e0c4972cbaa0a1816076",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar todas as condições experimentais omitidas: êmbolo livre, aquecimento, sistema hermético e quantidades equimolares dos gases.",
+    "reviewedAt": "2026-10-22T00:59:00.910Z",
+    "fields": {
+      "context": "Um sistema de pistão contendo um gás é mostrado na figura. Sobre a extremidade superior do êmbolo, que pode movimentar-se livremente sem atrito, encontra-se um objeto. Através de uma chapa de aquecimento é possível fornecer calor ao gás e, com auxílio de um manômetro, medir sua pressão. A partir de diferentes valores de calor fornecido, considerando o sistema como hermético, o objeto elevou-se em valores \\(\\Delta h\\), como mostrado no gráfico. Foram estudadas, separadamente, quantidades equimolares de dois diferentes gases, denominados M e V.\n\n![](https://enem.dev/2014/questions/62/c6752fb8-7883-47db-bb64-a62d3c58658c.png)"
+    }
+  },
+  "2014-64": {
+    "originalSha256": "edecdb19a65679679ea03e81ffd2524dbd95fd2915afaa74737adf843b7511ee",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurar o parágrafo ausente que define cinco pêndulos idênticos, três esferas incidentes e colisões elásticas; preservar os seis desenhos corretos.",
+    "reviewedAt": "2026-10-22T00:59:00.913Z",
+    "fields": {
+      "context": "O pêndulo de Newton pode ser constituído por cinco pêndulos idênticos suspensos em um mesmo suporte. Em um dado instante, as esferas de três pêndulos são deslocadas para a esquerda e liberadas, deslocando-se para a direita e colidindo elasticamente com as outras duas esferas, que inicialmente estavam paradas.\n\n![](https://enem.dev/2014/questions/64/8647fc4b-cf74-4480-84ae-3a7c8dbf1ade.png)"
+    }
+  },
+  "2014-65": {
+    "originalSha256": "dc469c1f8acf5e948966ba2120fdd8a7d8f79075ef1d61d89ed74c51675ae89e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurar o contexto ausente e substituir as cinco imagens de alternativas da API, que pertencem a outra questão, pelos recortes integrais das estruturas químicas do caderno oficial. Imagens raw preservadas.",
+    "reviewedAt": "2026-10-22T00:59:00.914Z",
+    "fields": {
+      "context": "A forma das moléculas, como representadas no papel, nem sempre é planar. Em um determinado fármaco, a molécula contendo um grupo não planar é biologicamente ativa, enquanto moléculas contendo substituintes planares são inativas.",
+      "alternativeFiles": {
+        "A": "/assets/questions/2014/65/official-A.png",
+        "B": "/assets/questions/2014/65/official-B.png",
+        "C": "/assets/questions/2014/65/official-C.png",
+        "D": "/assets/questions/2014/65/official-D.png",
+        "E": "/assets/questions/2014/65/official-E.png"
+      }
+    },
+    "assets": {
+      "official-A.png": "44f6e4b1c040d9f1dbe445404e51fbe526b5cb225a48f96b026ba595ed031524",
+      "official-B.png": "6a093e4b1ae9e41d2177ed5f8cc931b4da026df1e34c6a2e25d7a36e7d613a99",
+      "official-C.png": "094fbafd196e4c7b8bb19ecf35ad34607e5e6843d5f0ed5601bf4db448eb2585",
+      "official-D.png": "b9573fb1016411c92af654f6b6ce3321d3b6de19127eac4df8ac095d28b5f7f5",
+      "official-E.png": "efff0a5ac75d17946c30eb5911ee694e2b56b91bfc097d514558a7c29e1a04dc"
+    }
+  },
+  "2014-70": {
+    "originalSha256": "e0a48b3a8332e2c3d76dd0a942b2dce5a1bd4a883d1b740beab922e8cf70df23",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar o enunciado ausente com a faixa de pH, a concentração de hidroxila e os reagentes disponíveis, além dos índices nas cinco alternativas.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0. Um resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a \\(1{,}0\\times10^{-10}\\,\\mathrm{mol/L}\\). Para atender a legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: \\(\\mathrm{CH_3COOH}\\), \\(\\mathrm{Na_2SO_4}\\), \\(\\mathrm{CH_3OH}\\), \\(\\mathrm{K_2CO_3}\\) e \\(\\mathrm{NH_4Cl}\\).",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{CH_3COOH}\\)",
+        "B": "\\(\\mathrm{Na_2SO_4}\\)",
+        "C": "\\(\\mathrm{CH_3OH}\\)",
+        "D": "\\(\\mathrm{K_2CO_3}\\)",
+        "E": "\\(\\mathrm{NH_4Cl}\\)"
+      }
+    }
+  },
+  "2014-72": {
+    "originalSha256": "60f5aeff9324dafd7c107b492dc63b9a28df3f70e8983c90554fa5c7427038a7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar o parágrafo ausente que apresenta a indução, as velocidades relativas de igual módulo e a corrente mostrada.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "O funcionamento dos geradores de usinas elétricas baseia-se no fenômeno da indução eletromagnética, descoberto por Michael Faraday no século XIX. Pode-se observar esse fenômeno ao se movimentar um ímã e uma espira em sentidos opostos com módulo da velocidade igual a \\(v\\), induzindo uma corrente elétrica de intensidade \\(i\\), como ilustrado na figura.\n\n![](https://enem.dev/2014/questions/72/ed8bebb8-7333-4efd-9b4e-6b2f639dbd0f.png)"
+    }
+  },
+  "2014-75": {
+    "originalSha256": "d2656d53a3ce4f93ffd7f7456724d4612d62bb3458341a3608afebf3d73311b9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o enunciado ausente que define a hipótese de protease gástrica e o teste com diferentes alimentos e valores de pH.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "Um pesquisador percebe que o rótulo de um dos vidros em que guarda um concentrado de enzimas digestivas está ilegível. Ele não sabe qual enzima o vidro contém, mas desconfia de que seja uma protease gástrica, que age no estômago digerindo proteínas. Sabendo que a digestão no estômago é ácida e no intestino é básica, ele monta cinco tubos de ensaio com alimentos diferentes, adiciona o concentrado de enzimas em soluções com pH determinado e aguarda para ver se a enzima age em algum deles."
+    }
+  },
+  "2014-77": {
+    "originalSha256": "2b1e997d134a480734cb9eb98021738eef1194f5a0d5a775b946b99e72c82204",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o enunciado ausente com os quatro requisitos moleculares e os índices de todas as fórmulas, preservando a abreviação (CH)₂ do documento.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas características de cada substância descoberta. Um laboratório investiga moléculas quirais cuja cadeia carbônica seja insaturada, heterogênea e ramificada.",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{CH_3-(CH)_2-CH(OH)-CO-NH-CH_3}\\).",
+        "B": "\\(\\mathrm{CH_3-(CH)_2-CH(CH_3)-CO-NH-CH_3}\\).",
+        "C": "\\(\\mathrm{CH_3-(CH)_2-CH(CH_3)-CO-NH_2}\\).",
+        "D": "\\(\\mathrm{CH_3-CH_2-CH(CH_3)-CO-NH-CH_3}\\).",
+        "E": "\\(\\mathrm{C_6H_5-CH_2-CO-NH-CH_3}\\)."
+      }
+    }
+  },
+  "2014-79": {
+    "originalSha256": "6a0fdae31793dbdf1f03aa6bf82551fd91b61d2b35e0dd47a2a4b3e00101125e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar um tipo sanguíneo e a identificação conforme o texto do caderno; manter a tabela de aglutinação.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "Em um hospital havia cinco lotes de bolsas de sangue, rotulados com os códigos I, II, III, IV e V. Cada lote continha apenas um tipo sanguíneo não identificado. Uma funcionária do hospital resolveu fazer a identificação utilizando dois tipos de soro, anti-A e anti-B. Os resultados obtidos estão descritos no quadro.\n\n![](https://enem.dev/2014/questions/79/9e4960c8-af7a-4b51-8137-440c6fbf2713.png)"
+    }
+  },
+  "2014-80": {
+    "originalSha256": "076b5683404dccdd22c7237c2ccbd51691d0fdab585caf136a7f07d27160bc44",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar o contexto ausente que define os produtos fenol e acetona e a necessidade de separá-los para comercialização.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno). A equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.\n\n![](https://enem.dev/2014/questions/80/9dca1d8e-381f-4b07-ba36-17afcccfb4ad.png)"
+    }
+  },
+  "2014-83": {
+    "originalSha256": "ead582c03076a910a2fa2ac909525a0df75a87fff7a58b4a8189664d4157b8b6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar o contexto ausente com os limites de concentração e as massas e volumes das amostras necessários para interpretar a tabela.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "A utilização de processos de biorremediação de resíduos gerados pela combustão incompleta de compostos orgânicos tem se tornado crescente, visando minimizar a poluição ambiental. Para a ocorrência de resíduos de naftaleno, algumas legislações limitam sua concentração em até 30 mg/kg para solo agrícola e 0,14 mg/L para água subterrânea. A quantificação desse resíduo foi realizada em diferentes ambientes, utilizando-se amostras de 500 g de solo e 100 mL de água, conforme apresentado no quadro.\n\n![](https://enem.dev/2014/questions/83/014877a8-bf14-4a88-8c0f-70fa10954374.png)"
+    }
+  },
+  "2014-90": {
+    "originalSha256": "ed3913cd8af23e35fabbf2d0e0c40d641f916dfaae6ea9842bacd6fb9c026194",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar o primeiro parágrafo ausente que define fotocromismo, os três critérios de comparação e o significado de transmitância.",
+    "reviewedAt": "2026-10-22T00:59:00.915Z",
+    "fields": {
+      "context": "As lentes fotocromáticas escurecem quando expostas à luz solar por causa de reações químicas reversíveis entre uma espécie incolor e outra colorida. Diversas reações podem ser utilizadas, e a escolha do melhor reagente para esse fim se baseia em três principais aspectos: (i) o quanto escurece a lente; (ii) o tempo de escurecimento quando exposta à luz solar; e (iii) o tempo de esmaecimento em ambiente sem forte luz solar. A transmitância indica a razão entre a quantidade de luz que atravessa o meio e a quantidade de luz que incide sobre ele.\n\nDurante um teste de controle para o desenvolvimento de novas lentes fotocromáticas, foram analisadas cinco amostras, que utilizam reagentes químicos diferentes. No quadro, são apresentados os resultados.\n\n![](https://enem.dev/2014/questions/90/6f80414f-5fcb-4eac-8dac-2c6c829c91fe.png)"
+    }
+  },
+  "2014-136": {
+    "originalSha256": "e7bee10acb3277da939616571dc9d927b28ec4fc23b16c5726c5fd2662439ada",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O gráfico apresenta as taxas de desemprego durante o ano de 2011 e o primeiro semestre de 2012 na região metropolitana de São Paulo. A taxa de desemprego total é a soma das taxas de desemprego aberto e oculto.\n\n![](/assets/questions/2014/136/48b68b51-310d-4654-b637-5fece87a050f.png)\n\nSuponha que a taxa de desemprego oculto do mês de dezembro de 2012 tenha sido a metade da mesma taxa em junho de 2012 e que a taxa de desemprego total em dezembro de 2012 seja igual a essa taxa em dezembro de 2011.\n\nDisponível em: dieese.org.br. Acesso em: 1 ago. 2012 (fragmento)."
+    }
+  },
+  "2014-138": {
+    "originalSha256": "5f333355a01cadf977e9791395f3556b00e6db8bc26f63fedbf9b18786c8fcd8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O Ministério da Saúde e as unidades federadas promovem frequentemente campanhas nacionais e locais de incentivo à doação voluntária de sangue, em regiões com menor número de doadores por habitante, com o intuito de manter a regularidade de estoques nos serviços hemoterápicos. Em 2010, foram recolhidos dados sobre o número de doadores e o número de habitantes de cada região conforme o quadro seguinte.\n\n![](/assets/questions/2014/138/3fe2669a-4174-4db9-a85e-cee6c877f765.png)\n\nOs resultados obtidos permitiram que estados, municípios e o governo federal estabelecessem as regiões prioritárias do país para a intensificação das campanhas de doação de sangue.\n\nA campanha deveria ser intensificada nas regiões em que o percentual de doadores por habitantes fosse menor ou igual ao do país.\n\nDisponível em: http://bvsms.saude.gov.br. Acesso em: 2 ago. 2013 (adaptado)."
+    }
+  },
+  "2014-139": {
+    "originalSha256": "f95048b983d7bc5f2c3797c98cbf060f6f462f2ad2dd79098b443e3f3d3ecc1d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014. Reconstitui também notação matemática das alternativas conforme o original.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um carpinteiro fabrica portas retangulares maciças, feitas de um mesmo material. Por ter recebido de seus clientes pedidos de portas mais altas, aumentou sua altura em \\(\\frac18\\), preservando suas espessuras. A fim de manter o custo com o material de cada porta, precisou reduzir a largura.",
+      "alternativeTexts": {
+        "A": "\\(\\frac18\\)",
+        "B": "\\(\\frac78\\)",
+        "C": "\\(\\frac87\\)",
+        "D": "\\(\\frac89\\)",
+        "E": "\\(\\frac98\\)"
+      }
+    }
+  },
+  "2014-140": {
+    "originalSha256": "3b68853744319887630906564bfd3e78130dc0071ad6b850bd4a1edc50431fce",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "De acordo com a ONU, da água utilizada diariamente,\n\n- 25% são para tomar banho, lavar as mãos e escovar os dentes.\n- 33% são utilizados em descarga de banheiro.\n- 27% são para cozinhar e beber.\n- 15% são para demais atividades.\n\nNo Brasil, o consumo de água por pessoa chega, em média, a 200 litros por dia.\n\nO quadro mostra sugestões de consumo moderado de água por pessoa, por dia, em algumas atividades.\n\n![](/assets/questions/2014/140/4c998d12-4067-468b-8789-037afc8b6503.png)"
+    }
+  },
+  "2014-141": {
+    "originalSha256": "12ad1ac97253ddb6930371fc71044b9c6e26772e708ca7e3b5a7a67ee6cf4a48",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Os candidatos K, L, M, N e P estão disputando uma única vaga de emprego em uma empresa e fizeram provas de português, matemática, direito e informática. A tabela apresenta as notas obtidas pelos cinco candidatos.\n\n![](/assets/questions/2014/141/ed992f8e-53a4-461c-8d93-6d5c402836e3.png)"
+    }
+  },
+  "2014-142": {
+    "originalSha256": "cb4b62d42dc9e0b015beeae2a87ec5d1137a9a616682ca28493f48fc26faa8d1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014. Corrige a unidade de volume para m³.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Na alimentação de gado de corte, o processo de cortar a forragem, colocá-la no solo, compactá-la e protegê-la com uma vedação denomina-se silagem. Os silos mais comuns são os horizontais, cuja forma é a de um prisma reto trapezoidal, conforme mostrado na figura.\n\n![](/assets/questions/2014/142/3a321f8b-9e36-433f-9664-4f989a797ed8.png)\n\nConsidere um silo de 2 m de altura, 6 m de largura de topo e 20 m de comprimento. Para cada metro de altura do silo, a largura do topo tem 0,5 m a mais do que a largura do fundo. Após a silagem, 1 tonelada de forragem ocupa 2 m³ desse tipo de silo.\n\nEMBRAPA. **Gado de corte**. Disponível em: www.cnpgc.embrapa.br. Acesso em: 1 ago. 2012 (adaptado)."
+    }
+  },
+  "2014-143": {
+    "originalSha256": "df1dc10b39a06cbf3aa866315c1e0f0a6cc76f4f8b37c35673ead4573b4de21a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para comemorar o aniversário de uma cidade, um artista projetou uma escultura transparente e oca, cujo formato foi inspirado em uma ampulheta. Ela é formada por três partes de mesma altura: duas são troncos de cone iguais e a outra é um cilindro. A figura é a vista frontal dessa escultura.\n\n![](/assets/questions/2014/143/7bcb5fac-8918-4e78-8ef7-d6e64ee5a6a4.png)\n\nNo topo da escultura foi ligada uma torneira que verte água, para dentro dela, com vazão constante."
+    }
+  },
+  "2014-144": {
+    "originalSha256": "7e870b5efa08d171345ca6102ebae8ba5709621ce0b74e9eae12a1a58e9db595",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um sinalizador de trânsito tem o formato de um cone circular reto. O sinalizador precisa ser revestido externamente com adesivo fluorescente, desde sua base (base do cone) até a metade de sua altura, para sinalização noturna. O responsável pela colocação do adesivo precisa fazer o corte do material de maneira que a forma do adesivo corresponda exatamente à parte da superfície lateral a ser revestida."
+    }
+  },
+  "2014-145": {
+    "originalSha256": "72e842e937cd94742ff5658de7dbd109730560c1b14ab4f78a669776aebf646e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um professor, depois de corrigir as provas de sua turma, percebeu que várias questões estavam muito difíceis. Para compensar, decidiu utilizar uma função polinomial f, de grau menor que 3, para alterar as notas x da prova para notas y = f(x), da seguinte maneira:\n\n- A nota zero permanece zero.\n- A nota 10 permanece 10.\n- A nota 5 passa a ser 6."
+    }
+  },
+  "2014-146": {
+    "originalSha256": "3a594d5cc2cf0cb5055a1ae92e05d56a1950fe17330dcda1acd7f796adbcfc4f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014. Reconstitui também notação matemática das alternativas conforme o original.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Durante a Segunda Guerra Mundial, para decifrarem as mensagens secretas, foi utilizada a técnica de decomposição em fatores primos. Um número \\(N\\) é dado pela expressão \\(2^x\\cdot5^y\\cdot7^z\\), na qual \\(x\\), \\(y\\) e \\(z\\) são números inteiros não negativos. Sabe-se que \\(N\\) é múltiplo de 10 e não é múltiplo de 7.",
+      "alternativeTexts": {
+        "A": "\\(x\\cdot y\\cdot z\\)",
+        "B": "\\((x+1)(y+1)\\)",
+        "C": "\\(x\\cdot y\\cdot z-1\\)",
+        "D": "\\((x+1)(y+1)z\\)",
+        "E": "\\((x+1)(y+1)(z+1)-1\\)"
+      }
+    }
+  },
+  "2014-147": {
+    "originalSha256": "5346b7995ffa1b5e700fc7421e10c2883b5dc3cf705db81f7d760ec432fc9eb0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma criança deseja criar triângulos utilizando palitos de fósforo de mesmo comprimento. Cada triângulo será construído com exatamente 17 palitos e pelo menos um dos lados do triângulo deve ter o comprimento de exatamente 6 palitos. A figura ilustra um triângulo construído com essas características.\n\n![](/assets/questions/2014/147/7d03f38b-d6bf-4e4a-821c-ff2c6d13f8e0.png)"
+    }
+  },
+  "2014-148": {
+    "originalSha256": "b51c9f51d9c538218cd797b00e134324aad845e12a7d787f82244a791180d197",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A figura mostra uma criança brincando em um balanço no parque. A corda que prende o assento do balanço ao topo do suporte mede 2 metros. A criança toma cuidado para não sofrer um acidente, então se balança de modo que a corda não chegue a alcançar a posição horizontal.\n\n![](/assets/questions/2014/148/925f6a93-dd23-47d0-9176-6aa8754c38dd.png)\n\nNa figura, considere o plano cartesiano que contém a trajetória do assento do balanço, no qual a origem está localizada no topo do suporte do balanço, o eixo _X_ é paralelo ao chão do parque, e o eixo _Y_ tem orientação positiva para cima."
+    }
+  },
+  "2014-149": {
+    "originalSha256": "533975b82267dc9a1db2634255ec75d2b57d2ffad34375800eccec1e701a4215",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um show especial de Natal teve 45 000 ingressos vendidos. Esse evento ocorrerá em um estádio de futebol que disponibilizará 5 portões de entrada, com 4 catracas eletrônicas por portão. Em cada uma dessas catracas, passará uma única pessoa a cada 2 segundos. O público foi igualmente dividido pela quantidade de portões e catracas, indicados no ingresso para o show, para a efetiva entrada no estádio. Suponha que todos aqueles que compraram ingressos irão ao show e que todos passarão pelos portões e catracas eletrônicas indicados."
+    }
+  },
+  "2014-150": {
+    "originalSha256": "b4f311efb00cf1554795e02f30cd02baf4c4e00879530b30eaab771a9c4be2f8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Conforme regulamento da Agência Nacional de Aviação Civil (Anac), o passageiro que embarcar em voo doméstico poderá transportar bagagem de mão, contudo a soma das dimensões da bagagem (altura + comprimento + largura) não pode ser superior a 115 cm.\n\nA figura mostra a planificação de uma caixa que tem a forma de um paralelepípedo retângulo.\n\n![](/assets/questions/2014/150/d2daa25c-0942-4c50-b2a5-6ec82f5bcd4e.png)"
+    }
+  },
+  "2014-151": {
+    "originalSha256": "8d7ca0ff3e012444b4bdfce5d321f400dcd0f5f6fc3b8ba22e0c010291ec5f9b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma lata de tinta, com a forma de um paralelepípedo retangular reto, tem as dimensões, em centímetros, mostradas na figura.\n\n![](/assets/questions/2014/151/f01eefec-e89d-4de0-881e-3bf1249199ff.png)\n\nSerá produzida uma nova lata, com os mesmos formato e volume, de tal modo que as dimensões de sua base sejam 25% maiores que as da lata atual."
+    }
+  },
+  "2014-152": {
+    "originalSha256": "382478156d738e74c68be87a6ac483a0826f006731b3bfe3ef869ae529242285",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma organização não governamental divulgou um levantamento de dados realizado em algumas cidades brasileiras sobre saneamento básico. Os resultados indicam que somente 36% do esgoto gerado nessas cidades é tratado, o que mostra que 8 bilhões de litros de esgoto sem nenhum tratamento são lançados todos os dias nas águas.\n\nUma campanha para melhorar o saneamento básico nessas cidades tem como meta a redução da quantidade de esgoto lançado nas águas diariamente, sem tratamento, para 4 bilhões de litros nos próximos meses."
+    }
+  },
+  "2014-153": {
+    "originalSha256": "ff774edc8899384c620cdebcf23008d9a3be6370ae6a0e2237cc86e16a85b458",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma empresa de alimentos oferece três valores diferentes de remuneração a seus funcionários, de acordo com o grau de instrução necessário para cada cargo. No ano de 2013, a empresa teve uma receita de 10 milhões de reais por mês e um gasto mensal com a folha salarial de R$ 400 000,00, distribuídos de acordo com o Gráfico 1. No ano seguinte, a empresa ampliará o número de funcionários, mantendo o mesmo valor salarial para cada categoria. Os demais custos da empresa permanecerão constantes de 2013 para 2014. O número de funcionários em 2013 e 2014, por grau de instrução, está no Gráfico 2.\n\n![](/assets/questions/2014/153/3938c0bb-0e7b-4093-a8cc-36fc3213211a.png)"
+    }
+  },
+  "2014-154": {
+    "originalSha256": "8dcd3a4190c8026562f900bf577ae4171bf4b31d3abdef4ffe267ec7fa8b6ff4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Boliche é um jogo em que se arremessa uma bola sobre uma pista para atingir dez pinos, dispostos em uma formação de base triangular, buscando derrubar o maior número de pinos. A razão entre o total de vezes em que o jogador derruba todos os pinos e o número de jogadas determina seu desempenho.\n\nEm uma disputa entre cinco jogadores, foram obtidos os seguintes resultados:\n\n- Jogador I – Derrubou todos os pinos 50 vezes em 85 jogadas.\n- Jogador II – Derrubou todos os pinos 40 vezes em 65 jogadas.\n- Jogador III – Derrubou todos os pinos 20 vezes em 65 jogadas.\n- Jogador IV – Derrubou todos os pinos 30 vezes em 40 jogadas.\n- Jogador V – Derrubou todos os pinos 48 vezes em 90 jogadas."
+    }
+  },
+  "2014-155": {
+    "originalSha256": "34f7a4e342d11a9eb57983f469076847a3fa95c2a3960f02dae892ac47b45797",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Ao final de uma competição de ciências em uma escola, restaram apenas três candidatos. De acordo com as regras, o vencedor será o candidato que obtiver a maior média ponderada entre as notas das provas finais nas disciplinas química e física, considerando, respectivamente, os pesos 4 e 6 para elas. As notas são sempre números inteiros. Por questões médicas, o candidato II ainda não fez a prova final de química. No dia em que sua avaliação for aplicada, as notas dos outros dois candidatos, em ambas as disciplinas, já terão sido divulgadas.\n\nO quadro apresenta as notas obtidas pelos finalistas nas provas finais.\n\n![](/assets/questions/2014/155/d051c23d-cdd3-4ec4-9957-a9aa1a9bd0c4.png)"
+    }
+  },
+  "2014-156": {
+    "originalSha256": "e767e2a830d7b5d134136093ca48e4aba40d884e2af0b3eeb97d2b55e5c0168d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O condomínio de um edifício permite que cada proprietário de apartamento construa um armário em sua vaga de garagem. O projeto da garagem, na escala 1 : 100, foi disponibilizado aos interessados já com as especificações das dimensões do armário, que deveria ter o formato de um paralelepípedo retângulo reto, com dimensões, no projeto, iguais a 3 cm, 1 cm e 2 cm."
+    }
+  },
+  "2014-157": {
+    "originalSha256": "a96bb77b6430e427b5380c44193216f86b941be99dd705e931aedc8a066f4eb5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma loja que vende sapatos recebeu diversas reclamações de seus clientes relacionadas à venda de sapatos de cor branca ou preta. Os donos da loja anotaram as numerações dos sapatos com defeito e fizeram um estudo estatístico com o intuito de reclamar com o fabricante.\n\nA tabela contém a média, a mediana e a moda desses dados anotados pelos donos.\n\n![](/assets/questions/2014/157/0036f173-2e12-4c90-9b1b-9eb2fb4de45b.png)\n\nPara quantificar os sapatos pela cor, os donos representaram a cor branca pelo número 0 e a cor preta pelo número 1. Sabe-se que a média da distribuição desses zeros e uns é igual a 0,45.\n\nOs donos da loja decidiram que a numeração dos sapatos com maior número de reclamações e a cor com maior número de reclamações não serão mais vendidas."
+    }
+  },
+  "2014-158": {
+    "originalSha256": "1073c9f45561d166431574543177c92e4ee6b5905aef44c3c00b61490c2b1f6e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para analisar o desempenho de um método diagnóstico, realizam-se estudos em populações contendo pacientes sadios e doentes. Quatro situações distintas podem acontecer nesse contexto de teste:\n\n1. Paciente TEM a doença e o resultado do teste é POSITIVO.\n2. Paciente TEM a doença e o resultado do teste é NEGATIVO.\n3. Paciente NÃO TEM a doença e o resultado do teste é POSITIVO.\n4. Paciente NÃO TEM a doença e o resultado do teste é NEGATIVO.\n\nUm índice de desempenho para avaliação de um teste diagnóstico é a sensibilidade, definida como a probabilidade de o resultado do teste ser POSITIVO se o paciente estiver com a doença.\n\nO quadro refere-se a um teste diagnóstico para a doença A, aplicado em uma amostra composta por duzentos indivíduos.\n\n![](/assets/questions/2014/158/f3fb8087-ffc9-4624-9550-cb84254ac99f.png)\n\nBENSEÑOR, I. M.; LOTUFO, P. A. **Epidemiologia**: abordagem prática.\n\nSão Paulo: Sarvier, 2011 (adaptado)."
+    }
+  },
+  "2014-159": {
+    "originalSha256": "c4e9b4a4f9b82fe688fde9db7bb59b67c8e53b125a45ed5707ba073fc305d746",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma pessoa possui um espaço retangular de lados 11,5 m e 14 m no quintal de sua casa e pretende fazer um pomar doméstico de maçãs. Ao pesquisar sobre o plantio dessa fruta, descobriu que as mudas de maçã devem ser plantadas em covas com uma única muda e com espaçamento mínimo de 3 metros entre elas e entre elas e as laterais do terreno. Ela sabe que conseguirá plantar um número maior de mudas em seu pomar se dispuser as covas em filas alinhadas paralelamente ao lado de maior extensão."
+    }
+  },
+  "2014-160": {
+    "originalSha256": "a93824259939da1534f1337f6aa6fdb3c5d0ab3f63f83a566b2016393f4b2e13",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O acesso entre os dois andares de uma casa é feito através de uma escada circular (escada caracol), representada na figura. Os cinco pontos A, B, C, D, E sobre o corrimão estão igualmente espaçados, e os pontos P, A e E estão em uma mesma reta. Nessa escada, uma pessoa caminha deslizando a mão sobre o corrimão do ponto A até o ponto D.\n\n![](/assets/questions/2014/160/11f9c9a3-5c62-4447-a760-38bc9e08fad7.png)"
+    }
+  },
+  "2014-161": {
+    "originalSha256": "44a742e30e40f4e52e0fb95a7fca4a0048f4087555530d3dd8c304a2018cf510",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um pesquisador está realizando várias séries de experimentos com alguns reagentes para verificar qual o mais adequado para a produção de um determinado produto. Cada série consiste em avaliar um dado reagente em cinco experimentos diferentes. O pesquisador está especialmente interessado naquele reagente que apresentar a maior quantidade dos resultados de seus experimentos acima da média encontrada para aquele reagente. Após a realização de cinco séries de experimentos, o pesquisador encontrou os seguintes resultados:\n\n![](/assets/questions/2014/161/46f3d644-43b0-4dfc-9d1e-e688725abdaa.png)"
+    }
+  },
+  "2014-162": {
+    "originalSha256": "afd8619c6ffd8031609e446be9d3f98873b8fc4c161d604d9a84dbc48f7652f5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em uma cidade, o valor total da conta de energia elétrica é obtido pelo produto entre o consumo (em kWh) e o valor da tarifa do kWh (com tributos), adicionado à Cosip (contribuição para custeio da iluminação pública), conforme a expressão:\n\n_Valor do kWh (com tributos)_ × _consumo (em kWh) + Cosip_\n\nO valor da Cosip é fixo em cada faixa de consumo.  O quadro mostra o valor cobrado para algumas faixas.\n\n![](/assets/questions/2014/162/9f6d3bb3-95ac-44b3-88c3-7b0fe6d9d2f6.png)\n\nSuponha que, em uma residência, todo mês o consumo seja de 150 kWh, e o valor do kWh (com tributos) seja de R$ 0,50. O morador dessa residência pretende diminuir seu consumo mensal de energia elétrica com o objetivo de reduzir o custo total da conta em pelo menos 10%."
+    }
+  },
+  "2014-163": {
+    "originalSha256": "d3dfb588cf0ee14bad6b70713a14f5132234ee430a13c78a84013b08509f7df4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um cliente de uma videolocadora tem o hábito de alugar dois filmes por vez. Quando os devolve, sempre pega outros dois filmes e assim sucessivamente. Ele soube que a videolocadora recebeu alguns lançamentos, sendo 8 filmes de ação, 5 de comédia e 3 de drama e, por isso, estabeleceu uma estratégia para ver todos esses 16 lançamentos. Inicialmente alugará, em cada vez, um filme de ação e um de comédia. Quando se esgotarem as possibilidades de comédia, o cliente alugará um filme de ação e um de drama, até que todos os lançamentos sejam vistos e sem que nenhum filme seja repetido."
+    }
+  },
+  "2014-164": {
+    "originalSha256": "66457ad8de1071b2c6720aece67395c54c0bec47f28b19988e86d22d373d4836",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O psicólogo de uma empresa aplica um teste para analisar a aptidão de um candidato a determinado cargo. O teste consiste em uma série de perguntas cujas respostas devem ser verdadeiro ou falso e termina quando o psicólogo fizer a décima pergunta ou quando o candidato der a segunda resposta errada. Com base em testes anteriores, o psicólogo sabe que a probabilidade de o candidato errar uma resposta é 0,20."
+    }
+  },
+  "2014-166": {
+    "originalSha256": "057c4bd414471b02d8781cefee273c7d050d4d68b9af70b61acb105fb68d2cf1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "No Brasil há várias operadoras e planos de telefonia celular.\n\nUma pessoa recebeu 5 propostas (A, B, C, D e E) de planos telefônicos. O valor mensal de cada plano está em função do tempo mensal das chamadas, conforme o gráfico.\n\n![](/assets/questions/2014/166/9eb6c121-ac40-452b-b439-1b2261d6e950.png)\n\nEssa pessoa pretende gastar exatamente R$ 30,00 por mês com telefone."
+    }
+  },
+  "2014-167": {
+    "originalSha256": "08cea2c97a5584dda506102921e3f976389ac1d8337387e5732d33435297d95c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma empresa farmacêutica produz medicamentos em pílulas, cada uma na forma de um cilindro com uma semiesfera com o mesmo raio do cilindro em cada uma de suas extremidades. Essas pílulas são moldadas por uma máquina programada para que os cilindros tenham sempre 10 mm de comprimento, adequando o raio de acordo com o volume desejado.\n\nUm medicamento é produzido em pílulas com 5 mm de raio. Para facilitar a deglutição, deseja-se produzir esse medicamento diminuindo o raio para 4 mm, e, por consequência, seu volume. Isso exige a reprogramação da máquina que produz essas pílulas.\n\nUse 3 como valor aproximado para π."
+    }
+  },
+  "2014-169": {
+    "originalSha256": "690bdc2c84166013ee01a3de5444f7202680974150f7b6e6984e0feb71ec0d29",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A Figura 1 representa uma gravura retangular com 8 m de comprimento e 6 m de altura.\n\n![](/assets/questions/2014/169/b44d9617-dc63-4685-b986-350085211e6d.png)\n\nDeseja-se reproduzi-la numa folha de papel retangular com 42 cm de comprimento e 30 cm de altura, deixando livres 3 cm em cada margem, conforme a Figura 2.\n\n![](/assets/questions/2014/169/763670f1-6c10-4db7-bc89-5871441c12b6.png)\n\nA reprodução da gravura deve ocupar o máximo possível da região disponível, mantendo-se as proporções da Figura 1\n\nPRADO, A. C. **Superinteressante**, ed. 301, fev. 2012 (adaptado)."
+    }
+  },
+  "2014-170": {
+    "originalSha256": "7d1cc78da57c4b5e08ccbc36f8ec74a24baaf3f3e6c6ab77398ea86e2198c3ad",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014. Reconstitui também notação matemática das alternativas conforme o original.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma empresa que organiza eventos de formatura confecciona canudos de diplomas a partir de folhas de papel quadradas. Para que todos os canudos fiquem idênticos, cada folha é enrolada em torno de um cilindro de madeira de diâmetro d em centímetros, sem folga, dando-se 5 voltas completas em torno de tal cilindro. Ao final, amarra-se um cordão no meio do diploma, bem ajustado, para que não ocorra o desenrolamento, como ilustrado na figura.\n\n![](/assets/questions/2014/170/3ce1ab6e-11a1-45d0-a43f-cf84e9fc4e79.png)\n\nEm seguida, retira-se o cilindro de madeira do meio do papel enrolado, finalizando a confecção do diploma. Considere que a espessura da folha de papel original seja desprezível.",
+      "alternativeTexts": {
+        "A": "\\(\\pi d\\)",
+        "B": "\\(2\\pi d\\)",
+        "C": "\\(4\\pi d\\)",
+        "D": "\\(5\\pi d\\)",
+        "E": "\\(10\\pi d\\)"
+      }
+    }
+  },
+  "2014-171": {
+    "originalSha256": "95293bd13a756fb52e1d83599e17b4cdbab1ee40274e22ca6778f6aad5bf770d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma ponte precisa ser dimensionada de forma que possa ter três pontos de sustentação. Sabe-se que a carga máxima suportada pela ponte será de 12 t. O ponto de sustentação central receberá 60% da carga da ponte, e o restante da carga será distribuído igualmente entre os outros dois pontos de sustentação."
+    }
+  },
+  "2014-172": {
+    "originalSha256": "12b181ad43281fecf505cfbd51e8bb7df1288535456232fa2dff8d96906bc595",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Os incas desenvolveram uma maneira de registrar quantidades e representar números utilizando um sistema de numeração decimal posicional: um conjunto de cordas com nós denominado quipus. O quipus era feito de uma corda matriz, ou principal (mais grossa que as demais), na qual eram penduradas outras cordas, mais finas, de diferentes tamanhos e cores (cordas pendentes). De acordo com a sua posição, os nós significavam unidades, dezenas, centenas e milhares. Na Figura 1, o quipus representa o número decimal 2 453. Para representar o “zero” em qualquer posição, não se coloca nenhum nó.\n\n![](/assets/questions/2014/172/d8842865-9aae-47ac-87d3-7eb78f57f384.png)\n\nDisponível em: www.culturaperuana.com.br. Acesse em: 13 dez. 2012."
+    }
+  },
+  "2014-173": {
+    "originalSha256": "89dfdc7c79951fc6efd2bffb2d3adf910b4fd10fc0d02028c407b26770d448e6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "A maior piscina do mundo, registrada no livro Guiness, está localizada no Chile, em San Alfonso del Mar, cobrindo um terreno de 8 hectares de área.\n\nSabe-se que 1 hectare corresponde a 1 hectômetro quadrado."
+    }
+  },
+  "2014-174": {
+    "originalSha256": "0ab9b2f32613bc987576601eb16cabdc3639efd52224b78509e74f2cb411431f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Durante uma epidemia de uma gripe viral, o secretário de saúde de um município comprou 16 galões de álcool em gel, com 4 litros de capacidade cada um, para distribuir igualmente em recipientes para 10 escolas públicas do município. O fornecedor dispõe à venda diversos tipos de recipientes, com suas respectivas capacidades listadas:\n\n- Recipiente I: 0,125 litro\n- Recipiente II: 0,250 litro\n- Recipiente III: 0,320 litro\n- Recipiente IV: 0,500 litro\n- Recipiente V: 0,800 litro\n\nO secretário de saúde comprará recipientes de um mesmo tipo, de modo a instalar 20 deles em cada escola, abastecidos com álcool em gel na sua capacidade máxima, de forma a utilizar todo o gel dos galões de uma só vez."
+    }
+  },
+  "2014-175": {
+    "originalSha256": "b8ab2443903cf69bda766d313c08eb546a864168010dc556c4639222ce0d1fa4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Os vidros para veículos produzidos por certo fabricante têm transparências entre 70% e 90%, dependendo do lote fabricado. Isso significa que, quando um feixe luminoso incide no vidro, uma parte entre 70% e 90% da luz consegue atravessá-lo. Os veículos equipados com vidros desse fabricante terão instaladas, nos vidros das portas, películas protetoras cuja transparência, dependendo do lote fabricado, estará entre 50% e 70%. Considere que uma porcentagem P da intensidade da luz, proveniente de uma fonte externa, atravessa o vidro e a película."
+    }
+  },
+  "2014-176": {
+    "originalSha256": "1bcdf307b56331dd84b6c4174f698ed409f7c7b9b0c6e56bc64691106cae5085",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um cientista trabalha com as espécies I e II de bactérias em um ambiente de cultura. Inicialmente, existem 350 bactérias da espécie I e 1 250 bactérias da espécie II. O gráfico representa as quantidades de bactérias de cada espécie, em função do dia, durante uma semana.\n\n![](/assets/questions/2014/176/26bc065f-aefd-4edc-9fec-d2a1027ddf48.png)"
+    }
+  },
+  "2014-177": {
+    "originalSha256": "619d95bbeb717fbcf3d736c9c3b17c811dd840f1b04f26e06a7b36823822cb6b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um fazendeiro tem um depósito para armazenar leite formado por duas partes cúbicas que se comunicam, como indicado na figura. A aresta da parte cúbica de baixo tem medida igual ao dobro da medida da aresta da parte cúbica de cima. A torneira utilizada para encher o depósito tem vazão constante e levou 8 minutos para encher metade da parte de baixo.\n\n![](/assets/questions/2014/177/0a4df606-c0a5-4bac-b988-67ea996fa475.png)"
+    }
+  },
+  "2014-178": {
+    "originalSha256": "7131fff54118da56f18bb79c0ce5a29f49084f4f386dd16ec97fb6efcd033b0e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Diariamente, uma residência consome 20 160 Wh. Essa residência possui 100 células solares retangulares (dispositivos capazes de converter a luz solar em energia elétrica) de dimensões 6 cm × 8 cm. Cada uma das tais células produz, ao longo do dia, 24 Wh por centímetro de diagonal. O proprietário dessa residência quer produzir, por dia, exatamente a mesma quantidade de energia que sua casa consome."
+    }
+  },
+  "2014-179": {
+    "originalSha256": "c7aeaf4ced49b0f83e8d1d280f40158f50a99f3db864e197a8b4d7efacbac9ef",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Uma pessoa compra semanalmente, numa mesma loja, sempre a mesma quantidade de um produto que custa R$ 10,00 a unidade. Como já sabe quanto deve gastar, leva sempre R$ 6,00 a mais do que a quantia necessária para comprar tal quantidade, para o caso de eventuais despesas extras. Entretanto, um dia, ao chegar à loja, foi informada de que o preço daquele produto havia aumentado 20%. Devido a esse reajuste, concluiu que o dinheiro levado era a quantia exata para comprar duas unidades a menos em relação à quantidade habitualmente comprada."
+    }
+  },
+  "2014-180": {
+    "originalSha256": "d9018aab3f5216ae278cd5d6392057acae6a3b2238d6ee4fd4b03e97579ac92c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD7.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o início do enunciado ausente no snapshot da API, conferido no caderno oficial azul do segundo dia do ENEM 2014.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um executivo sempre viaja entre as cidades A e B, que estão localizadas em fusos horários distintos. O tempo de duração da viagem de avião entre as duas cidades é de 6 horas. Ele sempre pega um voo que sai de A às 15h e chega à cidade B às 18h (respectivos horários locais).\n\nCerto dia, ao chegar à cidade B, soube que precisava estar de volta à cidade A, no máximo, até as 13h do dia seguinte (horário local de A)."
+    }
   }
 }
