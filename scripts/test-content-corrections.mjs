@@ -15,6 +15,8 @@ test("official booklet sources accept historical INEP paths and reject mismatche
   assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2015_DIA_2_07_AZUL.pdf"), false);
   assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2017/cad_1_prova_azul_5112017.pdf"), true);
   assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2016/cad_1_prova_azul_5112017.pdf"), false);
+  for (const year of [2011, 2012, 2013]) assert.equal(isOfficialBookletURL(`https://download.inep.gov.br/educacao_basica/enem/provas/${year}/dia2_caderno7_azul.pdf`), true);
+  assert.equal(isOfficialBookletURL("https://download.inep.gov.br/educacao_basica/enem/provas/2014/dia2_caderno7_azul.pdf"), false);
   for (const value of [undefined, "https://example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br.example.com/enem/provas_e_gabaritos/exam.pdf", "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2018_PV_impresso_D1_CD1.pdf", "https://download.inep.gov.br/enem/provas_e_gabaritos/../exam.pdf"]) {
     assert.equal(isOfficialBookletURL(value), false);
   }

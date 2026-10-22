@@ -1453,5 +1453,960 @@
     "fields": {
       "context": "Às 17 h 15 min começa uma forte chuva, que cai com intensidade constante. Uma piscina em forma de um paralelepípedo retângulo, que se encontrava inicialmente vazia, começa a acumular a água da chuva e, às 18 horas, o nível da água em seu interior alcança 20 cm de altura. Nesse instante, é aberto o registro que libera o escoamento da água por um ralo localizado no fundo dessa piscina, cuja vazão é constante. Às 18 h 40 min a chuva cessa e, nesse exato instante, o nível da água na piscina baixou para 15 cm."
     }
+  },
+  "2016-91-espanhol": {
+    "originalSha256": "9c427fd4a4d2da632059a872b46a9e0d80bc6373874ea359d6ee8953f4e6fc96",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura acentos, ñ, pele e sinal de interrogação que foram corrompidos na importação, conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:11:17.090Z",
+    "fields": {
+      "context": "La Sala II de la Cámara de Casación Penal ordenó que Marcela y Felipe Noble Herrera, los hijos adoptivos de la dueña de Clarín, se sometan “a la extracción directa, con o sin consentimiento, de mínimas muestras de sangre, saliva, piel, cabello u otras muestras biológicas” que les pertenezcan de “manera indubitable” para poder determinar si son hijos de desaparecidos. El tribunal, así, hizo lugar a un reclamo de las Abuelas de Plaza de Mayo y movió un casillero una causa judicial que ya lleva diez años de indefinición. Sin embargo, simultáneamente, fijó un límite y sólo habilitó la comparación de los perfiles genéticos de los jóvenes con el ADN de las familias de personas “detenidas o desaparecidas con certeza” hasta el 13 de mayo de 1976, en el caso de Marcela, y hasta el 7 de julio del mismo año en el de Felipe. La obtención del material genético no será inmediata, ya que algunas de las partes apelarán y el tema inevitablemente desembocará a la Corte Suprema, que tendrá la palabra final sobre la discusión de fondo.  \n“Es una de cal y otra de arena, es querer quedar bien con Dios y con el diablo”, resumió la presidenta de Abuelas, Estela Carlotto, su primera impresión de la resolución que firmaron Guillermo Yacobucci, Luis García y Raúl Madueño. Aun así la evaluó como “un paso importante” porque determina que “sí o sí la extracción de sangre o de elementos que  \ncontengan ADN debe proceder”. “Lo que nos cayó mal”, acotó, es “la limitación” temporal que permitirá que la comparación se haga sólo con un grupo de familias. “Seguimos con la historia de que acá hay de primera y de segunda. ¿Por qué todos los demás casos siempre se han comparado con el Banco (de Datos Genéticos) completo y en éste no?”, se preguntó.\n\nHAUSER, I. Disponível em: www.pagina12.com.ar. Acesso em: 30 maio 2016."
+    }
+  },
+  "2016-93": {
+    "originalSha256": "4a4377893f96c12e4bea3ac5055f73cdb94bc4dd0297e42d0e19252b6a2c9f92",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura a capitalização original de três palavras inglesas alteradas na transcrição.",
+    "reviewedAt": "2026-10-18T07:11:17.090Z",
+    "fields": {
+      "context": "**Italian university switches to English**\n\n_By Sean Coughlan, BBC News education correspondent 16 May 2012 Last updated at 09:49 GMT_\n\nMilan is crowded with Italian icons, which makes it even more of a cultural earthquake that one of Italy’s leading universities – the Politecnico di Milano – is going to switch to the English language. The university has announced that from 2014 most of its degree courses – including all its graduate courses – will be taught and assessed entirely in English rather than Italian.\n\nThe waters of globalisation are rising around higher education – and the university believes that if it remains Italian-speaking it risks isolation and will be unable to compete as an international institution. “We strongly believe our classes should be international classes – and the only way to have international classes is to use the English language”, says the university’s rector, Giovanni Azzone.\n\nCOUGHLAN, S. Disponível em: www.bbc.co.uk. Acesso em 31 jul. 2012."
+    }
+  },
+  "2016-94-espanhol": {
+    "originalSha256": "ec8de1cf14b7add05d0956c772c0fbfc188db642f4dcae517d43148c73c20584",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura fijo e o artigo un omitido antes de coeficiente, além do sobrenome da fonte; seguradoras é preservado por constar no original.",
+    "reviewedAt": "2026-10-18T07:11:17.090Z",
+    "fields": {
+      "context": "**Inestabilidad estable**\n\nLos que llevan toda la vida esforzándose por conseguir un pensamiento estable, con suficiente solidez como para evitar que la incertidumbre se apodere de sus habilidades, todas esas lecciones sobre cómo asegurarse el porvenir, aquellos que nos aconsejaban que nos dejáramos de bagatelas poéticas y encontráramos un trabajo fijo y etcétera, abuelos, padres, maestros, suegros, bancos y seguradoras, nos estaban dando gato por liebre.\n\nY el mundo, este mundo que nos han creado, que al tocarlo en la pantalla creemos estar transformando a medida de nuestro deseo, nos está modelando según un coeficiente de rentabilidad, nos está licuando para integrarnos a su metabolismo reflejo.\n\nFERNÁNDEZ ROJANO, G. Disponível em: http://diariojaen.es Acesso em: 23 maio 2012."
+    }
+  },
+  "2016-95-espanhol": {
+    "originalSha256": "8a40036bae8f004b7d1a4c7dc33b050ee749074bc220d46231bcf4747faea986",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura a separação com o verbo no comando da questão.",
+    "reviewedAt": "2026-10-18T07:11:17.090Z",
+    "fields": {
+      "alternativesIntroduction": "Nesse grafite, realizado por um grupo que faz intervenções artísticas na cidade de Lima, há um jogo de palavras com o verbo “poner”. Na primeira ocorrência, o verbo equivale a “vestir uma roupa”, já na segunda, indica"
+    }
+  },
+  "2016-100": {
+    "originalSha256": "1d2da564500acd630ea00c7f388d9de0b105102c56600ca950765c6b35dd93f9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 6,
+    "reason": "Remove uma alternativa inserida por engano no comando e restaura Quanto e a pontuação do soneto conforme a prova.",
+    "reviewedAt": "2026-10-18T07:11:17.090Z",
+    "fields": {
+      "context": "Soneto VII\n\nOnde estou? Este sítio desconheço:  \nQuem fez tão diferente aquele prado?  \nTudo outra natureza tem tomado;  \nE em contemplá-lo tímido esmoreço.\n\nUma fonte aqui  houve; eu  não  me esqueço  \nDe estar a ela um dia reclinado:  \nAli em vale um monte está mudado:  \nQuanto pode dos anos o progresso!\n\nÁrvores  aqui vi  tão  florescentes  \nQue faziam perpétua a primavera:  \nNem troncos vejo agora decadentes.\n\nEu me  engano: a região esta  não era;  \nMas que venho a estranhar, se estão presentes  \nMeus males, com que tudo degenera!\n\n(COSTA, C.M. **Poemas**. Disponível em  www.dominiopublico.gov.br. Acesso em 7 jul  2012)",
+      "alternativesIntroduction": "No soneto de Cláudio Manuel da Costa, a contemplação da paisagem permite ao eu lírico uma reflexão em que transparece uma"
+    }
+  },
+  "2016-5": {
+    "originalSha256": "748e257d137b75bb801cd0dcbe804e36a1813df12acec3cae9341371a9befbca",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 3,
+    "reason": "Restaurados acentos, capitalização e pontuação das referências corrompidos pela importação, conforme página 3 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nDocumentos do século XVI algumas vezes se referem aos habitantes indígenas como “os brasis”, ou “gente brasília” e, ocasionalmente no século XVII, o termo “brasileiro” era a eles aplicado, mas as referências ao status econômico e jurídico desses eram muito mais populares. Assim, os termos “negro da terra” e “índios” eram utilizados com mais frequência do que qualquer outro.\n\nSCHWARTZ, S. B. Gente da terra braziliense da nação. Pensando o Brasil: a construção de um povo. In: MOTA, C. G. (Org.) **Viagem incompleta**: a experiência brasileira (1500-2000). São Paulo: Senac, 2000 (adaptado)\n\n**TEXTO II**\n\nÍndio é um conceito construído no processo de conquista da América pelos europeus. Desinteressados pela diversidade cultural, imbuídos de forte preconceito para com o outro, o indivíduo de outras culturas, espanhóis, portugueses, franceses e anglo-saxões terminaram por denominar da mesma forma povos tão díspares quanto os tupinambás e os astecas.\n\nSILVA, K. V.; SILVA, M. H. **Dicionário de conceitos históricos**. São Paulo: Contexto, 2005",
+      "alternativeTexts": {
+        "D": "Transposição direta das categorias originadas no imaginário medieval."
+      }
+    }
+  },
+  "2016-6": {
+    "originalSha256": "506e677047b95a0fbe0518af418ea06e2f13be6effbf9a4917c18b82e9f31a22",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 3,
+    "reason": "Restaurada a grafia obrigam no solilóquio, conforme página 3 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "Ser ou não ser — eis a questão.  \nMorrer — dormir — Dormir! Talvez sonhar. Aí está o obstáculo!  \nOs sonhos que hão de vir no sono da morte  \nQuando tivermos escapado ao tumulto vital  \nNos obrigam a hesitar: e é essa a reflexão  \nQue dá à desventura uma vida tão longa.\n\nSHAKESPEARE, W. **Hamlet**. Porto Alegre: L&PM, 2007"
+    }
+  },
+  "2016-7": {
+    "originalSha256": "009acdfb1de78d28e481c4080a97fc6cde39e64694855e2a856b8238aa69111c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 3,
+    "reason": "Restaurados o ano da notícia omitido no comando, a grafia de papéis e o endereço da referência conforme a página oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "**TEXTO I**\n\n![](/assets/questions/2016/7/6576ec6c-8680-4c1b-90c0-6c259bf29f52.jpg)\n\nTradução: “As mulheres do futuro farão da Lua um  \nlugar mais limpo para se viver”.\n\nDisponível em: www.propagandashistoricas.com.br. Acesso em: 16 out. 2015.\n\n**TEXTO II**\n\n**Metade da nova equipe da Nasa** **é composta por mulheres**\n\nAté hoje, cerca de 350 astronautas americanos já estiveram no espaço, enquanto as mulheres não chegam a ser um terço desse número. Após o anúncio da turma composta 50% por mulheres, alguns internautas escreveram comentários machistas e desrespeitosos sobre a escolha nas redes sociais.\n\nDisponível em: https://catracalivre.com.br. Acesso em 10 mar 2016",
+      "alternativesIntroduction": "A comparação entre o anúncio publicitário de 1968 e a repercussão da notícia de 2016 mostra a",
+      "alternativeTexts": {
+        "E": "Equiparação de papéis nas relações familiares."
+      }
+    }
+  },
+  "2016-8": {
+    "originalSha256": "1964635b37ab72dd70b8ad03efe3c8c00c927af6a0eb26cf039e262f7c1239b7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 4,
+    "reason": "Restaurada a capitalização de consta no interior do período, conforme página 4 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "A África Ocidental é conhecida pela dinâmica das suas mulheres comerciantes, caracterizadas pela perícia, autonomia e mobilidade. A sua presença, que fora atestada por viajantes e por missionários portugueses que visitaram a costa a partir do século XV, consta também na ampla documentação sobre a região. A literatura é rica em referências às grandes mulheres como as vendedoras ambulantes, cujo jeito para o negócio, bem como a autonomia e mobilidade, é tão típico da região.\n\nHAVIK, P. Dinâmicas e assimetrias afro-atlânticas: a agência feminina e representações em mudança na Guiné (séculos XIX e XX). In: PANTOJA, S. (Org.). **Identidades, memórias e histórias em terras africanas**, Brasília: LGE; Luanda: Nzila, 2006."
+    }
+  },
+  "2016-21": {
+    "originalSha256": "92b473e10101952d7ca905201d26dfb65fe2cdb5fea05eba99b3876061e89830",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaurada a separação entre título e local na referência de Políbio, conforme página 8 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "Pois quem seria tão inútil ou indolente a ponto de não desejar saber como e sob que espécie de constituição os romanos conseguiram em menos de cinquenta e três anos submeter quase todo o mundo habitado ao seu governo exclusivo – fato nunca antes ocorrido? Ou, em outras palavras, quem seria tão apaixonadamente devotado a outros espetáculos ou estudos a ponto de considerar qualquer outro objetivo mais importante que a aquisição desse conhecimento?\n\nPOLÍBIO. **História**. Brasília: Editora UnB, 1985."
+    }
+  },
+  "2016-22": {
+    "originalSha256": "8841c22c417e479415905699a619baeb3cc5afdb9bdd5ea87298f7152a4e0be5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 8,
+    "reason": "Restaurada a referência autoral de Persépolis, ausente na importação e presente sob a tirinha na página 8 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "![](/assets/questions/2016/22/c25dd95b-e454-4cae-bcaf-3b11492355c7.jpg)\n\nSATRAPI, M. **Persépolis**. São Paulo: Cia. das Letras, 2007 (adaptado)."
+    }
+  },
+  "2016-24": {
+    "originalSha256": "11319a852448b96706b9ff3f4d4f851c749275d29b5b9d179a0fc89efc7677f5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 9,
+    "reason": "Restauradas a capitalização de conflito e pontuação da referência, conforme página 9 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "A democracia deliberativa afirma que as partes do conflito político devem deliberar entre si e, por meio de argumentação razoável, tentar chegar a um acordo sobre as políticas que seja satisfatório para todos. A democracia ativista desconfia das exortações à deliberação por acreditar que, no mundo real da política, onde as desigualdades estruturais influenciam procedimentos e resultados, processos democráticos que parecem cumprir as normas de deliberação geralmente tendem a beneficiar os agentes mais poderosos. Ela recomenda, portanto, que aqueles que se preocupam com a promoção de mais justiça devem realizar principalmente a atividade de oposição crítica, em vez de tentar chegar a um acordo com quem sustenta estruturas de poder existentes ou delas se beneficia.\n\nYOUNG, I. M. Desafios ativistas à democracia deliberativa. **Revista Brasileira de Ciência Política**, n. 13, jan.-abr. 2014."
+    }
+  },
+  "2016-25": {
+    "originalSha256": "b6299c78677b4142de15e7fc64257cbae495cdd622ff8290ff88bce895a48d03",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 9,
+    "reason": "Restaurada a capitalização de vai no interior do período, conforme página 9 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "A promessa da tecnologia moderna se converteu em uma ameaça, ou esta se associou àquela de forma indissolúvel. Ela vai além da constatação da ameaça física. Concebida para a felicidade humana, a submissão da natureza, na sobremedida de seu sucesso, que agora se estende à própria natureza do homem, conduziu ao maior desafio já posto ao ser humano pela sua própria ação. O novo continente da práxis coletiva que adentramos com a alta tecnologia ainda constitui, para a teoria ética, uma terra de ninguém.\n\nJONAS, H. **O princípio da responsabilidade**. Rio de Janeiro: Contraponto; Editora PUC-Rio, 2011 (adaptado)."
+    }
+  },
+  "2016-35": {
+    "originalSha256": "8158509f1d576c0feeb3c6b374536524e315169b4ff8e6911bcf38227eaa441c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 12,
+    "reason": "Restaurados o acento de polícia e a pontuação de alternativas e referência, conforme página 12 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "O coronelismo era fruto de alteração na relação de forças entre os proprietários rurais e o governo, e significava o fortalecimento do poder do Estado antes que o predomínio do coronel. Nessa concepção, o coronelismo é, então, um sistema político nacional, com base em barganhas entre o governo e os coronéis. O coronel tem o controle dos cargos públicos, desde o delegado de polícia até a professora primária. O coronel hipoteca seu apoio ao governo, sobretudo na forma de voto.\n\nCARVALHO, J. M. **Pontos e bordados**: escritos de história política. Belo Horizonte: Editora UFMG, 1998 (adaptado)",
+      "alternativeTexts": {
+        "A": "Coação das milícias locais.",
+        "B": "Estagnação da dinâmica urbana.",
+        "C": "Valorização do proselitismo partidário.",
+        "D": "Disseminação de práticas clientelistas."
+      }
+    }
+  },
+  "2016-41": {
+    "originalSha256": "e46ca4129d34b058e910f60b4805d9279df07cf3fec390d12dd1f5367ad14eb6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaurada a palavra desunidade, dividida e duplicada na importação, e a pontuação da editora conforme página 14 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "Ser moderno é encontrar-se em um ambiente que promete aventura, poder, alegria, crescimento, autotransformação e transformação das coisas em redor – mas ao mesmo tempo ameaça destruir tudo o que temos, tudo o que sabemos, tudo o que somos. A experiência ambiental da modernidade anula todas as fronteiras geográficas e raciais, de classe e nacionalidade: nesse sentido, pode-se dizer que a modernidade une a espécie humana. Porém, é uma unidade paradoxal, uma unidade de desunidade.\n\nBERMAN, M. **Tudo que é sólido desmancha no ar**: a aventura da modernidade. São Paulo: Cia. das Letras, 1986 (adaptado)."
+    }
+  },
+  "2016-42": {
+    "originalSha256": "f54120ae21b6f6f4c926ee8b6aed05bae13af1a81c59c353c13a7165677f4a8a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restauradas grafia de recepção na alternativa D, capitalização e pontuação da referência conforme página 14 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "Não estou mais pensando como costumava pensar. Percebo isso de modo mais acentuado quando estou lendo. Mergulhar num livro, ou num longo artigo, costumava ser fácil. Isso raramente ocorre atualmente. Agora minha atenção começa a divagar depois de duas ou três páginas. Creio que sei o que está acontecendo. Por mais de uma década venho passando mais tempo on-line, procurando e surfando e algumas vezes acrescentando informação à grande biblioteca da internet. A internet tem sido uma dádiva para um escritor como eu. Pesquisas que antes exigiam dias de procura em jornais ou na biblioteca agora podem ser feitas em minutos. Como disse o teórico da comunicação Marshall McLuhan nos anos 60, a mídia não é apenas um canal passivo para o tráfego de informação. Ela fornece a matéria, mas também molda o processo de pensamento. E o que a net parece fazer é pulverizar minha capacidade de concentração e contemplação.\n\nCARR, N. **Is Google making us stupid?** Disponível em: www.theatlantic.com. Acesso em: 17 fev. 2013 (adaptado).",
+      "alternativeTexts": {
+        "D": "Aproximar uma mídia inovadora à passividade da recepção."
+      }
+    }
+  },
+  "2016-43": {
+    "originalSha256": "e0a896b78b2f5967153ca7dea256cacbf0f5992bba7e9ce579c2d6babb0b4f5d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 14,
+    "reason": "Restaurada a grafia histórica de pessôas e do nome do periódico no excerto, além de século no comando conforme página 14 oficial.",
+    "reviewedAt": "2026-10-18T07:26:13.322Z",
+    "fields": {
+      "context": "![](/assets/questions/2016/43/25844aa7-6b4c-4afc-8313-b62fef4c488b.jpg)\n\nUma scena franco-brazileira: “franco” – pelo local e os personagens, o local que é Paris e os personagens que são pessôas do povo da grande capital; “brazileira” pelo que ahi se está bebendo: café do Brazil. O Lettreiro diz a verdade apregoando que esse é o melhor de todos os cafés. (Essa página foi desenhada especialmente para A Illustração Brazileira pelo Sr. Tofani, desenhista do Je Sais Tout.)\n\n**A Illustração Brazileira**, n. 2, 15 jun. 1909 (adaptado).",
+      "alternativesIntroduction": "A página do periódico do início do século XX documenta um importante elemento da cultura francesa, que é revelador do papel do Brasil na economia mundial, indicado no seguinte aspecto:"
+    }
+  },
+  "2016-48": {
+    "originalSha256": "e1f498827d6536f7a66be0e7be66ff1786b3aa83d68ad47a1e1dfd20dab1c05b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar o parágrafo inicial omitido sobre o descarte das fezes, preservando as duas figuras e o restante do enunciado.",
+    "reviewedAt": "2026-10-18T07:24:34.476Z",
+    "fields": {
+      "context": "A coleta das fezes dos animais domésticos em sacolas plásticas e o seu descarte em lixeiras convencionais podem criar condições de degradação que geram produtos prejudiciais ao meio ambiente (Figura 1).\n\n![](https://enem.dev/2016/questions/48/ce6bddea-21d4-44b9-9683-36234b25cc12.jpg)\n\nA Figura 2 ilustra o Projeto Park Spark, desenvolvido em Cambridge, MA (EUA), em que as fezes dos animais domésticos são recolhidas em sacolas biodegradáveis e jogadas em um biodigestor instalado em parques públicos; e os produtos são utilizados em equipamentos no próprio parque.\n\n![](https://enem.dev/2016/questions/48/29c36443-64d1-4747-85cb-c057dd8d39ed.jpg)"
+    }
+  },
+  "2016-49": {
+    "originalSha256": "475c6a184364590a91dd2edf72a1a66713d14f0824e69a75e64642a5e6580355",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurar o enunciado ausente que define fonte, observador, movimento e frequências; manter figura e cinco gráficos originais.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "Uma ambulância A em movimento retilíneo e uniforme aproxima-se de um observador O, em repouso. A sirene emite um som de frequência constante \\(f_A\\). O desenho ilustra as frentes de onda do som emitido pela ambulância. O observador possui um detector que consegue registrar, no esboço de um gráfico, a frequência da onda sonora detectada em função do tempo \\(f_O(t)\\), antes e depois da passagem da ambulância por ele.\n\n![](https://enem.dev/2016/questions/49/c694a7ba-780c-4ea0-aa71-df3cbe4a300a.png)",
+      "alternativesIntroduction": "Qual esboço gráfico representa a frequência \\(f_O(t)\\) detectada pelo observador?"
+    }
+  },
+  "2016-50": {
+    "originalSha256": "e0ffbaebe73d1978ed06185527e1f86e58495458ece0e5cbe650ae371a3fa010",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurar o contexto ausente com a reação de trimerização e as duas equações de combustão e entalpias; notação matemática fiel ao original.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "O benzeno, um importante solvente para a indústria química, é obtido industrialmente pela destilação do petróleo. Contudo, também pode ser sintetizado pela trimerização do acetileno catalisada por ferro metálico sob altas temperaturas, conforme a equação química:\n\n\\[3\\,\\mathrm{C}_2\\mathrm{H}_2\\,(g)\\rightarrow\\mathrm{C}_6\\mathrm{H}_6\\,(l)\\]\n\nA energia envolvida nesse processo pode ser calculada indiretamente pela variação de entalpia das reações de combustão das substâncias participantes, nas mesmas condições experimentais:\n\nI. \\(\\mathrm{C}_2\\mathrm{H}_2\\,(g)+\\frac{5}{2}\\,\\mathrm{O}_2\\,(g)\\rightarrow2\\,\\mathrm{CO}_2\\,(g)+\\mathrm{H}_2\\mathrm{O}\\,(l)\\), \\(\\Delta H_c^{\\circ}=-310\\,\\mathrm{kcal/mol}\\).\n\nII. \\(\\mathrm{C}_6\\mathrm{H}_6\\,(l)+\\frac{15}{2}\\,\\mathrm{O}_2\\,(g)\\rightarrow6\\,\\mathrm{CO}_2\\,(g)+3\\,\\mathrm{H}_2\\mathrm{O}\\,(l)\\), \\(\\Delta H_c^{\\circ}=-780\\,\\mathrm{kcal/mol}\\)."
+    }
+  },
+  "2016-52": {
+    "originalSha256": "3b4ce77f680e4856423d4bc69248069f280901a16a3f1216c020c667e505f70f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurar o parágrafo inicial omitido que apresenta feromônios e bombicol; figuras e referência nelas permanecem originais.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "Os feromônios são substâncias utilizadas na comunicação entre indivíduos de uma espécie. O primeiro feromônio isolado de um inseto foi o bombicol, substância produzida pela mariposa do bicho-da-seda.\n\n![](https://enem.dev/2016/questions/52/420bf048-0e4c-44bb-919d-ac9b6cba9a0b.png)\n\nO uso de feromônios em ações de controle de insetos-praga está de acordo com o modelo preconizado para a agricultura do futuro. São agentes altamente específicos e seus compostos químicos podem ser empregados em determinados cultivos, conforme ilustrado no quadro.\n\n![](https://enem.dev/2016/questions/52/bda784c1-e142-4cdc-84dc-5ebc4a507431.png)"
+    }
+  },
+  "2016-53": {
+    "originalSha256": "15b4ef2ced272d26ba2e6d0c7c40dda374ed905eadc734e613fc00ee0f1c8036",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurar a apresentação textual omitida do esquema de produção de etanol; normalizar caracteres corrompidos na alternativa C.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "O esquema representa, de maneira simplificada, o processo de produção de etanol utilizando milho como matéria-prima.\n\n![](https://enem.dev/2016/questions/53/f5c532a3-9d64-4230-bdb5-98b3db576752.jpg)",
+      "alternativeTexts": {
+        "C": "A maceração favoreça a solubilização em água."
+      }
+    }
+  },
+  "2016-54": {
+    "originalSha256": "50c8afd74d48d796ba857e21e947eb7d730e1b5700b5a498880211c8e2648820",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurar o contexto ausente com potências, temperaturas, limite de aquecimento e calor específico; corrigir mínimo no comando.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "Durante a primeira fase do projeto de uma usina de geração de energia elétrica, os engenheiros da equipe de avaliação de impactos ambientais procuram saber se esse projeto está de acordo com as normas ambientais. A nova planta estará localizada à beira de um rio, cuja temperatura média da água é de 25 °C, e usará a sua água somente para refrigeração. O projeto pretende que a usina opere com 1,0 MW de potência elétrica e, em razão de restrições técnicas, o dobro dessa potência será dissipada por seu sistema de arrefecimento, na forma de calor. Para atender a resolução número 430, de 13 de maio de 2011, do Conselho Nacional do Meio Ambiente, com uma ampla margem de segurança, os engenheiros determinaram que a água só poderá ser devolvida ao rio com um aumento de temperatura de, no máximo, 3 °C em relação à temperatura da água do rio captada pelo sistema de arrefecimento. Considere o calor específico da água igual a 4 kJ/(kg °C).",
+      "alternativesIntroduction": "Para atender essa determinação, o valor mínimo do fluxo de água, em kg/s, para a refrigeração da usina deve ser mais próximo de"
+    }
+  },
+  "2016-55": {
+    "originalSha256": "76fb92662a528ebd872590c4e9ef0177b3100a2589dc6b1cb0181456ffac6dab",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurar o parágrafo que apresenta o experimento, as quatro distâncias e as duas figuras, omitido na API.",
+    "reviewedAt": "2026-10-18T07:24:34.477Z",
+    "fields": {
+      "context": "A Figura 1 apresenta o gráfico da intensidade, em decibéis (dB), da onda sonora emitida por um alto-falante, que está em repouso, e medida por um microfone em função da frequência da onda para diferentes distâncias: 3 mm, 25 mm, 51 mm e 60 mm. A Figura 2 apresenta um diagrama com a indicação das diversas faixas do espectro de frequência sonora para o modelo de alto-falante utilizado neste experimento.\n\n![](https://enem.dev/2016/questions/55/474b0d3e-9bae-4e69-8198-0343720100a1.png)\n\n![](https://enem.dev/2016/questions/55/5a400051-2ebf-4e92-a991-642277965dc2.png)"
+    }
+  },
+  "2016-57": {
+    "originalSha256": "41d642dc0d91322188f4e87a1413f9bb392ee79962ed45836992a54390dc6029",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar o contexto ausente sobre ecolocalização e o afastamento retilíneo da mariposa.",
+    "reviewedAt": "2026-10-18T07:24:34.478Z",
+    "fields": {
+      "context": "O morcego emite pulsos de curta duração de ondas ultrassônicas, os quais voltam na forma de ecos após atingirem objetos no ambiente, trazendo informações a respeito das suas dimensões, suas localizações e dos seus possíveis movimentos. Isso se dá em razão da sensibilidade do morcego em detectar o tempo gasto para os ecos voltarem, bem como das pequenas variações nas frequências e nas intensidades dos pulsos ultrassônicos. Essas características lhe permitem caçar pequenas presas mesmo quando estão em movimento em relação a si. Considere uma situação unidimensional em que uma mariposa se afasta, em movimento retilíneo e uniforme, de um morcego em repouso."
+    }
+  },
+  "2016-58": {
+    "originalSha256": "13c25d6633b0fd560a0f182959d06fbf49495e5eeb9743189a6fae82a6364d57",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurar a introdução omitida que define rendimento molar; manter as imagens originais da fórmula e da reação.",
+    "reviewedAt": "2026-10-18T07:24:34.480Z",
+    "fields": {
+      "context": "A minimização do tempo e custo de uma reação química, bem como o aumento na sua taxa de conversão, caracterizam a eficiência de um processo químico. Como consequência, produtos podem chegar ao consumidor mais baratos. Um dos parâmetros que mede a eficiência de uma reação química é o seu rendimento molar (R, em %), definido como\n\n![](https://enem.dev/2016/questions/58/99a5812b-100d-4591-a496-2762c9cac26f.png)\n\nem que n corresponde ao número de mols. O metanol pode ser obtido pela reação entre brometo de metila e hidróxido de sódio, conforme a equação química:\n\n![](https://enem.dev/2016/questions/58/e7997a8a-16ac-40aa-8909-dbbd285ffade.png)"
+    }
+  },
+  "2016-60": {
+    "originalSha256": "f65dce870cfc7182d93fe568c145aab45468276625964f6209969acab20f272b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurar integralmente o contexto ausente sobre adsorção do benzeno na superfície de carvão ativado.",
+    "reviewedAt": "2026-10-18T07:24:34.480Z",
+    "fields": {
+      "context": "O carvão ativado é um material que possui elevado teor de carbono, sendo muito utilizado para a remoção de compostos orgânicos voláteis do meio, como o benzeno. Para a remoção desses compostos, utiliza-se a adsorção. Esse fenômeno ocorre por meio de interações do tipo intermoleculares entre a superfície do carvão (adsorvente) e o benzeno (adsorvato, substância adsorvida)."
+    }
+  },
+  "2016-62": {
+    "originalSha256": "4706a6c12a95f6d4299204c4648bc7286e5aa08e2fa1413974678c20ab6e370f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurar integralmente o contexto ausente sobre conversão do carbono inorgânico em orgânico e os organismos da cadeia.",
+    "reviewedAt": "2026-10-18T07:24:34.480Z",
+    "fields": {
+      "context": "Ao percorrer o trajeto de uma cadeia alimentar, o carbono, elemento essencial e majoritário da matéria orgânica que compõe os indivíduos, ora se encontra em sua forma inorgânica, ora se encontra em sua forma orgânica. Em uma cadeia alimentar composta por fitoplâncton, zooplâncton, moluscos, crustáceos e peixes ocorre a transição desse elemento da forma inorgânica para a orgânica.",
+      "alternativeTexts": {
+        "D": "Crustáceos."
+      }
+    }
+  },
+  "2016-63": {
+    "originalSha256": "74d64e272dfd8796f2f49fcd7c3d76f3ab8700e5579b84f76767bd0a7c60a7f9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurar o contexto ausente com as duas etapas do movimento e desaceleração constante; conservar os gráficos originais.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Dois veículos que trafegam com velocidade constante em uma estrada, na mesma direção e sentido, devem manter entre si uma distância mínima. Isso porque o movimento de um veículo, até que ele pare totalmente, ocorre em duas etapas, a partir do momento em que o motorista detecta um problema que exige uma freada brusca. A primeira etapa é associada à distância que o veículo percorre entre o intervalo de tempo da detecção do problema e o acionamento dos freios. Já a segunda se relaciona com a distância que o automóvel percorre enquanto os freios agem com desaceleração constante."
+    }
+  },
+  "2016-64": {
+    "originalSha256": "8b3b4bf2f1750e7948880b79047f3e51f88722e9c8293af4d96fcfb2184f3c71",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurar circuito externo, transcrito como circuito elétrico, e apresentar cargas, índices e potenciais das semirreações em notação matemática fiel ao original.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "TEXTO I\n\nBiocélulas combustíveis são uma alternativa tecnológica para substituição das baterias convencionais. Em uma biocélula microbiológica, bactérias catalisam reações de oxidação de substratos orgânicos. Liberam elétrons produzidos na respiração celular para um eletrodo, onde fluem por um circuito externo até o cátodo do sistema, produzindo corrente elétrica. Uma reação típica que ocorre em biocélulas microbiológicas utiliza o acetato como substrato.\n\nAQUINO NETO, S. **Preparação e caracterização de bioanodos para biocélula a combustível etanol/O2** . Disponível em: www.teses.usp.br. Acesso em: 23 jun. 2015 (adaptado).\n\nTEXTO II\n\nEm sistemas bioeletroquímicos, os potenciais padrão (E°’) apresentam valores característicos. Para as biocélulas de acetato, considere as seguintes semirreações de redução e seus respectivos potenciais:\n\n\\(2\\,\\mathrm{CO}_2+7\\,\\mathrm{H}^{+}+8\\,e^{-}\\rightarrow\\mathrm{CH}_3\\mathrm{COO}^{-}+2\\,\\mathrm{H}_2\\mathrm{O}\\), \\(E^{\\circ\\prime}=-0{,}3\\,\\mathrm{V}\\).\n\n\\(\\mathrm{O}_2+4\\,\\mathrm{H}^{+}+4\\,e^{-}\\rightarrow2\\,\\mathrm{H}_2\\mathrm{O}\\), \\(E^{\\circ\\prime}=0{,}8\\,\\mathrm{V}\\).\n\nSCOTT, K.; YU, E. H. **Microbial electrochemical and fuel cells: fundamentals and applications**. Woodhead Publishing Series in Energy, n. 88, 2016 (adaptado)."
+    }
+  },
+  "2016-66": {
+    "originalSha256": "f3ecdfd1d871021f5a320c023ba6b3a335f96d8e2c04c5e90e5de5b6a8e85d5a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurar o parágrafo omitido, incluindo a frequência do motor de18RPM, mantendo tabela e diagrama.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "A invenção e o acoplamento entre engrenagens revolucionaram a ciência na época e propiciaram a invenção de várias tecnologias, como os relógios. Ao construir um pequeno cronômetro, um relojoeiro usa o sistema de engrenagens mostrado. De acordo com a figura, um motor é ligado ao eixo e movimenta as engrenagens fazendo o ponteiro girar. A frequência do motor é de 18 RPM, e o número de dentes das engrenagens está apresentado no quadro.\n\n![](https://enem.dev/2016/questions/66/37f431da-a3ba-4a66-ac4b-c33f6d37730c.png)\n\n![](https://enem.dev/2016/questions/66/9e38e644-e6b4-4128-9e76-a44227a87238.png)"
+    }
+  },
+  "2016-69": {
+    "originalSha256": "5fc9678487c996363c2dac702894747c697b2c996f2f5485dee500ebf601b7f2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurar níveis elevados de dióxido, a referência e primariamente no comando conforme o PDF oficial.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Recentemente um estudo feito em campos de trigo mostrou que níveis elevados de dióxido de carbono na atmosfera prejudicam a absorção de nitrato pelas plantas. Consequentemente, a qualidade nutricional desses alimentos pode diminuir à medida que os níveis de dióxido de carbono na atmosfera atingirem as estimativas para as próximas décadas.\n\nBLOOM, A. J. et al. Nitrate assimilation is inhibited by elevated CO₂ in field-grown wheat. **Nature Climate Change**, n. 4, abr. 2014 (adaptado).",
+      "alternativesIntroduction": "Nesse contexto, a qualidade nutricional do grão de trigo será modificada primariamente pela redução de"
+    }
+  },
+  "2016-72": {
+    "originalSha256": "c0b1c0e35ff81bee306843a1a46402bd78398ccea61da7497d4209ec760c4136",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar a expressão representado na figura, conforme texto oficial.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Uma pessoa é responsável pela manutenção de uma sauna úmida. Todos os dias cumpre o mesmo ritual: colhe folhas de capim-cidreira e algumas folhas de eucalipto. Em seguida, coloca as folhas na saída do vapor da sauna, aromatizando-a, conforme representado na figura.\n\n![](https://enem.dev/2016/questions/72/99b15188-22b8-4a01-a936-bb8307f50c4c.png)"
+    }
+  },
+  "2016-74": {
+    "originalSha256": "0de5adc61aff559bf7976b5f12436818435f774523052bc62bc7426984c15621",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurar o contexto ausente com lâmpadas idênticas e resistências desprezíveis; representar corretamente índices das correntes.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Três lâmpadas idênticas foram ligadas no circuito esquematizado. A bateria apresenta resistência interna desprezível, e os fios possuem resistência nula. Um técnico fez uma análise do circuito para prever a corrente elétrica nos pontos: A, B, C, D e E; e rotulou essas correntes de \\(I_A\\), \\(I_B\\), \\(I_C\\), \\(I_D\\) e \\(I_E\\), respectivamente.\n\n![](https://enem.dev/2016/questions/74/de112a65-c255-4b68-956d-be2ec557351d.png)",
+      "alternativeTexts": {
+        "A": "\\(I_A=I_E\\) e \\(I_C=I_D\\).",
+        "B": "\\(I_A=I_B=I_E\\) e \\(I_C=I_D\\).",
+        "C": "\\(I_A=I_B\\), apenas.",
+        "D": "\\(I_A=I_B=I_E\\), apenas.",
+        "E": "\\(I_C=I_B\\), apenas."
+      }
+    }
+  },
+  "2016-75": {
+    "originalSha256": "7a259723531d237a8e4d8f32320c96524673269f7e7f5fd2f09e55cc768ba1ab",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar a apresentação omitida da seiva xilêmica e o a omitido em viesse a sofrer no comando.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "A figura ilustra o movimento da seiva xilêmica em uma planta.\n\n![](https://enem.dev/2016/questions/75/dd153eb4-697f-4e0b-ab99-0590c6301cd3.jpg)",
+      "alternativesIntroduction": "Mesmo que essa planta viesse a sofrer ação contínua do vento e sua copa crescesse voltada para baixo, essa seiva continuaria naturalmente seu percurso.\nO que garante o transporte dessa seiva é a"
+    }
+  },
+  "2016-76": {
+    "originalSha256": "fd3207b720cf3f675768be813a3cd66ebece0c25be57f18be843e557b8fa6003",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurar o contexto omitido sobre nucleófilos e substituição; representar cargas e índices do comando.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Nucleófilos (\\(\\mathrm{Nu}^{-}\\)) são bases de Lewis que reagem com haletos de alquila, por meio de uma reação chamada substituição nucleofílica (\\(S_N\\)), como mostrado no esquema:\n\n![](https://enem.dev/2016/questions/76/d04791bb-ac0a-454a-b9c3-d52906fd5345.png)",
+      "alternativesIntroduction": "A reação de \\(S_N\\) entre metóxido de sódio (\\(\\mathrm{Nu}^{-}=\\mathrm{CH}_3\\mathrm{O}^{-}\\)) e brometo de metila fornece um composto orgânico pertencente à função"
+    }
+  },
+  "2016-77": {
+    "originalSha256": "f67a57f31479c0c30cb8b16b6e460e7b3ce2b004cd69758bd605a5b98efa61c7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o contexto ausente com massa150,0g, atrito desprezível e colisão em que os carrinhos permanecem juntos.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "O trilho de ar é um dispositivo utilizado em laboratórios de física para analisar movimentos em que corpos de prova (carrinhos) podem se mover com atrito desprezível. A figura ilustra um trilho horizontal com dois carrinhos (1 e 2) em que se realiza um experimento para obter a massa do carrinho 2. No instante em que o carrinho 1, de massa 150,0 g, passa a se mover com velocidade escalar constante, o carrinho 2 está em repouso. No momento em que o carrinho 1 se choca com o carrinho 2, ambos passam a se movimentar juntos com velocidade escalar constante. Os sensores eletrônicos distribuídos ao longo do trilho determinam as posições e registram os instantes associados à passagem de cada carrinho, gerando os dados do quadro.\n\n![](https://enem.dev/2016/questions/77/49b1ba7f-e030-4a6f-a45b-904746c94fec.png)\n\n![](https://enem.dev/2016/questions/77/e6446caa-3305-4442-841d-2fd1af3e86d0.png)"
+    }
+  },
+  "2016-78": {
+    "originalSha256": "9295ab7526d8960f8f71081b14b5199a0d78724b2f5780f6f326c6ebfe75a6c2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurar o contexto omitido sobre gases de combustão de pneus e sua remoção por borbulhamento. Constantes da tabela foram conferidas e preservadas literalmente.",
+    "reviewedAt": "2026-10-18T07:24:34.481Z",
+    "fields": {
+      "context": "Após seu desgaste completo, os pneus podem ser queimados para a geração de energia. Dentre os gases gerados na combustão completa da borracha vulcanizada, alguns são poluentes e provocam a chuva ácida. Para evitar que escapem para a atmosfera, esses gases podem ser borbulhados em uma solução aquosa contendo uma substância adequada. Considere as informações das substâncias listadas no quadro.\n\n![](https://enem.dev/2016/questions/78/07838468-d80e-4417-9c08-a5700e6f32ed.png)"
+    }
+  },
+  "2016-79": {
+    "originalSha256": "c4ee099e33fdeefc673b557d19a4a6cd9a0670c17ad200f0edbee5783d57821d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar acentos em constituídas e contêm, conforme original; figura e sua referência permanecem preservadas.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Vários métodos são empregados para prevenção de infecções por microrganismos. Dois desses métodos utilizam microrganismos vivos e são eles: as vacinas atenuadas, constituídas por patógenos avirulentos, e os probióticos que contêm bactérias benéficas. Na figura são apresentados cinco diferentes mecanismos de exclusão de patógenos pela ação dos probióticos no intestino de um animal.\n\n![](https://enem.dev/2016/questions/79/0716200b-a539-4ee2-937d-3ba40b15b4b4.jpg)"
+    }
+  },
+  "2016-80": {
+    "originalSha256": "c626a5c4500c510ec3d7beb33a6537ba8f9a5f452726534807c7979742982ed7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurar URL da referência do IPCC, corrompida na API, e a pontuação bibliográfica final.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "O Painel Intergovernamental de Mudanças Climáticas (na sigla em inglês, IPCC) prevê que nas próximas décadas o planeta passará por mudanças climáticas e propõe estratégias de mitigação e adaptação a elas. As _estratégias de mitigação_ são direcionadas à causa dessas mudanças, procurando reduzir a concentração de gases de efeito estufa na atmosfera. As _estratégias de adaptação_, por sua vez, são direcionadas aos efeitos dessas mudanças, procurando preparar os sistemas humanos às mudanças climáticas já em andamento, de modo a reduzir seus efeitos negativos.\n\nIPCC, 2014. **Climate Change 2014: synthesis report**. Disponível em: http://ar5-syr.ipcc.ch. Acesso em: 22 out. 2015 (adaptado)."
+    }
+  },
+  "2016-81": {
+    "originalSha256": "96ce143d15ee06449b6cb1e74b50fd8945d991dc07eb22d647de964246420264",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar o parágrafo omitido que define lipofilia e coeficiente de partição; corrigir a preposição da alternativa E.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "A lipofilia é um dos fatores fundamentais para o planejamento de um fármaco. Ela mede o grau de afinidade que a substância tem com ambientes apolares, podendo ser avaliada por seu coeficiente de partição.\n\n![](https://enem.dev/2016/questions/81/fab74d42-ab21-42bc-bc5f-ed99d86be779.png)",
+      "alternativeTexts": {
+        "E": "Menor e igual à lipofilia da testosterona."
+      }
+    }
+  },
+  "2016-82": {
+    "originalSha256": "e05131c5159afeacac6caf129b303cdb7c7336249dacf0be49b9fd0e7d4d0b6d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar contexto ausente com massa, atrito, força e condições ideais do sistema de polias.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Uma invenção que significou um grande avanço tecnológico na Antiguidade, a polia composta ou a associação de polias, é atribuída a Arquimedes (287 a.C. a 212 a.C.). O aparato consiste em associar uma série de polias móveis a uma polia fixa. A figura exemplifica um arranjo possível para esse aparato. É relatado que Arquimedes teria demonstrado para o rei Hierão um outro arranjo desse aparato, movendo sozinho, sobre a areia da praia, um navio repleto de passageiros e cargas, algo que seria impossível sem a participação de muitos homens. Suponha que a massa do navio era de 3 000 kg, que o coeficiente de atrito estático entre o navio e a areia era de 0,8 e que Arquimedes tenha puxado o navio com uma força \\(\\vec{F}\\), paralela à direção do movimento e de módulo igual a 400 N. Considere os fios e as polias ideais, a aceleração da gravidade igual a \\(10\\,\\mathrm{m/s}^2\\) e que a superfície da praia é perfeitamente horizontal.\n\n![](https://enem.dev/2016/questions/82/d1fcf538-6917-4172-95f2-3c3e2f874aa5.png)"
+    }
+  },
+  "2016-83": {
+    "originalSha256": "e6d0215072474330b241b3338d547c16b155420d5fa5d10351ae05f0ae85ec4d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurar a pontuação e as iniciais da referência bibliográfica conforme original.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "O Brasil possui um grande número de espécies distintas entre animais, vegetais e microrganismos envoltos em uma imensa complexidade e distribuídas em uma grande variedade de ecossistemas.\n\nSANDES, A. R. R.; BLASI, G. **Biodiversidade e diversidade química e genética**. Disponível em: http://novastecnologias.com.br. Acesso em: 22 set. 2015 (adaptado)."
+    }
+  },
+  "2016-85": {
+    "originalSha256": "d9ae12fdec51e8e2cc0a5ff4f11f0d2bc8abf579ebc4b4091f3403060ea84740",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurar o parágrafo omitido que identifica as partes iônica e lipofílica do tensoativo; manter figura, texto nela e alternativas.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Os tensoativos são compostos capazes de interagir com substâncias polares e apolares. A parte iônica dos tensoativos interage com substâncias polares, e a parte lipofílica interage com as apolares. A estrutura orgânica de um tensoativo pode ser representada por:\n\n![](https://enem.dev/2016/questions/85/905b1535-8032-4140-b20e-0f06b840ed90.png)"
+    }
+  },
+  "2016-86": {
+    "originalSha256": "53f8503a3a7a70b99b1daf1155b27f519e1b42ca4242d18c7f6117ffc0e4773e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurar o contexto ausente do experimento com manteiga e onda estacionária no micro-ondas.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Um experimento para comprovar a natureza ondulatória da radiação de micro-ondas foi realizado da seguinte forma: anotou-se a frequência de operação de um forno de micro-ondas e, em seguida, retirou-se sua plataforma giratória. No seu lugar, colocou-se uma travessa refratária com uma camada grossa de manteiga. Depois disso, o forno foi ligado por alguns segundos. Ao se retirar a travessa refratária do forno, observou-se que havia três pontos de manteiga derretida alinhados sobre toda a travessa. Parte da onda estacionária gerada no interior do forno é ilustrada na figura.\n\n![](https://enem.dev/2016/questions/86/52add56c-e390-4125-8e61-d553591f9b1c.png)"
+    }
+  },
+  "2016-87": {
+    "originalSha256": "edbf3178321139b72a5a38a70be742983a1b9d220ce6c89d6e7fcb4c54f74c35",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar contexto ausente que diferencia os tipos de diabetes e descreve a ação do ADH.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Portadores de diabetes insipidus reclamam da confusão feita pelos profissionais da saúde quanto aos dois tipos de diabetes: mellitus e insipidus . Enquanto o primeiro tipo está associado aos níveis ou à ação da insulina, o segundo não está ligado à deficiência desse hormônio. O diabetes insipidus é caracterizado por um distúrbio na produção ou no funcionamento do hormônio antidiurético (na sigla em inglês, ADH), secretado pela neuro-hipófise para controlar a reabsorção de água pelos túbulos renais."
+    }
+  },
+  "2016-88": {
+    "originalSha256": "8c070cf01bc995c45293713c8b409d9690cb485e29900b440753d6f94a150988",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar o contexto omitido que define magnetohipertermia e ação de um campo magnético alternado.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "A magnetohipertermia é um procedimento terapêutico que se baseia na elevação da temperatura das células de uma região específica do corpo que estejam afetadas por um tumor. Nesse tipo de tratamento, nanopartículas magnéticas são fagocitadas pelas células tumorais, e um campo magnético alternado externo é utilizado para promover a agitação das nanopartículas e consequente aquecimento da célula."
+    }
+  },
+  "2016-90": {
+    "originalSha256": "f5cb5e9ceeada4a6727136e507d76b9e32db45c34ee74b1517eefdbfd4793d08",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD1.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurar integralmente o contexto ausente sobre processos comuns aos seres vivos e ancestralidade comum.",
+    "reviewedAt": "2026-10-18T07:24:34.482Z",
+    "fields": {
+      "context": "Apesar da grande diversidade biológica, a hipótese de que a vida na Terra tenha tido uma única origem comum é aceita pela comunidade científica. Uma evidência que apoia essa hipótese é a observação de processos biológicos comuns a todos os seres vivos atualmente existentes."
+    }
+  },
+  "2016-136": {
+    "originalSha256": "ec5e0cbc43dd9324036dc6c5e5e3cb11ab94b1cd6242ccbdfc63a1cab7ccbb27",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em regiões agrícolas, é comum a presença de silos para armazenamento e secagem da produção de grãos, no formato de um cilindro reto, sobreposto por um cone, e dimensões indicadas na figura. O silo fica cheio e o transporte dos grãos é feito em caminhões de carga cuja capacidade é de 20 m³. Uma região possui um silo cheio e apenas um caminhão para transportar os grãos para a usina de beneficiamento.\n\n![](/assets/questions/2016/136/27018caf-dac3-4dce-9379-fb0c5bd5416d.png)"
+    }
+  },
+  "2016-137": {
+    "originalSha256": "b5b258dc506097a617647913210ebed1e4298aeb49880cbfdd80b4e0a476b74f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em uma empresa de móveis, um cliente encomenda um guarda-roupa nas dimensões 220 cm de altura, 120 cm de largura e 50 cm de profundidade. Alguns dias depois, o projetista, com o desenho elaborado na escala 1 : 8, entra em contato com o cliente para fazer sua apresentação. No momento da impressão, o profissional percebe que o desenho não caberia na folha de papel que costumava usar. Para resolver o problema, configurou a impressora para que a figura fosse reduzida em 20%."
+    }
+  },
+  "2016-138": {
+    "originalSha256": "6ef1a6c50197f1b979c58338677842c3810f7853495e1a64a36b475fb6682369",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 17,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A London Eye é uma enorme roda-gigante na capital inglesa. Por ser um dos monumentos construídos para celebrar a entrada do terceiro milênio, ela também é conhecida como Roda do Milênio. Um turista brasileiro, em visita à Inglaterra, perguntou a um londrino o diâmetro (destacado na imagem) da Roda do Milênio e ele respondeu que ele tem 443 pés.\n\n![](/assets/questions/2016/138/484f68f6-18c6-4987-b92e-58c44f18b07b.png)"
+    }
+  },
+  "2016-139": {
+    "originalSha256": "751b1eebea474fcd16847670738feb40f74e0ac54b6afbfd03c46b25ce3218f7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Uma cisterna de 6 000 L foi esvaziada em um período de 3 h. Na primeira hora foi utilizada apenas uma bomba, mas nas duas horas seguintes, a fim de reduzir o tempo de esvaziamento, outra bomba foi ligada junto com a primeira. O gráfico, formado por dois segmentos de reta, mostra o volume de água presente na cisterna, em função do tempo.\n\n![](/assets/questions/2016/139/c748d750-cec7-42af-8fb1-4690aee8d9a8.png)"
+    }
+  },
+  "2016-140": {
+    "originalSha256": "77aad98e25af47461c34d4dcf7630e753c45d68c309a48e6a44c6fca37922b2d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O procedimento de perda rápida de “peso” é comum entre os atletas dos esportes de combate. Para participar de um torneio, quatro atletas da categoria até 66 kg, Peso-Pena, foram submetidos a dietas balanceadas e atividades físicas. Realizaram três “pesagens” antes do início do torneio. Pelo regulamento do torneio, a primeira luta deverá ocorrer entre o atleta mais regular e o menos regular quanto aos “pesos”. As informações com base nas pesagens dos atletas estão no quadro.\n\n![](/assets/questions/2016/140/ae197a69-68db-46c4-9321-f4fd03e424dc.png)"
+    }
+  },
+  "2016-141": {
+    "originalSha256": "07d739944b421d94b4f6bf6529975c5219a2fb435abc8d05ee5d2ad89920ed0f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 18,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "De forma geral, os pneus radiais trazem em sua lateral uma marcação do tipo abc/deRfg, como 185/65R15. Essa marcação identifica as medidas do pneu da seguinte forma:\n\n• abc é a medida da largura do pneu, em milímetro;\n• de é igual ao produto de 100 pela razão entre a medida da altura (em milímetro) e a medida da largura do pneu (em milímetro);\n• R significa radial;\n• fg é a medida do diâmetro interno do pneu, em polegada.\n\nA figura ilustra as variáveis relacionadas com esses dados.\n\n![](/assets/questions/2016/141/5157ff2e-1b33-4a36-91dd-d088df930d2c.png)"
+    }
+  },
+  "2016-143": {
+    "originalSha256": "e081e2ff96e84a20ed0f02792e8399bb3132afe6ab685e24f2cad141d13122b6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um senhor, pai de dois filhos, deseja comprar dois terrenos, com áreas de mesma medida, um para cada filho. Um dos terrenos visitados já está demarcado e, embora não tenha um formato convencional (como se observa na Figura B), agradou ao filho mais velho e, por isso, foi comprado. O filho mais novo possui um projeto arquitetônico de uma casa que quer construir, mas, para isso, precisa de um terreno na forma retangular (como mostrado na Figura A) cujo comprimento seja 7 m maior do que a largura.\n\n![](/assets/questions/2016/143/ed2f51dd-ec06-4496-8180-b5b75383fd27.png)"
+    }
+  },
+  "2016-144": {
+    "originalSha256": "2db2f809580364de213f3d040c37c3408d238bd5e4a4957b3433d9e8bbc7b1fd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 19,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Preocupada com seus resultados, uma empresa fez um balanço dos lucros obtidos nos últimos sete meses, conforme dados do quadro.\n\n![](/assets/questions/2016/144/3c5cca0b-8c29-4ca2-9a1f-eba9121870b2.png)\n\nAvaliando os resultados, o conselho diretor da empresa decidiu comprar, nos dois meses subsequentes, a mesma quantidade de matéria-prima comprada no mês em que o lucro mais se aproximou da média dos lucros mensais dessa empresa nesse período de sete meses."
+    }
+  },
+  "2016-145": {
+    "originalSha256": "95e0489aa556357485fce645876ab71ade556a23b5037432cc30951d0334c45d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O setor de recursos humanos de uma empresa pretende fazer contratações para adequar-se ao artigo 93 da Lei n° 8.213/91, que dispõe:\n\n_Art. 93. A empresa com 100 (cem) ou mais empregados está obrigada a preencher de 2% (dois por cento) a 5% (cinco por cento) dos seus cargos com beneficiários reabilitados ou pessoas com deficiência, habilitadas, na seguinte proporção:_  \n_I. até 200 empregados……………….. 2%;_  \n_II. de 201 a 500 empregados…………… 3%;_  \n_III. de 501 a 1 000 empregados………… 4%;_  \n_IV. de 1 001 em diante………………. 5%._\n\nDisponível em: www.planalto.gov.br. Acesso em: 3 fev. 2015.\n\nConstatou-se que a empresa possui 1 200 funcionários, dos quais 10 são reabilitados ou com deficiência, habilitados.\n\nPara adequar-se à referida lei, a empresa contratará apenas empregados que atendem ao perfil indicado no artigo 93."
+    }
+  },
+  "2016-146": {
+    "originalSha256": "2c339b5353f7d50d69fe0809aa3257388c65cdcc6a8e60c4168122e7ca87e69a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Uma pessoa comercializa picolés. No segundo dia de certo evento ela comprou 4 caixas de picolés, pagando R$ 16,00 a caixa com 20 picolés para revendê-los no evento. No dia anterior, ela havia comprado a mesma quantidade de picolés, pagando a mesma quantia, e obtendo um lucro de R$ 40,00 (obtido exclusivamente pela diferença entre o valor de venda e o de compra dos picolés) com a venda de todos os picolés que possuía.\n\nPesquisando o perfil do público que estará presente no evento, a pessoa avalia que será possível obter um lucro 20% maior do que o obtido com a venda no primeiro dia do evento."
+    }
+  },
+  "2016-147": {
+    "originalSha256": "0ca95fee428e9676fde317cc5406e10943730f444feb9f370dc3f4aca75b4d09",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O tênis é um esporte em que a estratégia de jogo a ser adotada depende, entre outros fatores, de o adversário ser canhoto ou destro.\n\nUm clube tem um grupo de 10 tenistas, sendo que 4 são canhotos e 6 são destros. O técnico do clube deseja realizar uma partida de exibição entre dois desses jogadores, porém, não poderão ser ambos canhotos."
+    }
+  },
+  "2016-148": {
+    "originalSha256": "87fc32e3425b2b07c3feb640f516cc2998eb855cc39ef09029876a631eeeb2db",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 20,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O ábaco é um antigo instrumento de cálculo que usa notação posicional de base dez para representar números naturais. Ele pode ser apresentado em vários modelos, um deles é formado por hastes apoiadas em uma base. Cada haste corresponde a uma posição no sistema decimal e nelas são colocadas argolas; a quantidade de argolas na haste representa o algarismo daquela posição. Em geral, colocam-se adesivos abaixo das hastes com os símbolos U, D, C, M, DM e CM que correspondem, respectivamente, a unidades, dezenas, centenas, unidades de milhar, dezenas de milhar e centenas de milhar, sempre começando com a unidade na haste da direita e as demais ordens do número no sistema decimal nas hastes subsequentes (da direita para esquerda), até a haste que se encontra mais à esquerda.\n\nEntretanto, no ábaco da figura, os adesivos não seguiram a disposição usual.\n\n![](/assets/questions/2016/148/1a5c2092-7910-4ff5-8151-fc226f7d5abe.png)"
+    }
+  },
+  "2016-149": {
+    "originalSha256": "1f2edd618846e0ac20d551357218fd521f367f3c09887a360ce0c3017e742141",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Para uma feira de ciências, dois projéteis de foguetes, A e B, estão sendo construídos para serem lançados. O planejamento é que eles sejam lançados juntos, com o objetivo de o projétil B interceptar o A quando esse alcançar sua altura máxima. Para que isso aconteça, um dos projéteis descreverá uma trajetória parabólica, enquanto o outro irá descrever uma trajetória supostamente retilínea. O gráfico mostra as alturas alcançadas por esses projéteis em função do tempo, nas simulações realizadas.\n\n![](/assets/questions/2016/149/555013c9-a224-4e98-8e48-a30e33d02321.png)\n\nCom base nessas simulações, observou-se que a trajetória do projétil B deveria ser alterada para que o objetivo fosse alcançado."
+    }
+  },
+  "2016-150": {
+    "originalSha256": "861042aaba43b76a18ec0fd69f06762ee554ab9c4b199bb3a22e31947e8dc347",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Para a construção de isolamento acústico numa parede cuja área mede 9 m², sabe-se que, se a fonte sonora estiver a 3 m do plano da parede, o custo é de R$ 500,00. Nesse tipo de isolamento, a espessura do material que reveste a parede é inversamente proporcional ao quadrado da distância até a fonte sonora, e o custo é diretamente proporcional ao volume do material do revestimento."
+    }
+  },
+  "2016-151": {
+    "originalSha256": "1a8536a851ef356c2484f27083ec42a276b687d2949d05cbbd853a6daf652c57",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 21,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A fim de acompanhar o crescimento de crianças, foram criadas pela Organização Mundial da Saúde (OMS) tabelas de altura, também adotadas pelo Ministério da Saúde do Brasil. Além de informar os dados referentes ao índice de crescimento, a tabela traz gráficos com curvas, apresentando padrões de crescimento estipulados pela OMS.\n\nO gráfico apresenta o crescimento de meninas, cuja análise se dá pelo ponto de intersecção entre o comprimento, em centímetro, e a idade, em mês completo e ano, da criança.\n\n![](/assets/questions/2016/151/b9e723b5-a63c-4c11-b026-d686e0c3c807.png)\n\nUma menina aos 3 anos de idade tinha altura de 85 centímetros e aos 4 anos e 4 meses sua altura chegou a um valor que corresponde a um ponto exatamente sobre a curva p50."
+    }
+  },
+  "2016-152": {
+    "originalSha256": "e2d09836011a708d5bd153330a74458cbb7ed9f55c0180e4f6b4db691ee750da",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um adolescente vai a um parque de diversões tendo, prioritariamente, o desejo de ir a um brinquedo que se encontra na área IV, dentre as áreas I, II, III, IV e V existentes. O esquema ilustra o mapa do parque, com a localização da entrada, das cinco áreas com os brinquedos disponíveis e dos possíveis caminhos para se chegar a cada área. O adolescente não tem conhecimento do mapa do parque e decide ir caminhando da entrada até chegar à área IV.\n\n![](/assets/questions/2016/152/b9f02657-5528-4c2c-8687-9a8db0f4a232.png)\n\nSuponha que relativamente a cada ramificação, as opções existentes de percurso pelos caminhos apresentem iguais probabilidades de escolha, que a caminhada foi feita escolhendo ao acaso os caminhos existentes e que, ao tomar um caminho que chegue a uma área distinta da IV, o adolescente necessariamente passa por ela ou retorna."
+    }
+  },
+  "2016-153": {
+    "originalSha256": "23d39c506205a4b39f715ebda41224eb18c26b6980e6540f8591ac7250020d65",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em uma cidade, o número de casos de dengue confirmados aumentou consideravelmente nos últimos dias. A prefeitura resolveu desenvolver uma ação contratando funcionários para ajudar no combate à doença, os quais orientarão os moradores a eliminarem criadouros do mosquito Aedes aegypti, transmissor da dengue. A tabela apresenta o número atual de casos confirmados, por região da cidade.\n\n![](/assets/questions/2016/153/5ba13490-30b2-456d-9bd4-754e04e288c3.png)\n\nA prefeitura optou pela seguinte distribuição dos funcionários a serem contratados:\n\nI. 10 funcionários para cada região da cidade cujo número de casos seja maior que a média dos casos confirmados.  \nII. 7 funcionários para cada região da cidade cujo número de casos seja menor ou igual à média dos casos confirmados."
+    }
+  },
+  "2016-154": {
+    "originalSha256": "c489d57993e4cccf797e221043fb90b0c8ce6625160c2da700398d1a1a59e681",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 22,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Cinco marcas de pão integral apresentam as seguintes concentrações de fibras (massa de fibra por massa de pão):\n\n• Marca A: 2 g de fibras a cada 50 g de pão;  \n• Marca B: 5 g de fibras a cada 40 g de pão;  \n• Marca C: 5 g de fibras a cada 100 g de pão;  \n• Marca D: 6 g de fibras a cada 90 g de pão;  \n• Marca E: 7 g de fibras a cada 70 g de pão.\n\nRecomenda-se a ingestão do pão que possui a maior concentração de fibras.\n\nDisponível em: www.blog.saude.gov.br. Acesso em: 25 fev. 2013."
+    }
+  },
+  "2016-155": {
+    "originalSha256": "1c093857fc56d4511bf18b81bbbe1fd2a9f86fc13f18dd673dee25df4a516c37",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Os alunos de uma escola utilizaram cadeiras iguais às da figura para uma aula ao ar livre. A professora, ao final da aula, solicitou que os alunos fechassem as cadeiras para guardá-las. Depois de guardadas, os alunos fizeram um esboço da vista lateral da cadeira fechada.\n\n![](/assets/questions/2016/155/bb458c60-9970-4521-a651-92e97767141a.png)"
+    }
+  },
+  "2016-156": {
+    "originalSha256": "e8e62b66f1ff289d3b870dbeab7271eb6e7a7e6c632703e0dc9362e13b1e024c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Para garantir a segurança de um grande evento público que terá início às 4 h da tarde, um organizador precisa monitorar a quantidade de pessoas presentes em cada instante. Para cada 2 000 pessoas se faz necessária a presença de um policial. Além disso, estima-se uma densidade de quatro pessoas por metro quadrado de área de terreno ocupado. Às 10 h da manhã, o organizador verifica que a área de terreno já ocupada equivale a um quadrado com lados medindo 500 m. Porém, nas horas seguintes, espera-se que o público aumente a uma taxa de 120 000 pessoas por hora até o início do evento, quando não será mais permitida a entrada de público."
+    }
+  },
+  "2016-157": {
+    "originalSha256": "31738f009efc95a1105b7c8da892298727ced6b6f3f69939f04c8bfefbec3b2c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 23,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A permanência de um gerente em uma empresa está condicionada à sua produção no semestre. Essa produção é avaliada pela média do lucro mensal do semestre. Se a média for, no mínimo, de 30 mil reais, o gerente permanece no cargo, caso contrário, ele será despedido. O quadro mostra o lucro mensal, em milhares de reais, dessa empresa, de janeiro a maio do ano em curso.\n\n![](/assets/questions/2016/157/a509eb59-7fd2-4a42-a356-e1be71c628f2.png)"
+    }
+  },
+  "2016-158": {
+    "originalSha256": "30525d393453f107ede45288b2f5cdd35b47c0ca6c9fcc2c05ed59b73e809c86",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um dos grandes desafios do Brasil é o gerenciamento dos seus recursos naturais, sobretudo os recursos hídricos. Existe uma demanda crescente por água e o risco de racionamento não pode ser descartado. O nível de água de um reservatório foi monitorado por um período, sendo o resultado mostrado no gráfico. Suponha que essa tendência linear observada no monitoramento se prolongue pelos próximos meses.\n\n![](/assets/questions/2016/158/af29d603-c954-4ab7-a8b4-2c4db0cf6458.png)"
+    }
+  },
+  "2016-159": {
+    "originalSha256": "536761db042f3e443b61ebd833c3e82f75c57ea7d38a598b19a38aec14d934e5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um posto de saúde registrou a quantidade de vacinas aplicadas contra febre amarela nos últimos cinco meses:\n\n• 1º mês: 21;\n• 2º mês: 22;\n• 3º mês: 25;\n• 4º mês: 31;\n• 5º mês: 21.\n\nNo início do primeiro mês, esse posto de saúde tinha 228 vacinas contra febre amarela em estoque. A política de reposição do estoque prevê a aquisição de novas vacinas, no início do sexto mês, de tal forma que a quantidade inicial em estoque para os próximos meses seja igual a 12 vezes a média das quantidades mensais dessas vacinas aplicadas nos últimos cinco meses."
+    }
+  },
+  "2016-160": {
+    "originalSha256": "78372902c0a0a949dac87f22af0f0a7b8124c4c2bb05137904c9ba4e12278a4e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Uma liga metálica sai do forno a uma temperatura de 3 000 °C e diminui 1% de sua temperatura a cada 30 min.",
+      "alternativesIntroduction": "Use 0,477 como aproximação para \\(\\log_{10}(3)\\) e 1,041 como aproximação para \\(\\log_{10}(11)\\).\n\nO tempo decorrido, em hora, até que a liga atinja 30 °C é mais próximo de"
+    }
+  },
+  "2016-161": {
+    "originalSha256": "209adba1ae476e572d21dace244691a72f3d7143f9a960b3606e239a2fac1c81",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 24,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um petroleiro possui reservatório em formato de um paralelepípedo retangular com as dimensões dadas por 60 m × 10 m de base e 10 m de altura. Com o objetivo de minimizar o impacto ambiental de um eventual vazamento, esse reservatório é subdividido em três compartimentos, A, B e C, de mesmo volume, por duas placas de aço retangulares com dimensões de 7 m de altura e 10 m de base, de modo que os compartimentos são interligados, conforme a figura. Assim, caso haja rompimento no casco do reservatório, apenas uma parte de sua carga vazará.\n\n![](/assets/questions/2016/161/576da257-907a-462b-98b2-4d67f2679d3d.png)"
+    }
+  },
+  "2016-162": {
+    "originalSha256": "b17745e442ddc42e19c445e04b6d976ee1ef1f2e7ad1cc307233eb7e0aa37d31",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O cultivo de uma flor rara só é viável se do mês do plantio para o mês subsequente o clima da região possuir as seguintes peculiaridades:\n\n• a variação do nível de chuvas (pluviosidade), nesses meses, não for superior a 50 mm;\n• a temperatura mínima, nesses meses, for superior a 15 °C;\n• ocorrer, nesse período, um leve aumento não superior a 5 °C na temperatura máxima.\n\nUm floricultor, pretendendo investir no plantio dessa flor em sua região, fez uma consulta a um meteorologista que lhe apresentou o gráfico com as condições previstas para os 12 meses seguintes nessa região.\n\n![](/assets/questions/2016/162/2d6250c2-b7ea-457b-8798-db4253b32235.png)"
+    }
+  },
+  "2016-163": {
+    "originalSha256": "48be9b7839dbb3a2682e2cfb2244558b77b2d415ac927d3795af2caf5e7c5a94",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Densidade absoluta (d) é a razão entre a massa de um corpo e o volume por ele ocupado. Um professor propôs à sua turma que os alunos analisassem a densidade de três corpos: \\(d_A\\), \\(d_B\\), \\(d_C\\). Os alunos verificaram que o corpo A possuía 1,5 vez a massa do corpo B e esse, por sua vez, tinha \\(\\frac34\\) da massa do corpo C. Observaram, ainda, que o volume do corpo A era o mesmo do corpo B e 20% maior do que o volume do corpo C.",
+      "alternativeTexts": {
+        "A": "\\(d_B<d_A<d_C\\)",
+        "B": "\\(d_B=d_A<d_C\\)",
+        "C": "\\(d_C<d_B=d_A\\)",
+        "D": "\\(d_B<d_C<d_A\\)",
+        "E": "\\(d_C<d_B<d_A\\)"
+      }
+    }
+  },
+  "2016-164": {
+    "originalSha256": "5cb6c7dfff4f9558cdb70d1ed1ca46c367c0ec8b3eb083d1bd2335622027b750",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "No tanque de um certo carro de passeio cabem até 50 L de combustível, e o rendimento médio deste carro na estrada é de 15 km/L de combustível. Ao sair para uma viagem de 600 km o motorista observou que o marcador de combustível estava exatamente sobre uma das marcas da escala divisória do medidor, conforme figura a seguir.\n\n![](/assets/questions/2016/164/6be55162-4edb-4b05-9826-2502c11e4f14.png)\n\nComo o motorista conhece o percurso, sabe que existem, até a chegada a seu destino, cinco postos de abastecimento de combustível, localizados a 150 km, 187 km, 450 km, 500 km e 570 km do ponto de partida."
+    }
+  },
+  "2016-165": {
+    "originalSha256": "5896e0ec9f9cc9cff831eba212c5cdfc362290ac977df65614b6865febdafdee",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Sob a orientação de um mestre de obras, João e Pedro trabalharam na reforma de um edifício. João efetuou reparos na parte hidráulica nos andares 1, 3, 5, 7, e assim sucessivamente, de dois em dois andares. Pedro trabalhou na parte elétrica nos andares 1, 4, 7, 10, e assim sucessivamente, de três em três andares. Coincidentemente, terminaram seus trabalhos no último andar. Na conclusão da reforma, o mestre de obras informou, em seu relatório, o número de andares do edifício. Sabe-se que, ao longo da execução da obra, em exatamente 20 andares, foram realizados reparos nas partes hidráulica e elétrica por João e Pedro."
+    }
+  },
+  "2016-166": {
+    "originalSha256": "8ca813b06ce5643b537d31ca34382fa26ced204fcc7a78f4ee612775c1055759",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 26,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em uma cidade será construída uma galeria subterrânea que receberá uma rede de canos para o transporte de água de uma fonte (F) até o reservatório de um novo bairro (B).\n\nApós avaliações, foram apresentados dois projetos para o trajeto de construção da galeria: um segmento de reta que atravessaria outros bairros ou uma semicircunferência que contornaria esses bairros, conforme ilustrado no sistema de coordenadas xOy da figura, em que a unidade de medida nos eixos é o quilômetro.\n\n![](/assets/questions/2016/166/353d7220-13cd-44e2-b88b-a63acba081cd.png)\n\nEstudos de viabilidade técnica mostraram que, pelas características do solo, a construção de 1 m de galeria via segmento de reta demora 1,0 h, enquanto que 1 m de construção de galeria via semicircunferência demora 0,6 h. Há urgência em disponibilizar água para esse bairro.\n\nUse 3 como aproximação para π e 1,4 como aproximação para √2 ."
+    }
+  },
+  "2016-167": {
+    "originalSha256": "ce2ea5bf6e285a530f42c998987fbe4531beccab85731d249016770c4cd4184d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um túnel deve ser lacrado com uma tampa de concreto. A seção transversal do túnel e a tampa de concreto têm contornos de um arco de parábola e mesmas dimensões. Para determinar o custo da obra, um engenheiro deve calcular a área sob o arco parabólico em questão. Usando o eixo horizontal no nível do chão e o eixo de simetria da parábola como eixo vertical, obteve a seguinte equação para a parábola:\n\n\\(y=9-x^2\\), sendo x e y medidos em metros.\n\nSabe-se que a área sob uma parábola como esta é igual a \\(\\frac23\\) da área do retângulo cujas dimensões são, respectivamente, iguais à base e à altura da entrada do túnel."
+    }
+  },
+  "2016-169": {
+    "originalSha256": "71666b6841d286cdd48b12fde99bc2c09c579cfc34514eaf5c413f6c391a4fd7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 27,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "A distribuição de salários pagos em uma empresa pode ser analisada destacando-se a parcela do total da massa salarial que é paga aos 10% que recebem os maiores salários. Isso pode ser representado na forma de um gráfico formado por dois segmentos de reta, unidos em um ponto P, cuja abscissa tem valor igual a 90, como ilustrado na figura.\n\nNo eixo horizontal do gráfico tem-se o percentual de funcionários, ordenados de forma crescente pelos valores de seus salários, e no eixo vertical tem-se o percentual do total da massa salarial de todos os funcionários.\n\n![](/assets/questions/2016/169/2a3b1883-983c-4974-9c15-d43c42742ae4.png)\n\nO Índice de Gini, que mede o grau de concentração de renda de um determinado grupo, pode ser calculado pela razão A/(A + B) em que A e B são as medidas das áreas indicadas no gráfico.\n\nA empresa tem como meta tornar seu Índice de Gini igual ao do país, que é 0,3. Para tanto, precisa ajustar os salários de modo a alterar o percentual que representa a parcela recebida pelos 10% dos funcionários de maior salário em relação ao total da massa salarial.\n\nDisponível em: www.ipea.gov.br. Acesso em: 4 maio 2016 (adaptado)"
+    }
+  },
+  "2016-170": {
+    "originalSha256": "d72984861f7b153a46f662cb07ba14ef67dea3e031701fd6626379ad3df75ca4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Ao iniciar suas atividades, um ascensorista registra tanto o número de pessoas que entram quanto o número de pessoas que saem do elevador em cada um dos andares do edifício onde ele trabalha. O quadro apresenta os registros do ascensorista durante a primeira subida do térreo, de onde partem ele e mais três pessoas, ao quinto andar do edifício.\n\n![](/assets/questions/2016/170/4e96593f-1006-47bb-9f6f-2eac204f496c.png)"
+    }
+  },
+  "2016-171": {
+    "originalSha256": "19aa8c3ea97738ecd5343d828169306243707c036b8e20f0f1dd1f7fe52fe05d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O censo demográfico é um levantamento estatístico que permite a coleta de várias informações. A tabela apresenta os dados obtidos pelo censo demográfico brasileiro nos anos de 1940 e 2000, referentes à concentração da população total, na capital e no interior, nas cinco grandes regiões.\n\n![](/assets/questions/2016/171/27a2aa79-e89f-40f4-a7ef-46822e39123c.png)"
+    }
+  },
+  "2016-172": {
+    "originalSha256": "2e56e0e13b3bdd8252ffc4d014b2056cb6fce291cb36f54142d5db9669a44fc5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um marceneiro está construindo um material didático que corresponde ao encaixe de peças de madeira com 10 cm de altura e formas geométricas variadas, num bloco de madeira em que cada peça se posicione na perfuração com seu formato correspondente, conforme ilustra a figura. O bloco de madeira já possui três perfurações prontas de bases distintas: uma quadrada (Q), de lado 4 cm, uma retangular (R), com base 3 cm e altura 4 cm, e uma em forma de um triângulo equilátero (T), de lado 6,8 cm. Falta realizar uma perfuração de base circular (C).\n\nO marceneiro não quer que as outras peças caibam na perfuração circular e nem que a peça de base circular caiba nas demais perfurações e, para isso, escolherá o diâmetro do círculo que atenda a tais condições. Procurou em suas ferramentas uma serra copo (broca com formato circular) para perfurar a base em madeira, encontrando cinco exemplares, com diferentes medidas de diâmetros, como segue: (I) 3,8 cm; (II) 4,7 cm; (III) 5,6 cm; (IV) 7,2 cm e (V) 9,4 cm.\n\n![](/assets/questions/2016/172/3fe1c831-6ce3-4efe-babc-02de4a8381b4.png)"
+    }
+  },
+  "2016-173": {
+    "originalSha256": "d307c499ba578ab1ce5a6b28fb678584f12f6fbbd2b6b7801c407b5e818339b4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 29,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Em um exame, foi feito o monitoramento dos níveis de duas substâncias presentes (A e B) na corrente sanguínea de uma pessoa, durante um período de 24 h, conforme o resultado apresentado na figura. Um nutricionista, no intuito de prescrever uma dieta para essa pessoa, analisou os níveis dessas substâncias, determinando que, para uma dieta semanal eficaz, deverá ser estabelecido um parâmetro cujo valor será dado pelo número de vezes em que os níveis de A e de B forem iguais, porém, maiores que o nível mínimo da substância A durante o período de duração da dieta.\n\n![](/assets/questions/2016/173/fdf8c101-992d-4af6-8a5a-fa7bb406d400.png)\n\nConsidere que o padrão apresentado no resultado do exame, no período analisado, se repita para os dias subsequentes."
+    }
+  },
+  "2016-174": {
+    "originalSha256": "c8abdbb9007d33ca93f90afb0e566ed3cde8e74ec51c9b87c1baf63de42521cf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um paciente necessita de reidratação endovenosa feita por meio de cinco frascos de soro durante 24 h. Cada frasco tem um volume de 800 mL de soro. Nas primeiras quatro horas, deverá receber 40% do total a ser aplicado. Cada mililitro de soro corresponde a 12 gotas."
+    }
+  },
+  "2016-175": {
+    "originalSha256": "1bc27f2e91e7930f047ba335aec40dbc058d98483320bee39f85bfa271817a84",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "É comum os artistas plásticos se apropriarem de entes matemáticos para produzirem, por exemplo, formas e imagens por meio de manipulações. Um artista plástico, em uma de suas obras, pretende retratar os diversos polígonos obtidos pelas intersecções de um plano com uma pirâmide regular de base quadrada."
+    }
+  },
+  "2016-176": {
+    "originalSha256": "34d1bd91c22f665ead98b17633d708b34358648dc49ecee89706400e98396e37",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Um reservatório é abastecido com água por uma torneira e um ralo faz a drenagem da água desse reservatório. Os gráficos representam as vazões Q, em litro por minuto, do volume de água que entra no reservatório pela torneira e do volume que sai pelo ralo, em função do tempo t, em minuto.\n\n![](/assets/questions/2016/176/61a544a6-f994-4313-812d-2c4b7e563cc8.png)"
+    }
+  },
+  "2016-177": {
+    "originalSha256": "88dfcd5fce1eab78207ba500276caddc1863b0ea5f3a7aca442ff69adaa7451c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 30,
+    "reason": "Restaurado o critério de iniciar as ações pelo bairro com maior LIRAa, omitido pela API antes da referência bibliográfica.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "O LIRAa, Levantamento Rápido do Índice de Infestação por Aedes aegypti, consiste num mapeamento da infestação do mosquito Aedes aegypti. O LIRAa é dado pelo percentual do número de imóveis com focos do mosquito, entre os escolhidos de uma região em avaliação.\n\nO serviço de vigilância sanitária de um município, no mês de outubro do ano corrente, analisou o LIRAa de cinco bairros que apresentaram o maior índice de infestação no ano anterior. Os dados obtidos para cada bairro foram:\n\nI. 14 imóveis com focos de mosquito em 400 imóveis no bairro;  \nII. 6 imóveis com focos de mosquito em 500 imóveis no bairro;  \nIII. 13 imóveis com focos de mosquito em 520 imóveis no bairro;  \nIV. 9 imóveis com focos de mosquito em 360 imóveis no bairro;  \nV. 15 imóveis com focos de mosquito em 500 imóveis no bairro.\n\nO setor de dedetização do município definiu que o direcionamento das ações de controle iniciarão pelo bairro que apresentou o maior índice do LIRAa.\n\nDisponível em: http://bvsms.saude.gov.br. Acesso em: 28 out. 2015"
+    }
+  },
+  "2016-179": {
+    "originalSha256": "b7e6172396e182f3aaa4cbfded365880a63ad3f62dc5f32a26dd45e8ec737f4e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o enunciado completo, ausente na API, após conferência visual da página oficial.",
+    "reviewedAt": "2026-10-18",
+    "fields": {
+      "context": "Diante da hipótese do comprometimento da qualidade da água retirada do volume morto de alguns sistemas hídricos, os técnicos de um laboratório decidiram testar cinco tipos de filtros de água.\n\nDentre esses, os quatro com melhor desempenho serão escolhidos para futura comercialização.\n\nNos testes, foram medidas as massas de agentes contaminantes, em miligrama, que não são capturados por cada filtro em diferentes períodos, em dia, como segue:\n\n• Filtro 1 (F1): 18 mg em 6 dias;\n• Filtro 2 (F2): 15 mg em 3 dias;\n• Filtro 3 (F3): 18 mg em 4 dias;\n• Filtro 4 (F4): 6 mg em 3 dias;\n• Filtro 5 (F5): 3 mg em 2 dias.\n\nAo final, descarta-se o filtro com a maior razão entre a medida da massa de contaminantes não capturados e o número de dias, o que corresponde ao de pior desempenho.\n\nDisponível em: www.redebrasilatual.com.br. Acesso em: 12 jul. 2015 (adaptado)."
+    }
+  },
+  "2016-180": {
+    "originalSha256": "8858571ed23001855891fae13591159b6d3bf8c51fa4d4f9dd3ccb5d9183dcdc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+    "sourcePage": 31,
+    "reason": "Restaurado o trecho inicial do enunciado omitido na API, após conferência visual da página oficial. Preservados os demais dados e imagens. Revisão independente: preservar também os índices E₀/E₁/E₂ do contexto e do comando em notação matemática.",
+    "reviewedAt": "2026-10-22T00:45:56.805Z",
+    "fields": {
+      "context": "Em 2011, um terremoto de magnitude 9,0 na escala Richter causou um devastador tsunami no Japão, provocando um alerta na usina nuclear de Fukushima. Em 2013, outro terremoto, de magnitude 7,0 na mesma escala, sacudiu Sichuan (sudoeste da China), deixando centenas de mortos e milhares de feridos. A magnitude de um terremoto na escala Richter pode ser calculada por\n\n![](/assets/questions/2016/180/903f1104-77ad-4319-a940-e7e2ab5d498b.png)\n\nsendo \\(E\\) a energia, em kWh, liberada pelo terremoto e \\(E_0\\) uma constante real positiva. Considere que \\(E_1\\) e \\(E_2\\) representam as energias liberadas nos terremotos ocorridos no Japão e na China, respectivamente.\n\nDisponível em: www.terra.com.br. Acesso em: 15 ago. 2013 (adaptado).",
+      "alternativeTexts": {
+        "A": "\\(E_1=E_2+2\\)",
+        "B": "\\(E_1=10^2E_2\\)",
+        "C": "\\(E_1=10^3E_2\\)",
+        "D": "\\(E_1=10^{9/7}E_2\\)",
+        "E": "\\(E_1=\\frac97E_2\\)"
+      },
+      "alternativesIntroduction": "Qual a relação entre \\(E_1\\) e \\(E_2\\)?"
+    }
   }
 }
