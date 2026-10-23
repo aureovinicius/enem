@@ -4194,5 +4194,739 @@
     "fields": {
       "context": "Um executivo sempre viaja entre as cidades A e B, que estão localizadas em fusos horários distintos. O tempo de duração da viagem de avião entre as duas cidades é de 6 horas. Ele sempre pega um voo que sai de A às 15h e chega à cidade B às 18h (respectivos horários locais).\n\nCerto dia, ao chegar à cidade B, soube que precisava estar de volta à cidade A, no máximo, até as 13h do dia seguinte (horário local de A)."
     }
+  },
+  "2013-92-espanhol": {
+    "originalSha256": "cb8eaefe508b4cc63f50e8912ad97873a9d60fea99ceadb298f9f7b91f282479",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura a menção a rica fruta omitida da cantiga, popular no comando e relações de trabalho na alternativa C conforme o PDF oficial.",
+    "reviewedAt": "2026-10-18T07:24:02.894Z",
+    "fields": {
+      "context": "**Duerme negrito**\n\nDuerme, duerme, negrito,  \nque tu mamá está en el campo,  \nnegrito…\n\nTe va a traer  \ncodornices para ti.\n\nTe va a traer  \nrica fruta para ti.\n\nTe va a traer  \ncarne de cerdo para ti.  \nTe va a traer  \nmuchas cosas para ti \\[…\\]\n\nDuerme, duerme, negrito,  \nque tu mamá está en el campo,  \nnegrito…  \nTrabajando, trabajando duramente, trabajando sí.  \nTrabajando y no le pagan,  \ntrabajando sí.\n\nDisponível em: http://letras.mus.br. Acesso em: 26 jun. 2012 (fragmento).",
+      "alternativesIntroduction": "Duerme negrito é uma cantiga de ninar da cultura popular hispânica, cuja letra problematiza uma questão social, ao",
+      "alternativeTexts": {
+        "C": "Retratar a precariedade das relações de trabalho no campo."
+      }
+    }
+  },
+  "2013-93-espanhol": {
+    "originalSha256": "9358fec5087f91d57ef95d59f50f7d18b60eeed51ebe2b47805947eefb38e646",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura día, Díaz e demostrando conforme o caderno oficial.",
+    "reviewedAt": "2026-10-18T07:24:02.899Z",
+    "fields": {
+      "context": "Pero un día, le fue presentado a Cortés un tributo bien distinto: un obsequio de veinte esclavas llegó hasta el campamento español y entre ellas, Cortés escogió a una.  \nDescrita por el cronista de la expedición, Bernal Díaz del Castillo, como mujer de “buen parecer y entremetida y desenvuelta”, el nombre indígena de esta mujer era Malintzin, indicativo de que había nacido bajo signos de contienda y desventura. Sus padres la vendieron como esclava; los españoles la llamaron doña Marina, pero su pueblo la llamó la Malinche, la mujer del conquistador, la traidora a los indios. Pero con cualquiera de estos nombres, la mujer conoció un extraordinario destino. Se convirtió en “mi lengua”, pues Cortés la hizo su intérprete y amante, la lengua que habría de guiarle a lo largo y alto del Imperio azteca, demostrando que algo estaba podrido en el reino de Moctezuma, que en efecto existía gran descontento y que el Imperio tenía pies de barro.\n\nFUENTES, C. **El espejo enterrado.** Ciudad de México: FCE, 1992 (fragmento)."
+    }
+  },
+  "2013-94-espanhol": {
+    "originalSha256": "a656eef6f79a0dfdf4ef0405e207af288a48cc3e9a9a46e95d13ac70233f9620",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura En vez, substituído por Em na transcrição, e a pontuação da referência.",
+    "reviewedAt": "2026-10-18T07:24:02.899Z",
+    "fields": {
+      "context": "**Cabra sola**\n\nHay quien dice que soy como la cabra;  \nLo dicen lo repiten, ya lo creo;  \nPero soy una cabra muy extraña  \nQue lleva una medalla y siete cuernos.  \n¡Cabra! En vez de mala leche yo doy llanto.  \n¡Cabra! Por lo más peligroso me paseo.  \n¡Cabra! Me llevo bien con alimañas todas,  \n¡Cabra! Y escribo en los tebeos.  \nVivo sola, cabra sola,  \n— que no quise cabrito en compañía —  \ncuando subo a lo alto de este valle  \nsiempre encuentro un lirio de alegría.  \nY vivo por mi cuenta, cabra sola;  \nQue yo a ningún rebaño pertenezco.  \nSi sufrir es estar como una cabra,  \nEntonces sí lo estoy, no dudar de ello.\n\nFUERTES, G. **Poeta de guardia.** Barcelona: Lumen, 1990."
+    }
+  },
+  "2013-95-espanhol": {
+    "originalSha256": "7dc130092f72d97f6c2e9c4154a70be04ab8493caec6b753781191ce3c49dc2d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura con ella na passagem sobre unidade e diversidade da língua.",
+    "reviewedAt": "2026-10-18T07:24:02.899Z",
+    "fields": {
+      "context": "**Pensar la lengua del siglo XXI** \n\nAceptada la dicotomía entre “español general” académico y “español periférico” americano, la capacidad financiera de la Real Academia, apoyada por la corona y las grandes empresas transnacionales españolas, no promueve la conservación de la unidad, sino la unificación del español, dirigida e impuesta desde España (la Fundación Español Urgente: Fundeu). Unidad y unificación no son lo mismo: la unidad ha existido siempre y con ella la variedad de la lengua, riqueza suprema de nuestras culturas nacionales; la unificación lleva a la pérdida de las diferencias culturales, que nutren al ser humano y son tan importantes como la diversidad biológica de la Tierra.  \nCulturas nacionales: desde que nacieron los primeros criollos, mestizos y mulatos en el continente hispanoamericano, las diferencias de colonización, las improntas que dejaron en las nacientes sociedades americanas los pueblos aborígenes, la explotación de las riquezas naturales, las redes comerciales coloniales fueron creando culturas propias, diferentes entre sí, aunque con el fondo común de la tradición española. Después de las independencias, cuando se instituyeron nuestras naciones, bajo diferentes influencias, ya francesas, ya inglesas; cuando los inmigrantes italianos, sobre todo, dieron su pauta a Argentina, Uruguay o Venezuela, esas culturas nacionales se consolidaron y con ellas su español, pues la lengua es, ante todo, constituyente. Así, el español actual de España no es sino una más de las lenguas nacionales del mundo hispánico. El español actual es el conjunto de veintidós españoles nacionales, que tienen sus propias características; ninguno vale más que otro. La lengua del siglo XXI es, por eso, una lengua pluricéntrica.\n\nLARA, L.F. Disponível em: www.revistaenie.clarin.com. Acesso em: 25 fev. 2013."
+    }
+  },
+  "2013-114": {
+    "originalSha256": "7d168b3b07bae7ca009d4e9b5100b7e06bce3c7ed0980040b25e5590102409b1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 12,
+    "reason": "Recupera integralmente o Texto I, trecho da carta de Caminha ausente na API, mantendo a figura do Texto II.",
+    "reviewedAt": "2026-10-18T07:24:02.899Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nAndaram na praia, quando saímos, oito ou dez deles; e daí a pouco começaram a vir mais. E parece-me que viriam, este dia, à praia, quatrocentos ou quatrocentos e cinquenta. Alguns deles traziam arcos e flechas, que todos trocaram por carapuças ou por qualquer coisa que lhes davam. [...] Andavam todos tão bem-dispostos, tão bem feitos e galantes com suas tinturas que muito agradavam.\n\nCASTRO, S. **A carta de Pero Vaz de Caminha**. Porto Alegre: L&PM, 1996 (fragmento).\n\n![](https://enem.dev/2013/questions/114/aac80934-559a-4244-bca8-133d8a9b4aa4.png)"
+    }
+  },
+  "2013-4": {
+    "originalSha256": "0caf582542a402131470eb81648ff1c5463ed24607699c64b88ab68a25e4009c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Recupera o título Texto I, presente no original e ausente da importação.",
+    "reviewedAt": "2026-10-22T01:08:40.941Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nHá já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável.\n\n_DESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado)._\n\nTEXTO II\n\nÉ o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida.\n\n_SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado)._"
+    }
+  },
+  "2013-6": {
+    "originalSha256": "898d1783a3b1a08081d49b800309aa8bb784260621b8cf4b13a5e9eb2923fa25",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura os versos e a pontuação da referência; corrige frustada para frustrada na alternativa B.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "**O canto triste dos conquistados: os últimos dias de Tenochtitlán**\n\nNos caminhos jazem dardos quebrados;  \nos cabelos estão espalhados.  \nDestelhadas estão as casas,  \nVermelhas estão as águas, os rios, como se alguém as tivesse tingido,  \nNos escudos esteve nosso resguardo,  \nmas os escudos não detêm a desolação…\n\nPINSKY, J. et al. **História da América através de textos.** São Paulo: Contexto, 2007 (fragmento).",
+      "alternativeTexts": {
+        "B": "Tentativa frustrada de resistência a um poder considerado superior."
+      }
+    }
+  },
+  "2013-11": {
+    "originalSha256": "c987aded1cc7227d425cbfdcf1d892530e6eda1f924306d28c020539ad176dfd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura a preposição com na alternativa B, conforme o original.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Presidencialismo, com o objetivo de limitar o poder dos coronéis."
+      }
+    }
+  },
+  "2013-12": {
+    "originalSha256": "cc8fb556d54b4492cac4247fb875906f48fd2040197855b10cda848b63be48ce",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura a pontuação final da alternativa A.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Distinções sociais eram deixadas de lado em nome da celebração."
+      }
+    }
+  },
+  "2013-18": {
+    "originalSha256": "85fa2a8915323b927f9a47d6499b5c904ac7a92f09763874f165e93e684a2214",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura a pontuação da data de acesso na referência.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "A África também já serviu como ponto de partida para comédias bem vulgares, mas de muito sucesso, como _Um príncipe em Nova York_ e _Ace Ventura: um maluco na África_; em ambas, a África parece um lugar cheio de tribos doidas e rituais de desenho animado. A animação _O rei Leão_, da Disney, o mais bem-sucedido filme americano ambientado na África, não chegava a contar com elenco de seres humanos.\n\nLEIBOWITZ, E. **Filmes de Hollywood sobre África ficam no clichê**. Disponível em: http://noticias.uol.com.br. Acesso em: 17 abr. 2010."
+    }
+  },
+  "2013-22": {
+    "originalSha256": "96b61195950ad07b3788501420dcab251f64e5699d7c138eb45d4c850ac6b50d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Restaura pontuação da referência e acento da palavra científicas, conferidos no original.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Para que não haja abuso, é preciso organizar as coisas de maneira que o poder seja contido pelo poder. Tudo estaria perdido se o mesmo homem ou o mesmo corpo dos principais, ou dos nobres, ou do povo, exercesse esses três poderes: o de fazer leis, o de executar as resoluções públicas e o de julgar os crimes ou as divergências dos indivíduos. Assim, criam-se os poderes Legislativo, Executivo e Judiciário, atuando de forma independente para a efetivação da liberdade, sendo que esta não existe se uma mesma pessoa ou grupo exercer os referidos poderes concomitantemente.\n\nMONTESQUIEU, B. Do espírito das leis. São Paulo: Abril Cultural, 1979 (adaptado).",
+      "alternativeTexts": {
+        "C": "Concentração do poder nas mãos de elites técnico-científicas."
+      }
+    }
+  },
+  "2013-23": {
+    "originalSha256": "c1a0db421f804a8c2ee3a517eb3a677d7851087c2197ba92bee6d635f1c1b18f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura o título completo da obra de Duby na referência bibliográfica.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Quando ninguém duvida da existência de um outro mundo, a morte é uma passagem que deve ser celebrada entre parentes e vizinhos. O homem da Idade Média tem a convicção de não desaparecer completamente, esperando a ressurreição. Pois nada se detém e tudo continua na eternidade. A perda contemporânea do sentimento religioso fez da morte uma provação aterrorizante, um trampolim para as trevas e o desconhecido.\n\nDUBY, G. Ano 1000 ano 2000 na pista dos nossos medos. São Paulo: Unesp, 1998 (adaptado)."
+    }
+  },
+  "2013-26": {
+    "originalSha256": "59b7341f14e943cee7476bd4b5e905a84c9b05475a595bd4e5ca9c014567071d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura os dois-pontos na referência bibliográfica.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Durante a realeza, e nos primeiros anos republicanos, as leis eram transmitidas oralmente de uma geração para outra. A ausência de uma legislação escrita permitia aos patrícios manipular a justiça conforme seus interesses. Em 451 a.C., porém, os plebeus conseguiram eleger uma comissão de dez pessoas – _os decênviros_ – para escrever as leis. Dois deles viajaram a Atenas, na Grécia, para estudar a legislação de Sólon.\n\nCOULANGES, F. A cidade antiga. São Paulo: Martins Fontes, 2000."
+    }
+  },
+  "2013-27": {
+    "originalSha256": "00f737374ea5634b88ab02cf57602967f050ec23d97b36e6a6681a2813855c82",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Restaura a acentuação de Aristóteles no comando e na referência, além da abreviação da editora.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "A felicidade é, portanto, a melhor, a mais nobre e a mais aprazível coisa do mundo, e esses atributos não devem estar separados como na inscrição existente em Delfos “das coisas, a mais nobre é a mais justa, e a melhor é a saúde; porém a mais doce é ter o que amamos”. Todos estes atributos estão presentes nas mais excelentes atividades, e entre essas a melhor, nós a identificamos como felicidade.\n\nARISTÓTELES. **A Política**. São Paulo: Cia. das Letras, 2010.",
+      "alternativesIntroduction": "Ao reconhecer na felicidade a reunião dos mais excelentes atributos, Aristóteles a identifica como"
+    }
+  },
+  "2013-29": {
+    "originalSha256": "0bb728c03eb6f5692463769bbbe6e398aebd3f93d6cf207db880b977a214d82e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Restaura a expressão a festa no comando em lugar de as festa.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "alternativesIntroduction": "Originária dos tempos coloniais, a festa da Coroação do Rei do Congo evidencia um processo de"
+    }
+  },
+  "2013-32": {
+    "originalSha256": "a3e151eddc08110dc96e977fa437f2adfee1f632ce6d7a0473bf14b95f531f15",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Restaura Sousa e Mello e os espaços e a pontuação da referência tal como impressa.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Ninguém desconhece a necessidade que todos os fazendeiros têm de aumentar o número de seus trabalhadores. E como até há pouco supriam-se os fazendeiros dos braços necessários? As fazendas eram alimentadas pela aquisição de escravos, sem o menor auxílio pecuniário do governo. Ora, se os fazendeiros se supriam de braços à sua custa, e se é possível obtê-los ainda, posto que de outra qualidade, por que motivo não hão de procurar alcançá-los pela mesma maneira, isto é, à sua custa?\n\nResposta de Manuel Felizardo de Sousa e Mello, diretor geral das Terras Públicas, ao Senador Vergueiro. In: ALENCASTRO, L. F. (Org.) **História da vida privada no Brasil**. São Paulo: Cia. das Letras, 1998 (adaptado)."
+    }
+  },
+  "2013-33": {
+    "originalSha256": "6c305d9f8f015327b41fa5e4590f38797587afb29387f1624ea551a08863e370",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Remove crédito Foto: Enem, ausente do caderno, e restaura separação e pontuação das referências. Restaura a fotografia exata de D. Pedro II presente no PDF oficial: a imagem da API era outra tomada do retrato, com composição diferente.",
+    "reviewedAt": "2026-10-22T01:11:55.769Z",
+    "fields": {
+      "context": "![](https://enem.dev/2013/questions/33/ffa5354f-47ee-4462-b8e4-5cedcb6a0f85.jpg)\n\nMOREAUX, F. R. Proclamação da Independência. Disponível em: www.tvbrasil.org.br. Acesso em: 14 jun. 2010.\n\n![](/assets/questions/2013/33/official-pedro-ii.jpg)\n\nFERREZ, M. D. Pedro II.\n\nSCHWARCZ, L. M. As barbas do imperador: D. Pedro II, um monarca nos trópicos. São Paulo: Cia. das Letras, 1998."
+    },
+    "assets": {
+      "official-pedro-ii.jpg": "66ae279aeafab4f1077c44ba7fc67bdd39b1e184afb4b5241f574c02ac4be880"
+    }
+  },
+  "2013-35": {
+    "originalSha256": "339f28da7ea0fa7331164d811eda3ed6753a5342a8ebe4756fbab91bc96136a9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Corrige Puertal para Puerta, descontamento para descontentamento e transcrição da referência.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Rua Preciados, seis da tarde. Ao longe, a massa humana que abarrota a Praça Puerta Del Sol, em Madri, se levanta. Um grupo de garotas, ao ver a cena, corre em direção à multidão. Milhares de pessoas fazem ressoar o slogan: “Que não, que não, que não nos representem”. Um garoto fala pelo megafone: “Demandamos submeter a referendo o resgate bancário”.\n\nRODRÍGUEZ, O. Puerta Del Sol, o grande alto-falante. **Brasil de Fato.** São Paulo, 26 maio-1 jun. 2011 (adaptado).",
+      "alternativesIntroduction": "Em 2011, o acampamento dos Indignados espanhóis expressou todo o descontentamento político da juventude europeia. Que proposta sintetiza o conjunto de reivindicações políticas destes jovens?"
+    }
+  },
+  "2013-37": {
+    "originalSha256": "9b7f33abe1ad1be3b3b23353f04816d7ce93d866a7d49f16d3bc4da2c3c3e648",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura vírgula após o sobrenome Silveira na referência.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Nos últimos decênios, o território conhece grandes mudanças em função de acréscimos técnicos que renovam a sua materialidade, como resultado e condição, ao mesmo tempo, dos processos econômicos e sociais em curso.\n\nSANTOS, M.; SILVEIRA, M. L. **O Brasil: território e sociedade no início do século XXI.** Rio de Janeiro: Record, 2004 (adaptado)."
+    }
+  },
+  "2013-40": {
+    "originalSha256": "17f3263ee344bbfe358fef78d396c3fcac6d1fb67391a40598b97d6895058b98",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 12,
+    "reason": "Recupera Texto I e o nome Ipotesi da revista, conforme a página oficial.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "**TEXTO I**\n\nEla acorda tarde depois de ter ido ao teatro e à dança; ela lê romances, além de desperdiçar o tempo a olhar para a rua da sua janela ou da sua varanda; passa horas no toucador a arrumar o seu complicado penteado; um número igual de horas praticando piano e mais outras na sua aula de francês ou de dança.\n\nComentário do Padre Lopes da Gama acerca dos costumes femininos (1839) apud SILVA, T. V. Z. Mulheres, cultura e literatura brasileira. **Ipotesi – Revista de Estudos Literários.** Juiz de Fora, v. 2. n. 2, 1998.\n\nTEXTO II\n\nAs janelas e portas gradeadas com treliças não eram cadeias confessas, positivas; mas eram, pelo aspecto e pelo seu destino, grandes gaiolas, onde os pais e maridos zelavam, sonegadas à sociedade, as filhas e as esposas.\n\nMACEDO, J. M. **Memórias da Rua do Ouvidor** (1878). Disponível em: www.dominiopublico.gov.br. Acesso em: 20 maio 2013 (adaptado)."
+    }
+  },
+  "2013-44": {
+    "originalSha256": "f51036ee9a2c5574d760ddb7dde779fe9e80185e81c2fb1605db4a400ed3cb19",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Remove ponto final duplicado na alternativa B.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Incentivava a conquista de alforrias por meio de ações judiciais."
+      }
+    }
+  },
+  "2013-45": {
+    "originalSha256": "c0c2aeca3bdd80b37fa79f01c7969f4ebe597101f85d5ea72d3a59f182960efe",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura tornarem em lugar da transcrição tormarem.",
+    "reviewedAt": "2026-10-22T01:08:40.947Z",
+    "fields": {
+      "context": "Tenho 44 anos e presenciei uma transformação impressionante na condição de homens e mulheres _gays_ nos Estados Unidos. Quando nasci, relações homossexuais eram ilegais em todos os Estados Unidos, menos Illinois. _Gays_ e lésbicas não podiam trabalhar no governo federal. Não havia nenhum político abertamente _gay_. Alguns homossexuais não assumidos ocupavam posições de poder, mas a tendência era eles tornarem as coisas ainda piores para seus semelhantes.\n\nROSS, A. Na máquina do tempo. Época, ed. 766, 28 jan. 2013."
+    }
+  },
+  "2013-19": {
+    "originalSha256": "df761f0b4230146b2aa8b9410c44991a1f8968975d35c5e0ecd5d0db673c5a89",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Preserva os colchetes editoriais da canção como texto; remove escapes importados que eram interpretados como delimitadores matemáticos.",
+    "reviewedAt": "2026-10-22T01:11:55.768Z",
+    "fields": {
+      "context": "**Disneylândia**\n\nMultinacionais japonesas instalam empresas em Hong-Kong\n\nE produzem com matéria-prima brasileira\n\nPara competir no mercado americano\n\n[…]\n\nPilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné\n\nGasolina árabe alimenta automóveis americanos na África do Sul\n\n[…]\n\nCrianças iraquianas fugidas da guerra\n\nNão obtêm visto no consulado americano do Egito\n\nPara entrarem na Disneylândia\n\nANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento)."
+    }
+  },
+  "2013-48": {
+    "originalSha256": "aaa21e7429a2e10d09db36e066bef6e63699386123da7a6d12ce372ff32a57cc",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em um experimento foram utilizadas duas garrafas PET, uma pintada de branco e a outra de preto, acopladas cada uma a um termômetro. No ponto médio da distância entre as garrafas, foi mantida acesa, durante alguns minutos, uma lâmpada incandescente. Em seguida a lâmpada foi desligada. Durante o experimento, foram monitoradas as temperaturas das garrafas: a) enquanto a lâmpada permaneceu acesa e b) após a lâmpada ser desligada e atingirem equilíbrio térmico com o ambiente.\n\n![](/assets/questions/2013/48/c5d6d8a0-0501-49c7-b4e9-2300ccca31aa.png)"
+    }
+  },
+  "2013-54": {
+    "originalSha256": "00b0241c30181e50149a202b675d378f99b11fcb7a857fe015220ee8e1c66098",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 17,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O uso de embalagens plásticas descartáveis vem crescendo em todo o mundo, juntamente com o problema ambiental gerado por seu descarte inapropriado. O politereftalato de etileno (PET), cuja estrutura é mostrada, tem sido muito utilizado na indústria de refrigerantes e pode ser reciclado e reutilizado. Uma das opções possíveis envolve a produção de matérias-primas, como o etilenoglicol (1,2-etanodiol), a partir de objetos compostos de PET pós-consumo.\n\n![](/assets/questions/2013/54/93c6c320-6ef3-49b4-ac7a-02820bbf0553.png)"
+    }
+  },
+  "2013-57": {
+    "originalSha256": "a569db4e5b262176a7a691de085fa01be72320773472fec40614513d3c005216",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para realizar um experimento com uma garrafa PET cheia d’água, perfurou-se a lateral da garrafa em três posições a diferentes alturas. Com a garrafa tampada, a água não vazou por nenhum dos orifícios, e, com a garrafa destampada, observou-se o escoamento da água conforme ilustrado na figura.\n\n![](/assets/questions/2013/57/c6f54e13-8d47-41f4-a0e5-ace29cfe3ee6.png)"
+    }
+  },
+  "2013-66": {
+    "originalSha256": "11a14840d0a52085f613e60220021a27a7c89d5784d3309c4b809f05ca4be57c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Para serrar ossos e carnes congeladas, um açougueiro utiliza uma serra de fita que possui três polias e um motor. O equipamento pode ser montado de duas formas diferentes, P e Q. Por questão de segurança, é necessário que a serra possua menor velocidade linear.\n\n![](/assets/questions/2013/66/3cd13166-7677-4ab2-9645-ac6c5d401cac.png)"
+    }
+  },
+  "2013-68": {
+    "originalSha256": "938617bd63b57da6de7a15962f725630f420bacbd440371df08f7e75945b2301",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013. Substitui também as cinco imagens de alternativas da API, que mostravam expressões logarítmicas de outra questão, por recortes das estruturas químicas originais.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "O glifosato (\\(\\mathrm{C_3H_8NO_5P}\\)) é um herbicida pertencente ao grupo químico das glicinas, classificado como não seletivo. Esse composto possui os grupos funcionais carboxilato, amino e fosfonato. A degradação do glifosato no solo é muito rápida e realizada por grande variedade de microrganismos, que usam o produto como fonte de energia e fósforo. Os produtos da degradação são o ácido aminometilfosfônico (AMPA) e o N-metilglicina (sarcosina):\n\n![](/assets/questions/2013/68/d1879686-065c-4be3-8a4b-2a2867bff97e.png)",
+      "alternativeFiles": {
+        "A": "/assets/questions/2013/68/official-A.png",
+        "B": "/assets/questions/2013/68/official-B.png",
+        "C": "/assets/questions/2013/68/official-C.png",
+        "D": "/assets/questions/2013/68/official-D.png",
+        "E": "/assets/questions/2013/68/official-E.png"
+      }
+    },
+    "assets": {
+      "official-A.png": "9566079352c0aae19c71117df13763eafbeee43043aab63a68c0bd9ba2ce2fd3",
+      "official-B.png": "0a83d0940a31f27e1cceb2a20384ebc0015d25ebfc33258b968efd130e9ce3e4",
+      "official-C.png": "dbd68f7204a3b63b713265017508ca209fc8eecb8d999b44f6a1c1fed191f723",
+      "official-D.png": "8d77101574b8668ea702fdab54260271083d06714eb3c01a89dfb0bce597bf9b",
+      "official-E.png": "56d853e1ca0db9142ede29b423e16ea3c4c63edffb8b6205203cee2fa61da109"
+    }
+  },
+  "2013-72": {
+    "originalSha256": "ac679b0a06001270ac9b232d10952c1bac6503cc8bd8f17bc5da48009b408542",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Um eletricista analisa o diagrama de uma instalação elétrica residencial para planejar medições de tensão e corrente em uma cozinha. Nesse ambiente existem uma geladeira (G), uma tomada (T) e uma lâmpada (L), conforme a figura. O eletricista deseja medir a tensão elétrica aplicada à geladeira, a corrente total e a corrente na lâmpada. Para isso, ele dispõe de um voltímetro (V) e dois amperímetros (A).\n\n![](/assets/questions/2013/72/023b2cf4-ae6c-41cf-b2b5-920ff8018158.png)"
+    }
+  },
+  "2013-82": {
+    "originalSha256": "fe0fc7fc0696ac9231fa44b3c5b3036546bcc03e2ae9be424e3e24aaeb8f1c49",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013. Recupera também a notação das frações nas alternativas A e D.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Em um piano, o Dó central e a próxima nota Dó (Dó maior) apresentam sons parecidos, mas não idênticos. É possível utilizar programas computacionais para expressar o formato dessas ondas sonoras em cada uma das situações como apresentado nas figuras, em que estão indicados intervalos de tempo idênticos (T).\n\n![](/assets/questions/2013/82/dc5323c9-893c-4a4c-bea3-fd88a30c0de6.png)",
+      "alternativeTexts": {
+        "A": "\\(\\frac{1}{2}\\).",
+        "D": "\\(\\frac{1}{4}\\)."
+      }
+    }
+  },
+  "2013-83": {
+    "originalSha256": "274980c9369099cc7da294ad3206fd5560b5e32fd145a0bdfdbd5423ac6a3084",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013. Restaura índice e unidade no comando.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (\\(R_s\\)) e a dependência da resistência com a temperatura é conhecida.\n\n![](/assets/questions/2013/83/8c89e96c-e432-40e1-896c-84255e978921.png)",
+      "alternativesIntroduction": "Para um valor de temperatura em que \\(R_s=100\\ \\Omega\\), a leitura apresentada pelo voltímetro será de"
+    }
+  },
+  "2013-86": {
+    "originalSha256": "3d1b568a709974573671d70fbc2a48a3d2898059ba1821926e9ddb9cda15180c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2).\n\n![](/assets/questions/2013/86/23f946b2-3239-4257-99bb-96c0d984831b.png)"
+    }
+  },
+  "2013-90": {
+    "originalSha256": "881546b4e7c19856a915007e9b7c0b7700f523484522f8faf8842edcda22eaf9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o texto de contexto ausente no snapshot da API, conferido no caderno oficial azul do primeiro dia do ENEM 2013.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "context": "As moléculas de nanoputians lembram figuras humanas e foram criadas para estimular o interesse de jovens na compreensão da linguagem expressa em fórmulas estruturais, muito usadas na química orgânica. Um exemplo é o NanoKid, representado na figura:\n\n![](/assets/questions/2013/90/27d72a6f-643a-4caa-90c1-ded6335b2593.png)"
+    }
+  },
+  "2013-55": {
+    "originalSha256": "e2383e1b2bf8bba560d155397447c0c594ed1fde55e54a4d7f3180ad84be2a8f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 18,
+    "reason": "Restaura o gráfico da alternativa D: o arquivo da API tinha as legendas E e P invertidas. O original oficial apresenta E na reta superior e P na inferior.",
+    "reviewedAt": "2026-10-21",
+    "fields": {
+      "alternativeFiles": {
+        "D": "/assets/questions/2013/55/official-D.png"
+      }
+    },
+    "assets": {
+      "official-D.png": "29a38d5890c848a7f33735252a11783569f4bd0eff4cac300037a899f374cb42"
+    }
+  },
+  "2013-136": {
+    "originalSha256": "1d323cec472da9f6d19bb3c75bc901cf1158fa41da4ddff5b5ffaf02b93ca4ff",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.897Z",
+    "fields": {
+      "context": "As torres Puerta de Europa são duas torres inclinadas uma contra a outra, construídas numa avenida de Madri, na Espanha. A inclinação das torres é de 15° com a vertical e elas têm, cada uma, uma altura de 114 m (a altura é indicada na figura como o segmento AB). Estas torres são um bom exemplo de um prisma oblíquo de base quadrada e uma delas pode ser observada na imagem.\n\n![](/assets/questions/2013/136/2b7178ab-7991-4b9d-9232-a6f9dadd475c.png)"
+    }
+  },
+  "2013-137": {
+    "originalSha256": "21322c2966316ec97de4cff9bc7e9be237e48527fd65dada5801cc0073110896",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.902Z",
+    "fields": {
+      "context": "As notas de um professor que participou de um processo seletivo, em que a banca avaliadora era composta por cinco membros, são apresentadas no gráfico. Sabe-se que cada membro da banca atribuiu duas notas ao professor, uma relativa aos conhecimentos específicos da área de atuação e outra, aos conhecimentos pedagógicos, e que a média final do professor foi dada pela média aritmética de todas as notas atribuídas pela banca avaliadora.\n\n![](/assets/questions/2013/137/53209063-0069-498a-9bb1-2a6e28fcbaec.png)"
+    }
+  },
+  "2013-139": {
+    "originalSha256": "3866424c8edb00e7c72ca23bde826955f6229f8a6d467d99134c6248979d67d2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.902Z",
+    "fields": {
+      "context": "Uma torneira não foi fechada corretamente e ficou pingando, da meia-noite às seis horas da manhã, com a frequência de uma gota a cada três segundos. Sabe-se que cada gota d’água tem volume de 0,2 mL."
+    }
+  },
+  "2013-140": {
+    "originalSha256": "72fed5008425fda9ab8e9413f4b133da02398d1aa45edfa150eaf13b30f0d1bb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.902Z",
+    "fields": {
+      "context": "Um comerciante visita um centro de vendas para fazer cotação de preços dos produtos que deseja comprar. Verifica que se aproveita 100% da quantidade adquirida de produtos do tipo A, mas apenas 90% de produtos do tipo B. Esse comerciante deseja comprar uma quantidade de produtos, obtendo o menor custo/benefício em cada um deles. O quadro mostra o preço por quilograma, em reais, de cada produto comercializado.\n\n![](/assets/questions/2013/140/085223cd-1821-447a-a43f-41a21e311320.png)"
+    }
+  },
+  "2013-141": {
+    "originalSha256": "f40cae16889ed8850ef2fa6fa20beb11f201ecabf2410d6c2c082202bd5ce215",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.903Z",
+    "fields": {
+      "context": "Em um sistema de dutos, três canos iguais, de raio externo 30 cm, são soldados entre si e colocados dentro de um cano de raio maior, de medida R. Para posteriormente ter fácil manutenção, é necessário haver uma distância de 10 cm entre os canos soldados e o cano de raio maior. Essa distância é garantida por um espaçador de metal, conforme a figura:\n\n![](/assets/questions/2013/141/3cf638d1-7d15-4696-b092-de676c4e6701.png)",
+      "alternativesIntroduction": "Utilize 1,7 como aproximação para \\(\\sqrt3\\). O valor de R, em centímetros, é igual a"
+    }
+  },
+  "2013-142": {
+    "originalSha256": "8b01e4d3db94f703cc5dff6bf8ab11ba9cfed6e822e1da7bf530e46940f565b2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "O índice de eficiência utilizado por um produtor de leite para qualificar suas vacas é dado pelo produto do tempo de lactação (em dias) pela produção média diária de leite (em kg), dividido pelo intervalo entre partos (em meses). Para esse produtor, a vaca é qualificada como eficiente quando esse índice é, no mínimo, 281 quilogramas por mês, mantendo sempre as mesmas condições de manejo (alimentação, vacinação e outros). Na comparação de duas ou mais vacas, a mais eficiente é a que tem maior índice.\n\nA tabela apresenta os dados coletados de cinco vacas:\n\n![](/assets/questions/2013/142/504c21b5-da46-4660-bd8d-bc6e547bf243.png)"
+    }
+  },
+  "2013-143": {
+    "originalSha256": "fe736b3372b5e2cae7a5524f109ed959ec1184963b8aee58043b3aa49da4b1c9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "A Secretaria de Saúde de um município avalia um programa que disponibiliza, para cada aluno de uma escola municipal, uma bicicleta, que deve ser usada no trajeto de ida e volta, entre sua casa e a escola. Na fase de implantação do programa, o aluno que morava mais distante da escola realizou sempre o mesmo trajeto, representado na figura, na escala 1 : 25 000, por um período de cinco dias.\n\n![](/assets/questions/2013/143/99ee084f-6759-467b-b6fc-c898787ae9c4.png)"
+    }
+  },
+  "2013-144": {
+    "originalSha256": "16ef9888f288cd7925740cda3283b2952a5614717c6328f12a3d94b62e99fac2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "A cidade de Guarulhos (SP) tem o 8º PIB municipal do Brasil, além do maior aeroporto da América do Sul. Em proporção, possui a economia que mais cresce em indústrias, conforme mostra o gráfico.\n\n![](/assets/questions/2013/144/f2d1f08e-1240-4175-ab48-38b49a301a01.png)"
+    }
+  },
+  "2013-145": {
+    "originalSha256": "e2e3345799e3acbe3a70b07038c77844b276284b2a5045f9d123b22896e02c39",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura a explicação de cadeiras reservadas e corrige o denominador da alternativa A: o PDF oficial apresenta 17/70, e o snapshot da API transcreveu 17/10.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Em um certo teatro, as poltronas são divididas em setores. A figura apresenta a vista do setor 3 desse teatro, no qual as cadeiras escuras estão reservadas e as claras não foram vendidas.\n\n![](/assets/questions/2013/145/e171ead9-f89c-4f21-9cf2-198bc5f20f4f.png)",
+      "alternativeTexts": {
+        "A": "\\(\\frac{17}{70}\\)",
+        "B": "\\(\\frac{17}{53}\\)",
+        "C": "\\(\\frac{53}{70}\\)",
+        "D": "\\(\\frac{53}{17}\\)",
+        "E": "\\(\\frac{70}{17}\\)"
+      }
+    }
+  },
+  "2013-146": {
+    "originalSha256": "2d4001a397e2615d0dcdbbc4369b0c07fe54d79b3ad00fd2e2556468fb35d349",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Uma loja acompanhou o número de compradores de dois produtos, A e B, durante os meses de janeiro, fevereiro e março de 2012. Com isso, obteve este gráfico:\n\n![](/assets/questions/2013/146/573a432a-fdf5-4f17-8e42-d8337154d0aa.png)"
+    }
+  },
+  "2013-147": {
+    "originalSha256": "e14b427895134f2664273efa3d79e4e5e2006c0b4085d8310116d53e599f3216",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Para o reflorestamento de uma área, deve-se cercar totalmente, com tela, os lados de um terreno, exceto o lado margeado pelo rio, conforme a figura. Cada rolo de tela que será comprado para confecção da cerca contém 48 metros de comprimento.\n\n![](/assets/questions/2013/147/3167f5c3-7c37-42fc-9abf-e5b01abc1bea.png)"
+    }
+  },
+  "2013-149": {
+    "originalSha256": "eb86d572b9c31f03c33208291bf07bf3cfa5c808f1eb7441b0a5d177935488f9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "As projeções para a produção de arroz no período de 2012 - 2021, em uma determinada região produtora, apontam para uma perspectiva de crescimento constante da produção anual. O quadro apresenta a quantidade de arroz, em toneladas, que será produzida nos primeiros anos desse período, de acordo com essa projeção.\n\n![](/assets/questions/2013/149/8fe1bcbf-df0c-4081-b00d-efa0564e5fd6.png)"
+    }
+  },
+  "2013-151": {
+    "originalSha256": "8dca274cc8ce89d59c9a6c04111752491d698c6a91f1a4435645b625c5c3d7d5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura os expoentes das equações da circunferência e da parábola, achatados como x2/y2 no snapshot, usando notação matemática conforme o PDF oficial.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Durante uma aula de Matemática, o professor sugere aos alunos que seja fixado um sistema de coordenadas cartesianas \\((x,y)\\) e representa na lousa a descrição de cinco conjuntos algébricos, I, II, III, IV e V, como se segue:\n\nI — é a circunferência de equação \\(x^2+y^2=9\\);  \nII — é a parábola de equação \\(y=-x^2-1\\), com \\(x\\) variando de −1 a 1;  \nIII — é o quadrado formado pelos vértices \\((-2,1)\\), \\((-1,1)\\), \\((-1,2)\\) e \\((-2,2)\\);  \nIV — é o quadrado formado pelos vértices \\((1,1)\\), \\((2,1)\\), \\((2,2)\\) e \\((1,2)\\);  \nV — é o ponto \\((0,0)\\).\n\nA seguir, o professor representa corretamente os cinco conjuntos sobre uma mesma malha quadriculada, composta de quadrados com lados medindo uma unidade de comprimento, cada, obtendo uma figura."
+    }
+  },
+  "2013-152": {
+    "originalSha256": "eb8732f355a244ee1b980aab7b5aaed4ea9d1ca604220426c32dddf29d92b9fd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "A parte interior de uma taça foi gerada pela rotação de uma parábola em torno de um eixo z, conforme mostra a figura.\n\n![](/assets/questions/2013/152/71519410-35b4-4dde-b1af-d908a8fa58cf.png)\n\nA função real que expressa a parábola, no plano cartesiano da figura, é dada pela lei \\(f(x)=\\frac32x^2-6x+C\\), onde C é a medida da altura do líquido contido na taça,  em centímetros. Sabe-se que o ponto V, na figura, representa o vértice da parábola, localizado sobre o eixo x."
+    }
+  },
+  "2013-154": {
+    "originalSha256": "0d20e51f00a511862b3051b81cc9d4560b7f7faca8ceba7fa9da54c18c16399a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "A Lei da Gravitação Universal, de Isaac Newton, estabelece a intensidade da força de atração entre duas massas. Ela é representada pela expressão:\n\n\\(F=G\\frac{m_1m_2}{d^2}\\)\n\nonde \\(m_1\\) e \\(m_2\\) correspondem às massas dos corpos, _d_ à distância entre eles, _G_ à constante universal da gravitação e _F_ à força que um corpo exerce sobre o outro.\n\nO esquema representa as trajetórias circulares de cinco satélites, de mesma massa, orbitando a Terra.\n\n![](/assets/questions/2013/154/e34b89e1-90df-47ef-bc5d-2eea3ebb4e65.png)"
+    }
+  },
+  "2013-157": {
+    "originalSha256": "fb8e8537e21aaf5eaa78ce88d2cf939dedd305b46ecc6235c66daf90c1bcae24",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Num parque aquático existe uma piscina infantil na forma de um cilindro circular reto, de 1 m de profundidade e volume igual a 12 m³, cuja base tem raio R e centro O. Deseja-se construir uma ilha de lazer seca no interior dessa piscina, também na forma de um cilindro circular reto, cuja base estará no fundo da piscina e com centro da base coincidindo com o centro do fundo da piscina, conforme a figura. O raio da ilha de lazer será r. Deseja-se que após a construção dessa ilha, o espaço destinado à água na piscina tenha um volume de, no mínimo, 4 m³.\n\n![](/assets/questions/2013/157/05b2dd08-a2a1-45ea-a618-540da89c4bd3.png)\n\nConsidere 3 como valor aproximado para π"
+    }
+  },
+  "2013-160": {
+    "originalSha256": "e568fe7c9fccf403d67c93116014048d3a833f668db91f1361b89277ca328436",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Cinco empresas de gêneros alimentícios encontram-se à venda. Um empresário, almejando ampliar os seus investimentos, deseja comprar uma dessas empresas. Para escolher qual delas irá comprar, analisa o lucro (em milhões de reais) de cada uma delas, em função de seus tempos (em anos) de existência, decidindo comprar a empresa que apresente o maior lucro médio anual.\n\nO quadro apresenta o lucro (em milhões de reais) acumulado ao longo do tempo (em anos) de existência de cada empresa.\n\n![](/assets/questions/2013/160/c7425191-f428-4a64-bb30-70e95b899200.png)"
+    }
+  },
+  "2013-161": {
+    "originalSha256": "fcd0062f12b9622693fd1b16a1c187ec7d97a97721eb73fd345b009053ece4a3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Deseja-se postar cartas não comerciais, sendo duas de 100 g, três de 200 g e uma de 350 g. O gráfico mostra o custo para enviar uma carta não comercial pelos Correios:\n\n![](/assets/questions/2013/161/71e7f83b-c1a9-4a5f-af6f-5060240c73b6.png)\n\nDisponível em: www.correios.com.br. Acesso em: 2 ago. 2012 (adaptado)."
+    }
+  },
+  "2013-162": {
+    "originalSha256": "1ae17aee685810fc548e5ba70a51a5a968992adda2e36121e3d1b819ab16cb10",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Foi realizado um levantamento nos 200 hotéis de uma cidade, no qual foram anotados os valores, em reais, das diárias para um quarto padrão de casal e a quantidade de hotéis para cada valor da diária. Os valores das diárias foram: A = R$ 200,00; B = R$ 300,00; C = R$ 400,00 e D = R$ 600,00. No gráfico, as áreas representam as quantidades de hotéis pesquisados, em porcentagem, para cada valor da diária.\n\n![](/assets/questions/2013/162/7abe2076-bc00-4223-af44-4a621459fc52.png)"
+    }
+  },
+  "2013-164": {
+    "originalSha256": "e5e1cc0fb5d2d19ca6bab8dd17a14da1eb705258ff281440289de8fd58c19624",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.904Z",
+    "fields": {
+      "context": "Um programa de edição de imagens possibilita transformar figuras em outras mais complexas. Deseja-se construir uma nova figura a partir da original. A nova figura deve apresentar simetria em relação ao ponto O.\n\n![](/assets/questions/2013/164/b06811f8-91ea-46e6-8a0f-048141c9045b.png)"
+    }
+  },
+  "2013-165": {
+    "originalSha256": "2215292122fbf93a79a03936b8ecc7c888635b7a55f5cfc0d13d52d7c411fa99",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.907Z",
+    "fields": {
+      "context": "Um artesão de joias tem à sua disposição pedras brasileiras de três cores: vermelhas, azuis e verdes.\n\nEle pretende produzir joias constituídas por uma liga metálica, a partir de um molde no formato de um losango não quadrado com pedras nos seus vértices, de modo que dois vértices consecutivos tenham sempre pedras de cores diferentes.\n\nA figura ilustra uma joia, produzida por esse artesão, cujos vértices A, B, C e D correspondem às posições ocupadas pelas pedras.\n\n![](/assets/questions/2013/165/2d41f715-77e6-4676-a0d0-89a5eca34887.png)"
+    }
+  },
+  "2013-166": {
+    "originalSha256": "ceeaaef4a2ed65475bbf73a09572ba8e9d15f6769968612c4e38881efa7d6c29",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.907Z",
+    "fields": {
+      "context": "Em setembro de 1987, Goiânia foi palco do maior acidente radioativo ocorrido no Brasil, quando uma amostra de césio-137, removida de um aparelho de radioterapia abandonado, foi manipulada inadvertidamente por parte da população. A meia-vida de um material radioativo é o tempo necessário para que a massa desse material se reduza à metade. A meia-vida do césio-137 é 30 anos e a quantidade restante de massa de um material radioativo, após \\(t\\) anos, é calculada pela expressão \\(M(t)=A\\cdot(2{,}7)^{kt}\\), onde \\(A\\) é a massa inicial e \\(k\\) é uma constante negativa.\n\nConsidere 0,3 como aproximação para \\(\\log_{10}2\\)."
+    }
+  },
+  "2013-167": {
+    "originalSha256": "bf292592d22e99a70fe44c6ffa5dddc68e028dd2ede2735462c4562ceb3dd363",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.907Z",
+    "fields": {
+      "context": "A cerâmica constitui-se em um artefato bastante presente na história da humanidade. Uma de suas várias propriedades é a retração (contração), que consiste na evaporação da água existente em um conjunto ou bloco cerâmico quando submetido a uma determinada temperatura elevada. Essa elevação de temperatura, que ocorre durante o processo de cozimento, causa uma redução de até 20% nas dimensões lineares de uma peça.\n\nDisponível em: www.arq.ufsc.br. Acesso em: 3 mar. 2012.\n\nSuponha que uma peça, quando moldada em argila, possuía uma base retangular cujos lados mediam 30 cm e 15 cm. Após o cozimento, esses lados foram reduzidos em 20%."
+    }
+  },
+  "2013-168": {
+    "originalSha256": "32f4c28ff30723ce57d46b65217da608fdd2f3ad6321b33aeaa436d972f42cef",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Uma fábrica de parafusos possui duas máquinas, I e II, para a produção de certo tipo de parafuso.\n\nEm setembro, a máquina I produziu \\(\\frac{54}{100}\\) do total de parafusos produzidos pela fábrica. Dos parafusos produzidos por essa máquina, \\(\\frac{25}{1\\,000}\\) eram defeituosos. Por sua vez, \\(\\frac{38}{1\\,000}\\) dos parafusos produzidos no mesmo mês pela máquina II eram defeituosos.\n\nO desempenho conjunto das duas máquinas é classificado conforme o quadro, em que P indica a probabilidade de um parafuso escolhido ao acaso ser defeituoso.\n\n![](/assets/questions/2013/168/a837d05f-4fe2-4d97-8542-fbcea6679fe9.png)"
+    }
+  },
+  "2013-169": {
+    "originalSha256": "f9f1313b1a1b43be5dd58f23b1e294bc5f0dbe25a2c3bccb3f0812fc70f55836",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Considere o seguinte jogo de apostas:\n\nNuma cartela com 60 números disponíveis, um apostador escolhe de 6 a 10 números. Dentre os números disponíveis, serão sorteados apenas 6. O apostador será premiado caso os 6 números sorteados estejam entre os números escolhidos por ele numa mesma cartela.\n\nO quadro apresenta o preço de cada cartela, de acordo com a quantidade de números escolhidos.\n\n![](/assets/questions/2013/169/4edf5f0f-1c12-4b0b-a004-77d4d4835645.png)\n\nCinco apostadores, cada um com R$ 500,00 para apostar, fizeram as seguintes opções:\n\nArthur: 250 cartelas com 6 números escolhidos;\n\nBruno: 41 cartelas com 7 números escolhidos e 4 cartelas com 6 números escolhidos;\n\nCaio: 12 cartelas com 8 números escolhidos e 10 cartelas com 6 números escolhidos;\n\nDouglas: 4 cartelas com 9 números escolhidos;\n\nEduardo: 2 cartelas com 10 números escolhidos."
+    }
+  },
+  "2013-171": {
+    "originalSha256": "4fa73b09626c07d94e7c075a0286acef94eeb43caacf6e81bc4ab957aa599d5e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Na aferição de um novo semáforo, os tempos são ajustados de modo que, em cada ciclo completo (verde-amarelo-vermelho), a luz amarela permaneça acesa por 5 segundos, e o tempo em que a luz verde permaneça acesa seja igual a \\(\\frac23\\) do tempo em que a luz vermelha fique acesa. A luz verde fica acesa, em cada ciclo, durante X segundos e cada ciclo dura Y segundos."
+    }
+  },
+  "2013-172": {
+    "originalSha256": "3a3b6fd95ebdba311bd817579a44c861d806eaf0c43794836010119f015ec2d4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Transcreve a fórmula original em notação matemática acessível, preservando o expoente, o sinal e o denominador verificados no PDF oficial.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "A temperatura T de um forno (em graus centígrados) é reduzida por um sistema a partir do instante de seu desligamento \\((t=0)\\) e varia de acordo com a expressão \\(T(t)=-\\frac{t^2}{4}+400\\), com t em minutos. Por motivos de segurança, a trava do forno só é liberada para abertura quando o forno atinge a temperatura de 39 °C."
+    }
+  },
+  "2013-174": {
+    "originalSha256": "0af2a359e738ecfa8e31c7c8dda92db10fe8db89e1067cae936ada27dde224fe",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "A figura apresenta dois mapas, em que o estado do Rio de Janeiro é visto em diferentes escalas.\n\n![](/assets/questions/2013/174/058b1a19-673e-41e2-864f-585fb4405de3.png)\n\nHá interesse em estimar o número de vezes que foi ampliada a área correspondente a esse estado no mapa do Brasil."
+    }
+  },
+  "2013-175": {
+    "originalSha256": "f66a525ef9a482ca260df77d3391cb8ac8663107cada8e2c874544226250f3b4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Nos últimos anos, a televisão tem passado por uma verdadeira revolução, em termos de qualidade de imagem, som e interatividade com o espectador. Essa transformação se deve à conversão do sinal analógico para o sinal digital. Entretanto, muitas cidades ainda não contam com essa nova tecnologia. Buscando levar esses benefícios a três cidades, uma emissora de televisão pretende construir uma nova torre de transmissão, que envie sinal às antenas A, B e C, já existentes nessas cidades. As localizações das antenas estão representadas no plano cartesiano:\n\n![](/assets/questions/2013/175/eb855bec-d0a6-4b05-b8d8-fcff4deae0a7.png)\n\nA torre deve estar situada em um local equidistante das três antenas."
+    }
+  },
+  "2013-176": {
+    "originalSha256": "0422a81cfecbb46ef06c0646b8b752b96d0b7a0c4b7e0f9982e5477cd8d37f1f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Uma cozinheira, especialista em fazer bolos, utiliza uma forma no formato representado na figura:\n\n![](/assets/questions/2013/176/38cb8424-5409-40d1-bed1-ccff111fb5ea.png)\n\nNela identifica-se a representação de duas figuras geométricas tridimensionais."
+    }
+  },
+  "2013-177": {
+    "originalSha256": "ae987cea54b792d8fe73c5e0f5590e2fe5a305b557ba0bfa341af7dcc1da45e5",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "**Uma falsa relação**\n\nO cruzamento da quantidade de horas estudadas com o desempenho no Programa Internacional de Avaliação de Estudantes (Pisa) mostra que mais tempo na escola não é garantia de nota acima da média.\n\n![](/assets/questions/2013/177/1c2ff438-889a-4dcc-8cd6-cf02757f4b17.png)"
+    }
+  },
+  "2013-178": {
+    "originalSha256": "7afd581c0a19c923583de59dcd7db2165565f6318b2df82013659bfc40f85889",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura a introdução sobre bandejas quadradas e as frações AC=(7/5)BD e l/BD, preservando os raios indicados na figura do PDF oficial.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Um restaurante utiliza, para servir bebidas, bandejas com bases quadradas. Todos os copos desse restaurante têm o formato representado na figura:\n\n![](/assets/questions/2013/178/402e3690-ae8e-4967-a6fb-169619428b3a.png)",
+      "alternativesIntroduction": "Considere que \\(\\overline{AC}=\\frac75\\overline{BD}\\) e que \\(l\\) é a medida de um dos lados da base da bandeja. Qual deve ser o menor valor da razão \\(\\frac{l}{\\overline{BD}}\\) para que uma bandeja tenha capacidade de portar exatamente quatro copos de uma só vez?"
+    }
+  },
+  "2013-179": {
+    "originalSha256": "2ee219691b92382ebfe350ad55db45a1e8011850d9eae8d8b7b4a06801426d5a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "O dono de um sítio pretende colocar uma haste de sustentação para melhor firmar dois postes de comprimentos iguais a 6 m e 4 m. A figura representa a situação real na qual os postes são descritos pelos segmentos AC e BD e a haste é representada pelo segmento EF, todos perpendiculares ao solo, que é indicado pelo segmento de reta AB. Os segmentos AD e BC representam cabos de aço que serão instalados.\n\n![](/assets/questions/2013/179/b89b41c4-9cdd-4858-8d4d-69e4efbcf1cc.png)"
+    }
+  },
+  "2013-180": {
+    "originalSha256": "3cb4c90d7686092aa71334aec29b7d9c8b717a1da4d690980c603cdf8d743bc3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o texto introdutório ausente no snapshot da API conforme o caderno oficial, preservando as imagens e os dados da questão.",
+    "reviewedAt": "2026-10-22T01:01:05.908Z",
+    "fields": {
+      "context": "Gangorra é um brinquedo que consiste de uma tábua longa e estreita equilibrada e fixada no seu ponto central (pivô). Nesse brinquedo, duas pessoas sentam-se nas extremidades e, alternadamente, impulsionam-se para cima, fazendo descer a extremidade oposta, realizando, assim, o movimento da gangorra.\n\nConsidere a gangorra representada na figura, em que os pontos A e B são equidistantes do pivô:\n\n![](/assets/questions/2013/180/a6d3cee1-2e6e-4bdd-974c-c780c2c728fe.png)"
+    }
   }
 }

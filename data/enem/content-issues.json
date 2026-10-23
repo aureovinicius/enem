@@ -139,5 +139,30 @@
       "sourcePdfSha256": "354ea210a950ae6713015dcee2fefb2e4676c8e506c62c597570fd48d84e2fd9",
       "sourceText": "Em uma região, após um forte temporal, verificou-se que a quantidade de chuva acumulada em uma lata de formato cilíndrico, com raio 300 mm e altura 1 200 mm, era de um terço da sua capacidade."
     }
+  },
+  "2013-85": {
+    "originalSha256": "9702b219cd28ff5801497dd4fb023f279e7402c294111a522677462a67aa8b76",
+    "reason": "O deslocamento até a catraca é 3 cm. A resposta A, 0,5 T, resulta de impor BiL=kx na catraca, mas o original só informa uma velocidade média e um tempo de movimento; não declara equilíbrio nessa posição, massa nem dissipação. Uma trajetória conservativa partindo do repouso pode atingir 3 cm no extremo de oscilação com B=0,25 T e massa compatível com os 6 ms, satisfazendo os dados fornecidos. Suspensão editorial da prática pontuada por insuficiência de dados, sem afirmar anulação pelo INEP. Dados brutos e gabarito A preservados.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno1_azul.pdf",
+    "sourcePage": 29,
+    "reviewedAt": "2026-10-22T01:09:32.355Z",
+    "evidence": {
+      "officialAnswer": "A",
+      "officialAnswerValueT": 0.5,
+      "displacementM": 0.03,
+      "springConstantNm": 5,
+      "currentA": 6,
+      "barLengthM": 0.05,
+      "missingCondition": "equilíbrio da barra ao atingir a catraca ou dados suficientes da dinâmica",
+      "derivation": [
+        "x=v_{m}\\Delta t=5\\cdot0,006=0,03m; k=5N/m; iL=0,30A\\,m.",
+        "Impor BiL=kx daria B=0,15/0,30=0,5T (A), mas essa igualdade de forças não decorre da velocidade média nem da chegada à catraca.",
+        "Em um modelo sem dissipação, partindo do repouso em x=0: BiLx=kx²/2+mv²/2. Para atingir x=0,03m no extremo de oscilação, B=0,25T, não apresentado entre as alternativas; outros valores de massa e velocidades de chegada alteram a dinâmica.",
+        "A massa necessária para atingir esse extremo em6ms pode ser m=k(0,006/π)², mostrando um movimento fisicamente consistente com os dados e campo0,25T."
+      ],
+      "visualSourceVerified": true,
+      "independentlyConfirmedBy": "root",
+      "sourcePdfSha256": "085dde9fa2190c3175be0a18688410db29fbb6b56a0dc22c91580a58f06cf77f"
+    }
   }
 }
