@@ -616,5 +616,58 @@
       "localPageSha256": "e90dd83a6563c3f3b46caa1bf3633eae9dff90d00e5997cebdc5ee52b3a3a480",
       "sourcePdfSha256": "c7284f83312a5c6ccf3667377c45bd3203097e8113309ec1ad2cf1344b3490f9"
     }
+  },
+  "2009-46": {
+    "originalSha256": "9664e86a037ce3bb05ea4439d256a3ab9a02c672b74da9aeb5bf3c07dd738f51",
+    "reason": "A alternativa A, indicada no gabarito, generaliza a escravização dos trabalhadores dos monumentos e inclui as pirâmides de Gizé. A evidência arqueológica reunida pelo Digital Giza/Harvard rejeita que a força de trabalho de Gizé fosse composta por grandes contingentes de escravos e descreve trabalhadores egípcios organizados, especializados e abastecidos pelo Estado. Capacidade de mobilização estatal, corveia e escravidão não são equivalentes. As demais opções também não oferecem uma resposta historicamente defensável ao comando. Suspensão editorial para não ensinar a generalização como fato; preserva raw e gabarito A, sem alegar anulação oficial pelo INEP nem negar a existência de escravidão em outros períodos ou contextos do Egito antigo.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 17,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "A",
+      "primaryResearchSource": "https://giza.fas.harvard.edu/faq/",
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2009-humanas-original-17.png",
+      "localPageSha256": "eed6928653a07db5988c65f3c9601ef3c3267cd05f7dbe52b72301d4785e66cf",
+      "sourcePdfSha256": "0fe000974a0b5b30a543860695fc1fc9f8639705069de0e344574c6146ec3921"
+    }
+  },
+  "2009-8": {
+    "originalSha256": "0c7703a12efd52289850b29d22ec046303fbe71b9d24a982738e8c0871e02bfd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 4,
+    "reviewedAt": "2026-10-23T20:17:03.883Z",
+    "reason": "O comando pede um dos “possíveis impactos” de uma hidrelétrica em região de mata. B descreve a perda de habitats, mas C também é defensável: a decomposição de solo e biomassa alagados pode causar emissão expressiva de CO₂. Não há dados no item para excluir essa possibilidade, nem comando para escolher o efeito mais direto ou mais evidente. A alegação de impacto menor que uma termelétrica não implica emissão insignificante. Suspensão editorial por ausência de resposta única, preservando raw e chave B; não se afirma anulação pelo INEP.",
+    "evidence": {
+      "rawAnswer": "B",
+      "alsoDefensibleAlternative": "C",
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2009-cn-original-04.png",
+      "localPageSha256": "3965baec1b48e50127b4cd052e544c595998a610d68b3df040448d7152dfaa9e",
+      "sourcePdfSha256": "0fe000974a0b5b30a543860695fc1fc9f8639705069de0e344574c6146ec3921",
+      "sources": [
+        {
+          "title": "Carbon dioxide and methane emissions and the carbon budget of a 10-year old tropical reservoir (Petit Saut, French Guiana)",
+          "authors": "Abril et al.",
+          "year": 2005,
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005GB002457",
+          "access": "Resumo, introdução e metodologia lidos no texto integral do editor.",
+          "evidence": "Pesquisa de campo acompanhou os dez anos após o alagamento de floresta. Quantificou emissão de CO₂ de 0,30 ± 0,02 Mt de carbono por ano nos três primeiros anos; o balanço de carbono apontou a matéria terrestre alagada como fonte predominante ainda depois de dez anos. O estudo demonstra emissão relevante associada ao reservatório, sem permitir tratar esse fluxo bruto como incremento líquido universal nem extrapolar a todos os projetos."
+        },
+        {
+          "title": "Anaerobic decomposition of tropical soils and plant material: Implication for the CO2 and CH4 budget of the Petit Saut Reservoir",
+          "authors": "Guérin et al.",
+          "year": 2008,
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0883292708001327",
+          "doi": "10.1016/j.apgeochem.2008.04.001",
+          "access": "Abertura direta bloqueada por HTTP 403; resumo e trechos do próprio editor lidos no resultado indexado.",
+          "evidence": "Experimentos de campo e de laboratório com solos e material vegetal alagados mediram produção de CO₂ e CH₄. A extrapolação para Petit Saut estimou contribuição da biomassa e do solo inicialmente alagados de 75–95% do carbono emitido em dez anos. É evidência do mecanismo e de sua importância no caso estudado; não uma taxa de incremento líquido aplicável a qualquer usina."
+        }
+      ],
+      "explanationPreservedIn": ".preview/2009-8-editorially-suspended-comment.json",
+      "removedFromActiveExplanationFile": "data/enem/explanations/2009-natureza.json",
+      "independentScientificReview": "review_2021_science",
+      "rootConcurred": true
+    }
   }
 }

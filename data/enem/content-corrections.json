@@ -6935,5 +6935,351 @@
     "fields": {
       "context": "Para conseguir chegar a um número recorde de produção de ovos de Páscoa, as empresas brasileiras começam a se planejar para esse período com um ano de antecedência. O gráfico a seguir mostra o número de ovos de Páscoa produzidos no Brasil no período de 2005 a 2009.\n\n![](https://enem.dev/2010/questions/180/b3a08efa-6d65-4f17-955f-8c8962f34861.jpg)"
     }
+  },
+  "2009-91": {
+    "originalSha256": "1215647a5fe078c0bd4f03cfd54c34e59e9a5e643d31b1c1902786a30bce5b5f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Recupera as cinco legendas das obras, ausentes nas alternativas da API, conferidas visualmente na página3 do PDF (página2 impressa). Preserva a grafia dos nomes no original.",
+    "reviewedAt": "2026-10-22T00:50:44.277Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Rubem Valentim. Disponível em: http://www.ocaixote.com.br. Acesso em: 9 jul. 2009.",
+        "B": "Athos Bulcão. Disponível em: http://www.irbr.mre.gov.br. Acesso em: 9 jul. 2009.",
+        "C": "Rubens Gerchman. Disponível em: http://www.itaucultural.org.br. Acesso em: 6 jul. 2009.",
+        "D": "Victor Vassarely. Disponível em: http://www.masterworksfineart.com. Acesso em: 5 jul. 2009.",
+        "E": "Gougon. Disponível em: http://www.ocaixote.com.br. Acesso em: 5 set. 2009."
+      }
+    }
+  },
+  "2009-54": {
+    "originalSha256": "0ffe3ae7dae23188414d39ff8a6ac9878e0d081fd5d5f678ad8360d5097d6e92",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o hífen da expressão terra-floresta, perdido ao unir as linhas do texto oficial.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "context": "Os Yanomami constituem uma sociedade indígena do norte da Amazônia e formam um amplo conjunto linguístico e cultural. Para os Yanomami, urihi, a “terra-floresta”, não é um mero cenário inerte, objeto de exploração econômica, e sim uma entidade viva, animada por uma dinâmica de trocas entre os diversos seres que a povoam. A floresta possui um sopro vital, wixia, que é muito longo. Se não a desmatarmos, ela não morrerá. Ela não se decompõe, isto é, não se desfaz. É graças ao seu sopro úmido que as plantas crescem. A floresta não está morta pois, se fosse assim, as florestas não teriam folhas. Tampouco se veria água. Segundo os Yanomami, se os brancos os fizerem desaparecer para desmatá-la e morar no seu lugar, ficarão pobres e acabarão tendo fome e sede.\n\nALBERT, B. Yanomami, o espírito da floresta. **Almanaque Brasil Socioambiental.** São Paulo: ISA, 2007 (adaptado)."
+    }
+  },
+  "2009-57": {
+    "originalSha256": "9a99102596c2084f201d9899a1d0cc34fa0e30660dee4e3290bdd7439cec6a87",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Remove o espaço indevido após o hífen de norte-americanos, introduzido na união das linhas do comando.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "alternativesIntroduction": "Do trecho, infere-se que, para Tocqueville, os norte-americanos do seu tempo"
+    }
+  },
+  "2009-77": {
+    "originalSha256": "3f2988d6e48844e2bfb32533991d096e0447bb097ae52413d993aa781627f946",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura a separação entre as frases terra. e O mapa, conforme o original.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "context": "A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-se a perseverança dos movimentos do campesinato e, entre os aspectos negativos, a violência que manchou de sangue essa história. Os movimentos pela reforma agrária articularam-se por todo o território nacional, principalmente entre 1985 e 1996, e conseguiram de maneira expressiva a inserção desse tema nas discussões pelo acesso à terra. O mapa seguinte apresenta a distribuição dos conflitos agrários em todas as regiões do Brasil nesse período, e o número de mortes ocorridas nessas lutas.\n\n![](https://enem.dev/2009/questions/77/0148040b-fcc5-4e8c-a19f-4c41b9041a27.jpg)\n\nOLIVEIRA, A. U. A longa marcha do campesinato brasileiro: movimentos sociais, conflitos e reforma agrária.  **Revista Estudos Avançados.** Vol. 15 n. 43, São Paulo, set./dez. 2001."
+    }
+  },
+  "2009-78": {
+    "originalSha256": "fad88b8885fdb14b78754d0541e748e627a78921c8f1f797c7e950d5c37078cd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Substitui a imagem da API, que trocou os rótulos Nordeste/Sudeste/Sul, por recorte fiel da figura do PDF oficial. Ordem correta: Brasil, Norte, Nordeste, Sudeste, Sul, Centro-Oeste.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "context": "O gráfico mostra o percentual de áreas ocupadas, segundo o tipo de propriedade rural no Brasil, no ano de 2006.\n\n![Área ocupada pelos imóveis rurais no Brasil e nas regiões, em 2006.](/assets/questions/2009/78/grafico-oficial.png)\n\nMDA/INCRA (DIEESE, 2006)  \nDisponível em: http://www.sober.org.br. Acesso em: 6 ago. 2009."
+    },
+    "assets": {
+      "grafico-oficial.png": "38a6d35511627c8fb9e7a3fa7d1d1b0544cc5efdb4d6c3713fc892ffb2880084"
+    }
+  },
+  "2009-79": {
+    "originalSha256": "5e7d9f30c1f370cee720a49c36afdd24be69d9dca3079fb9b3c9f6c9dba01776",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura a abertura de aspas no título da referência, presente no caderno oficial.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "context": "Entre 2004 e 2008, pelo menos 8 mil brasileiros foram libertados de fazendas onde trabalhavam como se fossem escravos. O governo criou uma lista em que ficaram expostos os nomes dos fazendeiros flagrados pela fiscalização. No Norte, Nordeste e Centro-Oeste, regiões que mais sofrem com a fraqueza do poder público, o bloqueio dos canais de financiamento agrícola para tais fazendeiros tem sido a principal arma de combate a esse problema, mas os governos ainda sofrem com a falta de informações, provocada pelas distâncias e pelo poder intimidador dos proprietários. Organizações não governamentais e grupos como a Pastoral da Terra têm agido corajosamente, acionando as autoridades públicas e ministrando aulas sobre direitos sociais e trabalhistas.\n\n“Plano Nacional para Erradicação do Trabalho Escravo”. Disponível em:  \nhttp://www.mte.gov.br. Acesso em: 17 mar. 2009 (adaptado)."
+    }
+  },
+  "2009-84": {
+    "originalSha256": "4e9c47ce33a4b572c2fb2120630d8f446fefca5c26b54c8eaa3cb5a37c068486",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura a referência bibliográfica com editora e ano e remove Foto:, ausente no original.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "context": "![](https://enem.dev/2009/questions/84/15a16039-43b9-4779-9660-b66387929694.png)\n\nBETHEL, L. **História da América.** V. I. São Paulo: Edusp, 1997."
+    }
+  },
+  "2009-88": {
+    "originalSha256": "46f59f19f6c47cd9950447eaa523aeb5d6d9f9e1d9926832e1b5e29eeb3aa24a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura a grafia subúmidas da alternativa A, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:44:42.838Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "O maior aquecimento implica menor formação de nuvens e, consequentemente, a eliminação de áreas úmidas e subúmidas do globo."
+      }
+    }
+  },
+  "2009-12": {
+    "originalSha256": "a859f8a0d52528cbf33061cb6c04a189a34a1919028319a38c7756e87381198e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaurar parágrafo introdutório omitido na importação, mantendo as duas imagens e o equilíbrio do original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Sabões são sais de ácidos carboxílicos de cadeia longa utilizados com a finalidade de facilitar, durante processos de lavagem, a remoção de substâncias de baixa solubilidade em água, por exemplo, óleos e gorduras. A figura a seguir representa a estrutura de uma molécula de sabão.\n\n![](/assets/questions/2009/12/233eafdb-167e-4978-a815-54aad9e6bee2.jpg)\n\nEm solução, os ânions do sabão podem hidrolisar a água e, desse modo, formar o ácido carboxílico correspondente. Por exemplo, para o estearato de sódio, é estabelecido o seguinte equilíbrio:\n\n![](/assets/questions/2009/12/63593c90-04b4-48ea-b9c5-1205f73bef95.jpg)\n\nUma vez que o ácido carboxílico formado é pouco solúvel em água e menos eficiente na remoção de gorduras, o pH do meio deve ser controlado de maneira a evitar que o equilíbrio acima seja deslocado para a direita."
+    }
+  },
+  "2009-14": {
+    "originalSha256": "0b5d0ef49ba969824b1808b2830b64a0438232ea598a49c7e924a1c2ff34a5ef",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaurar definição de eficiência e regra do produto das eficiências que antecedem o diagrama oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A eficiência de um processo de conversão de energia é definida como a razão entre a produção de energia ou trabalho útil e o total de entrada de energia no processo. A figura mostra um processo com diversas etapas. Nesse caso, a eficiência geral será igual ao produto das eficiências das etapas individuais. A entrada de energia que não se transforma em trabalho útil é perdida sob formas não utilizáveis (como resíduos de calor).\n\n![](/assets/questions/2009/14/524ed514-1e24-42fe-9a5f-efebf0ce3c6d.png)"
+    }
+  },
+  "2009-15": {
+    "originalSha256": "80f5c94be294338f28d2287b8b950404261116190a3f6cc31c9261473aef9472",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 6,
+    "reason": "Restaurar todo o contexto da purificação eletrolítica do cobre, ausente na importação; preservar a série eletroquímica e representar índices/cargas.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Para que apresente condutividade elétrica adequada a muitas aplicações, o cobre bruto obtido por métodos térmicos é purificado eletroliticamente. Nesse processo, o cobre bruto impuro constitui o ânodo da célula, que está imerso em uma solução de \\(\\mathrm{CuSO_4}\\). À medida que o cobre impuro é oxidado no ânodo, íons \\(\\mathrm{Cu^{2+}}\\) da solução são depositados na forma pura no cátodo. Quanto às impurezas metálicas, algumas são oxidadas, passando à solução, enquanto outras simplesmente se desprendem do ânodo e se sedimentam abaixo dele. As impurezas sedimentadas são posteriormente processadas, e sua comercialização gera receita que ajuda a cobrir os custos do processo. A série eletroquímica a seguir lista o cobre e alguns metais presentes como impurezas no cobre bruto de acordo com suas forças redutoras relativas.\n\n![](/assets/questions/2009/15/a4e6a5bb-5a91-4e8a-86f2-b4775c56178f.jpg)"
+    }
+  },
+  "2009-19": {
+    "originalSha256": "fa3e081479038b308960b69825e3101b23a867f0b9b4de36ba6aa334699b5d72",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Restaurar os dois parágrafos anteriores ao quadro de aparelhos elétricos; tabela, legenda e planta permanecem nas imagens originais.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.\n\nPara cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:\n\n![](/assets/questions/2009/19/ce14eccd-b5dd-4dde-a5a6-2e163d72fec9.png)\n\nA escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m²) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.\n\n![](/assets/questions/2009/19/9747c953-2a43-411f-b7ee-49a4e4fd6429.png)"
+    }
+  },
+  "2009-20": {
+    "originalSha256": "76c527d028a8efd0c24179b3c148b1af8a53cf9c42cc3e540e8a2ea0cb1608b6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Restaurar a identificação da estação geradora e seu combustível, omitida antes do diagrama.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O esquema mostra um diagrama de bloco de uma estação geradora de eletricidade abastecida por combustível fóssil.\n\n![](/assets/questions/2009/20/a5b76cbb-b0e8-42a4-ba0f-ca81b7abdcb7.png)"
+    }
+  },
+  "2009-26": {
+    "originalSha256": "46b9911c271add481cc4f45da11ca58ae6a4a6db1fdbc5823ee71c56eb333191",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Restaurar a notação com índices das fórmulas químicas presentes no original, sem alterar as substâncias ou alternativas.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se pode citar a chuva ácida. Os ácidos usualmente presentes em maiores proporções na água da chuva são o \\(\\mathrm{H_2CO_3}\\), formado pela reação do \\(\\mathrm{CO_2}\\) atmosférico com a água, o \\(\\mathrm{HNO_3}\\) , o \\(\\mathrm{HNO_2}\\) , o \\(\\mathrm{H_2SO_4}\\) e o \\(\\mathrm{H_2SO_3}\\) . Esses quatro últimos são formados principalmente a partir da reação da água com os óxidos de nitrogênio e de enxofre gerados pela queima de combustíveis fósseis.",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{HNO_3}\\) e \\(\\mathrm{HNO_2}\\).",
+        "B": "\\(\\mathrm{H_2SO_4}\\) e \\(\\mathrm{H_2SO_3}\\).",
+        "C": "\\(\\mathrm{H_2SO_3}\\) e \\(\\mathrm{HNO_2}\\).",
+        "D": "\\(\\mathrm{H_2SO_4}\\) e \\(\\mathrm{HNO_3}\\).",
+        "E": "\\(\\mathrm{H_2CO_3}\\) e \\(\\mathrm{H_2SO_3}\\)."
+      }
+    }
+  },
+  "2009-29": {
+    "originalSha256": "8db6c5b6451c44bf171cd82afb938282ea8f08dd4041d5d1c533f26150bbe995",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Restaurar a introdução que define os eixos do gráfico. A identificação incorreta de antimônio com 50 prótons já está no PDF e foi preservada; a explicação apresenta ressalva explícita.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Os núcleos dos átomos são constituídos de prótons e nêutrons, sendo ambos os principais responsáveis pela sua massa. Nota-se que, na maioria dos núcleos, essas partículas não estão presentes na mesma proporção. O gráfico mostra a quantidade de nêutrons (\\(N\\)) em função da quantidade de prótons (\\(Z\\)) para os núcleos estáveis conhecidos.\n\n![](/assets/questions/2009/29/8b64e737-d832-4707-9ffe-9eb28b3f7b1c.jpg)"
+    }
+  },
+  "2009-43": {
+    "originalSha256": "91592b86b852e7eebb0d21ec6c2aeaa51f4137db2772273bba9393031730a2b4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar introdução da tabela de entalpias-padrão, ausente na API; representar a notação química do comando conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Nas últimas décadas, o efeito estufa tem-se intensificado de maneira preocupante, sendo esse efeito muitas vezes atribuído à intensa liberação de \\(\\mathrm{CO_2}\\) durante a queima de combustíveis fósseis para geração de energia. O quadro traz as entalpias-padrão de combustão a \\(25\\,^{\\circ}\\mathrm{C}\\) (\\(\\Delta H_{25}^{\\circ}\\)) do metano, do butano e do octano.\n\n![](/assets/questions/2009/43/fc15f9d3-d27d-4451-86aa-2d9576a0e88f.jpg)",
+      "alternativesIntroduction": "À medida que aumenta a consciência sobre os impactos ambientais relacionados ao uso da energia, cresce a importância de se criar políticas de incentivo ao uso de combustíveis mais eficientes. Nesse sentido, considerando-se que o metano, o butano e o octano sejam representativos do gás natural, do gás liquefeito de petróleo (GLP) e da gasolina, respectivamente, então, a partir dos dados fornecidos, é possível concluir que, do ponto de vista da quantidade de calor obtido por mol de \\(\\mathrm{CO_2}\\) gerado, a ordem crescente desses três combustíveis é"
+    }
+  },
+  "2009-45": {
+    "originalSha256": "992933ffd1cf1913bb68e3ddfd63cfb5ba189573be386c058e9ac4da2c13d800",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno1_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaurar a situação inicial e a especificação de lâmpadas idênticas, omitidas antes do circuito; explicar a corrente de L₁ sem atribuir menor brilho a todas as lâmpadas fora do trio.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Considere a seguinte situação hipotética: ao preparar o palco para a apresentação de uma peça de teatro, o iluminador deveria colocar três atores sob luzes que tinham igual brilho e os demais, sob luzes de menor brilho. O iluminador determinou, então, aos técnicos, que instalassem no palco oito lâmpadas incandescentes com a mesma especificação (\\(L_1\\) a \\(L_8\\)), interligadas em um circuito com uma bateria, conforme mostra a figura.\n\n![](/assets/questions/2009/45/391df735-013e-414c-a12f-3d626c8855ce.png)",
+      "alternativeTexts": {
+        "A": "\\(L_1\\), \\(L_2\\) e \\(L_3\\).",
+        "B": "\\(L_2\\), \\(L_3\\) e \\(L_4\\).",
+        "C": "\\(L_2\\), \\(L_5\\) e \\(L_7\\).",
+        "D": "\\(L_4\\), \\(L_5\\) e \\(L_6\\).",
+        "E": "\\(L_4\\), \\(L_7\\) e \\(L_8\\)."
+      }
+    }
+  },
+  "2009-138": {
+    "originalSha256": "58158ecdc3a7e9cffeb7bdd4a2ba1cf9fb750f554a08a2e8335c9a7b081472d3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura os expoentes do modelo exponencial e da aproximação, achatados na API; conferidos no original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A população mundial está ficando mais velha, os índices de natalidade diminuíram e a expectativa de vida aumentou. No gráfico seguinte, são apresentados dados obtidos por pesquisa realizada pela Organização das Nações Unidas (ONU), a respeito da quantidade de pessoas com 60 anos ou mais em todo o mundo. Os números da coluna da direita representam as faixas percentuais. Por exemplo, em 1950 havia 95 milhões de pessoas com 60 anos ou mais nos países desenvolvidos, número entre 10% e 15% da população total nos países desenvolvidos.\n\n![](/assets/questions/2009/138/2f19ef3b-7481-42c2-9c55-03664846dacc.jpg)\n\nSuponha que o modelo exponencial \\(y=363e^{0{,}03x}\\), em que x = 0 corresponde ao ano 2000, x = 1 corresponde ao ano 2001, e assim sucessivamente, e que y é a população em milhões de habitantes no ano x, seja usado para estimar essa população com 60 anos ou mais de idade nos países em desenvolvimento entre 2010 e 2050.",
+      "alternativesIntroduction": "Desse modo, considerando \\(e^{0{,}3}=1{,}35\\), estima-se que a população com 60 anos ou mais estará, em 2030, entre"
+    }
+  },
+  "2009-139": {
+    "originalSha256": "89e03046cb064a688b254409dd31c2a3c096cb29ae07328ce91809d307609a2e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Apresenta as frações das cinco alternativas em notação matemática conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(\\frac{1}{2}\\).",
+        "B": "\\(\\frac{7}{20}\\).",
+        "C": "\\(\\frac{8}{25}\\).",
+        "D": "\\(\\frac{1}{5}\\).",
+        "E": "\\(\\frac{3}{25}\\)."
+      }
+    }
+  },
+  "2009-140": {
+    "originalSha256": "048bf550e2cf15ecca8a8964a07c42f881b914747b94022de7d8c2bfa0ce343e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura a apresentação das relações fracionárias entre os lados; dados conferidos no original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular ABCD, em que \\(AB=\\frac{BC}{2}\\) , Antônio demarcou uma área quadrada no vértice A, para a construção de sua residência, de acordo com o desenho, no qual \\(AE=\\frac{AB}{5}\\) é lado do quadrado.\n\n![](/assets/questions/2009/140/ef5fc6bc-3de0-4ee7-ae4c-cdbca574c187.jpg)"
+    }
+  },
+  "2009-152": {
+    "originalSha256": "c3aa75f9516a0d32a4e06a136012949a6b0f11d43c2caa60bb7606374644edae",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura os expoentes das potências de dez nas cinco alternativas, achatados na API.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(1{,}5\\times10^{2}\\) vezes a capacidade do reservatório novo.",
+        "B": "\\(1{,}5\\times10^{3}\\) vezes a capacidade do reservatório novo.",
+        "C": "\\(1{,}5\\times10^{6}\\) vezes a capacidade do reservatório novo.",
+        "D": "\\(1{,}5\\times10^{8}\\) vezes a capacidade do reservatório novo.",
+        "E": "\\(1{,}5\\times10^{9}\\) vezes a capacidade do reservatório novo."
+      }
+    }
+  },
+  "2009-159": {
+    "originalSha256": "b7d3cc5d5ba091ea6fe3e0d5e2cc372dca3729ae15cddba66e6edceedbd4f4e7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura a variável y minúscula e a notação das expressões das cinco alternativas conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(y=30x\\).",
+        "B": "\\(y=25x+20{,}2\\).",
+        "C": "\\(y=1{,}27x\\).",
+        "D": "\\(y=0{,}7x\\).",
+        "E": "\\(y=0{,}07x+6\\)."
+      }
+    }
+  },
+  "2009-164": {
+    "originalSha256": "f141b8a13e914c459f4d2e58f68da0808fc26515735c2ea8004de4d73df419ea",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura a apresentação da fração com radical no valor aproximado fornecido pelo original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativesIntroduction": "Em relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a\n(considere  \\(\\frac{\\sqrt3}{3}=0{,}58\\))"
+    }
+  },
+  "2009-169": {
+    "originalSha256": "021525cef9b055495f3ecc1313acabd0fd0eaaede81b1301b2b783499fff3f20",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Apresenta a relação de vazão Q=Av em notação matemática; fórmula conferida no original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A vazão do rio Tietê, em São Paulo, constitui preocupação constante nos períodos chuvosos. Em alguns trechos, são construídas canaletas para controlar o fluxo de água. Uma dessas canaletas, cujo corte vertical determina a forma de um trapézio isósceles, tem as medidas especificadas na figura I. Neste caso, a vazão da água é de 1.050 m³/s. O cálculo da vazão, Q em m³/s, envolve o produto da área A do setor transversal (por onde passa a água), em m², pela velocidade da água no local, v, em m/s, ou seja, \\(Q=Av\\).  \nPlaneja-se uma reforma na canaleta, com as dimensões especificadas na figura II, para evitar a ocorrência de enchentes.\n\n![](/assets/questions/2009/169/ff2b8876-8f76-444b-b4d9-15556da637ec.jpg)"
+    }
+  },
+  "2009-171": {
+    "originalSha256": "fffa92dfa55280f959d1d58370941e43db51117402675450f4e2326b9b39fecf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura a apresentação dos números mistos nas alternativas A e B conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(1\\frac12\\) vez menor.",
+        "B": "\\(2\\frac12\\) vezes menor."
+      }
+    }
+  },
+  "2009-172": {
+    "originalSha256": "4ab9921d574a4e0d25627421ba99daae9890982919e2bc35cc523a218607fa34",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura a apresentação da fração 7/5 usada na projeção dos volumes conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Nos últimos anos, o volume de petróleo exportado pelo Brasil tem mostrado expressiva tendência de crescimento, ultrapassando as importações em 2008. Entretanto, apesar de as importações terem se mantido praticamente no mesmo patamar desde 2001, os recursos gerados com as exportações ainda são inferiores àqueles despendidos com as importações, uma vez que o preço médio por metro cúbico do petróleo importado é superior ao do petróleo nacional. Nos primeiros cinco meses de 2009, foram gastos 2,84 bilhões de dólares com importações e gerada uma receita de 2,24 bilhões de dólares com as exportações. O preço médio por metro cúbico em maio de 2009 foi de 340 dólares para o petróleo importado e de 230 dólares para o petróleo exportado. O quadro a seguir mostra os dados consolidados de 2001 a 2008 e dos primeiros cinco meses de 2009.\n\n![](/assets/questions/2009/172/5f549378-e9d4-4d17-9950-19a0f32f95b7.jpg)\n\nConsidere que as importações e exportações de petróleo de junho a dezembro de 2009 sejam iguais a \\(\\frac75\\) das  \nimportações e exportações, respectivamente, ocorridas de janeiro a maio de 2009."
+    }
+  },
+  "2009-174": {
+    "originalSha256": "44aef253b1a0c62758a3dbf42565f41544bc6db85c5f527bcf7b3814fc7432b9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura r minúsculo, frações e funções trigonométricas das alternativas; a API trazia R maiúsculo e tag em vez de tg.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Considere um ponto P em uma circunferência de raio r no plano cartesiano. Seja Q a projeção ortogonal de P sobre o eixo x, como mostra a figura, e suponha que o ponto P percorra, no sentido anti-horário, uma distância \\(d\\le r\\) sobre a circunferência.\n\n![](/assets/questions/2009/174/29dd5a77-8236-4be7-bdf2-fe2a3bfc482c.jpg)",
+      "alternativeTexts": {
+        "A": "\\(r\\left(1-\\operatorname{sen}\\frac dr\\right)\\).",
+        "B": "\\(r\\left(1-\\cos\\frac dr\\right)\\).",
+        "C": "\\(r\\left(1-\\operatorname{tg}\\frac dr\\right)\\).",
+        "D": "\\(r\\operatorname{sen}\\left(\\frac rd\\right)\\).",
+        "E": "\\(r\\cos\\left(\\frac rd\\right)\\)."
+      }
+    }
+  },
+  "2009-175": {
+    "originalSha256": "b23fd93f850a39600c7821664dda5928f639b2d2d8197dab251f81dbe66a1a18",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura a apresentação matemática das taxas, variáveis e igualdade numérica conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O Indicador do CadÚnico (ICadÚnico), que compõe o cálculo do Índice de Gestão Descentralizada do Programa Bolsa Família (IGD), é obtido por meio da **média aritmética** entre a taxa de cobertura qualificada de cadastros (TC) e a taxa de atualização de cadastros (TA), em que, \\(TC=\\frac{NV}{NF}\\), \\(TA=\\frac{NA}{NV}\\), \\(NV\\) é o número de cadastros domiciliares válidos no perfil do CadÚnico, \\(NF\\) é o número de famílias estimadas como público alvo do CadÚnico e \\(NA\\) é o número de cadastros domiciliares atualizados no perfil do CadÚnico.\n\n**Portaria n° 148 de 27 de abril de 2006** (adaptado).",
+      "alternativesIntroduction": "Suponha que o IcadÚnico de um município específico é 0,6. Porém, dobrando \\(NF\\) o IcadÚnico cairá para 0,5. Se \\(NA+NV=3\\,600\\), então \\(NF\\) é igual a"
+    }
+  },
+  "2009-179": {
+    "originalSha256": "4531d355a66cd1407b39ce10c7dd2a438e8b5f9bbf810ebf3f65b7079183afc3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura os subscritos na fórmula de volume e nas definições das variáveis conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A cisterna é um recipiente utilizado para armazenar água da chuva. Os principais critérios a serem observados para captação e armazenagem de água da chuva são: a demanda diária de água na propriedade; o índice médio de precipitação (chuva), por região, em cada período do ano; o tempo necessário para armazenagem; e a área de telhado necessária ou disponível para captação. Para fazer o cálculo do volume de uma cisterna, deve-se acrescentar um adicional relativo ao coeficiente de evaporação. Na dificuldade em se estabelecer um coeficiente confiável, a Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA) sugere que sejam adicionados 10% ao volume calculado de água.\n\nDesse modo, o volume, em m³, de uma cisterna é calculado por \\(V_c=V_d\\times N_{\\mathrm{dia}}\\), em que \\(V_d\\) = volume de demanda da água diária (m³), \\(N_{\\mathrm{dia}}\\) = número de dias de armazenagem, e este resultado deve ser acrescido de 10%.\n\nPara melhorar a qualidade da água, recomenda-se que a captação seja feita somente nos telhados das edificações.  \nConsiderando que a precipitação de chuva de 1 mm sobre uma área de 1 m²  \nproduz 1 litro de água, pode-se calcular a área de um telhado a fim de atender a  \nnecessidade de armazenagem da seguinte maneira: área do telhado (em m²) = volume da cisterna (em litros)/precipitação.\n\nDisponível em: www.cnpsa.embrapa.br.  \nAcesso em: 8 jun. 2009 (adaptado)."
+    }
   }
 }
