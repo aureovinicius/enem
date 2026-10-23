@@ -1,0 +1,996 @@
+{
+  "2011-91": {
+    "correctAlternative": "E",
+    "concept": "Comparação entre grupos em uma notícia de pesquisa",
+    "steps": [
+      "A expressão university graduates identifica pessoas que concluíram uma formação universitária.",
+      "O texto compara esse grupo ao de pessoas que deixaram a escola antes dos 16 anos e relata maior risco de infarto e morte neste último.",
+      "A alternativa E resume a relação apresentada entre maior escolaridade e menor risco. O número de participantes e a idade de saída da escola não indicam, respectivamente, o total de doentes ou a idade de ocorrência dos ataques.",
+      "A notícia relata uma associação; o pequeno trecho não demonstra que frequentar a universidade, isoladamente, seja a causa da diferença observada."
+    ],
+    "takeaway": "Identifique os grupos comparados e o resultado relatado, distinguindo associação estatística de comprovação de causa."
+  },
+  "2011-92": {
+    "correctAlternative": "E",
+    "concept": "Justificativa humorística para a não apresentação de uma tarefa",
+    "steps": [
+      "O quadro informa que os relatórios devem ser entregues naquele dia.",
+      "A aluna afirma ter produzido um trabalho sobre economia de papel, eletricidade e outros recursos, mas propõe enviá-lo por telepatia.",
+      "A justificativa tenta convencer a professora de que o relatório foi feito, alternativa E, mesmo sem apresentar uma entrega verificável. O humor surge de usar o tema ambiental para sustentar uma solução impossível."
+    ],
+    "takeaway": "Relacione a fala da personagem à situação de cobrança para identificar a finalidade de seu argumento."
+  },
+  "2011-93": {
+    "correctAlternative": "D",
+    "concept": "Objetivo de pesquisa e ressalvas metodológicas",
+    "steps": [
+      "O aplicativo registra como a pessoa se sente e a situação em que ela está.",
+      "O projeto declara interesse em relacionar felicidade a características do ambiente, como poluição, ruído e espaços verdes.",
+      "A alternativa D expressa esse objetivo. As referências à guerra e à distinção entre felicidade e bem-estar discutem dificuldades de interpretação dos dados, não substituem o tema principal.",
+      "A imagem do grafite também não restringe a pesquisa ao efeito de desenhos nas ruas."
+    ],
+    "takeaway": "Diferencie o objetivo de uma pesquisa dos exemplos e das ressalvas usados para discutir sua realização."
+  },
+  "2011-94": {
+    "correctAlternative": "B",
+    "concept": "Desigualdade e conflito na crítica de uma canção",
+    "steps": [
+      "A letra condiciona a paz ao abandono de ideias de superioridade racial, da divisão entre cidadãos de primeira e segunda classe e de regimes de opressão.",
+      "A repetição dessa condição indica que os conflitos persistem enquanto essas hierarquias e injustiças permanecem.",
+      "A alternativa B traduz essa relação. Nesse contexto, diferenças raciais e sociais significam desigualdade e discriminação, não a mera existência de diversidade entre pessoas e culturas.",
+      "A voz da canção anuncia resistência, o que afasta a ideia de inércia do continente."
+    ],
+    "takeaway": "Interprete palavras como diferença à luz do contexto: a crítica pode se dirigir à hierarquia e à opressão, não à diversidade."
+  },
+  "2011-95": {
+    "correctAlternative": "A",
+    "concept": "Informação ambiental como base para a ação",
+    "steps": [
+      "O texto relaciona consumo, descarte de resíduos e uso de recursos naturais.",
+      "Em seguida, apresenta a separação e a reciclagem como formas de reduzir impactos e economizar materiais, água e energia.",
+      "O fechamento afirma a necessidade de conhecer para começar a agir, sintetizando a intenção informativa da alternativa A.",
+      "Os dados sobre depósitos e o alerta para focos de infecção ajudam a apresentar o problema, mas o texto não ensina a obter economia a partir desses depósitos nem trata principalmente de segurança alimentar."
+    ],
+    "takeaway": "Observe como a conclusão reúne o problema apresentado e as ações defendidas ao longo do texto."
+  },
+  "2011-107": {
+    "correctAlternative": "B",
+    "concept": "Linhas curvas na arquitetura moderna",
+    "steps": [
+      "O desenho mostra apoios cujos contornos amplos e curvos se opõem e se encontram em pontos estreitos.",
+      "O conjunto produz formas reconhecíveis com poucos traços, sem depender do acúmulo de ornamentos.",
+      "A alternativa B descreve essa simplicidade e força visual. As opções que falam em excesso decorativo, peso ou rebuscamento não correspondem à solução mostrada."
+    ],
+    "takeaway": "Analise o desenho estrutural e seus contornos para diferenciar expressividade formal de ornamentação excessiva."
+  },
+  "2011-110": {
+    "correctAlternative": "D",
+    "concept": "Reinterpretação de objetos na arte contemporânea",
+    "steps": [
+      "A obra reúne um tronco e elementos de uma cadeira em uma configuração que rompe com o uso habitual do móvel.",
+      "O texto explica que, deslocado de sua realidade cotidiana, o objeto ganha um significado inquietante e até ambíguo.",
+      "A alternativa D associa essa releitura à abstração de sua função original. Os componentes continuam reconhecíveis: não se trata de dizer que toda referência figurativa desapareceu.",
+      "O ponto central é a transformação de sentido do objeto, não seu aperfeiçoamento funcional ou uma simples representação do cotidiano."
+    ],
+    "takeaway": "Um objeto reconhecível pode ser retirado de sua função habitual e receber novos sentidos ao integrar uma obra."
+  },
+  "2011-112": {
+    "correctAlternative": "C",
+    "concept": "Expressão social em pinturas de épocas distintas",
+    "steps": [
+      "As imagens apresentam inscrições rupestres e grafite urbano, produzidos em contextos históricos e por meios diferentes.",
+      "Ambos podem registrar formas de pensar, representar e atribuir sentido ao mundo dentro de uma sociedade.",
+      "A alternativa C identifica essa função cultural comum. As imagens não permitem afirmar igualdade de tintas, repetição dos mesmos temas ou uso exclusivo por elites.",
+      "Reconhecer essa função geral não significa conhecer com certeza a crença específica que motivou cada marca rupestre."
+    ],
+    "takeaway": "Compare funções culturais sem presumir que obras de épocas diferentes tenham os mesmos materiais, temas ou destinatários."
+  },
+  "2011-114": {
+    "correctAlternative": "A",
+    "concept": "Fragmentação e expressividade na linguagem cubista",
+    "steps": [
+      "Guernica reúne figuras humanas e animais deformadas e fragmentadas em uma composição frontal, construída com tons de preto, branco e cinza.",
+      "Os vários focos de sofrimento aparecem articulados no mesmo painel, sem reproduzir uma cena por perspectiva fotográfica clássica.",
+      "A alternativa A descreve essa construção simbólica e monocromática. A renúncia à realidade mencionada na opção deve ser entendida como recusa da cópia naturalista, não como abandono do acontecimento histórico.",
+      "As demais alternativas atribuem à obra neutralidade, diminuição da dor ou ausência de emoção, incompatíveis com sua expressividade."
+    ],
+    "takeaway": "A ruptura com a representação naturalista pode intensificar uma crítica histórica e a expressão de sofrimento."
+  },
+  "2011-133": {
+    "correctAlternative": "E",
+    "concept": "Humor visual e postura corporal diante do computador",
+    "steps": [
+      "A sequência termina com uma pessoa curvada diante do computador, retomando visualmente a inclinação das primeiras figuras.",
+      "Essa aproximação irônica destaca a postura inadequada no uso do equipamento, alternativa E.",
+      "A imagem não permite concluir, por si só, que haja obesidade, lesão específica ou isolamento familiar. O problema diretamente representado é a posição do corpo.",
+      "A sequência é uma caricatura para construir a crítica, não uma descrição científica de uma evolução humana linear."
+    ],
+    "takeaway": "Identifique o aspecto corporal efetivamente mostrado e evite atribuir à imagem diagnósticos ou consequências que ela não representa."
+  },
+  "2011-3": {
+    "correctAlternative": "E",
+    "concept": "Mobilização dos caras-pintadas e impeachment de Fernando Collor",
+    "steps": [
+      "A fotografia e a referência ao início dos anos 1990 situam a questão no movimento dos caras-pintadas, que levou jovens às ruas durante a crise do governo Collor.",
+      "Em 1992, as manifestações contra a corrupção contribuíram para a pressão social pelo afastamento do presidente. Esse vínculo com o processo de impeachment corresponde à alternativa E.",
+      "As Diretas Já pertencem principalmente ao contexto de 1983–1984, enquanto a Lei da Ficha Limpa é de 2010; associá-las ao episódio fotografado cria um erro de cronologia.",
+      "O movimento retratado também não se caracteriza por ações revolucionárias armadas nem pela organização de protestos pela internet. Sua marca foi a participação pública de estudantes e outros setores da sociedade."
+    ],
+    "takeaway": "Relacione os caras-pintadas à mobilização de 1992 pelo impeachment de Collor e diferencie-a de outras campanhas políticas brasileiras."
+  },
+  "2011-6": {
+    "correctAlternative": "E",
+    "concept": "Água, intemperismo químico e profundidade dos solos",
+    "steps": [
+      "No gráfico, a faixa de floresta tropical combina precipitação elevada com grande espessura de material alterado acima da rocha inalterada.",
+      "A água participa das reações do intemperismo químico e da alteração das rochas. A disponibilidade de água, associada às temperaturas elevadas, favorece esse processo nas áreas tropicais úmidas representadas.",
+      "A alternativa E relaciona corretamente as maiores precipitações e os solos mais profundos à faixa tropical de baixas latitudes indicada no desenho.",
+      "B e D invertem a relação observada na faixa tropical úmida; A atribui aos climas temperados os maiores valores, e C os desloca para cerca de 30° de latitude. A leitura deve acompanhar as curvas, sem supor que toda área de baixa latitude seja igualmente chuvosa."
+    ],
+    "takeaway": "Na faixa tropical úmida do gráfico, a água favorece o intemperismo e a formação de um perfil de alteração mais profundo."
+  },
+  "2011-11": {
+    "correctAlternative": "D",
+    "concept": "Exploração madeireira e degradação da Mata de Araucárias",
+    "steps": [
+      "A araucária da fotografia identifica a Mata de Araucárias, formação da Mata Atlântica também chamada de Floresta Ombrófila Mista, especialmente associada ao Sul do Brasil.",
+      "A exploração de sua madeira para atividades industriais contribuiu historicamente para a redução dessa formação vegetal. Entre os usos esteve o fornecimento de matéria-prima à indústria de papel e celulose.",
+      "Por isso, a alternativa D reúne a atividade econômica e a localização regional pertinentes à imagem. Essa associação histórica não significa que toda a produção atual de papel utilize araucária nativa.",
+      "A expansão de grãos no Centro-Oeste, a cana-de-açúcar no Nordeste, a mineração do Sudeste e a ocupação da Serra do Mar não identificam o processo específico pedido para a formação retratada."
+    ],
+    "takeaway": "Reconheça a araucária e associe a degradação histórica de sua formação florestal à exploração madeireira, sobretudo no Sul."
+  },
+  "2011-12": {
+    "correctAlternative": "A",
+    "concept": "Barragens e deslocamento de populações ribeirinhas",
+    "steps": [
+      "A canção se refere à construção da barragem de Sobradinho, no rio São Francisco, e descreve a substituição de espaços habitados pelas águas da represa.",
+      "O enchimento de um reservatório alaga áreas antes ocupadas por moradias, atividades produtivas e relações comunitárias. Os habitantes dessas áreas precisam deixar seus lugares de vida.",
+      "Esse deslocamento imposto pela obra é uma migração forçada da população ribeirinha, conforme a alternativa A.",
+      "As outras opções não traduzem a consequência socioespacial enfatizada: o texto não descreve rebaixamento do lençol freático, expansão do clima árido ou redução da irrigação, e a inundação de lugares de memória não equivale à sua preservação."
+    ],
+    "takeaway": "Ao analisar grandes barragens, considere o deslocamento dos habitantes das áreas inundadas e a reorganização de seus territórios."
+  },
+  "2011-14": {
+    "correctAlternative": "C",
+    "concept": "Poder econômico e redes na regionalização mundial",
+    "steps": [
+      "O mapa representa um mundo organizado por zonas de influência e redes que se sobrepõem. O texto questiona a suficiência da antiga divisão entre os blocos socialista e capitalista.",
+      "Os grandes polos da América do Norte, da Europa e do leste asiático aparecem articulados a espaços de influência econômica. Sua presença ajuda a explicar a distribuição espacial destacada.",
+      "A alternativa C identifica esse critério: a influência das grandes potências econômicas na organização do espaço mundial.",
+      "A existência de territórios com identidades culturais e de áreas islâmicas na legenda não prova estagnação nem supremacia econômica desses grupos. Tampouco o mapa indica expansão anticapitalista ou desaparecimento de todos os blocos regionais."
+    ],
+    "takeaway": "Na regionalização apresentada, acompanhe as redes e áreas de influência das potências econômicas, além das fronteiras dos antigos blocos."
+  },
+  "2011-24": {
+    "correctAlternative": "C",
+    "concept": "Reestruturação produtiva e qualificação do trabalho",
+    "steps": [
+      "O texto descreve a automação microeletrônica reduzindo o tempo de trabalho necessário e alterando a organização dos coletivos operários.",
+      "A adoção dessas tecnologias modifica as tarefas e exige conhecimentos para operar, acompanhar e adaptar processos produtivos. A qualificação passa a envolver tanto as empresas quanto os trabalhadores.",
+      "Essa exigência corresponde à alternativa C. Ela não implica que a automação assegure emprego a todos: o próprio texto menciona a redução dos coletivos de trabalhadores.",
+      "D contraria a substituição de tarefas repetitivas pela automação; A caracteriza uma produção centrada no trabalho manual. A entrada das mulheres na indústria não é tardia nesse contexto, e grandes estoques não definem o modelo de produção flexível associado à reestruturação."
+    ],
+    "takeaway": "A automação transforma as tarefas e amplia a necessidade de qualificação, ao mesmo tempo que pode reduzir postos de trabalho."
+  },
+  "2011-25": {
+    "correctAlternative": "E",
+    "concept": "Ampliação do eleitorado e voto de pessoas analfabetas",
+    "steps": [
+      "O gráfico mostra o crescimento da proporção de eleitores inscritos na população brasileira ao longo do século XX, incluindo o intervalo de 1980 a 1996.",
+      "Em 1985, a Emenda Constitucional nº 25 assegurou às pessoas analfabetas o direito de se alistar e votar; a Constituição de 1988 manteve esse direito.",
+      "Essa conquista, situada dentro do intervalo 1980–1996, ampliou a participação eleitoral e corresponde à alternativa E. Trata-se de um fator de expansão do eleitorado, não de uma explicação exclusiva para toda a variação do gráfico.",
+      "O voto feminino foi reconhecido em 1932, antes do intervalo indicado em C. O voto secreto e a obrigatoriedade não foram abolidos nos intervalos de B e D, e A não identifica uma mudança eleitoral ocorrida entre 1940 e 1950."
+    ],
+    "takeaway": "Associe a ampliação do eleitorado à conquista de direitos políticos, respeitando a cronologia: o voto de analfabetos foi reconhecido em 1985."
+  },
+  "2011-26": {
+    "correctAlternative": "D",
+    "concept": "Memória histórica como instrumento de legitimação política",
+    "steps": [
+      "O texto não apenas descreve a Proclamação da República: ele examina como os defensores da Revolução de 1930 reinterpretaram o acontecimento de 1889.",
+      "Ao apresentar a experiência anterior como excludente, militarista e pouco ligada à nação, esses grupos criavam um contraste favorável à nova ordem instalada em 1930.",
+      "Essa narrativa ajudava a justificar a autoridade dos novos dirigentes e a apresentar sua chegada ao poder como uma ruptura necessária. Por isso, a finalidade indicada é a legitimação política da alternativa D.",
+      "O argumento não resgata a Monarquia, não se concentra em educação e não destaca participação popular ampla em 1889. A afirmação de que um Brasil mais autêntico teria surgido em 1930 deve ser entendida como parte da narrativa legitimadora analisada."
+    ],
+    "takeaway": "Ao estudar a memória política, pergunte quais grupos construíram uma interpretação do passado e como ela justificava seu poder no presente."
+  },
+  "2011-29": {
+    "correctAlternative": "C",
+    "concept": "Vestuário e distinções sociais na sociedade escravista",
+    "steps": [
+      "O retrato de 1879 mostra um casal negro usando trajes formais, acessórios e sapatos. A questão pede um sinal de diferenciação social na ordem escravista.",
+      "Nesse contexto, o calçado podia funcionar como marca de liberdade ou de melhores condições sociais, distinguindo seus usuários da imagem social frequentemente associada ao trabalho escravizado descalço.",
+      "É essa função simbólica dos sapatos que a alternativa C identifica. A fotografia, isoladamente, não permite determinar com certeza a condição jurídica ou a trajetória de cada pessoa retratada.",
+      "Os trajes não são apresentados como roupas de serviço doméstico nem demonstram rápida integração dos libertos ao mercado de trabalho. Os acessórios também não bastam para provar origem cultural africana, e opor o casal aos brasileiros é inadequado."
+    ],
+    "takeaway": "Leia roupas e objetos como indícios de distinção social, sem tratar um único sinal visual como prova absoluta da condição de uma pessoa."
+  },
+  "2011-30": {
+    "correctAlternative": "B",
+    "concept": "Dominação carismática e culto ao líder",
+    "steps": [
+      "O texto distingue as bases da obediência: a tradição, a confiança na ordem legal e a crença em qualidades extraordinárias de um líder.",
+      "No fascismo italiano, o culto à figura de Mussolini, apresentado como chefe excepcional e salvador nacional, é um exemplo da mobilização dessa crença no líder.",
+      "Por isso, a alternativa B corresponde ao poder carismático pedido. Nesse conceito sociológico, carisma descreve uma forma de legitimar a autoridade; não é um elogio moral ao governante.",
+      "A sacralização de soberanos e a continuidade dinástica remetem sobretudo à dominação tradicional, enquanto instituições constitucionais e obediência a normas remetem à racional-legal. Essas formas podem coexistir historicamente: a pergunta pede o traço predominante no exemplo."
+    ],
+    "takeaway": "Para reconhecer a dominação carismática, identifique a crença em qualidades excepcionais do chefe, e não apenas a existência de um governante forte."
+  },
+  "2011-31": {
+    "correctAlternative": "A",
+    "concept": "Diferentes usos culturais e econômicos do pau-brasil",
+    "steps": [
+      "No diálogo, o ancião tupinambá estranha a longa viagem dos europeus porque interpreta a madeira como um recurso destinado ao aquecimento.",
+      "Os comerciantes europeus, porém, buscavam o pau-brasil como mercadoria, particularmente pelo corante extraído da madeira e por seu valor no comércio.",
+      "O contraste está no destino atribuído ao produto do trabalho em sistemas culturais distintos, como afirma A. O mesmo recurso recebe usos e valores diferentes.",
+      "O trecho não apresenta um projeto de preservação ambiental nem comprova que ambas as partes buscassem o mesmo lucro comercial. Também não autoriza generalizar que sociedades indígenas desconhecessem trocas: a análise se limita ao contraste expresso nesse diálogo."
+    ],
+    "takeaway": "Compare o uso e o valor atribuídos ao recurso por cada interlocutor; nesse diálogo, a diferença central é o destino do pau-brasil."
+  },
+  "2011-36": {
+    "correctAlternative": "D",
+    "concept": "Padroado e formação histórica do predomínio católico",
+    "steps": [
+      "No gráfico reproduzido pela prova, a Igreja Católica Apostólica Romana reúne a maior parcela de adeptos, com 73,8%. Esses são dados históricos do material citado, não um retrato atualizado da população.",
+      "Durante a colonização portuguesa, Igreja e Coroa mantinham vínculos institucionais, expressos no padroado e na atuação religiosa ligada à ocupação do território.",
+      "No Império, o catolicismo permaneceu religião oficial. Essa relação prolongada entre Estado e Igreja favoreceu a difusão e a permanência social do catolicismo, explicando a alternativa D.",
+      "A liberdade religiosa na esfera pública não define esse arranjo institucional. As demais alternativas não explicam o predomínio católico pela relação histórica destacada, nem a presença de religiões de matriz africana representa a maior parcela do gráfico."
+    ],
+    "takeaway": "O predomínio católico mostrado no gráfico tem raízes históricas na integração entre Estado e Igreja durante a Colônia e o Império."
+  },
+  "2011-41": {
+    "correctAlternative": "E",
+    "concept": "Reformas de base e limites ao exercício da propriedade privada",
+    "steps": [
+      "Os dois documentos usam termos como democracia e reforma, mas o enunciado explicita que seus projetos econômicos eram diferentes.",
+      "O programa do CGT exige reforma agrária para extinguir o latifúndio, reforma bancária e regulamentação da remessa de lucros. Essas medidas subordinariam interesses de proprietários e detentores de capital a objetivos de transformação social.",
+      "A alternativa E sintetiza esse aspecto como limitação da propriedade privada, sobretudo da grande propriedade fundiária. Limitar seu exercício não equivale, no texto, a abolir toda forma de propriedade privada.",
+      "O fim da intervenção estatal contraria a proposta de regulamentação; atrair investimentos estrangeiros ou expandir bens de consumo não é o núcleo do manifesto. O controle do desenvolvimento industrial tampouco reúne as reivindicações concretamente enumeradas."
+    ],
+    "takeaway": "Diferencie os projetos por suas medidas concretas: no programa do CGT, reforma agrária e regulação do capital impunham limites a interesses privados."
+  },
+  "2011-42": {
+    "correctAlternative": "A",
+    "concept": "Conflito político em torno da atuação cultural do CPC da UNE",
+    "steps": [
+      "O CPC da UNE utilizava o teatro para defender reformas de base e criticar o imperialismo. O texto mostra que essa atuação recebia avaliações políticas opostas.",
+      "A pergunta pede especificamente a interpretação dos setores conservadores e de direita, e não a avaliação dos integrantes do CPC ou de seus apoiadores.",
+      "Esses setores associavam a propaganda de esquerda à difusão do comunismo e a apresentavam como ameaça à democracia, correspondendo à alternativa A. Trata-se da visão desses grupos no conflito histórico, não de uma conclusão de que a atividade cultural fosse, por si, antidemocrática.",
+      "B e D expressam avaliações favoráveis à atuação do CPC. O trecho não apresenta como crítica central a exclusividade estatal da educação nem uma substituição dos sindicatos pela organização cultural."
+    ],
+    "takeaway": "Em questões sobre disputas políticas, identifique de quem é o ponto de vista solicitado antes de avaliar as alternativas."
+  },
+  "2011-43": {
+    "correctAlternative": "A",
+    "concept": "Revolta da Vacina e modernização urbana autoritária",
+    "steps": [
+      "A charge representa o conflito nas ruas do Rio de Janeiro em 1904, no contexto da Revolta da Vacina e das reformas urbanas e sanitárias da Primeira República.",
+      "Essas reformas foram conduzidas de modo autoritário, com demolições, deslocamento de moradores e medidas sanitárias obrigatórias que produziram resistência. A revolta deve ser situada nesse conjunto de tensões sociais.",
+      "A alternativa A relaciona a insatisfação popular a essa modernização autoritária. Sua referência a benefícios não significa que a população fosse contrária à melhoria da saúde: a crítica recai sobre a imposição das medidas e seus efeitos sociais.",
+      "A cena de confronto não demonstra apoio ao governo nem aceitação da vacinação, como sugerem B e E. C transforma o conflito em garantia democrática, e D descreve um planejamento abrangente sem explicar a resistência retratada."
+    ],
+    "takeaway": "Na Revolta da Vacina, relacione a resistência popular ao modo autoritário de realizar reformas urbanas e sanitárias e às tensões sociais da época."
+  },
+  "2011-44": {
+    "correctAlternative": "B",
+    "concept": "Financiamento e articulação da cadeia agroindustrial",
+    "steps": [
+      "O organograma liga a produção e o comércio de insumos ao produtor de tomate, que se conecta a intermediários, supermercados e consumidores.",
+      "Os bancos e os financiamentos aparecem vinculados a diferentes etapas desse circuito. O crédito ajuda a viabilizar a aquisição de insumos e o funcionamento das atividades produtivas e comerciais.",
+      "Essa posição evidencia a importância do setor financeiro para a cadeia agroindustrial, como indica B.",
+      "As numerosas ligações contrariam a autonomia do setor primário e o distanciamento entre campo e cidade. O desenho também não sustenta a subordinação geral da indústria à agricultura nem igualdade de posições entre todos os atores."
+    ],
+    "takeaway": "Observe quem financia e conecta as etapas da cadeia: o setor financeiro participa da organização da produção e da circulação agroindustrial."
+  },
+  "2011-47": {
+    "correctAlternative": "C",
+    "concept": "Níveis tróficos em uma cadeia alimentar",
+    "steps": [
+      "As plantas que produziram frutas e grãos são os produtores. Ao comer esses alimentos, o homem ocupa o nível de consumidor primário nessa cadeia hipotética.",
+      "O tigre que se alimenta do homem consome um consumidor primário, tornando-se consumidor secundário.",
+      "Os abutres que depois comem o tigre ocupam o nível de consumidores terciários. A sequência pedida é, portanto, secundário e terciário: alternativa C. O fato de comerem um animal já morto não os transforma em produtores."
+    ],
+    "takeaway": "Determine o nível trófico pelo alimento consumido na cadeia apresentada, e não apenas pelo nome do animal."
+  },
+  "2011-48": {
+    "correctAlternative": "E",
+    "concept": "Hemácias e transporte de oxigênio",
+    "steps": [
+      "As hemácias contêm hemoglobina, proteína que se liga ao oxigênio e permite seu transporte do sistema respiratório aos tecidos.",
+      "Uma retirada importante de hemácias reduz a capacidade de transporte de oxigênio pelo sangue. Essa é a consequência indicada em E.",
+      "Devolver essas células após a coleta do plasma ajuda a preservar essa função. Anticorpos e células de defesa participam da imunidade, mas não são a função específica das hemácias perguntada no exercício."
+    ],
+    "takeaway": "Hemácias transportam oxigênio graças à hemoglobina; a diminuição de seu número prejudica a oxigenação dos tecidos."
+  },
+  "2011-49": {
+    "correctAlternative": "A",
+    "concept": "Funções das células sanguíneas e leitura de hemograma",
+    "steps": [
+      "A tabela fornece \\(200\\,000\\) plaquetas por \\(\\mathrm{mm^3}\\), abaixo do intervalo de referência apresentado, de \\(250\\,000\\) a \\(400\\,000\\).",
+      "As plaquetas participam da formação do tampão hemostático e da coagulação. No raciocínio proposto, sua redução se relaciona ao sangramento nasal: alternativa A.",
+      "Os glóbulos vermelhos também estão abaixo da referência do quadro e transportam oxigênio, enquanto os brancos participam da defesa e estão no intervalo informado. As demais alternativas trocam essas funções entre hemácias, leucócitos e plaquetas."
+    ],
+    "takeaway": "Compare cada resultado com a referência do próprio quadro e associe-o à função correta do componente sanguíneo."
+  },
+  "2011-50": {
+    "correctAlternative": "C",
+    "concept": "Emissão de dióxido de carbono por unidade de energia",
+    "steps": [
+      "Na combustão completa, cada átomo de carbono do combustível origina uma molécula de \\(\\mathrm{CO_2}\\). Por mol de combustível, benzeno e glicose produzem 6 mols de \\(\\mathrm{CO_2}\\), etanol 2, metano 1 e octano 8.",
+      "Para comparar a mesma energia produzida, divida essa quantidade pelo módulo da entalpia de combustão. Para a glicose, a razão é \\(6/2\\,808\\approx2{,}14\\times10^{-3}\\,\\mathrm{mol/kJ}\\).",
+      "As outras razões, em \\(\\mathrm{mol/kJ}\\), são: benzeno \\(6/3\\,268\\approx1{,}84\\times10^{-3}\\); etanol \\(2/1\\,368\\approx1{,}46\\times10^{-3}\\); metano \\(1/890\\approx1{,}12\\times10^{-3}\\); octano \\(8/5\\,471\\approx1{,}46\\times10^{-3}\\).",
+      "A glicose apresenta a maior emissão por energia liberada, alternativa C. Comparar apenas o número de carbonos ou apenas o calor de combustão não basta."
+    ],
+    "takeaway": "Normalize a emissão pela energia: a grandeza relevante é quantidade de dióxido de carbono por quilojoule produzido."
+  },
+  "2011-51": {
+    "correctAlternative": "D",
+    "concept": "Aproveitamento de resíduos orgânicos em biodigestores",
+    "steps": [
+      "O problema exige uma fonte de calor que reduza a retirada de lenha da Mata Atlântica e aproveite recursos disponíveis na região.",
+      "Biodigestores permitem a decomposição anaeróbia de resíduos orgânicos, produzindo biogás com metano, que pode ser queimado nos equipamentos de produção de farinha.",
+      "Essa alternativa transforma resíduos locais em combustível e corresponde a D. Plantar árvores demanda tempo para obter lenha; explorar outra mata apenas transfere o desmatamento; grandes fornos elétricos não resolvem a restrição de custo apresentada."
+    ],
+    "takeaway": "A biodigestão recupera parte da energia dos resíduos orgânicos na forma de biogás e pode reduzir o uso de lenha."
+  },
+  "2011-52": {
+    "correctAlternative": "B",
+    "concept": "Desinfecção da água e etapas do tratamento",
+    "steps": [
+      "A questão pede a etapa voltada aos microrganismos presentes na água, responsáveis pelo problema sanitário descrito.",
+      "A cloração é uma etapa de desinfecção: compostos de cloro, em condições adequadas de tratamento, inativam muitos microrganismos patogênicos. Por isso, B é a alternativa esperada.",
+      "Coagulação, decantação e filtração convencional atuam principalmente na remoção de partículas e não equivalem, isoladamente, à desinfecção. A fluoretação tem outra finalidade, associada à saúde dentária. A escolha de B não significa que clorar, sozinho, resolva toda forma de poluição da água."
+    ],
+    "takeaway": "Diferencie remoção de partículas e desinfecção: a pergunta focaliza o controle microbiológico da água."
+  },
+  "2011-57": {
+    "correctAlternative": "A",
+    "concept": "Controle biológico por parasitoides de ovos",
+    "steps": [
+      "A microvespa deposita seus ovos dentro dos ovos da borboleta. Sua prole utiliza o conteúdo do hospedeiro, impedindo o desenvolvimento das lagartas que atacariam o algodoeiro.",
+      "Assim, um inimigo natural reduz a população da espécie que causa o dano. A alternativa A chama essa relação de parasitismo.",
+      "Mais precisamente, Trichogramma atua como parasitoide de ovos, pois o desenvolvimento de sua prole acaba levando à morte do hospedeiro. Não ocorre introdução de genes, uso de inseticidas ou simples competição por alimento externo."
+    ],
+    "takeaway": "No controle por parasitoides, o inimigo natural se desenvolve associado ao hospedeiro e impede sua sobrevivência."
+  },
+  "2011-58": {
+    "correctAlternative": "E",
+    "concept": "Ligações de hidrogênio entre umectantes e água",
+    "steps": [
+      "As estruturas da glicerina e do polietilenoglicol apresentam grupos hidroxila. Nesses grupos, o hidrogênio está ligado a um oxigênio muito eletronegativo.",
+      "Esses grupos podem formar ligações de hidrogênio com moléculas de água, favorecendo sua associação aos agentes umectantes e sua retenção na superfície da pele.",
+      "A alternativa E nomeia a interação específica. Forças dipolo-dipolo são uma categoria mais geral; não há necessidade de formar novas ligações covalentes nem uma rede iônica entre o hidratante e a água."
+    ],
+    "takeaway": "Grupos hidroxila favorecem a interação com água por ligações de hidrogênio."
+  },
+  "2011-60": {
+    "correctAlternative": "A",
+    "concept": "Resistência elétrica de chuveiros com a mesma potência",
+    "steps": [
+      "Para um resistor, \\(P=U^2/R\\). Como os dois chuveiros operam a \\(4\\,400\\,\\mathrm{W}\\), a razão entre resistências é \\(R_A/R_B=U_A^2/U_B^2\\).",
+      "A tabela informa \\(U_A=127\\,\\mathrm{V}\\) e \\(U_B=220\\,\\mathrm{V}\\). Logo, \\(R_A/R_B=(127/220)^2\\approx0{,}333\\), mais próximo de 0,3: alternativa A.",
+      "A menor tensão exige maior corrente para a mesma potência, pois \\(I=P/U\\). Nesse ajuste, as correntes são aproximadamente \\(34{,}6\\,\\mathrm{A}\\) e \\(20\\,\\mathrm{A}\\), respectivamente.",
+      "Os valores de 50 A e 30 A indicam o dimensionamento dos disjuntores, não as correntes exatas dos chuveiros no ajuste de potência utilizado no cálculo."
+    ],
+    "takeaway": "Com potência fixa, a resistência é proporcional ao quadrado da tensão, enquanto a corrente diminui quando a tensão aumenta."
+  },
+  "2011-61": {
+    "correctAlternative": "C",
+    "concept": "Replicação semiconservativa do DNA",
+    "steps": [
+      "As ligações de hidrogênio unem as bases complementares das duas fitas do DNA. Sua separação permite que cada fita parental funcione como molde para uma nova fita complementar.",
+      "Após a replicação, cada molécula de DNA resultante contém uma fita antiga e uma recém-sintetizada. Esse padrão é denominado semiconservativo, alternativa C.",
+      "No modelo conservativo, a dupla fita parental permaneceria reunida; no dispersivo, segmentos antigos e novos estariam misturados em cada fita. Os resultados de Meselson e Stahl distinguiram esses modelos.",
+      "Fita molde e fita codificadora são termos usados em relação à transcrição de um gene e não definem a composição parental/nova que caracteriza a replicação."
+    ],
+    "takeaway": "Na replicação semiconservativa, cada dupla hélice filha conserva uma das fitas da molécula original."
+  },
+  "2011-62": {
+    "correctAlternative": "B",
+    "concept": "Nutriente limitante e proporções de assimilação",
+    "steps": [
+      "A figura informa a proporção atômica de assimilação \\(C:N:P=106:16:1\\). O nutriente limitante deve ser identificado em relação a essa necessidade, e não apenas pela menor concentração absoluta.",
+      "Dividindo as concentrações fornecidas por seus coeficientes, temos \\(21{,}2/106=0{,}20\\) para carbono, \\(1{,}2/16=0{,}075\\) para nitrogênio e \\(0{,}2/1=0{,}20\\) para fósforo.",
+      "O nitrogênio oferece a menor quantidade proporcional à demanda. Ele se esgota antes dos outros dois no modelo, limitando o crescimento: alternativa B.",
+      "O fósforo tem a menor concentração absoluta, mas também é necessário em proporção muito menor. Escolhê-lo sem usar a razão 106:16:1 levaria à conclusão errada."
+    ],
+    "takeaway": "O nutriente limitante é o menos disponível em relação à proporção exigida pelo organismo."
+  },
+  "2011-63": {
+    "correctAlternative": "E",
+    "concept": "Absorção seletiva de luz e cor complementar",
+    "steps": [
+      "A Figura 1 mostra absorção máxima perto de 500 nm, faixa que a roda de cores da Figura 2 associa ao verde.",
+      "O enunciado orienta a procurar a cor no lado oposto ao comprimento de onda de absorção máxima. Na roda, o lado oposto ao verde é o vermelho.",
+      "Portanto, a substância aparece vermelha, alternativa E. A cor mais absorvida não é a cor predominante na luz refletida ou transmitida que chega ao observador."
+    ],
+    "takeaway": "Para essa roda de cores, identifique o máximo de absorção e procure a cor complementar no setor oposto."
+  },
+  "2011-64": {
+    "correctAlternative": "A",
+    "concept": "Endemia e distribuição geográfica de uma doença",
+    "steps": [
+      "O mapa representa áreas de ocorrência habitual da malária, com transmissão concentrada em determinadas regiões da América do Sul.",
+      "Essa presença em uma área de transmissão estabelecida é compatível com endemia, alternativa A. O conceito inclui a ocorrência regular esperada na região.",
+      "Epidemia e surto envolvem aumento de casos acima do esperado em certo período, informação que o mapa não fornece. Pandemia envolve disseminação epidêmica ampla; a simples presença em diferentes países não basta para classificá-la.",
+      "A área restrita mencionada em A é uma pista espacial, mas não define endemia sozinha: também importa a persistência habitual da doença."
+    ],
+    "takeaway": "Endemia envolve ocorrência habitual; epidemia exige comparar a frequência observada com a esperada ao longo do tempo."
+  },
+  "2011-65": {
+    "correctAlternative": "E",
+    "concept": "Silenciamento epigenético de genes",
+    "steps": [
+      "O próprio enunciado define epigenética como alterações na atividade dos genes sem mudança na sequência de bases do DNA.",
+      "Uma modificação química, como a metilação de bases em regiões reguladoras, pode reduzir a transcrição de um gene sem substituí-lo por outro. O silenciamento de genes que controlam a proliferação celular pode contribuir para alguns cânceres.",
+      "Essa possibilidade corresponde a E. Aneuploidia e poliploidia alteram o número de cromossomos; mutações e substituições alteram a sequência genética, distinguindo-se do mecanismo epigenético solicitado."
+    ],
+    "takeaway": "Modificar quimicamente uma base para regular a expressão não é o mesmo que trocar a sequência de nucleotídeos."
+  },
+  "2011-68": {
+    "correctAlternative": "D",
+    "concept": "Genomas sintéticos e programação de funções celulares",
+    "steps": [
+      "O experimento montou um cromossomo com uma sequência planejada de nucleotídeos e o introduziu em uma célula receptora. Esse DNA passou a orientar a produção de proteínas.",
+      "A possibilidade tecnológica é programar funções celulares por meio de informação genética construída ou modificada, direcionando a síntese de substâncias de interesse, como medicamentos, componentes de vacinas e combustíveis.",
+      "Isso corresponde a D. O avanço não foi criar toda uma célula apenas a partir de carboidratos e lipídios: foi necessário utilizar a estrutura e a maquinaria de uma célula já existente. O experimento também não propõe simplesmente liberar a espécie receptora na natureza."
+    ],
+    "takeaway": "Projetar informação genética pode orientar funções metabólicas; isso é diferente de construir uma célula completa a partir de matéria não viva."
+  },
+  "2011-69": {
+    "correctAlternative": "E",
+    "concept": "Vacinação e imunização ativa",
+    "steps": [
+      "A vacina estimula o sistema imune do próprio indivíduo a reconhecer antígenos do agente infeccioso.",
+      "Entre as respostas adaptativas está a ativação de linfócitos B, cuja diferenciação origina células produtoras de anticorpos específicos. Esse estímulo é descrito na alternativa E.",
+      "Fornecer anticorpos já prontos caracteriza imunização passiva, como ocorre com certos soros, não o mecanismo da vacina. A vacina também não fornece linfócitos nem aumenta a defesa por produção de hemácias."
+    ],
+    "takeaway": "Na imunização ativa, o organismo produz sua resposta ao antígeno; na passiva, recebe componentes de defesa já prontos."
+  },
+  "2011-70": {
+    "correctAlternative": "D",
+    "concept": "Fechamento do circuito pelos contatos da lâmpada",
+    "steps": [
+      "Uma lâmpada desse tipo tem dois contatos elétricos distintos: a rosca metálica lateral e o contato central na base, separados por material isolante.",
+      "Para acender, cada contato deve estar ligado a um polo diferente da pilha, formando um caminho fechado que atravesse o filamento.",
+      "Nos esquemas 1 e 3, o contato da base toca o polo superior e o fio liga a rosca ao outro polo. No esquema 7, a rosca toca um polo e o fio liga a base ao outro: a inversão da orientação não impede o funcionamento.",
+      "Portanto, acendem 1, 3 e 7, alternativa D. Nos demais desenhos, falta a conexão adequada entre os dois polos e os dois contatos da lâmpada; encostar no vidro ou ligar apenas a região lateral não fecha o circuito pelo filamento."
+    ],
+    "takeaway": "Siga o circuito completo: polo da pilha, um contato da lâmpada, filamento, outro contato e outro polo."
+  },
+  "2011-72": {
+    "correctAlternative": "A",
+    "concept": "Formação de amida a partir de carboxila e amina",
+    "steps": [
+      "Uma amida apresenta o grupo \\(\\mathrm{C(=O)-N}\\): o nitrogênio está ligado diretamente ao carbono de uma carbonila.",
+      "No ácido cólico, a extremidade da cadeia lateral possui a carboxila \\(\\mathrm{-COOH}\\). Ela é o grupo que se combina com a amina da glicina ou da taurina para formar a ligação amida.",
+      "A transformação global pode ser representada por \\(\\mathrm{RCOOH+H_2NR'\\rightarrow RCONHR'+H_2O}\\). A alternativa correta é A. As hidroxilas alcoólicas presentes nos anéis não fornecem a carbonila necessária à função amida."
+    ],
+    "takeaway": "Para identificar a origem de uma amida, procure a combinação entre um grupo carboxila e um grupo amina."
+  },
+  "2011-75": {
+    "correctAlternative": "B",
+    "concept": "Acidez e deslocamento do equilíbrio da hidroxiapatita",
+    "steps": [
+      "A equação representa a desmineralização para a direita: o sólido hidroxiapatita se dissolve, liberando íons cálcio, fosfato e hidróxido.",
+      "O aumento da acidez eleva a concentração de \\(\\mathrm{H^+}\\), que reage com \\(\\mathrm{OH^-}\\): \\(\\mathrm{H^++OH^-\\rightarrow H_2O}\\). Assim, um produto da dissolução é consumido.",
+      "Pelo princípio de Le Chatelier, a retirada de um produto favorece a reação que o repõe. O equilíbrio desloca-se para a direita, com dissolução de mais hidroxiapatita.",
+      "A alternativa B combina corretamente o aumento de H⁺, o consumo de OH⁻ e o sentido da desmineralização. Deslocar para a esquerda corresponderia à formação do mineral."
+    ],
+    "takeaway": "Consumir um produto de um equilíbrio favorece sua reposição; aqui, o consumo de hidróxido favorece a dissolução do esmalte."
+  },
+  "2011-76": {
+    "correctAlternative": "E",
+    "concept": "Especificidade alimentar e plantas hospedeiras",
+    "steps": [
+      "O senso comum apresentado supõe que lagartas comam indiscriminadamente qualquer planta. O estudo citado encontra preferência por um grupo vegetal definido.",
+      "As larvas atuais das borboletas mencionadas consomem sobretudo plantas da família Solanaceae nas duas florestas, correspondendo à alternativa E.",
+      "A referência às Apocinaceae diz respeito aos ancestrais. Ela não permite atribuir às larvas atuais capacidade de digerir todas as plantas ou voracidade indiscriminada."
+    ],
+    "takeaway": "Uma grande capacidade de consumir folhas não implica ausência de especificidade pelas plantas hospedeiras."
+  },
+  "2011-78": {
+    "correctAlternative": "B",
+    "concept": "Controle do volume de água em uma descarga",
+    "steps": [
+      "No sistema representado, o acionamento libera a água previamente armazenada na caixa. Depois, a válvula fecha e o tanque é reabastecido.",
+      "O volume do reservatório limita a quantidade disponível em cada ciclo de descarga. Essa limitação diferencia o funcionamento de um fornecimento que depende do tempo de abertura de uma válvula ligada à rede.",
+      "Por isso, a resposta é B. Altura do sifão, nível do vaso e diâmetro de tubulações influenciam o escoamento, mas não são o elemento que delimita diretamente a quantidade armazenada para a descarga."
+    ],
+    "takeaway": "Reservar uma quantidade definida de água permite controlar o consumo de cada ciclo de descarga."
+  },
+  "2011-80": {
+    "correctAlternative": "D",
+    "concept": "Emissões de metano em reservatórios hidrelétricos",
+    "steps": [
+      "O texto chama atenção para emissões de metano associadas às hidrelétricas. A decomposição anaeróbia de matéria orgânica em reservatórios pode produzir esse gás.",
+      "O metano contribui para o efeito estufa. Portanto, produzir eletricidade sem queimar combustível diretamente não permite concluir que a fonte seja isenta de emissões.",
+      "No cenário descrito, a participação expressiva das hidrelétricas torna essas emissões relevantes, correspondendo a D. As opções que afirmam ausência de alteração dos gases ignoram a informação central.",
+      "A conclusão se refere ao argumento e aos dados históricos do texto; não estabelece que toda hidrelétrica tenha o mesmo nível de emissão, que depende das características do reservatório."
+    ],
+    "takeaway": "Avalie também as emissões do reservatório: a ausência de combustão na turbina não significa ausência de gases de efeito estufa."
+  },
+  "2011-82": {
+    "correctAlternative": "D",
+    "concept": "Predação entre vaga-lumes de gêneros diferentes",
+    "steps": [
+      "A fêmea de Photuris imita sinais que atraem o macho de Photinus. Quando ele se aproxima, ela o captura e o devora.",
+      "Uma espécie obtém alimento ao matar e consumir um indivíduo de outra espécie. Essa relação é predatismo, alternativa D.",
+      "Comensalismo e inquilinismo não envolvem esse dano letal; cooperação e mutualismo envolvem benefício para os participantes. O sinal de atração é uma estratégia de captura, não uma relação reprodutiva entre os dois gêneros."
+    ],
+    "takeaway": "Identifique o resultado da interação: capturar e consumir outro organismo caracteriza predação."
+  },
+  "2011-83": {
+    "correctAlternative": "C",
+    "concept": "Fertilizantes nitrogenados e contaminação da água",
+    "steps": [
+      "A adubação adiciona compostos de nitrogênio ao solo. Parte desse elemento pode estar em formas solúveis, como nitrato, \\(\\mathrm{NO_3^-}\\), e amônio, \\(\\mathrm{NH_4^+}\\).",
+      "Quando há excesso, a água pode transportar esses nutrientes para rios e lagos por escoamento e lixiviação, contribuindo para contaminação e eutrofização. Esse risco é descrito em C.",
+      "A alternativa D atribui acidez à reação da amônia com água, mas ela produz hidróxido: \\(\\mathrm{NH_3+H_2O\\rightleftharpoons NH_4^++OH^-}\\). Portanto, esse argumento específico para diminuir o pH está incorreto.",
+      "As demais opções não descrevem o caminho direto, indicado pelos dados, entre fertilizante solúvel e enriquecimento das águas. Processos posteriores de transformação do nitrogênio podem ter outros efeitos, mas não justificam as afirmações apresentadas."
+    ],
+    "takeaway": "Nutrientes úteis às plantas tornam-se poluentes quando o excesso é transportado para os corpos d’água."
+  },
+  "2011-84": {
+    "correctAlternative": "A",
+    "concept": "Difração de ondas em aberturas e obstáculos",
+    "steps": [
+      "As figuras mostram que, quando a abertura fica suficientemente estreita em relação ao comprimento de onda, a onda se espalha depois de atravessá-la. Esse fenômeno é difração.",
+      "O som também sofre difração e pode contornar as bordas de um obstáculo, alcançando uma região sem linha direta entre fonte e ouvinte. Por isso, um menino atrás de um muro ainda pode ouvir a conversa, alternativa A.",
+      "O eco do desfiladeiro exemplifica reflexão; ouvir pelo chão envolve propagação em outro meio; a mudança de altura do som da ambulância é efeito Doppler; a taça quebrada exemplifica ressonância."
+    ],
+    "takeaway": "Difração permite que ondas se espalhem em aberturas e contornem bordas de obstáculos."
+  },
+  "2011-85": {
+    "correctAlternative": "B",
+    "concept": "Controle de emissões de incineradores",
+    "steps": [
+      "A desvantagem destacada é a liberação de poluentes para a atmosfera durante a queima do lixo.",
+      "Instalar filtros e sistemas adequados de retenção nas chaminés reduz a saída de material particulado e de poluentes que possam ser capturados pelo tratamento empregado. Essa é a ação da alternativa B.",
+      "Aumentar a quantidade incinerada não controla as emissões. Diminuir indiscriminadamente a temperatura tampouco garante menos poluição e pode prejudicar a combustão. A finalidade é tratar os gases antes da emissão, sem supor que um filtro elimine todos os poluentes."
+    ],
+    "takeaway": "O controle deve agir sobre o problema indicado: sistemas de tratamento dos gases reduzem as emissões das chaminés."
+  },
+  "2011-87": {
+    "correctAlternative": "B",
+    "concept": "Classificação taxonômica de humanos e insetos",
+    "steps": [
+      "Moscas, mosquitos, besouros, baratas, borboletas e grilos são insetos, pertencentes ao filo Arthropoda. Seres humanos pertencem ao filo Chordata e à classe Mammalia.",
+      "Embora pertençam a filos e classes diferentes, todos esses organismos fazem parte do reino Animalia. Esse é o nível taxonômico compartilhado entre as alternativas.",
+      "Portanto, B é correta. Família e espécie são categorias ainda mais específicas e não reúnem humanos e os insetos citados."
+    ],
+    "takeaway": "Ao comparar grupos distantes, procure a categoria taxonômica mais abrangente que seja compartilhada por todos."
+  },
+  "2011-88": {
+    "correctAlternative": "D",
+    "concept": "Integração de nutrientes e fotossíntese em cultivos aquáticos",
+    "steps": [
+      "Os animais liberam resíduos nitrogenados do metabolismo. As algas podem assimilar formas disponíveis desse nitrogênio e utilizá-las na produção de sua biomassa.",
+      "Além disso, as algas realizam fotossíntese: usam luz para sintetizar compostos orgânicos e liberam oxigênio, que pode ser utilizado na respiração dos organismos do cultivo.",
+      "Essa combinação de aproveitamento de nutrientes e liberação de oxigênio corresponde a D. A fotossíntese não libera gás carbônico como produto característico, e não deve ser confundida com quimiossíntese.",
+      "O nitrogênio também não é transformado no elemento carbono: os átomos assimilados entram em moléculas nitrogenadas, como proteínas."
+    ],
+    "takeaway": "No cultivo integrado, resíduos de um organismo podem fornecer nutrientes a outro, enquanto a fotossíntese contribui para a oxigenação."
+  },
+  "2011-89": {
+    "correctAlternative": "C",
+    "concept": "Ciclo de vida do mosquito e eliminação de criadouros",
+    "steps": [
+      "O mosquito Aedes aegypti possui fases larval e pupal aquáticas. Recipientes capazes de acumular água oferecem locais para seu desenvolvimento.",
+      "A retirada desses recipientes reduz os criadouros e interrompe parte do ciclo que leva à formação de novos adultos. Essa é a proposta da alternativa C.",
+      "Telas podem reduzir a entrada de adultos em casas, mas não porque o mosquito dependa de ambientes fechados para se reproduzir. As outras alternativas atribuem seu desenvolvimento a paredes, alimentos ou necessariamente a água contaminada, características que não definem esse ciclo."
+    ],
+    "takeaway": "Para reduzir a reprodução do mosquito, a medida descrita deve atingir seus criadouros e suas fases aquáticas."
+  },
+  "2011-90": {
+    "correctAlternative": "A",
+    "concept": "Fermentação entérica e emissão de metano",
+    "steps": [
+      "No sistema digestório dos ruminantes, microrganismos participam da degradação anaeróbia do alimento vegetal.",
+      "Arqueias metanogênicas utilizam produtos desse metabolismo para formar metano, que é liberado pelo animal, principalmente por eructação. Essa emissão associada à digestão corresponde à alternativa A.",
+      "O metano é um gás de efeito estufa. As opções que relacionam óxido nitroso diretamente à ruminação ou à respiração não descrevem esse mecanismo, e CFC e dióxido de enxofre tampouco são os produtos digestivos em questão.",
+      "A justificativa depende do mecanismo de emissão, não de considerar o percentual histórico citado no texto uma estimativa atual."
+    ],
+    "takeaway": "A fermentação entérica dos ruminantes está associada à produção e à liberação de metano."
+  },
+  "2011-136": {
+    "correctAlternative": "E",
+    "concept": "Comparação de números decimais e distância até um valor de referência",
+    "steps": [
+      "O diâmetro procurado é de 68 mm. Para comparar os candidatos, escreva todos com três casas decimais: 68,210; 68,102; 68,001; 68,020 e 68,012.",
+      "As diferenças em relação a 68 mm são, respectivamente, 0,210; 0,102; 0,001; 0,020 e 0,012 mm.",
+      "A menor diferença é 0,001 mm. Portanto, o pistão mais próximo da medida desejada é o de 68,001 mm, alternativa E."
+    ],
+    "takeaway": "Complete as casas decimais com zeros e compare as diferenças até a medida desejada."
+  },
+  "2011-137": {
+    "correctAlternative": "E",
+    "concept": "Inversão de uma relação logarítmica",
+    "steps": [
+      "Substitua a magnitude informada na fórmula: \\(7{,}3=-10{,}7+\\frac{2}{3}\\log_{10}(M_0)\\).",
+      "Somando 10,7 aos dois lados, obtemos \\(18=\\frac{2}{3}\\log_{10}(M_0)\\). Multiplicando por \\(\\frac{3}{2}\\), resulta \\(\\log_{10}(M_0)=27\\).",
+      "Pela definição de logaritmo, \\(M_0=10^{27}\\) dina·cm, valor da alternativa E. O expoente 27 representa o logaritmo; o momento sísmico é a potência de 10."
+    ],
+    "takeaway": "Para desfazer um logaritmo decimal, transforme \\(\\log_{10}x=a\\) em \\(x=10^a\\)."
+  },
+  "2011-138": {
+    "correctAlternative": "B",
+    "concept": "Conversão de milímetros e centímetros para metros",
+    "steps": [
+      "A figura informa \\(a=2\\,300\\ \\text{mm}\\) e \\(b=160\\ \\text{cm}\\). As unidades são diferentes e exigem divisores diferentes.",
+      "Como 1 m equivale a 1 000 mm, \\(a=2\\,300/1\\,000=2{,}3\\ \\text{m}\\).",
+      "Como 1 m equivale a 100 cm, \\(b=160/100=1{,}6\\ \\text{m}\\). Na ordem solicitada, as medidas são 2,3 m e 1,6 m, alternativa B."
+    ],
+    "takeaway": "Antes de converter, identifique a unidade de cada medida: centímetros e milímetros não usam o mesmo fator."
+  },
+  "2011-140": {
+    "correctAlternative": "C",
+    "concept": "Maximização da área de um retângulo sob restrição de perímetro",
+    "steps": [
+      "Para um terreno retangular de lados \\(a\\) e \\(b\\), a tela necessária é o perímetro \\(P=2(a+b)\\). O limite de 180 m vale para esse contorno, não para a área.",
+      "Os perímetros dos terrenos 1 a 5 são 200, 220, 180, 180 e 360 m. Apenas os terrenos 3 e 4 atendem ao limite.",
+      "Compare as áreas dos dois candidatos: \\(A_3=60\\cdot30=1\\,800\\ \\text{m}^2\\) e \\(A_4=70\\cdot20=1\\,400\\ \\text{m}^2\\).",
+      "O terreno 3 oferece a maior área entre os que podem ser cercados com até 180 m de tela. Ele corresponde à alternativa C."
+    ],
+    "takeaway": "Primeiro elimine as opções que violam a restrição; depois maximize a grandeza pedida entre as restantes."
+  },
+  "2011-141": {
+    "correctAlternative": "B",
+    "concept": "Proporcionalidade direta entre tempo e gasto energético",
+    "steps": [
+      "No modelo da questão, o gasto por minuto de cada atividade permanece constante. Para passar de 100 para 200 calorias, dobramos o tempo: agachamentos passam de 20 para 40 minutos e supermercado, de 30 para 60.",
+      "Tirar o pó exige \\(30\\cdot200/150=40\\) minutos, um acréscimo de 10. Jardim, passeio com o cachorro e lavagem de roupas já gastam 200 calorias em 30 minutos e não precisam de ajuste.",
+      "Os acréscimos são \\(20+30+10=60\\) minutos. A alternativa B informa o tempo adicional; o novo tempo total seria 230 minutos."
+    ],
+    "takeaway": "Separe o novo tempo total do acréscimo solicitado e ajuste cada atividade pela sua própria taxa."
+  },
+  "2011-142": {
+    "correctAlternative": "B",
+    "concept": "Média, mediana e moda de uma amostra",
+    "steps": [
+      "A soma das 15 temperaturas é 255 °C. A média aritmética é \\(255/15=17\\ ^\\circ\\text{C}\\).",
+      "Em ordem crescente, os valores são: 13,5; 13,5; 13,5; 13,5; 14; 15,5; 16; 18; 18; 18,5; 19,5; 20; 20; 20; 21,5. Como há 15 medições, a mediana é o 8º valor: 18 °C.",
+      "A moda é 13,5 °C, pois aparece quatro vezes, mais que qualquer outro valor. Média, mediana e moda são 17 °C, 18 °C e 13,5 °C, alternativa B."
+    ],
+    "takeaway": "Calcule a média com todos os valores, ordene para achar a mediana e conte as repetições para obter a moda."
+  },
+  "2011-143": {
+    "correctAlternative": "C",
+    "concept": "Escala de uma maquete e conversão de unidades",
+    "steps": [
+      "A escala \\(1:250\\) significa que cada comprimento da maquete é o comprimento real dividido por 250, usando a mesma unidade.",
+      "Converta os lados reais para centímetros: \\(28\\ \\text{m}=2\\,800\\ \\text{cm}\\) e \\(12\\ \\text{m}=1\\,200\\ \\text{cm}\\).",
+      "Assim, o comprimento fica \\(2\\,800/250=11{,}2\\ \\text{cm}\\) e a largura, \\(1\\,200/250=4{,}8\\ \\text{cm}\\). A ordem solicitada corresponde à alternativa C."
+    ],
+    "takeaway": "Uma escala linear divide comprimentos; mantenha as unidades iguais e respeite a ordem das dimensões."
+  },
+  "2011-144": {
+    "correctAlternative": "E",
+    "concept": "Cortes sucessivos de sólidos e simetria espacial",
+    "steps": [
+      "Os cortes são feitos em sequência. O primeiro, pelo ponto O e pela aresta AD, retira uma peça com formato de prisma triangular; o segundo, por O e BC, retira um prisma congruente ao primeiro, no lado oposto.",
+      "Após esses dois cortes, o sólido restante já não é o cubo inteiro. Os cortes seguintes, por O e pelas arestas AB e CD, retiram duas pirâmides triangulares congruentes entre si.",
+      "Portanto, há um par de prismas e um par de pirâmides triangulares. As quatro peças são iguais duas a duas, alternativa E. A ordem dos cortes explica por que não são quatro peças iguais."
+    ],
+    "takeaway": "Em cortes sucessivos, analise o sólido que resta após cada etapa; a simetria do sólido inicial, sozinha, não basta."
+  },
+  "2011-145": {
+    "correctAlternative": "E",
+    "concept": "Aumento percentual e conversão de volume",
+    "steps": [
+      "Cada xícara tem aproximadamente \\(120\\ \\text{mL}=0{,}12\\ \\text{L}\\). Logo, 331 bilhões de xícaras representam \\(331\\cdot0{,}12=39{,}72\\) bilhões de litros.",
+      "Aumentar o consumo em um quinto significa multiplicar por \\(1+\\frac15=1{,}2\\), e não tomar apenas a quinta parte.",
+      "A previsão é \\(39{,}72\\cdot1{,}2=47{,}664\\) bilhões de litros, aproximadamente 48 bilhões. A alternativa E é a mais próxima."
+    ],
+    "takeaway": "Converta o volume por unidade e aplique o fator de aumento ao consumo total."
+  },
+  "2011-146": {
+    "correctAlternative": "E",
+    "concept": "Determinação de escala cartográfica",
+    "steps": [
+      "A escala compara a distância no mapa com a distância real na mesma unidade. Como \\(1\\ \\text{km}=100\\,000\\ \\text{cm}\\), temos \\(2\\,000\\ \\text{km}=200\\,000\\,000\\ \\text{cm}\\).",
+      "Assim, a razão entre mapa e realidade é \\(8:200\\,000\\,000\\).",
+      "Dividindo os dois termos por 8, obtemos \\(1:25\\,000\\,000\\), alternativa E. Cada centímetro no mapa representa 250 km reais."
+    ],
+    "takeaway": "A unidade precisa ser a mesma nos dois termos da escala antes de simplificar a razão."
+  },
+  "2011-147": {
+    "correctAlternative": "E",
+    "concept": "Reconhecimento de uma superfície cônica",
+    "steps": [
+      "A cobertura da sombrinha tem um vértice central e uma borda circular. Suas geratrizes ligam o vértice aos pontos dessa borda.",
+      "Esse formato corresponde à superfície lateral de um cone circular, que pode ser gerada pela rotação de um segmento inclinado em torno de um eixo que passa por uma de suas extremidades.",
+      "Logo, a alternativa E é a adequada. Um cilindro não tem esse vértice; um tronco de cone teria duas bordas circulares; uma pirâmide teria faces planas triangulares."
+    ],
+    "takeaway": "Observe a presença de vértice e borda circular para reconhecer uma superfície cônica."
+  },
+  "2011-148": {
+    "correctAlternative": "C",
+    "concept": "Conversão de unidades e diferença entre limites de altitude",
+    "steps": [
+      "O limite no restante da Europa era de 6 000 m. Pela conversão fornecida, isso corresponde a \\(6\\,000\\cdot3{,}3=19\\,800\\) pés.",
+      "Na Finlândia, o limite era 31 000 pés. Agora os dois valores estão na mesma unidade e podem ser comparados.",
+      "A diferença é \\(31\\,000-19\\,800=11\\,200\\) pés, alternativa C."
+    ],
+    "takeaway": "Converta as duas medidas para uma unidade comum antes de calcular a diferença."
+  },
+  "2011-149": {
+    "correctAlternative": "A",
+    "concept": "Aplicação de fórmulas com raízes e comparação de percentuais",
+    "steps": [
+      "Pela fórmula do IMC, \\(20=60/h^2\\), de modo que \\(h^2=3\\) e \\(h=\\sqrt3\\approx1{,}7\\ \\text{m}\\), usando a aproximação pedida.",
+      "Com a circunferência de 100 cm, o índice indicado no enunciado é \\(\\mathrm{IAC}=\\frac{100}{h\\sqrt h}-18\\). Como \\(\\sqrt{1{,}7}\\approx1{,}3\\), resulta \\(\\mathrm{IAC}\\approx\\frac{100}{1{,}7\\cdot1{,}3}-18\\approx27{,}25\\%\\).",
+      "O limite superior da faixa apresentada na questão é 26%. A diferença é aproximadamente \\(27{,}25-26=1{,}25\\) ponto percentual. Por isso, a redução de cerca de 1% é a resposta esperada, alternativa A.",
+      "A redação da alternativa usa “1%” informalmente: a comparação feita é uma diferença de cerca de 1 ponto percentual no índice, não uma redução relativa de 1% da gordura existente. Estamos aplicando os parâmetros do exercício."
+    ],
+    "takeaway": "Em diferenças entre índices percentuais, distinga pontos percentuais de variações percentuais relativas."
+  },
+  "2011-150": {
+    "correctAlternative": "B",
+    "concept": "Pertinência a uma reta e distância entre dois pontos",
+    "steps": [
+      "Uma estação precisa satisfazer duas condições: pertencer à reta \\(y=x+4\\) e ficar a até 5 km do hospital \\(P=(-5,5)\\).",
+      "Para \\((-3,1)\\), temos \\(1=-3+4\\), portanto o ponto pertence à linha do metrô. A distância ao hospital é \\(d=\\sqrt{(-3+5)^2+(1-5)^2}=\\sqrt{20}<5\\ \\text{km}\\).",
+      "Os pontos A e C não pertencem à reta. Os pontos D e E pertencem, mas suas distâncias ao hospital são \\(\\sqrt{26}>5\\) e \\(\\sqrt{50}>5\\) km. Somente a alternativa B atende às duas condições."
+    ],
+    "takeaway": "Em problemas de localização, verifique todas as restrições: proximidade não garante que um ponto pertença à trajetória."
+  },
+  "2011-151": {
+    "correctAlternative": "D",
+    "concept": "Simetria de rotação de uma peça de pavimentação",
+    "steps": [
+      "Considere o contorno de uma única peça da calçada. Ele apresenta três partes equivalentes distribuídas em torno de seu centro.",
+      "Uma rotação que leva cada uma dessas partes à seguinte corresponde a um terço de volta: \\(360^\\circ/3=120^\\circ\\).",
+      "Com esse giro, o contorno coincide com a posição inicial. Entre os ângulos oferecidos, 120° é o que preserva a figura, alternativa D."
+    ],
+    "takeaway": "Divida uma volta completa pelo número de partes equivalentes que se repetem ao redor do centro."
+  },
+  "2011-152": {
+    "correctAlternative": "E",
+    "concept": "Gráfico de uma função de proporcionalidade direta",
+    "steps": [
+      "O preço é R$ 1,75 por quilograma. Para \\(n\\) quilogramas, o valor pago é \\(m=1{,}75n\\), com \\(n\\ge0\\).",
+      "O gráfico precisa ser uma semirreta crescente que passa pela origem e pelo ponto \\((1;1{,}75)\\). A alternativa E tem essas características.",
+      "A e C são curvas, portanto não representam preço unitário constante. B cobra um valor positivo com massa zero, e D indica preço zero para 1 kg. Assim, somente E representa a compra descrita."
+    ],
+    "takeaway": "Preço unitário constante produz uma reta pela origem: dobrar a quantidade dobra o total."
+  },
+  "2011-153": {
+    "correctAlternative": "E",
+    "concept": "Proporcionalidade e conversão de gramas para quilogramas",
+    "steps": [
+      "Para 30 convidados, a carne necessária é \\(30\\cdot250=7\\,500\\ \\text{g}=7{,}5\\ \\text{kg}\\). O arroz exige \\(30/4=7{,}5\\) copos e a farofa, \\(30\\cdot4=120\\) colheres de sopa.",
+      "As bebidas são calculadas pelas pessoas atendidas por garrafa: \\(30/6=5\\) garrafas de vinho, \\(30/2=15\\) de cerveja e \\(30/3=10\\) de espumante.",
+      "A alternativa E reúne todas essas quantidades. A e B erram a carne, C desloca a vírgula da carne, e D erra arroz e cerveja."
+    ],
+    "takeaway": "Multiplique quando a quantidade é por pessoa; divida quando uma unidade atende a várias pessoas."
+  },
+  "2011-154": {
+    "correctAlternative": "C",
+    "concept": "Média aritmética de percentuais anuais",
+    "steps": [
+      "Leia a linha Nordeste: os percentuais de 2005 a 2009 são 18%, 19%, 21%, 15% e 19%.",
+      "A média desses cinco percentuais é \\(\\frac{18+19+21+15+19}{5}=\\frac{92}{5}=18{,}4\\%\\).",
+      "O resultado é a alternativa C. Trata-se da média dos percentuais anuais; calcular a participação sobre todos os medalhistas dos cinco anos exigiria os totais de cada edição."
+    ],
+    "takeaway": "Para a média de percentuais de várias edições, some os valores indicados e divida pelo número de edições."
+  },
+  "2011-155": {
+    "correctAlternative": "B",
+    "concept": "Ângulos de um triângulo e distância de um ponto a uma reta",
+    "steps": [
+      "No triângulo ABP, o ângulo em A é 30°. O ângulo de 60° desenhado em B é externo, portanto o ângulo interno em B é \\(180^\\circ-60^\\circ=120^\\circ\\).",
+      "O ângulo em P vale \\(180^\\circ-30^\\circ-120^\\circ=30^\\circ\\). Como os ângulos em A e P são iguais, os lados opostos também são: \\(BP=AB=2\\,000\\ \\text{m}\\).",
+      "A menor distância de P à trajetória é a perpendicular PH. No triângulo retângulo BPH, \\(PH=BP\\sin60^\\circ=2\\,000\\cdot\\frac{\\sqrt3}{2}=1\\,000\\sqrt3\\ \\text{m}\\).",
+      "O pé H da perpendicular está adiante de B, na trajetória mantida pelo barco. Logo, essa distância pode ser atingida e corresponde à alternativa B."
+    ],
+    "takeaway": "A distância mínima até uma trajetória retilínea é perpendicular a ela; diferencie o ângulo externo do interno do triângulo."
+  },
+  "2011-156": {
+    "correctAlternative": "C",
+    "concept": "Função afim para um crescimento mensal constante",
+    "steps": [
+      "O enunciado supõe um acréscimo constante de 4 300 trabalhadores por mês nos seis primeiros meses. Assim, escrevemos \\(y=4\\,300x+b\\).",
+      "Fevereiro corresponde a \\(x=2\\), com \\(y=880\\,605\\). Portanto, \\(880\\,605=4\\,300\\cdot2+b\\), de onde \\(b=872\\,005\\).",
+      "A expressão é \\(y=872\\,005+4\\,300x\\), alternativa C. Em janeiro, ela dá \\(876\\,305\\), exatamente 4 300 a menos que em fevereiro."
+    ],
+    "takeaway": "O termo constante de uma função afim não é necessariamente o primeiro valor observado: confira o índice atribuído ao mês."
+  },
+  "2011-158": {
+    "correctAlternative": "B",
+    "concept": "Custo médio por unidade de energia",
+    "steps": [
+      "Use a coluna “Depois”: o consumidor de baixa renda que gastou 100 kWh paga R$ 16,73; o residencial que gastou 185 kWh paga R$ 85,56.",
+      "Os custos médios por kWh são \\(16{,}73/100=0{,}1673\\) real e \\(85{,}56/185\\approx0{,}4625\\) real.",
+      "A diferença é aproximadamente \\(0{,}4625-0{,}1673=0{,}2952\\) real por kWh. Entre os valores apresentados, R$ 0,29 é o mais próximo, alternativa B."
+    ],
+    "takeaway": "Para comparar preços por unidade, divida cada conta pelo próprio consumo e só então calcule a diferença."
+  },
+  "2011-159": {
+    "correctAlternative": "A",
+    "concept": "Igualdade entre funções de custo",
+    "steps": [
+      "A primeira empresa cobra \\(C_1=100\\,000n+350\\,000\\) reais. A segunda cobra \\(C_2=120\\,000n+150\\,000\\) reais.",
+      "A escolha é economicamente indiferente quando \\(C_1=C_2\\). Dividindo essa igualdade por 1 000, obtemos \\(100n+350=120n+150\\), alternativa A.",
+      "Como conferência, \\(200=20n\\) fornece \\(n=10\\) km. Nessa extensão, cada proposta custa R$ 1 350 000,00."
+    ],
+    "takeaway": "Iguale os custos totais; fatores comuns podem ser simplificados sem alterar o ponto de igualdade."
+  },
+  "2011-161": {
+    "correctAlternative": "B",
+    "concept": "Densidade demográfica e ordem de grandeza",
+    "steps": [
+      "A densidade demográfica é a razão entre população e área: \\(d=P/A\\).",
+      "Usando os valores aproximados do texto, \\(d=20\\,000\\,000/800\\,000=20\\,000/800=25\\) habitantes por quilômetro quadrado.",
+      "A alternativa B apresenta esse valor. A área e a população são aproximadas, então a densidade também é uma estimativa."
+    ],
+    "takeaway": "Densidade demográfica se calcula dividindo habitantes por área, e não invertendo essa razão."
+  },
+  "2011-162": {
+    "correctAlternative": "D",
+    "concept": "Termo de uma progressão aritmética",
+    "steps": [
+      "As vendas crescem \\(34\\,500-33\\,000=1\\,500\\) passagens por mês; de fevereiro a março, o acréscimo é o mesmo.",
+      "Janeiro é o primeiro mês e julho é o sétimo. Entre eles há seis acréscimos, portanto \\(a_7=33\\,000+6\\cdot1\\,500\\).",
+      "O resultado é 42 000 passagens, alternativa D. Somar sete acréscimos contaria um mês a mais."
+    ],
+    "takeaway": "No termo \\(a_n=a_1+(n-1)r\\), o número de acréscimos é um a menos que a posição."
+  },
+  "2011-163": {
+    "correctAlternative": "E",
+    "concept": "Probabilidade em um conjunto finito e leitura de gráfico",
+    "steps": [
+      "Rafael vai sair do Centro. As quatro opções são Rural, Comercial, Residencial Urbano e Residencial Suburbano; o Centro não faz parte do sorteio.",
+      "Leia a escala da direita, em graus Celsius. Os pontos Rural, Residencial Urbano e Residencial Suburbano estão abaixo de 31 °C; o Comercial está acima desse limite.",
+      "Considerando as quatro regiões igualmente prováveis, há três opções adequadas em quatro: \\(P=3/4\\), alternativa E."
+    ],
+    "takeaway": "Defina o conjunto de escolhas antes de contar os casos favoráveis e use a escala correta do gráfico."
+  },
+  "2011-164": {
+    "correctAlternative": "D",
+    "concept": "Energia elétrica como produto da potência pelo tempo",
+    "steps": [
+      "A potência do chuveiro é \\(4\\,800\\ \\text{W}=4{,}8\\ \\text{kW}\\). O enunciado original confunde as unidades: kW mede potência; a energia consumida deve ser expressa em kWh.",
+      "Em sete dias, são \\(2\\cdot10\\cdot7=140\\) minutos de funcionamento, ou \\(140/60=7/3\\) horas.",
+      "A energia é \\(E=P\\cdot t=4{,}8\\cdot\\frac73=11{,}2\\ \\text{kWh}\\). O número esperado é 11,2, alternativa D, interpretando a pergunta como consumo de energia.",
+      "Portanto, a afirmação fisicamente correta é “consome 4,8 kWh em uma hora” e o resultado semanal é 11,2 kWh. A potência continua sendo 4,8 kW durante o funcionamento."
+    ],
+    "takeaway": "Potência é medida em kW; ao multiplicá-la pelo tempo em horas, obtemos energia em kWh."
+  },
+  "2011-165": {
+    "correctAlternative": "A",
+    "concept": "Comprimento de uma pista com segmentos e arcos",
+    "steps": [
+      "As partes retas das raias têm o mesmo comprimento. A diferença entre as voltas está nas curvas: quanto mais externa a raia, maior o raio dos semicírculos.",
+      "Os dois semicírculos juntos têm comprimento \\(2\\pi r\\). Assim, a volta tem forma \\(L=2a+2\\pi r\\) e aumenta quando o raio aumenta.",
+      "A raia 1 é a mais interna e tem o menor percurso. Sem compensar as posições de largada, seu corredor seria beneficiado, alternativa A."
+    ],
+    "takeaway": "Em pistas com curvas concêntricas, as raias externas percorrem arcos maiores, mesmo quando as retas têm o mesmo tamanho."
+  },
+  "2011-167": {
+    "correctAlternative": "C",
+    "concept": "Volume de cilindro e divisão em partes proporcionais",
+    "steps": [
+      "O diâmetro do copo é 4 cm, logo o raio é 2 cm. Com \\(\\pi=3\\), a capacidade é \\(V=\\pi r^2h=3\\cdot2^2\\cdot10=120\\ \\text{cm}^3=120\\ \\text{mL}\\).",
+      "A mistura tem uma parte de açúcar para cinco de água, totalizando seis partes. No modelo simplificado do exercício, essas partes são tratadas como volumes que se somam.",
+      "A água representa \\(5/6\\) da capacidade: \\(120\\cdot5/6=100\\ \\text{mL}\\), alternativa C. Usar cinco partes no denominador ignoraria a parte de açúcar."
+    ],
+    "takeaway": "Em uma razão de mistura, some todas as partes para encontrar a fração de cada componente."
+  },
+  "2011-168": {
+    "correctAlternative": "C",
+    "concept": "Contagem de pares sem repetição e comparação de probabilidades",
+    "steps": [
+      "Para comparar as probabilidades pela contagem, o modelo esperado considera os pares de bolas distintas igualmente prováveis. A ordem em que elas entram não altera a soma; há \\(\\binom{15}{2}=105\\) pares possíveis.",
+      "Para 12, os cinco pares são (1,11), (2,10), (3,9), (4,8) e (5,7). O par (6,6) não vale, pois só existe uma bola com cada valor.",
+      "Para 17, há sete pares: (2,15), (3,14), (4,13), (5,12), (6,11), (7,10) e (8,9). Para 22, há quatro: (7,15), (8,14), (9,13) e (10,12).",
+      "Bernardo tem a maior probabilidade nesse modelo: \\(7/105\\), contra \\(5/105\\) de Arthur e \\(4/105\\) de Caio. A alternativa C reúne as contagens corretas; uma partida real dependeria também das posições das bolas e da jogada."
+    ],
+    "takeaway": "Conte pares distintos sem repetir a ordem e explicite a hipótese de chances iguais quando usar casos favoráveis sobre casos possíveis."
+  },
+  "2011-169": {
+    "correctAlternative": "B",
+    "concept": "Cálculo de um índice e classificação em intervalos",
+    "steps": [
+      "Aplique a fórmula \\(\\mathrm{IMC}=m/h^2\\) às massas atuais indicadas na figura, não aos valores chamados de “peso ideal”.",
+      "Para Duílio, \\(\\mathrm{IMC}=96{,}4/1{,}88^2\\approx27{,}3\\ \\text{kg/m}^2\\). Para Sandra, \\(\\mathrm{IMC}=84/1{,}70^2\\approx29{,}1\\ \\text{kg/m}^2\\).",
+      "Na tabela fornecida, ambos os valores estão entre 25 e 29,9, na categoria “Sobrepeso”. Os dois índices e a classificação correspondem à alternativa B."
+    ],
+    "takeaway": "Escolha os dados que o comando pede, eleve a altura ao quadrado e localize o resultado na tabela do exercício."
+  },
+  "2011-170": {
+    "correctAlternative": "C",
+    "concept": "Probabilidade pela frequência de uma categoria",
+    "steps": [
+      "O total de pessoas atendidas no posto é \\(42+22+56+30+50=200\\).",
+      "A categoria “Portadores de doenças crônicas” reúne 22 pessoas. No sorteio de uma pessoa do total, a probabilidade é \\(22/200=0{,}11\\).",
+      "Convertendo para porcentagem, obtemos 11%, alternativa C. O número 22 é uma quantidade de pessoas, não o percentual."
+    ],
+    "takeaway": "Uma frequência absoluta vira probabilidade quando é dividida pelo total do conjunto sorteado."
+  },
+  "2011-171": {
+    "correctAlternative": "D",
+    "concept": "Soma de frequências de categorias de um gráfico",
+    "steps": [
+      "“Pelo menos 1 Mbps” inclui as faixas de 1 a 2 Mbps, de 2 a 4 Mbps, de 4 a 8 Mbps e acima de 8 Mbps.",
+      "Os percentuais identificados nessas faixas são 15%, 5%, 1% e 1%. A soma é \\(15+5+1+1=22\\%\\).",
+      "Na forma decimal, \\(22/100=0{,}22\\), alternativa D. Mantemos como base todos os domicílios pesquisados; não redistribuímos os 24% que não souberam ou não responderam.",
+      "Essa é a proporção identificada no gráfico. A velocidade dos domicílios sem resposta não é informada, portanto não cabe atribuí-los a uma faixa específica."
+    ],
+    "takeaway": "Some as categorias que satisfazem o limite e mantenha a base usada na pesquisa, respeitando os dados desconhecidos."
+  },
+  "2011-172": {
+    "correctAlternative": "C",
+    "concept": "Percurso em um grafo passando por todos os vértices",
+    "steps": [
+      "O técnico deve visitar todos os sete pontos uma única vez, começando em K e terminando em F. Cada passagem precisa seguir um segmento desenhado.",
+      "A sequência \\(K\\to L\\to G\\to I\\to J\\to H\\to F\\) usa apenas ligações existentes e visita todos os pontos sem repetir nenhum. Ela é a alternativa C.",
+      "A não visita todos os pontos; B deixa H de fora. D precisaria ir de L a F passando novamente por G, que está no meio do segmento. E termina com a passagem J–F, que não é uma ligação do desenho."
+    ],
+    "takeaway": "Confira tanto a visita a todos os pontos quanto cada ligação do percurso; passar por um ponto intermediário também conta como visita."
+  },
+  "2011-173": {
+    "correctAlternative": "C",
+    "concept": "Identificação de intervalos de crescimento e decrescimento",
+    "steps": [
+      "A participação do agronegócio cresce até 2003, quando chega a 28,28%. Depois cai para 27,79% em 2004, 25,83% em 2005 e 23,92% em 2006.",
+      "Em 2007, a participação volta a subir para 24,74%, chegando a 26,46% em 2008. A recuperação começa após 2006.",
+      "O intervalo de queda contínua é, portanto, de 2003 a 2006, alternativa C. A queda é da participação percentual no PIB; o gráfico não informa, sozinho, o valor absoluto da produção."
+    ],
+    "takeaway": "Localize onde a sequência de quedas começa e termina, distinguindo participação percentual de quantidade absoluta."
+  },
+  "2011-175": {
+    "correctAlternative": "C",
+    "concept": "Conversão de um percentual em quantidade aproximada",
+    "steps": [
+      "A barra “NÃO” corresponde a 25% dos 279 participantes.",
+      "A estimativa é \\(0{,}25\\cdot279=69{,}75\\), aproximadamente 70 pessoas. Como pessoas são contadas em números inteiros, o percentual do gráfico deve ser entendido como arredondado.",
+      "Esse total está entre 50 e 75. A alternativa C é a única compatível, sem ser necessário determinar o número exato de respostas."
+    ],
+    "takeaway": "Percentuais arredondados podem produzir uma contagem decimal; use a aproximação para identificar o intervalo pedido."
+  },
+  "2011-176": {
+    "correctAlternative": "A",
+    "concept": "Estimativa por comparação com uma tabela",
+    "steps": [
+      "Na tabela, o Sol é a referência de luminosidade 1, com temperatura de 5 770 K. Cinco vezes essa temperatura corresponde a \\(5\\cdot5\\,770=28\\,850\\ \\text{K}\\).",
+      "A classe tabulada mais próxima dessa temperatura é B0, com 28 000 K e luminosidade \\(2\\cdot10^4\\) vezes a solar.",
+      "A estimativa esperada é, portanto, 20 000 vezes a luminosidade do Sol, alternativa A. O número 28 850 é uma temperatura, e não uma luminosidade.",
+      "O enunciado usa “ordem de grandeza” no sentido informal de valor aproximado pela tabela. No sentido estrito de potência de dez mais próxima, a ordem de grandeza de 20 000 seria \\(10^4\\). A tabela não fornece uma lei para interpolar exatamente a luminosidade em 28 850 K."
+    ],
+    "takeaway": "Escolha a linha pela grandeza de entrada e leia a coluna solicitada, sem confundir temperatura com luminosidade."
+  },
+  "2011-177": {
+    "correctAlternative": "C",
+    "concept": "Comparação de taxas equivalentes em juros compostos",
+    "steps": [
+      "As rentabilidades incidem sobre o saldo do período anterior. Portanto, os fatores precisam ser compostos para comparar todos os investimentos no mesmo prazo de um ano.",
+      "No investimento A, o fator anual é \\((1{,}03)^{12}\\approx1{,}426\\), conforme a tabela: rendimento de aproximadamente 42,6%. Em B, o fator é 1,36, ou 36%.",
+      "Em C, há dois semestres, então o fator é \\((1{,}18)^2=1{,}3924\\), ou 39,24% ao ano.",
+      "Como \\(42{,}6\\%>39{,}24\\%>36\\%\\), o investimento A tem a maior rentabilidade anual. A resposta é C."
+    ],
+    "takeaway": "Compare taxas no mesmo período e multiplique os fatores quando os rendimentos são compostos."
+  },
+  "2011-178": {
+    "correctAlternative": "C",
+    "concept": "Representação de proporcionalidade direta composta",
+    "steps": [
+      "A resistência S é diretamente proporcional à largura b: mantendo as demais condições, multiplicar b por um fator multiplica S pelo mesmo fator.",
+      "Ela também é diretamente proporcional ao quadrado da altura d. Assim, o fator correspondente é \\(d^2\\), e a constante k incorpora o material.",
+      "Reunindo as relações, \\(S=kbd^2\\), alternativa C. A não eleva d ao quadrado, B omite k, e D e E colocam no denominador grandezas que deveriam aumentar a resistência."
+    ],
+    "takeaway": "Proporcionalidades diretas simultâneas são representadas pelo produto dos fatores e de uma constante."
+  },
+  "2011-179": {
+    "correctAlternative": "D",
+    "concept": "Funções definidas por partes em planos de telefonia",
+    "steps": [
+      "No plano K, o preço é R$ 29,90 até 200 minutos. Depois, \\(K(t)=29{,}90+0{,}20(t-200)\\). No plano Z, é R$ 49,90 até 300 minutos; depois, \\(Z(t)=49{,}90+0{,}10(t-300)\\).",
+      "Portanto, o trecho horizontal de K termina em 200 minutos, o de Z termina em 300, e a inclinação crescente de K é o dobro da de Z.",
+      "Em 300 minutos, \\(K(300)=29{,}90+0{,}20\\cdot100=49{,}90=Z(300)\\). As curvas se encontram nesse ponto e K fica acima de Z depois dele.",
+      "A alternativa D representa esses patamares, a interseção em 300 minutos e as inclinações corretas. As demais deslocam os limites das franquias ou trocam a evolução dos preços."
+    ],
+    "takeaway": "Em tarifas com franquia, identifique o patamar inicial, o ponto de mudança e o preço de cada unidade excedente."
+  }
+}

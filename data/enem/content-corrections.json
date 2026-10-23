@@ -5470,5 +5470,608 @@
         "C": "48,8% menor que V, porque o volume diminui de \\(a^3\\) para \\((0{,}8a)^3\\)."
       }
     }
+  },
+  "2011-95": {
+    "originalSha256": "5f7d51804cf95a69c8acce9ac099f58d8fc0c2342b6c8e99fb95bed850e18511",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura a notação de metro cúbico do original, confirmada visualmente na página física6 do PDF.",
+    "reviewedAt": "2026-10-22T00:46:58.628Z",
+    "fields": {
+      "context": "**Es posible reducir la basura**\n\nEn México se producen más de 10 millones de m³ de basura mensualmente, depositados en más de 50 mil tiraderos de basura legales y clandestinos, que afectan de manera directa nuestra calidad de vida, pues nuestros recursos naturales son utilizados desproporcionalmente, como materias primas que luego desechamos y tiramos convirtiéndolos en materiales inútiles y focos de infección.\n\nTodo aquello que compramos y consumimos tiene una relación directa con lo que tiramos. Consumiendo racionalmente, evitando el derroche y usando sólo lo indispensable, directamente colaboramos con el cuidado del ambiente.\n\nSi la basura se compone de varios desperdicios y si como desperdicios no fueron basura, si los separamos adecuadamente, podremos controlarlos y evitar posteriores problemas. Reciclar se traduce en importantes ahorros de energía, ahorro de agua potable, ahorro de materias primas, menor impacto en los ecosistemas y sus recursos naturales y ahorro de tiempo, dinero y esfuerzo.\n\nEs necesario saber para empezar a actuar…\n\nDisponível em: http://www.tododecarton.com. Acesso em: 27 abr. 2010 (adaptado)."
+    }
+  },
+  "2011-3": {
+    "originalSha256": "76fdd2fd4a41b8db21fce7433765eb01820a4ef387952a27b30e19b731b0a022",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 2,
+    "reason": "Recupera o título da fotografia e remove a indicação Foto: Reprodução/Enem, ausente do caderno oficial.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "**Movimento dos Caras-Pintadas**\n\n![](https://enem.dev/2011/questions/3/4f4821ed-38b4-43e9-aa4b-274ef546b8ed.png)\n\nDisponível em: http://www1.folha.uol.com.br. Acesso em: 17 abr. 2010 (adaptado).\n\nO movimento representado na imagem, do início dos anos de 1990, arrebatou milhares de jovens no Brasil."
+    }
+  },
+  "2011-6": {
+    "originalSha256": "d7f4b3f4eb6e2d652cb5aec0fa2fd6894c5d05a50d5adfba068080923625e321",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura a expressão formação de solos no comando, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "alternativesIntroduction": "O gráfico relaciona diversas variáveis ao processo de formação de solos. A interpretação dos dados mostra que a água é um dos importantes fatores de pedogênese, pois nas áreas"
+    }
+  },
+  "2011-14": {
+    "originalSha256": "c0c8558d23d298a3547d5945a616a8481d4a016122d0eea3d5f1b3628d46d82d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 6,
+    "reason": "Restaura fluido sem acento e a pontuação final da referência, conforme o original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "![](https://enem.dev/2011/questions/14/0ffc7161-04f7-43a3-a275-99f445ccfcfb.jpg)\n\nO espaço mundial sob a “nova des-ordem” é um emaranhado de zonas, redes e “aglomerados”, espaços hegemônicos e contra-hegemônicos que se cruzam de forma complexa na face da Terra. Fica clara, de saída, a polêmica que envolve uma nova regionalização mundial. Como regionalizar um espaço tão heterogêneo e, em parte, fluido, como é o espaço mundial contemporâneo?\n\nHAESBAERT, R.; PORTO-GONÇALVES, C.W. **A nova des-ordem mundial.**  \nSão Paulo: UNESP, 2006."
+    }
+  },
+  "2011-26": {
+    "originalSha256": "8dc255e59681a9185b5840c26a82552090fe7b04feff0936cbba366e5b311ae0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Restaura o ponto final após a data 1930, presente no original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "É difícil encontrar um texto sobre a Proclamação da República no Brasil que não cite a afirmação de Aristides Lobo, no Diário Popular de São Paulo, de que “o povo assistiu àquilo bestializado”. Essa versão foi relida pelos enaltecedores da Revolução de 1930, que não descuidaram da forma republicana, mas realçaram a exclusão social, o militarismo e o estrangeirismo da fórmula implantada em 1889. Isto porque o Brasil brasileiro teria nascido em 1930.\n\nMELLO, M. T. C. A república consentida: cultura democrática e científica no final do Império.  \nRio de Janeiro: FGV, 2007 (adaptado)."
+    }
+  },
+  "2011-29": {
+    "originalSha256": "24bc8ba4cb0912fced23585f5bf7416acf624f62272e11adcbabcba2c8dfac74",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Remove a indicação Foto: Reprodução/Enem acrescentada na importação e ausente do original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "![](https://enem.dev/2011/questions/29/9c6575c2-ed04-4ff6-8142-d9a41415b6f5.png)\n\nFoto de Militão, São Paulo, 1879. ALENCASTRO, L. F. (org). História da vida privada no Brasil. Império: a corte e a modernidade nacional. São Paulo: Cia. das Letras, 1997."
+    }
+  },
+  "2011-30": {
+    "originalSha256": "4b46ee8f82a389008cc7077a72863ef5ffbfe590ba7e3ee63ab9edaf62288e63",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura integralmente o comando omitido na importação, que repetia o início do texto-base em seu lugar.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "alternativesIntroduction": "O texto apresenta três tipos de poder que podem ser identificados em momentos históricos distintos. Identifique o período em que a obediência esteve associada predominantemente ao poder carismático:"
+    }
+  },
+  "2011-36": {
+    "originalSha256": "e01a624b4ea3bf689bafe9a5c58ae89260126fef9311a127f24a219c6a1f0885",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 12,
+    "reason": "Remove a indicação Foto: Reprodução/Enem acrescentada na importação e ausente do original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "![](https://enem.dev/2011/questions/36/fa0373ec-c282-4296-be2a-0816e7bdce2a.png)\n\nSMITH, D. Atlas da Situação Mundial. São Paulo: Cia. Editora Nacional, 2007 (adaptado)."
+    }
+  },
+  "2011-41": {
+    "originalSha256": "e96236c3a24bfd62c276bae9abf821424dbdb65038ab95a71281e476f475d49b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura o espaço entre o marcador b) e Reforma, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "A consolidação do regime democrático no Brasil contra os extremismos da esquerda e da direita exige ação enérgica e permanente no sentido do aprimoramento das instituições políticas e da realização de reformas corajosas no terreno econômico, financeiro e social.\n\n Mensagem programática da União Democrática Nacional (UDN) — 1957.\n\nOs trabalhadores deverão exigir a constituição de um governo nacionalista e democrático, com participação dos trabalhadores para a realização das seguintes medidas: a) Reforma bancária progressista; b) Reforma agrária que extinga o latifúndio; c) Regulamentação da Lei de Remessas de Lucros.\n\nManifesto do Comando Geral dos Trabalhadores (CGT) — 1962. BONAVIDES, P; AMARAL, R. Textos políticos da história do Brasil. Brasília: Senado Federal, 2002."
+    }
+  },
+  "2011-42": {
+    "originalSha256": "1f0190e8f31817f1703931d640bba8aae9cd3301fc659b7ec53fb74bf654f1c4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura a pontuação final da referência e da alternativa B, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "Em meio às turbulências vividas na primeira metade dos anos 1960, tinha-se a impressão de que as tendências de esquerda estavam se fortalecendo na área cultural. O Centro Popular de Cultura (CPC) da União Nacional dos Estudantes (UNE) encenava peças de teatro que faziam agitação e propaganda em favor da luta pelas reformas de base e satirizavam o “imperialismo” e seus “aliados internos”.\n\nKONDER, L. História das Ideias Socialistas no Brasil. São Paulo: Expressão Popular, 2003.",
+      "alternativeTexts": {
+        "B": "Contribuía com a valorização da genuína cultura nacional, ao encenar peças de cunho popular."
+      }
+    }
+  },
+  "2011-43": {
+    "originalSha256": "2c777577935bacd9a2ab27f425fae6a8d4c4290e9f8c59594fc1a75fe5a9d935",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Remove a indicação Foto: Reprodução/Enem acrescentada na importação e ausente do original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "![](https://enem.dev/2011/questions/43/51607de2-1ed6-44e3-ad79-cd4c1d6237c6.png)\n\nCharge capa da revista “O Malho”, de 1904. Disponível em: http://1.bp.blogspot.com."
+    }
+  },
+  "2011-44": {
+    "originalSha256": "0cf91dca04435dc6acf12398bbf3333531d25efdd912966e3336c63687d22f7b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura geográficas no subtítulo da obra citada e remove Foto: antes do local de publicação, conforme a referência original.",
+    "reviewedAt": "2026-10-23T19:25:32.261Z",
+    "fields": {
+      "context": "![](https://enem.dev/2011/questions/44/05efa7d4-ad52-4143-b3c0-7964355d84ae.jpg)\n\nSILVA, E. S. O. Circuito espacial de produção e comercialização da produção familiar de tomate no município de São José de Ubá (RJ). In: RIBEIRO, M. A.; MARAFON, G. J. (orgs.).  \n**A metrópole e o interior fluminense**: simetrias e assimetrias geográficas.  \nRio de Janeiro: Gramma, 2009 (adaptado)."
+    }
+  },
+  "2011-50": {
+    "originalSha256": "2fbd46686ad2ef6ed8000ca066325572e7356eab8a48caacf2e0ea9efded6cdd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 17,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono. Portanto, uma característica importante, ao se escolher um combustível, é analisar calor de combustão (\\(\\Delta H_c^{\\circ}\\)), definido como a energia liberada na queima completa de um mol de combustível no estado padrão. O quadro seguinte relaciona algumas substâncias que contêm carbono e seu \\(\\Delta H_c^{\\circ}\\).\n\n![](/assets/questions/2011/50/eaf14b98-b405-49df-aa42-3b0df75a4075.jpg)"
+    }
+  },
+  "2011-58": {
+    "originalSha256": "486d8eaa3e15a6658376978b0951cdecd880d6e36522b0c32fcd6284edb28998",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A pele humana, quando está bem hidratada, adquire boa elasticidade e aspecto macio e suave. Em contrapartida, quando está ressecada, perde sua elasticidade e se apresenta opaca e áspera. Para evitar o ressecamento da pele é necessário, sempre que possível, utilizar hidratantes umectantes, feitos geralmente à base de glicerina e polietilenoglicol:\n\n![](/assets/questions/2011/58/d80676e3-424b-494d-bbf9-eac96350b56b.jpg)"
+    }
+  },
+  "2011-60": {
+    "originalSha256": "d218554e05357866918a714ffc9894735f0f22c98032f282e5c86660ae20d41f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Em um manual de um chuveiro elétrico são encontradas informações sobre algumas características técnicas, ilustradas no quadro, como a tensão de alimentação, a potência dissipada, o dimensionamento do disjuntor ou fusível, e a área da seção transversal dos condutores utilizados.\n\n![](/assets/questions/2011/60/4d540a4d-d54f-4c26-836a-710921f4cbbd.png)\n\nUma pessoa adquiriu um chuveiro do modelo A e, ao ler o manual, verificou que precisava ligá-lo a um disjuntor de 50 amperes. No entanto, intrigou-se com o fato de que o disjuntor a ser utilizado para uma correta instalação de um chuveiro do modelo B devia possuir amperagem 40% menor.",
+      "alternativesIntroduction": "Considerando-se os chuveiros de modelos A e B, funcionando à mesma potência de 4 400 W, a razão entre as suas respectivas resistências elétricas, \\(R_A\\) e \\(R_B\\), que justifica a diferença de dimensionamento dos disjuntores, é mais próxima de:"
+    }
+  },
+  "2011-62": {
+    "originalSha256": "5fa01a1fb8efc55743debcf2f75264ad4e1e83cf941c47e2724573741c95a937",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A eutrofização é um processo em que rios, lagos e mares adquirem níveis altos de nutrientes, especialmente fosfatos e nitratos, provocando posterior acúmulo de matéria orgânica em decomposição. Os nutrientes são assimilados pelos produtores primários e o crescimento desses é controlado pelo nutriente limítrofe, que é o elemento menos disponível em relação à abundância necessária à sobrevivência dos organismos vivos. O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago.\n\n![](/assets/questions/2011/62/64a9d484-ee63-442b-83cb-9a1a44fa5d5a.jpg)",
+      "alternativeTexts": {
+        "D": "\\(\\mathrm{CO_2}\\).",
+        "E": "\\(\\mathrm{PO_4^{3-}}\\)."
+      }
+    }
+  },
+  "2011-63": {
+    "originalSha256": "38021e8234bd121e52b8711e8d11da5601e794dabcbb43b9dfbdc1375e6e35b8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Para que uma substância seja colorida ela deve absorver luz na região do visível. Quando uma amostra absorve luz visível, a cor que percebemos é a soma das cores restantes que são refletidas ou transmitidas pelo objeto. A Figura 1 mostra o espectro de absorção para uma substância e é possível observar que há um comprimento de onda em que a intensidade de absorção é máxima. Um observador pode prever a cor dessa substância pelo uso da roda de cores (Figura 2): o comprimento de onda correspondente à cor do objeto é encontrado no lado oposto ao comprimento de onda da absorção máxima.\n\n![](/assets/questions/2011/63/b1d6b8a8-5a09-4f2e-878c-4babac69b332.png)\n\n![](/assets/questions/2011/63/6abf1b0d-f8c8-4cc2-ad35-8e177d6ae1c6.png)"
+    }
+  },
+  "2011-65": {
+    "originalSha256": "b462bd7c5bfac12ad69ccdf68485f276f218a600d587dd84da6672162f34c565",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Corrige a perda de uma letra no termo poliploidia, conferido na alternativa B do original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Poliploidia dos cromossomos autossômicos."
+      }
+    }
+  },
+  "2011-68": {
+    "originalSha256": "99224403151329dd719aec36fda055e7c360b3c76a8e49165766009b4cec0e4c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Remove a duplicação de palavras introduzida na importação; o original diz “e o cromossomo”.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um instituto de pesquisa norte-americano divulgou recentemente ter criado uma “célula sintética”, uma bactéria chamada de _Mycoplasma mycoides_. Os pesquisadores montaram uma sequência de nucleotídeos, que formam o único cromossomo dessa bactéria, o qual foi introduzido em outra espécie de bactéria, a _Mycoplasma capricolum._ Após a introdução, o cromossomo da _M. capricolum_ foi neutralizado e o cromossomo artificial da _M. mycoides_ começou a gerenciar a célula, produzindo suas proteínas.\n\nGILBSON et al. Creation of a Bacterial Cell Controlled by a Chemically synthesized Genome.  \nScience v. 329, 2010 (adaptado)."
+    }
+  },
+  "2011-70": {
+    "originalSha256": "f360104b052866f169b86d7c0fd621a1ed2e35e08480a4fc76993e228d8c4fab",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um curioso estudante, empolgado com a aula de circuito elétrico que assistiu na escola, resolve desmontar sua lanterna. Utilizando-se da lâmpada e da pilha, retiradas do equipamento, e de um fio com as extremidades descascadas, faz as seguintes ligações com a intenção de acender a lâmpada:\n\n![](/assets/questions/2011/70/5c44faae-09d8-42ab-bbe6-723d5385de19.png)"
+    }
+  },
+  "2011-72": {
+    "originalSha256": "bea73886a0c8a67f8e07fe7d16cd19a0ed09e79571e62917247c903fe633c8b3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A bile é produzida pelo fígado, armazenada na vesícula biliar e tem papel fundamental na digestão de lipídeos. Os sais biliares são esteroides sintetizados no fígado a partir do colesterol, e sua rota de síntese envolve várias etapas. Partindo do ácido cólico representado na figura, ocorre a formação dos ácidos glicocólico e taurocólico; o prefixo glico- significa a presença de um resíduo do aminoácido glicina e o prefixo tauro-, do aminoácido taurina.\n\n![](/assets/questions/2011/72/a3993cf9-e8c8-4700-b189-e277ad950809.jpg)"
+    }
+  },
+  "2011-75": {
+    "originalSha256": "8e5e3b50ed58703141f6308d429cc0224f0ce84e5c50e6af1dab3be5102f6fb2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Os refrigerantes têm-se tornado cada vez mais o alvo de políticas públicas de saúde. Os de cola apresentam ácido fosfórico, substância prejudicial à fixação de cálcio, o mineral que é o principal componente da matriz dos dentes. A cárie é um processo dinâmico de desequilíbrio do processo de desmineralização dentária, perda de minerais em razão da acidez. Sabe-se que o principal componente do esmalte do dente é um sal denominado hidroxiapatita. O refrigerante, pela presença da sacarose, faz decrescer o pH do biofilme (placa bacteriana), provocando a desmineralização do esmalte dentário. Os mecanismos de defesa salivar levam de 20 a 30 minutos para normalizar o nível do pH, remineralizando o dente. A equação química seguinte representa esse processo:\n\n![](/assets/questions/2011/75/a7c29aaa-ca64-4653-91eb-743dfea2cf2f.jpg)",
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{OH^-}\\) , que reage com os íons \\(\\mathrm{Ca^{2+}}\\), deslocando o equilíbrio para a direita.",
+        "B": "\\(\\mathrm{H^+}\\), que reage com as hidroxilas \\(\\mathrm{OH^-}\\) , deslocando o equilíbrio para a direita.",
+        "C": "\\(\\mathrm{OH^-}\\) , que reage com os íons \\(\\mathrm{Ca^{2+}}\\), deslocando o equilíbrio para a esquerda.",
+        "D": "\\(\\mathrm{H^+}\\), que reage com as hidroxilas \\(\\mathrm{OH^-}\\) , deslocando o equilíbrio para a esquerda.",
+        "E": "\\(\\mathrm{Ca^{2+}}\\), que reage com as hidroxilas \\(\\mathrm{OH^-}\\) , deslocando o equilíbrio para a esquerda."
+      }
+    }
+  },
+  "2011-78": {
+    "originalSha256": "dda07d341e1badf0b28bcfc0b154c75f33ed208dea69281805ea7ba188b11a37",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um tipo de vaso sanitário que vem substituindo as válvulas de descarga está esquematizado na figura. Ao acionar a alavanca, toda a água do tanque é escoada e aumenta o nível no vaso, até cobrir o sifão. De acordo com o Teorema de Stevin, quanto maior a profundidade, maior a pressão. Assim, a água desce levando os rejeitos até o sistema de esgoto. A válvula da caixa de descarga se fecha e ocorre o seu enchimento. Em relação às válvulas de descarga, esse tipo de sistema proporciona maior economia de água.\n\n![](/assets/questions/2011/78/321e751e-8b01-4e24-b49e-c72ed36b4df7.png)"
+    }
+  },
+  "2011-83": {
+    "originalSha256": "3e54fa3397895da728d72cb56987b87795fd0e6fb86d9e29fc63745323ace219",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura os índices e cargas das fórmulas. Na alternativa E, a API perdeu o índice 3 do nitrato; o original apresenta NO₃⁻, não NO⁻.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "C": "A contaminação de rios e lagos devido à alta solubilidade de íons como \\(\\mathrm{NO_3^-}\\) e \\(\\mathrm{NH_4^+}\\) em água.",
+        "D": "A diminuição do pH do solo pela presença de \\(\\mathrm{NH_3}\\), que reage com a água, formando o \\(\\mathrm{NH_4OH(aq)}\\).",
+        "E": "A diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo \\(\\mathrm{NO_2}\\), \\(\\mathrm{NO_3^-}\\), \\(\\mathrm{N_2O}\\)."
+      }
+    }
+  },
+  "2011-84": {
+    "originalSha256": "b9d6bcb00dc76c1eaf9a880d399783ab0e31278c3b659d4bf1dc258f821d799e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto de contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia do ENEM 2011.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Ao diminuir o tamanho de um orifício atravessado por um feixe de luz, passa menos luz por intervalo de tempo, e próximo da situação de completo fechamento do orifício, verifica-se que a luz apresenta um comportamento como o ilustrado nas figuras. Sabe-se que o som, dentro de suas particularidades, também pode se comportar dessa forma.\n\n![](/assets/questions/2011/84/743d09d0-e545-4055-8c2b-210fe3d75118.png)",
+      "alternativeTexts": {
+        "B": "Ao gritar diante de um desfiladeiro, uma pessoa ouve a repetição do seu próprio grito."
+      }
+    }
+  },
+  "2011-136": {
+    "originalSha256": "1cd51376bee6afbb3af170389e260295e2758d147520f40a08d631df712bd53e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O dono de uma oficina mecânica precisa de um pistão das partes de um motor, de 68 mm de diâmetro, para o conserto de um carro. Para conseguir um, esse dono vai até um ferro velho e lá encontra pistões com diâmetros iguais a 68,21 mm; 68,102 mm; 68,001 mm; 68,02 mm e 68,012 mm.\n\nPara colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa."
+    }
+  },
+  "2011-137": {
+    "originalSha256": "2a9cb67407a555886c90b7dae846d626246f7c63a98e4bbbb0b59ef4011439a6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o contexto inicial, a fórmula com índices, o fim do comando truncado e os expoentes das cinco alternativas, todos conferidos no original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A Escala de Magnitude de Momento (abreviada como MMS e denotada como \\(M_w\\)), introduzida em 1979 por Thomas Haks e Hiroo Kanamori, substituiu a Escala de Richter para medir a magnitude dos terremotos em termos de energia liberada. Menos conhecida pelo público, a MMS é, no entanto, a escala usada para estimar as magnitudes de todos os grandes terremotos da atualidade. Assim como a escala Richter, a MMS é uma escala logarítmica. \\(M_W\\) e \\(M_0\\) se relacionam pela fórmula:\n\n\\(M_W=-10{,}7+\\frac{2}{3}\\log_{10}(M_0)\\)\n\nOnde \\(M_0\\) é o momento sísmico (usualmente estimado a partir dos registros de movimento da superfície, através dos sismogramas), cuja unidade é o dina·cm.\n\nO terremoto de Kobe, acontecido no dia 17 de janeiro de 1995, foi um dos terremotos que causaram maior impacto no Japão e na comunidade científica internacional. Teve magnitude \\(M_W=7{,}3\\).\n\nU.S. GEOLOGICAL SURVEY. Historic Earthquakes. Disponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado).\n\nU.S. GEOLOGICAL SURVEY. USGS Earthquake Magnitude Policy. Disponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado).",
+      "alternativesIntroduction": "Mostrando que é possível determinar a medida por meio de conhecimentos matemáticos, qual foi o momento sísmico \\(M_0\\) do terremoto de Kobe (em dina·cm)?",
+      "alternativeTexts": {
+        "A": "\\(10^{-5{,}10}\\)",
+        "B": "\\(10^{-0{,}73}\\)",
+        "C": "\\(10^{12{,}00}\\)",
+        "D": "\\(10^{21{,}65}\\)",
+        "E": "\\(10^{27{,}00}\\)"
+      }
+    }
+  },
+  "2011-138": {
+    "originalSha256": "52b1ba1b49e99e80a485f255ee2b500c7290ae175ce0b9fa5d655b22ef6cd05f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um mecânico de uma equipe de corrida necessita que as seguintes medidas realizadas em um carro sejam obtidas em metros:\n\na) distância \\(a\\) entre os eixos dianteiro e traseiro;\n\nb) altura \\(b\\) entre o solo e o encosto do piloto.\n\n![](/assets/questions/2011/138/5a4afd15-b676-441f-8758-76185e535a3e.png)"
+    }
+  },
+  "2011-140": {
+    "originalSha256": "1b20d2ac044d6f138132d105c3caaae35be50bdb1a3f88d01408a75db7715c8e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Em uma certa cidade, os moradores de um bairro carente de espaços de lazer reivindicam à prefeitura municipal a construção de uma praça. A prefeitura concorda com a solicitação e afirma que irá construí-la em formato retangular devido às características técnicas do terreno. Restrições de natureza orçamentária impõem que sejam gastos, no máximo, 180 m de tela para cercar a praça. A prefeitura apresenta aos moradores desse bairro as medidas dos terrenos disponíveis para a construção da praça:\n\n![](/assets/questions/2011/140/63404fc2-7491-4ee5-9975-d0c6857dd37a.png)"
+    }
+  },
+  "2011-141": {
+    "originalSha256": "16d079b4c3a77aab26cc55be24efe7f57033858a0d36ee578e4542a3e5de9321",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Você pode adaptar as atividades do seu dia a dia de uma forma que possa queimar mais calorias do que as gastas normalmente, conforme a relação seguinte:\n\n– Enquanto você fala ao telefone, faça agachamentos: 100 calorias gastas em 20 minutos.  \n– Meia hora de supermercado: 100 calorias.  \n– Cuidar do jardim por 30 minutos: 200 calorias.  \n– Passear com o cachorro: 200 calorias em 30 minutos.  \n– Tirar o pó dos móveis: 150 calorias em 30 minutos.  \n– Lavar roupas por 30 minutos: 200 calorias.\n\nDisponível em: http://cyberdiet.terra.com.br. Acesso em: 27 abr. 2010 (adaptado).\n\nUma pessoa deseja executar essas atividades, porém, ajustando o tempo para que, em cada uma, gaste igualmente 200 calorias."
+    }
+  },
+  "2011-142": {
+    "originalSha256": "58e7cfe7f46428b2c04c2765919d4651022336b11395ef8d74fff2e1198874cf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Uma equipe de especialistas do centro meteorológico de uma cidade mediu a temperatura do ambiente, sempre no mesmo horário, durante 15 dias intercalados, a partir do primeiro dia de um mês. Esse tipo de procedimento é frequente, uma vez que os dados coletados servem de referência para estudos e verificação de tendências climáticas ao longo dos meses e anos.\n\nAs medições ocorridas nesse período estão indicadas no quadro:\n\n![](/assets/questions/2011/142/29f02ac4-b2ab-4397-b8f4-de763ed2079f.png)"
+    }
+  },
+  "2011-144": {
+    "originalSha256": "c9445515294a3e013f5235d2988d36a0e7a8dd841cf657e3f7f81ccfe648d6a0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Uma indústria fabrica brindes promocionais em forma de pirâmide. A pirâmide é obtida a partir de quatro cortes em um sólido que tem a forma de um cubo. No esquema, estão indicados o sólido original (cubo) e a pirâmide obtida a partir dele.\n\n![](/assets/questions/2011/144/d0e4d3d7-dfa0-48c0-81a7-03193a5dfea2.png)\n\nOs pontos A, B, C, D e O do cubo e da pirâmide são os mesmos. O ponto O é central na face superior do cubo. Os quatro cortes saem de O em direção às arestas _AD_, _BC_, _AB_ e _CD_, nessa ordem. Após os cortes, são descartados quatro sólidos."
+    }
+  },
+  "2011-145": {
+    "originalSha256": "9a2a7a72ba52f6ea58099dca3b372e84416f8e25c993452eea675c9142264ad7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o título da notícia e a notação fracionária do aumento de consumo presentes no original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "**Café no Brasil**\n\nO consumo atingiu o maior nível da história no ano passado: os brasileiros beberam o equivalente a 331 bilhões de xícaras.\n\nVeja. Ed. 2158, 31 mar. 2010.\n\nConsidere que a xícara citada na notícia seja equivalente a, aproximadamente, 120 mL de café. Suponha que em 2010 os brasileiros bebam ainda mais café, aumentando o consumo em \\(\\frac{1}{5}\\) do que foi consumido no ano anterior."
+    }
+  },
+  "2011-147": {
+    "originalSha256": "29e4454194007fa1babe115de553253185f7474d9fb03be772f80558c7fc194f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A figura seguinte mostra um modelo de sombrinha muito usado em países orientais.\n\n![](/assets/questions/2011/147/2391aaed-b47a-4b2e-bb7f-4208c8cf56d4.png)"
+    }
+  },
+  "2011-149": {
+    "originalSha256": "950b8cd1e9ad49d11814ccad047e2dc3f4d5927444b5d5b463326da1e185bd94",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul. Restaura também a apresentação matemática dos radicais usados como aproximações no comando.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O Índice de Massa Corporal (IMC) é largamente utilizado há cerca de 200 anos, mas esse cálculo representa muito mais a corpulência que a adiposidade, uma vez que indivíduos musculosos e obesos podem apresentar o mesmo IMC. Uma nova pesquisa aponta o Índice de Adiposidade Corporal (IAC) como uma alternativa mais fidedigna para quantificar a gordura corporal, utilizando a medida do quadril e a altura. A figura mostra como calcular essas medidas, sabendo-se que, em mulheres, a adiposidade normal está entre 19% e 26%.\n\n![](/assets/questions/2011/149/3101cf12-cad5-44db-ba34-f0fb54e3143d.png)",
+      "alternativesIntroduction": "Uma jovem com \\(\\mathrm{IMC}=20\\ \\text{kg/m}^2\\), 100 cm de circunferência dos quadris e 60 kg de massa corpórea resolveu averiguar seu IAC. Para se enquadrar aos níveis de normalidade de gordura corporal, a atitude adequada que essa jovem deve ter diante da nova medida é\n\n(Use \\(\\sqrt3=1{,}7\\) e \\(\\sqrt{1{,}7}=1{,}3\\).)"
+    }
+  },
+  "2011-150": {
+    "originalSha256": "54680c5b20450caa619e43c0a809cffa7794c73b2f9eefcad6b9b05a0c054431",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um bairro de uma cidade foi planejado em uma região plana, com ruas paralelas e perpendiculares, delimitando quadras de mesmo tamanho. No plano de coordenadas cartesianas seguinte, esse bairro localiza-se no segundo quadrante, e as distâncias nos eixos são dadas em quilômetros.\n\n![](/assets/questions/2011/150/881d187f-8906-4aa8-a941-220a57000731.png)"
+    }
+  },
+  "2011-153": {
+    "originalSha256": "50fa2e7e36cd95a50b042ae1cf1f8fcc9419f49f3d25c312da27aa38eba4b724",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Remove a duplicação de “arroz” introduzida na alternativa E pela API, conforme a alternativa original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "E": "7,5 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante."
+      }
+    }
+  },
+  "2011-154": {
+    "originalSha256": "9a6c5d8ee36ed38ec268cde4683081df823a19b03c080dca57e4f34dab8ba923",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A participação dos estudantes na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) aumenta a cada ano. O quadro indica o percentual de medalhistas de ouro, por região, nas edições da OBMEP de 2005 a 2009:\n\n![](/assets/questions/2011/154/10f8a6b9-37c7-4d75-99dd-24b07602b503.png)"
+    }
+  },
+  "2011-155": {
+    "originalSha256": "8ca0d53707a0344955180d03182d62680fd3dfa24e25215be1b4e1af7275db86",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul. Restaura a notação dos radicais e da fração nas alternativas.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Para determinar a distância de um barco até a praia, um navegante utilizou o seguinte procedimento: a partir de um ponto A, mediu o ângulo visual \\(\\alpha\\) fazendo mira em um ponto fixo P da praia. Mantendo o barco no mesmo sentido, ele seguiu até um ponto B de modo que fosse possível ver o mesmo ponto P da praia, no entanto sob um ângulo visual \\(2\\alpha\\). A figura ilustra essa situação:\n\n![](/assets/questions/2011/155/815b3733-1da7-4631-adc8-21e12190790b.png)\n\nSuponha que o navegante tenha medido o ângulo α = 30°  e, ao chegar ao ponto B, verificou que o barco havia percorrido a distância AB = 2 000 m.",
+      "alternativeTexts": {
+        "B": "\\(1\\,000\\sqrt3\\ \\text{m}\\).",
+        "C": "\\(\\frac{2\\,000\\sqrt3}{3}\\ \\text{m}\\).",
+        "E": "\\(2\\,000\\sqrt3\\ \\text{m}\\)."
+      }
+    }
+  },
+  "2011-156": {
+    "originalSha256": "a1d6b5eb77bc09d52a7ab5800e3224ce621c9f93b61bf0a00cdf3a0ce3354bd1",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura a hipótese de crescimento constante nos seis primeiros meses, omitida pela API e necessária à função afim, conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O saldo de contratações no mercado formal no setor varejista da região metropolitana de São Paulo registrou alta. Comparando as contratações deste setor no mês de fevereiro com as de janeiro deste ano, houve incremento de 4 300 vagas no setor, totalizando 880 605 trabalhadores com carteira assinada.\n\nDisponível em: http://www.folha.uol.com.br. Acesso em: 26 abr. 2010 (adaptado).\n\nSuponha que o incremento de trabalhadores no setor varejista seja sempre o mesmo nos seis primeiros meses do ano."
+    }
+  },
+  "2011-158": {
+    "originalSha256": "c37a349a7e289d2db7a2e8a2083302eb60c1c3fb200f4a8a0581bcac0e95196a",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A tabela compara o consumo mensal, em kWh, dos consumidores residenciais e dos de baixa renda, antes e depois da redução da tarifa de energia no estado de Pernambuco.\n\n![](/assets/questions/2011/158/1780f953-427b-4344-9cc8-3fc8908f62b0.png)\n\nConsidere dois consumidores: um que é de baixa renda e gastou 100 kWh e outro do tipo residencial que gastou 185 kWh."
+    }
+  },
+  "2011-161": {
+    "originalSha256": "15862a52c27ee1611fffa8d660fa9bbd7940c59494d27cb301418150f1f1b50b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Corrige “dua família” para “sua família”, conforme o texto oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Cerca de 20 milhões de brasileiros vivem na região coberta pela caatinga, em quase 800 mil km² de área. Quando não chove, o homem do sertão e sua família precisam caminhar quilômetros em busca da água dos açudes. A irregularidade climática é um dos fatores que mais interferem na vida do sertanejo.\n\nDisponível em: http://www.wwf.org.br. Acesso em: 23 abr. 2010."
+    }
+  },
+  "2011-163": {
+    "originalSha256": "bcb307d7be25dced2402bcb670ac539bbd4193829025bd41b3b3db1cb6f55c02",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Rafael mora no Centro de uma cidade e decidiu se mudar, por recomendações médicas, para uma das regiões: Rural, Comercial, Residencial Urbano ou Residencial Suburbano. A principal recomendação médica foi com as temperaturas das “ilhas de calor” da região, que deveriam ser inferiores a 31 °C. Tais temperaturas são apresentadas no gráfico:\n\n![](/assets/questions/2011/163/1712d7cd-309a-4383-970a-51e8310d5882.png)"
+    }
+  },
+  "2011-165": {
+    "originalSha256": "da640e01bacc29ee65ccf0fb6cbea9cbef028774ba7ae078c73393cb2ea48f35",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O atletismo é um dos esportes que mais se identificam com o espírito olímpico. A figura ilustra uma pista de atletismo. A pista é composta por oito raias e tem largura de 9,76 m. As raias são numeradas do centro da pista para a extremidade e são construídas de segmentos de retas paralelas e arcos de circunferência. Os dois semicírculos da pista são iguais.\n\n![](/assets/questions/2011/165/9f872841-f893-4cc4-bd7c-3356d7d73f0e.png)"
+    }
+  },
+  "2011-167": {
+    "originalSha256": "35f0b5d1f532c60114ff9fc525ce833811ce718289882f350b20fd246e795139",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Corrige “atrais” para “atrair”, conforme o original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "É possível usar água ou comida para atrair as aves e observá-las. Muitas pessoas costumam usar água com açúcar, por exemplo, para atrair beija-flores. Mas é importante saber que, na hora de fazer a mistura, você deve sempre usar uma parte de açúcar para cinco  partes de água. Além disso, em dias quentes, precisa trocar a água de duas a três vezes, pois com o calor ela pode fermentar e, se for ingerida pela ave, pode deixá-la doente. O excesso de açúcar, ao cristalizar, também pode manter o bico da ave fechado, impedindo-a de se alimentar. Isso pode até matá-la.\n\n**Ciência Hoje das Crianças**. FNDE; Instituto Ciência Hoje, ano 19, n.166, mar.1996\n\nPretende-se encher completamente um copo com a mistura para atrair beija-flores."
+    }
+  },
+  "2011-169": {
+    "originalSha256": "6ccc92df6b93b88b467fd43d7583fb7e572bc115fb7307ff8c3e8853f4b94a8c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul. Corrige também a pontuação corrompida da alternativa B, sem alterar seus dados.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A figura apresenta informações biométricas de um homem (Duílio) e de uma mulher (Sandra) que estão buscando alcançar seu peso ideal a partir das atividades físicas (corrida). Para se verificar a escala de obesidade, foi desenvolvida a fórmula que permite verificar o Índice de Massa Corporal (IMC). Esta fórmula é apresentada como \\(\\mathrm{IMC}=m/h^2\\), onde \\(m\\) é a massa em quilogramas e \\(h\\) é altura em metros.\n\n![](/assets/questions/2011/169/138c3e55-cb8f-43d0-8303-23e8a9f9686f.png)\n\nNo quadro é apresentada a Escala de Índice de Massa Corporal com as respectivas categorias relacionadas aos pesos.\n\n![](/assets/questions/2011/169/4546f26f-0929-46e6-9960-fe66371e66a7.png)",
+      "alternativeTexts": {
+        "B": "Duílio tem o IMC 27,3 e Sandra tem o IMC 29,1, estando ambos na categoria de sobrepeso."
+      }
+    }
+  },
+  "2011-170": {
+    "originalSha256": "723179752234540537e735a1572ede126987cc04ecd75d7cb36e42d2d8d32c24",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Todo o país passa pela primeira fase de campanha de vacinação contra a gripe suína (H1N1). Segundo um médico infectologista do Instituto Emílio Ribas, de São Paulo, a imunização “deve mudar”, no país, a história da epidemia. Com a vacina, de acordo com ele, o Brasil tem a chance de barrar uma tendência do crescimento da doença, que já matou 17 mil no mundo. A tabela apresenta dados específicos de um único posto de vacinação.\n\n![](/assets/questions/2011/170/038f43e1-f843-49af-bdcd-da787662784d.png)"
+    }
+  },
+  "2011-171": {
+    "originalSha256": "0bc7add1911c2d595fee26c911e1cd2a6f14a28e5291716fd83b83e6a3a2bfb8",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O gráfico mostra a velocidade de conexão à internet utilizada em domicílios no Brasil. Esses dados são resultado da mais recente pesquisa, de 2009, realizada pelo Comitê Gestor da Internet (CGI).\n\n![](/assets/questions/2011/171/98aac117-ec69-4337-8b51-b97af4d14763.png)"
+    }
+  },
+  "2011-172": {
+    "originalSha256": "3975294daea1278849d9cc4e00b6c52d8c24707ddd07794dd69b51872b4f2bed",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o contexto que exige revisar todos os pontos, omitido pela API. Substitui o recorte pequeno e truncado embaixo por recorte direto do PDF oficial, com todos os sete rótulos íntegros.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Um técnico em refrigeração precisa revisar todos os pontos de saída de ar de um escritório com várias salas.\n\nNa imagem apresentada, cada ponto indicado por uma letra é a saída do ar, e os segmentos são as tubulações.\n\n![](/assets/questions/2011/172/grafo-oficial.png)"
+    },
+    "assets": {
+      "grafo-oficial.png": "7aa276640c550d8fad4c2af886d05e2aa83c117ff2b3d33aa477a3a1d4a5744d"
+    }
+  },
+  "2011-173": {
+    "originalSha256": "fea2015b3bcdf561e971fb437d49d53328c258fb4bc0d511f6ac37e15c295084",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O termo agronegócio não se refere apenas à agricultura e à pecuária, pois as atividades ligadas a essa produção incluem fornecedores de equipamentos, serviços para a zona rural, industrialização e comercialização dos produtos.\n\nO gráfico seguinte mostra a participação percentual do agronegócio no PIB brasileiro:\n\n![](/assets/questions/2011/173/2001a836-e42e-40a0-9858-00d6ac482132.png)\n\nEsse gráfico foi usado em uma palestra na qual o orador ressaltou uma queda da participação do agronegócio no PIB brasileiro e a posterior recuperação dessa participação, em termos percentuais."
+    }
+  },
+  "2011-175": {
+    "originalSha256": "b05011710be918d01ce3d32d7009fb0bdb8b29075c83e1a15285b1d02b1553f6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Uma enquete, realizada em março de 2010, perguntava aos internautas se eles acreditavam que as atividades humanas provocam o aquecimento global. Eram três as alternativas possíveis e 279 internautas responderam à enquete, como mostra o gráfico.\n\n![](/assets/questions/2011/175/f947e93f-407e-43ed-be49-e43e523aee48.png)"
+    }
+  },
+  "2011-176": {
+    "originalSha256": "a0b99c8ff90525787d7a3c98fb1772aacacfcc42e871537e46b0e53ec96fc2a6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\n\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\n\n![](/assets/questions/2011/176/af44af53-d3de-470e-8beb-fc679278e63f.png)"
+    }
+  },
+  "2011-177": {
+    "originalSha256": "7af5b0bb8ade69f988083fd04ab4bf6c80a9ec4074dc3b2d89d62b6585779abb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\n\nInvestimento A: 3% ao mês\n\nInvestimento B: 36% ao ano\n\nInvestimento C: 18% ao semestre\n\nAs rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades:\n\n![](/assets/questions/2011/177/3c240114-2bf9-4fc0-a3a7-2c480b27b238.png)"
+    }
+  },
+  "2011-178": {
+    "originalSha256": "a7b8bd8ae954fcd4663a307536af18f5f2a05e136c303103becaf35d5a96e203",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o texto inicial omitido na API, conferido na página física indicada do caderno oficial azul. Restaura o expoente 2 no denominador da alternativa D e a notação matemática de todas as expressões.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A resistência das vigas de dado comprimento é diretamente proporcional à largura (\\(b\\)) e ao quadrado da altura (\\(d\\)), conforme a figura. A constante de proporcionalidade \\(k\\) varia de acordo com o material utilizado na sua construção.\n\n![](/assets/questions/2011/178/eaed6fd4-dacb-43e7-87ab-33f40ac3efba.png)",
+      "alternativeTexts": {
+        "A": "\\(S=kbd\\)",
+        "B": "\\(S=bd^2\\)",
+        "C": "\\(S=kbd^2\\)",
+        "D": "\\(S=\\frac{kb}{d^2}\\)",
+        "E": "\\(S=\\frac{kd^2}{b}\\)"
+      }
+    }
+  },
+  "2011-179": {
+    "originalSha256": "57c7af493e3e00656a469e22e746d99ea6cd999cf31651c30ca852f42b2a70db",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Corrige “empresa de telefone fixa” para “empresa de telefonia fixa”, conforme o texto original.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Uma empresa de telefonia fixa oferece dois planos aos seus clientes: no plano K, o cliente paga R$ 29,90 por  200 minutos mensais e R$ 0,20 por cada minuto excedente; no plano Z, paga R$ 49,90 por 300 minutos mensais e R$ 0,10 por cada minuto excedente."
+    }
   }
 }

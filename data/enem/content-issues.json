@@ -383,5 +383,178 @@
       "localPageSha256": "2b195b97f61789af7669c6781bc3ef1a76818e291d608de0559d7d9b05e65b0f",
       "sourcePdfSha256": "48a9ccea2859aa1895995fe2b3217f13122c140ad2c3f4b055771eefb0c13970"
     }
+  },
+  "2011-53": {
+    "originalSha256": "445e2af31c162c7ec1ac272eb690904ccc45cee7993ed04197377969b7ab854c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "E",
+      "printedPage": 17,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2011-cn-original-18.png",
+      "localPageSha256": "fd9334143c5576c8ad0e6180dd2a2267916d01f214f278b70ff68a5f0b2ea83c",
+      "sourcePdfSha256": "0abce128c2a854d6ec649467abe076b81a3b56bb5828f27c024e0cbbfb4d8165",
+      "alternativesInConflict": [
+        "B",
+        "E"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hpv-vaccine-fact-sheet",
+          "section": "How does the HPV vaccine work?",
+          "checkedAt": "2026-10-23",
+          "finding": "O NCI explica a proteção pela produção de anticorpos induzidos pela vacina que impedem a infecção celular. Isso sustenta a pertinência científica de B, além da memória descrita em E."
+        }
+      ]
+    },
+    "reason": "As alternativas B e E não são mutuamente exclusivas: a vacinação contra HPV induz anticorpos específicos circulantes e memória imunológica. O enunciado pergunta pelo benefício da vacina sem indicar um prazo ou outra condição que permita descartar os anticorpos da alternativa B. Escolher E por ser a chave e chamar B de falsa ensinaria uma exclusão sem base; a variação temporal da concentração de anticorpos não resolve a ambiguidade. Suspensão editorial preservando raw e chave E; não é afirmação de anulação pelo INEP."
+  },
+  "2011-54": {
+    "originalSha256": "6253172633ae5094dafe4dc8592ea1f93a153aa7267af7ba0c49aaa940d8ca2f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 18,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "C",
+      "printedPage": 17,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2011-cn-original-18.png",
+      "localPageSha256": "fd9334143c5576c8ad0e6180dd2a2267916d01f214f278b70ff68a5f0b2ea83c",
+      "sourcePdfSha256": "0abce128c2a854d6ec649467abe076b81a3b56bb5828f27c024e0cbbfb4d8165",
+      "range": [
+        8.74,
+        8.82
+      ],
+      "componentDensities": {
+        "Sn": 7.3,
+        "Pb": 11.3
+      },
+      "additiveVolumeFormula": "rho=100/[mSn/7.3+mPb/11.3], para 100 g",
+      "samples": [
+        {
+          "sample": "I",
+          "SnMassPercent": 60,
+          "PbMassPercent": 40,
+          "densityWithAdditiveVolumes": 8.504123711340206,
+          "invalidMassWeightedArithmeticMean": 8.9
+        },
+        {
+          "sample": "II",
+          "SnMassPercent": 62,
+          "PbMassPercent": 38,
+          "densityWithAdditiveVolumes": 8.434560327198364,
+          "invalidMassWeightedArithmeticMean": 8.82
+        },
+        {
+          "sample": "III",
+          "SnMassPercent": 65,
+          "PbMassPercent": 35,
+          "densityWithAdditiveVolumes": 8.332323232323231,
+          "invalidMassWeightedArithmeticMean": 8.7
+        },
+        {
+          "sample": "IV",
+          "SnMassPercent": 63,
+          "PbMassPercent": 37,
+          "densityWithAdditiveVolumes": 8.40020366598778,
+          "invalidMassWeightedArithmeticMean": 8.78
+        },
+        {
+          "sample": "V",
+          "SnMassPercent": 59,
+          "PbMassPercent": 41,
+          "densityWithAdditiveVolumes": 8.539337474120083,
+          "invalidMassWeightedArithmeticMean": 8.94
+        }
+      ]
+    },
+    "reason": "O enunciado informa expressamente composição percentual em massa. A chave C (II e IV) coincide com a média aritmética das densidades ponderada pelas frações mássicas, que não é a relação física adequada para essa composição. Para 100 g e volumes aditivos, a densidade é 100/(mSn/7,3 + mPb/11,3), ficando entre 8,33 e 8,54 g/mL nas cinco amostras; nenhuma atende à faixa de 8,74 a 8,82 g/mL. Se houver variação de volume na formação da liga, faltam dados para calculá-la. Suspensão editorial para não ensinar uma média incorreta, preservando o registro raw e a chave C. Não é afirmação de anulação pelo INEP."
+  },
+  "2011-59": {
+    "originalSha256": "78f326d399078f82fad6f3bd5f830a00426c691f32feb62ca2725a8e16c6aec0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "B",
+      "printedPage": 18,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2011-cn-original-19.png",
+      "localPageSha256": "9be49cc58a68fac697fa4e244253626bddd7daba92e7467d8cb4f943e4eebccd",
+      "sourcePdfSha256": "0abce128c2a854d6ec649467abe076b81a3b56bb5828f27c024e0cbbfb4d8165",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8041792/",
+          "doi": "10.1038/s41598-021-86796-w",
+          "kind": "primary-experimental-study",
+          "checkedAt": "2026-10-23",
+          "finding": "Estudo da desinfecção por Ca(OH)2 relaciona o efeito à alcalinidade e encontra necessidade de água; não é um ensaio de caiação em troncos."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11985673/",
+          "doi": "10.1046/j.1365-2591.2002.00504.x",
+          "kind": "primary-experimental-study",
+          "checkedAt": "2026-10-23",
+          "finding": "Ensaios de E. faecalis em hidróxido de cálcio testaram a resposta ao pH e o papel da bomba de prótons na sobrevivência; sustentam a relevância da alcalinidade, sem provar osmose na situação do enunciado."
+        }
+      ]
+    },
+    "reason": "A chave B atribui a destruição do microambiente à osmose, mas não há informação sobre concentração de solutos ou diferença de potencial de água que demonstre esse fluxo através de membranas. O consumo de água na reação CaO + H2O -> Ca(OH)2 é hidratação química, não osmose. Estudos experimentais relacionam a ação antimicrobiana do hidróxido de cálcio à alcalinidade; não demonstram a causa exata na casca descrita, mas impedem atribuir automaticamente a desinfecção à retirada osmótica de água. A correção inequívoca exigiria informação ausente ou mudança do enunciado. Suspensão editorial preservando raw e chave B; não é afirmação de anulação pelo INEP."
+  },
+  "2011-79": {
+    "originalSha256": "a5a64a04e03426f150165f1fe6954926ac0c17ac224aa48b12a9bfccc1b2177b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno1_azul.pdf",
+    "sourcePage": 27,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "B",
+      "printedPage": 26,
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2011-cn-original-27.png",
+      "localPageSha256": "fe8a0ecda8afd1bd726c0078af331d6970659f953d8de2841ea2119a1663bffe",
+      "sourcePdfSha256": "0abce128c2a854d6ec649467abe076b81a3b56bb5828f27c024e0cbbfb4d8165",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/femsec/article/68/2/236/606280",
+          "doi": "10.1111/j.1574-6941.2009.00661.x",
+          "kind": "primary-experimental-study",
+          "checkedAt": "2026-10-23",
+          "finding": "Qu et al. incubaram resíduos municipais anaerobicamente e monitoraram isótopos e comunidades de arqueias; a produção inicial de CH4 ocorreu predominantemente a partir de H2/CO2, tornando a via de D pertinente ao contexto."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-023-43129-x",
+          "doi": "10.1038/s41467-023-43129-x",
+          "kind": "primary-metagenomic-study",
+          "checkedAt": "2026-10-23",
+          "finding": "O levantamento de resíduos de idades diferentes identifica arqueias metanogênicas e rotas hidrogenotróficas que utilizam H2 e CO2."
+        }
+      ]
+    },
+    "reason": "A alternativa D descreve uma via real de produção de metano em ambiente anaeróbio: redução de CO2, por exemplo CO2 + 4 H2 -> CH4 + 2 H2O, realizada por arqueias metanogênicas. A palavra transformação química não exclui a catálise biológica. Essa via ocorre na decomposição de resíduos, de modo que o contexto de antigo lixão não permite descartá-la em favor de B. Além disso, B atribui a produção às bactérias, embora a metanogênese clássica seja realizada por arqueias e bactérias participem de outras etapas. Suspensão editorial por alternativa cientificamente defensável e imprecisão taxonômica, preservando raw e chave B; não é afirmação de anulação pelo INEP."
+  },
+  "2011-157": {
+    "originalSha256": "ad8d7da241d0fa139c1845bc778e9e91a765f37752e5bd20d637521f5763bcc5",
+    "reason": "Divergência numérica entre o cálculo com os dados do enunciado e o montante da alternativa D registrada como gabarito. Para R$ 500,00, o rendimento bruto do CDB é 500 × 0,00876 = R$ 4,38; o imposto de 4% sobre esse ganho é R$ 0,1752. O montante líquido é R$ 504,2048, que arredondado ao centavo resulta em R$ 504,20. A alternativa D traz R$ 504,21. Mesmo arredondando o imposto para R$ 0,18 antes da subtração, obtém-se R$ 504,20. O CDB é mais vantajoso do que a poupança (R$ 502,80), mas nenhuma opção combina o investimento mais vantajoso com o montante correto pelo arredondamento usual. Suspensão editorial para não ensinar arredondamento incorreto, preservando raw e chave D; não é afirmação de anulação pelo INEP.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reviewedAt": "2026-10-23",
+    "evidence": {
+      "rawAnswer": "D",
+      "rawAnswerAmount": "504.21",
+      "capital": "500.00",
+      "cdbMonthlyRatePercent": "0.876",
+      "taxOnGainPercent": "4",
+      "cdbGrossGain": "4.38",
+      "taxExact": "0.1752",
+      "cdbNetExact": "504.2048",
+      "cdbNetRounded": "504.20",
+      "savingsNet": "502.80",
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2011-math-original-26.png",
+      "localPageSha256": "c3a1b35c5c07a8e41d58d0da4c7074b0e5eb2bb6a6945224eb64ff51293c84b8",
+      "sourcePdfSha256": "31cd289a801afbd27c4d3bb02b4343cd54e8cb31fb8742651782213a3068d6c0"
+    }
   }
 }
