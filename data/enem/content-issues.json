@@ -556,5 +556,65 @@
       "localPageSha256": "c3a1b35c5c07a8e41d58d0da4c7074b0e5eb2bb6a6945224eb64ff51293c84b8",
       "sourcePdfSha256": "31cd289a801afbd27c4d3bb02b4343cd54e8cb31fb8742651782213a3068d6c0"
     }
+  },
+  "2010-87": {
+    "originalSha256": "5279db6dcf373608fda7a6c4dbb7a03f29984256bf89e00c16e3f949cc42ba37",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 29,
+    "reviewedAt": "2026-10-23T20:05:04.993Z",
+    "reason": "O comando pergunta por que a rotação “pode beneficiar economicamente” o produtor e não exige a alternativa mais abrangente. A economia de fertilizante decorrente da decomposição dos resíduos, em A, é um benefício agronômico real; E acrescenta a comercialização dos grãos, mas não torna A falsa. As duas alternativas estão reproduzidas no original. Suspensão editorial por ausência de resposta única, preservando os dados, a chave oficial E e o comentário em arquivo. Não se afirma anulação pelo INEP.",
+    "evidence": {
+      "rawAnswer": "E",
+      "alsoDefensibleAlternative": "A",
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2010-cn-original-29.png",
+      "localPageSha256": "2c346d1138e63d4635334e149018444c7b36cc1a96c51ffc5786b9f7392b3571",
+      "sourcePdfSha256": "0999aeae2fb46f5e1ce7afb8081caebffa2de835063b1a64e543faa2a39ae615",
+      "sources": [
+        {
+          "title": "Adubação nitrogenada para a cana-de-açúcar colhida crua, em rotação com leguminosas, cultivada em solo de tabuleiro costeiro",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1129086/1/Adubacao-nitrogenada.pdf",
+          "authors": "Silva, Ivo e Santiago",
+          "year": 2019,
+          "pages": "635–637",
+          "evidence": "Pesquisa experimental conduzida por pesquisadores da Embrapa: liberação gradual do N do resíduo e resposta da cana-planta à fertilização apenas sem leguminosa, nas condições do experimento. A palhada foi mantida sem incorporação, com sulcos sobre a massa verde. Sustenta a possibilidade do benefício, sem garantir a mesma economia para qualquer espécie, solo ou manejo."
+        },
+        {
+          "title": "Adubação verde e rotação de culturas para cana-de-açúcar, capítulo 17",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1153221/1/ADUBACAO-VERDE-VOL02.pdf",
+          "access": "Trecho indexado consultado; abertura integral excedeu limite de tamanho do navegador.",
+          "evidence": "Trecho relaciona leguminosas à redução dos custos de adubação e ressalva a sincronia entre demanda da cultura e disponibilidade dos nutrientes da decomposição."
+        }
+      ],
+      "explanationPreservedIn": ".preview/2010-87-editorially-suspended-comment.json"
+    }
+  },
+  "2010-169": {
+    "originalSha256": "7ff7d722196c0a8f3b282a96c2f5723c223bc077b5c781a1b0af492107836ba7",
+    "reason": "Ambiguidade direcional no texto original: “do segundo para o primeiro salto, o alcance diminuía em 1,2 m” implica primeiro = segundo − 1,2; “do terceiro para o segundo ... diminuía 1,5 m” implica segundo = terceiro − 1,5. Com total 17,4 m, a leitura literal dá saltos 4,5; 5,7; 7,2 m e alternativa A. O gabarito D só é obtido invertendo o sentido das duas comparações, produzindo 7,1; 5,9; 4,4 m. A redação foi confirmada no caderno oficial e não é erro de importação. Propõe-se suspensão editorial, preservando raw e chave D, para não apresentar uma troca silenciosa de sentido como resolução. Não é afirmação de anulação pelo INEP.",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "evidence": {
+      "rawAnswer": "D",
+      "literalFirstJump": 4.5,
+      "literalJumps": [
+        4.5,
+        5.7,
+        7.2
+      ],
+      "literalAlternative": "A",
+      "reversedFirstJump": 7.1,
+      "reversedJumps": [
+        7.1,
+        5.9,
+        4.4
+      ],
+      "reversedAlternative": "D",
+      "visualSourceVerified": true,
+      "localPage": ".preview/enem-2010-matematica-original-29.png",
+      "localPageSha256": "e90dd83a6563c3f3b46caa1bf3633eae9dff90d00e5997cebdc5ee52b3a3a480",
+      "sourcePdfSha256": "c7284f83312a5c6ccf3667377c45bd3203097e8113309ec1ad2cf1344b3490f9"
+    }
   }
 }

@@ -6073,5 +6073,867 @@
     "fields": {
       "context": "Uma empresa de telefonia fixa oferece dois planos aos seus clientes: no plano K, o cliente paga R$ 29,90 por  200 minutos mensais e R$ 0,20 por cada minuto excedente; no plano Z, paga R$ 49,90 por 300 minutos mensais e R$ 0,10 por cada minuto excedente."
     }
+  },
+  "2010-97": {
+    "originalSha256": "434b040421847edb828cb6e076a715b5304e42278c402f9f1ebc674849476016",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Restaura exemplos e sujeito omitidos na definição de ecossistema, conferidos no PDF.",
+    "reviewedAt": "2026-10-22T00:58:38.013Z",
+    "fields": {
+      "context": "A biosfera, que reúne todos os ambientes onde se desenvolvem os seres vivos, se divide em unidades menores chamadas ecossistemas, que podem ser uma floresta, um deserto e até um lago. Um ecossistema tem múltiplos mecanismos que regulam o número de organismos dentro dele, controlando sua reprodução, crescimento e migrações.\n\nDUARTE, M. **O guia dos curiosos.** São Paulo: Companhia das Letras, 1995."
+    }
+  },
+  "2010-100": {
+    "originalSha256": "d389c26547e2d30d081309a929f653c3632233431fe5529b063f142c79b254cd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura as legendas das cinco obras, ausentes nas alternativas da API; mantém grafias do caderno oficial.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "Romero Brito. “Gisele e Tom”.",
+        "B": "Andy Warhol. “Michael Jackson”.",
+        "C": "Funny Filez. “Monabean”.",
+        "D": "Andy Warhol. “Marlyn Monroe”.",
+        "E": "Pablo Picasso. “Retrato de Jaqueline Roque com as Mãos Cruzadas”."
+      }
+    }
+  },
+  "2010-103": {
+    "originalSha256": "fad5af4f0dd3f4ffce8412ae43da9f995427bf0a8aeba1f2273bebfe8a221361",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Remove letra E da alternativa seguinte incorporada indevidamente ao texto de D.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "D": "Expor de forma geral o transtorno compulsivo por alimentação."
+      }
+    }
+  },
+  "2010-104": {
+    "originalSha256": "22d4c7264635908e04cd2803da4f3d927175bbdb423bcdc0b9bb09690dcbb600",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Restaura a oração com mas e e, indispensável à análise das conjunções.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "A gentileza é algo difícil de ser ensinado e vai muito além da palavra educação. Ela é difícil de ser encontrada, mas fácil de ser identificada, e acompanha pessoas generosas e desprendidas, que se interessam em contribuir para o bem do outro e da sociedade. É uma atitude desobrigada, que se manifesta nas situações cotidianas e das maneiras mais prosaicas.\n\nSIMURRO, S. A. B. **Ser gentil é ser saudável.** Disponível em: http://www.abqv.org.br. Acesso em: 22 jun. 2006 (adaptado)."
+    }
+  },
+  "2010-106": {
+    "originalSha256": "41391ca1d09fb97f91717aaa1e4936363376e7a60fb12146fb931d8afc933b83",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Restaura final da enumeração e início do período, omitidos pela API.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "O folclore é o retrato da cultura de um povo. A dança popular e folclórica é uma forma de representar a cultura regional, pois retrata seus valores, crenças, trabalho e significados. Dançar a cultura de outras regiões é conhecê-la, é de alguma forma se apropriar dela, é enriquecer a própria cultura.\n\nBREGOLATO, R. A. **Cultura Corporal da Dança**. São Paulo: Ícone, 2007."
+    }
+  },
+  "2010-107": {
+    "originalSha256": "7a0c1bf11601a10a6d3910abb4ea9724f0ac3dcaacf7adb5c4e75272f7b3a889",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Restaura a palavra específica na definição de termo técnico, alternativa E.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "E": "Termo técnico, dado que designa elemento de área específica de atividade."
+      }
+    }
+  },
+  "2010-113": {
+    "originalSha256": "3c059df56134ba45ffee38eb7f772ae48513e3e5b586ca28ee7e871837740aeb",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura oração sobre cozinha e fogão e nome Ana, conforme o trecho impresso.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "Os filhos de Ana eram bons, uma coisa verdadeira e sumarenta. Cresciam, tomavam banho, exigiam para si, malcriados, instantes cada vez mais completos. A cozinha era enfim espaçosa, o fogão enguiçado dava estouros. O calor era forte no apartamento que estavam aos poucos pagando. **Mas** o vento batendo nas cortinas que ela mesma cortara lembrava-lhe que se quisesse podia parar e enxugar a testa, olhando o calmo horizonte. Como um lavrador. Ela plantara as sementes que tinha na mão, não outras, **mas** essas apenas.\n\nLISPECTOR, C. Laços de família. Rio de Janeiro: Rocco, 1998."
+    }
+  },
+  "2010-114": {
+    "originalSha256": "ce91cd7a02c12d6b215a050fe81d291ea8dffd7f5ef1b65344d895af18593de3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura a oração que identifica a pergunta dirigida aos estudiosos.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "**A Herança Cultural da Inquisição**\n\nA Inquisição gerou uma série de comportamentos humanos defensivos na população da época, especialmente por ter perdurado na Espanha e em Portugal durante quase 300 anos, ou no mínimo quinze gerações.\n\nEmbora a Inquisição tenha terminado há mais de um século, a pergunta que fiz a vários sociólogos, historiadores e psicólogos era se alguns desses comportamentos culturais não poderiam ter-se perpetuado entre nós.\n\nNa maioria, as respostas foram negativas, ou seja, embora alterasse sem dúvida o comportamento da época, nenhum comportamento permanece tanto tempo depois, sem reforço ou estímulo continuado.\n\nNão sou psicólogo nem sociólogo para discordar, mas tenho a impressão de que existem alguns comportamentos estranhos na sociedade brasileira, e que fazem sentido se você os considerar resquícios da era da Inquisição.\n\n\\[…\\] KANITZ, S. A Herança Cultural da Inquisição. In: **Revista Veja**. Ano 38, no 5, 2 fev. 2005 (fragmento)."
+    }
+  },
+  "2010-115": {
+    "originalSha256": "f4a9875d610500aafc4cf012c3e24762bf14bbdc0fbaa84b6bd4bb441d7885d9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 13,
+    "reason": "Restaura das línguas e a formulação No português brasileiro da citação original.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "Resta saber o que ficou das línguas indígenas no Português do Brasil. Serafim da Silva Neto afirma: “No português brasileiro não há, positivamente, influência das línguas africanas ou ameríndias”. Todavia, é difícil de aceitar que um longo período de bilinguismo de dois séculos não deixasse marcas no português do Brasil.\n\nELIA, S. **Fundamentos Histórico-Linguísticos do Português do Brasil.**Rio de Janeiro: Lucerna, 2003 (adaptado).\n\nNo final do século XVIII, no norte do Egito, foi descoberta a Pedra de Roseta, que continha um texto escrito em egípcio antigo, uma versão desse texto chamada “demótico”, e o mesmo texto escrito em grego. Até então, a antiga escrita egípcia não estava decifrada. O inglês Thomas Young estudou o objeto e fez algumas descobertas como, por exemplo, a direção em que a leitura deveria ser feita. Mais tarde, o francês Jean-François Champollion voltou a estudá-la e conseguiu decifrar a antiga escrita egípcia a partir do grego, provando que, na verdade, o grego era a língua original do texto e que o egípcio era uma tradução."
+    }
+  },
+  "2010-119": {
+    "originalSha256": "e5af423526df055029bff4461664a4a53b940c129c800fc605a860facd9a41e4",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura limita na alternativa B, trocada por imita, e separa a marcação de itálico da palavra seguinte.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "**A Internet que você faz**\n\nUma pequena invenção, a _Wikipédia_, mudou o jeito de lidarmos com informações na rede. Trata-se de uma enciclopédia virtual colaborativa, que é feita e atualizada por qualquer internauta que tenha algo a contribuir. Em resumo: é como se você imprimisse uma nova página para a publicação desatualizada que encontrou na biblioteca.\n\nAntigamente, quando precisávamos de alguma informação confiável, tínhamos a enciclopédia como fonte segura de pesquisa para trabalhos, estudos e pesquisa em geral. Contudo, a novidade trazida pela _Wikipédia_ nos coloca em uma nova circunstância, em que não podemos confiar integralmente no que lemos.\n\nPor ter como lema principal a escritura coletiva, seus textos trazem informações que podem ser editadas e reeditadas por pessoas do mundo inteiro. Ou seja, a relevância da informação não é determinada pela tradição cultural, como nas antigas enciclopédias, mas pela dinâmica da mídia.\n\nAssim, questiona-se a possibilidade de serem encontradas informações corretas entre sabotagens deliberadas e contribuições erradas.\n\nNÉO, A. et al. A Internet que você faz. In: **Revista PENSE!** Secretaria de Educação do Estado do Ceará. Ano 2, n°. 3, mar.-abr. 2010 (adaptado).",
+      "alternativeTexts": {
+        "B": "Limita a disseminação do saber, apesar do crescente número de acessos ao site que a abriga, por falta de legitimidade."
+      }
+    }
+  },
+  "2010-121": {
+    "originalSha256": "a635ae1dd8ae4c11afd1d923aca4b43d8f6354ac98de52a0671f690f4e4e2541",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 15,
+    "reason": "Restaura a formulação da alternativa C, sobretudo produto de exportação, alterada para produtor na API.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "C": "“Há um conjunto de necessidades políticas e econômicas com vista à internacionalização do português como identidade e marca econômica.” “É possível que o (Fernando) Pessoa, como produto de exportação, valha mais do que a PT (Portugal Telecom). Tem um valor econômico único.” RIBEIRO, J. A. P. Ministro da Cultura de Portugal. Disponível em: http://ultimahora.publico.clix.pt. Acesso em: 10 nov. 2008."
+      }
+    }
+  },
+  "2010-123": {
+    "originalSha256": "b7f5d14b942785bb3f3343f68db5bb97ca8f69ce7699b4c2fb6dd276ef9953ea",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaura trecho omitido da alternativa B sobre a relação entre consciente e inconsciente.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Do onírico, que misturava sonho com realidade e interagia refletindo a unidade entre o consciente e o inconsciente como um universo único ou pessoal."
+      }
+    }
+  },
+  "2010-126": {
+    "originalSha256": "c858ad6dbea02be45dadf86dd5d4971ff1f3c59f9c87a37ff6f1ed38e0b46446",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 17,
+    "reason": "Restaura o trecho central da tese citada no comando, ausente na API. Revisão independente também restaura delinquência, transcrita sem n.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativesIntroduction": "No Editorial, o autor defende a tese de que “as políticas sociais que procuram evitar a entrada dos jovens no tráfico não terão chance de sucesso enquanto a remuneração oferecida pelos traficantes for tão mais compensatória que aquela oferecida pelos programas do governo”. Para comprovar sua tese, o autor apresenta",
+      "context": "**A carreira do crime**\n\nEstudo feito por pesquisadores da Fundação Oswaldo Cruz sobre adolescentes recrutados pelo tráfico de drogas nas favelas cariocas expõe as bases sociais dessas quadrilhas, contribuindo para explicar as dificuldades que o Estado enfrenta no combate ao crime organizado.\n\nO tráfico oferece ao jovem de escolaridade precária (nenhum dos entrevistados havia completado o ensino fundamental) um plano de carreira bem estruturado, com salários que variam de R$ 400,00 a R$ 12.000 mensais. Para uma base de comparação, convém notar que, segundo dados do IBGE de 2001, 59% da população brasileira com mais de dez anos que declara ter uma atividade remunerada ganha no máximo o ‘piso salarial’ oferecido pelo crime. Dos traficantes ouvidos pela pesquisa, 25% recebiam mais de R$ 2.000 mensais; já na população brasileira essa taxa não ultrapassa 6%.\n\nTais rendimentos mostram que as políticas sociais compensatórias, como o Bolsa-Escola (que paga R$ 15 mensais por aluno matriculado), são por si só incapazes de impedir que o narcotráfico continue aliciando crianças provenientes de estratos de baixa renda: tais políticas aliviam um pouco o orçamento familiar e incentivam os pais a manterem os filhos estudando, o que de modo algum impossibilita a opção pela delinquência. No mesmo sentido, os programas voltados aos jovens vulneráveis ao crime organizado (circo-escola, oficinas de cultura, escolinhas de futebol) são importantes, mas não resolvem o problema.\n\nA única maneira de reduzir a atração exercida pelo tráfico é a repressão, que aumenta os riscos para os que escolhem esse caminho. Os rendimentos pagos aos adolescentes provam isso: eles são elevados precisamente porque a possibilidade de ser preso não é desprezível. É preciso que o Executivo federal e os estaduais desmontem as organizações paralelas erguidas pelas quadrilhas, para que a certeza de punição elimine o fascínio dos salários do crime.\n\nEditorial. **Folha de São Paulo.** 15 jan. 2003."
+    }
+  },
+  "2010-127": {
+    "originalSha256": "70112525331c5e31aaf0a85145d52c260582befec025e940f4f7d4644fe842cf",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 17,
+    "reason": "Restaura concordância e pontuação do trecho e nome Fuzeira no comando, conforme o original.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "Venho solicitar a clarividente atenção de Vossa Excelência para que seja conjurada uma calamidade que está  prestes a desabar em cima da juventude feminina do Brasil. Refiro-me, senhor presidente, ao movimento entusiasta que está empolgando centenas de moças, atraindo-as para se transformarem em jogadoras de futebol, sem se levar em conta que a mulher não poderá praticar este esporte violento sem afetar, seriamente, o equilíbrio fisiológico das suas funções orgânicas, devido à natureza que dispôs a ser mãe. Ao que dizem os jornais, no Rio de Janeiro, já estão formados nada menos de dez quadros femininos. Em São Paulo e Belo Horizonte também já estão se constituindo outros. E, neste crescendo, dentro de um ano, é provável que em  todo o Brasil estejam organizados uns 200 clubes femininos de futebol: ou seja: 200 núcleos destroçados da  saúde de 2,2 mil futuras mães, que, além do mais, ficarão presas a uma mentalidade depressiva e propensa aos exibicionismos rudes e extravagantes.\n\nColuna Pênalti. **Carta Capital.** 28 abr. 2010.",
+      "alternativesIntroduction": "O trecho é parte de uma carta de um cidadão brasileiro, José Fuzeira, encaminhada, em abril de 1940, ao então presidente da República Getúlio Vargas. As opções linguísticas de Fuzeira mostram que seu texto foi elaborado em linguagem"
+    }
+  },
+  "2010-128": {
+    "originalSha256": "dfe55d0859bc0fb66e92d2f6898fd9b764172437bf17e2f3a0707f2d55ec24d9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 18,
+    "reason": "Restaura formulações do trecho de Quincas Borba alteradas na transcrição.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "**Capítulo III**\n\nUm criado trouxe o café. Rubião pegou na xícara e, enquanto lhe deitava açúcar, ia disfarçadamente mirando  a bandeja, que era de prata lavrada. Prata, ouro, eram os metais que amava de coração; não gostava de  bronze, mas o amigo Palha disse-lhe que era matéria de preço, e assim se explica este par de figuras que aqui está na sala: um Mefistófeles e um Fausto. Tivesse, porém, de escolher, escolheria a bandeja – primor de argentaria, execução fina  e acabada. O criado esperava teso e sério. Era espanhol; e não foi sem resistência  que Rubião o aceitou das mãos de Cristiano; por mais que lhe dissesse que estava acostumado aos seus crioulos de Minas, e não queria línguas estrangeiras em casa, o amigo Palha insistiu, demonstrando-lhe a  necessidade de ter criados brancos. Rubião cedeu com pena. O seu bom pajem, que ele queria pôr na sala, como um pedaço da província, nem o pôde deixar na cozinha, onde reinava um francês, Jean; foi degradado a outros serviços.\n\nASSIS, M. Quincas Borba. In: **Obra completa**. V.1. Rio de Janeiro: Nova Aguilar, 1993 (fragmento)."
+    }
+  },
+  "2010-129": {
+    "originalSha256": "fd3342d6b290cc9403ccb38d6fee1ff9c86e380bb95639402d435367a1134782",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 18,
+    "reason": "Restaura final do período sobre violência e início da oração sobre o regime posterior à abolição.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "**Negrinha  \n**\n\nNegrinha era uma pobre órfã de sete anos. Preta? Não; fusca, mulatinha escura, de cabelos ruços e olhos assustados.  \nNascera na senzala, de mãe escrava, e seus primeiros anos vivera-os pelos cantos escuros da cozinha, sobre velha esteira e trapos imundos. Sempre escondida, que a patroa não gostava de crianças.  \nExcelente senhora, a patroa. Gorda, rica, dona do mundo, amimada dos padres, com lugar certo na igreja e  camarote de luxo reservado no céu. Entaladas as banhas no trono (uma cadeira de balanço na sala de jantar),  ali bordava, recebia as amigas e o vigário, dando audiências, discutindo o tempo. Uma virtuosa senhora em  suma – “dama de grandes virtudes apostólicas, esteio da religião e da moral”, dizia o reverendo.  \nÓtima, a dona Inácia.  \nMas não admitia choro de criança. Ai! Punha-lhe os nervos em carne viva.  \n\\[…\\]  \nA excelente dona Inácia era mestra na arte de judiar de crianças. Vinha da escravidão, fora senhora de escravos – e daquelas ferozes, amigas de ouvir cantar o bolo e estalar o bacalhau. Nunca se afizera ao regime novo – essa indecência de negro igual.\n\nLOBATO, M. Negrinha. In: MORICONE, I. **Os cem melhores contos brasileiros do século.** Rio de Janeiro: Objetiva, 2000 (fragmento)."
+    }
+  },
+  "2010-130": {
+    "originalSha256": "acc5b6a25c2306079a19114c710044db7c5741a989ff35498a6487a53fb71766",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 18,
+    "reason": "Restaura a caracterização incorreta de enquanto proposta pela alternativa B; o distrator deve permanecer integral.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativeTexts": {
+        "B": "Enquanto tem um significado alternativo, porque conecta duas opções possíveis para serem aplicadas no jogo."
+      }
+    }
+  },
+  "2010-132": {
+    "originalSha256": "2793e50133c12a7bf46a29b1759e96db71a7271042d16aa4e3d34d828b5b1156",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura o final do comando que solicita conclusão com base no gráfico.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "alternativesIntroduction": "Segundo pesquisas recentes, é irrelevante a diferença entre sexos para se avaliar a inteligência. Com relação às tendências para áreas do conhecimento, por sexo, levando em conta a matrícula em cursos universitários brasileiros, as informações do gráfico asseguram que"
+    }
+  },
+  "2010-133": {
+    "originalSha256": "32669419ba6b8eea87efe2907f902dbee9832403edb33cb8da8039a86c16d979",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura a oração sobre permanência da palavra e reorganização da comunicação, núcleo do argumento. Revisão independente remove espaço indevido na forma Fala-se.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "É muito raro que um novo modo de comunicação ou de expressão suplante completamente os anteriores. Fala-se menos desde que a escrita foi inventada? Claro que não. Contudo, a função da palavra viva mudou, uma parte de suas missões nas culturas puramente orais tendo sido preenchida pela escrita: transmissão dos conhecimentos e das narrativas, estabelecimento de contratos, realização dos principais atos rituais ou sociais etc. Novos estilos de conhecimento (o conhecimento “teórico”, por exemplo) e novos gêneros (o código de leis, o romance etc.) surgiram. A escrita não fez com que a palavra desaparecesse, ela complexificou e reorganizou o sistema da comunicação e da memória social.\n\nA fotografia substituiu a pintura? Não, ainda há pintores ativos. As pessoas continuam, mais do que nunca, a visitar museus, exposições e galerias, compram as obras dos artistas para pendurá-las em casa. Em contrapartida, é verdade que os pintores, os desenhistas, os gravadores, os escultores não são mais – como foram até o século XIX – os únicos produtores de imagens.\n\nLÉVY, P. **Cibercultura**. São Paulo: Ed. 34, 1999 (fragmento)."
+    }
+  },
+  "2010-134": {
+    "originalSha256": "8ad929c8abd699180ef97105b6324b2ed1882385496bd431ff2229fef04d19be",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura a grafia vizinhança no texto II, conforme PDF.",
+    "reviewedAt": "2026-10-22T00:58:38.019Z",
+    "fields": {
+      "context": "**Texto I  \n**  \nEu amo a rua. Esse sentimento de natureza toda íntima não vos seria revelado por mim se não julgasse, e  razões não tivesse para julgar, que este amor assim absoluto e assim exagerado é partilhado por todos vós.  Nós somos irmãos, nós nos sentimos parecidos e iguais; nas cidades, nas aldeias, nos povoados, não porque  soframos, com a dor e os desprazeres, a lei e a polícia, mas porque nos une, nivela e agremia o amor da rua.  É este mesmo o sentimento imperturbável e indissolúvel, o único que, como a própria vida, resiste às idades e  às épocas.\n\nRIO, J. A rua. In: **A alma encantadora das ruas.** São Paulo: Companhia das Letras, 2008 (fragmento).\n\n**Texto II**\n\nA rua dava-lhe uma força de fisionomia, mais consciência dela. Como se sentia estar no seu reino, na região  em que era rainha e imperatriz. O olhar cobiçoso dos homens e o de inveja das mulheres acabavam o  sentimento de sua personalidade, exaltavam-no até. Dirigiu-se para a rua do Catete com o seu passo miúdo e  sólido. \\[…\\] No caminho trocou cumprimento com as raparigas pobres de uma casa de cômodos da vizinhança.  \n\\[…\\] E debaixo dos olhares maravilhados das pobres raparigas, ela continuou o seu caminho, arrepanhando a saia, satisfeita que nem uma duquesa atravessando os seus domínios.\n\nBARRETO, L. Um e outro. In: **Clara dos anjos.** Rio de Janeiro: Editora Mérito (fragmento)."
+    }
+  },
+  "2010-125": {
+    "originalSha256": "76a7ae16a4751ac7bdd9d71df814ec2d3165b6547cd93582cf7284bde2d4216d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 17,
+    "reason": "Restaura a palavra delinquência, transcrita sem n na API, conforme página 17 do PDF oficial.",
+    "reviewedAt": "2026-10-22T01:04:11.761Z",
+    "fields": {
+      "context": "**A carreira do crime**\n\nEstudo feito por pesquisadores da Fundação Oswaldo Cruz sobre adolescentes recrutados pelo tráfico de drogas nas favelas cariocas expõe as bases sociais dessas quadrilhas, contribuindo para explicar as dificuldades que o Estado enfrenta no combate ao crime organizado.\n\nO tráfico oferece ao jovem de escolaridade precária (nenhum dos entrevistados havia completado o ensino fundamental) um plano de carreira bem estruturado, com salários que variam de R$ 400,00 a R$ 12.000 mensais. Para uma base de comparação, convém notar que, segundo dados do IBGE de 2001, 59% da população brasileira com mais de dez anos que declara ter uma atividade remunerada ganha no máximo o ‘piso salarial’ oferecido pelo crime. Dos traficantes ouvidos pela pesquisa, 25% recebiam mais de R$ 2.000 mensais; já na população brasileira essa taxa não ultrapassa 6%.\n\nTais rendimentos mostram que as políticas sociais compensatórias, como o Bolsa-Escola (que paga R$ 15 mensais por aluno matriculado), são por si só incapazes de impedir que o narcotráfico continue aliciando crianças provenientes de estratos de baixa renda: tais políticas aliviam um pouco o orçamento familiar e incentivam os pais a manterem os filhos estudando, o que de modo algum impossibilita a opção pela delinquência. No mesmo sentido, os programas voltados aos jovens vulneráveis ao crime organizado (circo-escola, oficinas de cultura, escolinhas de futebol) são importantes, mas não resolvem o problema.\n\nA única maneira de reduzir a atração exercida pelo tráfico é a repressão, que aumenta os riscos para os que escolhem esse caminho. Os rendimentos pagos aos adolescentes provam isso: eles são elevados precisamente porque a possibilidade de ser preso não é desprezível. É preciso que o Executivo federal e os estaduais desmontem as organizações paralelas erguidas pelas quadrilhas, para que a certeza de punição elimine o fascínio dos salários do crime.\n\nEditorial. **Folha de São Paulo.** 15 jan. 2003."
+    }
+  },
+  "2010-5": {
+    "originalSha256": "e8d36caa8cdfeb4bf78b3d882a95d4097a26cf6de2370c3c1cfe9581a2497b21",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura a vírgula após TEIXEIRA na referência bibliográfica, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "![](https://enem.dev/2010/questions/5/0507e0cd-2002-4267-8a14-b1061254b765.jpg)\n\nTEIXEIRA, W. et al. (Orgs). **Decifrando a Terra.** São Paulo: Companhia Editora Nacional, 2009."
+    }
+  },
+  "2010-6": {
+    "originalSha256": "d98a3bf097c42cf35e6117535209c3874354e4184103c4ef81ea7d6c620fdaea",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 3,
+    "reason": "Restaura a vírgula após TEIXEIRA na referência bibliográfica, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "![](https://enem.dev/2010/questions/6/aa83a948-e33c-4b98-b195-2e781566a1f4.jpg)\n\nTEIXEIRA, W. et al. (Orgs). **Decifrando a Terra.** São Paulo: Companhia Editora Nacional, 2009."
+    }
+  },
+  "2010-11": {
+    "originalSha256": "045b541ded4ea2744e4cd677ea108df216c1edb91c8cd363ac504eb40f967a38",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura o plural interferências na alternativa E, conforme o original.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "alternativeTexts": {
+        "E": "Faziam interferências do processo produtivo por técnicos e gerentes com vistas a determinar o ritmo de produção."
+      }
+    }
+  },
+  "2010-12": {
+    "originalSha256": "9522485d81b1494a591d77079a1a5602c7a37701982db0a3de1f4f244d1eb611",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 4,
+    "reason": "Restaura a vírgula da autoria na referência e a preposição a omitida na alternativa D, conferidas no original.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "A serraria construía ramais ferroviários que adentravam as grandes matas, onde grandes locomotivas com guindastes e correntes gigantescas de mais de 100 metros arrastavam, para as composições de trem, as toras que jaziam abatidas por equipes de trabalhadores que anteriormente passavam pelo local. Quando o guindaste arrastava as grandes toras em direção à composição de trem, os ervais nativos que existiam em meio às matas eram destruídos por este deslocamento.\n\nMACHADO, P. P. **Lideranças do Contestado**. Campinas: Unicamp, 2004 (adaptado).",
+      "alternativeTexts": {
+        "D": "A diminuição do poder dos grandes coronéis da região, que passavam a disputar o poder político com os novos agentes."
+      }
+    }
+  },
+  "2010-13": {
+    "originalSha256": "72fdf43e1dea7b9c39178d12060ea3ae162216e723e38389ea7d32ca0d9b0085",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 5,
+    "reason": "Restaura a pontuação final da referência e sua grafia Disponível, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "As secas e o apelo econômico da borracha — produto que no final do século XIX alcançava preços altos nos mercados internacionais — motivaram a movimentação de massas humanas oriundas do Nordeste do Brasil para o Acre. Entretanto, até o início do século XX, essa região pertencia à Bolívia, embora a maioria da sua população fosse brasileira e não obedecesse à autoridade boliviana.\n\nPara reagir à presença de brasileiros, o governo de La Paz negociou o arrendamento da região a uma entidade internacional, o Bolivian Syndicate, iniciando violentas disputas dos dois lados da fronteira. O conflito só terminou em 1903, com a assinatura do Tratado de Petrópolis, pelo qual o Brasil comprou o território por 2 milhões de libras esterlinas.\n\nDisponível em: www.mre.gov.br.  Acesso em: 03 nov. 2008 (adaptado)."
+    }
+  },
+  "2010-21": {
+    "originalSha256": "3da1cc490d0770edcf1bbc3fc73db282ab50ad28e42db75152e950501d066022",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Remove a vírgula indevida entre cultural e dessa região e restaura o ponto final da alternativa C.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "As ruínas do povoado de Canudos, no sertão norte da Bahia, além de significativas para a identidade cultural dessa região, são úteis às investigações sobre a Guerra de Canudos e o modo de vida dos antigos revoltosos.",
+      "alternativeTexts": {
+        "C": "Núcleos urbanos e etnográficos."
+      }
+    }
+  },
+  "2010-22": {
+    "originalSha256": "f0055f39c43a611c6d14e57bbdd09c86e3de89e03d1e97c0e8ab463b671451ec",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 7,
+    "reason": "Remove o parêntese inicial acrescentado na importação e restaura a vírgula na referência de Doratioto.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "Substitui-se então uma história crítica, profunda, por uma crônica de detalhes onde o patriotismo e a bravura dos nossos soldados encobrem a vilania dos motivos que levaram a Inglaterra a armar brasileiros e argentinos para a destruição da mais gloriosa república que já se viu na América Latina, a do Paraguai.\n\nCHIAVENATTO, J. J. Genocídio americano: A Guerra do  \nParaguai. São Paulo: Brasiliense, 1979 (adaptado).\n\nO imperialismo inglês, “destruindo o Paraguai, mantém o status quo na América Meridional, impedindo a ascensão do seu único Estado economicamente livre”. Essa teoria conspiratória vai contra a realidade dos fatos e não tem provas documentais. Contudo essa teoria tem alguma repercussão.\n\nDORATIOTO, F. Maldita guerra: nova história da  \nGuerra do Paraguai. São Paulo: Cia. das Letras, 2002  \n(adaptado)."
+    }
+  },
+  "2010-25": {
+    "originalSha256": "e87e0459640f7d31ea4a011dd59cb10065349335c0984b5d7094daede1f56869",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 8,
+    "reason": "Restaura vírgula e pontuação final da referência e o ponto final da alternativa A. A data 1810 do texto-base consta no PDF e é preservada, com ressalva histórica no comentário.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "Em 2008 foram comemorados os 200 anos da mudança da família real portuguesa para o Brasil, onde foi instalada a sede do reino. Uma sequência de eventos importantes ocorreu no período 1808-1821, durante os 13 anos em que D. João VI e a família real portuguesa permaneceram no Brasil.\n\nEntre esses eventos, destacam-se os seguintes:\n\n• Bahia – 1808: Parada do navio que trazia a família real  \nportuguesa para o Brasil, sob a proteção da marinha  \nbritânica, fugindo de um possível ataque de Napoleão.  \n• Rio de Janeiro – 1808: desembarque da família real  \nportuguesa na cidade onde residiriam durante sua  \npermanência no Brasil.  \n• Salvador – 1810: D. João VI assina a carta régia de  \nabertura dos portos ao comércio de todas as nações  \namigas, ato antecipadamente negociado com a Inglaterra  \nem troca da escolta dada à esquadra portuguesa.  \n• Rio de Janeiro – 1816: D. João VI torna-se rei do Brasil  \ne de Portugal, devido à morte de sua mãe, D. Maria I.  \n• Pernambuco – 1817: As tropas de D. João VI sufocam  \na revolução republicana.\n\nGOMES, L. 1808: como uma rainha louca, um príncipe  \nmedroso e uma corte corrupta enganaram Napoleão e  \nmudaram a história de Portugal e do Brasil. São Paulo:  \nEditora Planeta, 2007 (adaptado).",
+      "alternativeTexts": {
+        "A": "A decadência do império britânico, em razão do contrabando de produtos ingleses através dos portos brasileiros."
+      }
+    }
+  },
+  "2010-30": {
+    "originalSha256": "2169a7cc42de16dd9dd6cbb374af8053825b78bdfa8cbad3ec5d91836d6ee479",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 9,
+    "reason": "Restaura o ponto após O Príncipe na referência bibliográfica, conforme o original.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "O príncipe, portanto, não deve se incomodar com a reputação de cruel, se seu propósito é manter o povo unido e leal. De fato, com uns poucos exemplos duros poderá ser mais clemente do que outros que, por muita piedade, permitem os distúrbios que levem ao assassínio e ao roubo.\n\nMAQUIAVEL, N. O Príncipe. São Paulo: Martin Claret, 2009."
+    }
+  },
+  "2010-35": {
+    "originalSha256": "4f4d195ce48218b5603a831be2e9129d8dff3957db1e1ccaac405b6cdf36e3c7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 10,
+    "reason": "Restaura a segunda barra no endereço da referência da canção, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "**Opinião**\n\nPodem me prender  \nPodem me bater  \nPodem até deixar-me sem comer  \nQue eu não mudo de opinião.  \nAqui do morro eu não saio não  \nAqui do morro eu não saio não.\n\nSe não tem água  \nEu furo um poço\n\nSe não tem carne  \nEu compro um osso e ponho na sopa  \nE deixa andar, deixa andar…\n\nFalem de mim  \nQuem quiser falar  \nAqui eu não pago aluguel  \nSe eu morrer amanhã seu doutor,  \nEstou pertinho do céu\n\nZé Ketti. Opinião. Disponível em: http://www.mpbnet.com.br.  \nAcesso em: 28 abr. 2010."
+    }
+  },
+  "2010-36": {
+    "originalSha256": "8adbee0039c77613cfca066a898ccc80871b76eecc82f4d941da80fa23e2f81f",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Recupera o título A chegada da televisão, presente no original e ausente da importação.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "**A chegada da televisão**\n\nA caixa de pandora tecnológica penetra nos lares e libera suas cabeças falantes, astros, novelas, noticiários e as fabulosas, irresistíveis garotas-propaganda, versões modernizadas do tradicional homem-sanduíche.\n\nSEVCENKO, N. (Org). História da Vida Privada no Brasil 3.  \nRepública: da Belle Époque à Era do Rádio.  \nSão Paulo: Cia das Letras, 1998."
+    }
+  },
+  "2010-38": {
+    "originalSha256": "2f1e3d45d2c5e6c7d100a849d355449b624b2d49defa1a9a847135b90f0070fd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 11,
+    "reason": "Restaura a vírgula após SANTOS na referência bibliográfica, conforme o original.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "A poluição e outras ofensas ambientais ainda não tinham esse nome, mas já eram largamente notadas no século XIX, nas grandes cidades inglesas e continentais. E a própria chegada ao campo das estradas de ferro suscitou protestos. A reação antimaquinista, protagonizada pelos diversos luddismos, antecipa a batalha atual dos ambientalistas. Esse era, então, o combate social contra os miasmas urbanos.\n\nSANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: EDUSP, 2002 (adaptado)."
+    }
+  },
+  "2010-41": {
+    "originalSha256": "61b90acbdf0e152ec4462def041e0daec9cf6eb6230715190a469b6ea219d9ff",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 12,
+    "reason": "Restaura tão, Lésbicas, o endereço e a referência do primeiro texto; remove o marcador TEXTO II inexistente no original e corrige o acento indevido em política na alternativa A.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "“Pecado nefando” era expressão correntemente utilizada pelos inquisidores para a sodomia. Nefandus: o que não pode ser dito. A Assembleia de clérigos reunida em Salvador, em 1707, considerou a sodomia “tão péssimo e horrendo crime”, tão contrário à lei da natureza, que “era indigno de ser nomeado” e, por isso mesmo, nefando.\n\nNOVAIS, F.; MELLO E SOUZA, L. História da Vida Privada no Brasil. V. 1. São Paulo: Companhia das Letras, 1997 (adaptado).\n\nO número de homossexuais assassinados no Brasil bateu o recorde histórico em 2009. De acordo com o Relatório Anual de Assassinato de Homossexuais (LGBT – Lésbicas, Gays, Bissexuais e Travestis), nesse ano foram registrados 195 mortos por motivação homofóbica no País.\n\nDisponível em: www.alemdanoticia.com.br/ultimas_noticias.php?codnoticia=3871. Acesso em: 29 abr. 2010 (adaptado).",
+      "alternativeTexts": {
+        "A": "À baixa representatividade política de grupos organizados que defendem os direitos de cidadania dos homossexuais."
+      }
+    }
+  },
+  "2010-42": {
+    "originalSha256": "9077502392b39264841d433f2ef0b2690ff91763475cc64b7f634fdfe71204b3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 12,
+    "reason": "Recupera o título da notícia sobre o Judiciário chileno, omitido na importação.",
+    "reviewedAt": "2026-10-23T19:31:44.391Z",
+    "fields": {
+      "context": "**Judiciário contribuiu com ditadura no Chile, diz Juiz Guzmán Tapia**\n\nAs cortes de apelação rejeitaram mais de 10 mil habeas corpus nos casos das pessoas desaparecidas. Nos tribunais militares, todas as causas foram concluídas com suspensões temporárias ou definitivas, e os desaparecimentos políticos tiveram apenas trâmite formal na Justiça. Assim, o Poder Judiciário contribuiu para que os agentes estatais ficassem impunes.\n\nDisponível em: http://www.cartamaior.com.br.  \nAcesso em: 20 jul. 2010 (adaptado)."
+    }
+  },
+  "2010-48": {
+    "originalSha256": "0356a027b8a8cb8575194d7bfc9238a2040b60db80e3d66a6754edf928072414",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 14,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Todo carro possui uma caixa de fusíveis, que são utilizados para proteção dos circuitos elétricos. Os fusíveis são constituídos de um material de baixo ponto de fusão, como o estanho, por exemplo, e se fundem quando percorridos por uma corrente elétrica igual ou maior do que aquela que são capazes de suportar. O quadro a seguir mostra uma série de fusíveis e os valores de corrente por eles suportados.\n\n![](/assets/questions/2010/48/b750cefc-08d5-423f-bba9-7e5e64aed3dc.png)"
+    }
+  },
+  "2010-53": {
+    "originalSha256": "16d3f886a0907e45b9811723b81bc862df40fbcc97abf423027a1c5534a28d20",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaura a notação do íon fosfato, com índice e carga, conferida no PDF oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O fósforo, geralmente representado pelo íon de fosfato (\\(\\mathrm{PO_4^{3-}}\\)), é um ingrediente insubstituível da vida, já que é parte constituinte das membranas celulares e das moléculas do DNA e do trifosfato de adenosina (ATP), principal forma de armazenamento de energia das células. O fósforo utilizado nos fertilizantes agrícolas é extraído de minas, cujas reservas estão cada vez mais escassas. Certas práticas agrícolas aceleram a erosão do solo, provocando o transporte de fósforo para sistemas aquáticos, que fica imobilizado nas rochas. Ainda, a colheita das lavouras e o transporte dos restos alimentares para os lixões diminuem a disponibilidade dos íons no solo. Tais fatores têm ameaçado a sustentabilidade desse íon."
+    }
+  },
+  "2010-54": {
+    "originalSha256": "ef96632b1b91c785fc2baf10fde17573880e54392ab8860f2c54588baa0e0c46",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 16,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Júpiter, conhecido como o gigante gasoso, perdeu uma das suas listras mais proeminentes, deixando o seu hemisfério sul estranhamente vazio. Observe a região em que a faixa sumiu, destacada pela seta.\n\n![](/assets/questions/2010/54/c147e274-c7fa-4112-b084-aacf05f6b016.png)\n\nDisponível em: http://www.inovacaotecnologica.com.br. Acesso em: 12 maio 2010 (adaptado).\n\nA aparência de Júpiter é tipicamente marcada por duas faixas escuras em sua atmosfera — uma no hemisfério norte e outra no hemisfério sul. Como o gás está constantemente em movimento, o desaparecimento da faixa no planeta relaciona-se ao movimento das diversas camadas de nuvens em sua atmosfera. A luz do Sol, refletida nessas nuvens, gera a imagem que é captada pelos telescópios, no espaço ou na Terra."
+    }
+  },
+  "2010-63": {
+    "originalSha256": "45abfeea18602fb74c042dd32af3089909c4585ebdddcb6183d93c281d219ec0",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "O crescimento da produção de energia elétrica ao longo do tempo tem influenciado decisivamente o progresso da humanidade, mas também tem criado uma séria preocupação: o prejuízo ao meio ambiente. Nos próximos anos, uma nova tecnologia de geração de energia elétrica deverá ganhar espaço: as células a combustível hidrogênio/oxigênio.\n\n![](/assets/questions/2010/63/4f40bc17-01f3-4962-8574-593ac0409adb.jpg)\n\nVILLULLAS, H. M; TICIANELLI, E. A; GONZÁLEZ, E. R. Química Nova Na Escola. Nº15, maio 2002."
+    }
+  },
+  "2010-64": {
+    "originalSha256": "61501f1a2c8b8164c832b83ecabe0c891d5e26ca8f5fdabfc617cd15dab27569",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura a grafia Lamarck e a palavra seria na alternativa C conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativesIntroduction": "Suponha que um biólogo tentasse explicar a origem das adaptações mencionadas no texto utilizando conceitos da teoria evolutiva de Lamarck. Ao adotar esse ponto de vista, ele diria que",
+      "alternativeTexts": {
+        "C": "O corpo anelado é uma característica fortemente adaptativa, mas seria transmitida apenas à primeira geração de descendentes."
+      }
+    }
+  },
+  "2010-65": {
+    "originalSha256": "4066304e35e2ec00762bb044bc124a3111ba9c5b57aefcb8d42f6b8423f66251",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 19,
+    "reason": "Restaura palavras, fórmulas, índices e cargas das equações I–IV conforme o caderno oficial. Preserva A− na IV, erro de carga já presente no original e explicitamente ressalvado no comentário.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "As misturas efervescentes, em pó ou em comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo.\n\nAs matérias-primas que atuam na efervescência são, em geral, o ácido tartárico ou o ácido cítrico que reagem com um sal de caráter básico, como o bicarbonato de sódio (\\(\\mathrm{NaHCO_3}\\)), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação do gás carbônico — gerando a efervescência.\n\nAs equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e \\(\\mathrm{H_3A}\\) representa o ácido cítrico.\n\nI — \\(\\mathrm{NaHCO_3\\rightarrow Na^++HCO_3^-}\\)\n\nII — \\(\\mathrm{H_2CO_3\\rightleftharpoons H_2O+CO_2}\\)\n\nIII — \\(\\mathrm{HCO_3^-+H^+\\rightleftharpoons H_2CO_3}\\)\n\nIV — \\(\\mathrm{H_3A\\rightleftharpoons3H^++A^-}\\)"
+    }
+  },
+  "2010-66": {
+    "originalSha256": "b313c651a23828e16f0c4f723aa8044ddd3ffc036166ac5ee8e567b9bf728333",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura índices e carga das fórmulas nas alternativas, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(\\mathrm{S}\\) e \\(\\mathrm{CH_4}\\)",
+        "B": "\\(\\mathrm{S}\\) e \\(\\mathrm{NO_3^-}\\)",
+        "C": "\\(\\mathrm{H_2}\\) e \\(\\mathrm{NO_3^-}\\)",
+        "D": "\\(\\mathrm{CO_2}\\) e \\(\\mathrm{CH_4}\\)",
+        "E": "\\(\\mathrm{H_2}\\) e \\(\\mathrm{CO_2}\\)"
+      }
+    }
+  },
+  "2010-67": {
+    "originalSha256": "6708794bce0d2aba656786a630a4ec8baeb761921a6829126540ca3144148fdd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 20,
+    "reason": "Restaura a equação e os textos das alternativas C/E com palavras trocadas na importação, conforme o caderno oficial.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "alternativesIntroduction": "Atualmente, uma das formas de se utilizar a energia solar tem sido armazená-la por meio de processos químicos endotérmicos que mais tarde podem ser revertidos para liberar calor. Considerando a reação: \\(\\mathrm{CH_{4(g)}+H_2O_{(v)}}+\\text{calor}\\rightleftharpoons\\mathrm{CO_{(g)}+3H_{2(g)}}\\) e analisando-a como potencial mecanismo para o aproveitamento posterior da energia solar, conclui-se que se trata de uma estratégia",
+      "alternativeTexts": {
+        "C": "Insatisfatória, uma vez que há formação de gás CO que não possui conteúdo energético passível de ser aproveitado posteriormente e é considerado um gás poluente.",
+        "E": "Satisfatória, uma vez que a reação direta ocorre com liberação de calor havendo ainda a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para obtenção de energia e realização de trabalho útil."
+      }
+    }
+  },
+  "2010-68": {
+    "originalSha256": "8be398804799e3d9bedc3ba24b84c9205357415c1c541513f931ad9bb044a99d",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010. Inclui regra de leitura e preço de R$ 0,20/kWh.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A energia elétrica consumida nas residências é medida, em quilowatt-hora, por meio de um relógio medidor de consumo. Nesse relógio, da direita para esquerda, tem-se o ponteiro da unidade, da dezena, da centena e do milhar. Se um ponteiro estiver entre dois números, considera-se o último número ultrapassado pelo ponteiro. Suponha que as medidas indicadas nos esquemas seguintes tenham sido feitas em uma cidade em que o preço do quilowatt-hora fosse de R$ 0,20.\n\n![](/assets/questions/2010/68/a0bb7b9d-65ff-4a3d-b370-d26ece33e59c.png)\n\nFILHO, A. G.; BAROLLI, E. Instalação Elétrica. São Paulo: Scipione, 1997."
+    }
+  },
+  "2010-69": {
+    "originalSha256": "d33a7396278232fb4d43a69c6b02b4499e9d96cbeb0ab1bcded778b61d975229",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "No que tange à tecnologia de combustíveis alternativos, muitos especialistas em energia acreditam que os alcoóis vão crescer em importância em um futuro próximo. Realmente, alcoóis como metanol e etanol têm encontrado alguns nichos para uso doméstico como combustíveis há muitas décadas e, recentemente, vêm obtendo uma aceitação cada vez maior como aditivos, ou mesmo como substitutos para gasolina em veículos. Algumas das propriedades físicas desses combustíveis são mostradas no quadro seguinte.\n\n![](/assets/questions/2010/69/41751926-6bcd-405d-ad63-38c328db607d.jpg)"
+    }
+  },
+  "2010-70": {
+    "originalSha256": "72e905a06b3b7fc6ef90edde8514dcfd7a1c448e70aafd453290ed1c330e2281",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Observe a tabela seguinte. Ela traz especificações técnicas constantes no manual de instruções fornecido pelo fabricante de uma torneira elétrica.\n\n![](/assets/questions/2010/70/30a85d80-8071-49b5-808d-4ed735bda2da.png)\n\nDisponível em: http://www.cardal.com.br/manualprod/Manuais/Torneira%20Suprema/-Manual_Torneira_Suprema_roo.pdf"
+    }
+  },
+  "2010-73": {
+    "originalSha256": "ca48ff242d91a849f941ada5eca00f9455336740db38b956ddc922ef4009669e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010. Recupera composição da bateria, composição específica da pasta e rendimento de 91%, essenciais ao cálculo. Revisão independente: Restaurado o índice 3 de PbCO₃ também no comando.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "A composição média de uma bateria automotiva esgotada é de aproximadamente 32% \\(\\mathrm{Pb}\\), 3% \\(\\mathrm{PbO}\\), 17% \\(\\mathrm{PbO_2}\\) e 36% \\(\\mathrm{PbSO_4}\\). A média de massa da pasta residual de uma bateria usada é de 6 kg, onde 19% é \\(\\mathrm{PbO_2}\\), 60% \\(\\mathrm{PbSO_4}\\) e 21% \\(\\mathrm{Pb}\\). Entre todos os compostos de chumbo presentes na pasta, o que mais preocupa é o sulfato de chumbo (II), pois nos processos pirometalúrgicos, em que os compostos de chumbo (placas das baterias) são fundidos, há a conversão de sulfato em dióxido de enxofre, gás muito poluente.\n\nPara reduzir o problema das emissões de \\(\\mathrm{SO_{2(g)}}\\), a indústria pode utilizar uma planta mista, ou seja, utilizar o processo hidrometalúrgico, para a dessulfuração antes da fusão do composto de chumbo. Nesse caso, a redução de sulfato presente no \\(\\mathrm{PbSO_4}\\) é feita via lixiviação com solução de carbonato de sódio (\\(\\mathrm{Na_2CO_3}\\)) 1 M a 45 °C, em que se obtém o carbonato de chumbo (II) com rendimento de 91%. Após esse processo, o material segue para a fundição para obter o chumbo metálico.\n\n![](/assets/questions/2010/73/77d2c218-f8ec-4aba-83d2-701db70cdd89.jpg)",
+      "alternativesIntroduction": "Segundo as condições do processo apresentado para a obtenção de carbonato de chumbo (II) por meio da lixiviação por carbonato de sódio e considerando uma massa de pasta residual de uma bateria de 6 kg, qual quantidade aproximada, em quilogramas, de \\(\\mathrm{PbCO_3}\\) é obtida?"
+    }
+  },
+  "2010-77": {
+    "originalSha256": "b089d08c7bb85aeba96aa9995576c598b97573814fa6462d1bf81c6720013ea9",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura contexto ausente na importação, conferido visualmente no caderno oficial azul do primeiro dia de 2010.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "No ano de 2004, diversas mortes de animais por envenenamento no zoológico de São Paulo foram evidenciadas. Estudos técnicos apontam suspeita de intoxicação por monofluoracetato de sódio, conhecido como composto 1080 e ilegalmente comercializado como raticida. O monofluoracetato de sódio é um derivado do ácido monofluoracético e age no organismo dos mamíferos bloqueando o ciclo de Krebs, que pode levar à parada da respiração celular oxidativa e ao acúmulo de amônia na circulação.\n\n![](/assets/questions/2010/77/ccb7182d-278b-4d5d-9626-03df5e848ed4.jpg)\n\nDisponível em: http://www1.folha.uol.com.br. Acesso em: 05 ago. 2010 (adaptado)."
+    }
+  },
+  "2010-80": {
+    "originalSha256": "2db2c4e86cd55ab201cb73d42649babd92f78677779c0cbf66ea19801980b9c6",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Corrige molácula para molécula, conforme o caderno oficial, preservando estruturas das alternativas.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Os pesticidas modernos são divididos em várias classes, entre as quais se destacam os organofosforados, materiais que apresentam efeito tóxico agudo para os seres humanos. Esses pesticidas contêm um átomo central de fósforo ao qual estão ligados outros átomos ou grupo de átomos como oxigênio, enxofre, grupos metoxi ou etoxi ou um radical orgânico de cadeia longa. Os organofosforados são divididos em três subclasses: Tipo A, na qual o enxofre não se incorpora na molécula; Tipo B, na qual o oxigênio, que faz dupla ligação com fósforo, é substituído pelo enxofre; e Tipo C, no qual dois oxigênios são substituídos por enxofre.\n\nBAIRD, C. Química Ambiental. Bookmam. 2005."
+    }
+  },
+  "2010-82": {
+    "originalSha256": "f55b47178db512742679ce713eaee4a5cf1d47fa470ec7d7176a659a55861ea2",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura fórmulas e cargas químicas; corrige especialmente a alternativa C, cujo original diz parte apolar, enquanto a importação trocou para polar.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "As baterias de Ni-Cd muito utilizadas no nosso cotidiano não devem ser descartadas em lixos comuns uma vez que uma considerável quantidade de cádmio é volatilizada e emitida para o meio ambiente quando as baterias gastas são incineradas como componente do lixo. Com o objetivo de evitar a emissão de cádmio para a atmosfera durante a combustão é indicado que seja feita a reciclagem dos materiais dessas baterias.\n\nUma maneira de separar o cádmio dos demais compostos presentes na bateria é realizar o processo de lixiviação ácida. Nela, tanto os metais (Cd, Ni e eventualmente Co) como os hidróxidos de íons metálicos \\(\\mathrm{Cd(OH)_{2(s)}}\\), \\(\\mathrm{Ni(OH)_{2(s)}}\\), \\(\\mathrm{Co(OH)_{2(s)}}\\) presentes na bateria, reagem com uma mistura ácida e são solubilizados. Em função da baixa seletividade (todos os íons metálicos são solubilizados), após a digestão ácida, é realizada uma etapa de extração dos metais com solventes orgânicos de acordo com a reação:\n\n![](/assets/questions/2010/82/4176d2dd-3976-430c-85f8-68f6380b5dbb.jpg)\n\nOnde:\n\n\\(\\mathrm{M^{2+}=Cd^{2+},\\ Ni^{2+}\\ ou\\ Co^{2+}}\\)\n\n\\(\\mathrm{HR=C_{16}H_{34}-PO_2H}\\): identificado no gráfico por X\n\n\\(\\mathrm{HR=C_{12}H_{12}-PO_2H}\\): identificado no gráfico por Y\n\nO gráfico mostra resultado da extração utilizando os solventes orgânicos X e Y em diferentes pH.\n\n![](/assets/questions/2010/82/8560bd4b-a670-4304-b5a1-8a6003323e93.jpg)\n\nDisponível em: http://www.scielo.br. Acesso em 28 abr. 2010.",
+      "alternativeTexts": {
+        "A": "As moléculas X e Y atuam como extratores catiônicos uma vez que a parte polar da molécula troca o íon \\(\\mathrm{H^+}\\) pelo cátion do metal.",
+        "B": "As moléculas X e Y atuam como extratores aniônicos uma vez que a parte polar da molécula troca o íon \\(\\mathrm{H^+}\\) pelo cátion do metal.",
+        "C": "As moléculas X e Y atuam como extratores catiônicos uma vez que a parte apolar da molécula troca o íon \\(\\mathrm{PO_2^{2-}}\\) pelo cátion do metal.",
+        "D": "As moléculas X e Y atuam como extratores aniônicos uma vez que a parte polar da molécula troca o íon \\(\\mathrm{PO_2^{2-}}\\) pelo cátion do metal."
+      }
+    }
+  },
+  "2010-83": {
+    "originalSha256": "b438fb00220a298a2da525bbcfe4b5a7629e169f5b0d4e215d89fbfe10f9fc0e",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Corrige a palavra ma para na no primeiro período, conforme o caderno oficial. Revisão independente: Restaurada a referência sob a figura, ausente na imagem importada.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Ao colocar um pouco de açúcar na água e mexer até a obtenção de uma só fase, prepara-se uma solução. O mesmo acontece ao se adicionar um pouquinho de sal à água e misturar bem. Uma substância capaz de dissolver o soluto é denominada solvente; por exemplo, a água é um solvente para o açúcar, para o sal e para várias outras substâncias. A figura a seguir ilustra essa citação.\n\n![](/assets/questions/2010/83/8b75906e-8371-440b-b712-7c31b6241295.png)\n\nDisponível em: www.sobiologia.com.br. Acesso em: 27 abr. 2010."
+    }
+  },
+  "2010-86": {
+    "originalSha256": "78554bd16a918b1ca5995d68ade05075f0e05c7c37d28c849004296e1f5b4558",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura a ordem do texto e da figura e a concordância identificado um animal conforme o caderno oficial. Revisão independente: Restaurada a legenda PrPSc presente abaixo dos testes no PDF e ausente na imagem importada.",
+    "reviewedAt": "2026-10-23",
+    "fields": {
+      "context": "Três dos quatro tipos de testes atualmente empregados para a detecção de príons patogênicos em tecidos cerebrais de gado morto são mostrados nas figuras a seguir. Uma vez identificado um animal morto infectado, funcionários das agências de saúde pública e fazendeiros podem removê-lo do suprimento alimentar ou rastrear os alimentos infectados que o animal possa ter consumido.\n\n![](/assets/questions/2010/86/ca1e9c9f-e762-49d8-aa6e-724bdbd3ae78.png)\n\nLegenda: \\(\\mathrm{PrP^{Sc}}\\) — proteínas do Príon.\n\nScientific American. Brasil, ago. 2004 (adaptado)."
+    }
+  },
+  "2010-78": {
+    "originalSha256": "b21de3aa7468ff7aba41a67f134f0fe029a9e63edcdb975a94231b5ec07dd3fe",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaurado “guardaram” conforme a página oficial, em lugar de “guardarem” da importação.",
+    "reviewedAt": "2026-10-23T20:04:49.047Z",
+    "fields": {
+      "context": "Duas irmãs que dividem o mesmo quarto de estudos combinaram de comprar duas caixas com tampas para guardarem seus pertences dentro de suas caixas, evitando, assim, a bagunça sobre a mesa de estudos. Uma delas comprou uma metálica, e a outra, uma caixa de madeira de área e espessura lateral diferentes, para facilitar a identificação. Um dia as meninas foram estudar para a prova de Física e, ao se acomodarem na mesa de estudos, guardaram seus celulares ligados dentro de suas caixas. Ao longo desse dia, uma delas recebeu ligações telefônicas, enquanto os amigos da outra tentavam ligar e recebiam a mensagem de que o celular estava fora da área de cobertura ou desligado."
+    }
+  },
+  "2010-85": {
+    "originalSha256": "57c5b33204a50ce31e555007cade4666a4a06f81936830b28b35228475ade982",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno1_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaurada a palavra “acompanhada” dividida incorretamente na importação.",
+    "reviewedAt": "2026-10-23T20:04:49.055Z",
+    "fields": {
+      "context": "Decisão de asfaltamento da rodovia MG-010, acompanhada da introdução de espécies exóticas, e a prática de incêndios criminosos, ameaçam o sofisticado ecossistema do campo rupestre da reserva da Serra do Espinhaço. As plantas nativas desta região, altamente adaptadas a uma alta concentração de alumínio, que inibe o crescimento das raízes e dificultam a absorção de nutrientes e água, estão sendo substituídas por espécies invasoras que não teriam naturalmente adaptação para este ambiente, no entanto elas estão dominando as margens da rodovia, equivocadamente chamada de “estrada ecológica”. Possivelmente a entrada de espécies de plantas exóticas neste ambiente foi provocada pelo uso, neste empreendimento, de um tipo de asfalto (cimento-solo), que possui uma mistura rica em cálcio, que causou modificações químicas aos solos adjacentes à rodovia MG-010.\n\nScientific American. Brasil. Ano 7, nº 79. 2008 (adaptado)."
+    }
+  },
+  "2010-136": {
+    "originalSha256": "3f067cf028f9d3f5fefd32d35eb8bab6cb2dde57eab8f92c77a66a2f251c3f7b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Um professor dividiu a lousa da sala de aula em quatro partes iguais. Em seguida, preencheu 75% dela com conceitos e explicações, conforme a figura seguinte.\n\n![](https://enem.dev/2010/questions/136/47193c33-4847-4a88-be44-8155d78d2e2f.png)\n\nAlgum tempo depois, o professor apagou a lousa por completo e, adotando um procedimento semelhante ao anterior, voltou a preenchê-la, mas, dessa vez, utilizando 40% do espaço dela."
+    }
+  },
+  "2010-138": {
+    "originalSha256": "4aa4713b413df97760c5c40adc1dd2a97b0a295932c6cbf150380108e04e7456",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 21,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Alguns testes de preferência por bebedouros de água foram realizados com bovinos, envolvendo três tipos de bebedouros, de formatos e tamanhos diferentes. Os bebedouros 1 e 2 têm a forma de um tronco de cone circular reto, de altura igual a 60 cm, e diâmetro da base superior igual a 120 cm e 60 cm, respectivamente. O bebedouro 3 é um semicilindro, com 30 cm de altura, 100 cm de comprimento e 60 cm de largura. Os três recipientes estão ilustrados na figura.\n\n![](https://enem.dev/2010/questions/138/45398e2b-e687-438b-9e22-6ffeee57f58f.png)"
+    }
+  },
+  "2010-140": {
+    "originalSha256": "1211568286e50d4fff0becc3317aeb3d9b6c41cca8bde521eceb17570efe7c98",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "A classificação de um país no quadro de medalhas nos Jogos Olímpicos depende do número de medalhas de ouro que obteve na competição, tendo como critérios de desempate o número de medalhas de prata seguido do número de medalhas de bronze conquistados. Nas Olimpíadas de 2004, o Brasil foi o décimo sexto colocado no quadro de medalhas, tendo obtido 5 medalhas de ouro, 2 de prata e 3 de bronze. Parte desse quadro de medalhas é reproduzida a seguir.\n\n![](https://enem.dev/2010/questions/140/1976055e-3295-4f44-9ecf-0cd97ea3e387.png)"
+    }
+  },
+  "2010-141": {
+    "originalSha256": "820232044cf6640ccecfd4af7033192c80cac7bfec7faa1aaab33810f0a299d3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 22,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Os dados do gráfico foram coletados por meio da Pesquisa Nacional por Amostra de Domicílios.\n\n![](https://enem.dev/2010/questions/141/97f889c7-0bdb-4cc7-9148-5a7d0623d977.png)"
+    }
+  },
+  "2010-143": {
+    "originalSha256": "b54d88674db9e82646b2328d1ca937734993e18dd77bec4b3e31b8e46365bf22",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Em sete de abril de 2004, um jornal publicou o ranking de desmatamento, conforme gráfico, da chamada Amazônia Legal, integrada por nove estados.\n\n![](https://enem.dev/2010/questions/143/2d869c09-18da-48f9-95c3-deca759a0c3d.png)"
+    }
+  },
+  "2010-144": {
+    "originalSha256": "ad80fef96ddaec3e3c3cdb9ddeb23180bbf3412c4f5e9aaccdc9b7babb5693dd",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "**A resistência elétrica e as dimensões do condutor**\n\nA relação da resistência elétrica com as dimensões do condutor foi estudada por um grupo de cientistas por meio de vários experimentos de eletricidade. Eles verificaram que existe proporcionalidade entre:\n\n- resistência (\\(R\\)) e comprimento (\\(\\ell\\)), dada a mesma secção transversal (\\(A\\));\n- resistência (\\(R\\)) e área da secção transversal (\\(A\\)), dado o mesmo comprimento (\\(\\ell\\)) e\n- comprimento (\\(\\ell\\)) e área da secção transversal (\\(A\\)), dada a mesma resistência (\\(R\\)).\n\nConsiderando os resistores como fios, pode-se exemplificar o estudo das grandezas que influem na resistência elétrica utilizando as figuras seguintes.\n\n![](https://enem.dev/2010/questions/144/e6f27641-d27b-4c0b-b5f0-d8d74429aecb.png)"
+    }
+  },
+  "2010-145": {
+    "originalSha256": "7243f5190be4ebc3e9bb3fbb388f379644e238d72abff7bce30806b6f95adfff",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 23,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Os dados do gráfico seguinte foram gerados a partir de dados colhidos no conjunto de seis regiões metropolitanas pelo Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese).\n\n![](https://enem.dev/2010/questions/145/d6f3efc6-d654-4765-a9b7-ea0938be15ab.png)"
+    }
+  },
+  "2010-146": {
+    "originalSha256": "6336409c19cac2ba5af22a1ed4b4f6dc80c9d19a459e259ff13023bfbb391d3b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "A siderúrgica “Metal Nobre” produz diversos objetos maciços utilizando o ferro. Um tipo especial de peça feita nessa companhia tem o formato de um paralelepípedo retangular, de acordo com as dimensões indicadas na figura que segue.\n\n![](https://enem.dev/2010/questions/146/217b7bc8-833f-4177-870c-d2adbf301246.png)"
+    }
+  },
+  "2010-147": {
+    "originalSha256": "d3adf9c43605a1edac92bc77713ae97ddca5316ac422553af2e01e70b8a19b35",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "A figura I abaixo mostra um esquema das principais vias que interligam a cidade A com a cidade B. Cada número indicado na figura II representa a probabilidade de pegar um engarrafamento quando se passa na via indicada. Assim, há uma probabilidade de 30% de se pegar engarrafamento no deslocamento do ponto C ao o ponto B, passando pela estrada E4, e de 50%, quando se passa por E3. Essas probabilidades são independentes umas das outras.\n\n![](https://enem.dev/2010/questions/147/2db13f00-18fd-42d7-92a1-bb79ade13411.png)"
+    }
+  },
+  "2010-148": {
+    "originalSha256": "bd3192c04aff79199c27c4f94556449bfd8ea1f82df8232132e7c70e1b32cf3b",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "O gráfico a seguir apresenta o gasto militar dos Estados Unidos, no período de 1988 a 2006.\n\n![](https://enem.dev/2010/questions/148/210f09db-531d-4eb1-ac47-95d5ef68d963.png)",
+      "alternativesIntroduction": "Com base no gráfico, o gasto militar no início da guerra no Iraque foi de"
+    }
+  },
+  "2010-149": {
+    "originalSha256": "0f334008cd71bf30abc52eb03786550026021c33d276fcd06de8ffca879a8f9c",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 24,
+    "reason": "Restaura o texto-base e o comando omitidos/parcialmente truncados, além do sinal de subtração da alternativa C (API trazia +1; original traz −1); transcreve as expressões em notação matemática.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Uma professora realizou uma atividade com seus alunos utilizando canudos de refrigerante para montar figuras, onde cada lado foi representado por um canudo. A quantidade de canudos (\\(C\\)) de cada figura depende da quantidade de quadrados (\\(Q\\)) que formam cada figura. A estrutura de formação das figuras está representada a seguir.\n\n![](https://enem.dev/2010/questions/149/fce5e898-1709-4341-8000-c3333ad9289b.png)",
+      "alternativesIntroduction": "Que expressão fornece a quantidade de canudos em função da quantidade de quadrados de cada figura?",
+      "alternativeTexts": {
+        "A": "\\(C=4Q\\)",
+        "B": "\\(C=3Q+1\\)",
+        "C": "\\(C=4Q-1\\)",
+        "D": "\\(C=Q+3\\)",
+        "E": "\\(C=4Q-2\\)"
+      }
+    }
+  },
+  "2010-151": {
+    "originalSha256": "35f28b09aaefa43797f68f411ae2aa9edc24a86df2e65672556e7c56c518d0e7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Dona Maria, diarista na casa da família Teixeira, precisa fazer café para servir as vinte pessoas que se encontram numa reunião na sala. Para fazer o café, Dona Maria dispõe de uma leiteira cilíndrica e copinhos plásticos, também cilíndricos.\n\n![](https://enem.dev/2010/questions/151/87ef13a2-eec3-4dfb-9324-6f25f45690e7.png)\n\nCom o objetivo de não desperdiçar café, a diarista deseja colocar a quantidade mínima de água na leiteira para encher os vinte copinhos pela metade."
+    }
+  },
+  "2010-152": {
+    "originalSha256": "f3e2212f8b11ea91b5f28e3a884fb495bcfd261e5d97f1970ff45d86b5040bec",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto-base omitido e transcreve em notação matemática a fórmula fiel à figura original, preservando a descrição posterior do monitoramento.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Um satélite de telecomunicações, \\(t\\) minutos após ter atingido sua órbita, está a \\(r\\) quilômetros de distância do centro da Terra. Quando \\(r\\) assume seus valores máximo e mínimo, diz-se que o satélite atingiu o apogeu e o perigeu, respectivamente. Suponha que, para esse satélite, o valor de \\(r\\) em função de \\(t\\) seja dado por\n\n\\[r(t)=\\frac{5\\,865}{1+0{,}15\\times\\cos(0{,}06t)}\\]\n\nUm cientista monitora o movimento desse satélite para controlar o seu afastamento do centro da Terra. Para isso, ele precisa calcular a soma dos valores de r, no apogeu e no perigeu, representada por S."
+    }
+  },
+  "2010-153": {
+    "originalSha256": "e3cc04af75f6dc0bcdd9164eb79e4e8a58e6fcd6303646d758e640f511c12564",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 25,
+    "reason": "Restaura o texto-base omitido, incluindo que o preço depende da área lateral; remove o p espúrio antes de π e transcreve as frações conforme o PDF oficial.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Uma empresa vende tanques de combustíveis de formato cilíndrico, em três tamanhos, com medidas indicadas nas figuras. O preço do tanque é diretamente proporcional à medida da área da superfície lateral do tanque. O dono de um posto de combustível deseja encomendar um tanque com menor custo por metro cúbico de capacidade de armazenamento.\n\n![](https://enem.dev/2010/questions/153/7db49675-d757-4e05-8e06-1458c1c566f9.png)",
+      "alternativesIntroduction": "Qual dos tanques deverá ser escolhido pelo dono do posto? (Considere \\(\\pi\\cong3\\))",
+      "alternativeTexts": {
+        "A": "I, pela relação área/capacidade de armazenamento de \\(\\frac13\\).",
+        "B": "I, pela relação área/capacidade de armazenamento de \\(\\frac43\\).",
+        "C": "II, pela relação área/capacidade de armazenamento de \\(\\frac34\\).",
+        "D": "III, pela relação área/capacidade de armazenamento de \\(\\frac23\\).",
+        "E": "III, pela relação área/capacidade de armazenamento de \\(\\frac7{12}\\)."
+      }
+    }
+  },
+  "2010-156": {
+    "originalSha256": "581f2a703e890dfc574c30de8c9d63ca6c3e944526cd62f33673961692f2a726",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "A figura a seguir é a representação de uma região por meio de curvas de nível, que são curvas fechadas representando a altitude da região, com relação ao nível do mar. As coordenadas estão expressas em graus de acordo com a longitude, no eixo horizontal, e a latitude, no eixo vertical. A escala em tons de cinza desenhada à direita está associada à altitude da região.\n\n![](https://enem.dev/2010/questions/156/52ff9fbe-ace4-4e81-b2b0-5fa55642f382.jpg)\n\nUm pequeno helicóptero usado para reconhecimento sobrevoa a região a partir do ponto X = (20; 60). O helicóptero segue o percurso:\n\n0,8°L→0,5°N→0,2°O→0,1°S→0,4°N→0,3°L\n\nAo final, desce verticalmente até pousar no solo."
+    }
+  },
+  "2010-158": {
+    "originalSha256": "a415c79105684a213b7369b69efb12b9e808fe387210efe73f1cc18c03ff9714",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 26,
+    "reason": "Restaura o texto-base omitido na importação, conferido integralmente no PDF oficial; preserva as figuras e os dados originais.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "No manejo sustentável de florestas, é preciso muitas vezes obter o volume da tora que pode ser obtida a partir de uma árvore. Para isso, existe um método prático, em que se mede a circunferência da árvore à altura do peito de um homem (1,30 m), conforme indicado na figura. A essa medida denomina-se “rodo” da árvore. O quadro a seguir indica a fórmula para se cubar, ou seja, obter o volume da tora em \\(\\text{m}^3\\) a partir da medida do rodo e da altura da árvore.\n\n![](https://enem.dev/2010/questions/158/20a4e763-d72c-4908-8b20-59443e8b7e9f.jpg)\n\nUm técnico em manejo florestal recebeu a missão de cubar, abater e transportar cinco toras de madeira, de  \nduas espécies diferentes, sendo\n\n• 3 toras da espécie I, com 3 m de rodo, 12 m de comprimento e densidade 0,77 toneladas/m³;  \n• 2 toras da espécie II, com 4 m de rodo, 10 m de comprimento e densidade 0,78 toneladas/m³."
+    }
+  },
+  "2010-159": {
+    "originalSha256": "105e45db1380e611dfada4f38614d2b2547c4b01eaa2e4a87ccaec7b1e419309",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura o texto-base omitido, transcreve fielmente as duas fórmulas com suas unidades e recupera os expoentes no comando e nas alternativas.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Embora o Índice de Massa Corporal (IMC) seja amplamente utilizado, existem ainda inúmeras restrições teóricas ao uso e às faixas de normalidade preconizadas. O Recíproco do Índice Ponderal (RIP), de acordo com o modelo alométrico, possui uma melhor fundamentação matemática, já que a massa é uma variável de dimensões cúbicas e a altura, uma variável de dimensões lineares. As fórmulas que determinam esses índices são:\n\n\\[IMC=\\frac{\\text{massa (kg)}}{[\\text{altura (m)}]^2}\\qquad RIP=\\frac{\\text{altura (cm)}}{\\sqrt[3]{\\text{massa (kg)}}}\\]\n\nARAUJO, C. G. S.; RICARDO, D. R. **Índice de Massa Corporal: Um Questionamento Científico Baseado em Evidências.** Arq. Bras. Cardiologia, volume 79; nº 1, 2002 (adaptado).",
+      "alternativesIntroduction": "Se uma menina, com 64 kg de massa, apresenta IMC igual a \\(25\\,\\text{kg}/\\text{m}^2\\), então ela possui RIP igual a",
+      "alternativeTexts": {
+        "A": "\\(0{,}4\\,\\text{cm}/\\text{kg}^{1/3}\\).",
+        "B": "\\(2{,}5\\,\\text{cm}/\\text{kg}^{1/3}\\).",
+        "C": "\\(8\\,\\text{cm}/\\text{kg}^{1/3}\\).",
+        "D": "\\(20\\,\\text{cm}/\\text{kg}^{1/3}\\).",
+        "E": "\\(40\\,\\text{cm}/\\text{kg}^{1/3}\\)."
+      }
+    }
+  },
+  "2010-161": {
+    "originalSha256": "991979a1efa2f4c34276c82f7a5ac86676b3fc09bc33a58be3828a3d6ebcbe27",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 27,
+    "reason": "Restaura a oração omitida ao final do primeiro parágrafo, conforme o texto oficial.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Em canteiros de obras de construção civil é comum perceber trabalhadores realizando medidas de comprimento e de ângulos e fazendo demarcações por onde a obra deve começar ou se erguer. Em um desses canteiros foram feitas algumas marcas no chão plano. Foi possível perceber que, das seis estacas colocadas, três eram vértices de um triângulo retângulo e as outras três eram os pontos médios dos lados desse triângulo, conforme pode ser visto na figura, em que as estacas foram indicadas por letras.\n\n![](https://enem.dev/2010/questions/161/93aaf9bb-8489-4ca4-b226-0029de752d3c.jpg)\n\nA região demarcada pelas estacas A, B, M e N deveria ser calçada com concreto."
+    }
+  },
+  "2010-163": {
+    "originalSha256": "d4f0e2b3ed305a2542eb01ac69d3496373073c9755ad62eb85aaecc68a736e96",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Restaura a variável minúscula y das alternativas e apresenta as expressões em notação matemática, conforme o original.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(y=R\\).",
+        "B": "\\(y=2R\\).",
+        "C": "\\(y=\\pi R\\).",
+        "D": "\\(y=2\\pi R\\).",
+        "E": "\\(y=4\\pi R\\)."
+      }
+    }
+  },
+  "2010-165": {
+    "originalSha256": "4f82df2740a31d3e0317d41f40a735e2834c82db9e81c07be78cba4eecf03631",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 28,
+    "reason": "Transcreve fielmente a função por partes da figura do PDF para notação matemática acessível, preservando coeficientes e intervalos.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Nos processos industriais, como na indústria de cerâmica, é necessário o uso de fornos capazes de produzir elevadas temperaturas e, em muitas situações, o tempo de elevação dessa temperatura deve ser controlado, para garantir a qualidade do produto final e a economia no processo. Em uma indústria de cerâmica, o forno é programado para elevar a temperatura ao longo do tempo de acordo com a função\n\n\\[T(t)=\\begin{cases}\\frac75t+20,&0\\le t<100,\\\\\\frac2{125}t^2-\\frac{16}5t+320,&t\\ge100.\\end{cases}\\]\n\nem que T é o valor da temperatura atingida pelo forno, em graus Celsius, e t é o tempo, em minutos, decorrido desde o instante em que o forno é ligado.  \nUma peça deve ser colocada nesse forno quando a temperatura for 48°C e retirada quando a temperatura for  \n200°C."
+    }
+  },
+  "2010-168": {
+    "originalSha256": "507278e9f57f4acff202afbef997ead9dd8b9321a3234167242a9a26838a58f7",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 29,
+    "reason": "Transcreve as fórmulas fornecidas em notação matemática e remove o texto Foto: Reprodução/Enem acrescentado na importação, ausente do PDF.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Em um casamento, os donos da festa serviam champanhe aos seus convidados em taças com formato de um hemisfério (Figura 1), porém um acidente na cozinha culminou na quebra de grande parte desses recipientes. Para substituir as taças quebradas, utilizou-se um outro tipo com formato de cone (Figura 2). No entanto, os noivos solicitaram que o volume de champanhe nos dois tipos de taças fosse igual.\n\n![](https://enem.dev/2010/questions/168/ee7ccd75-517b-4b02-9a73-11e2772684d1.jpg)\n\nConsidere:\n\n\\[V_{\\text{esfera}}=\\frac43\\pi R^3\\qquad\\text{e}\\qquad V_{\\text{cone}}=\\frac13\\pi R^2h\\]"
+    }
+  },
+  "2010-174": {
+    "originalSha256": "9cf21b18794f414e69d25709903948a4d3ba3accee66e9ae6f8e1c499d9c4a12",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 30,
+    "reason": "Apresenta as frações das alternativas na notação matemática do caderno oficial.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "alternativeTexts": {
+        "A": "\\(\\frac13\\)",
+        "B": "\\(\\frac15\\)",
+        "C": "\\(\\frac25\\)",
+        "D": "\\(\\frac57\\)",
+        "E": "\\(\\frac5{14}\\)"
+      }
+    }
+  },
+  "2010-180": {
+    "originalSha256": "4e5b7d9f5075d24f30cbc83c018f923aa9c694778b0de1fb60c756821bb784e3",
+    "sourceUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno7_azul.pdf",
+    "sourcePage": 31,
+    "reason": "Restaura o trecho de antecedência. O gráfico a seguir mostra o número, omitido no meio do primeiro parágrafo na importação.",
+    "reviewedAt": "2026-10-23T19:54:42.587Z",
+    "fields": {
+      "context": "Para conseguir chegar a um número recorde de produção de ovos de Páscoa, as empresas brasileiras começam a se planejar para esse período com um ano de antecedência. O gráfico a seguir mostra o número de ovos de Páscoa produzidos no Brasil no período de 2005 a 2009.\n\n![](https://enem.dev/2010/questions/180/b3a08efa-6d65-4f17-955f-8c8962f34861.jpg)"
+    }
   }
 }

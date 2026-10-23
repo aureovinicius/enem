@@ -1,6 +1,6 @@
-import { buildPracticeReport } from "./practice-session.js?v=pwa-15-comments-2011";
+import { buildPracticeReport } from "./practice-session.js?v=pwa-15-comments-2010";
 
-const DATA_URL = "/data/courses.json?v=pwa-15-comments-2011";
+const DATA_URL = "/data/courses.json?v=pwa-15-comments-2010";
 const STORAGE_KEY = "fisio-progress-v1";
 const DAILY_GOAL = 50;
 const MAX_LESSON_ERRORS = 3;
